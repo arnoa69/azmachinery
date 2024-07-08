@@ -1,0 +1,685 @@
+{
+    "meta": {
+        "title": "AZ Machinery - Laget i Frankrike",
+        "product_detail_view": {
+            "title": {
+                "gas": "Drives på gass",
+                "electric": "Elektrisk drevet",
+                "hydraulic": "Hydraulisk",
+                "leveler": "Integrert nivellering",
+                "static_ramp": "Statisk lasterampe",
+                "mobile_ramp": "Mobil lasterampe",
+                "platform_ramp": "Stasjonær ladeplass"
+            },
+            "keywords": {
+                "keyword_mobile": "mobile lasteramper,",
+                "keyword_platform": "ladeplasser,",
+                "keyword_static": "statiske lasteramper,",
+                "keyword_electric": "elektriske lasteramper,",
+                "keyword_hydraulic": "hydrauliske lasteramper,",
+                "keyword_leveler": "lasteramper med nivellering,",
+                "keyword_gas": "gassdrevne lasteramper,",
+                "keyword_truck": "lastebil lasteramper,",
+                "keyword_tonnes": "lasteramper kapasitet {tonnes} tonn,",
+                "keyword_stock": "lager over 500 ramper",
+                "keyword_buy_and_rent": "kjøp og utleie av lasteramper"
+            }
+        },
+        "product_list": {
+            "keywords": "Rampeoperasjoner, Godsbehandling, Lastsystem, Platformhøydebetjening, Rulrullestol, Lastsystem, Rampeoverføring",
+            "description": "Effektive løsninger for å flytte tungt gods til høyere nivåer. Finn ut forskjellige typer lastramper og transportmetoder.",
+            "og:title": "Mobiler lastrampe, Tilpasset og lastrampsystemer i Europa: Elektrisk, hydraulisk og fleksibelt, store forråd og kontinuerlig levering"
+        },
+        "category_list_mobile": {
+            "keywords": "Mobiler lastramper, Portable lastramper, Flexible lastplattformer, Flyttbare lastramper, Mobiler lastramper, Bukbare lastramper, Lette lastramper, Mobiler overstigningsplattformer, Bukbare lastramper, Anpassbare lastramper",
+            "description": "Les mer om lastramper og forskjellige måter å flytte tungt gods på. Fra gravitatiefri transport til hydrauliske systemer - finn riktig løsning for dine behov."
+        },
+        "category_list_static": {
+            "keywords": "Tilpassede lastplattformer, Tilpassede lastestasjoner, Tilpassede lastoppløsninger, Tilpasset lastutstyr, Tilpassede lastramper, Tilpassede lastsystemer, Spesielle lastplattformer, Tilpassede lastrampsystemer, Tilpassede lastestasjoner, Tilpassede lastsystemer",
+            "description": "Optimaliser lastmaterialflyt med våre høykvalitetslastramper. Øk effektivitet, sikkerhet og ergonomi ved last og lossing av varer."
+        },
+        "category_list_station": {
+            "keywords": "Mobiler lastplattformer, Lastplattformer, Mobiler lastplattformer med gjennomsnittlig overblikbarhet, Foranke på Europa, Hydraulisk-elektrisk heftkran, Lastplattformer for heftkran, Elektrisk, Hydraulisk",
+            "description": "Altid utstyrte mobiler lastramper, tilpassede løsninger og lastrampsystemer i Europa - elektrisk, hydraulisk og fleksibelt - store forråd og kontinuerlig levering."
+        },
+        "keywords": "mobile lasteramper, ladeplasser, mobile ramper med mellomhøyde, forakselramper i Europa, elektrohydraulisk løftebro, gaffeltruck lasteramper, elektrisk, hydraulisk",
+        "product_list_view_title": "Mobile, hydrauliske, elektriske lasteramper, 20 tonn",
+        "description": "Mobile lasteramper, ladeplasser og rampeløsninger i Europa: Elektrisk, hydraulisk og fleksible, høye lagerbeholdninger og kontinuerlige leveranser",
+        "canonical_link_href": "https://rampas-carga-moviles.es",
+        "og:url": "https://rampas-carga-moviles.es",
+        "og:title": "Mobile og statiske lasteramper i Europa: Oppdag vårt brede utvalg! Over 500 umiddelbart tilgjengelige høykvalitets lasteramper",
+        "og:description": "Kjøp en mobil lasterampe (mobil løfterampe) fra AZ Machinery produsenten for hele Europa. Den største produsenten i Europa med belastninger på 6 til 30 tonn. Bredt utvalg av lasteramper. Klar til bestilling. Kvalitetssikring. CE-norm. Leveranser i hele Europa.",
+        "og:sitename": "Mobile lasteramper AZ Machinery Europa | Lagringsutstyr",
+        "article:section": "Lasteramper",
+        "article:author": "AZ Machinery",
+        "article:tag1": "Mobil lasterampe",
+        "article:tag2": "Mobil rampe for lastebil",
+        "article:tag3": "Mobil løfterampe",
+        "article:tag4": "Lasterampe",
+        "twitter:title": "Mobile og statiske lasteramper i Europa: Oppdag vårt brede utvalg! Over 500 umiddelbart tilgjengelige høykvalitets lasteramper",
+        "twitter:description": "Kjøp en mobil lasterampe (mobil løfterampe) fra AZ Machinery produsenten for hele Europa. Den største produsenten i Europa med belastninger på 6 til 30 tonn. Bredt utvalg av lasteramper. Klar til bestilling. Kvalitetssikring. CE-norm. Leveranser i hele Europa.",
+        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
+        "twitter:domain": "https://rampas-carga-moviles.es"
+    },
+    "header": {
+        "title": "AZ Machinery - Fransk kvalitet",
+        "home": "Hjem",
+        "about": "Om oss",
+        "contact": "Kontakt oss",
+        "features": "Egenskaper",
+        "gallery": "Galleri",
+        "counts": "Egenskaper",
+        "products": "Produkter",
+        "testimonials": "Fornøyde kunder",
+        "menu": {
+            "productList": "Produkter",
+            "types": "Typer"
+        }
+    },
+    "hero": {
+        "title": {
+            "start": "Laster teknologi for dine ",
+            "end": "behov"
+        },
+        "box": {
+            "title": "Få tilbud for ramper",
+            "choices": {
+                "choice_ramp": "Valg av ramper",
+                "choice_platform": "Valg av plattformer",
+                "choice_measurement": "Tilpasset måling",
+                "start_now": "Start nå...",
+                "more_500": "Over 500+ tilgjengelig!"
+            },
+            "requests_today": "Forespørsler i dag:",
+            "last_requests": "Siste forespørsel:",
+            "button": "FORTSETT",
+            "badges": {
+                "approx_time": "ca. 2 min.",
+                "reviews": "4,9 stjerner fra 55 anmeldelser",
+                "last_requests_one": "Siste forespørsler ",
+                "last_requests_two": " min. siden",
+                "requests_today": "236 forespørsler i dag"
+            },
+            "error_message": "Vennligst velg minst ett alternativ"
+        }
+    },
+    "modal": {
+        "title": "Fyll ut dine opplysninger",
+        "close-button": "Lukk"
+    },
+    "about": {
+        "title": "AZ Machinery, din pålitelige partner for lasteteknologi",
+        "description": "AZ Machinery er den ledende produsenten av lasteutstyr i Europa. Vi tilbyr et bredt utvalg av lasteramper, plattformer, lagring og tilbehør for å imøtekomme alle behov.",
+        "box1Title": "Din spesialist på skreddersydde lasteløsninger",
+        "box1Description": "Vi tilbyr et bredt utvalg av lasteløsninger som vi tilpasser individuelt til dine behov. Enten det er lasteramper, plattformer, lagring eller tilbehør, vil vi finne den perfekte løsningen for deg.",
+        "box2Title": "Våre produkter produseres i vår egen produksjon i Europa",
+        "box2Description": "Vi legger stor vekt på sikkerhet og effektivitet, slik at du trygt og effektivt kan laste og losse produktene dine.",
+        "box3Title": "Levering over hele Europa",
+        "box3Description": "Vi leverer produktene våre over hele Europa og tilbyr en komplett service. Våre eksperter vil gjerne gi deg råd og finne den optimale løsningen for dine behov."
+    },
+    "features": {
+        "title": "Våre lasteramper - den ubestridte nummer 1 i Europa.",
+        "subTitle": "Konkurransedyktig",
+        "box1Title": "Rask levering",
+        "box2Title": "Verdi for pengene",
+        "box3Title": "Rask respons",
+        "box4Title": "Rene legeringer",
+        "box5Title": "Mulighet for utleie",
+        "box6Title": "Profesjonelt personale",
+        "box7Title": "Stort utvalg",
+        "box8Title": "Beste kvalitet"
+    },
+    "gallery": {
+        "title": "Range mester",
+        "subTitle": "La vårt utvalg overraske deg"
+    },
+    "count": {
+        "title1": "Fornøyde kunder",
+        "title2": "Pågående prosjekter",
+        "title3": "Års erfaring",
+        "title4": "Ansatte"
+    },
+    "contact": {
+        "title": "Regional kontakt",
+        "subTitle": "Personlig råd og støtte",
+        "label": {
+            "place": "Sted:",
+            "phone": "Ring:",
+            "email": "E-post:"
+        },
+        "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Frankrike",
+        "email": "Marketing Frankrike",
+        "number": "+33 03 52 74 03 69",
+        "form": {
+            "label": {
+                "place": "Sted",
+                "phone": "Telefon",
+                "email": "E-post"
+            },
+            "placeholder": {
+                "name": "Ditt navn",
+                "email": "Din e-post",
+                "company": "Bedriftsnavn",
+                "phone": "Telefon",
+                "subject": "Emne",
+                "message": "Melding",
+                "send": "Send melding"
+            }
+        }
+    },
+    "testimonials": {
+        "louiseSvensonText": "Store mobil dock ramp. Vi har 5 enheter av Az Prime WLO 8+-modellen. Leveret til Danmark bare 10 dager etter bestilling. Kontaktet med Jérôme GUIGUET var ganske godt; disse rampene er ganske enkle å bruke, av høy kvalitet. Logistikkteamet elsker dem også.",
+        "frankPainText": "Jeg kontaktes med AZ Ramp 13.12.2023 via DIRECT Industry-plattformen om diskutere en 10T-ramp og 20 minutter senere svarte salgspersonen fra AZ Ramp. Han svarte på alle mine spørsmål og forventninger. Så snart vi hadde plassert bestilling 20.12.2023, var leveringsfristen fastsatt til 1.2.2024. Datoen og tiden ble fulgt av den venlige føreren. Føreren var ganske profesjonell og assisterte oss under lossing og montering av rampen på plassen. Som treningssenter ga vi stor oppmerksomhet til kvalitet og begrensene i CACES-standarden. Denne rampen oppfylt alle gjeldende krav. Kvaliteten var der.",
+        "proFoodCenterText": "Vi er svært fornøyd med rampen vi fikk. Robust og lett å bruke ramp. Vi var overrasket av hastigheten på levering (bare 10 dager mellom kontakt og mottak av rampen). En ganske profesjonell bedrift!",
+        "vincentGirardetText": "Kjøpte en Prime XS-ramp i galvanisert utgave. Veldig smukt materiale; robust og lett å bruke. Leveret til Sveits bare 10 dager etter vår bestilling. Vi er glade for å gjøre forretninger med denne bedriften! Vincent",
+        "christell48Text": "Utmærket pris-/kvalitetsforhold. Vi valgte PRIME WLO8+ med ralling i FULL GALVA-utgave. Super praktisk, god kvalitet. AZ MACHINERY har også hentet opp vår gamle gamle Expresso-ramp som ikke lenger stod. Materiale vi fikk 4 dager etter vår bestilling på transportøren fra produsenten. Veldig bra, takk.",
+        "mauroMartinText": "Jeg kjøpte en ny ramp fra AZ MACHINERY, vi valgte modellen AZ RAMP EASY XL 10 T, en veldig god laste- og tilkøyringsrampe. Vi fikk denne i vårt magasin i Argentina i 30 dager, et bra kontak med den veldig hyggelige selger. Dette er en ramp av høy kvalitet og fin håndverking. Vi er svært fornøyd med vår kjøp."
+    },
+    "footer": {
+        "copyright": "Opphavsrett © 2024 AZ Machinery. Alle rettigheter reservert.",
+        "headquarter": {
+            "name": "AZ Machinery",
+            "title": "Hovedkontor",
+            "description": "Vi spesialiserer oss i utvikling, produksjon, salg og utleie av lasteutstyr.",
+            "address": {
+                "street": "CG-2, N°80 Planta Baja, ",
+                "zip": "Ed SUNARI-C, AD100, ",
+                "country": "SOLDEU, Andorra",
+                "phoneLabel": "Telefon: ",
+                "phone": "+376 390 036",
+                "emailLabel": "E-mail: ",
+                "email": "contact[at]az-machinery.com"
+            }
+        },
+        "links": {
+            "title": "Lenker",
+            "about": "Om",
+            "features": "Funksjoner",
+            "imprint": "Avtrykk",
+            "privacy": "Personvern"
+        },
+        "service": {
+            "title": "Våre tjenester",
+            "customMade": "Skreddersydd",
+            "delivery": "Hele Europa",
+            "production": "Egen produksjon",
+            "warranty": "1 år garanti + 20 års valg.",
+            "rental": "Leie mulig"
+        },
+        "newsletter": {
+            "title": "Abonner på nyhetsbrevet vårt.",
+            "description": "Hold deg informert om våre nyeste produkter, tilbud og arrangementer.",
+            "button": "Abonner"
+        }
+    },
+    "cookiebanner": {
+        "title": "Men først, informasjonskapsler!",
+        "description": "Vi bruker informasjonskapsler for å huske preferansene dine, vise relevant innhold og gjøre opplevelsen din på AZ Machinery mer sømløs. Ved å bruke AZ Machinery godtar du retningslinjene våre for informasjonskapsler.",
+        "policyLink": "Personvernerklæring.",
+        "policyLinkAdon": "",
+        "buttonAllow": "Tillat",
+        "buttonDisallow": "Avvis",
+        "buttonManageCookies": "Administrer informasjonskapsler",
+        "manage": {
+            "title": "Informasjonskapselinnstillinger",
+            "necessary_title": "Nødvendige",
+            "necessary_description": "Nødvendige informasjonskapsler sikrer grunnleggende funksjonalitet på nettstedet, som navigasjon og tilgang til sikre områder.",
+            "preferences_title": "Preferanser",
+            "preferences_description": "Preferanseinformasjonskapsler husker informasjon som påvirker nettstedets atferd, som språk eller region.",
+            "statistics_title": "Statistikk",
+            "statistics_description": "Statistikk-informasjonskapsler samler inn anonyme data for å hjelpe eiere av nettsteder med å forstå besøkendes interaksjon.",
+            "marketing_title": "Markedsføring",
+            "marketing_description": "Markedsføringsinformasjonskapsler sporer nettstedbesøkende for å vise relevante og attraktive annonser som er verdifulle for utgivere og annonsører.",
+            "buttonAllow": "Tillat alle informasjonskapsler",
+            "buttonDisallow": "Avvis alle informasjonskapsler",
+            "buttonAccept": "Godta innstillinger"
+        }
+    },
+    "policybanner": {
+        "title": "Personvernerklæring",
+        "title_01": "1. Firmakontakt og Datasikkerhetsofficer",
+        "content_01": "Denne personvernerklæring gjelder for nettstedet verladerampenprofi.de, drevet av AZ Machinery.",
+        "title_company_contact": "Firmakontakt",
+        "company_contact_data": "AZ MACHINERY FRANCE: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE . Frankrike, Tlf: (+33) 03 52 74 03 69, Firmakode: 824 654 958 000 19, MVA: FR62 824 654 958",
+        "title_02": "2. Datainnsamling og bruk",
+        "title_02_01": "2.1 Generelt",
+        "content_02_01": "Vi samler og bruker personopplysninger bare til den grad som er nødvendig for å tilby en funksjonell nettsted, innhold og tjenester, og svar på brukerforespørsler.",
+        "title_02_02": "2.2 Tilgang til data/serverloggfiler",
+        "content_02_02": "Når du besøker vårt nettsted, samles og overføres automatisk informasjon til våre serverloggfiler, som din nettleser sender til oss. Dette inkluderer: (Nettlesertype og versjon, Brukes operativsystem, Referrer URL (forrige besøkte side), Navn på tilgangsdatamaskinen (f.eks. din IP-adresse), Tid for serverforespørsel)",
+        "content_02_02_addon": "Denne dataen brukes ikke til å identifisere individuelle personer, men kun til statistiske formål for å analysere og forbedre bruken av vårt nettsted.",
+        "title_02_03": "2.3 Informasjonskapsler (cookies)",
+        "content_02_03": "Nettstedet vårt bruker informasjonskapsler. Informasjonskapsler er små tekstfiler som lagres på enheten din av nettleseren din. De bidrar til å lette bruken av nettstedet vårt og muliggjøre visse funksjoner. Vi bruker øktinformasjonskapsler på nettstedet vårt. Disse informasjonskapslene slettes automatisk når du lukker nettleseren din. Vi bruker statistikkinformasjonskapsler på nettstedet vårt. Disse informasjonskapslene hjelper oss med å analysere og forbedre bruken av nettstedet vårt. De samler inn anonyme data, som antall besøkende, sidene besøkt, og tiden brukt på nettstedet. Du kan deaktivere informasjonskapsler i nettleserinnstillingene dine. Vær imidlertid oppmerksom på at dette kan begrense funksjonaliteten til nettstedet vårt.",
+        "title_03": "3. Deling av data",
+        "content_03": "Vi deler ikke dine personopplysninger med tredjeparter med mindre det kreves ved lov eller med ditt samtykke.",
+        "title_04": "4. Datasikkerhet",
+        "content_04": "Vi tar egnede tekniske og organisatoriske tiltak for å beskytte dine personopplysninger mot uautorisert tilgang, tap, ødeleggelse, endring eller uautorisert avsløring.",
+        "title_05": "5. Dine rettigheter",
+        "content_05": "Du har rett til å få tilgang til lagrede personopplysninger, rette opp uriktige data, slette dataene dine, begrense behandlingen av dataene dine, protestere mot behandlingen av dataene dine, og til databærbarhet.",
+        "title_06": "6. Lenker til andre nettsteder",
+        "content_06": "Nettstedet vårt kan inneholde lenker til andre nettsteder. Denne personvernerklæringen gjelder bare for nettstedet vårt. Vi har ingen kontroll over hvordan dataene dine samles inn og brukes på andre nettsteder. Vennligst se de respektive personvernpolitikkene for andre nettsteder.",
+        "title_07": "7. Oppdateringer av personvernerklæringen",
+        "content_07": "Vi forbeholder oss retten til å oppdatere denne personvernerklæringen når som helst. Oppdateringen vil bli publisert på nettstedet vårt.",
+        "last_update": "Sist oppdatert: 10. februar 2024",
+        "buttonUnderstandPolicy": "Godta og forstå retningslinjene"
+    },
+    "categories": {
+        "main": {
+            "head": {
+                "title": "Utforsk vårt utvalg av lasteramper | AZ Machinery - Fransk kvalitet",
+                "og:title": "Mobile lasteramper, lasteplattformer og rampløsninger i Europa: Elektrisk, hydraulisk og fleksibel, høy lagring og kontinuerlige leveranser"
+            },
+            "title": "Utforsk vårt utvalg av lasteramper",
+            "description": "Oppdag et mangfoldig utvalg av lasteramper designet for å møte lastebehovene dine effektivt. Fra allsidige mobile ramper til robuste statiske ramper, finn den perfekte løsningen for sømløse laste- og lossingsoperasjoner. Øk produktiviteten din med våre høykvalitets rampalternativer. Handle nå!",
+            "mobile_ramp_label": "Mobile ramper",
+            "mobile_ramp_description": "Opplev allsidighet med våre toppmoderne mobile lasteramper.",
+            "static_ramp_label": "Statiske ramper",
+            "static_ramp_description": "Oppdag holdbarhet med våre robuste statiske lasteramper.",
+            "station_ramp_label": "Stasjonære ramper",
+            "station_ramp_description": "Optimaliser effektiviteten med vår stasjonære lasteplattform."
+        },
+         "category_product_lists": "{ country } - Lastehelger på lager: Utforsk { type }"
+    },
+    "products": {
+        "back_button": "TILBAKE",
+        "list": {
+            "head": {
+                "image": "Bilde",
+                "code": "Kode",
+                "handle_modus": "Betjening",
+                "price": "Pris"
+            },
+            "sidebar": {
+                "hydraulic_handling": "Hydraulisk drevne ramper",
+                "electric_handling": "Elektrisk drevne ramper",
+                "manuel_handling": "Manuelt drevne ramper",
+                "pps_handling": "Luft- eller gasdrevet rampe"
+            },
+            "use_filer": "Bruk filteret for å innsnevre søket ytterligere",
+            "title": "Liste over ramper",
+            "table": {
+                "head": {
+                    "image": "Bilde",
+                    "code": "Kode",
+                    "handle_modus": "Betjening",
+                    "price": "Pris"
+                }
+            },
+            "filter-title": "Filtrér etter energikilde"
+        },
+        "details": {
+            "title": "Tilgjengelige lasteramper",
+            "back": "TILBAKE",
+            "sidebar": {
+                "have_a_question": "Har du et spørsmål?",
+                "contact_mail": "Kontaktemail",
+                "we_call_you": "Gi oss ditt nummer, så ringer vi til deg om et par minutter for å hjelpe deg.",
+                "your_phone": "Skriv inn nummeret ditt",
+                "submit_button": "Send",
+                "category_list": "Typer av lasteramper",
+            "policy": "Godta vår personvernerklæring."
+            }
+        },
+        "weight_capacity": "Statiske kapasitet { tonnes } T",
+        "total_length": "Maksimal lengde: {total_length} mm",
+        "total_width": "Total bredde: {total_width} mm",
+        "width_used": "Brukt bredde: {width_used} mm",
+        "length_inclined_plane": "Lengde på den skrå planet: {length} mm",
+        "length_plateform_horizontal": "Lengde horisontal plattform: { length } mm",
+        "length_lip_penetrating": "Lengde på innvendig kant: { length }",
+        "exit_lip_length": "Lengde på utvendig kant: { length }",
+        "slope_min_max": "Skråninger: Min. { min_slope }% - Maks. { max_slope }%",
+        "lifting_height": "Justerbar høyde min. { min_height } mm - maks. { max_height } mm",
+        "hydraulic_leveler": "Hydraulisk nivellering",
+        "description": "",
+        "description_feet": "",
+        "industry_used_description": "",
+        "unloaded_weight": "Ulastet vikt { weight } kg",
+        "anti-slip-title": "Antiskidering",
+        "anti-slip-description": "*Hot-dip galvaniserte* rulling med en slippfest slette.",
+        "rent-title": "Leie",
+        "rent-description": "*Korttidsløyte* (1 dag til 12 måninger) eller *middellang leietid* (12 til 36 fnitter)",
+        "year_experience-title": "42 års erfaring",
+        "year_experience-description": "*Med 42 års erfaring* i lastområdet, er vi eksperter i ramper.",
+        "tailor_made_title": "Tailor-lagde ramper",
+        "tailor_made_description": "*Nytte fra vår erfaring* i utforming av ramper, for å sikre den høyeste kvaliteten på markedet.",
+        "support_feet": "Støtte for { feet } tilpassbare fotsøler, modellen",
+        "side_railings": "Sikkerhet: Side stolsbarriar { height } mm",
+        "security_chaines": "Sikkerhet: 2 tilhengende snoer inkludert",
+        "target_audience_title": "Hvem er i fokus?",
+        "target_audience_01": "Logistikk og transport",
+        "target_audience_02": "Lager og fordelingscenter",
+        "target_audience_03": "Manufaktur og produksjon",
+        "target_audience_04": "Bygg og arkitektur",
+        "target_audience_05": "Bruk og jordbruk",
+        "target_audience_06": "Biltransport og vedlikehold",
+        "target_audience_07": "Mining og næringsliv",
+        "target_audience_08": "Sjåfart og havn",
+        "target_audience_09": "Papir- og avfallshåndtering",
+        "target_audience_10": "Arrangementstjenester og utstillinger",
+        "product_data_sheet": "Produktdatablad",
+        "form-8t": {
+            "layout1": {
+                "product_name": "FAST LASTERAMPE MED INTEGRERT LEVELLER-FJÆR - AZ RAMP-FORMATION 2020 - 8T",
+                "product_description": "Fast lasterampe med integrert hydraulisk fjærnivellering. Hydraulisk fjærutjevner med elektrisk nivellering. 6 støtteføtter, høyde på sideskinner: 1 200 mm, sklisikker kjøreflate av varmgalvanisert tannrist"
+            }
+        },
+        "form-adj-8t-l": {
+            "layout1": {
+                "product_name": "FORMATION 2020 ADJ- 8T-L Tilstøtende fast lasterampe med nivellering",
+                "product_description": "FORMATION 2020 ADJ- 8T-L nivåtilstøtende fast lasterampe med nivellering gir en komplett forberedelse til CACES-R489-eksamenen, noe som sikrer effektivitet og optimalisering av opplæringstiden. Den er robust og holdbar og gir maksimal sikkerhet for operatørene, noe som gjør den til en utmerket investering for opplæringssentre. Ideell for bruk i logistikk- og byggebransjen."
+            }
+        },
+        "mob-star-8t": {
+            "layout1": {
+                "product_name": "Mobil lasterampe med hydraulisk svingbro AZ RAMP-STAR- 8T",
+                "product_description": "AZ RAMP-STAR- 8T mobil lasterampe med hydraulisk vippebro er ideell for lasting og lossing på lager og logistikksentre. Med en kapasitet på 8 tonn er denne rampen perfekt for små og mellomstore bedrifter som håndterer middels store laster. Den robuste konstruksjonen og hydraulikken sørger for pålitelig og sikker ytelse i en rekke ulike industrielle bruksområder."
+            }
+        },
+        "mob-star-10t": {
+            "layout1": {
+                "product_name": "AZ RAMP-STAR- 10T hydraulisk svingbro mobil lasterampe AZ RAMP-STAR- 10T",
+                "product_description": "Med en lastekapasitet på 10 tonn er AZ RAMP-STAR- 10T mobil lasterampe med hydraulisk vippebro ideell for bedrifter som håndterer tyngre last. Denne rampen er en effektiv og sikker løsning for lasting og lossing av lastebiler og containere i alt fra lagerbygninger til distribusjonssentre. Den allsidige utformingen og hydraulikken sikrer optimal ytelse under en rekke ulike arbeidsforhold."
+            }
+        },
+        "mob-star-12t": {
+            "layout1": {
+                "product_name": "Mobil lastebro med hydraulisk tippebro AZ RAMP-STAR- 12T",
+                "product_description": "Designet for å håndtere tyngre laster, tilbyr den mobile lastebro med hydraulisk tippebro AZ RAMP-STAR- 12T en lastkapasitet på 12 tonn. Denne rampen er perfekt for industrier som håndterer store og tunge laster, som bygg, gruvedrift og produksjon. Dens robusthet og pålitelighet gjør den til et uunnværlig verktøy for effektiv materialhåndtering."
+            }
+        },
+        "mob-star-15t": {
+            "layout1": {
+                "product_name": "Mobil lastebro med hydraulisk tippebro AZ RAMP-STAR- 15T",
+                "product_description": "For applikasjoner som krever enda høyere lastkapasitet, tilbyr den mobile lastebro med hydraulisk tippebro AZ RAMP-STAR- 15T en kapasitet på 15 tonn. Denne rampen er ideell for selskaper som håndterer ekstremt tunge laster, som stålindustrien, skipsbyggingsindustrien og tungindustrien. Dens robuste design og hydraulikksystem med høy styrke sikrer eksepsjonell ytelse selv under de mest krevende forholdene."
+            }
+        },
+        "mob-star-20t": {
+            "layout1": {
+                "product_name": "Mobil lastebro med hydraulisk tippebro AZ RAMP-STAR- 20T",
+                "product_description": "Med en lastkapasitet på 20 tonn er den mobile lastebro med hydraulisk tippebro AZ RAMP-STAR- 20T det perfekte valget for applikasjoner som krever ekstremt tung lasthåndtering. Fra transportindustrien til olje- og gassindustrien, tilbyr denne rampen en robust og pålitelig løsning for lasting og lossing av utstyr og materialer. Dens solide design og hydraulikksystem med høy styrke sikrer optimal ytelse i krevende industrielle miljøer."
+            }
+        },
+        "fix-prime-8t": {
+            "layout1": {
+                "product_name": "AZ RAMP-PRIME FIX 10-8 RL med siderammer",
+                "product_description": "Vår 8-tonns faste Prime-lastebro er det optimale valget for varehus og logistikksentre som håndterer mellomstore laster. Laget av tungt, varmgalvanisert stål, sikrer denne rampen holdbarhet og pålitelighet, noe som gjør den ideell for lasting og lossing av flatbil- eller Tautliner-lastebiler, samt maritime containere."
+            }
+        },
+        "fix-prime-10t": {
+            "layout1": {
+                "product_name": "AZ RAMP-PRIME FIX 10-10 RL. med siderammer",
+                "product_description": "Med en vektkapasitet på 10 tonn tilbyr vår faste Prime-lastebro robust ytelse for tunge varehusoperasjoner. Laget av slitesterke materialer og med et statisk design, er denne rampen perfekt for effektiv lasting og lossing av flatbil- eller Tautliner-lastebiler, samt maritime containere."
+            }
+        },
+        "fix-prime-12t": {
+            "layout1": {
+                "product_name": "AZ RAMP-PRIME FIX 10-12 RL. med siderammer",
+                "product_description": "Vår 12-tonns faste Prime-lastebro er designet for å håndtere tunge laster med letthet, noe som gjør den til en uunnværlig eiendel for varehus som håndterer store laster. Laget av tungt, varmgalvanisert stål, sikrer denne rampen lang levetid og pålitelighet, noe som gjør den egnet for lasting og lossing av en rekke laster, inkludert flatbil- eller Tautliner-lastebiler og maritime containere."
+            }
+        },
+        "star-llo-8t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro AZ RAMP-STAR- LLO-8T",
+                "product_description": "AZ RAMP-STAR- LLO-8T, med sin vektkapasitet på 8 tonn, er den perfekte løsningen for mellomstore laster i varehus og distribusjonssentraler. Med hydraulisk vippebro og siderekkverk sikrer denne rampen trygg og effektiv lasting og lossing av flatbil- eller Tautliner-lastebiler, samt maritime containere. Dens store horisontale plattform gjør den ideell for industrier som produksjon, bygg og anlegg og logistikk."
+            }
+        },
+        "star-llo-10t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro AZ RAMP-STAR- LLO-10T",
+                "product_description": "Med en vektkapasitet på 10 tonn tilbyr AZ RAMP-STAR- LLO-10T robust ytelse for tunge varehusoperasjoner. Utstyrt med fire støttefotter, sklisikker løpeoverflate og avtakbare sikkerhetsrekkverk, passer denne rampen for lasting og lossing av en rekke laster, inkludert overstørrelse maskiner og utstyr. Industrier som bilproduksjon, stålproduksjon og landbruk kan dra nytte av dens allsidighet og pålitelighet."
+            }
+        },
+        "star-llo-12t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro AZ RAMP-STAR- LLO-12T",
+                "product_description": "AZ RAMP-STAR- LLO-12T, som kan håndtere laster opptil 12 tonn, er en kraftpakke i varehuslogistikk. Med hydraulisk vippebro, festekjettinger og en stor horisontal plattform, utmerker denne rampen seg i lasting og lossing av tunge maskiner og bygningsmaterialer. Industrier som gruvedrift, energi og tungproduksjon av utstyr stoler på dens styrke og holdbarhet for sømløse operasjoner."
+            }
+        },
+        "star-llo-15t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro AZ RAMP-STAR- LLO-15T",
+                "product_description": "Med en vektkapasitet på 15 tonn er AZ RAMP-STAR- LLO-15T det foretrukne valget for industrier som krever robuste lastelösninger. Enten det gjelder lasting og lossing av overstørrelse utstyr eller transport av tunge industrimaterialer, leverer denne rampen uovertruffent ytelse. Industrier som luftfart, skipsbygging og installasjoner for fornybar energi stoler på dens stabilitet og pålitelighet for sine kritiske operasjoner."
+            }
+        },
+        "star-llo-20t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro AZ RAMP-STAR- LLO-20T",
+                "product_description": "AZ RAMP-STAR- LLO-20T, designet for å håndtere tunge laster på opptil 20 tonn, er den ultimate løsningen for krevende lagerområder. Med sin hydrauliske vippebro, stor horisontal plattform og siderekkverk, sikrer denne rampen trygg og effektiv lasting og lossing av oversized last. Industrier som olje og gass, bygg og anlegg og infrastrukturutvikling stoler på dens styrke og allsidighet for sine tunge logistikkbehov."
+            }
+        },
+        "star-zr-8t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro og ZR 500 mm AZ RAMP-STAR-8T-ZR",
+                "product_description": "AZ RAMP-STAR-8T-ZR er en mobil lastrampe designet for allsidig bruk, med en hydraulisk sammenleggbar vippebro og ZR 500 mm innløpsplate og utløpsleppe. Med en vektkapasitet på 8 tonn, er denne rampen perfekt for lagre og logistikksentre som krever effektiv lasting og lossing."
+            }
+        },
+        "star-zr-10t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro og ZR 500 mm AZ RAMP-STAR-10T-ZR",
+                "product_description": "Med en vektkapasitet på 10 tonn, tilbyr AZ RAMP-STAR-10T-ZR robust ytelse for tunge lastelaster. Dens hydraulisk sammenleggbare innløpsplate og utløpsleppe, sammen med ZR 500 mm-designet, gjør den ideell for å håndtere et bredt utvalg av lasttyper i ulike bransjer."
+            }
+        },
+        "star-zr-12t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro og ZR 500 mm AZ RAMP-STAR-12T-ZR",
+                "product_description": "AZ RAMP-STAR-12T-ZR, i stand til å håndtere laster på opptil 12 tonn, er en kraftpakke i logistikk på lageret. Med en hydraulisk sammenleggbar vippebro og ZR 500 mm innløpsplate og utløpsleppe, sikrer denne rampen smidig og effektiv lasting og lossing i krevende miljøer."
+            }
+        },
+        "star-zr-15t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro og ZR 500 mm AZ RAMP-STAR-15T-ZR",
+                "product_description": "Med en vektkapasitet på 15 tonn, er AZ RAMP-STAR-15T-ZR det foretrukne valget for bransjer som krever tunge lastelaster. Dens hydraulisk sammenleggbare innløpsplate og utløpsleppe, kombinert med ZR 500 mm-designet, gjør den egnet for å håndtere oversized maskiner og utstyr med letthet."
+            }
+        },
+        "star-zr-20t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med vippebro og ZR 500 mm AZ RAMP-STAR-20T-ZR",
+                "product_description": "AZ RAMP-STAR-20T-ZR, utformet for å håndtere tunge laster på opptil 20 tonn, er den ultimate løsningen for krevende lagerområder. Med en hydraulisk foldbar vippebro og ZR 500 mm innløpsplate og utløpsleppe, sikrer denne rampen sikker og effektiv lasting og lossing av oversized last."
+            }
+        },
+        "stat-disp-6t": {
+            "layout1": {
+                "product_name": "Logistikkstasjon med rampe og 3 dokklemmer AZ RAMP-DISPATCH 3-11.9-9.1-6T",
+                "product_description": "AZ RAMP-DISPATCH 3-11.9-9.1-6T er den ideelle løsningen for logistikkprofesjonelle og CACES-sertifiserte testorganisasjoner. Denne rampen er utformet for effektiv lasting og lossing, med tre dokklemmer og en vektkapasitet på mellom 6 og 10 tonn."
+            }
+        },
+        "stat-disp-8t": {
+            "layout1": {
+                "product_name": "Logistikkstasjon med rampe og 3 dokklemmer AZ RAMP-DISPATCH 3-11.9-9.1-8T",
+                "product_description": "AZ RAMP-DISPATCH 3-11.9-9.1-8T tilbyr økt effektivitet for logistikkoperasjoner med sin solide konstruksjon og 8 tonns vektkapasitet. Ideell for bruk med 3- og 4-hjulstruckere, gir denne rampen sømløse lasting- og losseopplevelser for lagre og distribusjonssentraler."
+            }
+        },
+        "stat-disp-10t": {
+            "layout1": {
+                "product_name": "Logistikkstasjon med rampe og 3 dokklemmer AZ RAMP-DISPATCH 3-11.9-9.1-10T",
+                "product_description": "AZ RAMP-DISPATCH 3-11.9-9.1-10T er konstruert for å håndtere tunge laster med letthet, med en vektkapasitet på 10 tonn. Ideell for lagre og distribusjonssentraler, sikrer denne rampen effektiv lasting og lossing for en rekke lasttyper. Dens solide konstruksjon og tre dokklemmer gjør den til et pålitelig valg for logistikkprofesjonelle som søker økt produktivitet."
+            }
+        },
+        "star-8t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med elektriske tippbruer og ZR 500 mm AZ RAMP-star-8t-zr-llo-e",
+                "product_description": "AZ RAMP-STAR-8-ZR-LLO-E er utformet for å effektivisere lasting og lossing med sine elektriske tippbruer og ZR 500 mm design. Med en vektkapasitet på 8 tonn, er denne rampen perfekt for varehus, distribusjonssentraler og logistikknav. Dens elektriske løftekapasitet sikrer sømløse overganger for 3- og 4-hjuls trucker, mens den brede rampen og store horisontale planet letter effektiv lasting og lossing av lastebiler. Enten du håndterer paller, containere eller annen tung last, tilbyr denne rampen allsidighet og pålitelighet for ulike industrielle applikasjoner."
+            }
+        },
+        "star-10t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med elektriske tippbruer og ZR 500 mm AZ RAMP-STAR-10-ZR-LLO-E",
+                "product_description": "AZ RAMP-STAR-10-ZR-LLO-E er konstruert for å håndtere tyngre laster med letthet, med en vektkapasitet på 10 tonn. Egnet for varehus, produksjonsfasiliteter og skipsverft, sikrer denne rampen effektiv lasting og lossing for et bredt spekter av lasttyper. Dens elektriske tippbruer og ZR 500 mm design gir økt bekvemmelighet og sikkerhet, mens de justerbare støttekrykkene og sklisikre løpebanen øker stabiliteten og produktiviteten."
+            }
+        },
+        "star-12t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med elektriske tippbruer og ZR 500 mm AZ RAMP-star-12t-zr-llo-e",
+                "product_description": "Med en vektkapasitet på 12 tonn, tilbyr AZ RAMP-STAR-12-ZR-LLO-E robust ytelse for krevende industrielle miljøer. Fra bilvarehus til byggeplasser, gir denne rampen pålitelige løsninger for lasting og lossing av tung utstyr og maskiner. Dens elektriske tippbruer, brede rampe og sklisikre løpebane sikrer smidig drift, mens de avtakbare sikkerhetsrekkverkene og justerbare støttekrykkene gir allsidighet og enkel bruk."
+            }
+        },
+        "star-15t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med elektriske tippbruer og ZR 500 mm AZ RAMP-star-15t-zr-llo-e",
+                "product_description": "AZ RAMP-STAR-15-ZR-LLO-E er en kraftig løsning for tunge lasting- og losseoppgaver, med en imponerende vektkapasitet på 15 tonn. Utformet for industrianlegg, havner og distribusjonssentraler, sikrer denne rampen smidig håndtering av oversized last og maskiner. Dens elektriske tippbruer og ZR 500 mm design gir bekvemmelighet og sikkerhet, mens de justerbare støttekrykkene og sklisikre løpebanen øker stabiliteten og produktiviteten. Enten du laster/losser skipscontainere, tung utstyr eller bulkmaterialer, leverer denne rampen pålitelighet og effektivitet i krevende miljøer."
+            }
+        },
+        "star-rl-8t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydraulisk tippebro - AZ RAMP-STAR-RL-8T",
+                "product_description": "AZ RAMP-STAR-RL-8T kombinerer hydraulisk effektivitet med en solid konstruksjon, noe som gjør den egnet for ulike industrielle applikasjoner. Med en vektkapasitet på 8 tonn, er denne rampen perfekt for lagre, distribusjonssentraler og produksjonsanlegg. Den hydrauliske tippbroen sikrer smidig lasting og lossing, mens de høye siderekkverkene gir ekstra sikkerhet. Enten du håndterer paller, maskiner eller tungt utstyr, tilbyr denne rampen pålitelighet og økt produktivitet."
+            }
+        },
+        "star-rl-10t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydraulisk tippebro - AZ RAMP-STAR-RL-10T",
+                "product_description": "Med en vektkapasitet på 10 tonn, er AZ RAMP-STAR-RL-10T designet for tunge applikasjoner i industrielle miljøer. Fra billagre til byggeplasser, tilbyr denne rampen effektive løsninger for lasting og lossing av ulike typer last. Den hydrauliske tippbroen letter overganger, mens de høye siderekkverkene sikrer arbeidersikkerhet og beskyttelse av utstyr. Allsidig og pålitelig er denne rampen et verdifullt tilskudd for bedrifter som søker å optimalisere sine logistikkoperasjoner."
+            }
+        },
+        "star-rl-12t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydraulisk tippebro - AZ RAMP-STAR-RL-12T",
+                "product_description": "AZ RAMP-STAR-RL-12T er konstruert for å håndtere tunge laster med letthet, med en vektkapasitet på 12 tonn. Egnet for lagre, produksjonsanlegg og skipsverft, sikrer denne rampen effektiv lasting og lossing av et bredt spekter av lasttyper. Dens hydrauliske tippebro-design gir sømløse overganger, mens de høye siderekkverkene gir ekstra beskyttelse. Enten du laster/losser paller, maskiner eller bulkmaterialer, leverer denne rampen pålitelighet og ytelse i krevende miljøer."
+            }
+        },
+        "star-rl-15t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydraulisk tippebro - AZ RAMP-STAR-RL-15T",
+                "product_description": "Med en vektkapasitet på 15 tonn, tilbyr AZ RAMP-STAR-RL-15T robust ytelse for krevende industrielle applikasjoner. Fra logistikksentre til byggeplasser, gir denne rampen effektive løsninger for lasting og lossing av tungt utstyr og maskiner. Dens hydrauliske tippebro-design sikrer smidig drift, mens de høye siderekkverkene gir økt arbeidersikkerhet. Allsidig og slitesterk er denne rampen et essensielt verktøy for bedrifter som ser etter å effektivisere sine logistikkoperasjoner."
+            }
+        },
+        "star-rl-20t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydraulisk tippebro - AZ RAMP-STAR-RL-20T",
+                "product_description": "AZ RAMP-STAR-RL-20T er en kraftig løsning for tunge lasting- og losseoppgaver, med en imponerende vektkapasitet på 20 tonn. Designet for industrianlegg, havner og distribusjonssentraler, sikrer denne rampen smidig håndtering av oversized last og maskiner. Dens hydrauliske tippebro-design tilbyr bekvemmelighet og sikkerhet, mens de høye siderekkverkene gir ekstra beskyttelse. Enten du laster/losser skipscontainere, tungt utstyr eller bulkmaterialer, leverer denne rampen pålitelighet og effektivitet i krevende miljøer."
+            }
+        },
+        "plat-6t": {
+            "layout1": {
+                "product_name": "Logistikkstasjon med rampe, dokklemmere - AZ RAMP-DISPATCH 6T",
+                "product_description": "AZ RAMP-DISPATCH 6T er en allsidig logistikkløsning designet for å effektivisere lasting og lossing. Med en vektkapasitet på 6 tonn, er denne stasjonen egnet for varehus, distribusjonssentraler og logistikknav. Utstyrt med 9 fortøyningspunkter, inkludert 3 med hydrauliske dokklemmere, tilbyr den effektiv håndtering av ulike typer last. De forborede støttefotene er justerbare for presis posisjonering, mens de integrerte dokkvangerne gir ekstra beskyttelse. Siderekkverk sikrer arbeidssikkerhet, mens den sklisikre løpesonen sikrer stabilitet under operasjoner. Ideell for bruk med palletraller og 3- eller 4-hjuls trucker, øker denne stasjonen produktiviteten og arbeidsflyteffektiviteten i travle logistikkmiljøer."
+            }
+        },
+        "plat-8t": {
+            "layout1": {
+                "product_name": "Logistikkstasjon med rampe, dokklemmere - AZ RAMP-DISPATCH 8T",
+                "product_description": "AZ RAMP-DISPATCH 8T er konstruert for å møte kravene til moderne logistikkoperasjoner, med en vektkapasitet på 8 tonn. Med 9 fortøyningspunkter, inkludert hydrauliske dokklemmere, sikrer denne stasjonen smidig lasting og lossing av varer. De forborede støttefotene gir stabilitet, mens de integrerte dokkvangerne gir ekstra beskyttelse mot støt. Med siderekkverk og sklisikker løpesone prioriterer den arbeidssikkerhet og effektivitet. Enten du håndterer paller eller tungt utstyr, er denne stasjonen en pålitelig løsning for varehus og distribusjonssentraler."
+            }
+        },
+        "plat-10t": {
+            "layout1": {
+                "product_name": "Logistikkstasjon med rampe, dokklemmere - AZ RAMP-DISPATCH 10T",
+                "product_description": "Designet for tunge logistikkapplikasjoner, har AZ RAMP-DISPATCH 10T en vektkapasitet på 10 tonn. Utstyrt med 9 fortøyningspunkter og hydrauliske dokklemmere, sikrer denne stasjonen effektiv lasting og lossing. De forborede støttefotene gir justerbarhet for optimal posisjonering, mens de integrerte dokkvangerne gir ekstra beskyttelse. Med siderekkverk og sklisikker løpesone prioriterer den arbeidssikkerhet og produktivitet. Ideell for bruk med palletraller og trucker, øker denne stasjonen arbeidsflyteffektiviteten i miljøer med høy logistikkvolum."
+            }
+        },
+        "star-8t-zr-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe med ZR 500 mm - AZ RAMP-STAR-8T-ZR-E",
+                "product_description": "AZ RAMP-STAR-8T-ZR-E er en elektrisk mobil lastrampe designet for effektiv lasting og lossing. Med en vektkapasitet på 8 tonn, tilbyr denne rampen allsidighet og pålitelighet for ulike bransjer. Utstyrt med dokklommer med et frittområde på 500 mm, sikrer den trygg og sikker håndtering av last. Innløpsbrettet og utløpsleppene brettes hydraulisk via en elektrisk motor, noe som gir brukervennlighet og komfort. Rampen er egnet for bruk med 3- og 4-hjuls trucker, og øker arbeidsflyteffektiviteten. Med siderekkverk, sklisikker løpesone og 4 støttefot med adaptive hoder, prioriterer den arbeidssikkerhet. Ideell for varehus, distribusjonssentraler og logistikknav, effektiviserer denne rampen operasjoner og øker produktiviteten."
+            }
+        },
+        "star-10t-zr-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe med ZR 500 mm - AZ RAMP-STAR-10T-ZR-E",
+                "product_description": "AZ RAMP-STAR-10T-ZR-E er konstruert for tunge laste- og lossingsoppgaver, med en vektkapasitet på 10 tonn. Utstyrt med dokker og et tilfluktsområde på 500 mm, sikrer den trygg håndtering av last i ulike bransjer. Det elektrisk drevne hydraulikksystemet muliggjør folding av innløpsbrettet og utløpsleppene, noe som sikrer smidig drift. Med 4 støttefotter, siderekkverk og en sklisikker løpeoverflate prioriterer den arbeidsmiljøsikkerhet og effektivitet. Egnet for bruk med 3- og 4-hjuls trucker, øker denne rampen arbeidseffektiviteten i travle logistikkmiljøer."
+            }
+        },
+        "star-12t-zr-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe med ZR 500 mm - AZ RAMP-STAR-12T-ZR-E",
+                "product_description": "AZ RAMP-STAR-12T-ZR-E er designet for å møte kravene til krevende laste- og lossingsoperasjoner, med en vektkapasitet på 12 tonn. Med dokker med et tilfluktsområde på 500 mm, sikrer den trygg håndtering av last i ulike bransjer. Det elektrisk drevne hydraulikksystemet muliggjør smidig folding av innløpsbrettet og utløpsleppene, noe som øker brukervennligheten. Med siderekkverk, en sklisikker løpeoverflate og 4 støttefotter prioriterer den arbeidsmiljøsikkerhet. Egnet for bruk med 3- og 4-hjuls trucker, tilbyr denne rampen pålitelighet og effektivitet i logistikkmiljøer med høy volum."
+            }
+        },
+        "star-15t-zr-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe med ZR 500 mm - AZ RAMP-STAR-15T-ZR-E",
+                "product_description": "AZ RAMP-STAR-15T-ZR-E er konstruert for tunge laste- og lossingsoppgaver, med en vektkapasitet på 15 tonn. Utstyrt med dokker med et tilfluktsområde på 500 mm, sikrer den trygg håndtering av last i ulike bransjer. Det elektrisk drevne hydraulikksystemet muliggjør folding av innløpsbrettet og utløpsleppene, noe som sikrer smidig drift. Med 4 støttefotter, siderekkverk og en sklisikker løpeoverflate prioriterer den arbeidsmiljøsikkerhet og effektivitet. Egnet for bruk med 3- og 4-hjuls trucker, øker denne rampen arbeidseffektiviteten i travle logistikkmiljøer."
+            }
+        },
+        "star-20t-zr-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe med ZR 500 mm - AZ RAMP-STAR-20T-ZR-E",
+                "product_description": "AZ RAMP-STAR-20T-ZR-E er designet for å møte kravene til tunge lasteoperasjoner, med en vektkapasitet på 20 tonn. Med dokker med et tilfluktsområde på 500 mm, sikrer den trygg håndtering av last i ulike bransjer. Det elektrisk drevne hydraulikksystemet muliggjør smidig folding av innløpsbrettet og utløpsleppene, noe som øker brukervennligheten. Med siderekkverk, en sklisikker løpeoverflate og 4 støttefotter prioriterer den arbeidsmiljøsikkerhet. Egnet for bruk med 3- og 4-hjuls trucker, tilbyr denne rampen pålitelighet og effektivitet i logistikkmiljøer med høy volum."
+            }
+        },
+        "star-10t-xl-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe STOR - AZ RAMP-STAR-10-XL-E",
+                "product_description": "AZ RAMP-STAR-10-XL-E tilbyr en robust løsning for tunge laste- og lossingsoppgaver, med en vektkapasitet på 10 tonn. Med elektrisk heving av inn- og utløpsleppene, sikrer denne rampen smidig drift i ulike industrielle miljøer. Den brede rampeutformingen muliggjør lasting av forskjellig anleggs- og håndteringsutstyr med letthet. Ideell for bruk i lagre, anleggsområder og logistikksentre, øker den arbeidseffektiviteten. Utstyrt med 4 støtteben, siderekkverk og et sklisikkert løpebelegg, prioriterer den arbeidssikkerheten. Egnet for bruk med 3- og 4-hjuls trucker, tilbyr denne rampen allsidighet og pålitelighet i krevende miljøer."
+            }
+        },
+        "star-15t-xl-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe STOR - AZ RAMP-STAR-15-XL-E",
+                "product_description": "AZ RAMP-STAR-15-XL-E er tilpasset tunge laste- og lossingsoperasjoner, med en vektkapasitet på 15 tonn. Med elektrisk heving av inn- og utløpsleppene, sikrer den smidig håndtering av last i industrielle miljøer. Den brede rampeutformingen letter lasting av forskjellig anleggs- og håndteringsutstyr, og øker driftseffektiviteten. Egnet for bruk i lagre, logistikksentre og anleggsområder, tilbyr den pålitelighet og allsidighet. Utstyrt med 4 støtteben, siderekkverk og et sklisikkert løpebelegg, prioriterer den arbeidssikkerheten. Kompatibel med 3- og 4-hjuls trucker, strømlinjeformer denne rampen laste- og losseprosessene."
+            }
+        },
+        "star-20t-xl-e": {
+            "layout1": {
+                "product_name": "Elektrisk mobil lastrampe STOR - AZ RAMP-STAR-20-XL-E",
+                "product_description": "AZ RAMP-STAR-20-XL-E er konstruert for tunge laste- og lossingsoppgaver, med en vektkapasitet på 20 tonn. Med elektriske hevemekanismer for inn- og utløpsleppene, sikrer den effektiv lasting og lossing i industrielle miljøer. Den brede rampeutformingen gir plass til forskjellig anleggs- og håndteringsutstyr, og muliggjør smidig lasting og lossing. Ideell for lagre, anleggsområder og logistikksentre, øker den arbeidseffektiviteten. Utstyrt med 4 støtteben, siderekkverk og et sklisikkert løpebelegg, prioriterer den arbeidssikkerheten. Kompatibel med 3- og 4-hjuls trucker, tilbyr denne rampen holdbarhet og allsidighet i krevende miljøer."
+            }
+        },
+        "star-10t-xl": {
+            "layout1": {
+                "product_name": "Mobil lastrampe STOR - AZ RAMP-STAR-10-XL",
+                "product_description": "AZ RAMP-STAR-10-XL er en allsidig løsning designet for tunge lasseoppgaver, med en vektkapasitet på 10 tonn. Dens brede rampeutforming muliggjør lasting av forskjellig anleggs- og håndteringsutstyr med letthet. Ideell for bruk i lagre, anleggsområder og logistikksentre, øker den driftseffektiviteten. Utstyrt med 4 støtteben, siderekkverk og en sklisikker løpeoverflate, prioriterer den arbeidssikkerhet. Kompatibel med 3- og 4-hjuls trucker, tilbyr denne rampen pålitelighet og allsidighet i krevende miljøer."
+            }
+        },
+        "star-15t-xl": {
+            "layout1": {
+                "product_name": "Mobil lastrampe STOR - AZ RAMP-STAR-15-XL",
+                "product_description": "AZ RAMP-STAR-15-XL er konstruert for å takle tunge lasseoperasjoner, med en vektkapasitet på 15 tonn. Dens brede rampeutforming letter lasting av forskjellig anleggs- og håndteringsutstyr, og sikrer sømløs arbeidsflyteffektivitet. Egnet for bruk i lagre, logistikksentre og anleggsområder, tilbyr den pålitelighet og allsidighet. Utstyrt med 4 støtteben, siderekkverk og en sklisikker løpeoverflate, prioriterer den arbeidssikkerhet. Kompatibel med 3- og 4-hjuls trucker, strømlinjeformer denne rampen lasse- og losseprosessene."
+            }
+        },
+        "star-20t-xl": {
+            "layout1": {
+                "product_name": "Mobil lastrampe STOR - AZ RAMP-STAR-20-XL",
+                "product_description": "AZ RAMP-STAR-20-XL er tilpasset tunge lasseoppgaver, med en vektkapasitet på 20 tonn. Dens brede rampeutforming rommer forskjellig anleggs- og håndteringsutstyr, og letter effektive lasse- og losseprosesser. Ideell for lagre, anleggsområder og logistikksentre, øker den arbeidsflyteffektiviteten. Utstyrt med 4 støtteben, siderekkverk og en sklisikker løpeoverflate, prioriterer den arbeidssikkerhet. Kompatibel med 3- og 4-hjuls trucker, tilbyr denne rampen holdbarhet og pålitelighet i krevende omgivelser."
+            }
+        },
+        "star-otc-8t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydrauliske vippeleppe. AZ RAMP-STAR-OTC-8T",
+                "product_description": "AZ RAMP-STAR-OTC-8T har hydrauliske vippeleppe for enkel lasting og lossing. Dens hydraulisk foldeinngang, koblet med en manuell pumpe, sikrer jevn drift. Med en hydraulisk krank for hjuljustering, passer den 3- og 4-hjuls trucker, palletrucker, stablere og forskjellige kjøretøy. Med 4 adaptive støtteben og en kapasitet på 50 tonn, garanterer den stabilitet. Avtakbare siderekkverk, en sklisikker løpeoverflate og inkluderte dokkbuffer øker arbeidssikkerheten. Pluss, den inkluderer et 500 mm tilfluktsområde for ekstra bekvemmelighet."
+            }
+        },
+        "star-otc-10t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydrauliske vippeleppe. AZ RAMP-STAR-OTC-10T",
+                "product_description": "AZ RAMP-STAR-OTC-10T har hydrauliske vippeleppe for smidig lasting og lossing. Den hydraulisk foldbare inngangstrallen, sammen med en manuell pumpe, sikrer effektiv drift. Designet for 3- og 4-hjuls trucker, palletrucker, stablere og ulike kjøretøy, gir den allsidighet. Utstyrt med 4 adaptive støtteben og en kapasitet på 50 tonn, garanterer den stabilitet. Avtakbare sikkerhetsrekkverk på sidene, en sklisikker løpeoverflate og inkluderte dokkbuffere prioriterer arbeidsmiljøsikkerheten. I tillegg inkluderer den et 500 mm tilfluktsområde for økt bekvemmelighet."
+            }
+        },
+        "star-otc-12t": {
+            "layout1": {
+                "product_name": "Mobil lastrampe med hydrauliske vippeleppe. AZ RAMP-STAR-OTC-12T",
+                "product_description": "AZ RAMP-STAR-OTC-12T har hydrauliske vippeleppe for effektiv lasting og lossing. Den hydraulisk foldbare inngangstrallen, koblet med en manuell pumpe, sikrer smidig drift. Designet for bruk med 3- og 4-hjuls trucker, palletrucker, stablere og ulike kjøretøy, gir den allsidighet. Med 4 adaptive støtteben og en kapasitet på 50 tonn, sikrer den stabilitet under bruk. Avtakbare sikkerhetsrekkverk på sidene, en sklisikker løpeoverflate og inkluderte dokkbuffere prioriterer arbeidsmiljøsikkerheten. I tillegg inkluderer den et 500 mm tilfluktsområde for økt bekvemmelighet."
+            }
+        },
+        "easy-xl-8t-ls": {
+            "layout1": {
+                "product_name": "Mobil lastrampe på PPS. AZ RAMP-EASY XL-8-LS, Kapasitet 8 T",
+                "product_description": "AZ RAMP-EASY XL-8-LS har en kapasitet på 8 tonn og har en sklisikker varmforsinkbåret gitterløpeoverflate. Utstyrt med 2 surringskjettinger og en uttrekkbar slepekrok for flytting via gaffeltruck, gir den bekvemmelighet og effektivitet. Rampen er montert på fleksible massivdekk, noe som sikrer mobilitet. Med sikkerhetsrekkverk på sidene som måler 350 mm i høyde, prioriteres arbeidsmiljøsikkerheten. Rampens stigninger varierer fra 7,78 % til 12,45 %, noe som gjør den egnet for blandet bruk og effektiv på ujevne underlag som leire, grus og skadet jord. Ideell for lasting/lossing av Plateau- eller Tautliner-typer lastebiler, vogner og maritime containere."
+            }
+        },
+        "easy-xl-10t-ls": {
+            "layout1": {
+                "product_name": "Mobil lastrampe på PPS. AZ RAMP-EASY XL-10-LS, Kapasitet 10 T",
+                "product_description": "AZ RAMP-EASY XL-10-LS har en kapasitet på 10 tonn og har en sklisikker varmforsinkbåret gitterløpeoverflate. Utstyrt med 2 surringskjettinger og en uttrekkbar slepekrok for flytting via gaffeltruck, sikrer den enkel bruk. Montert på fleksible massivdekk, gir den mobilitet i ulike arbeidsmiljøer. Med sikkerhetsrekkverk på sidene som måler 350 mm i høyde, øker den arbeidsmiljøsikkerheten. Dens stigninger fra 7,78 % til 12,45 % gjør den egnet for blandet bruk og effektiv på ujevne underlag. Perfekt for lasting/lossing av Plateau- eller Tautliner-typer lastebiler, vogner og maritime containere."
+            }
+        },
+        "easy-xl-12t-ls": {
+            "layout1": {
+                "product_name": "Mobil lasserampe på PPS. AZ RAMP-EASY XL-12-LS, Kapasitet 12 T",
+                "product_description": "AZ RAMP-EASY XL-12-LS er designet med en kapasitet på 12 tonn og har en sklisikker varmforsinkbåret gitterløpeflate. Med 2 surringskjettinger og en uttrekkbar slepekrok for flytting med gaffeltruck, gir den bekvemmelighet og enkel bruk. Montert på fleksible massivdekk, sikrer den mobilitet på tvers av ulike arbeidsmiljøer. Rampen er utstyrt med sidegrinder på 350 mm høyde, noe som øker arbeidssikkerheten. Stigningene varierer fra 7,78 % til 12,45 %, noe som gjør den egnet for ulike bruksområder og effektiv på ujevne overflater. Ideell for lasting/lossing av Plateau- eller Tautliner-typer lastebiler, vogner og maritime containere."
+            }
+        },
+        "easy-xl-15t-ls": {
+            "layout1": {
+                "product_name": "Mobil lasserampe på PPS. AZ RAMP-EASY XL-15-LS, Kapasitet 15 T",
+                "product_description": "AZ RAMP-EASY XL-15-LS, med en kapasitet på 15 tonn, har en sklisikker varmforsinkbåret gitterløpeflate. Den er utstyrt med 2 surringskjettinger og en uttrekkbar slepekrok for flytting med gaffeltruck, noe som sikrer bekvemmelighet og enkel bruk. Montert på fleksible massivdekk, gir den mobilitet på tvers av ulike arbeidsmiljøer. Rampen inkluderer sidegrinder på 350 mm høyde, noe som øker arbeidssikkerheten. Stigningene varierer fra 7,78 % til 12,45 %, noe som gjør den egnet for ulike bruksområder og effektiv på ujevne overflater. Perfekt for lasting/lossing av Plateau- eller Tautliner-typer lastebiler, vogner og maritime containere."
+            }
+        },
+        "easy-xl-20t-ls": {
+            "layout1": {
+                "product_name": "Mobil lasserampe på PPS. AZ RAMP-EASY XL-20-LS, Kapasitet 20 T",
+                "product_description": "AZ RAMP-EASY XL-20-LS, med en kapasitet på 20 tonn, har en sklisikker varmforsinkbåret gitterløpeflate. Utstyrt med 2 surringskjettinger og en uttrekkbar slepekrok for flytting med gaffeltruck, sikrer den bekvemmelighet og enkel bruk. Montert på fleksible massivdekk, gir den mobilitet på tvers av ulike arbeidsmiljøer. Rampen inkluderer sidegrinder på 350 mm høyde, noe som øker arbeidssikkerheten. Stigningene varierer fra 7,78 % til 12,45 %, noe som gjør den egnet for ulike bruksområder og effektiv på ujevne overflater. Perfekt for lasting/lossing av Plateau- eller Tautliner-typer lastebiler, vogner og maritime containere."
+            }
+        }
+    }
+}

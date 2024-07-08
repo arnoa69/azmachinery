@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /?$
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+Sitemap: https://rampas-carga-moviles.es/sitemap.xml
+

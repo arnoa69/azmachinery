@@ -1,0 +1,685 @@
+{
+    "meta": {
+        "title": "AZ Machinery - Fabbricato in Francia",
+        "product_detail_view": {
+            "title": {
+                "gas": "Funzionamento a gas",
+                "electric": "Funzionamento elettrico",
+                "hydraulic": "Idraulica",
+                "leveler": "Livellamento integrato",
+                "static_ramp": "Rampa di carico statica",
+                "mobile_ramp": "Rampa di carico mobile",
+                "platform_ramp": "Piattaforma di carico stazionaria"
+            },
+            "keywords": {
+                "keyword_mobile": "rampe di carico mobili,",
+                "keyword_platform": "piattaforme di carico,",
+                "keyword_static": "rampe di carico statiche,",
+                "keyword_electric": "rampe di carico elettriche,",
+                "keyword_hydraulic": "rampe di carico idrauliche,",
+                "keyword_leveler": "rampe di carico con livellatore,",
+                "keyword_gas": "rampe di carico a gas,",
+                "keyword_truck": "rampe di carico per camion,",
+                "keyword_tonnes": "rampe di carico capacità {tonnes} tonnellate,",
+                "keyword_stock": "magazzino oltre 500 rampe",
+                "keyword_buy_and_rent": "acquisto e noleggio di rampe di carico"
+            }
+        },
+        "product_list": {
+            "keywords": "Operazione di rampa, Movimentazione delle merci, Tecnologia di carico e scarico, Livellatore di banchina, Trasportatore a rulli, Tecnologia di carico, Trasporto di rampe",
+            "description": "Soluzioni efficienti per il trasporto di carichi pesanti a livelli superiori. Scopri vari tipi di rampe di carico e tecniche di trasporto.",
+            "og:title": "Rampini di carico mobili, Personalizzati e sistemi di rampe in Europa: Elettrici, idraulici e flessibili, ampi magazzini e consegne continue"
+        },
+        "category_list_mobile": {
+            "keywords": "rampe di carico mobili, rampe di carico portatili, ponti di carico flessibili, rampe trasportabili, rampe di carico mobili, rampe di carico pieghevoli, rampe di carico leggere, ponti di attraversamento mobili, rampe pieghevoli, rampe regolabili",
+            "description": "Scopri di più sulle rampe di carico e sui vari metodi per il trasporto di merci pesanti. Dalla convogliamento per gravità ai sistemi idraulici - trova la soluzione giusta per le tue esigenze."
+        },
+        "category_list_static": {
+            "keywords": "piattaforme di carico su misura, stazioni di carico personalizzate, soluzioni di rampa personalizzate, attrezzature di carico adattate, rampe di carico su misura, rampe di carico personalizzate, piattaforme di carico speciali, sistemi di rampa personalizzati, stazioni di carico individuali, sistemi di carico personalizzati",
+            "description": "Ottimizza il flusso dei materiali con le nostre rampe di carico di alta qualità. Aumenta l'efficienza, la sicurezza e l'ergonomia durante il carico e lo scarico delle merci."
+        },
+        "category_list_station": {
+            "keywords": "superfici di carico mobili, superfici di carico, superfici di carico mobili con vista media, rampe dell'asse anteriore in Europa, ponte sollevatore elettroidraulico, superfici di carico del carrello elevatore, elettrico, idraulico",
+            "description": "Sempre attrezzati con rampe di carico mobili, soluzioni su misura e sistemi di rampe in Europa - elettrici, idraulici e versatili - offriamo ampi magazzini e consegne continue."
+        },
+        "keywords": "rampe di carico mobili, piattaforme di carico, rampe mobili di media altezza, rampe di asse anteriore in Europa, ponte elevatore elettroidraulico, rampe di carico per carrelli elevatori, elettrico, idraulico",
+        "product_list_view_title": "Rampe di carico mobili, idrauliche, elettriche, 20 tonnellate",
+        "description": "Rampe di carico mobili, piattaforme di carico e soluzioni di rampa in Europa: Elettriche, idrauliche e flessibili, alti livelli di scorte e consegne continue",
+        "canonical_link_href": "https://rampas-carga-moviles.es",
+        "og:url": "https://rampas-carga-moviles.es",
+        "og:title": "Rampe di carico mobili e statiche in Europa: Scopri la nostra vasta selezione! Oltre 500 rampe di carico di alta qualità disponibili immediatamente",
+        "og:description": "Acquista una rampa di carico mobile (rampa di sollevamento mobile) dal produttore AZ Machinery per tutta Europa. Il più grande produttore in Europa con carichi da 6 a 30 tonnellate. Ampia scelta di rampe di carico. Pronto per l'ordine. Garanzia di qualità. Norma CE. Consegne in tutta Europa.",
+        "og:sitename": "Rampe di carico mobili AZ Machinery Europa | Attrezzature di stoccaggio",
+        "article:section": "Rampe di carico",
+        "article:author": "AZ Machinery",
+        "article:tag1": "Rampa di carico mobile",
+        "article:tag2": "Rampa mobile per camion",
+        "article:tag3": "Rampa di sollevamento mobile",
+        "article:tag4": "Rampa di carico",
+        "twitter:title": "Rampe di carico mobili e statiche in Europa: Scopri la nostra vasta selezione! Oltre 500 rampe di carico di alta qualità disponibili immediatamente",
+        "twitter:description": "Acquista una rampa di carico mobile (rampa di sollevamento mobile) dal produttore AZ Machinery per tutta Europa. Il più grande produttore in Europa con carichi da 6 a 30 tonnellate. Ampia scelta di rampe di carico. Pronto per l'ordine. Garanzia di qualità. Norma CE. Consegne in tutta Europa.",
+        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
+        "twitter:domain": "https://rampas-carga-moviles.es"
+    },
+    "header": {
+        "title": "AZ Machinery - Qualità francese",
+        "home": "Casa",
+        "about": "Chi siamo",
+        "contact": "Contattaci",
+        "features": "Caratteristiche",
+        "gallery": "Galleria",
+        "counts": "Caratteristiche",
+        "products": "Prodotti",
+        "testimonials": "Clienti soddisfatti",
+        "menu": {
+            "productList": "Prodotti",
+            "types": "Tipi"
+        }
+    },
+    "hero": {
+        "title": {
+            "start": "Caricamento della tecnologia per le tue ",
+            "end": "necessità"
+        },
+        "box": {
+            "title": "Ottieni preventivi per rampe",
+            "choices": {
+                "choice_ramp": "Scelta delle rampe",
+                "choice_platform": "Scelta delle piattaforme",
+                "choice_measurement": "Su misura",
+                "start_now": "Inizia ora...",
+                "more_500": "Oltre 500+ disponibili!"
+            },
+            "requests_today": "Richieste di oggi:",
+            "last_requests": "Ultima richiesta:",
+            "button": "CONTINUA",
+            "badges": {
+                "approx_time": "circa 2 min.",
+                "reviews": "4,9 stelle su 55 recensioni",
+                "last_requests_one": "Ultime richieste ",
+                "last_requests_two": " min. fa",
+                "requests_today": "236 richieste oggi"
+            },
+            "error_message": "Si prega di selezionare almeno un'opzione"
+        }
+    },
+    "modal": {
+        "title": "Completa le tue informazioni",
+        "close-button": "Esci"
+    },
+    "about": {
+        "title": "AZ Machinery, il tuo affidabile partner per la tecnologia di carico",
+        "description": "AZ Machinery è il principale produttore di attrezzature di carico in Europa. Offriamo un'ampia gamma di ponti di carico, piattaforme, stoccaggio ed accessori per soddisfare tutte le esigenze.",
+        "box1Title": "Il tuo specialista nelle soluzioni di carico personalizzate",
+        "box1Description": "Ti offriamo una vasta selezione di soluzioni di carico che personalizziamo in base alle tue esigenze. Che si tratti di ponti di carico, piattaforme, stoccaggio o accessori, troveremo la soluzione perfetta per te.",
+        "box2Title": "I nostri prodotti sono realizzati nella nostra produzione in Europa",
+        "box2Description": "Diamo grande importanza alla sicurezza e all'efficienza in modo che tu possa caricare e scaricare i tuoi prodotti in modo sicuro ed efficiente.",
+        "box3Title": "Consegna in tutta Europa",
+        "box3Description": "Consegniamo i nostri prodotti in tutta Europa e offriamo un servizio completo. I nostri esperti saranno lieti di consigliarti e trovare la soluzione ottimale per le tue esigenze."
+    },
+    "features": {
+        "title": "Le nostre rampe di carico - il numero 1 indiscusso in Europa.",
+        "subTitle": "Competitivo",
+        "box1Title": "Consegna veloce",
+        "box2Title": "Vale il prezzo",
+        "box3Title": "Risposta rapida",
+        "box4Title": "Leghe pulite",
+        "box5Title": "Noleggio possibile",
+        "box6Title": "Personale professionale",
+        "box7Title": "Vasta selezione",
+        "box8Title": "Migliore qualità"
+    },
+    "gallery": {
+        "title": "Campione di gamma",
+        "subTitle": "Lasciati sorprendere dalla nostra selezione"
+    },
+    "count": {
+        "title1": "Clienti soddisfatti",
+        "title2": "Progetti in corso",
+        "title3": "Anni di esperienza",
+        "title4": "Dipendenti"
+    },
+    "contact": {
+        "title": "Contatto regionale",
+        "subTitle": "Consulenza e supporto personali",
+        "label": {
+            "place": "Luogo:",
+            "phone": "Telefono:",
+            "email": "E-mail:"
+        },
+        "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Francia",
+        "email": "Marketing Francia",
+        "number": "+33 03 52 74 03 69",
+        "form": {
+            "label": {
+                "place": "Posto",
+                "phone": "Telefono",
+                "email": "E-mail"
+            },
+            "placeholder": {
+                "name": "Il tuo nome",
+                "email": "La tua email",
+                "company": "Nome dell'azienda",
+                "phone": "Telefono",
+                "subject": "Oggetto",
+                "message": "Messaggio",
+                "send": "Invia messaggio"
+            }
+        }
+    },
+    "testimonials": {
+        "louiseSvensonText": "Grande Mobile Dock Ramp. Abbiamo 5 unità del modello di rampa Az Prime WLO 8+. Consegnato in Danimarca solo 10 giorni dopo l'ordine. Il contatto con Jérôme GUIGUET è stato molto buono; Queste rampe sono molto facili da usare, di buona qualità. Anche il team logistico le apprezza molto.",
+        "frankPainText": "Ho comunicato con AZ ramp il 13/12/2023 attraverso la piattaforma DIRECT Industry riguardo a una rampa da 10T e 20 minuti dopo, il rappresentante di vendita di AZ ramp mi ha risposto. Ha risposto a tutte le mie domande e aspettative. Non appena abbiamo effettuato l'ordine il 20 dicembre 2023, il tempo di consegna è stato comunicato durante il giorno. Consegna il 1 febbraio 2024. Data e ora rispettate dal conducente. Il conducente è stato molto professionale, ci ha accompagnato durante lo scarico e l'installazione della rampa nella sua posizione. Essendo un centro di formazione, abbiamo prestato molta attenzione alla qualità e ai limiti dello standard CACES®. Questa rampa ha soddisfatto tutti i requisiti attuali. La qualità c'era.",
+        "proFoodCenterText": "Siamo molto contenti della rampa che abbiamo ricevuto. Rampa molto robusta e gestibile. Siamo rimasti sorpresi dalla velocità di consegna (10 giorni tra il contatto e la ricezione della rampa). Azienda molto professionale!",
+        "vincentGirardetText": "Acquista una rampa Prime XS in versione zincata. Materiale molto bello; robusto e facile da usare. Consegnato in Svizzera solo 10 giorni dopo il nostro ordine, sono contento di aver fatto affari con questa azienda! Vincent",
+        "christell48Text": "Eccellente rapporto qualità-prezzo. Abbiamo scelto il PRIME WLO8+ con ringhiera in versione FULL GALVA. Super pratico, di buona qualità. AZ MACHINERY ha persino recuperato la nostra vecchia rampa Expresso che non stava più in piedi. Materiale ricevuto da noi sul camion del produttore 4 giorni dopo il nostro ordine. Davvero buono, grazie.",
+        "mauroMartinText": "Ho comprato una nuova rampa da AZ MACHINERY, abbiamo scelto il modello AZ RAMP EASY XL 10 T, una rampa di carico molto buona. L'abbiamo ricevuta nel nostro magazzino in Argentina in 30 giorni, buon contatto con il venditore molto amichevole. Questa rampa è di ottima qualità e manifattura impeccabile. Siamo molto contenti del nostro acquisto."
+    },
+    "footer": {
+        "copyright": "Copyright © 2024 AZ Machinery. Tutti i diritti riservati.",
+        "headquarter": {
+            "name": "AZ Machinery",
+            "title": "Sede centrale",
+            "description": "Siamo specializzati nello sviluppo, produzione, vendita e noleggio di attrezzature di carico.",
+            "address": {
+                "street": "CG-2, N°80 Planta Baja, ",
+                "zip": "Ed SUNARI-C, AD100, ",
+                "country": "SOLDEU, Andorra",
+                "phoneLabel": "Telefon: ",
+                "phone": "+376 390 036",
+                "emailLabel": "E-mail: ",
+                "email": "contact[at]az-machinery.com"
+            }
+        },
+        "links": {
+            "title": "Link",
+            "about": "Chi siamo",
+            "features": "Caratteristiche",
+            "imprint": "Impronta",
+            "privacy": "Privacy"
+        },
+        "service": {
+            "title": "I nostri servizi",
+            "customMade": "Su misura",
+            "delivery": "Tutta Europa",
+            "production": "Produzione propria",
+            "warranty": "Garantia 1 anno + 20 anni opzionale",
+            "rental": "Noleggio possibile"
+        },
+        "newsletter": {
+            "title": "Iscriviti alla nostra newsletter.",
+            "description": "Resta informato sui nostri ultimi prodotti, offerte ed eventi.",
+            "button": "Iscriviti"
+        }
+    },
+    "cookiebanner": {
+        "title": "Ma prima, i cookie!",
+        "description": "Utilizziamo i cookie per ricordare le tue preferenze, mostrarti contenuti pertinenti e rendere la tua esperienza su AZ Machinery più fluida. Utilizzando AZ Machinery, accetti la nostra ",
+        "policyLink": "politica sulla riservatezza.",
+        "policyLinkAdon": "",
+        "buttonAllow": "Consenti cookie",
+        "buttonDisallow": "Rifiuta cookie",
+        "buttonManageCookies": "Gestisci i cookie",
+        "manage": {
+            "title": "Impostazioni dei cookie",
+            "necessary_title": "Necessari",
+            "necessary_description": "I cookie necessari garantiscono funzionalità di base del sito, come la navigazione e l'accesso alla sicurezza.",
+            "preferences_title": "Preferenze",
+            "preferences_description": "I cookie delle preferenze memorizzano dati che influenzano il comportamento del sito, come la lingua o la regione.",
+            "statistics_title": "Statistiche",
+            "statistics_description": "I cookie statistici raccolgono dati in modo anonimo per aiutare i proprietari del sito a comprendere le interazioni dei visitatori.",
+            "marketing_title": "Marketing",
+            "marketing_description": "I cookie di marketing tracciano i visitatori del sito per mostrare annunci pertinenti e accattivanti, utili per gli editori e gli inserzionisti.",
+            "buttonAllow": "Consenti tutti i cookie",
+            "buttonDisallow": "Rifiuta tutti i cookie",
+            "buttonAccept": "Accetta impostazioni"
+        }
+    },
+    "policybanner": {
+        "title": "Informativa sulla privacy",
+        "title_01": "1. Azienda e responsabile della protezione dei dati",
+        "content_01": "Questa informativa sulla privacy si applica al sito web verladerampenprofi.de, gestito da AZ Machinery.",
+        "title_company_contact": "Contatto dell'azienda",
+        "company_contact_data": "AZ MACHINERY FRANCE: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE . Francia, Tel : (+33) 03 52 74 03 69, Identificativo aziendale: 824 654 958 000 19, Partita IVA: FR62 824 654 958",
+        "title_02": "2. Raccolta e utilizzo dei dati",
+        "title_02_01": "2.1 Generale",
+        "content_02_01": "Raccogliamo e utilizziamo dati personali solo nella misura necessaria per fornire un sito web funzionale, i nostri contenuti e servizi, e per rispondere alle richieste degli utenti.",
+        "title_02_02": "2.2 Dati di accesso/File di registro del server",
+        "content_02_02": "Quando si accede al nostro sito web, le informazioni vengono automaticamente memorizzate nei file di registro del server, che il tuo browser ci trasmette. Questi dati includono: (Tipo e versione del browser, Sistema operativo utilizzato, URL del referrer (pagina visitata in precedenza), Nome host del computer che accede (ad esempio, il tuo indirizzo IP), Ora della richiesta al server)",
+        "content_02_02_addon": "Questi dati non vengono utilizzati per identificare singoli individui, ma solo a scopi statistici per analizzare e migliorare l'utilizzo del nostro sito web.",
+        "title_02_03": "2.3 Cookie",
+        "content_02_03": "Il nostro sito web utilizza i cookie. I cookie sono piccoli file di testo memorizzati sul tuo dispositivo dal tuo browser. Aiutano a facilitare l'uso del nostro sito web e abilitano determinate funzionalità. Utilizziamo cookie di sessione sul nostro sito web. Questi cookie vengono automaticamente eliminati quando chiudi il tuo browser. Utilizziamo cookie statistici sul nostro sito web. Questi cookie ci aiutano ad analizzare e migliorare l'utilizzo del nostro sito web. Raccolgono dati anonimi, come il numero di visitatori, le pagine visitate e il tempo trascorso sul sito web. Puoi disattivare i cookie nelle impostazioni del tuo browser. Tuttavia, ti preghiamo di notare che ciò potrebbe limitare la funzionalità del nostro sito web.",
+        "title_03": "3. Condivisione dei dati",
+        "content_03": "Non condividiamo i tuoi dati personali con terzi, a meno che non sia richiesto dalla legge o con il tuo consenso.",
+        "title_04": "4. Sicurezza dei dati",
+        "content_04": "Adottiamo adeguate misure tecniche e organizzative per proteggere i tuoi dati personali da accessi non autorizzati, perdite, distruzioni, alterazioni o divulgazioni non autorizzate.",
+        "title_05": "5. I tuoi diritti",
+        "content_05": "Hai il diritto di accedere ai tuoi dati personali memorizzati, di rettificare i dati inesatti, di eliminare i tuoi dati, di limitare il trattamento dei tuoi dati, di opporsi al trattamento dei tuoi dati e alla portabilità dei dati.",
+        "title_06": "6. Collegamenti ad altri siti web",
+        "content_06": "Il nostro sito web può contenere collegamenti ad altri siti web. Questa informativa sulla privacy si applica solo al nostro sito web. Non abbiamo alcun controllo su come i tuoi dati vengono raccolti e utilizzati su altri siti web. Si prega di fare riferimento alle rispettive politiche sulla privacy degli altri siti web.",
+        "title_07": "7. Aggiornamenti dell'informativa sulla privacy",
+        "content_07": "Ci riserviamo il diritto di aggiornare la presente Informativa sulla privacy in qualsiasi momento. L'aggiornamento sarà pubblicato sul nostro sito.",
+        "last_update": "Ultimo aggiornamento: 10 febbraio 2024",
+        "buttonUnderstandPolicy": "Accetta e comprendi la politica"
+    },
+    "categories": {
+        "main": {
+            "head": {
+                "title": "Esplora il nostro assortimento di tipi di rampe di carico | AZ Machinery - Qualità francese",
+                "og:title": "Rampe di carico mobili, piattaforme di carico e soluzioni di rampa in Europa: Elettriche, idrauliche e flessibili, scorte elevate e consegne continue"
+            },
+            "title": "Esplora il nostro assortimento di tipi di rampe di carico",
+            "description": "Scopri una selezione diversa di tipi di rampe di carico progettate per soddisfare le tue esigenze di carico in modo efficiente. Da rampe mobili versatili a rampe statiche robuste, trovi la soluzione perfetta per operazioni di carico e scarico fluide.",
+            "mobile_ramp_label": "Rampe mobili",
+            "mobile_ramp_description": "Scopri la versatilità con le nostre rampe mobili di punta.",
+            "static_ramp_label": "Rampe statiche",
+            "static_ramp_description": "Scopri la robustezza con le nostre rampe di carico statiche.",
+            "station_ramp_label": "Rampe fisse",
+            "station_ramp_description": "Ottimizza l'efficienza con la nostra piattaforma di carico."
+        },
+         "category_product_lists": "{ country } - Rampe di carico in magazzino: Esplora { type }"
+    },
+    "products": {
+        "back_button": "INDIETRO",
+        "list": {
+            "head": {
+                "image": "Immagine",
+                "code": "Codice",
+                "handle_modus": "Gestione",
+                "price": "Prezzo"
+            },
+            "sidebar": {
+                "hydraulic_handling": "Rampe idrauliche",
+                "electric_handling": "Rampe elettriche",
+                "manuel_handling": "Rampe manuali",
+                "pps_handling": "Rampa ad aria o a gas"
+            },
+            "use_filer": "Utilizzare il filtro per restringere ulteriormente la ricerca",
+            "title": "Elenco delle rampe",
+            "table": {
+                "head": {
+                    "image": "Immagine",
+                    "code": "Codice",
+                    "handle_modus": "Gestione",
+                    "price": "Prezzo"
+                }
+            },
+            "filter-title": "Filtra per fonte di energia"
+        },
+        "details": {
+            "title": "Rampe di carico disponibili",
+            "back": "INDIETRO",
+            "sidebar": {
+                "have_a_question": "Hai domande?",
+                "contact_mail": "E-mail di contatto",
+                "we_call_you": "Dammi il tuo numero e ti richiameremo tra pochi minuti per aiutarti.",
+                "your_phone": "Scrivi il tuo numero",
+                "submit_button": "Invia",
+                "category_list": "Tipi di rampe di carico",
+            "policy": "Accetta la nostra politica sulla privacy."
+            }
+        },
+        "weight_capacity": "Capacità statica { tonnes } T",
+        "total_length": "Lunghezza massima: {total_length} mm",
+        "total_width": "Larghezza totale: {total_width} mm",
+        "width_used": "Larghezza utilizzata: {width_used} mm",
+        "length_inclined_plane": "Lunghezza piano inclinato: {length} mm",
+        "length_plateform_horizontal": "Lunghezza piattaforma orizzontale: { length } mm",
+        "length_lip_penetrating": "Lunghezza della chiazza di accesso: { length }",
+        "exit_lip_length": "Lunghezza della chiazza di uscita: { length }",
+        "slope_min_max": "Pendenze: Min. { min_slope }% - Max. { max_slope }%",
+        "lifting_height": "Altezza regolabile min. { min_height } mm - max. { max_height } mm",
+        "hydraulic_leveler": "Regolazione idraulica",
+        "description": "",
+        "description_feet": "",
+        "industry_used_description": "",
+        "unloaded_weight": "Peso scarico { weight } kg",
+        "anti-slip-title": "Antiscivolo",
+        "anti-slip-description": "Griglia zincata a caldo con superficie antiscivolo.",
+        "rent-title": "Affitto",
+        "rent-description": "Affitto a breve termine (1 giorno a 12 mesi) o affitto medio termine (12 a 36 mesi)",
+        "year_experience-title": "42 anni di esperienza",
+        "year_experience-description": "Con 42 anni di esperienza nel campo del carico, siamo esperti in rampe.",
+        "tailor_made_title": "Rampe su misura",
+        "tailor_made_description": "Beneficia della nostra esperienza nella realizzazione di rampe, garantendo la massima qualità disponibile sul mercato.",
+        "support_feet": "{ feet } piedi adattabili, a seconda del modello",
+        "side_railings": "Sicurezza: Parapetti laterali { height } mm",
+        "security_chaines": "Sicurezza: Inclusi 2 catene di fissaggio",
+        "target_audience_title": "Chi è in primo piano?",
+        "target_audience_01": "Logistica e trasporti",
+        "target_audience_02": "Magazzinaggio e centri di distribuzione",
+        "target_audience_03": "Produzione e manifattura",
+        "target_audience_04": "Costruzione e ingegneria",
+        "target_audience_05": "Agricoltura e allevamento",
+        "target_audience_06": "Automotive e manutenzione veicoli",
+        "target_audience_07": "Miniera e industrie estrattive",
+        "target_audience_08": "Trasporto e porti",
+        "target_audience_09": "Riciclaggio e gestione dei rifiuti",
+        "target_audience_10": "Servizi per eventi ed esposizioni",
+        "product_data_sheet": "Scheda tecnica del prodotto",
+        "form-8t": {
+            "layout1": {
+                "product_name": "RAMPA DI CARICO FISSA CON MOLLA LIVELLATRICE INTEGRATA - AZ RAMP-FORMATION 2020 - 8T",
+                "product_description": "Rampa di carico fissa con livellatore idraulico a molla integrato. Livellamento idraulico a molla con livellamento elettrico. 6 piedi di appoggio, altezza delle guide laterali: 1.200 mm, superficie di scorrimento antiscivolo in griglia dentata zincata a caldo"
+            }
+        },
+        "form-adj-8t-l": {
+            "layout1": {
+                "product_name": "FORMATION 2020 ADJ- 8T-L Rampa di carico fissa adiacente con livellatore",
+                "product_description": "La FORMATION 2020 ADJ- 8T-L rampa di carico fissa adiacente con livellatore offre una preparazione completa all'esame CACES-R489, garantendo efficienza e ottimizzazione dei tempi di formazione. Con la massima sicurezza per gli operatori, la sua robustezza e durata ne fanno un ottimo investimento per i centri di formazione. Ideale per l'utilizzo nei settori della logistica e dell'edilizia"
+            }
+        },
+        "mob-star-8t": {
+            "layout1": {
+                "product_name": "AZ RAMP-STAR- 8T Rampa di carico mobile con ponte ribaltabile idraulico",
+                "product_description": "La rampa di carico mobile AZ RAMP-STAR- 8T con ponte ribaltabile idraulico è ideale per le operazioni di carico e scarico in magazzini e centri logistici. Con una capacità di 8 tonnellate, questa rampa è perfetta per le piccole e medie imprese che movimentano carichi di dimensioni moderate. Il suo design robusto e l'impianto idraulico garantiscono prestazioni affidabili e sicure in una varietà di applicazioni industriali."
+            }
+        },
+        "mob-star-10t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante idraulico AZ RAMP-STAR- 10T",
+                "product_description": "Con una capacità di carico di 10 tonnellate, la rampa di carico mobile AZ RAMP-STAR- 10T con ponte basculante idraulico è ideale per le aziende che gestiscono i carichi più pesanti. Dai magazzini ai centri di distribuzione, questa rampa offre una soluzione efficiente e sicura per il carico e lo scarico di camion e container. Il suo design versatile e l'impianto idraulico garantiscono prestazioni ottimali in diverse condizioni di lavoro."
+            }
+        },
+        "mob-star-12t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico AZ RAMP-STAR- 12T",
+                "product_description": "Progettata per gestire carichi più pesanti, la rampa di carico mobile AZ RAMP-STAR- 12T con ponte ribaltabile idraulico offre una capacità di carico di 12 tonnellate. Questa rampa è perfetta per le industrie che gestiscono carichi ingombranti e pesanti, come l'edilizia, l'estrazione mineraria e la produzione. La sua robustezza e affidabilità la rendono uno strumento indispensabile per una gestione efficiente dei materiali."
+            }
+        },
+        "mob-star-15t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico AZ RAMP-STAR- 15T",
+                "product_description": "Per applicazioni che richiedono una capacità di carico ancora più elevata, la rampa di carico mobile AZ RAMP-STAR- 15T con ponte ribaltabile idraulico offre una capacità di 15 tonnellate. Questa rampa è ideale per le aziende che gestiscono carichi estremamente pesanti, come l'industria siderurgica, l'industria navale e l'industria delle costruzioni di macchinari pesanti. Il suo design robusto e il sistema idraulico ad alta resistenza garantiscono prestazioni eccezionali anche nelle condizioni più impegnative."
+            }
+        },
+        "mob-star-20t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico AZ RAMP-STAR- 20T",
+                "product_description": "Con una capacità di carico di 20 tonnellate, la rampa di carico mobile con ponte ribaltabile idraulico AZ RAMP-STAR- 20T è la scelta perfetta per applicazioni che richiedono la movimentazione di carichi eccezionalmente pesanti. Dall'industria dei trasporti all'industria petrolifera e del gas, questa rampa offre una soluzione robusta e affidabile per il carico e lo scarico di attrezzature e materiali. Il suo design durevole e il sistema idraulico ad alta resistenza garantiscono prestazioni ottimali negli ambienti industriali più impegnativi."
+            }
+        },
+        "fix-prime-8t": {
+            "layout1": {
+                "product_name": "AZ RAMP-PRIME FIX 10-8 RL con parapetti laterali",
+                "product_description": "La nostra rampa di carico fissa Prime da 8 tonnellate è la scelta ottimale per magazzini e centri logistici che gestiscono carichi di medie dimensioni. Realizzata in acciaio pesante zincato a caldo, questa rampa garantisce durata e affidabilità, rendendola ideale per il carico e lo scarico di camion con pianale o Tautliner, nonché di container marittimi."
+            }
+        },
+        "fix-prime-10t": {
+            "layout1": {
+                "product_name": "AZ RAMP-PRIME FIX 10-10 RL. con parapetti laterali",
+                "product_description": "Con una capacità di carico di 10 tonnellate, la nostra rampa di carico fissa Prime offre prestazioni robuste per le operazioni di magazzino pesanti. Realizzata con materiali durevoli e dotata di un design statico, questa rampa è perfetta per caricare e scaricare in modo efficiente camion con pianale o Tautliner, nonché container marittimi."
+            }
+        },
+        "fix-prime-12t": {
+            "layout1": {
+                "product_name": "Rampa di carico fissa AZ RAMP-PRIME FIX 10-12 RL. con parapetti laterali",
+                "product_description": "La nostra rampa di carico Prime fissa da 12 tonnellate è progettata per gestire carichi pesanti con facilità, rendendola un bene indispensabile per i magazzini che si occupano di carichi di grandi dimensioni. Realizzata in acciaio zincato a caldo pesante, questa rampa garantisce longevità e affidabilità, rendendola adatta per il carico e lo scarico di vari tipi di merci, compresi camion con pianale ribassato o Tautliner e container marittimi."
+            }
+        },
+        "star-llo-8t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante AZ RAMP-STAR- LLO-8T",
+                "product_description": "La AZ RAMP-STAR- LLO-8T, con una capacità di carico di 8 tonnellate, è la soluzione perfetta per carichi di medie dimensioni in magazzini e centri di distribuzione. Dotata di un ponte basculante idraulico e parapetti di sicurezza laterali, questa rampa garantisce un carico e uno scarico sicuri ed efficienti di camion con pianale ribassato o Tautliner, nonché di container marittimi. La sua ampia piattaforma orizzontale la rende ideale per settori come la produzione, l'edilizia e la logistica."
+            }
+        },
+        "star-llo-10t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante AZ RAMP-STAR- LLO-10T",
+                "product_description": "Con una capacità di carico di 10 tonnellate, la AZ RAMP-STAR- LLO-10T offre prestazioni robuste per le operazioni di magazzino pesanti. Dotata di quattro piedi di supporto, superficie di scorrimento antiscivolo e parapetti di sicurezza rimovibili, questa rampa è adatta per il carico e lo scarico di vari tipi di merci, compresi macchinari e attrezzature di grandi dimensioni. Settori come la produzione automobilistica, la produzione di acciaio e l'agricoltura possono trarre vantaggio dalla sua versatilità e affidabilità."
+            }
+        },
+        "star-llo-12t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante AZ RAMP-STAR- LLO-12T",
+                "product_description": "La AZ RAMP-STAR- LLO-12T, in grado di gestire carichi fino a 12 tonnellate, è una potenza nella logistica di magazzino. Dotata di un ponte basculante idraulico, catene di ancoraggio e una grande piattaforma orizzontale, questa rampa eccelle nel carico e scarico di macchinari pesanti e materiali da costruzione. Settori come l'estrazione mineraria, l'energia e la produzione di macchinari pesanti si affidano alla sua robustezza e durata per operazioni senza problemi."
+            }
+        },
+        "star-llo-15t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante AZ RAMP-STAR- LLO-15T",
+                "product_description": "Con una capacità di carico di 15 tonnellate, l'AZ RAMP-STAR- LLO-15T è la scelta ideale per le industrie che richiedono soluzioni di carico robuste. Sia che si tratti di caricare e scaricare attrezzature di grandi dimensioni o di trasportare materiali industriali pesanti, questa rampa offre prestazioni insuperabili. Industrie come l'aerospaziale, la cantieristica navale e le installazioni di energie rinnovabili si affidano alla sua stabilità e affidabilità per le loro operazioni critiche."
+            }
+        },
+        "star-llo-20t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante AZ RAMP-STAR- LLO-20T",
+                "product_description": "L'AZ RAMP-STAR- LLO-20T, progettata per gestire carichi pesanti fino a 20 tonnellate, è la soluzione definitiva per gli ambienti di magazzino più impegnativi. Con il suo ponte basculante idraulico, un'ampia piattaforma orizzontale e le barre di sicurezza laterali, questa rampa garantisce un carico e uno scarico sicuri ed efficienti di carichi di grandi dimensioni. Industrie come quella del petrolio e del gas, delle costruzioni e dello sviluppo delle infrastrutture si affidano alla sua robustezza e versatilità per le loro esigenze logistiche di trasporto di carichi pesanti."
+            }
+        },
+        "star-zr-8t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante e ZR 500 mm AZ RAMP-STAR-8T-ZR",
+                "product_description": "L'AZ RAMP-STAR-8T-ZR è una rampa di carico mobile progettata per applicazioni versatili, con un ponte basculante pieghevole idraulicamente e una piastra di ingresso e labbra di uscita ZR 500 mm. Con una capacità di carico di 8 tonnellate, questa rampa è perfetta per magazzini e centri logistici che richiedono operazioni di carico e scarico efficienti."
+            }
+        },
+        "star-zr-10t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante e ZR 500 mm AZ RAMP-STAR-10T-ZR",
+                "product_description": "Con una capacità di carico di 10 tonnellate, l'AZ RAMP-STAR-10T-ZR offre prestazioni robuste per compiti di carico pesanti. La sua piastra di ingresso e labbra di uscita pieghevoli idraulicamente, insieme al design ZR 500 mm, la rendono ideale per la movimentazione di una vasta gamma di tipi di carico in vari settori industriali."
+            }
+        },
+        "star-zr-12t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante e ZR 500 mm AZ RAMP-STAR-12T-ZR",
+                "product_description": "L'AZ RAMP-STAR-12T-ZR, in grado di gestire carichi fino a 12 tonnellate, è una potenza nella logistica dei magazzini. Dotata di un ponte basculante pieghevole idraulicamente e di una piastra di ingresso e labbra di uscita ZR 500 mm, questa rampa garantisce operazioni di carico e scarico fluide ed efficienti in ambienti impegnativi."
+            }
+        },
+        "star-zr-15t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante e ZR 500 mm AZ RAMP-STAR-15T-ZR",
+                "product_description": "Con una capacità di carico di 15 tonnellate, l'AZ RAMP-STAR-15T-ZR è la scelta ideale per le industrie che richiedono soluzioni di carico pesanti. La sua piastra di ingresso e le labbra di uscita pieghevoli idraulicamente, combinate con il design ZR 500 mm, lo rendono adatto per la movimentazione di macchinari e attrezzature di grandi dimensioni con facilità."
+            }
+        },
+        "star-zr-20t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte basculante e ZR 500 mm AZ RAMP-STAR-20T-ZR",
+                "product_description": "L'AZ RAMP-STAR-20T-ZR, progettato per gestire carichi pesanti fino a 20 tonnellate, è la soluzione definitiva per gli ambienti di magazzino più impegnativi. Dotato di un ponte basculante pieghevole idraulicamente e di una piastra di ingresso e labbra di uscita ZR 500 mm, questa rampa garantisce un carico e uno scarico sicuri ed efficienti di carichi di grandi dimensioni."
+            }
+        },
+        "stat-disp-6t": {
+            "layout1": {
+                "product_name": "Stazione logistica con rampa e 3 banchine di carico AZ RAMP-DISPATCH 3-11.9-9.1-6T",
+                "product_description": "L'AZ RAMP-DISPATCH 3-11.9-9.1-6T è la soluzione ideale per i professionisti della logistica e le organizzazioni di test certificate CACES. Questa rampa è progettata per operazioni di carico e scarico efficienti, con tre banchine di carico e una capacità di carico da 6 a 10 tonnellate."
+            }
+        },
+        "stat-disp-8t": {
+            "layout1": {
+                "product_name": "Stazione logistica con rampa e 3 banchine di carico AZ RAMP-DISPATCH 3-11.9-9.1-8T",
+                "product_description": "L'AZ RAMP-DISPATCH 3-11.9-9.1-8T offre un'efficienza migliorata per le operazioni logistiche con il suo design robusto e una capacità di carico di 8 tonnellate. Ideale per l'uso con carrelli elevatori a 3 e 4 ruote, questa rampa offre esperienze di carico e scarico senza soluzione di continuità per magazzini e centri di distribuzione."
+            }
+        },
+        "stat-disp-10t": {
+            "layout1": {
+                "product_name": "Stazione logistica con rampa e 3 banchine di carico AZ RAMP-DISPATCH 3-11.9-9.1-10T",
+                "product_description": "L'AZ RAMP-DISPATCH 3-11.9-9.1-10T è progettato per gestire carichi pesanti con facilità, vantando una capacità di carico di 10 tonnellate. Ideale per magazzini e centri di distribuzione, questa rampa garantisce operazioni di carico e scarico efficienti per una varietà di tipi di carico. La sua costruzione robusta e le tre banchine di carico lo rendono una scelta affidabile per i professionisti della logistica che cercano una maggiore produttività."
+            }
+        },
+        "star-8t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponti ribaltabili elettrici e ZR 500 mm AZ RAMP-star-8t-zr-llo-e",
+                "product_description": "L'AZ RAMP-STAR-8-ZR-LLO-E è progettata per semplificare le operazioni di carico e scarico con i suoi ponti ribaltabili elettrici e il design ZR 500 mm. Con una capacità di carico di 8 tonnellate, questa rampa è perfetta per magazzini, centri di distribuzione e hub logistici. La sua capacità di sollevamento elettrico garantisce transizioni senza soluzione di continuità per carrelli elevatori a 3 e 4 ruote, mentre la rampa ampia e il grande piano orizzontale facilitano le operazioni di carico e scarico dei camion. Che si tratti di gestire pallet, container o altri carichi pesanti, questa rampa offre versatilità e affidabilità per varie applicazioni industriali."
+            }
+        },
+        "star-10t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponti ribaltabili elettrici e ZR 500 mm AZ RAMP-STAR-10-ZR-LLO-E",
+                "product_description": "L'AZ RAMP-STAR-10-ZR-LLO-E è progettata per gestire carichi più pesanti con facilità, vantando una capacità di carico di 10 tonnellate. Adatta a magazzini, impianti di produzione e cantieri navali, questa rampa garantisce operazioni di carico e scarico efficienti per un'ampia gamma di tipi di carico. I suoi ponti ribaltabili elettrici e il design ZR 500 mm offrono maggiore comodità e sicurezza, mentre i supporti regolabili e la superficie di corsa antiscivolo migliorano la stabilità e la produttività."
+            }
+        },
+        "star-12t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponti ribaltabili elettrici e ZR 500 mm AZ RAMP-star-12t-zr-llo-e",
+                "product_description": "Con una capacità di carico di 12 tonnellate, l'AZ RAMP-STAR-12-ZR-LLO-E offre prestazioni robuste per ambienti industriali impegnativi. Dai magazzini automobilistici ai cantieri edili, questa rampa fornisce soluzioni affidabili di carico e scarico per attrezzature e macchinari pesanti. I suoi ponti ribaltabili elettrici, la rampa ampia e la superficie di corsa antiscivolo garantiscono operazioni senza problemi, mentre le ringhiere di sicurezza rimovibili e i supporti regolabili offrono versatilità e facilità d'uso."
+            }
+        },
+        "star-15t-zr-llo-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponti ribaltabili elettrici e ZR 500 mm AZ RAMP-star-15t-zr-llo-e",
+                "product_description": "L'AZ RAMP-STAR-15-ZR-LLO-E è una soluzione potente per le operazioni di carico e scarico pesanti, vantando un'impressionante capacità di carico di 15 tonnellate. Progettata per impianti industriali, porti e centri di distribuzione, questa rampa garantisce una gestione senza problemi di carichi e macchinari di grandi dimensioni. I suoi ponti ribaltabili elettrici e il design ZR 500 mm offrono comodità e sicurezza, mentre i supporti regolabili e la superficie di corsa antiscivolo migliorano la stabilità e la produttività. Che si tratti di caricare/scaricare container, attrezzature pesanti o materiali sfusi, questa rampa offre affidabilità ed efficienza in ambienti impegnativi."
+            }
+        },
+        "star-rl-8t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico - AZ RAMP-STAR-RL-8T",
+                "product_description": "L'AZ RAMP-STAR-RL-8T combina l'efficienza idraulica con un design robusto, rendendola adatta a varie applicazioni industriali. Con una capacità di carico di 8 tonnellate, questa rampa è perfetta per magazzini, centri di distribuzione e impianti di produzione. Il suo ponte ribaltabile idraulico garantisce operazioni di carico e scarico senza problemi, mentre le alte ringhiere di sicurezza laterali forniscono una maggiore sicurezza. Che si tratti di gestire pallet, macchinari o attrezzature pesanti, questa rampa offre affidabilità e una maggiore produttività."
+            }
+        },
+        "star-rl-10t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico - AZ RAMP-STAR-RL-10T",
+                "product_description": "Con una capacità di carico di 10 tonnellate, l'AZ RAMP-STAR-RL-10T è progettata per applicazioni pesanti in ambienti industriali. Dai magazzini automobilistici ai cantieri edili, questa rampa offre soluzioni efficienti per il carico e lo scarico di vari tipi di merci. Il suo ponte ribaltabile idraulico facilita transizioni senza soluzione di continuità, mentre le alte guardrail di sicurezza laterali garantiscono la sicurezza dei lavoratori e la protezione delle attrezzature. Versatile e affidabile, questa rampa è un bene prezioso per le aziende che cercano di ottimizzare le loro operazioni logistiche."
+            }
+        },
+        "star-rl-12t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico - AZ RAMP-STAR-RL-12T",
+                "product_description": "L'AZ RAMP-STAR-RL-12T è progettata per gestire carichi pesanti con facilità, vantando una capacità di carico di 12 tonnellate. Adatta a magazzini, impianti di produzione e piazzali di spedizione, questa rampa garantisce operazioni di carico e scarico efficienti per un'ampia gamma di tipi di merci. Il suo design con ponte ribaltabile idraulico fornisce transizioni senza soluzione di continuità, mentre le alte guardrail di sicurezza laterali offrono una protezione aggiuntiva. Sia che si carichino/scarichino pallet, macchinari o materiali sfusi, questa rampa offre affidabilità e prestazioni in ambienti impegnativi."
+            }
+        },
+        "star-rl-15t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico - AZ RAMP-STAR-RL-15T",
+                "product_description": "Con una capacità di carico di 15 tonnellate, l'AZ RAMP-STAR-RL-15T offre prestazioni robuste per applicazioni industriali impegnative. Dai centri logistici ai cantieri edili, questa rampa fornisce soluzioni efficienti per il carico e lo scarico di attrezzature e macchinari pesanti. Il suo design con ponte ribaltabile idraulico garantisce operazioni senza problemi, mentre le alte guardrail di sicurezza laterali offrono una maggiore sicurezza per i lavoratori. Versatile e durevole, questa rampa è uno strumento essenziale per le aziende che cercano di razionalizzare le loro operazioni logistiche."
+            }
+        },
+        "star-rl-20t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con ponte ribaltabile idraulico - AZ RAMP-STAR-RL-20T",
+                "product_description": "L'AZ RAMP-STAR-RL-20T è una soluzione potente per compiti di carico e scarico pesanti, vantando un'impressionante capacità di carico di 20 tonnellate. Progettata per impianti industriali, porti e centri di distribuzione, questa rampa garantisce una gestione senza soluzione di continuità di carichi e macchinari di grandi dimensioni. Il suo design con ponte ribaltabile idraulico offre convenienza e sicurezza, mentre le alte guardrail di sicurezza laterali forniscono una protezione aggiuntiva. Sia che si carichino/scarichino container di spedizione, attrezzature pesanti o materiali sfusi, questa rampa offre affidabilità ed efficienza in ambienti impegnativi."
+            }
+        },
+        "plat-6t": {
+            "layout1": {
+                "product_name": "Stazione logistica con rampa, banchine di carico - AZ RAMP-DISPATCH 6T",
+                "product_description": "L'AZ RAMP-DISPATCH 6T è una soluzione logistica versatile progettata per semplificare le operazioni di carico e scarico. Con una capacità di peso di 6 tonnellate, questa stazione è adatta per magazzini, centri di distribuzione e hub logistici. Dotata di 9 punti di attracco, di cui 3 con banchine di carico idrauliche, offre una gestione efficiente di vari tipi di carico. I piedi di supporto preforati sono regolabili per un posizionamento preciso, mentre i paraurti integrati forniscono una protezione aggiuntiva. Le ringhiere di sicurezza laterali garantiscono la sicurezza sul posto di lavoro, mentre la superficie di scorrimento antiscivolo assicura stabilità durante le operazioni. Ideale per l'uso con carrelli elevatori e carrelli elevatori a 3 o 4 ruote, questa stazione migliora la produttività e l'efficienza del flusso di lavoro in ambienti logistici impegnativi."
+            }
+        },
+        "plat-8t": {
+            "layout1": {
+                "product_name": "Stazione logistica con rampa, banchine di carico - AZ RAMP-DISPATCH 8T",
+                "product_description": "L'AZ RAMP-DISPATCH 8T è progettato per soddisfare le esigenze delle moderne operazioni logistiche, offrendo una capacità di peso di 8 tonnellate. Con 9 punti di attracco, incluse banchine di carico idrauliche, questa stazione garantisce un carico e scarico agevole delle merci. I piedi di supporto preforati forniscono stabilità, mentre i paraurti integrati offrono una protezione aggiuntiva contro gli impatti. Dotato di ringhiere di sicurezza laterali e di una superficie di scorrimento antiscivolo, dà priorità alla sicurezza e all'efficienza sul posto di lavoro. Sia che si tratti di gestire pallet o attrezzature pesanti, questa stazione è una soluzione affidabile per magazzini e centri di distribuzione."
+            }
+        },
+        "plat-10t": {
+            "layout1": {
+                "product_name": "Stazione logistica con rampa, banchine di carico - AZ RAMP-DISPATCH 10T",
+                "product_description": "Progettata per applicazioni logistiche pesanti, l'AZ RAMP-DISPATCH 10T vanta una capacità di peso di 10 tonnellate. Dotata di 9 punti di attracco e banchine di carico idrauliche, questa stazione garantisce operazioni di carico e scarico efficienti. I piedi di supporto preforati offrono la possibilità di regolazione per un posizionamento ottimale, mentre i paraurti integrati forniscono una protezione aggiuntiva. Con ringhiere di sicurezza laterali e una superficie di scorrimento antiscivolo, dà priorità alla sicurezza e alla produttività sul posto di lavoro. Ideale per l'uso con carrelli elevatori e carrelli elevatori, questa stazione migliora l'efficienza del flusso di lavoro in ambienti logistici ad alto volume."
+            }
+        },
+        "star-8t-zr-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica con ZR 500 mm - AZ RAMP-STAR-8T-ZR-E",
+                "product_description": "L'AZ RAMP-STAR-8T-ZR-E è una rampa di carico mobile elettrica progettata per operazioni di carico e scarico efficienti. Con una capacità di peso di 8 tonnellate, questa rampa offre versatilità e affidabilità per varie industrie. Dotata di banchine con un'area di rifugio di 500 mm, garantisce una movimentazione sicura e protetta del carico. Il vassoio di ingresso e le labbra di uscita si piegano idraulicamente tramite un motore elettrico, fornendo facilità d'uso e comodità. La rampa è adatta per l'uso con carrelli elevatori a 3 e 4 ruote, migliorando l'efficienza del flusso di lavoro. Dotata di ringhiere di sicurezza laterali, di una superficie di scorrimento antiscivolo e di 4 piedi di supporto con teste adattive, dà priorità alla sicurezza sul posto di lavoro. Ideale per magazzini, centri di distribuzione e hub logistici, questa rampa semplifica le operazioni e migliora la produttività."
+            }
+        },
+        "star-10t-zr-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica con ZR 500 mm - AZ RAMP-STAR-10T-ZR-E",
+                "product_description": "L'AZ RAMP-STAR-10T-ZR-E è progettata per operazioni di carico e scarico pesanti, offrendo una capacità di peso di 10 tonnellate. Dotata di bacini di attracco e un'area di rifugio di 500 mm, garantisce una movimentazione sicura delle merci in vari settori industriali. Il sistema idraulico elettrico facilita la piegatura del vassoio di ingresso e delle labbra di uscita, assicurando un funzionamento fluido. Con 4 piedi di supporto, parapetti di sicurezza laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza e all'efficienza sul posto di lavoro. Adatta per l'uso con carrelli elevatori a 3 e 4 ruote, questa rampa migliora l'efficienza del flusso di lavoro negli ambienti logistici impegnativi."
+            }
+        },
+        "star-12t-zr-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica con ZR 500 mm - AZ RAMP-STAR-12T-ZR-E",
+                "product_description": "L'AZ RAMP-STAR-12T-ZR-E è progettata per soddisfare le esigenze delle operazioni di carico e scarico impegnative, con una capacità di peso di 12 tonnellate. Dotata di bacini di attracco con un'area di rifugio di 500 mm, garantisce una movimentazione sicura delle merci in diversi settori industriali. Il sistema idraulico elettrico consente la piegatura senza problemi del vassoio di ingresso e delle labbra di uscita, migliorando la comodità dell'utente. Con parapetti di sicurezza laterali, una superficie di corsa antiscivolo e 4 piedi di supporto, dà priorità alla sicurezza sul posto di lavoro. Adatta per l'uso con carrelli elevatori a 3 e 4 ruote, questa rampa offre affidabilità ed efficienza negli ambienti logistici ad alto volume."
+            }
+        },
+        "star-15t-zr-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica con ZR 500 mm - AZ RAMP-STAR-15T-ZR-E",
+                "product_description": "L'AZ RAMP-STAR-15T-ZR-E è progettata per operazioni di carico e scarico pesanti, offrendo una capacità di peso di 15 tonnellate. Dotata di bacini di attracco con un'area di rifugio di 500 mm, garantisce una movimentazione sicura delle merci in vari settori industriali. Il sistema idraulico elettrico facilita la piegatura del vassoio di ingresso e delle labbra di uscita, assicurando un funzionamento fluido. Con 4 piedi di supporto, parapetti di sicurezza laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza e all'efficienza sul posto di lavoro. Adatta per l'uso con carrelli elevatori a 3 e 4 ruote, questa rampa migliora l'efficienza del flusso di lavoro negli ambienti logistici impegnativi."
+            }
+        },
+        "star-20t-zr-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica con ZR 500 mm - AZ RAMP-STAR-20T-ZR-E",
+                "product_description": "L'AZ RAMP-STAR-20T-ZR-E è progettata per soddisfare le esigenze delle operazioni di carico pesanti, con una capacità di peso di 20 tonnellate. Dotata di bacini di attracco con un'area di rifugio di 500 mm, garantisce una movimentazione sicura delle merci in diversi settori industriali. Il sistema idraulico elettrico consente la piegatura senza problemi del vassoio di ingresso e delle labbra di uscita, migliorando la comodità dell'utente. Con parapetti di sicurezza laterali, una superficie di corsa antiscivolo e 4 piedi di supporto, dà priorità alla sicurezza sul posto di lavoro. Adatta per l'uso con carrelli elevatori a 3 e 4 ruote, questa rampa offre affidabilità ed efficienza negli ambienti logistici ad alto volume."
+            }
+        },
+        "star-10t-xl-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica LARGE - AZ RAMP-STAR-10-XL-E",
+                "product_description": "L'AZ RAMP-STAR-10-XL-E offre una soluzione robusta per le operazioni di carico pesante, con una capacità di peso di 10 tonnellate. Dotata di sollevamento elettrico delle labbra di inclinazione di ingresso e uscita, questa rampa garantisce un funzionamento senza problemi in diversi ambienti industriali. Il suo ampio design della rampa consente il carico di varie attrezzature per la costruzione e la movimentazione con facilità. Ideale per l'uso in magazzini, cantieri e centri logistici, migliora l'efficienza del flusso di lavoro. Dotata di 4 gambe di supporto, parapetti laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza sul luogo di lavoro. Adatta per l'uso con carrelli elevatori a 3 e 4 ruote, questa rampa offre versatilità e affidabilità in ambienti impegnativi."
+            }
+        },
+        "star-15t-xl-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica LARGE - AZ RAMP-STAR-15-XL-E",
+                "product_description": "L'AZ RAMP-STAR-15-XL-E è progettata per le operazioni di carico pesante, con una capacità di peso di 15 tonnellate. Con capacità di sollevamento elettrico per le labbra di inclinazione di ingresso e uscita, garantisce una movimentazione fluida del carico in ambienti industriali. Il suo ampio design della rampa facilita il carico di varie attrezzature per la costruzione e la movimentazione, migliorando l'efficienza operativa. Adatta per l'uso in magazzini, centri logistici e cantieri, offre affidabilità e versatilità. Dotata di 4 gambe di supporto, parapetti laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza sul luogo di lavoro. Compatibile con carrelli elevatori a 3 e 4 ruote, questa rampa semplifica le operazioni di carico e scarico."
+            }
+        },
+        "star-20t-xl-e": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile elettrica LARGE - AZ RAMP-STAR-20-XL-E",
+                "product_description": "L'AZ RAMP-STAR-20-XL-E è progettata per le operazioni di carico pesante, con una capacità di peso di 20 tonnellate. Dotata di meccanismi di sollevamento elettrico per le labbra di inclinazione di ingresso e uscita, garantisce una movimentazione efficiente del carico in ambienti industriali. Il suo ampio design della rampa consente di caricare varie attrezzature per la costruzione e la movimentazione, facilitando le operazioni di carico e scarico senza problemi. Ideale per magazzini, cantieri e centri logistici, migliora l'efficienza del flusso di lavoro. Dotata di 4 gambe di supporto, parapetti laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza sul luogo di lavoro. Compatibile con carrelli elevatori a 3 e 4 ruote, questa rampa offre durata e versatilità in ambienti impegnativi."
+            }
+        },
+        "star-10t-xl": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile LARGE - AZ RAMP-STAR-10-XL",
+                "product_description": "L'AZ RAMP-STAR-10-XL è una soluzione versatile progettata per le operazioni di carico pesante, con una capacità di peso di 10 tonnellate. Il suo ampio design della rampa consente il carico di varie attrezzature per la costruzione e la movimentazione con facilità. Ideale per l'uso in magazzini, cantieri e centri logistici, migliora l'efficienza operativa. Dotata di 4 gambe di supporto, parapetti laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza sul luogo di lavoro. Compatibile con carrelli elevatori a 3 e 4 ruote, questa rampa offre affidabilità e versatilità in ambienti impegnativi."
+            }
+        },
+        "star-15t-xl": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile LARGE - AZ RAMP-STAR-15-XL",
+                "product_description": "L'AZ RAMP-STAR-15-XL è progettata per affrontare operazioni di carico pesanti, con una capacità di peso di 15 tonnellate. Il suo design a rampa larga facilita il carico di diversi macchinari da costruzione e movimentazione, garantendo un'efficienza del flusso di lavoro senza soluzione di continuità. Adatta per l'uso in magazzini, centri logistici e cantieri edili, offre affidabilità e versatilità. Dotata di 4 gambe di supporto, parapetti di sicurezza laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza sul luogo di lavoro. Compatibile con carrelli elevatori a 3 e 4 ruote, questa rampa semplifica i processi di carico e scarico."
+            }
+        },
+        "star-20t-xl": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile LARGE - AZ RAMP-STAR-20-XL",
+                "product_description": "L'AZ RAMP-STAR-20-XL è progettata per compiti di carico pesanti, con una capacità di peso di 20 tonnellate. Il suo design a rampa larga consente di caricare vari macchinari da costruzione e movimentazione, facilitando i processi di carico e scarico in modo efficiente. Ideale per magazzini, cantieri edili e centri logistici, migliora l'efficienza del flusso di lavoro. Dotata di 4 gambe di supporto, parapetti di sicurezza laterali e una superficie di corsa antiscivolo, dà priorità alla sicurezza sul luogo di lavoro. Compatibile con carrelli elevatori a 3 e 4 ruote, questa rampa offre durata e affidabilità in ambienti impegnativi."
+            }
+        },
+        "star-otc-8t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con labbra di inclinazione idraulica. AZ RAMP-STAR-OTC-8T",
+                "product_description": "L'AZ RAMP-STAR-OTC-8T è dotata di labbra di inclinazione idraulica per facilitare le operazioni di carico e scarico. Il suo vassoio di ingresso pieghevole idraulicamente, abbinato a una pompa manuale, garantisce un funzionamento agevole. Con una manovella idraulica per la regolazione delle ruote, si adatta a carrelli elevatori a 3 e 4 ruote, transpallet, impilatori e vari veicoli. Dotata di 4 gambe di supporto adattive e una capacità di 50 tonnellate, garantisce stabilità. Le ringhiere di sicurezza laterali rimovibili, una superficie di corsa antiscivolo e i paraurti per banchina inclusi migliorano la sicurezza sul luogo di lavoro. Inoltre, include un'area di rifugio di 500 mm per maggiore comodità."
+            }
+        },
+        "star-otc-10t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con labbra di inclinazione idraulica. AZ RAMP-STAR-OTC-10T",
+                "product_description": "L'AZ RAMP-STAR-OTC-10T è dotata di labbra di inclinazione idraulica per un carico e scarico senza soluzione di continuità. Il suo vassoio di ingresso pieghevole idraulicamente, abbinato a una pompa manuale, garantisce un funzionamento efficiente. Progettata per carrelli elevatori a 3 e 4 ruote, transpallet, impilatori e vari veicoli, offre versatilità. Dotata di 4 gambe di supporto adattive e una capacità di 50 tonnellate, garantisce stabilità. Le ringhiere di sicurezza laterali rimovibili, una superficie di corsa antiscivolo e i paraurti per banchina inclusi danno priorità alla sicurezza sul luogo di lavoro. Inoltre, include un'area di rifugio di 500 mm per maggiore comodità."
+            }
+        },
+        "star-otc-12t": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile con labbra di inclinazione idraulica. AZ RAMP-STAR-OTC-12T",
+                "product_description": "L'AZ RAMP-STAR-OTC-12T è dotata di labbra di inclinazione idraulica per operazioni di carico e scarico efficienti. Il suo vassoio di ingresso pieghevole idraulicamente, abbinato a una pompa manuale, garantisce un funzionamento agevole. Progettata per l'uso con carrelli elevatori a 3 e 4 ruote, transpallet, impilatori e vari veicoli, offre versatilità. Con 4 gambe di supporto adattive e una capacità di 50 tonnellate, garantisce stabilità durante l'uso. Le ringhiere di sicurezza laterali rimovibili, una superficie di corsa antiscivolo e i paraurti per banchina inclusi danno priorità alla sicurezza sul luogo di lavoro. Inoltre, include un'area di rifugio di 500 mm per maggiore comodità."
+            }
+        },
+        "easy-xl-8t-ls": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile su PPS. AZ RAMP-EASY XL-8-LS, Capacità 8 T",
+                "product_description": "L'AZ RAMP-EASY XL-8-LS vanta una capacità di 8 tonnellate e presenta una superficie di corsa in grigliato zincato a caldo antiscivolo. Dotata di 2 catene di ancoraggio e un gancio di traino retrattile per lo spostamento tramite forche di carrello elevatore, offre comodità ed efficienza. La rampa è montata su pneumatici solidi flessibili, garantendo mobilità. Con parapetti di sicurezza laterali alti 350 mm, dà priorità alla sicurezza sul posto di lavoro. Le pendenze della rampa variano dal 7,78% al 12,45%, rendendola adatta per usi misti ed efficace su superfici irregolari come argilla, ghiaia e terreni danneggiati. Ideale per caricare/scaricare camion Plateau o Tautliner, carri e container marittimi."
+            }
+        },
+        "easy-xl-10t-ls": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile su PPS. AZ RAMP-EASY XL-10-LS, Capacità 10 T",
+                "product_description": "L'AZ RAMP-EASY XL-10-LS offre una capacità di 10 tonnellate e presenta una superficie di corsa in grigliato zincato a caldo antiscivolo. Dotata di 2 catene di ancoraggio e un gancio di traino retrattile per lo spostamento tramite forche di carrello elevatore, garantisce facilità d'uso. Montata su pneumatici solidi flessibili, offre mobilità in vari ambienti di lavoro. Con parapetti di sicurezza laterali alti 350 mm, migliora la sicurezza sul posto di lavoro. Le sue pendenze che variano dal 7,78% al 12,45% la rendono adatta per usi misti ed efficace su superfici irregolari. Perfetta per caricare/scaricare camion Plateau o Tautliner, carri e container marittimi."
+            }
+        },
+        "easy-xl-12t-ls": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile su PPS. AZ RAMP-EASY XL-12-LS, Capacità 12 T",
+                "product_description": "L'AZ RAMP-EASY XL-12-LS è progettata con una capacità di 12 tonnellate e presenta una superficie di corsa in grigliato zincato a caldo antiscivolo. Con 2 catene di ancoraggio e un gancio di traino retrattile per lo spostamento tramite forche di carrello elevatore, offre comodità e facilità d'uso. Montata su pneumatici solidi flessibili, garantisce mobilità in diversi ambienti di lavoro. La rampa è dotata di parapetti di sicurezza laterali alti 350 mm, migliorando la sicurezza sul posto di lavoro. Le sue pendenze variano dal 7,78% al 12,45%, rendendola adatta per varie applicazioni ed efficace su superfici irregolari. Ideale per caricare/scaricare camion Plateau o Tautliner, carri e container marittimi."
+            }
+        },
+        "easy-xl-15t-ls": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile su PPS. AZ RAMP-EASY XL-15-LS, Capacità 15 T",
+                "product_description": "L'AZ RAMP-EASY XL-15-LS, con una capacità di 15 tonnellate, presenta una superficie di corsa in grigliato zincato a caldo antiscivolo. È dotata di 2 catene di ancoraggio e un gancio di traino retrattile per lo spostamento tramite forche di carrello elevatore, garantendo comodità e facilità d'uso. Montata su pneumatici solidi flessibili, offre mobilità in vari ambienti di lavoro. La rampa include parapetti di sicurezza laterali alti 350 mm, migliorando la sicurezza sul posto di lavoro. Le sue pendenze che variano dal 7,78% al 12,45% la rendono adatta per diverse applicazioni ed efficace su superfici irregolari. Perfetta per caricare/scaricare camion Plateau o Tautliner, carri e container marittimi."
+            }
+        },
+        "easy-xl-20t-ls": {
+            "layout1": {
+                "product_name": "Rampa di carico mobile su PPS. AZ RAMP-EASY XL-20-LS, Capacità 20 T",
+                "product_description": "L'AZ RAMP-EASY XL-20-LS, con una capacità di 20 tonnellate, presenta una superficie di scorrimento in grigliato zincato a caldo antiscivolo. Dotata di 2 catene di ancoraggio e di un gancio di traino retrattile per lo spostamento tramite forche di carrello elevatore, garantisce comodità e facilità d'uso. Montata su pneumatici pieni flessibili, offre mobilità in vari ambienti di lavoro. La rampa include parapetti di sicurezza laterali alti 350 mm, migliorando la sicurezza sul posto di lavoro. Le sue pendenze che vanno dal 7,78% al 12,45% la rendono adatta per diverse applicazioni ed efficace su superfici irregolari. Perfetta per il carico/scarico di camion Plateau o Tautliner, vagoni e container marittimi."
+            }
+        }
+    }
+}
