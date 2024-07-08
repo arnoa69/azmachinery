@@ -13,13 +13,15 @@ return new class extends Migration
     {
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email');
-            $table->string('company_name');
-            $table->string('phone_number');
-            $table->string('locale');
-            $table->string('source');
-            $table->text('message');
+            $table->string('name')->nullable()->change();
+            $table->string('email')->nullable()->change();
+            $table->string('company_name')->nullable()->change();
+            $table->string('phone_number')->nullable()->change();
+            $table->string('locale')->nullable()->change();
+            $table->string('source')->nullable()->change();
+            $table->text('message')->nullable()->change();
+            $table->string('pipedrive_state')->nullable()->change();
+            $table->timestamp('pipedrive_state_change_date')->nullable()->change();
             $table->timestamps();
         });
     }
