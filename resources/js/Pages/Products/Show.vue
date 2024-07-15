@@ -23,77 +23,77 @@ const articleTag4 = ref(t("meta.article:tag4"));
 const { props } = usePage();
 product.value = props.product;
 
-const productInfo = computed(() => {
-    const info = [];
+// const productInfo = computed(() => {
+//     const info = [];
 
-    const match = product.value.product_name.match(/AZ\s+[A-Z\s0-9-]+/);
-    const brandName = match ? match[0] : '';
-    const numberOnly = product.value.product_code.match(/\d+/g);
-    info.push({ brand_name: brandName });
+//     const match = product.value.product_name.match(/AZ\s+[A-Z\s0-9-]+/);
+//     const brandName = match ? match[0] : '';
+//     const numberOnly = product.value.product_code.match(/\d+/g);
+//     info.push({ brand_name: brandName });
 
-    let keywords;
-    let operation;
-    switch (product.value.operation) {
-        case 'pps':
-            operation = t('meta.product_detail_view.title.gas');
-            keywords = t('meta.product_detail_view.keywords.keyword_gas');
-            break;
-        case 'hydraulic':
-            operation = t('meta.product_detail_view.title.hydraulic');
-            keywords = t('meta.product_detail_view.keywords.keyword_hydraulic');
-            break;
-        case 'leveler':
-            operation = t('meta.product_detail_view.title.leveler');
-            keywords = t('meta.product_detail_view.keywords.keyword_leveler');
-            break;
-        case 'electric':
-            operation = t('meta.product_detail_view.title.electric');
-            keywords = t('meta.product_detail_view.keywords.keyword_electric');
-            break;
-        default:
-            operation = product.value.operation;
-    }
+//     let keywords;
+//     let operation;
+//     switch (product.value.operation) {
+//         case 'pps':
+//             operation = t('meta.product_detail_view.title.gas');
+//             keywords = t('meta.product_detail_view.keywords.keyword_gas');
+//             break;
+//         case 'hydraulic':
+//             operation = t('meta.product_detail_view.title.hydraulic');
+//             keywords = t('meta.product_detail_view.keywords.keyword_hydraulic');
+//             break;
+//         case 'leveler':
+//             operation = t('meta.product_detail_view.title.leveler');
+//             keywords = t('meta.product_detail_view.keywords.keyword_leveler');
+//             break;
+//         case 'electric':
+//             operation = t('meta.product_detail_view.title.electric');
+//             keywords = t('meta.product_detail_view.keywords.keyword_electric');
+//             break;
+//         default:
+//             operation = product.value.operation;
+//     }
 
-    info.push({ operation })
+//     info.push({ operation })
 
-    let type;
-    switch (product.value.type) {
-        case 'fix_ramp':
-            type = t('meta.product_detail_view.title.static_ramp');
-            keywords += t('meta.product_detail_view.keywords.keyword_static');
-            break;
-        case 'mobile_ramp':
-            type = t('meta.product_detail_view.title.mobile_ramp');
-            keywords += t('meta.product_detail_view.keywords.keyword_mobile');
-            break;
-        case 'platform':
-            type = t('meta.product_detail_view.title.platform_ramp');
-            keywords += t('meta.product_detail_view.keywords.keyword_platform');
-            break;
-        default:
-            type = '';
-    }
-    info.push({ type });
+//     let type;
+//     switch (product.value.type) {
+//         case 'fix_ramp':
+//             type = t('meta.product_detail_view.title.static_ramp');
+//             keywords += t('meta.product_detail_view.keywords.keyword_static');
+//             break;
+//         case 'mobile_ramp':
+//             type = t('meta.product_detail_view.title.mobile_ramp');
+//             keywords += t('meta.product_detail_view.keywords.keyword_mobile');
+//             break;
+//         case 'platform':
+//             type = t('meta.product_detail_view.title.platform_ramp');
+//             keywords += t('meta.product_detail_view.keywords.keyword_platform');
+//             break;
+//         default:
+//             type = '';
+//     }
+//     info.push({ type });
 
-    let country = getLocalizedCountry();
-    info.push({ country })
-    info.push({ product_code: product.value.product_code })
+//     let country = getLocalizedCountry();
+//     info.push({ country })
+//     info.push({ product_code: product.value.product_code })
 
-    keywords += country + ",";
-    keywords += t('meta.product_detail_view.keywords.keyword_tonnes', { tonnes: numberOnly[0] });
-    keywords += brandName + ",";
-    keywords += t('meta.product_detail_view.keywords.keyword_stock') + ",";
-    keywords += t('meta.product_detail_view.keywords.keyword_buy_and_rent');
-    info.push({ dynamic_keywords: keywords })
-    info.push({ price: product.value.product_price })
+//     keywords += country + ",";
+//     keywords += t('meta.product_detail_view.keywords.keyword_tonnes', { tonnes: numberOnly[0] });
+//     keywords += brandName + ",";
+//     keywords += t('meta.product_detail_view.keywords.keyword_stock') + ",";
+//     keywords += t('meta.product_detail_view.keywords.keyword_buy_and_rent');
+//     info.push({ dynamic_keywords: keywords })
+//     info.push({ price: product.value.product_price })
 
-    return info;
-});
+//     return info;
+// });
 </script>
 
 <template>
     <Head>
-        <title> {{ productInfo[3].country }} {{ productInfo[0].brand_name }}
+<!--        <title> {{ productInfo[3].country }} {{ productInfo[0].brand_name }}
             {{ productInfo[2].type }} {{ productInfo[1].operation }}
         </title>
         <link rel="canonical" :href="canonicalUrl" />
@@ -132,7 +132,7 @@ const productInfo = computed(() => {
         <meta property="twitter:domain" :content="url" />
         <meta property="twitter:card" content="Summary Card" />
         <meta property="twitter:creator" content="@arnoa69" />
-        <meta property="twitter:site" content="@JeromeGuiguet" />
+        <meta property="twitter:site" content="@JeromeGuiguet" />  -->
     </Head>
     <Layout>
         <div>

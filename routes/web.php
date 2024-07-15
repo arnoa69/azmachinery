@@ -47,7 +47,8 @@ Route::middleware([LocaleMiddleware::class])->group(function () {
         });
 
         Route::get('/products', [ProductController::class, 'index'])->name('products.index');
-        Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');
+        Route::get('/{type}/{version}/{options?}/{slug}', [ProductController::class, 'show'])->name('products.show')
+            ->where('options', '.*');
         Route::get('/products/{slug}/pdf', [ProductController::class, 'generateProductPdf'])->name('products.pdf');
         Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
         Route::get('/category/{type}', [CategoryController::class, 'show'])->name('categories.show');
@@ -69,50 +70,3 @@ Route::post('/client-request', [ContactController::class, 'submit']);
 Route::fallback(function () {
     return redirect(app()->getLocale());
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // Default route for English without locale in the URL
-// Route::get('/', function () {
-//     $defaultLocale = session()->get('locale'); // or any other default locale
-//     return redirect("/{$defaultLocale}");
-
-// })->name('home');
-
-// // Routes with locale prefix
-// Route::group(['prefix' => '{locale}'], function () {
-//     Route::get('/', function () {
-//         return Inertia::render('Welcome', [
-//             'canLogin' => Route::has('login'),
-//             'canRegister' => Route::has('register'),
-//             'laravelVersion' => Application::VERSION,
-//             'phpVersion' => PHP_VERSION,
-//         ]);
-//     })->where('locale', '[a-z]{2}');
-
-//     Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->group(function () {
-//         Route::get('/dashboard', function () {
-//             return Inertia::render('Dashboard');
-//         })->name('dashboard');
-//     });
-
-//     Route::get('/products', [ProductController::class, 'index'])->name('products.index');
-//     Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');
-//     Route::get('/products/{slug}/pdf', [ProductController::class, 'generateProductPdf'])->name('products.pdf');
-//     Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
-//     Route::get('/category/{type}', [CategoryController::class, 'show'])->name('categories.show');
-
-//     });
-//     Route::post('/contact', [ContactController::class,'submit']);
-//     Route::post('/client-request', [ContactController::class, 'submit']);

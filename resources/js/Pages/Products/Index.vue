@@ -10,7 +10,6 @@ import { posthogModule } from '@/plugins/posthog'
 
 const products = ref([]);
 const { props } = usePage();
-
 products.value = props.products;
 
 const canonicalUrl = ref('');

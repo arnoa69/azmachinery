@@ -1,7 +1,7 @@
 <script setup>
 import CategorySidebar from "../../../Components/Layouts/Layout1/Sidebar/CategorySidebar.vue";
 import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
-import { getLocalizedSlug } from '@/utils/localizedSlugMixin';
+import generateUrl from '@/utils/urlHelper';
 import { ref } from "vue";
 import { useI18n } from 'vue-i18n';
 
@@ -15,9 +15,11 @@ const props = defineProps({
     },
 });
 
-const localizedProductUrl = (product) =>  `/${locale.value}/products/${locale.value === 'en' ? product.slug : product['slug_' + locale.value]}`;
-
+const generateFreshUrl = (slug, type) => {
+    return generateUrl(slug, type, locale.value);
+}
 </script>
+
 <template>
     <section id="product-list" class="about">
         <div class="container">
@@ -53,15 +55,15 @@ const localizedProductUrl = (product) =>  `/${locale.value}/products/${locale.va
                         </div>
                         <div v-for="product in products" :key="product.id" class="row striped">
                             <div class="col-4 col-sm-3">
-                                <a class="link" :href="localizedProductUrl(product)">
-                                    <img class="circle-image" :src="`/img/products/small/${product.product_image}thumb.jpg`" :alt="$t(`products.${product.product_code}.layout1.product_name`)">
-                                </a>
+                                <!-- <a class="link" :href="localizedProductUrl(product)">
+                                    <img class="circle-image" :src="`/img/products/small/${product.product_image}thumb.jpg`" alt="test">
+                                </a> -->
                             </div>
                             <div class="col-4 col-sm-3 small-text">
-                                <a class="link" :href="`products/${product.slug}`">{{product.product_code }}</a>
+                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">{{product.name }}</a>
                             </div>
                             <div class="col-4 col-sm-3 hidden-columns">
-                                <a class="link" :href="`products/${product.slug}`">{{ product.operation }}</a>
+                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">{{ product.version }}</a>
                             </div>
                             <div class="col-4 col-sm-3">
                                 {{ product.product_price }} &#8364;

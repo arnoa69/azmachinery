@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\Product;
 use Barryvdh\DomPDF\Facade\Pdf;
+use Illuminate\Support\Facades\DB;
+use App\Helpers\UrlHelper;
 
 
 class ProductController extends Controller
@@ -15,40 +17,47 @@ class ProductController extends Controller
      *
      * @return \Inertia\Response
      */
-    public function index()
+    public function index($locale)
     {
         // Fetch all products from the database
-        $products = Product::all();
+        $products = DB::table('product_combinations')
+        ->join('products', 'product_combinations.product_id', '=', 'products.id')
+        ->select('product_combinations.*', 'products.type')
+        ->get();
 
         // Render the index view with the products data using Inertia
         return Inertia::render('Products/Index', ['products' => $products]);
     }
 
-    public function show($locale, $slug)
+    public function show($locale, $type, $version, $options = '', $slug)
     {
-        //app()->setLocale($locale);
-        \Log::info("Received request for locale: $locale, slug: $slug");
-        $query = Product::where('slug', $slug);
-
-        if ($locale !== 'en') {
-            $query->orWhere("slug_{$locale}", $slug);
+        // Validate URL components
+        if (!UrlHelper::validateUrlComponents($locale, $type, $version, $options)) {
+            abort(404);
         }
 
-        $product = $query->firstOrFail();
+        // Retrieve the product combination by slug
+        $productCombination = DB::table('product_combinations')
+            ->where('slug', $slug)
+            ->first();
 
-        // Get all slugs for this product
-        $slugs = [];
-        foreach (config('app.available_locales') as $loc) {
-            if ($loc === 'en') {
-                $slugs[$loc] = $product->slug;
-            } else {
-                $slugs[$loc] = $product["slug_{$loc}"] ?? $product->slug;
-            }
+        if (!$productCombination) {
+            abort(404);
         }
 
+        // Retrieve the product details
+        $product = DB::table('products')
+            ->where('id', $productCombination->product_id)
+            ->first();
+
+        // Merge the name and total_price from product_combination into the product object
+        $product->name = $productCombination->name;
+        $product->total_price = $productCombination->total_price;
+        $product->slug = $productCombination->slug;
+
+        // Return product detail view with the product details
         return Inertia::render('Products/Show', [
             'product' => $product,
-            'slugs' => $slugs
         ]);
     }
 
@@ -70,4 +79,6 @@ class ProductController extends Controller
         $pdf = Pdf::loadView('product.pdf', $data);
         return $pdf->stream('product-' . $product->product_code . '.pdf');
     }
+
+
 }

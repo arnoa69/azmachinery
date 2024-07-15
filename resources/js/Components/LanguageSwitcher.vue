@@ -7,24 +7,53 @@ import axios from 'axios';
 
 const { availableLocales, locale } = useI18n();
 const page = usePage();
-
 const currentLocale = ref(locale.value);
-
 const product = page.props.product;
 
-function localizeSlug(locale, product) {
-    if (!product) {
-      return null; // Or handle the case where product is not defined
-    }
+// Translation mappings (this should match your PHP helper values)
+const validTypes = {
+  'en': { 'mobile': 'mobile', 'static': 'static', 'container': 'container' },
+  'de': { 'mobile': 'mobil', 'static': 'fix', 'container': 'container' }
+};
 
-    // Construct the slug key based on the provided locale
-    const slugKey = locale === 'en' ? 'slug' : `slug_${locale}`;
-    // Return the localized slug if it exists, otherwise fall back to the default slug
+const validVersions = {
+  'en': { 'standard': 'standard-size', 'llo': 'long-leveler-off', 'xl': 'extra-large', 'llo-xl': 'long-leveler-off-extra-large' },
+  'de': { 'standard': 'standard-groesse', 'llo': 'ausfahrende-verlaengerung', 'xl': 'extra-lang', 'llo-xl': 'ausfahrende-verlaengerung-extra-lang' }
+};
 
-    return product[slugKey] || product.slug;
+const validOptions = {
+  'en': { 'zr': 'zone-refuge', 'rl': 'side-railings', 'e': 'electric', 'ff': 'fork-slider', 'gal': 'full-galvanized', 'tb': 'tarpaulin-tunnel' },
+  'de': { 'zr': 'sicherheitszone', 'rl': 'seitengelaender', 'e': 'elektrisch', 'ff': 'gabelschieber', 'gal': 'vollverzinkt', 'tb': 'planendach' }
+};
+
+const translateUrlComponent = (component, translations) => {
+  const entry = Object.entries(translations).find(([key, value]) => key === component || value === component);
+  return entry ? entry[0] : component;
+};
+
+const translateSlug = (type, slug, currentLocale, newLocale) => {
+  // Define your regex pattern to extract version and options
+  const regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
+
+  // Extract version and options using regex
+  const match = slug.match(regex);
+  if (!match) {
+    throw new Error('Invalid slug format');
   }
 
-  const changeLanguage = async (event) => {
+  const version = match[1];
+  const options = match[2] ? match[2].split('-') : [];
+
+  // Translate version and options to new locale
+  const translatedType = validTypes[newLocale][type];
+  const translatedVersion = validVersions[newLocale][version];
+  const translatedOptions = options.map(opt => validOptions[newLocale][opt]).join('/');
+
+  // Construct the new URL
+  return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
+};
+
+const changeLanguage = async (event) => {
   const newLocale = event.target.value;
 
   try {
@@ -42,8 +71,7 @@ function localizeSlug(locale, product) {
     let newPath;
 
     if (route().current('products.show') && page.props.product) {
-      const localizedSlug = localizeSlug(newLocale, page.props.product);
-      newPath = route('products.show', { locale: newLocale, slug: localizedSlug });
+      newPath = translateSlug(page.props.product.type, page.props.product.slug, currentLocale.value, newLocale);
     } else if (route().current('home')) {
       newPath = route('home', { locale: newLocale });
     } else {
@@ -64,36 +92,18 @@ function localizeSlug(locale, product) {
     console.error('Error changing locale:', error);
   }
 };
-
-// const changeLanguage = (event) => {
-//   const newLocale = event.target.value;
-//   locale.value = newLocale;
-
-//   // Store the selected locale in local storage
-//   localStorage.setItem('locale', newLocale);
-
-//   let newPath = `${newLocale}${page.url.replace(/^\/[a-z]{2}/, '') || '/'}`;
-
-//   if ( product ) {
-//     const localizedSlug = localizeSlug(newLocale, page.props.product);
-//     newPath = `/${newLocale}/products/${localizedSlug}`;
-//   }
-//   Inertia.visit(newPath, { preserveState: false});
-
-// };
-
 </script>
 
 <template>
-    <div class="language-switcher">
-        <select @change="changeLanguage" v-model="currentLocale">
-            <option v-for="locale in availableLocales" :key="locale" :value="locale">{{ locale }}</option>
-        </select>
-    </div>
+  <div class="language-switcher">
+    <select @change="changeLanguage" v-model="currentLocale">
+      <option v-for="locale in availableLocales" :key="locale" :value="locale">{{ locale }}</option>
+    </select>
+  </div>
 </template>
 
 <style scoped>
 .language-switcher select {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 </style>

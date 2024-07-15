@@ -9,37 +9,6 @@ use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Route; // Add this line
 
-// class LocaleMiddleware
-// {
-//     /**
-//      * Handle an incoming request.
-//      *
-//      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
-//      */
-//     public function handle(Request $request, Closure $next)
-//     {
-//         // Define your available locales
-//         $availableLocales = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'ne', 'no', 'pt', 'se'];
-
-//         // Get the locale from the URL or the session
-//         $locale = $request->segment(1);
-//         if (in_array($locale, $availableLocales)) {
-//             App::setLocale($locale);
-//             Session::put('locale', $locale);
-//         } else {
-//             $preferredLocale = Session::get('locale') ?: substr($request->server('HTTP_ACCEPT_LANGUAGE'), 0, 2);
-//             if (in_array($preferredLocale, $availableLocales)) {
-//                 App::setLocale($preferredLocale);
-//                 Session::put('locale', $preferredLocale);
-//             } else {
-//                 App::setLocale('en');
-//                 Session::put('locale', 'en');
-//             }
-//         }
-
-//         return $next($request);
-//     }
-// }
 class LocaleMiddleware
 {
     public function handle(Request $request, Closure $next)
