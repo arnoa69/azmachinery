@@ -19,7 +19,7 @@ class UrlHelper
             "container" => "container"
         ],
         "dk" => [
-            "mobile" => "mobil-læsserampe",
+            "mobile" => "mobil-lasserampe",
             "static" => "fast",
             "container" => "container"
         ],

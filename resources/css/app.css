@@ -170,7 +170,7 @@ body {
   #hero:before {
     content: "";
     /* background: rgba(2, 5, 161, 0.91);*/
-    background: rgba(0, 0, 0, 0.81);
+    background: rgba(204, 6, 38, 0.91);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1291,7 +1291,7 @@ body {
   # Footer
   --------------------------------------------------------------*/
   #footer {
-    background: #212426;
+    background: #cc0626;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
