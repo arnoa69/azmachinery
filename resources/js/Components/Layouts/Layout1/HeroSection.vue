@@ -15,9 +15,9 @@ const heroTitle = t("hero.title.start") + " <span>" + t("hero.title.end") + "</s
   <div class="container">
     <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
       <div class="col-lg-6 text-center">
-        <h2>Welcome to UpConstruction</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a href="#get-started" class="btn-get-started">Get Started</a>
+        <h2>Delivering a personal touch since 1989</h2>
+        <p>For each of our clients, we have created a unique experience.</p>
+        <a href="#get-started" class="btn-get-started">Talk to us</a>
       </div>
     </div>
   </div>
