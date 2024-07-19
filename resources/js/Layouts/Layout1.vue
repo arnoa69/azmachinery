@@ -2,7 +2,8 @@
 import HeaderSection from '@/Components/Layouts/Layout1/HeaderSection.vue';
 import HeroSection from '@/Components/Layouts/Layout1/HeroSection.vue';
 import AboutSection from '@/Components/Layouts/Layout1/AboutSection.vue';
-import FeatureSection from '@/Components/Layouts/Layout1/FeatureSection.vue';
+import ClientSection from '@/Components/Layouts/Layout1/ClientSection.vue';
+import TabSection from '@/Components/Layouts/Layout1/TabSection.vue';
 import GallerySection from '@/Components/Layouts/Layout1/GallerySection.vue';
 import ContactSection from '@/Components/Layouts/Layout1/ContactSection.vue';
 import FooterSection from '@/Components/Layouts/Layout1/FooterSection.vue';
@@ -45,14 +46,15 @@ const showPolicyBanner = ref(false)
     <HeaderSection />
     <HeroSection @open-modal="openModal" />
     <main id="main">
+        <ClientSection />
         <AboutSection />
-        <FeatureSection />
+        <TabSection />
         <GallerySection />
         <TestimonialsSection />
         <ContactSection />
     </main>
     <FooterSection />
-
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
         @showPolicyBanner="showPolicyBanner = true" />
 

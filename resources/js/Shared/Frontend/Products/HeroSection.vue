@@ -29,7 +29,7 @@ onMounted(() => {
     <div class="container">
       <div class="row justify-content-between">
         <div
-          class="col-lg-12 order-1 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center"
+          class="col-lg-12 order-1 pt-5 pt-lg-0 order-lg-1 d-flex align-items-center"
         >
           <h1 class="hero-title" v-html="heroTitle"></h1>
         </div>
@@ -60,6 +60,7 @@ h1.hero-title {
   white-space: nowrap; /* Prevent the span from breaking to the next row */
   display: inline-block; /* Set the display to inline-block */
   z-index: 20;
+  padding-top: 50px;
 }
 
 @media (max-width: 991px) {

@@ -28,9 +28,6 @@ const { locale } = useI18n();
               </li>
             </ul>
           </li>
-          <li><a href="/#features">{{ $t('header.features') }}</a></li>
-          <li><a href="/#gallery">{{ $t('header.gallery') }}</a></li>
-          <li><a href="/#testimonials">{{ $t('header.testimonials') }}</a></li>
           <li><a href="/#contact">{{ $t('header.contact') }}</a></li>
           <li>
             <LanguageSwitcher />
@@ -38,7 +35,7 @@ const { locale } = useI18n();
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav><!-- .navbar -->
-
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
     </div>
   </header><!-- End Header -->
 

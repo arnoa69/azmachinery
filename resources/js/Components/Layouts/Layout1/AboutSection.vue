@@ -3,39 +3,55 @@
 </script>
 
 <template>
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container-fluid">
+    <section id="about" class="about section section-bg dark-background">
 
-        <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-          </div>
+        <div class="container position-relative">
 
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-            <h3>{{ $t('about.title') }}</h3>
-            <p>{{ $t('about.description') }}</p>
+            <div class="row gy-5">
 
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-1-circle"></i></div>
-              <h4 class="title"><a href="">{{ $t('about.box1Title') }}</a></h4>
-              <p class="description">{{ $t('about.box1Description') }}</p>
+                <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Why we are European's leading manufacturar?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                    </p>
+                    <a href="#" class="about-btn align-self-center align-self-xl-start"><span>About us</span> <i
+                            class="bi bi-chevron-right"></i></a>
+                </div>
+
+                <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-4">
+
+                        <div class="col-md-6 icon-box position-relative">
+                            <i class="bi bi-briefcase"></i>
+                            <h4><a href="" class="stretched-link">Corporis voluptates sit</a></h4>
+                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        </div><!-- Icon-Box -->
+
+                        <div class="col-md-6 icon-box position-relative">
+                            <i class="bi bi-gem"></i>
+                            <h4><a href="" class="stretched-link">Ullamco laboris nisi</a></h4>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                        </div><!-- Icon-Box -->
+
+                        <div class="col-md-6 icon-box position-relative">
+                            <i class="bi bi-broadcast"></i>
+                            <h4><a href="" class="stretched-link">Labore consequatur</a></h4>
+                            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                        </div><!-- Icon-Box -->
+
+                        <div class="col-md-6 icon-box position-relative">
+                            <i class="bi bi-easel"></i>
+                            <h4><a href="" class="stretched-link">Beatae veritatis</a></h4>
+                            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                        </div><!-- Icon-Box -->
+
+                    </div>
+                </div>
+
             </div>
 
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-award-fill"></i></div>
-              <h4 class="title"><a href="">{{ $t('about.box2Title') }}</a></h4>
-              <p class="description">{{ $t('about.box2Description') }}</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-sign-turn-slight-right-fill"></i></div>
-              <h4 class="title"><a href="">{{ $t('about.box3Title') }}</a></h4>
-              <p class="description">{{ $t('about.box3Description') }}</p>
-            </div>
-
-          </div>
         </div>
 
-      </div>
-    </section><!-- End About Section -->
+    </section>
 </template>

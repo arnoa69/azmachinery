@@ -1,23 +1,28 @@
 /**
-* Template Name: Bootslander
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+* Template Name: Presento
+* Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
+* Updated: Jun 29 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
 
+/*--------------------------------------------------------------
+# Font & Color Variables
+# Help: https://bootstrapmade.com/color-system/
+--------------------------------------------------------------*/
 /* Fonts */
 :root {
-    --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --heading-font: "Roboto",  sans-serif;
+    --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Raleway",  sans-serif;
     --nav-font: "Poppins",  sans-serif;
   }
+
 
   /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
   :root {
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #364d59; /* Default color used for the majority of the text content across the entire website */
-    --heading-color: #52565e; /* Color for headings, subheadings and title throughout the website */
+    --heading-color: #3c3c3c; /* Color for headings, subheadings and title throughout the website */
     --accent-color: #cc0926; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -55,20 +60,22 @@
   }
 
 /*--------------------------------------------------------------
-# General
+# General Styling & Shared Classes
 --------------------------------------------------------------*/
 body {
-    font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
   }
 
   a {
-    color: #FE0000;
+    color: var(--accent-color);
     text-decoration: none;
+    transition: 0.3s;
   }
 
   a:hover {
-    color: #34e5a6;
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
     text-decoration: none;
   }
 
@@ -78,42 +85,172 @@ body {
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
   }
 
+/* PHP Email Form Messages
+------------------------------*/
+.php-email-form .error-message {
+    display: none;
+    background: #df1529;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
 
-  /*--------------------------------------------------------------
-  # Back to top button
-  --------------------------------------------------------------*/
-  .back-to-top {
+  .php-email-form .sent-message {
+    display: none;
+    color: #ffffff;
+    background: #059652;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  .php-email-form .loading {
+    display: none;
+    background: var(--surface-color);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+  }
+
+  .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid var(--accent-color);
+    border-top-color: var(--surface-color);
+    animation: php-email-form-loading 1s linear infinite;
+  }
+
+  @keyframes php-email-form-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+/*--------------------------------------------------------------
+# Global Sections
+--------------------------------------------------------------*/
+section,
+.section {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  scroll-margin-top: 100px;
+  overflow: clip;
+}
+
+.section-bg {
+  background-color: transparent;
+  padding: 160px 0;
+  position: relative;
+}
+
+.section-bg:before {
+  content: "";
+  background-color: var(--background-color);
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+}
+
+.section-bg .container {
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+
+  section,
+  .section {
+    scroll-margin-top: 66px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
     position: fixed;
     visibility: hidden;
     opacity: 0;
     right: 15px;
     bottom: 15px;
-    z-index: 996;
-    background: #d17104;
+    z-index: 99999;
+    background-color: var(--accent-color);
     width: 40px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 4px;
     transition: all 0.4s;
   }
 
-  .back-to-top i {
-    font-size: 28px;
-    color: #fff;
+  .scroll-top i {
+    font-size: 24px;
+    color: var(--contrast-color);
     line-height: 0;
   }
 
-  .back-to-top:hover {
-    background: #d17104;
-    color: #fff;
+  .scroll-top:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+    color: var(--contrast-color);
   }
 
-  .back-to-top.active {
+  .scroll-top.active {
     visibility: visible;
     opacity: 1;
   }
+
 
   /*--------------------------------------------------------------
   # Disable AOS delay on mobile
@@ -128,10 +265,9 @@ body {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-    --background-color: rgba(255, 255, 255, 0);
-    --default-color: #ffffff;
-    --heading-color: #ffffff;
-    color: var(--default-color);
+    --heading-color: #3c3c3c;
+    --nav-color: #3c3c3c;
+    --nav-hover-color: #3c3c3c;
     background-color: var(--background-color);
     padding: 20px 0;
     transition: all 0.5s;
@@ -163,7 +299,7 @@ body {
 
   /* Global Header on Scroll
   ------------------------------*/
-  .header-scrolled {
+  .scrolled .header {
     --background-color: rgba(255, 255, 255, 1);
     --heading-color: #3c3c3c;
     --nav-color: #3c3c3c;
@@ -599,6 +735,104 @@ body {
   }
 
   /*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients .swiper-slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+  }
+
+  .clients .swiper-slide img:hover {
+    filter: none;
+    opacity: 1;
+  }
+
+  .clients .swiper-wrapper {
+    height: auto;
+  }
+
+  .clients .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .clients .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  }
+
+  .clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--accent-color);
+  }
+
+  /*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .about .content p {
+    margin-bottom: 30px;
+  }
+
+  .about .content .about-btn {
+    padding: 8px 30px 9px 30px;
+    color: var(--default-color);
+    border-radius: 50px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid var(--accent-color);
+  }
+
+  .about .content .about-btn i {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+
+  .about .content .about-btn:hover {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+
+  .about .icon-box i {
+    font-size: 40px;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+  }
+
+  .about .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+
+  .about .icon-box h4 a {
+    color: var(--heading-color);
+    transition: 0.3s;
+  }
+
+  .about .icon-box p {
+    font-size: 15px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    margin-bottom: 0;
+  }
+
+  .about .icon-box:hover h4 a {
+    color: var(--accent-color);
+  }
+
+
+  /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
   section {
@@ -607,7 +841,9 @@ body {
   }
 
   .section-bg {
-    background-color: #f5f5ff;
+    background-color: transparent;
+    padding: 160px 0 !important;
+    position: relative
   }
 
   .section-title {
@@ -890,91 +1126,6 @@ body {
     }
   }
 
-  /*--------------------------------------------------------------
-  # Features
-  --------------------------------------------------------------*/
-  .features .icon-box {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background: #f5f3f3;
-    transition: ease-in-out 0.3s;
-  }
-
-  .features .icon-box i {
-    font-size: 32px;
-    padding-right: 10px;
-    line-height: 1;
-  }
-
-  .features .icon-box h3 {
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-size: 16px;
-  }
-
-  .features .icon-box h3 a {
-    color: #171D1F;
-    transition: ease-in-out 0.3s;
-  }
-
-  .features .icon-box h3 a:hover {
-    color: #01036f;
-  }
-
-  .features .icon-box:hover {
-    background: #dcdcde;
-  }
-
-  /*--------------------------------------------------------------
-  # Counts
-  --------------------------------------------------------------*/
-  .counts {
-    background: #f5f3f3;
-    padding: 70px 0 60px;
-  }
-
-  .counts .count-box {
-    padding: 30px 30px 25px 30px;
-    width: 100%;
-    position: relative;
-    text-align: center;
-    background: #fff;
-  }
-
-  .counts .count-box i {
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 20px;
-    background: #FE0000;
-    padding: 12px;
-    color: #fff;
-    border-radius: 50px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 0;
-    width: 48px;
-    height: 48px;
-  }
-
-  .counts .count-box span {
-    font-size: 36px;
-    display: block;
-    font-weight: 600;
-    color: #212426;
-  }
-
-  .counts .count-box p {
-    padding: 0;
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-  }
 
   /*--------------------------------------------------------------
   # Details
