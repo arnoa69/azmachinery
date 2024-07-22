@@ -143,18 +143,18 @@
         "title": "Regionale Kontakt",
         "subTitle": "Perséinlech Berodung an Ënnerstëtzung",
         "label": {
-            "place": "Plaz:",
-            "phone": "Telefon:",
-            "email": "E-mail:"
+            "place": "Adress:",
+            "phone": "Rufft eis un:",
+            "email": "Schéckt eis eng E-Mail:"
         },
         "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Frankräich",
         "email": "Marketing Frankräich",
         "number": "+33 03 52 74 03 69",
         "form": {
             "label": {
-                "place": "Plaz",
-                "phone": "Telefon",
-                "email": "E-Mail"
+                "place": "Plaz:",
+                "phone": "Telefon:",
+                "email": "E-mail:"
             },
             "placeholder": {
                 "name": "Ären Numm",
@@ -169,7 +169,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Gréng Gréng mobilgeräte. Méi hutt 5 Exempel vun Az-Modell Prime WLO 8+. Gëtt uffgedréchtet ass Tanschnit nur 10 Dag an der Aufforderung vun der Bestellung. D'Yewewwerk mit AZ Ramp Jérôme GUIGUET war erfohrlich; d'Geräte sinn schénger und eefach zu benotzen. Logistik-Arbëtscher kréieren d'Geräte ergescht. ",
-        "frankPainText": "Ass uff AZ Ramp am 13. December 2023 direkt uff der DIRECT Industry -Plattform 10T-Geräte. D'Antwort vun d'Versandbediener AZ Ramp ass mir 20 Minéte nach meiner Frage gekomme. Hutt d'Frage aufgeléist und hutt meit Wäissescht erfoult. Noch am 20. December 2023, Nachricht, dass d'Geräte am Termin ausgeliefert wäre. D'Geräte ass am 1. Januar 2024 ausgeliefert worre. D'Zeit und d'Zeitplan entsprént d'Erwaarte. D'Kund ass én erfahrene Profi, hutt uns am Lager und am Setzen. Fir d'Ausbildungszentrum is wéi wéi wéissend, d'Geräte laut zu kontrolléieren. Dësse Geräte entsprént d'Erfordernisse an Qualité und CACES®-Standard.",
+        "brunoDreixText": "Kaf vun enger Ramp mat enger 100% garantéiert Liwwerung Zäit. D'Disponibilitéit ass e richtege Plus. Éischtklasseg kommerziell Iwwerwaachung vun Bestellung bis Liwwerung an de Verkeefer kennt seng Produkter wéi seng Hand.",
         "proFoodCenterText": "Méi hutt gréng Geräte. Gréng haltbar und eefach zu benotzen. Wéi überrascht, ass mir am Versandzeitpunkt (10 Tage Wartezeit und Geräte-Ankunft) ginn. Erfälig Versandunternehmen!",
         "vincentGirardetText": "Bin d'Geräte vun AZ MACHINERY gekauft. I wéi d'Modell Prime XS als galvaniséierte Version. D'Material ass schénger saang; gréng haltbar und eefach zu benotzen. D'Geräte ass nach 10 Tagen nach der Bestellung ausgeliefert worre. Gréng, ass d'Werbung für d'Geschäft mit dësem Unternehmen gmacht! Vincent",
         "christell48Text": "Héich d'Laat-Haltbarkeets-Verhältnis. Hutt d'Modell Prime WLO8+ als Ganz galvaniséiert-Version ausgewielt. Gréng benotzbar und laut. AZ MACHINERY héicht méi awwern Expresso-Modell. D'Material ass 4 Tage nach der Bestellung ausgeliefert worre, vun d'Hersteller mit dem Auto. Gréng gut, dankeschön!",

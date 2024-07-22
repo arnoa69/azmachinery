@@ -28,14 +28,14 @@ const { locale } = useI18n();
               </li>
             </ul>
           </li>
-          <li><a href="/#contact">{{ $t('header.contact') }}</a></li>
+          <li><a :href="`/${locale}/contact`">{{ $t('header.contact') }}</a></li>
           <li>
             <LanguageSwitcher />
           </li>
+          <li> <a class="btn-getstarted" :href="`/${locale}/get-a-quote`">Get a Quote</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav><!-- .navbar -->
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
     </div>
   </header><!-- End Header -->
 

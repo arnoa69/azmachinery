@@ -143,18 +143,18 @@
         "title": "Contact régional",
         "subTitle": "Conseils et accompagnement personnalisés",
         "label": {
-            "place": "Lieu:",
-            "phone": "Téléphone:",
-            "email": "E-mail:"
+            "place": "Adresse :",
+            "phone": "Appelez-nous :",
+            "email": "Envoyez-nous un e-mail :"
         },
         "address": "13 rue de la scierie, 66340 Palau de cerdagne, France",
         "email": "Marketing France",
         "number": "+33 (0)3 52 74 03 69",
         "form": {
             "label": {
-                "place": "Lieu",
-                "phone": "Téléphone",
-                "email": "E-mail"
+                "place": "Lieu:",
+                "phone": "Téléphone:",
+                "email": "E-mail:"
             },
             "placeholder": {
                 "name": "Votre nom",
@@ -169,7 +169,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Grande Mobile Dock Ramp. Nous avons 5 unités du modèle de ramp Az Prime WLO 8+. Livré au Danemark seulement 10 jours après la commande. Le contact avec Jérôme GUIGUET a été très bonne; Ces rampes sont très faciles à utiliser, de bonne qualité. L'équipe logistique les apprécie beaucoup.",
-        "frankPainText": "J'ai communiqué avec AZ ramp le 13/12/2023 via la plateforme DIRECT Industry concernant un rampon de 10T et 20 minutes plus tard, le représentant de vente d'AZ ramp a répondu à mes questions et à mes attentes. Dès que nous avons passé la commande le 20 décembre 2023, le délai de livraison a été communiqué pendant la journée. Livraison le 1er février 2024. Date et heure respectées par le conducteur. Le conducteur a été très professionnel, nous l'a accompagné pendant le déchargement et l'installation de la rampe à sa position. Étant un centre de formation, nous avons accordé grande importance à la qualité et aux limites du standard CACES®. Cette rampe a satisfait toutes les exigences actuelles. La qualité était là.",
+        "brunoDreixText": "Achat d'une rampe avec un délai de livraison garanti à 100%. La disponibilité est un vrai plus. Un suivi commercial de premier ordre de la commande à la livraison et le commercial connaît ses produits comme sa poche.",
         "proFoodCenterText": "Nous sommes très satisfaits de la rampe que nous avons reçue. Rampe très robuste et maniable. Nous avons été surpris par la rapidité de la livraison (10 jours entre le contact et la réception de la rampe). Une entreprise très professionnelle!",
         "vincentGirardetText": "Acheter une rampe Prime XS en version galvanisée. Matériau très agréable; robuste et facile à utiliser. Livré en Suisse seulement 10 jours après notre commande, je suis heureux d'avoir fait affaire avec cette entreprise! Vincent",
         "christell48Text": "Excellent rapport qualité/prix. Nous avons choisi le PRIME WLO8+ avec garde-corps en version FULL GALVA. Super pratique, de bonne qualité. AZ MACHINERY a même récupéré notre ancienne rampe Expresso qui ne tenait plus debout. Matériau reçu par nous dans le camion du fabricant 4 jours après notre commande. Vraiment bien, merci.",

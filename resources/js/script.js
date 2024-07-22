@@ -156,4 +156,33 @@
     });
   });
 
+  /**
+   * Init swiper sliders
+   */
+  function initSwiper() {
+    document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
+      let configElement = swiperElement.querySelector(".swiper-config");
+      if (!configElement) {
+        console.error("Swiper config element not found");
+        return;
+      }
+
+      let config;
+      try {
+        config = JSON.parse(configElement.textContent.trim());
+      } catch (error) {
+        console.error("Error parsing swiper config:", error);
+        return;
+      }
+
+      if (swiperElement.classList.contains("swiper-tab")) {
+        initSwiperWithCustomPagination(swiperElement, config);
+      } else {
+        new Swiper(swiperElement, config);
+      }
+    });
+  }
+
+  window.addEventListener("load", initSwiper);
+
 })();

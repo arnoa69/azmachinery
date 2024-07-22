@@ -143,18 +143,18 @@
         "title": "Regionaal contact",
         "subTitle": "Persoonlijk advies en ondersteuning",
         "label": {
-            "place": "Plaats:",
-            "phone": "Telefoon:",
-            "email": "E-mail:"
+            "place": "Adres:",
+            "phone": "Bel ons:",
+            "email": "E-mail ons:"
         },
         "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Frankrijk",
         "email": "Marketing Frankrijk",
         "number": "+33 03 52 74 03 69",
         "form": {
             "label": {
-                "place": "Plaats",
-                "phone": "Telefoon",
-                "email": "E-mail"
+                "place": "Plaats:",
+                "phone": "Telefoon:",
+                "email": "E-mail:"
             },
             "placeholder": {
                 "name": "Uw naam",
@@ -169,7 +169,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Grote Mobiele Dock Ramp. We hebben 5 eenheden van het Az Prime WLO 8+-model. Verkocht in Denemarken slechts 10 dagen na de bestelling. Contact met Jérôme GUIGUET was erg goed; Deze rampen zijn erg gemakkelijk te gebruiken, van goede kwaliteit. Ook de logistieke team waarderen deze zeer.",
-        "frankPainText": "Ik heb op 13/12/2023 contact opgenomen met AZ Ramp via de DIRECT Industry platform over een 10T-ramppas en 20 minuten later reageerde de verkoopvertegenaar van AZ Ramp. Hij beantwoordde alle mijn vragen en verwachtingen. Zodra we de bestelling op 20/12/2023 hadden geplaatst, was de leveringstijd vastgesteld op 1/2/2024. De datum en tijd werden door de bestuurlijke chauff gevolgd. De chauff was erg professioneel en begeleidde ons tijdens de lossing en installatie van de ramp op zijn plaats. Als opleidingscentrum gaven we veel aandacht aan de kwaliteit en beperkingen van het CACES®-standaard. Deze ramp voldeed aan alle huidige eisen. De kwaliteit was er.",
+        "brunoDreixText": "Aankoop van een oprit met 100% gegarandeerde levertijd. De beschikbaarheid is een echt pluspunt. Eersteklas commerciële opvolging van bestelling tot levering en de vertegenwoordiger kent zijn producten op zijn duimpje.",
         "proFoodCenterText": "Wij zijn erg tevreden over de ramp die we hebben ontvangen. Robuuste en handzame ramp. We waren verrast door de snelheid van de levering (slechts 10 dagen tussen contact en ontvangst van de ramp). Een erg professionele onderneming!",
         "vincentGirardetText": "Koop een Prime XS-ramp in galvaniseerde uitvoering. Erg prettig materiaal; robuust en gemakkelijk te gebruiken. Verkocht in Zwitserland slechts 10 dagen na onze bestelling, ik ben tevreden dat ik zaken heb gedaan met deze onderneming! Vincent",
         "christell48Text": "Uitstekend prijsgenot. Wij hebben de PRIME WLO8+ met railing in FULL GALVA-uitvoering uitgekozen. Super praktisch, goede kwaliteit. AZ MACHINERY heeft zelfs onze oude Expresso-ramp opgehaald die niet meer stond. Het materiaal kregen wij 4 dagen na onze bestelling op ons transporteur van de fabrikant. Erg goed, bedankt.",

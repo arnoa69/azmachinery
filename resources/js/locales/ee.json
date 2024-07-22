@@ -143,9 +143,9 @@
         "title": "Piirkondlik kontakt",
         "subTitle": "Isiklik nõuanne ja tugi",
         "label": {
-            "place": "Asukoht:",
-            "phone": "Telefon:",
-            "email": "E-post:"
+            "place": "Aadress:",
+            "phone": "Helistage meile:",
+            "email": "Saatke meile e-kiri:"
         },
         "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Prantsusmaa",
         "email": "Marketing Prantsusmaa",
@@ -169,7 +169,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Hea mobiilkaat. Meil on 5 ühte Az-mudeli Prime WLO 8+. Toodet Danimaali ja 10 päeva pärast tellimuse teostamist. Kontakt AZ rampiga Jérôme GUIGUET oli hea; Need on hea kvaliteedi toodud, toode on hea tootmisest. Logistika meeskonnaga on need suurepärane.",
-        "frankPainText": "Minuga suhtlesin AZ rampi 13. detsember 2023 DIRECT Industry platvormi kaudu kohta 10T-kaat ja 20 minuti pärast vastas AZ rampi müügimeeskonna töötaja minu küsimustele. Hän vastas kõigile minu küsimustele ja täidis minu oodatust. Kui ma tellimuse teostasin 20. detsember 2023, kinnitati toodeaeg ja toode oodatud kuupäeval toimus. Toode 1. veebruaril 2024. Aeg ja kellaaeg vastati kliendina. Klient oli väga profesislik, jälgis meid kuni toode saabumisel ja paigutamisel asukohas. Kui ülikoolil on kvaliteedi ja piirangutega CACES®-standardi kohta kohanud, see toode vastab kõik aktiivsed nõuded.",
+        "brunoDreixText": "Kaldtee ostmine 100% garanteeritud tarneajaga. Kättesaadavus on tõeline pluss. Esmaklassiline kaubanduslik jälgimine tellimusest tarnimiseni ja müügiesindaja tunneb tema tooteid nagu oma viit sõrme.",
         "proFoodCenterText": "Me oleme väga maitsemused kaatiga, mille me saame. Nii robustne kui lihtne kasutamine. Me oleme ülevalminud toode saabumise kiiruse (10 päeva kliendikontakt ja toode saabumine). Professionaalne ettevõte!",
         "vincentGirardetText": "Ostan Prime XS-kaat galvaniseeritud versioonis. Materjal on väga hea; robustne ja lihtne kasutamine. Toode saabumisel Eesti ja 10 päeva pärast meie tellimust. Ma on hea, et ma toodetega tein. Vincent",
         "christell48Text": "Laiendatud kvaliteedi-hinnakoha kogemus. Valisin Prime WLO8+ galvane rampa Täielikult galvaniseeritud versioonis. Väga kasulik ja kvaliteetne. AZ MACHINERY taastas meie vana Expresso-mudeli. Materjal toodi 4 päeva pärast meie tellimust tootja autost. Tegelikult hea, täname!",

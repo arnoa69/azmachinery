@@ -89,4 +89,13 @@ class ContactController extends Controller
         return ['message' => 'success'];
         return response()->json(['message' => 'success']);
     }
+
+    public function contactFormShow()
+    {
+        return Inertia::render('ContactForm');
+    }
+    public function getQuoteFormShow()
+    {
+        return Inertia::render('GetQuoteForm');
+    }
 }

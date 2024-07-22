@@ -61,9 +61,14 @@
         </div>
       </div>
       <div class="button-group">
-        <button @click="declineCookies" class="reject-button">{{ $t('cookiebanner.manage.buttonDisallow') }}</button>
-        <button @click="acceptCookies" class="confirm-button">{{ $t('cookiebanner.manage.buttonAccept') }}</button>
         <button @click="acceptCookies" class="allow-button">{{ $t('cookiebanner.manage.buttonAllow') }}</button>
+        <button @click="acceptCookies" class="confirm-button">{{ $t('cookiebanner.manage.buttonAccept') }}</button>
+        <button @click="declineCookies" class="reject-button">{{ $t('cookiebanner.manage.buttonDisallow') }}</button>
+      </div>
+      <div class="link-group">
+        <a :href="`/${locale}/cookie-policy`" class="policy-link" target="_blank">{{ $t("footer.links.cookie-policy") }}</a>
+        <a :href="`/${locale}/privacy-policy`" class="policy-link" target="_blank">{{ $t("footer.links.privacy-policy") }}</a>
+        <a :href="`/${locale}/terms-and-conditions`" class="policy-link" target="_blank">{{ $t("footer.links.terms-and-conditions") }}</a>
       </div>
     </div>
 </template>
@@ -71,18 +76,17 @@
 <style scoped>
   .cookie-banner {
     position: fixed;
-    bottom: 40px;
-    right: 30px;
-    width: 400px;
-    min-height: 626px;
+    bottom: 10px;
+    right: 10px;
+    max-width: 570px;
+    min-height: 516px;
     padding: 20px;
-    background-color: #f4f4f4;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #251b1b;
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #dc3545 #1a1a1a;
@@ -90,8 +94,8 @@
   }
 
   .cookie-title {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
   }
 
@@ -135,7 +139,7 @@
 
   /* Style the label as the toggle button when checked */
   .cookie-item input[type="checkbox"]:checked + label.toggle-button {
-    background-color: #8BC34A;
+    background-color: #cc0626;
   }
 
   /* Style the circle inside the toggle button */
@@ -157,35 +161,54 @@
     transform: translateY(5px);
     transform: translateX(-2px);
   }
+
   .button-group {
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
   }
 
   .reject-button,
   .confirm-button,
   .allow-button {
-    padding: 6px 20px;
-    border-radius: 25px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: none;
+    min-width: 100px;
+    font-size: 14px;
+    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
-    max-width: 300px;
-    min-width: 300px;
-    margin-bottom: 6px;
-  }
-
-  .reject-button,
-  .confirm-button {
-    background-color: #fff;
-    color: #000;
-    height: 40px;
+    color: #fff;
+    text-transform: uppercase;
   }
 
   .allow-button {
-    background-color: #1B2022;
+    background-color: #be0a13;
+  }
+  .reject-button,
+  .confirm-button {
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+    background-color: transparent;
+  }
+
+  .reject-button:hover,
+  .confirm-button:hover {
+    background-color: #be0a13;
     color: #fff;
-    height: 40px;
+  }
+
+  .link-group {
+    padding-top: 15px;
+  }
+  .policy-link {
+    color: #a70d0d;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-right: 10px;
+    font-size: 12px;
   }
 
   .toggle-label {
@@ -226,7 +249,8 @@
   /* Style the arrow icon */
   .cookie-title .arrow-icon {
     cursor: pointer;
-    margin-right: 5px;
+    margin-right: 10px;
+    color: #cc0626;
   }
 
   /* Rotate the arrow icon when the ManageCookieBanner is open */
@@ -239,8 +263,17 @@
       left:2px;
       width: 99%;
     }
-    .reject-button, .confirm-button {
-     min-width: 150px;
+    .button-group {
+        width: 100%;
+        display: inline;
+    }
+    .reject-button,
+    .confirm-button,
+    .allow-button {
+        width: 100%;
+    }
+    .cookie-banner {
+        min-height: 350px;
     }
   }
 

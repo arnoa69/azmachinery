@@ -23,69 +23,59 @@ const submitForm = () => {
 </script>
 
 <template>
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+    <footer id="footer" class="footer dark-background">
 
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>{{ t('footer.headquarter.name') }}</h3>
-              <p class="pb-3"><em>{{ t('footer.headquarter.description') }}</em></p>
-              <h4><span>{{ t('footer.headquarter.title') }}</span></h4>
-              <p v-html="addressHtml"></p>
-                <div class="social-links mt-3">
-                <a href="https://twitter.com/JeromeGuiguet/status/1193134166176649216" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/azmachineryfrance/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://ar.pinterest.com/jerome_guiguet/" target="_blank" class="pinterest"><i class="bx bxl-pinterest"></i></a>
-                <a href="https://www.instagram.com/azmachinery/" target="_blank"  class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/azmachinery" target="_blank"  class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <h3>{{ t('footer.headquarter.name') }}</h3>
+                    <p class="pb-3"><em>{{ t('footer.headquarter.description') }}</em></p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="https://twitter.com/JeromeGuiguet/status/1193134166176649216" _target="_blank"><i
+                                class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.facebook.com/azmachineryfrance/" _target="_blank"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/azmachinery/" _target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://ar.pinterest.com/jerome_guiguet/" target="_blank" class="pinterest"><i
+                                class="bi bi-pinterest"></i></a>
+                        <a href="https://www.linkedin.com/company/azmachinery" _target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>{{ t('footer.links.title') }}</h4>
+                    <ul>
+                        <li><a :href="`/${locale}/imprint`" target="_blank">{{ $t("footer.links.imprint") }}</a></li>
+                        <li><a :href="`/${locale}/cookie-policy`" class="policy-link" target="_blank">{{ $t("footer.links.cookie-policy") }}</a></li>
+                        <li><a :href="`/${locale}/privacy-policy`" class="policy-link" target="_blank">{{ $t("footer.links.privacy-policy") }}</a></li>
+                        <li><a :href="`/${locale}/terms-and-conditions`" class="policy-link" target="_blank">{{ $t("footer.links.terms-and-conditions") }}</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>{{ t('footer.service.title') }}</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.customMade') }}</li>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.delivery') }}</li>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.production') }}</li>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.warranty') }}</li>
+                        <!-- <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.rental') }}</li> -->
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4><span>{{ t('footer.headquarter.title') }}</span></h4>
+                    <p v-html="addressHtml"></p>
+                </div>
+
             </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>{{ t('footer.links.title') }}</h4>
-            <ul>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li> -->
-              <li><i class="bx bx-chevron-right"></i> <a :href="`/${locale}/#about`">{{ t('footer.links.about') }}</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a :href="`/${locale}/#features`">{{ t('footer.links.features') }}</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://az-machinery.fr/en/l/contact">{{ t('footer.links.imprint') }}</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">{{ t('footer.links.privacy') }}</a></li> -->
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>{{ t('footer.service.title') }}</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.customMade') }}</li>
-              <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.delivery') }}</li>
-              <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.production') }}</li>
-              <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.warranty') }}</li>
-              <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.rental') }}</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>{{ t('footer.newsletter.title') }}</h4>
-            <p>{{ t('footer.newsletter.description') }}</p>
-            <form action="" @submit.prevent="submitForm" class="pds_phone">
-              <input v-model="email" type="email" name="email" :placeholder="$t('contact.form.placeholder.email')" required>
-              <input type="submit" :value="subscribeButton">
-            </form>
-            <!-- <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a> TODO: use later -->
-          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="copyright" v-html="copyRightHtml">
+        <div class="container copyright text-center mt-4">
+            <div class="copyright" v-html="copyRightHtml"></div>
+        </div>
 
-      </div>
-
-      <!-- <div class="credits" v-html="rightsHtml"></div> -->
-    </div>
-  </footer><!-- End footer -->
+    </footer>
 </template>

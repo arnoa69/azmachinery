@@ -5,7 +5,6 @@ import AboutSection from '@/Components/Layouts/Layout1/AboutSection.vue';
 import ClientSection from '@/Components/Layouts/Layout1/ClientSection.vue';
 import TabSection from '@/Components/Layouts/Layout1/TabSection.vue';
 import GallerySection from '@/Components/Layouts/Layout1/GallerySection.vue';
-import ContactSection from '@/Components/Layouts/Layout1/ContactSection.vue';
 import FooterSection from '@/Components/Layouts/Layout1/FooterSection.vue';
 import TestimonialsSection from '@/Components/Layouts/Layout1/TestimonialsSection.vue';
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
@@ -51,10 +50,11 @@ const showPolicyBanner = ref(false)
         <TabSection />
         <GallerySection />
         <TestimonialsSection />
-        <ContactSection />
     </main>
     <FooterSection />
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+  <!-- <div id="preloader"></div> -->
     <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
         @showPolicyBanner="showPolicyBanner = true" />
 

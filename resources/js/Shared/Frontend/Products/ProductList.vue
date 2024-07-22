@@ -21,7 +21,7 @@ const generateFreshUrl = (slug, type) => {
 </script>
 
 <template>
-    <section id="product-list" class="about">
+    <section id="page-title" class="about">
         <div class="container">
             <div class="section-title">
                 <h1>{{ $t("products.list.title") }}</h1>
@@ -40,33 +40,29 @@ const generateFreshUrl = (slug, type) => {
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT SIDBAR -->
                     <div class="container">
                         <div class="row table-head">
-                            <div class="col-md-3 col-sm-6">
-                                {{ $t('products.list.table.head.image') }}
+                            <div class="col-md-2 col-sm-6">
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-8 col-sm-6">
                                 {{ $t('products.list.table.head.code') }}
                             </div>
-                            <div class="col-md-3 col-sm-6">
-                                {{ $t('products.list.table.head.handle_modus') }}
-                            </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-6">
                                 {{ $t('products.list.table.head.price') }}
                             </div>
                         </div>
                         <div v-for="product in products" :key="product.id" class="row striped">
-                            <div class="col-4 col-sm-3">
+                            <div class="col-1 col-sm-1">
                                 <!-- <a class="link" :href="localizedProductUrl(product)">
                                     <img class="circle-image" :src="`/img/products/small/${product.product_image}thumb.jpg`" alt="test">
                                 </a> -->
+                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">
+                                    <img class="circle-image" src="/img/products/small/rampes-star_thumb.jpg" alt="test">
+                                </a>
                             </div>
-                            <div class="col-4 col-sm-3 small-text">
+                            <div class="col-8 col-sm-8 small-text">
                                 <a class="link" :href="generateFreshUrl(product.slug, product.type)">{{product.name }}</a>
                             </div>
-                            <div class="col-4 col-sm-3 hidden-columns">
-                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">{{ product.version }}</a>
-                            </div>
-                            <div class="col-4 col-sm-3">
-                                {{ product.product_price }} &#8364;
+                            <div class="col-3 col-sm-3">
+                                {{ product.total_price }} &#8364;
                             </div>
 
                         </div>
@@ -79,9 +75,9 @@ const generateFreshUrl = (slug, type) => {
 
 <style scoped>
 .circle-image {
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
     object-fit: cover;
     object-position: center;
 }
@@ -249,9 +245,9 @@ const generateFreshUrl = (slug, type) => {
 }
 
 .row.striped {
-    color: #ffffff;
     padding: 1rem;
-    background: #e34040;
+    background: #fefefe;
+    padding: 0;
 }
 
 .row.striped .col-4.col-sm-3:nth-child(2),
@@ -261,8 +257,11 @@ const generateFreshUrl = (slug, type) => {
     padding-top: 18px;
 }
 
+.row.striped:nth-child(even) a.link {
+    color: #1e1d1d !important;
+}
 .row.striped:nth-child(odd) {
-    background: #b83939;
+    background: #241b1b;
 }
 
 .row.striped:focus,

@@ -143,9 +143,9 @@
         "title": "Regionaler Kontakt",
         "subTitle": "Persönliche Beratung und Support",
         "label": {
-            "place": "Ort:",
-            "phone": "Anruf:",
-            "email": "E-mail:"
+            "place": "Adresse:",
+            "phone": "Rufen Sie uns an:",
+            "email": "Schreiben Sie eine E-Mail:"
         },
         "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Frankreich",
         "email": "Marketing Frankreich",
@@ -169,7 +169,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Großartige mobile Ladeklappe. Wir haben 5 Einheiten des Az-Modells Prime WLO 8+. Geliefert in Dänemark nur 10 Tage nach der Bestellung. Der Kontakt mit Jérôme GUIGUET war sehr gut; Diese Klappen sind sehr einfach zu bedienen, gute Qualität der Fertigung. Das Logistik-Team schätzt sie sehr.",
-        "frankPainText": "Ich kommuniziere mit AZ ramp am 13.12.2023 über die DIRECT Industry-Plattform über eine 10T-Klappe und 20 Minuten später hat der Verkaufsmitarbeiter von AZ ramp auf mich geantwortet. Er hat alle meine Fragen beantwortet und meine Erwartungen erfüllt. Sofort nachdem ich am 20. Dezember 2023 meine Bestellung aufgegeben habe, hat der Lieferzeitpunkt mitgeteilt, dass er am Tag angegebenen Datum erfolgen wird. Lieferung am 1. Februar 2024. Termin wurde eingehalten vom Lieferanten. Der Lieferant war sehr professionell, hat uns während der Lieferung begleitet. Am Schluss hat er bei der Ablage und Installation der Klappe am Standort unterstützt. Als Ausbildungszentrum haben wir großes Augen auf die Qualität und Einschränkungen des CACES®-Standards gelegt. Diese Klappe hat alle aktuellen Anforderungen erfüllt. Die Qualität war vorhanden.",
+        "brunoDreixText": "Kauf einer Rampe mit einer zu 100 % eingehaltenen Lieferzeit.Die Verfügbarkeit ist ein echtes Plus. Erstklassige kaufmännische Überwachung von der Bestellung bis zur Auslieferung und der Außendienstmitarbeiter kennt seine Produkte wie seine Westentasche.",
         "proFoodCenterText": "Wir sind sehr glücklich mit der Klappe, die wir erhalten haben. Sehr robust und leicht zu bedienen. Wir waren überrascht durch die Geschwindigkeit der Lieferung (10 Tage zwischen Kontakt und Klappenempfang). Sehr professionelles Unternehmen!",
         "vincentGirardetText": "Kaufe eine Prime XS-Klappe in einer galvanisierten Version. Material ist sehr schön; robust und einfach zu bedienen. Geliefert in der Schweiz nur 10 Tage nach unserer Bestellung, bin ich glücklich, dass ich mit dieser Firma Geschäfte gemacht habe! Vincent",
         "christell48Text": "Exzellente Qualität-Preis-Beziehung. Wir haben die Prime WLO8+ mit Geländer in der Version Voll galvanisiert gewählt. Sehr praktisch, gute Qualität. AZ MACHINERY hat unser altes Expresso-Modell wieder instand gesetzt. Material wurde am 4. Tag nach unserer Bestellung vom Hersteller in den Wagen geliefert. Sehr gut, danke.",
@@ -199,7 +199,7 @@
             "privacy": "Protection"
         },
         "service": {
-            "title": "Unsere Dienstleistungen",
+            "title": "Dienstleistungen",
             "customMade": "Massanfertigung",
             "delivery": "Lieferung ganz Europa",
             "production": "Eigene Produktion",
@@ -230,8 +230,8 @@
             "statistics_description": "Statistik-Cookies erfassen anonym Daten, um Website-Besitzern zu helfen, Besucherinteraktionen zu verstehen.",
             "marketing_title": "Marketing",
             "marketing_description": "Marketing-Cookies verfolgen Website-Besucher, um relevante, ansprechende Anzeigen anzuzeigen, die für Verlage und Werbetreibende wertvoll sind.",
-            "buttonAllow": "Alle Cookies zulassen",
-            "buttonDisallow": "Alle Cookies ablehnen",
+            "buttonAllow": "Cookies zulassen",
+            "buttonDisallow": "Cookies ablehnen",
             "buttonAccept": "Einstellungen akzeptieren"
         }
     },

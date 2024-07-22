@@ -6,7 +6,7 @@ const { locale } = useI18n();
 
 <template>
     <div class="service-box">
-        <h4>{{ $t('products.details.sidebar.category_list') }}</h4>
+        <h4>AZ Machinery Produkte</h4>
         <div class="services-list">
             <a :href="`/${locale}/category/mobile`">
                 <i class="bi bi-arrow-right-circle"></i>

@@ -143,18 +143,18 @@
         "title": "Alueellinen yhteyshenkilö",
         "subTitle": "Henkilökohtaista neuvontaa ja tukea",
         "label": {
-            "place": "Sijainti:",
-            "phone": "Puhelin:",
-            "email": "Sähköposti:"
+            "place": "Osoite:",
+            "phone": "Soita meille:",
+            "email": "Lähetä meille sähköpostia:"
         },
         "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Ranska",
         "email": "Marketing Ranska",
         "number": "+33 03 52 74 03 69",
         "form": {
             "label": {
-                "place": "Paikka",
-                "phone": "Puhelin",
-                "email": "Sähköposti"
+                "place": "Sijainti:",
+                "phone": "Puhelin:",
+                "email": "Sähköposti:"
             },
             "placeholder": {
                 "name": "Sinun nimesi",
@@ -169,7 +169,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Suuri mobiililaite. Meillä on 5 yksilöä Az-mallista Prime WLO 8+. Toimitettu Tanskaan vain 10 päivän jälkeen tilauksen jäljiltymisen jälkeen. Yhteydenottelu AZ Rampin Jérôme GUIGUET'hen oli erinomainen; Laitteet ovat hyvälaatuista ja helppoja käyttää. Logistiikka-työntekijät arvostavat niitä suuresti.",
-        "frankPainText": "Suhtautuin AZ Rampin kanssa 13. joulukuuta 2023 suoraan DIRECT Industry -alustalla 10T-laitteen kanssa ja vastaus myyntiedustajalta AZ Rampilta tuli minulle 20 minuutin kuluttua. Hän vastasi kaikkiin kysymystäni ja täytti odotukset. Tilauksen jäljiltymisen jälkeen 20. joulukuuta 2023, viesti siitä, että laite toimitetaan vastaamaan sopimusta. Laite toimitettiin 1. helmikuuta 2024. Aika ja aikataulu vastasivat odotusten. Asiakas oli erittäin ammattitaitava, seurasi meitä lastauspaikalla ja asennuksen aikana. Koulutuskeskuksen kannalta tärkeäksi on huomata laitteiden laatu ja CACES®-standardin rajoitukset. Tämä laite vastaa kaikkiin nykyisiin vaatimuksiin.",
+        "brunoDreixText": "Rampin ostaminen 100% toimitusajalla. Saatavuus on todellinen plussa. Ensiluokkaista kaupallista seurantaa tilauksesta toimitukseen ja myyntiedustaja tuntee tuotteensa kuin omat taskunsa.",
         "proFoodCenterText": "Meillä on erittäin mieltymystä saamaammana laitteena. Hyvin kestävä ja käyttämiseltään helppo. Olimme yllättyneitä toimitusaikanaan (10 päivää viestitystä ja laitteen saapumista). Ammattitaitava yhtiö!",
         "vincentGirardetText": "Ostan Prime XS -laitteen galvanisoituana versionina. Materiaali on erittäin siistii; kestävä ja käyttämiseltään helppo. Laite toimitettiin Suomeen vain 10 päivän kuluttua tilauksen jäljiltymisen jälkeen. Hyvä, että teimme bisneksen tämän yrityksen kanssa! Vincent",
         "christell48Text": "Lisään laatu-hinta-suhteellisuutta. Valitsin Prime WLO8+ -laitteen Täysin galvanisoitu-version. Hyvin käyttöystävällinen ja laatuinen. AZ MACHINERY korjasi meidän vanhan Expresso-mallin. Materiaali toimitettiin 4 päivän kuluttua tilauksen jäljiltymisen jälkeen valmistajan autolla. Todellinen hyvä, kiitos!",

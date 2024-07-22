@@ -143,18 +143,18 @@
         "title": "Contato regional",
         "subTitle": "Aconselhamento e suporte pessoal",
         "label": {
-            "place": "Localização:",
-            "phone": "Fone:",
-            "email": "E-mail:"
+            "place": "Endereço:",
+            "phone": "Ligue-nos:",
+            "email": "Envie-nos um e-mail:"
         },
         "address": "13 rue de la scierie - 66340 Palau de Cerdagne, França",
         "email": "Marketing França",
         "number": "+33 03 52 74 03 69",
         "form": {
             "label": {
-                "place": "Local",
-                "phone": "Telefone",
-                "email": "E-mail"
+                "place": "Localização:",
+                "phone": "Fone:",
+                "email": "E-mail:"
             },
             "placeholder": {
                 "name": "Seu nome",
@@ -169,7 +169,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Grande rampa de doc móvel. Temos 5 unidades do modelo Az Prime WLO 8+. Entregue no Dinamarques apenas 10 dias após a compra. O contato com Jérôme GUIGUET foi muito bom; essas rampas são muito fáceis de usar, de boa qualidade. O time logístico as aprecia muito.",
-        "frankPainText": "Entrei em contato com a AZ Ramp em 13/12/2023 via a plataforma DIRECT Industry para discutir uma rampa de 10T e, 20 minutos depois, o vendedor da AZ Ramp respondeu às minhas perguntas e expectativas. Assim que enviamos a compra em 20/12/2023, a data de entrega foi definida para 1/2/2024. A data e a hora foram seguidas pelo motorista. O motorista foi muito profissional e nos acompanhou durante a descarga e instalação da rampa no seu lugar. Como um centro de treinamento, demos grande atenção à qualidade e limitações do padrão CACES®. Esta rampa atende a todas as exigências atuais. A qualidade é excelente.",
+        "brunoDreixText": "Compra de rampa com prazo de entrega 100% garantido. A disponibilidade é uma verdadeira vantagem. Acompanhamento comercial de primeira linha desde o pedido até a entrega e o representante comercial conhece seus produtos como a palma da sua mão.",
         "proFoodCenterText": "Estamos muito satisfeitos com a rampa que recebemos. É uma rampa robusta e prática. Fomos surpreendidos pela rapidez da entrega (apenas 10 dias entre o contato e a recepção da rampa). Uma empresa muito profissional!",
         "vincentGirardetText": "Comprei uma rampa Prime XS em versão galvanizada. Materia muito agradável; robusta e fácil de usar. Foi entregue na Suíça apenas 10 dias após a compra, estou feliz por ter feito negócio com essa empresa! Vincent",
         "christell48Text": "Excelente relação preço/qualidade. Escolhemos o PRIME WLO8+ com corredor em versão FULL GALVA. Muito prático, de boa qualidade. A AZ MACHINERY até mesmo pegou nossa rampa Expresso antiga que não mais ficava em pé. Recebemos o material no nosso armazém em Argentina em 4 dias após a compra. Muito bom, obrigado.",

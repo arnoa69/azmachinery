@@ -150,9 +150,9 @@
         "number": "+33 03 52 74 03 69",
         "form": {
             "label": {
-                "place": "Lugar",
-                "phone": "Teléfono",
-                "email": "Correo electrónico"
+                "place": "Dirección:",
+                "phone": "Llámenos:",
+                "email": "Envíenos un correo electrónico:"
             },
             "placeholder": {
                 "name": "Su nombre completo",
@@ -166,7 +166,7 @@
     },
     "testimonials": {
         "louiseSvensonText": "Gran rampa de muelle Mobil. Disponemos de 5 unidades de rampa Az .modelo prime WLO 8+. Entregado en Dinamarca solo 10 días después del pedido. El contacto con Jérôme GUIGUET fue muy bueno; Estas rampas son muy fáciles de usar, fabricación de buena calidad. El propio equipo de logística los aprecia mucho.",
-        "frankPainText": "Me comuniqué con AZ ramp el 13/12/2023 a través de la plataforma DIRECT Industry sobre una rampa de 10T y 20 minutos después, el representante de ventas de AZ ramp me respondió. Respondió todas mis preguntas y expectativas.Tan pronto como realizamos el pedido el 20 de diciembre de 2023, el tiempo de entrega se comunicó durante el día. Entrega el 1 de febrero de 2024. Fecha y hora cumplida por el repartidor. El conductor fue muy profesional, nos acompañó durante la descarga y la instalación de la rampa en su ubicación.Como centro de formación, hemos prestado gran atención a la calidad y limitaciones del estándar CACES®. Esta rampa cumplió con todos los requisitos actuales. La calidad estaba ahí.",
+        "brunoDreixText": "Compra de rampa con plazo de entrega 100% garantizado. La disponibilidad es una verdadera ventaja. Seguimiento comercial de primer nivel desde el pedido hasta la entrega y el comercial conoce sus productos como la palma de su mano.",
         "proFoodCenterText": "Estamos muy contentos con la rampa que recibimos. Rampa muy robusta y manejable.Nos sorprendió la rapidez de entrega (10 días entre contactarnos y recibir la rampa).Empresa muy profesional!",
         "vincentGirardetText": "Compra una rampa Prime XS en versión galvanizada. Material muy bonito; robusto y fácil de usar. Entregado en Suiza solo 10 días después de nuestro pedido, ¡me alegro de haber hecho negocios con esta empresa! Vicente",
         "christell48Text": "Excelente relación calidad-precio.Elegimos el PRIME WLO8+ con barandilla en versión “FULL GALVA”. Súper práctico, buena calidad.AZ MACHINERY incluso recuperó nuestra antigua rampa Expresso que ya no estaba en pie.Material recibido por nosotros en el camión del fabricante 4 días después de nuestro pedido.Realmente bueno, gracias",
@@ -189,11 +189,10 @@
             }
         },
         "links": {
-            "title": "Enlaces",
-            "about": "Acerca de",
-            "features": "Características",
-            "imprint": "Huella",
-            "privacy": "Privacidad"
+            "cookie-policy": "Política de Cookies",
+            "privacy-policy": "Política de Privacidad",
+            "terms-and-conditions": "Aviso Legal",
+            "imprint": "Huella"
         },
         "service": {
             "title": "Nuestros servicios",
@@ -210,13 +209,13 @@
         }
     },
     "cookiebanner": {
-        "title": "¡Pero primero, cookies!",
+        "title": "Gestionar el consentimiento de las cookies",
         "description": "Utilizamos cookies para recordar sus preferencias, mostrarle contenido relevante y hacer que su experiencia en AZ Machinery sea más fluida. Al utilizar AZ Machinery, acepta nuestra ",
         "policyLink": "política de cookies.",
         "policyLinkAdon": "",
-        "buttonAllow": "Aceptar",
-        "buttonDisallow": "Rechazar",
-        "buttonManageCookies": "Gestionar cookies",
+        "buttonAllow": "Aceptar cookies",
+        "buttonDisallow": "Rechazar cookies",
+        "buttonManageCookies": "Configurar",
         "manage": {
             "title": "Configuración de cookies",
             "necessary_title": "Necesario",
@@ -227,9 +226,9 @@
             "statistics_description": "Las cookies de estadísticas recopilan datos de forma anónima para ayudar a los propietarios de sitios web a comprender las interacciones de los visitantes.",
             "marketing_title": "Marketing",
             "marketing_description": "Las cookies de marketing rastrean a los visitantes del sitio web para mostrar anuncios relevantes y atractivos, valiosos para editores y anunciantes.",
-            "buttonAllow": "Aceptar todas las cookies",
-            "buttonDisallow": "Rechazar todas las cookies",
-            "buttonAccept": "Aceptar configuración"
+            "buttonAllow": "Aceptar cookies",
+            "buttonDisallow": "Rechazar cookies",
+            "buttonAccept": "Guardar preferencias"
         }
     },
     "policybanner": {

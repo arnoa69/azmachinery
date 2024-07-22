@@ -1,12 +1,7 @@
 <script setup>
-import { ref, onMounted } from 'vue';
-import Swiper from 'swiper/bundle';
-import 'swiper/swiper-bundle.css';
+import { ref } from 'vue';
 
-const swiperRef = ref(null);
-
-onMounted(() => {
-  swiperRef.value = new Swiper('.init-swiper', {
+const swiperOptions = ref({
     loop: true,
     speed: 600,
     autoplay: {
@@ -36,7 +31,6 @@ onMounted(() => {
         spaceBetween: 120
       }
     }
-  });
 });
 </script>
 
@@ -44,6 +38,9 @@ onMounted(() => {
     <section id="clients" class="clients section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper init-swiper">
+                <div class="swiper-config" style="display: none;">
+                    {{ JSON.stringify(swiperOptions) }}
+                </div>
                 <div class="swiper-wrapper align-items-center">
                     <div class="swiper-slide"><img src="img/clients/client-1.png" class="img-fluid" alt=""></div>
                     <div class="swiper-slide"><img src="img/clients/client-2.png" class="img-fluid" alt=""></div>
@@ -54,20 +51,7 @@ onMounted(() => {
                     <div class="swiper-slide"><img src="img/clients/client-7.png" class="img-fluid" alt=""></div>
                     <div class="swiper-slide"><img src="img/clients/client-8.png" class="img-fluid" alt=""></div>
                 </div>
-                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
-                        aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet"
-                        tabindex="0" role="button" aria-label="Go to slide 2"></span><span
-                        class="swiper-pagination-bullet" tabindex="0" role="button"
-                        aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0"
-                        role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet"
-                        tabindex="0" role="button" aria-label="Go to slide 5"></span><span
-                        class="swiper-pagination-bullet" tabindex="0" role="button"
-                        aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0"
-                        role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet"
-                        tabindex="0" role="button" aria-label="Go to slide 8">
-                    </span>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>

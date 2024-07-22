@@ -4,7 +4,7 @@
     import { posthogModule } from '../../plugins/posthog'
     import { defineEmits } from 'vue';
 
-    const  { t } = useI18n();
+    const  { t, locale } = useI18n();
     const emit = defineEmits(['showManageBanner', 'hideBanner', 'showPolicyBanner']);
     const declineCookies = () => {
       posthogModule.posthog.opt_out_capturing();
@@ -26,17 +26,17 @@
 
 <template>
     <div class="cookie-banner">
-      <div class="cookie-image-container">
-        <img src="../../../../public/img/cookie-consent-image.png" alt="Cookie" class="cookie-image" />
-      </div>
-        <h3 class="cookie-title">{{ $t('cookiebanner.title') }}</h3>
-      <p class="cookie-description">{{ $t('cookiebanner.description') }}<span class="policy-link" @click="openPolicyBanner">{{ $t('cookiebanner.policyLink') }}</span>{{ $t('cookiebanner.policyLinkAdon') }}</p>
+      <h3 class="cookie-title">{{ $t('cookiebanner.title') }}</h3>
+      <p class="cookie-description">{{ $t('cookiebanner.description') }}{{ $t('cookiebanner.policyLink') }} {{ $t('cookiebanner.policyLinkAdon') }}</p>
       <div class="button-group">
         <button @click="acceptCookies" class="allow-button">{{ $t('cookiebanner.buttonAllow') }}</button>
         <button @click="declineCookies" class="reject-button">{{ $t('cookiebanner.buttonDisallow') }}</button>
-      </div>
-      <div class="full-width-button">
         <button @click="configureCookies" class="info-button">{{ $t('cookiebanner.buttonManageCookies') }}</button>
+      </div>
+      <div class="link-group">
+        <a :href="`/${locale}/cookie-policy`" class="policy-link" target="_blank">{{ $t("footer.links.cookie-policy") }}</a>
+        <a :href="`/${locale}/privacy-policy`" class="policy-link" target="_blank">{{ $t("footer.links.privacy-policy") }}</a>
+        <a :href="`/${locale}/terms-and-conditions`" class="policy-link" target="_blank">{{ $t("footer.links.terms-and-conditions") }}</a>
       </div>
     </div>
 </template>
@@ -44,62 +44,65 @@
 <style scoped>
   .cookie-banner {
     position: fixed;
-    bottom: 40px;
-    right: 30px;
-    width: 400px;
-    min-height: 500px;
+    font-size: 14px;
+    bottom: 10px;
+    right: 10px;
+    max-width: 570px;
+    min-height: 240px;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #251b1b;
     z-index: 9997; /* Ensure the banner is on top of other content */
   }
 
-  .cookie-image-container {
-    margin-bottom: 20px;
-  }
-
-  .cookie-image {
-    width: 120px;
-    height: 120px;
-  }
-
   .cookie-title {
-    font-size: 24px;
-
+    font-size: 16px;
+    font-weight: bold;
   }
 
   .cookie-description {
-    margin-bottom: 20px;
-  }
+    margin: 15px 0;
 
+  }
   .button-group {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    gap: 5px;
+    width: 100%;
+  }
+  .reject-button,
+  .info-button,
+  .allow-button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    min-width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
   }
 
-  .reject-button,
   .allow-button {
-    padding: 10px 20px;
-    border-radius: 25px;
-    min-width: 170px;
-    font-size: 15px;
+    background-color: #be0a13;
+  }
+  .reject-button,
+  .info-button {
+    border-radius: 10px;
     cursor: pointer;
-    background-color: #1B2022;
-    color: #fff;
-    transition: background-color 0.3s;
+    color: #000;
+    background-color: transparent;
   }
-  .reject-button {
-    margin-left: 18px; /* 10px gap */
-  }
+
   .reject-button:hover,
-  .allow-button:hover {
-    background-color: #31363A;
+  .info-button:hover {
+    background-color: #be0a13;
+    color: #fff;
   }
 
   .full-width-button {
@@ -108,19 +111,16 @@
     justify-content: center;
   }
 
-  .info-button {
-    padding: 10px 0;
-    border-radius: 25px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-    color: #000;
-    width: 100%;
-  }
 
+  .link-group {
+    padding-top: 15px;
+  }
   .policy-link {
     color: #a70d0d;
     text-decoration: underline;
     cursor: pointer;
+    padding-right: 10px;
+    font-size: 12px;
   }
 
   @media screen and (max-width: 768px) {
@@ -128,12 +128,17 @@
       left:2px;
       width: 99%;
     }
-    .reject-button, .allow-button {
-     min-width: 150px;
-     font-size: 13px;
+    .button-group {
+        width: 100%;
+        display: inline;
     }
-    .full-width-button {
-      font-size: 13px;
+    .reject-button,
+    .info-button,
+    .allow-button {
+        width: 100%;
+    }
+    .cookie-banner {
+        min-height: 350px;
     }
   }
   /* Media query for iPhone

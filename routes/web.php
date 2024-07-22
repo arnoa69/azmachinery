@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Middleware\LocaleMiddleware;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PolicyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CategoryController;
 
@@ -52,6 +53,12 @@ Route::middleware([LocaleMiddleware::class])->group(function () {
         Route::get('/products/{slug}/pdf', [ProductController::class, 'generateProductPdf'])->name('products.pdf');
         Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
         Route::get('/category/{type}', [CategoryController::class, 'show'])->name('categories.show');
+        Route::get('/contact', [ContactController::class, 'contactFormShow'])->name('contacts.form.show');
+        Route::get('/get-a-quote', [ContactController::class, 'getQuoteFormShow'])->name('contacts.get.quote.form.show');
+        Route::get('/cookie-policy', [PolicyController::class, 'showCookiePolicy'])->name('policy.showCookiePolicy');
+        Route::get('/privacy-policy', [PolicyController::class, 'showPrivacyPolicy'])->name('policy.showPrivacyPolicy');
+        Route::get('/terms-and-conditions', [PolicyController::class, 'showTermsAndConditions'])->name('policy.showTermsAndConditions');
+        Route::get('/imprint', [PolicyController::class, 'showImprint'])->name('policy.showImprint');
     });
 });
 
