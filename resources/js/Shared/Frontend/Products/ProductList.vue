@@ -48,10 +48,18 @@ const getProductImage = (product) => {
             return '/img/products/small/rampes-star_thumb.jpg';
     }
 };
+
+const getShortProductName = (name ) => {
+  const prefix = 'az-ramp-star-';
+  const index = name.indexOf(prefix);
+  const startIndex = index + prefix.length + 1;
+
+  return name.slice(startIndex);
+}
 </script>
 
 <template>
-    <section id="page-title" class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="section-title">
                 <h1>{{ $t("products.list.title") }}</h1>
@@ -71,12 +79,12 @@ const getProductImage = (product) => {
                                 <!-- Filter Links -->
                     <div class="filter-links">
                         <div class="filter-links">
-                        <a href="#" :class="{'active standard': selectedFilter === 'standard'}" @click.prevent="setFilter('standard')">Standard</a>
-                        <a href="#" :class="{'active llo': selectedFilter === 'llo'}" @click.prevent="setFilter('llo')">LLO</a>
-                        <a href="#" :class="{'active xl': selectedFilter === 'xl'}" @click.prevent="setFilter('xl')">XL</a>
-                        <a href="#" :class="{'active lloxl': selectedFilter === 'lloxl'}" @click.prevent="setFilter('lloxl')">LLO-XL</a>
-                        <a href="#" :class="{'active': selectedFilter === ''}" @click.prevent="setFilter('')">All</a>
-                    </div>
+                            <a href="#" :class="{'active standard': selectedFilter === 'standard'}" @click.prevent="setFilter('standard')">Standard</a>
+                            <a href="#" :class="{'active llo': selectedFilter === 'llo'}" @click.prevent="setFilter('llo')">LLO</a>
+                            <a href="#" :class="{'active xl': selectedFilter === 'xl'}" @click.prevent="setFilter('xl')">XL</a>
+                            <a href="#" :class="{'active lloxl': selectedFilter === 'lloxl'}" @click.prevent="setFilter('lloxl')">LLO XL</a>
+                            <a href="#" class="hidden-columns" :class="{'active': selectedFilter === ''}" @click.prevent="setFilter('')">All</a>
+                        </div>
                     </div>
                     <div class="container">
                         <div class="row table-head">
@@ -90,15 +98,15 @@ const getProductImage = (product) => {
                             </div>
                         </div>
                         <div v-for="product in filteredProducts" :key="product.id" class="row striped">
-                            <div class="col-1 col-sm-1">
+                            <div class="col-2 col-sm-2">
                                 <a class="link" :href="generateFreshUrl(product.slug, product.version, product.type)">
                                     <img class="circle-image" :src="getProductImage(product)" alt="test">
                                 </a>
                             </div>
-                            <div class="col-8 col-sm-8 small-text">
-                                <a class="link" :href="generateFreshUrl(product.slug, product.version, product.type)">{{ product.name }}</a>
+                            <div class="col-7 col-sm-8 mobile-text-size">
+                                <a class="link" :href="generateFreshUrl(product.slug, product.version, product.type)">{{ getShortProductName(product.name) }}</a>
                             </div>
-                            <div class="col-3 col-sm-3">{{ product.total_price }} &#8364;</div>
+                            <div class="mobile-text-size col-3 col-sm-2">{{ product.total_price }} &#8364;</div>
                         </div>
                     </div>
                 </div> <!-- END RIGHT SIDBAR -->
@@ -273,14 +281,14 @@ const getProductImage = (product) => {
 .row.table-head {
     color: #fff;
     background: #1c1a1a;
-    padding: 1rem;
+
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .row.striped {
-    padding: 1rem;
-    padding: 0;
+    padding: 0.1rem;
+
     border-bottom: solid 1px black;
 }
 
@@ -313,9 +321,12 @@ const getProductImage = (product) => {
         visibility: hidden;
     }
 
-    .small-text {
-        font-size: 12px;
+    .mobile-text-size {
+        font-size: 11px;
+        margin-top: 9px;
+        padding-left: 5px;
     }
+
 }
 
 .pds_phone {
@@ -377,9 +388,8 @@ const getProductImage = (product) => {
     color: #fff;
 }
 
-.filter-links a.active.llo-xl {
+.filter-links a.active.lloxl {
     background-color: darkblue;
     color: #fff;
 }
-
 </style>

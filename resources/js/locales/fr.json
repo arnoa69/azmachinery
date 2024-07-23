@@ -192,6 +192,7 @@
             }
         },
         "links": {
+            "title": "Instructions",
             "cookie-policy": "Politique en matière de cookies",
             "privacy-policy": "Politique de confidentialité",
             "terms-and-conditions": "Termes et conditions",

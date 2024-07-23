@@ -192,6 +192,7 @@
             }
         },
         "links": {
+            "title": "Ohjeet",
             "cookie-policy": "Evästekäytäntö",
             "privacy-policy": "Tietosuojakäytäntö",
             "terms-and-conditions": "Käyttöehdot",

@@ -192,6 +192,7 @@
             }
         },
         "links": {
+            "title": "Veiledning",
             "cookie-policy": "Informasjonskapsler",
             "privacy-policy": "Personvernregler",
             "terms-and-conditions": "Vilkår og betingelser",
