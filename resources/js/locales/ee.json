@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": " Lingid",
-            "about": "Umbes",
-            "features": "Omadused",
-            "imprint": "Jäljend",
-            "privacy": "Privaatsus"
+            "cookie-policy": "Küpsisepoliitika",
+            "privacy-policy": "Privaatsuspoliitika",
+            "terms-and-conditions": "Kasutustingimused",
+            "imprint": "Jäljend"
         },
         "service": {
             "title": "Meie teenused",

@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Linkit",
-            "about": "Tietoa",
-            "features": "Ominaisuudet",
-            "imprint": "Jälki",
-            "privacy": "Yksityisyys"
+            "cookie-policy": "Evästekäytäntö",
+            "privacy-policy": "Tietosuojakäytäntö",
+            "terms-and-conditions": "Käyttöehdot",
+            "imprint": "Jälki"
         },
         "service": {
             "title": "Palvelumme",

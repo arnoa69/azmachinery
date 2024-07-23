@@ -4,7 +4,7 @@ import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar
 import { Link } from "@inertiajs/vue3";
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
-import { getLocalizedSlug, getLocalizedCountry } from '../../../utils/localizedSlugMixin';
+import { getLocalizedCountry } from '../../../utils/localizedSlugMixin';
 
 const { locale, t } = useI18n();
 

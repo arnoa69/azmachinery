@@ -22,7 +22,7 @@ class ProductController extends Controller
         // Fetch all products from the database
         $products = DB::table('product_combinations')
         ->join('products', 'product_combinations.product_id', '=', 'products.id')
-        ->select('product_combinations.*', 'products.type')
+        ->select('product_combinations.name', 'product_combinations.slug', 'product_combinations.total_price', 'products.type', 'products.version')
         ->get();
 
         // Render the index view with the products data using Inertia

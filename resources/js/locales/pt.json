@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Links",
-            "about": "Sobre",
-            "features": "Recursos",
-            "imprint": "Impressão",
-            "privacy": "Privacidade"
+            "cookie-policy": "Política de cookies",
+            "privacy-policy": "Política de privacidade",
+            "terms-and-conditions": "Termos e Condições",
+            "imprint": "Impressão"
         },
         "service": {
             "title": "Nossos serviços",

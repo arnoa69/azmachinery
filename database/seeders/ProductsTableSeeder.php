@@ -36,12 +36,12 @@ class ProductsTableSeeder extends Seeder
             'standard' => [12950, 13450, 14250, 15250, 16950],
             'llo' => [15250, 15750, 16950, 17950, 19750],
             'xl' => [18550, 18950, 19950, 20450, 22250],
-            'llo xl' => [20750, 21250, 22050, 23050, 24750],
+            'lloxl' => [20750, 21250, 22050, 23050, 24750],
         ];
 
         $weights = [8, 10, 12, 15, 20];
 
-        foreach (['standard', 'llo', 'xl', 'llo xl'] as $version) {
+        foreach (['standard', 'llo', 'xl', 'lloxl'] as $version) {
             foreach ($weights as $index => $weight) {
                 $adjustment = 0;
                 switch ($version) {
@@ -51,7 +51,7 @@ class ProductsTableSeeder extends Seeder
                     case 'xl':
                         $adjustment = $XL_ADJUSTMENT;
                         break;
-                    case 'llo xl':
+                    case 'lloxl':
                         $adjustment = $LLO_XL_ADJUSTMENT;
                         break;
                 }

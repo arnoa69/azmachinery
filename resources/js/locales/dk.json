@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Links",
-            "about": "Om",
-            "features": "Funktioner",
-            "imprint": "Imprint",
-            "privacy": "Beskyttelse"
+            "cookie-policy": "Cookie politik",
+            "privacy-policy": "Fortrolighedspolitik",
+            "terms-and-conditions": "Vilkår og betingelser",
+            "imprint": "Afsæt"
         },
         "service": {
             "title": "Vores services",

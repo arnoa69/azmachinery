@@ -53,7 +53,7 @@ class UrlHelper
             "static" => "statique",
             "container" => "container"
         ],
-        "ne" => [
+        "nl" => [
             "mobile" => "mobiele-laadramp",
             "static" => "statisch",
             "container" => "container"
@@ -130,7 +130,7 @@ class UrlHelper
             "xl" => "extra-gros",
             "llo-xl" => "extension-longue-extra-gros"
         ],
-        "ne" => [
+        "nl" => [
             "standard" => "standaard-grootte",
             "llo" => "lange-niveau-uit",
             "xl" => "extra-groot",
@@ -239,7 +239,7 @@ class UrlHelper
                 'gal' => 'totalement-galvanise',
                 'tb' => 'tunnel-toit',
             ],
-        'ne' =>
+        'nl' =>
             [
                 'zr' => 'zone-refugie',
                 'rl' => 'rail-laterale',

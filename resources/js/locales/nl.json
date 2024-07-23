@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Links",
-            "about": "Over",
-            "features": "Kenmerken",
-            "imprint": "Afdruk",
-            "privacy": "Privacy"
+            "cookie-policy": "Cookiebeleid",
+            "privacy-policy": "Privacybeleid",
+            "terms-and-conditions": "Algemene voorwaarden",
+            "imprint": "Afdruk"
         },
         "service": {
             "title": "Onze diensten",

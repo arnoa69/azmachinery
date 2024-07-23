@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Lenker",
-            "about": "Om",
-            "features": "Funksjoner",
-            "imprint": "Avtrykk",
-            "privacy": "Personvern"
+            "cookie-policy": "Informasjonskapsler",
+            "privacy-policy": "Personvernregler",
+            "terms-and-conditions": "Vilkår og betingelser",
+            "imprint": "Avtrykk"
         },
         "service": {
             "title": "Våre tjenester",

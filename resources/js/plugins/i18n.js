@@ -2,7 +2,7 @@ import { createI18n } from 'vue-i18n';
 import messages from '@intlify/unplugin-vue-i18n/messages';
 
 const userLanguage = localStorage.getItem('locale') || window.navigator.language.substring(0, 2);
-const availableLocales = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'ne', 'no', 'pt', 'se'];
+const availableLocales = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
 
 export const i18n = createI18n({
     legacy: false,

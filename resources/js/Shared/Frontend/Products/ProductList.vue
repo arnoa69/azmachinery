@@ -16,8 +16,8 @@ const props = defineProps({
         required: true,
     },
 });
-const generateFreshUrl = (slug, type) => {
-    return generateUrl(slug, type, locale.value);
+const generateFreshUrl = (slug, version, type) => {
+    return generateUrl(slug, version, type, locale.value);
 }
 
 // Function to set the filter
@@ -25,47 +25,27 @@ const setFilter = (filter) => {
     selectedFilter.value = filter;
 }
 
-// Helper function to extract the version from the slug
-const getVersionFromSlug = (slug) => {
-    const parts = slug.split('-');
-    const versionParts = parts.slice(4, 6).join('-'); // Join the 5th and 6th parts to handle cases like 'llo-xl'
-    return versionParts === 'llo-xl' ? versionParts : parts[4]; // Return 'llo-xl' if applicable, otherwise return the 5th part
-};
-
-// Helper function to extract the options from the slug
-const getOptionsFromSlug = (slug) => {
-    const parts = slug.split('-');
-    return parts.slice(6); // Return all parts after the version
-};
-
 const filteredProducts = computed(() => {
     if (!selectedFilter.value) {
         return props.products;
     }
-    return props.products.filter(product => {
-        const version = getVersionFromSlug(product.slug);
-        return version === selectedFilter.value;
-    });
+    return props.products.filter(product => product.version === selectedFilter.value);
 });
 
 const getProductImage = (product) => {
-    const version = getVersionFromSlug(product.slug);
-    const options = getOptionsFromSlug(product.slug);
-
-    // Check if options contain 'gal'
+    const options = product.slug.split('-').slice(5);
     if (options.includes('gal')) {
-        return `/img/products/small/rampe-full-galvanized_thumb.jpg`;
+        return '/img/products/small/rampe-full-galvanized_thumb.jpg';
     }
-
-    // Default images based on version
-    if (version === 'llo-xl') {
-        return `/img/products/small/star-llo-xl_thumb.jpg`;
-    } else if (version === 'llo') {
-        return `/img/products/small/llo_thumb.jpg`;
-    } else if (version === 'xl') {
-        return `/img/products/small/star-xl-e_thumb.jpg`;
-    } else {
-        return `/img/products/small/rampes-star_thumb.jpg`;
+    switch (product.version) {
+        case 'lloxl':
+            return '/img/products/small/star-llo-xl_thumb.jpg';
+        case 'llo':
+            return '/img/products/small/star-llo_thumb.jpg';
+        case 'xl':
+            return '/img/products/small/star-xl_thumb.jpg';
+        default:
+            return '/img/products/small/rampes-star_thumb.jpg';
     }
 };
 </script>
@@ -94,7 +74,7 @@ const getProductImage = (product) => {
                         <a href="#" :class="{'active standard': selectedFilter === 'standard'}" @click.prevent="setFilter('standard')">Standard</a>
                         <a href="#" :class="{'active llo': selectedFilter === 'llo'}" @click.prevent="setFilter('llo')">LLO</a>
                         <a href="#" :class="{'active xl': selectedFilter === 'xl'}" @click.prevent="setFilter('xl')">XL</a>
-                        <a href="#" :class="{'active llo-xl': selectedFilter === 'llo-xl'}" @click.prevent="setFilter('llo-xl')">LLO-XL</a>
+                        <a href="#" :class="{'active lloxl': selectedFilter === 'lloxl'}" @click.prevent="setFilter('lloxl')">LLO-XL</a>
                         <a href="#" :class="{'active': selectedFilter === ''}" @click.prevent="setFilter('')">All</a>
                     </div>
                     </div>
@@ -111,12 +91,12 @@ const getProductImage = (product) => {
                         </div>
                         <div v-for="product in filteredProducts" :key="product.id" class="row striped">
                             <div class="col-1 col-sm-1">
-                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">
+                                <a class="link" :href="generateFreshUrl(product.slug, product.version, product.type)">
                                     <img class="circle-image" :src="getProductImage(product)" alt="test">
                                 </a>
                             </div>
                             <div class="col-8 col-sm-8 small-text">
-                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">{{ product.name }}</a>
+                                <a class="link" :href="generateFreshUrl(product.slug, product.version, product.type)">{{ product.name }}</a>
                             </div>
                             <div class="col-3 col-sm-3">{{ product.total_price }} &#8364;</div>
                         </div>

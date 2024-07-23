@@ -27,7 +27,7 @@ const submitForm = () => {
 
         <div class="container footer-top">
             <div class="row gy-4">
-                <div class="col-lg-5 col-md-12 footer-about">
+                <div class="col-lg-4 col-md-12 footer-about">
                     <h3>{{ t('footer.headquarter.name') }}</h3>
                     <p class="pb-3"><em>{{ t('footer.headquarter.description') }}</em></p>
                     <div class="social-links d-flex mt-4">
@@ -43,6 +43,16 @@ const submitForm = () => {
                                 class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
+                <div class="col-lg-3 col-6 footer-links">
+                    <h4>{{ t('footer.service.title') }}</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.customMade') }}</li>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.delivery') }}</li>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.production') }}</li>
+                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.warranty') }}</li>
+                        <!-- <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.rental') }}</li> -->
+                    </ul>
+                </div>
 
                 <div class="col-lg-2 col-6 footer-links">
                     <h4>{{ t('footer.links.title') }}</h4>
@@ -54,16 +64,6 @@ const submitForm = () => {
                     </ul>
                 </div>
 
-                <div class="col-lg-2 col-6 footer-links">
-                    <h4>{{ t('footer.service.title') }}</h4>
-                    <ul>
-                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.customMade') }}</li>
-                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.delivery') }}</li>
-                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.production') }}</li>
-                        <li><i class="bi bi-chevron-right"></i> {{ t('footer.service.warranty') }}</li>
-                        <!-- <li><i class="bx bx-chevron-right"></i> {{ t('footer.service.rental') }}</li> -->
-                    </ul>
-                </div>
 
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                     <h4><span>{{ t('footer.headquarter.title') }}</span></h4>

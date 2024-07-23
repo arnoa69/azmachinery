@@ -7,7 +7,6 @@ import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 import { posthogModule } from '@/plugins/posthog';
-import { getLocalizedSlug } from '@/utils/localizedSlugMixin';
 
 const { locale } = useI18n();
 

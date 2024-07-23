@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Länkar",
-            "about": "Om",
-            "features": "Funktioner",
-            "imprint": "Märke",
-            "privacy": "Skydd"
+            "cookie-policy": "Kakupoliitika",
+            "privacy-policy": "Privaatsuspoliitika",
+            "terms-and-conditions": "Kasutustingimused",
+            "imprint": "Jäljend"
         },
         "service": {
             "title": "Våra tjänster",

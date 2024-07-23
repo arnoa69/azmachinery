@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Links",
-            "about": "Iwwer",
-            "features": "Features",
-            "imprint": "Ofdréck",
-            "privacy": "Schutz"
+            "cookie-policy": "Kichelcher Politik",
+            "privacy-policy": "Privatsphär Politik",
+            "terms-and-conditions": "Benotzungsbedingungen",
+            "imprint": "Ofdrock"
         },
         "service": {
             "title": "Eis Servicer",

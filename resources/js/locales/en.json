@@ -192,11 +192,10 @@
             }
         },
         "links": {
-            "title": "Links",
-            "about": "About",
-            "features": "Features",
-            "imprint": "Imprint",
-            "privacy": "Protection"
+            "cookie-policy": "Cookie Policy",
+            "privacy-policy": "Privacy Policy",
+            "terms-and-conditions": "Terms and Conditions",
+            "imprint": "Imprint"
         },
         "service": {
             "title": "Our services",
