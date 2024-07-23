@@ -98,15 +98,15 @@ const getShortProductName = (name ) => {
                             </div>
                         </div>
                         <div v-for="product in filteredProducts" :key="product.id" class="row striped">
+                            <a :href="generateFreshUrl(product.slug, product.version, product.type)" class="product-link">
                             <div class="col-2 col-sm-2">
-                                <a class="link" :href="generateFreshUrl(product.slug, product.version, product.type)">
                                     <img class="circle-image" :src="getProductImage(product)" alt="test">
-                                </a>
                             </div>
                             <div class="col-7 col-sm-8 mobile-text-size">
-                                <a class="link" :href="generateFreshUrl(product.slug, product.version, product.type)">{{ getShortProductName(product.name) }}</a>
+                                {{ getShortProductName(product.name) }}
                             </div>
                             <div class="mobile-text-size col-3 col-sm-2">{{ product.total_price }} &#8364;</div>
+                             </a>
                         </div>
                     </div>
                 </div> <!-- END RIGHT SIDBAR -->
@@ -122,6 +122,7 @@ const getShortProductName = (name ) => {
     border-radius: 10%;
     object-fit: cover;
     object-position: center;
+    margin-left: 10px;
 }
 
 .link {
@@ -288,27 +289,29 @@ const getShortProductName = (name ) => {
 
 .row.striped {
     padding: 0.1rem;
-
     border-bottom: solid 1px black;
 }
 
-.row.striped .col-4.col-sm-3:nth-child(2),
-.row.striped .col-4.col-sm-3:nth-child(3),
-.row.striped .col-4.col-sm-3:nth-child(4) {
-    font-weight: 600;
-    padding-top: 18px;
+.row.striped:hover{
+    background: #1e1d1d;
+    color: white !important;
+}
+.product-row {
+    background-color: white;
 }
 
-.row.striped:nth-child(even) a.link {
-    color: #1e1d1d !important;
-}
-.row.striped:nth-child(odd) {
-    color: #1e1d1d !important;
+.product-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 0;
 }
 
-.row.striped:focus,
-.row.striped:hover {
-    background: #c32115;
+.product-link:hover {
+    background-color: black;
+    color: white;
 }
 
 @media (max-width: 767.98px) {
@@ -323,7 +326,7 @@ const getShortProductName = (name ) => {
 
     .mobile-text-size {
         font-size: 11px;
-        margin-top: 9px;
+        margin-top: 3px;
         padding-left: 5px;
     }
 
