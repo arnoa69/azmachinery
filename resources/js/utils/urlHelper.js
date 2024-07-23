@@ -31,18 +31,6 @@ const validTypes = {
 };
 
 const validVersions = {
-    // en: {
-    //     standard: 'standard-size',
-    //     llo: 'long-leveler-off',
-    //     xl: 'extra-large',
-    //     llo_xl: 'long-leveler-off-extra-large'
-    // },
-    // de: {
-    //     standard: 'standard-groesse',
-    //     llo: 'ausfahrende-verlaengerung',
-    //     xl: 'extra-lang',
-    //     llo_xl: 'ausfahrende-verlaengerung-extra-lang'
-    // }
     'en': { 'standard': 'standard-size', 'llo': 'long-leveler-off', 'xl': 'extra-large', 'llo-xl': 'long-leveler-off-extra-large' },
     'de': { 'standard': 'standard-groesse', 'llo': 'ausfahrende-verlaengerung', 'xl': 'extra-lang', 'llo-xl': 'ausfahrende-verlaengerung-extra-lang' },
     'dk': { 'standard': 'standard-storrelse', 'llo': 'lang-udfyldning', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfyldning-ekstra-stor' },
@@ -75,11 +63,17 @@ function generateUrl(slug, type, locale) {
     path += `/${validVersions[locale][versionKey] || version}`;
 
     // Add options to the path, excluding those that are part of the version
-    options.forEach(option => {
-        if (version !== 'llo-xl' || (option !== 'llo' && option !== 'xl')) {
-            path += `/${validOptions[locale][option] || option}`;
-        }
-    });
+    if (options.length > 0) {
+        // Add options to the path, excluding those that are part of the version
+        options.forEach(option => {
+            if (version !== 'llo-xl' || (option !== 'llo' && option !== 'xl')) {
+                path += `/${validOptions[locale][option] || option}`;
+            }
+        });
+    } else {
+        // Add 'no-option' to the path if there are no options
+        path += '/no-option';
+    }
 
     // Add the full slug at the end
     path += `/${slug}`;

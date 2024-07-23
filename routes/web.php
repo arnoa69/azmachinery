@@ -49,7 +49,8 @@ Route::middleware([LocaleMiddleware::class])->group(function () {
 
         Route::get('/products', [ProductController::class, 'index'])->name('products.index');
         Route::get('/{type}/{version}/{options?}/{slug}', [ProductController::class, 'show'])->name('products.show')
-            ->where('options', '.*');
+        ->where('options', '.*')
+        ->where('options', '(.*|no-option)'); // Allow 'no-option' as a valid option
         Route::get('/products/{slug}/pdf', [ProductController::class, 'generateProductPdf'])->name('products.pdf');
         Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
         Route::get('/category/{type}', [CategoryController::class, 'show'])->name('categories.show');

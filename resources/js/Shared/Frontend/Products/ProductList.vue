@@ -2,22 +2,72 @@
 import CategorySidebar from "../../../Components/Layouts/Layout1/Sidebar/CategorySidebar.vue";
 import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
 import generateUrl from '@/utils/urlHelper';
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import { useI18n } from 'vue-i18n';
 
 const { locale } = useI18n();
 
 const phone_number = ref('');
+const selectedFilter = ref('standard');
+
 const props = defineProps({
     products: {
         type: Object,
         required: true,
     },
 });
-
 const generateFreshUrl = (slug, type) => {
     return generateUrl(slug, type, locale.value);
 }
+
+// Function to set the filter
+const setFilter = (filter) => {
+    selectedFilter.value = filter;
+}
+
+// Helper function to extract the version from the slug
+const getVersionFromSlug = (slug) => {
+    const parts = slug.split('-');
+    const versionParts = parts.slice(4, 6).join('-'); // Join the 5th and 6th parts to handle cases like 'llo-xl'
+    return versionParts === 'llo-xl' ? versionParts : parts[4]; // Return 'llo-xl' if applicable, otherwise return the 5th part
+};
+
+// Helper function to extract the options from the slug
+const getOptionsFromSlug = (slug) => {
+    const parts = slug.split('-');
+    return parts.slice(6); // Return all parts after the version
+};
+
+const filteredProducts = computed(() => {
+    if (!selectedFilter.value) {
+        return props.products;
+    }
+    return props.products.filter(product => {
+        const version = getVersionFromSlug(product.slug);
+        return version === selectedFilter.value;
+    });
+});
+
+const getProductImage = (product) => {
+    const version = getVersionFromSlug(product.slug);
+    const options = getOptionsFromSlug(product.slug);
+
+    // Check if options contain 'gal'
+    if (options.includes('gal')) {
+        return `/img/products/small/rampe-full-galvanized_thumb.jpg`;
+    }
+
+    // Default images based on version
+    if (version === 'llo-xl') {
+        return `/img/products/small/star-llo-xl_thumb.jpg`;
+    } else if (version === 'llo') {
+        return `/img/products/small/llo_thumb.jpg`;
+    } else if (version === 'xl') {
+        return `/img/products/small/star-xl-e_thumb.jpg`;
+    } else {
+        return `/img/products/small/rampes-star_thumb.jpg`;
+    }
+};
 </script>
 
 <template>
@@ -38,6 +88,16 @@ const generateFreshUrl = (slug, type) => {
                     </div>
                 </div> <!-- END LEFT SIDBAR -->
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT SIDBAR -->
+                                <!-- Filter Links -->
+                    <div class="filter-links">
+                        <div class="filter-links">
+                        <a href="#" :class="{'active standard': selectedFilter === 'standard'}" @click.prevent="setFilter('standard')">Standard</a>
+                        <a href="#" :class="{'active llo': selectedFilter === 'llo'}" @click.prevent="setFilter('llo')">LLO</a>
+                        <a href="#" :class="{'active xl': selectedFilter === 'xl'}" @click.prevent="setFilter('xl')">XL</a>
+                        <a href="#" :class="{'active llo-xl': selectedFilter === 'llo-xl'}" @click.prevent="setFilter('llo-xl')">LLO-XL</a>
+                        <a href="#" :class="{'active': selectedFilter === ''}" @click.prevent="setFilter('')">All</a>
+                    </div>
+                    </div>
                     <div class="container">
                         <div class="row table-head">
                             <div class="col-md-2 col-sm-6">
@@ -49,22 +109,16 @@ const generateFreshUrl = (slug, type) => {
                                 {{ $t('products.list.table.head.price') }}
                             </div>
                         </div>
-                        <div v-for="product in products" :key="product.id" class="row striped">
+                        <div v-for="product in filteredProducts" :key="product.id" class="row striped">
                             <div class="col-1 col-sm-1">
-                                <!-- <a class="link" :href="localizedProductUrl(product)">
-                                    <img class="circle-image" :src="`/img/products/small/${product.product_image}thumb.jpg`" alt="test">
-                                </a> -->
                                 <a class="link" :href="generateFreshUrl(product.slug, product.type)">
-                                    <img class="circle-image" src="/img/products/small/rampes-star_thumb.jpg" alt="test">
+                                    <img class="circle-image" :src="getProductImage(product)" alt="test">
                                 </a>
                             </div>
                             <div class="col-8 col-sm-8 small-text">
-                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">{{product.name }}</a>
+                                <a class="link" :href="generateFreshUrl(product.slug, product.type)">{{ product.name }}</a>
                             </div>
-                            <div class="col-3 col-sm-3">
-                                {{ product.total_price }} &#8364;
-                            </div>
-
+                            <div class="col-3 col-sm-3">{{ product.total_price }} &#8364;</div>
                         </div>
                     </div>
                 </div> <!-- END RIGHT SIDBAR -->
@@ -83,7 +137,7 @@ const generateFreshUrl = (slug, type) => {
 }
 
 .link {
-    color: #f7f0f0;
+    color: #141313;
     text-decoration: none;
 }
 
@@ -246,8 +300,8 @@ const generateFreshUrl = (slug, type) => {
 
 .row.striped {
     padding: 1rem;
-    background: #fefefe;
     padding: 0;
+    border-bottom: solid 1px black;
 }
 
 .row.striped .col-4.col-sm-3:nth-child(2),
@@ -261,7 +315,7 @@ const generateFreshUrl = (slug, type) => {
     color: #1e1d1d !important;
 }
 .row.striped:nth-child(odd) {
-    background: #241b1b;
+    color: #1e1d1d !important;
 }
 
 .row.striped:focus,
@@ -305,4 +359,47 @@ const generateFreshUrl = (slug, type) => {
 .form-check {
     margin-top: 10px;
 }
+
+.filter-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-links a {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-links a:hover {
+    background-color: #e9ecef;
+    color: #000;
+}
+
+.filter-links a.active.standard {
+    background-color: red;
+    color: #fff;
+}
+
+.filter-links a.active.llo {
+    background-color: darkgreen;
+    color: #fff;
+}
+
+.filter-links a.active.xl {
+    background-color: turquoise;
+    color: #fff;
+}
+
+.filter-links a.active.llo-xl {
+    background-color: darkblue;
+    color: #fff;
+}
+
 </style>

@@ -277,27 +277,28 @@ class UrlHelper
             ],
     ];
 
-    public static function validateUrlComponents($locale, $type, $version, $options)
+    public static function validateUrlComponents($locale, $type, $version, $options = null)
     {
         // Validate type
-        if (!in_array($type, self::$validTypes[$locale])) {
+        if (!in_array($type, array_values(self::$validTypes[$locale]))) {
             return false;
         }
 
         // Validate version
-        if (!in_array($version, self::$validVersions[$locale])) {
+        if (!in_array($version, array_values(self::$validVersions[$locale]))) {
             return false;
         }
 
         // Validate options
-        $validOptions = array_values(self::$validOptions[$locale]);
-        if ($options) {
+        if ($options && $options !== 'no-option') {
+            $validOptions = array_values(self::$validOptions[$locale]);
             foreach (explode('/', $options) as $option) {
                 if (!in_array($option, $validOptions)) {
                     return false;
                 }
             }
         }
+
         return true;
     }
 
@@ -319,8 +320,8 @@ class UrlHelper
         // Handle options, if present
         $options = array_slice($parts, 3);
         $translatedOptions = implode('/', array_map(fn($opt) => self::$validOptions[$locale][$opt] ?? '', $options));
-        $optionsPath = $translatedOptions ? "/$translatedOptions" : '';
+        $optionsPath = $translatedOptions ? "/$translatedOptions" : '/no-option';
 
-        return "/$locale/$type/$version$optionsPath/$slug";
+        return "/$locale/$type/$version/$optionsPath/$slug";
     }
 }

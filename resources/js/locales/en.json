@@ -301,7 +301,7 @@
             "table": {
                 "head": {
                     "image": "Image",
-                    "code": "Code",
+                    "code": "Name",
                     "handle_modus": "Handling",
                     "price": "Price"
                 }
