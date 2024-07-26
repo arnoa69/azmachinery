@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Laadib tehnoloogiat teie ",
-            "end": "vajaduste jaoks"
+            "start": "Klientide jaotuseks 1982 algatud",
+            "description": "Iga meie klientile on loodud isiklik kogemus.",
+            "button": "Snäpp kasutajaga"
         },
         "box": {
             "title": "Saage pakkumisi ramplaudadele",

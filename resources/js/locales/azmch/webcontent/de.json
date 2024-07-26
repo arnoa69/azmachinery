@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Ladetechnologie für Ihre ",
-            "end": "Bedürfnisse"
+            "start": "Seit 1982 Standard mit Ladesystemen",
+            "description": "Für jeden unserer Kunden haben wir eine individuelle Erfahrung erstellt.",
+            "button": "Mit uns sprechen"
         },
         "box": {
             "title": "Angebote für Rampen erhalten",

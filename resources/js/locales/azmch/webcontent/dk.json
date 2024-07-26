@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Indlæser teknologi til dine ",
-            "end": "behov"
+            "start": "Siden 1982 har vi øget standarderne i indløsningsløsninger",
+            "description": "Vi har oprettet en unik oplevelse for hver af vores kunder.",
+            "button": "Tal med os"
         },
         "box": {
             "title": "Få tilbud på ramper",

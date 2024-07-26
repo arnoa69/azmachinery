@@ -15,9 +15,9 @@ const heroTitle = t("hero.title.start") + " <span>" + t("hero.title.end") + "</s
             <div class="container">
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-6 text-center">
-                        <h2>Delivering a personal touch since 1982</h2>
-                        <p>For each of our clients, we have created a unique experience.</p>
-                        <a href="#get-started" class="btn-get-started">Talk to us</a>
+                        <h2>{{ $t('hero.title.start') }}</h2>
+                        <p>{{ $t('hero.title.description') }}</p>
+                        <a href="#get-started" class="btn-get-started">{{ $t('hero.title.button') }}</a>
                     </div>
                 </div>
             </div>

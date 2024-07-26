@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Ladataan teknologiaa ",
-            "end": "tarpeisiisi"
+            "start": "Vuodesta 1982 lähtien olemme nostaneet rimaa latausratkaisuissa",
+            "description": "Olemme luoneet jokaiselle asiakkaallemme ainutlaatuisen kokemuksen.",
+            "button": "Puhu meille"
         },
         "box": {
             "title": "Hanki tarjouksia rampeille",

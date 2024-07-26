@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Carregando tecnologia para suas ",
-            "end": "necessidades"
+            "start": "Desde 1982 temos vindo a elevar a fasquia em soluções de carregamento",
+            "description": "Para cada um de nossos clientes, criamos uma experiência única.",
+            "button": "Fale conosco"
         },
         "box": {
             "title": "Obtenha cotações para rampas",

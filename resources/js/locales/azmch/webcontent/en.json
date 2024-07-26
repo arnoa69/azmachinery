@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Loading technology for your ",
-            "end": "needs"
+            "start": "Elevating businesses since 1982",
+            "description": "For each of our clients, we have created a unique experience.",
+            "button": "Talk to us"
         },
         "box": {
             "title": "Get quotes for ramps",

@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Technologie de Chargement à tous vos ",
-            "end": "besoins"
+            "start": "Depuis 1982 nous élévons les normes des solutions de chargement",
+            "description": "Pour chaque un de nos clients, nous avons créé une expérience unique.",
+            "button": "Tala avec nous"
         },
         "box": {
             "title": "Obtenez des devis pour les rampes",

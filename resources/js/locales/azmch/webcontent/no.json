@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Laster teknologi for dine ",
-            "end": "behov"
+            "start": "Siden 1982 har vi hevet standarden innen ladeløsninger",
+            "description": "For hver av våre kunder har vi skapt en unik opplevelse.",
+            "button": "Snakk med oss"
         },
         "box": {
             "title": "Få tilbud for ramper",

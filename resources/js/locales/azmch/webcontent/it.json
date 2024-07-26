@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Caricamento della tecnologia per le tue ",
-            "end": "necessità"
+            "start": "Dalla 1982 eleviamo i standardi nelle soluzioni di carico",
+            "description": "Per ogni nostro cliente abbiamo creato un'esperienza unica.",
+            "button": "Parla con noi"
         },
         "box": {
             "title": "Ottieni preventivi per rampe",

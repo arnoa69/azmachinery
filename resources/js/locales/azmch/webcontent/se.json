@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Laddar teknik för dina ",
-            "end": "behov"
+            "start": "Sedan 1982 har vi höjt ribban inom laddningslösningar",
+            "description": "För var och en av våra kunder har vi skapat en unik upplevelse.",
+            "button": "Prata med oss"
         },
         "box": {
             "title": "Få offerter för ramper",

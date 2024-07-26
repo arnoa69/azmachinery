@@ -78,8 +78,9 @@
     },
     "hero": {
         "title": {
-            "start": "Technologie laden voor uw ",
-            "end": "behoeften"
+            "start": "Sinds 1982 leggen wij de lat hoger op het gebied van laadoplossingen",
+            "description": "Voor elk van onze klanten hebben we een unieke ervaring gecreëerd.",
+            "button": "Praat met ons"
         },
         "box": {
             "title": "Ontvang offertes voor oprijplaten",
