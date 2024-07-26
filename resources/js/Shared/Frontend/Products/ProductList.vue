@@ -7,7 +7,7 @@ import { useI18n } from 'vue-i18n';
 
 const { locale } = useI18n();
 
-const phone_number = ref('');
+const page_or_slug = ref('product_list');
 const selectedFilter = ref('standard');
 
 const props = defineProps({
@@ -71,7 +71,7 @@ const getShortProductName = (name ) => {
                     <div class="row categories-list">
                         <div class="service-details">
                             <CategorySidebar />
-                            <HelpSidebar :phone_number="phone_number"/>
+                            <HelpSidebar :page_or_slug="page_or_slug"/>
                         </div>
                     </div>
                 </div> <!-- END LEFT SIDBAR -->

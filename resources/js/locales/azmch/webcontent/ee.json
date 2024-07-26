@@ -1,0 +1,361 @@
+{
+    "meta": {
+        "title": "AZ Machinery - Valmistatud Prantsusmaal",
+        "product_detail_view": {
+            "title": {
+                "gas": "Gaasiga töötav",
+                "electric": "Elektritoitega",
+                "hydraulic": "Hüdrauliline",
+                "leveler": "Integreeritud tasandus",
+                "static_ramp": "Staatiline laadimisramps",
+                "mobile_ramp": "Mobiilne laadimisramps",
+                "platform_ramp": "Statsionaarne laadimisplatvorm"
+            },
+            "keywords": {
+                "keyword_mobile": "mobiilsed laadimisrampid,",
+                "keyword_platform": "laadimisplatvormid,",
+                "keyword_static": "staatilsed laadimisrampid,",
+                "keyword_electric": "elektrilised laadimisrampid,",
+                "keyword_hydraulic": "hüdraulilised laadimisrampid,",
+                "keyword_leveler": "laadimisrampid tasandusfunktsiooniga,",
+                "keyword_gas": "gaasiga töötavad laadimisrampid,",
+                "keyword_truck": "veoki laadimisrampid,",
+                "keyword_tonnes": "laadimisrampid kandevõimega {tonnes} tonni,",
+                "keyword_stock": "laos on üle 500 rammi",
+                "keyword_buy_and_rent": "laadimisrampide ostmine ja rentimine"
+            }
+        },
+        "product_list": {
+            "keywords": "Rammiliik, tootmootor, lasti ja laetmise tehnoloogia, dokkivõlli, rataste, tootmootor, rammiliik",
+            "description": "Effektiivsed lahendused raskete lastite transportimiseks kõrgemale tasanditele. Avastake erinevad tüübid lasti rammilaudadeid ja transporditehnoloogiat.",
+            "og:title": "Mobiilsed lasti rammilaudad, eripärastavad ja rammisüsteemid Euroopas: Elektriline, hidrauliline ja mitmekandev, kõrged varud ja jätkuvad tooted"
+        },
+        "category_list_mobile": {
+            "keywords": "mobiilsed lasti rammilaudad, veetavatud lasti rammilaudad, plastikud lasti rammilaudad, transporditavad rammid, mobiilsed lasti rammilaudad, sulgumised lasti rammilaudad, kevadised lasti rammilaudad, mobiilsed ületamislaud, sulgumised lasti rammilaudad, hõivevad rammid",
+            "description": "Saada rohkem teavet lasti rammilaudadest ja erinevatest meetoditest raskete lastite transportimiseks. Tähtajaga raskusejõudmist kuni hidraulilistest süsteemidest - leidke õige lahendus oma vajadustele vastavalt."
+        },
+        "category_list_static": {
+            "keywords": "eripäraselt valmistatud lastipaigad, konsultatsioonilahendused lastivahetuseks, eripärastavad rammilahendused, kohandatud lastivahetused, eripäraselt valmistatud lasti rammilaudad, eripäraselt valmistatud lasti rammilaudad, eripäraselt valmistatud lastivahetused, konsultatsioonilahendused rammisüsteemideks, eripäraselt valmistatud lastivahetused, eripäraselt valmistatud lastivahetused",
+            "description": "Optimeerige oma materjali vooglastusega meie kvaliteetsed lasti rammilaudadega. Suurenda efektiivsust, turvame ja ergonomiat lasti ja laetmise ajal."
+        },
+        "category_list_station": {
+            "keywords": "mobiilsed lastivahetused, lastivahetused, mobiilsed lastivahetused keskmise ülevaldusega, ettepaistekranner Euroopas, elektrohidrauliline liftingubri, gabeltrukki lastivahetused, elektriline, hidrauliline",
+            "description": "Iga hetkel uusterdiga mobiilsete lasti rammilaudadega, Euroopas kohandatud ja rammilahendustega - elektriline, hidrauliline ja mitmekandev - pakume suuri varukogusid ja jätkuvaid tooted."
+        },
+        "keywords": "mobiilsed laadimisrampid, laadimisplatvormid, mobiilsed keskmise kõrgusega rampid, esisilla rampid Euroopas, elektrohüdrauliline tõstebridge, kahveltõstukite laadimisrampid, elektriline, hüdrauliline",
+        "product_list_view_title": "Mobiilsed, hüdraulilised, elektrilised laadimisrampid, 20 tonni",
+        "description": "Mobiilsed laadimisrampid, laadimisplatvormid ja rampilahendused Euroopas: Elektrilised, hüdraulilised ja paindlikud, suured laosalvestused ja pidevad tarneid",
+        "canonical_link_href": "https://rampas-carga-moviles.es",
+        "og:url": "https://rampas-carga-moviles.es",
+        "og:title": "Mobiilsed ja staatilsed laadimisrampid Euroopas: Avasta meie lai valik! Üle 500 koheselt saadaval kvaliteetsed laadimisrampid",
+        "og:description": "Osta mobiilne laadimisramps (mobiilne tõste  ramps) AZ Machinery tootjalt kogu Euroopa jaoks. Euroopa suurim tootja koormatega 6 kuni 30 tonni. Lai valik laadimisrampid. Valmis tellimiseks. Kvaliteedi tagamine. CE-standard. Tarneid kogu Euroopas.",
+        "og:sitename": "Mobiilsed laadimisrampid AZ Machinery Euroopa | Ladustamisvarustus",
+        "article:section": "Laadimisrampid",
+        "article:author": "AZ Machinery",
+        "article:tag1": "Mobiilne laadimisramps",
+        "article:tag2": "Mobiilne rampe veoautole",
+        "article:tag3": "Mobiilne tõste  ramps",
+        "article:tag4": "Laadimisramps",
+        "twitter:title": "Mobiilsed ja staatilsed laadimisrampid Euroopas: Avasta meie lai valik! Üle 500 koheselt saadaval kvaliteetsed laadimisrampid",
+        "twitter:description": "Osta mobiilne laadimisramps (mobiilne tõste  ramps) AZ Machinery tootjalt kogu Euroopa jaoks. Euroopa suurim tootja koormatega 6 kuni 30 tonni. Lai valik laadimisrampid. Valmis tellimiseks. Kvaliteedi tagamine. CE-standard. Tarneid kogu Euroopas.",
+        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
+        "twitter:domain": "https://rampas-carga-moviles.es"
+    },
+    "header": {
+        "title": "AZ Machinery - Prantsuse kvaliteet",
+        "home": "Avaleht",
+        "about": "Meist",
+        "contact": "Võtke ühendust",
+        "features": "Faktid",
+        "gallery": "Galerii",
+        "counts": "Faktid",
+        "products": "Tooted",
+        "testimonials": "Rahuldatud kliendid",
+        "menu": {
+            "productList": "Tooted",
+            "types": "Tüübid"
+        }
+    },
+    "hero": {
+        "title": {
+            "start": "Laadib tehnoloogiat teie ",
+            "end": "vajaduste jaoks"
+        },
+        "box": {
+            "title": "Saage pakkumisi ramplaudadele",
+            "choices": {
+                "choice_ramp": "Ramplaudade valik",
+                "choice_platform": "Platvormide valik",
+                "choice_measurement": "Mõõtmete järgi valmistatud",
+                "start_now": "Alusta kohe...",
+                "more_500": "Üle 500+ saadaval!"
+            },
+            "requests_today": "Taotlused täna:",
+            "last_requests": "Viimane taotlus:",
+            "button": "JÄTKA",
+            "badges": {
+                "approx_time": "umbes 2 minutit",
+                "reviews": "4,9 tärni 55 arvustuse põhjal",
+                "last_requests_one": "Viimased päringud ",
+                "last_requests_two": " minutit tagasi",
+                "requests_today": "Täna 236 päringut"
+            },
+            "error_message": "Palun valige vähemalt üks valik"
+        }
+    },
+    "modal": {
+        "title": "Täitke oma andmed",
+        "close-button": "Lahkuge"
+    },
+    "about": {
+        "title": "AZ Machinery teie usaldusväärne partner laadimistehnoloogia valdkonnas",
+        "description": "AZ Machinery on juhtiv laadimisseadmete tootja Euroopas. Pakume laia valikut laadimisrampe, platvorme, ladustamist ja lisaseadmeid, et rahuldada kõiki nõudmisi.",
+        "box1Title": "Teie spetsialist individuaalsete laadimislahenduste jaoks",
+        "box1Description": "Pakume teile laia valikut laadimislahendusi, mida me kohandame individuaalselt teie vajadustele. Kas laadimisrambid, platvormid, ladustamine või lisaseadmed - leiame teile ideaalse lahenduse.",
+        "box2Title": "Meie tooted valmistatakse meie enda tootmises Euroopas",
+        "box2Description": "Me pöörame suurt tähelepanu ohutusele ja tõhususele, et saaksite oma kaupu ohutult ja tõhusalt laadida ja mahalaadida.",
+        "box3Title": "Kohaletoimetamine kogu Euroopas",
+        "box3Description": "Me toimetame oma tooted kogu Euroopas ning pakume ulatuslikku teenust. Meie eksperdid on teiega hea meelega nõu andmas ja leiavad teie vajadustele optimaalse lahenduse."
+    },
+    "features": {
+        "title": "Kontrollige kõiki eeliseid",
+        "subTitle": "Tooteinfo",
+        "box1Title": "Kiire tarne",
+        "box2Title": "Hinna väärt",
+        "box3Title": "Kiire vastus",
+        "box4Title": "Omad sulamid",
+        "box5Title": "Rent võimalik",
+        "box6Title": "Professionaalne meeskond",
+        "box7Title": "Suurim valik",
+        "box8Title": "Parim kvaliteet"
+    },
+    "gallery": {
+        "title": "Range meister",
+        "subTitle": "Las meie valik üllatab teid"
+    },
+    "count": {
+        "title1": "Rahuldatud kliendid",
+        "title2": "Käimasolevad projektid",
+        "title3": "Aastate pikkune kogemus",
+        "title4": "Töötaja"
+    },
+    "contact": {
+        "title": "Piirkondlik kontakt",
+        "subTitle": "Isiklik nõuanne ja tugi",
+        "label": {
+            "place": "Aadress:",
+            "phone": "Helistage meile:",
+            "email": "Saatke meile e-kiri:"
+        },
+        "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Prantsusmaa",
+        "email": "Marketing Prantsusmaa",
+        "number": "+33 03 52 74 03 69",
+        "form": {
+            "label": {
+                "place": "Asukoht",
+                "phone": "Telefon",
+                "email": "E-post"
+            },
+            "placeholder": {
+                "name": "Teie nimi",
+                "email": "Teie e-post",
+                "company": "Ettevõtte nimi",
+                "phone": "Telefon",
+                "subject": "Teema",
+                "message": "Sõnum",
+                "send": "Saada sõnum"
+            }
+        }
+    },
+    "testimonials": {
+        "louiseSvensonText": "Hea mobiilkaat. Meil on 5 ühte Az-mudeli Prime WLO 8+. Toodet Danimaali ja 10 päeva pärast tellimuse teostamist. Kontakt AZ rampiga Jérôme GUIGUET oli hea; Need on hea kvaliteedi toodud, toode on hea tootmisest. Logistika meeskonnaga on need suurepärane.",
+        "brunoDreixText": "Kaldtee ostmine 100% garanteeritud tarneajaga. Kättesaadavus on tõeline pluss. Esmaklassiline kaubanduslik jälgimine tellimusest tarnimiseni ja müügiesindaja tunneb tema tooteid nagu oma viit sõrme.",
+        "proFoodCenterText": "Me oleme väga maitsemused kaatiga, mille me saame. Nii robustne kui lihtne kasutamine. Me oleme ülevalminud toode saabumise kiiruse (10 päeva kliendikontakt ja toode saabumine). Professionaalne ettevõte!",
+        "vincentGirardetText": "Ostan Prime XS-kaat galvaniseeritud versioonis. Materjal on väga hea; robustne ja lihtne kasutamine. Toode saabumisel Eesti ja 10 päeva pärast meie tellimust. Ma on hea, et ma toodetega tein. Vincent",
+        "christell48Text": "Laiendatud kvaliteedi-hinnakoha kogemus. Valisin Prime WLO8+ galvane rampa Täielikult galvaniseeritud versioonis. Väga kasulik ja kvaliteetne. AZ MACHINERY taastas meie vana Expresso-mudeli. Materjal toodi 4 päeva pärast meie tellimust tootja autost. Tegelikult hea, täname!",
+        "mauroMartinText": "Minul oli uus kaat AZ MACHINERY ostnud. Valisin mudel AZ RAMP EASY XL 10 T. Hea sisemine laadimiskaat. Toode saabumisel meie laos Eesti ja 30 päeva pärast suurepärane kliendi vastus. Kontakt AZ rampiga Jérôme GUIGUET oli hea; See kaat vastab kõik aktiivsed nõuded kvaliteetile ja tootmisel."
+    },
+    "footer": {
+        "copyright": "Autoriõigused © 2024 AZ Machinery. Kõik õigused kaitstud.",
+        "headquarter": {
+            "name": "AZ Machinery",
+            "title": "Peakorter",
+            "description": "Oleme spetsialiseerunud laadimisseadmete arendamisele, tootmisele, müügile ja rentimisele.",
+            "address": {
+                "street": "CG-2, N°80 Planta Baja, ",
+                "zip": "Ed SUNARI-C, AD100, ",
+                "country": "SOLDEU, Andorra",
+                "phoneLabel": "Telefon: ",
+                "phone": "+376 390 036",
+                "emailLabel": "E-mail: ",
+                "email": "contact[at]az-machinery.com"
+            }
+        },
+        "links": {
+            "title": "Juhend",
+            "cookie-policy": "Küpsisepoliitika",
+            "privacy-policy": "Privaatsuspoliitika",
+            "terms-and-conditions": "Kasutustingimused",
+            "imprint": "Jäljend"
+        },
+        "service": {
+            "title": "Meie teenused",
+            "customMade": "Tellimisel valmistatud",
+            "delivery": "Kogu Euroopa",
+            "production": "Oma tootmine",
+            "warranty": "1 aastat tagemise + 20 aastat valik.",
+            "rental": "Rent võimalik"
+        },
+        "newsletter": {
+            "title": "Tellige meie uudiskiri.",
+            "description": "Ole kursis meie uusimate toodete, pakkumiste ja sündmustega.",
+            "button": "Tellimine"
+        }
+    },
+    "cookiebanner": {
+        "title": "Aga kõigepealt küpsised!",
+        "description": "Kasutame küpsiseid teie eelistuste meeldejätmiseks, asjakohase sisu näitamiseks ja teie kogemuse AZ Machinerys sujuvamaks muutmiseks. AZ Machinery kasutamisega nõustute meie ",
+        "policyLink": "küpsisepoliitikaga.",
+        "policyLinkAdon": "",
+        "buttonAllow": "Luba kõik",
+        "buttonDisallow": "Keela kõik",
+        "buttonManageCookies": "Halda küpsiseid",
+        "manage": {
+            "title": "Küpsise sätted",
+            "necessary_title": "Vajalikud",
+            "necessary_description": "Vajalikud küpsised tagavad veebisaidi põhifunktsioonid, nagu navigeerimine ja juurdepääs turvalistele aladele.",
+            "preferences_title": "Eelistused",
+            "preferences_description": "Eelistusküpsised meenutavad teavet, mis mõjutab veebisaidi käitumist, nagu keel või piirkond.",
+            "statistics_title": "Statistika",
+            "statistics_description": "Statistikaküpsised koguvad anonüümseid andmeid, et aidata veebisaidi omanikel mõista külastajate suhtlust.",
+            "marketing_title": "Turundus",
+            "marketing_description": "Turundusküpsised jälgivad veebisaidi külastajaid, et näidata asjakohaseid ja atraktiivseid reklaame, mis on väärtuslikud väljaandjatele ja reklaamijatele.",
+            "buttonAllow": "Luba kõik küpsised",
+            "buttonDisallow": "Keela kõik küpsised",
+            "buttonAccept": "Võta sätted vastu"
+        }
+    },
+    "policybanner": {
+        "title": "Privaatsuspoliitika",
+        "title_01": "1. Ettevõte ja Andmekaitseametnik",
+        "content_01": "See Privaatsuspoliitika kehtib veebisaidi verladerampenprofi.de kohta, mida opereerib AZ Machinery.",
+        "title_company_contact": "Ettevõtte kontakt",
+        "company_contact_data": "AZ MACHINERY FRANCE: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE . Prantsusmaa, Tel: (+33) 03 52 74 03 69, Ettevõtte ID: 824 654 958 000 19, TVA: FR62 824 654 958",
+        "title_02": "2. Andmete kogumine ja kasutamine",
+        "title_02_01": "2.1 Üldine",
+        "content_02_01": "Kogume ja kasutame isikuandmeid ainult sellises ulatuses, mis on vajalik veebisaidi, meie sisu ja teenuste funktsionaalsuse tagamiseks ning kasutaja päringutele vastamiseks.",
+        "title_02_02": "2.2 Ligipääsuandmed/Serveri logifailid",
+        "content_02_02": "Kui külastate meie veebisaiti, salvestatakse teavet automaatselt serveri logifailidesse, mida teie brauser meile edastab. Nende andmete hulka kuuluvad: (Brauseri tüüp ja versioon, Kasutatud operatsioonisüsteem, Viitaja URL (eelnevalt külastatud leht), Külastava arvuti hostinimi (nt teie IP-aadress), Serveripäringu aeg)",
+        "content_02_02_addon": "Neid andmeid ei kasutata üksikisikute tuvastamiseks, vaid ainult statistilistel eesmärkidel meie veebisaidi kasutamise analüüsimiseks ja parendamiseks.",
+        "title_02_03": "2.3 Küpsised",
+        "content_02_03": "Meie veebisait kasutab küpsiseid. Küpsised on väikesed tekstifailid, mida teie brauser salvestab teie seadmesse. Need aitavad hõlbustada meie veebisaidi kasutamist ja võimaldavad teatud funktsioone. Meie veebisaidil kasutame seansiküpsiseid. Need küpsised kustutatakse automaatselt, kui sulgete oma brauseri. Meie veebisaidil kasutame statistikaküpsiseid. Need küpsised aitavad meil analüüsida ja parendada meie veebisaidi kasutamist. Need koguvad anonüümseid andmeid, nagu külastajate arv, lehitsetud lehed ja veebisaidil veedetud aeg. Saate küpsised keelata oma brauseri seadetes. Palun pange tähele, et see võib piirata meie veebisaidi funktsionaalsust.",
+        "title_03": "3. Andmete jagamine",
+        "content_03": "Me ei jaga teie isikuandmeid kolmandate osapooltega, välja arvatud juhul, kui seda nõuab seadus või teil on selleks nõusolek.",
+        "title_04": "4. Andmete turvalisus",
+        "content_04": "Võtame asjakohaseid tehnilisi ja organisatsioonilisi meetmeid teie isikuandmete kaitsmiseks volitamata juurdepääsu, kadumise, hävitamise, muutmise või volitamata avalikustamise eest.",
+        "title_05": "5. Teie õigused",
+        "content_05": "Teil on õigus oma salvestatud isikuandmetele juurde pääseda, parandada ebatäpseid andmeid, kustutada oma andmed, piirata oma andmete töötlemist, vastuväite esitamine oma andmete töötlemisele ning andmebaasi ülekandmine.",
+        "title_06": "6. Lingid teistele veebisaitidele",
+        "content_06": "Meie veebisaidil võivad olla lingid teistele veebisaitidele. See Privaatsuspoliitika kehtib ainult meie veebisaidile. Meil puudub kontroll selle üle, kuidas teie andmeid kogutakse ja kasutatakse teistel veebisaitidel. Palun vaadake teiste veebisaitide vastavaid privaatsuspoliitikaid.",
+        "title_07": "7. Privaatsuspoliitika uuendused",
+        "content_07": "Jätame endale õiguse seda Privaatsuspoliitikat igal ajal uuendada. Uuendus avaldatakse meie veebisaidil.",
+        "last_update": "Viimati uuendatud: 10. veebruar 2024",
+        "buttonUnderstandPolicy": "Nõustu ja mõista poliitikat"
+    },
+    "categories": {
+        "main": {
+            "head": {
+                "title": "Uurige meie laadiraudte erinevusi | AZ Machinery - Prantsuse lahja",
+                "og:title": "Mobiililadiraudte, laadiraudte platvormid ja rampimõõdud Euroopas: elektrikujundisad, vahenduslikud ja väiksemad, suure hoidjad ja jätkunatoimid"
+            },
+            "title": "Uurige meie laadiraudte erinevusi",
+            "description": "Tutvuge meie laadiraudte erinevusi, mis vastavad teie laadimisnõuetele üksikuid. Mobiililadiraudte ja staatilised laadiraudte võite valida oma üksikute vajadustele sobib kõigeemal teenusega.",
+            "mobile_ramp_label": "Mobiililadiraudte",
+            "mobile_ramp_description": "Mobiililadiraudte võimaldab teile versioonipõhimõttelist juurdepääsu.",
+            "static_ramp_label": "Staatilised laadiraudte",
+            "static_ramp_description": "Tutvuge laadiraudte ülepõhimõttelise kestvuslikku lahterit.",
+            "station_ramp_label": "Paigalduselised laadiraudte",
+            "station_ramp_description": "Optimeerige efektsuselt laadiraudte platvormiga."
+        },
+         "category_product_lists": "{ country } - Laaduramp varutoodetena: Tutvu { type }"
+    },
+    "products": {
+        "back_button": "TAGASI",
+        "list": {
+            "head": {
+                "image": "Pilt",
+                "code": "Kood",
+                "handle_modus": "Käitlemine",
+                "price": "Hind"
+            },
+            "sidebar": {
+                "hydraulic_handling": "Hüdrauliliselt töötavad rampid",
+                "electric_handling": "Elektritoitega töötavad rampid",
+                "manuel_handling": "Manuaalselt töötavad rampid",
+                "pps_handling": "Õhu- või gaasiga töötav rampe"
+            },
+            "use_filer": "Kasutage filtrit, et täpsustada otsingut veelgi",
+            "title": "Rampede loetelu",
+            "table": {
+                "head": {
+                    "image": "Pilt",
+                    "code": "Kood",
+                    "handle_modus": "Käitlemine",
+                    "price": "Hind"
+                }
+            },
+            "filter-title": "Filtreeri energiaallika järgi"
+        },
+        "details": {
+            "title": "Saadaval olevad laadimisrampid",
+            "back": "TAGASI",
+            "sidebar": {
+                "have_a_question": "Kas teil on küsimusi?",
+                "contact_mail": "Kontakte-post",
+                "we_call_you": "Andke oma number ja me helistame teile mõne minuti pärast, et aidata teid.",
+                "your_phone": "Sisestage oma number",
+                "submit_button": "Saada",
+                "category_list": "Liigid laadimisrampidest",
+                "policy": "Nõustuge meie privaatsuspoliitikaga."
+            }
+        },
+        "weight_capacity": "Staatiline kestvus: { tonnit } t",
+        "total_length": "Maksimumilikkus: {total_length} mm",
+        "total_width": "Üldlaius: {total_width} mm",
+        "width_used": "Kasutatud laius: {width_used} mm",
+        "length_inclined_plane": "Kaldpinnal pikkus: {length} mm",
+        "length_plateform_horizontal": "Horisontaalplaanipikkus: { length } mm",
+        "length_lip_penetrating": "Sisenemise huule pikkus: { length }",
+        "exit_lip_length": "Väljumise huule pikkus: { length }",
+        "slope_min_max": "Kaldenurk: Min. { min_slope }% - Maks. { max_slope }%",
+        "lifting_height": "Tõstekõrgus min. { min_height } mm - maks. { max_height } mm",
+        "hydraulic_leveler": "Hüdrauliline tasandaja",
+        "description": "",
+        "description_feet": "",
+        "industry_used_description": "",
+        "unloaded_weight": "Laev kogus { weight } kg",
+        "anti-slip-title": "Anti-slipp",
+        "anti-slip-description": "*Hot-dip galvaniseeritud* lattakatega, mis on käiv tsooni alusel ei-slippiv.",
+        "rent-title": "Rent",
+        "rent-description": "*Lühikuperioodi kasutus* (1 päev kuni 12 kuu) või *Keskmisel kasutus ajal* (12 kuud kuni 36 kuud)",
+        "year_experience-title": "42-aastane kogemus",
+        "year_experience-description": "*42-aastase kogemusega* laadimisvaldkonnas oleme ramppide eksperdid.",
+        "tailor_made_title": "Kliendipõhised rampid",
+        "tailor_made_description": "*Kasu meie ekspertiisist* ramppide valmistamisel, tagades turul saadaoleva kõrgeima kvaliteedi.",
+        "support_feet": "Toetage { feet } kohandatavaid jalgu, sõltuvalt mudelist",
+        "side_railings": "Turvalisus: Mõlema poolt lattarid { height } mm",
+        "security_chaines": "Turvalisus: 2 sidetööraudte kuulutatajad",
+        "target_audience_title": "Kes luub spotlite?",
+        "target_audience_01": "Logistika ja transpord",
+        "target_audience_02": "Varudhoidja ja jaotisamete keskus",
+        "target_audience_03": "Taotluse ja tootmine",
+        "target_audience_04": "Konstruktsioon ja inžiinäriks",
+        "target_audience_05": "Põllumajandus ja põllurahandus",
+        "target_audience_06": "Autotehnika ja Sisemaharvutuse haldus",
+        "target_audience_07": "Müügivali ja ekspluatsiiviteenuste",
+        "target_audience_08": "Seadus ja lae",
+        "target_audience_09": "Taastada ja avastada haldus",
+        "target_audience_10": "Sündmuste ja väljakokkulekuteenused",
+        "product_data_sheet": "Tootedokument"
+    }
+}

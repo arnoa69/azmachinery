@@ -1,7 +1,7 @@
 <script setup>
 import CategorySidebar from "../../../Components/Layouts/Layout1/Sidebar/CategorySidebar.vue";
 import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
-import { ref, computed } from "vue";
+import { ref } from "vue";
 import { useI18n } from 'vue-i18n';
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
@@ -37,12 +37,14 @@ const showPolicyBanner = ref(false)
     <section id="product-detail" class="about">
         <div class="container">
             <div class="section-links">
+                <div><h1>{{ product.name }}</h1></div>
                 <button @click="goBack" class="btn-back">
                     <i class="bi bi-arrow-left-circle-fill"></i> <span class="back-btn-label">{{
                     $t("products.back_button") }}</span>
                 </button>
             </div>
-            <div class="row">
+
+             <div class="row">
                 <div class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
                     <!-- BEGIN LEFT SIDBAR -->
                     <div class="d-flex flex-column">
@@ -50,7 +52,7 @@ const showPolicyBanner = ref(false)
                             <div class="service-details">
                                 <div class=" service-box">
                                     <img class="pic" :src="`/img/products/normal/rampes-star_org.jpg`"
-                                        :alt="$t(`products.${product.product_code}.layout1.product_name`)" />
+                                        :alt="$t(`${product.slug}.product_name`)" />
                                 </div>
                             </div>
                         </div>
@@ -58,8 +60,7 @@ const showPolicyBanner = ref(false)
                         </div>
                         <div class="row categories-list">
                             <div class="service-details">
-                                <CategorySidebar /> <!-- Component CategorySidebar.vue -->
-                                <HelpSidebar :product_code="product.product_code" />
+                                <HelpSidebar :page_or_slug="product.slug" />
                             </div>
                         </div>
                         <div class="row">
@@ -68,6 +69,9 @@ const showPolicyBanner = ref(false)
                                 <a href="https://www.youtube.com/watch?v=K7FVp6UbXi8"
                                     class="glightbox play-btn mb-4">.</a>
                             </div>
+                            <div class="service-details">
+                                <CategorySidebar /> <!-- Component CategorySidebar.vue -->
+                            </div>
                         </div>
                     </div>
                 </div> <!-- END LEFT SIDBAR -->
@@ -75,6 +79,32 @@ const showPolicyBanner = ref(false)
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT CONTNENT COLUMN -->
                     <div class="content ps-lg-4 d-flex flex-column justify-content-center">
                         <div class="row">
+
+                            <div class="col-lg-6"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
+                                <div class="for-whom mt-2">
+                                    <div class="section-title">
+                                        <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
+                                       {{ $t(`${product.slug}.product_description`) }}
+                                    </div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam repudiandae aliquam? Illo debitis quidem necessitatibus, laudantium eaque aliquam quas, repellendus repudiandae blanditiis minima, nulla eius maxime ad alias dolorem!
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam repudiandae aliquam? Illo debitis quidem necessitatibus, laudantium eaque aliquam quas, repellendus repudiandae blanditiis minima, nulla eius maxime ad alias dolorem!
+                                    </p>
+                                    <!-- <ul>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_06") }}</strong></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_07") }}</strong></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_08") }}</strong> </li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_09") }}</strong></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_10") }}</strong></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_01") }}</strong></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_02") }}</strong></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_03") }}</strong> </li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_04") }}</strong></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_05") }}</strong></li>
+                                    </ul> -->
+                                    <div class="chip-wrapper"><p class="chip-red chip">lagerhaus</p><p class="chip-red chip">lagerhaus</p><p class="chip-red chip">lagerhaus</p><p class="chip-red chip">lagerhaus</p></div>
+                                </div>
+                            </div> <!-- END OF RIGHT CONTNENT COLUMN -->
                             <div class="col-lg-6"> <!-- BEGIN OF LEFT CONTNENT COLUMN -->
                                 <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
                                     <div class="left-side left-color-1">
@@ -249,25 +279,6 @@ const showPolicyBanner = ref(false)
                                     </div>
                                 </div>
                             </div> <!-- END OF LEFT CONTNENT COLUMN -->
-                            <div class="col-lg-6"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
-                                <div class="for-whom mt-2">
-                                    <div class="section-title">
-                                        <h2>{{ $t("products.target_audience_title") }}</h2>
-                                    </div>
-                                    <ul>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_06") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_07") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_08") }}</strong> </li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_09") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_10") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_01") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_02") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_03") }}</strong> </li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_04") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_05") }}</strong></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- END OF RIGHT CONTNENT COLUMN -->
                         </div>
                         <div class="row mt-n3">
                             <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
@@ -785,20 +796,29 @@ const showPolicyBanner = ref(false)
     align-items: center;
     margin-bottom: 15px;
 }
+.section-links h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3b434a;
+    text-align: left;
+}
 
 .chips-wrapper {
     display: flex;
+    border: solid 1px #160202;
 }
 
 .chip {
     padding: 5px 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-right: 10px;
     font-weight: bold;
     color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 13px;
+    display: inline-block;
 }
+
 
 .chip-blue-clear {
     background-color: #54C0D1;

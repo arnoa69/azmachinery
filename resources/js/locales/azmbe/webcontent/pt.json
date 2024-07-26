@@ -1,0 +1,361 @@
+{
+    "meta": {
+        "title": "AZ Machinery - Fabricado na França",
+        "product_detail_view": {
+            "title": {
+                "gas": "Operado a gás",
+                "electric": "Operado a eletricidade",
+                "hydraulic": "Hidráulica",
+                "leveler": "Nivelamento integrado",
+                "static_ramp": "Rampa de carga estática",
+                "mobile_ramp": "Rampa de carga móvel",
+                "platform_ramp": "Plataforma de carga estacionária"
+            },
+            "keywords": {
+                "keyword_mobile": "rampas de carga móveis,",
+                "keyword_platform": "plataformas de carga,",
+                "keyword_static": "rampas de carga estáticas,",
+                "keyword_electric": "rampas de carga elétricas,",
+                "keyword_hydraulic": "rampas de carga hidráulicas,",
+                "keyword_leveler": "rampas de carga com nivelador,",
+                "keyword_gas": "rampas de carga a gás,",
+                "keyword_truck": "rampas de carga para camiões,",
+                "keyword_tonnes": "rampas de carga capacidade {tonnes} toneladas,",
+                "keyword_stock": "estoque de mais de 500 rampas",
+                "keyword_buy_and_rent": "compra e aluguel de rampas de carga"
+            }
+        },
+        "product_list": {
+            "keywords": "Operações de rampa, Manuseio de carga, Sistema de carga, Controle de altura da plataforma, Carrinho de rolos, Sistema de carga, Transporte de rampa",
+            "description": "Soluções eficazes para transportar cargas pesadas para níveis mais altos. Descubra diferentes tipos de rampas de carga e métodos de transporte.",
+            "og:title": "Rampas de carga móveis, Personalizadas e sistemas de rampas na Europa: Elétricas, hidráulicas e flexíveis, amplos estoques e entregas contínuas"
+        },
+        "category_list_mobile": {
+            "keywords": "Rampas de carga móveis, Rampas de carga portáteis, Plataformas de carga flexíveis, Rampas de carga móveis, Rampas de carga dobráveis, Rampas de carga leves, Pontes móveis, Rampas dobráveis, Rampas ajustáveis",
+            "description": "Saiba mais sobre rampas de carga e diferentes maneiras de transportar cargas pesadas. Desde transporte por gravidade até sistemas hidráulicos - encontre a solução certa para suas necessidades."
+        },
+        "category_list_static": {
+            "keywords": "Plataformas de carga personalizadas, Estações de carga personalizadas, Soluções de rampa personalizadas, Equipamentos de carga personalizados, Rampas de carga personalizadas, Rampas de carga especiais, Sistemas de rampa personalizados, Estações de carga individuais, Sistemas de carga personalizados",
+            "description": "Otimize o fluxo de materiais com nossas rampas de carga de alta qualidade. Aumente a eficiência, segurança e ergonomia durante o carregamento e descarregamento de mercadorias."
+        },
+        "category_list_station": {
+            "keywords": "Plataformas de carga móveis, Plataformas de carga, Plataformas de carga móveis com média visibilidade, Rampas de eixo dianteiro na Europa, Ponte elevatória eletro-hidráulica, Plataformas de carga para empilhadeira, Elétrica, Hidráulica",
+            "description": "Sempre equipados com rampas de carga móveis, soluções personalizadas e sistemas de rampas na Europa - elétricos, hidráulicos e versáteis - oferecemos amplos estoques e entregas contínuas."
+        },
+        "keywords": "rampas de carga móveis, plataformas de carga, rampas móveis de altura média, rampas de eixo dianteiro na Europa, ponte elevatória eletro-hidráulica, rampas de carga para empilhadores, elétrico, hidráulico",
+        "product_list_view_title": "Rampas de carga móveis, hidráulicas, elétricas, 20 toneladas",
+        "description": "Rampas de carga móveis, plataformas de carga e soluções de rampa na Europa: Elétricas, hidráulicas e flexíveis, altos níveis de estoque e entregas contínuas",
+        "canonical_link_href": "https://rampas-carga-moviles.es",
+        "og:url": "https://rampas-carga-moviles.es",
+        "og:title": "Rampas de carga móveis e estáticas na Europa: Descubra nossa ampla seleção! Mais de 500 rampas de carga de alta qualidade disponíveis imediatamente",
+        "og:description": "Adquira uma rampa de carga móvel (rampa de elevação móvel) do fabricante AZ Machinery para toda a Europa. O maior fabricante da Europa com cargas de 6 a 30 toneladas. Ampla seleção de rampas de carga. Pronto para encomendar. Garantia de qualidade. Norma CE. Entregas em toda a Europa.",
+        "og:sitename": "Rampas de carga móveis AZ Machinery Europa | Equipamento de armazenamento",
+        "article:section": "Rampas de carga",
+        "article:author": "AZ Machinery",
+        "article:tag1": "Rampa de carga móvel",
+        "article:tag2": "Rampa móvel para camião",
+        "article:tag3": "Rampa de elevação móvel",
+        "article:tag4": "Rampa de carga",
+        "twitter:title": "Rampas de carga móveis e estáticas na Europa: Descubra nossa ampla seleção! Mais de 500 rampas de carga de alta qualidade disponíveis imediatamente",
+        "twitter:description": "Adquira uma rampa de carga móvel (rampa de elevação móvel) do fabricante AZ Machinery para toda a Europa. O maior fabricante da Europa com cargas de 6 a 30 toneladas. Ampla seleção de rampas de carga. Pronto para encomendar. Garantia de qualidade. Norma CE. Entregas em toda a Europa.",
+        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
+        "twitter:domain": "https://rampas-carga-moviles.es"
+    },
+    "header": {
+        "title": "AZ Machinery - Qualidade francesa",
+        "home": "Início",
+        "about": "Sobre nós",
+        "contact": "Contate-nos",
+        "features": "Características",
+        "gallery": "Galeria",
+        "counts": "Características",
+        "products": "Produtos",
+        "testimonials": "Clientes satisfeitos",
+        "menu": {
+            "productList": "Produtos",
+            "types": "Tipos"
+        }
+    },
+    "hero": {
+        "title": {
+            "start": "Carregando tecnologia para suas ",
+            "end": "necessidades"
+        },
+        "box": {
+            "title": "Obtenha cotações para rampas",
+            "choices": {
+                "choice_ramp": "Escolha das rampas",
+                "choice_platform": "Escolha das plataformas",
+                "choice_measurement": "Sob medida",
+                "start_now": "Começar agora...",
+                "more_500": "Mais de 500+ disponíveis!"
+            },
+            "requests_today": "Pedidos de hoje:",
+            "last_requests": "Último pedido:",
+            "button": "CONTINUAR",
+            "badges": {
+                "approx_time": "aprox. 2 min.",
+                "reviews": "4,9 estrelas de 55 avaliações",
+                "last_requests_one": "Últimas solicitações ",
+                "last_requests_two": " min. atrás",
+                "requests_today": "236 solicitações hoje"
+            },
+            "error_message": "Por favor, selecione pelo menos uma opção"
+        }
+    },
+    "modal": {
+        "title": "Complete suas informações",
+        "close-button": "Fechar"
+    },
+    "about": {
+        "title": "AZ Machinery, seu parceiro confiável em tecnologia de carregamento",
+        "description": "AZ Machinery é o principal fabricante de equipamentos de carregamento na Europa. Oferecemos uma ampla gama de rampas de carregamento, plataformas, armazenamento e acessórios para atender a todas as necessidades.",
+        "box1Title": "Seu especialista em soluções de carregamento personalizadas",
+        "box1Description": "Oferecemos uma ampla gama de soluções de carregamento que personalizamos individualmente de acordo com suas necessidades. Seja rampas de carregamento, plataformas, armazenamento ou acessórios, encontraremos a solução perfeita para você.",
+        "box2Title": "Nossos produtos são fabricados em nossa própria produção na Europa",
+        "box2Description": "Damos grande importância à segurança e eficiência, para que você possa carregar e descarregar seus produtos com segurança e eficiência.",
+        "box3Title": "Entrega em toda a Europa",
+        "box3Description": "Entregamos nossos produtos em toda a Europa e oferecemos um serviço completo. Nossos especialistas terão prazer em aconselhá-lo e encontrar a solução ideal para suas necessidades."
+    },
+    "features": {
+        "title": "Nossas rampas de carregamento - o número 1 incontestável na Europa.",
+        "subTitle": "Competitivo",
+        "box1Title": "Entrega rápida",
+        "box2Title": "Valor pelo seu dinheiro",
+        "box3Title": "Resposta rápida",
+        "box4Title": "Ligas limpas",
+        "box5Title": "Possibilidade de aluguel",
+        "box6Title": "Equipe profissional",
+        "box7Title": "Ampla escolha",
+        "box8Title": "Melhor qualidade"
+    },
+    "gallery": {
+        "title": "Campeão de alcance",
+        "subTitle": "Deixe nossa seleção surpreendê-lo"
+    },
+    "count": {
+        "title1": "Clientes satisfeitos",
+        "title2": "Projetos em andamento",
+        "title3": "Anos de experiência",
+        "title4": "Funcionários"
+    },
+    "contact": {
+        "title": "Contato regional",
+        "subTitle": "Aconselhamento e suporte pessoal",
+        "label": {
+            "place": "Endereço:",
+            "phone": "Ligue-nos:",
+            "email": "Envie-nos um e-mail:"
+        },
+        "address": "13 rue de la scierie - 66340 Palau de Cerdagne, França",
+        "email": "Marketing França",
+        "number": "+33 03 52 74 03 69",
+        "form": {
+            "label": {
+                "place": "Localização:",
+                "phone": "Fone:",
+                "email": "E-mail:"
+            },
+            "placeholder": {
+                "name": "Seu nome",
+                "email": "Seu e-mail",
+                "company": "Nome da empresa",
+                "phone": "Telefone",
+                "subject": "Assunto",
+                "message": "Mensagem",
+                "send": "Enviar mensagem"
+            }
+        }
+    },
+    "testimonials": {
+        "louiseSvensonText": "Grande rampa de doc móvel. Temos 5 unidades do modelo Az Prime WLO 8+. Entregue no Dinamarques apenas 10 dias após a compra. O contato com Jérôme GUIGUET foi muito bom; essas rampas são muito fáceis de usar, de boa qualidade. O time logístico as aprecia muito.",
+        "brunoDreixText": "Compra de rampa com prazo de entrega 100% garantido. A disponibilidade é uma verdadeira vantagem. Acompanhamento comercial de primeira linha desde o pedido até a entrega e o representante comercial conhece seus produtos como a palma da sua mão.",
+        "proFoodCenterText": "Estamos muito satisfeitos com a rampa que recebemos. É uma rampa robusta e prática. Fomos surpreendidos pela rapidez da entrega (apenas 10 dias entre o contato e a recepção da rampa). Uma empresa muito profissional!",
+        "vincentGirardetText": "Comprei uma rampa Prime XS em versão galvanizada. Materia muito agradável; robusta e fácil de usar. Foi entregue na Suíça apenas 10 dias após a compra, estou feliz por ter feito negócio com essa empresa! Vincent",
+        "christell48Text": "Excelente relação preço/qualidade. Escolhemos o PRIME WLO8+ com corredor em versão FULL GALVA. Muito prático, de boa qualidade. A AZ MACHINERY até mesmo pegou nossa rampa Expresso antiga que não mais ficava em pé. Recebemos o material no nosso armazém em Argentina em 4 dias após a compra. Muito bom, obrigado.",
+        "mauroMartinText": "Comprei uma nova rampa na AZ MACHINERY, escolhemos o modelo AZ RAMP EASY XL 10 T, uma excelente rampa de acesso. Recebemos a rampa em nosso armazém em Argentina em 30 dias, um bom contato com o vendedor muito amigável. Esta rampa é de excelente qualidade e fabricação. Estamos muito satisfeitos com a compra."
+    },
+    "footer": {
+        "copyright": "Direitos autorais © 2024 AZ Machinery. Todos os direitos reservados.",
+        "headquarter": {
+            "name": "AZ Machinery",
+            "title": "Sede",
+            "description": "Especializamo-nos no desenvolvimento, fabrico, venda e aluguer de equipamentos de carga.",
+            "address": {
+                "street": "CG-2, N°80 Planta Baja, ",
+                "zip": "Ed SUNARI-C, AD100, ",
+                "country": "SOLDEU, Andorra",
+                "phoneLabel": "Telefon: ",
+                "phone": "+376 390 036",
+                "emailLabel": "E-mail: ",
+                "email": "contact[at]az-machinery.com"
+            }
+        },
+        "links": {
+            "title": "Diretrizes",
+            "cookie-policy": "Política de cookies",
+            "privacy-policy": "Política de privacidade",
+            "terms-and-conditions": "Termos e Condições",
+            "imprint": "Impressão"
+        },
+        "service": {
+            "title": "Nossos serviços",
+            "customMade": "Feito sob medida",
+            "delivery": "Toda a Europa",
+            "production": "Produção própria",
+            "warranty": "1 ano + 20 anos opcional",
+            "rental": "Aluguel possível"
+        },
+        "newsletter": {
+            "title": "Inscreva-se em nossa newsletter.",
+            "description": "Fique informado sobre nossos últimos produtos, ofertas e eventos.",
+            "button": "Inscrever"
+        }
+    },
+    "cookiebanner": {
+        "title": "Mas primeiro, os cookies!",
+        "description": "Utilizamos cookies para lembrar suas preferências, mostrar conteúdo relevante e tornar sua experiência na AZ Machinery mais fluida. Ao utilizar a AZ Machinery, você aceita nossa ",
+        "policyLink": "Política de Privacidade.",
+        "policyLinkAdon": "",
+        "buttonAllow": "Permitir todos",
+        "buttonDisallow": "Recusar todos",
+        "buttonManageCookies": "Gerenciar cookies",
+        "manage": {
+            "title": "Configurações de cookies",
+            "necessary_title": "Necessários",
+            "necessary_description": "Cookies necessários garantem funções básicas do site, como navegação e acesso a áreas seguras.",
+            "preferences_title": "Preferências",
+            "preferences_description": "Cookies de preferência lembram informações que afetam o comportamento do site, como idioma ou região.",
+            "statistics_title": "Estatísticas",
+            "statistics_description": "Cookies estatísticos coletam dados anonimamente para ajudar os proprietários do site a entender as interações dos visitantes.",
+            "marketing_title": "Marketing",
+            "marketing_description": "Cookies de marketing rastreiam visitantes do site para exibir anúncios relevantes e atraentes, úteis para editores e anunciantes.",
+            "buttonAllow": "Permitir todos os cookies",
+            "buttonDisallow": "Recusar todos os cookies",
+            "buttonAccept": "Aceitar configurações"
+        }
+    },
+    "policybanner": {
+        "title": "Política de Privacidade",
+        "title_01": "1. Empresa e responsável pela proteção de dados",
+        "content_01": "Esta Política de Privacidade se aplica ao site verladerampenprofi.de, operado pela AZ Machinery.",
+        "title_company_contact": "Contato da empresa",
+        "company_contact_data": "AZ MACHINERY FRANCE: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE . França, Tel: (+33) 03 52 74 03 69, ID da empresa: 824 654 958 000 19, TVA: FR62 824 654 958 ",
+        "title_02": "2. Coleta e uso de dados",
+        "title_02_01": "2.1 Geral",
+        "content_02_01": "Coletamos e usamos dados pessoais apenas na medida necessária para fornecer um site funcional, nosso conteúdo e serviços, e para responder às dúvidas dos usuários.",
+        "title_02_02": "2.2Acessar dados/arquivos de log do servidor",
+        "content_02_02": "Quando você acessa nosso site, as informações são automaticamente armazenadas em arquivos de log do servidor, que seu navegador nos transmite. Esses dados incluem: (Tipo e versão do navegador, Sistema operacional usado, URL de referência (página visitada anteriormente), Nome do host do computador de acesso (por exemplo, seu endereço IP), hora da solicitação do servidor)",
+        "content_02_02_addon": "Estes dados não são usados ​​para identificar indivíduos, mas apenas para fins estatísticos para analisar e melhorar o uso do nosso site.",
+        "title_02_03": "2.3 Cookies",
+        "content_02_03": "Nosso site usa cookies. Cookies são pequenos arquivos de texto armazenados em seu dispositivo pelo seu navegador. Eles ajudam a facilitar o uso de nosso site e permitem certos recursos. Usamos cookies de sessão em nosso site. Esses cookies são excluídos automaticamente quando você fecha seu navegador. Usamos cookies de estatísticas em nosso site. Esses cookies nos ajudam a analisar e melhorar o uso de nosso site. Eles coletam dados anônimos, como o número de visitantes, as páginas visitadas e o tempo gasto no site. Você pode desativar os cookies nas configurações do seu navegador. No entanto, observe que isso pode limitar a funcionalidade do nosso site.",
+        "title_03": "3. Compartilhamento de dados",
+        "content_03": "Não compartilhamos seus dados pessoais com terceiros, a menos que exigido por lei ou com seu consentimento.",
+        "title_04": "4. Segurança de Dados",
+        "content_04": "Tomamos medidas técnicas e organizacionais apropriadas para proteger seus dados pessoais contra acesso não autorizado, perda, destruição, alteração ou divulgação não autorizada.",
+        "title_05": "5. Seus direitos",
+        "content_05": "Você tem o direito de acessar seus dados pessoais armazenados, de retificar dados imprecisos, de excluir seus dados, de restringir o processamento de seus dados, de se opor ao processamento de seus dados e à portabilidade de dados.",
+        "title_06": "6. Links para outros sites",
+        "content_06": "Nosso site pode conter links para outros sites. Esta Política de Privacidade se aplica apenas ao nosso site. Não temos controle sobre como seus dados são coletados e usados ​​em outros sites. Consulte as respectivas políticas de privacidade de outros sites. ",
+        "title_07": "7. Atualizações da Política de Privacidade",
+        "content_07": "Reservamo-nos o direito de atualizar esta Política de Privacidade a qualquer momento. A atualização será publicada em nosso site.",
+        "last_update": "Última atualização: 10 de fevereiro de 2024",
+        "buttonUnderstandPolicy": "Aceitar e compreender a política"
+    },
+    "categories": {
+        "main": {
+            "head": {
+                "title": "Explore a Ampla Gama de Tipos de Rampa de Carga | AZ Machinery - Qualidade Francêsa",
+                "og:title": "Mobile ramos de carga, plataformas de carga e soluções de rampa em Europa: Elétricas, hidráulicas e flexíveis, altas estocks e entregas contínuas"
+            },
+            "title": "Explore a Ampla Gama de Tipos de Rampa de Carga",
+            "description": "Descubra uma ampla seleção de tipos de rampa de carga projetados para atender às suas necessidades de carga de forma eficiente. De mobilíssimas ramos a rampas estáticas robustas, encontre a solução ideal para operações de carga e descarga sem problemas. Aumente sua produtividade com nossas opções de rampa de alta qualidade. Compre agora!",
+            "mobile_ramp_label": "Rampas Móveis",
+            "mobile_ramp_description": "Experimente versatilidade com nossas rampas móveis de ponta.",
+            "static_ramp_label": "Rampas Estáticas",
+            "static_ramp_description": "Descubra a durabilidade com nossas rampas estáticas de alta qualidade.",
+            "station_ramp_label": "Rampas de Estação",
+            "station_ramp_description": " Otimize a eficiência com nossa plataforma de carga de estação."
+        },
+         "category_product_lists": "{ country } - Rampas de carga em stock: Explore { type }"
+    },
+    "products": {
+        "back_button": "VOLTAR",
+        "list": {
+            "head": {
+                "image": "Imagem",
+                "code": "Código",
+                "handle_modus": "Manuseio",
+                "price": "Preço"
+            },
+            "sidebar": {
+                "hydraulic_handling": "Rampas operadas hidraulicamente",
+                "electric_handling": "Rampas operadas eletricamente",
+                "manuel_handling": "Rampas operadas manualmente",
+                "pps_handling": "Rampa operada por ar ou gás"
+            },
+            "use_filer": "Utilize o filtro para refinar ainda mais a pesquisa",
+            "title": "Lista de rampas",
+            "table": {
+                "head": {
+                    "image": "Imagem",
+                    "code": "Código",
+                    "handle_modus": "Manuseio",
+                    "price": "Preço"
+                }
+            },
+            "filter-title": "Filtrar por fonte de energia"
+        },
+        "details": {
+            "title": "Rampas de Carga Disponíveis",
+            "back": "VOLTAR",
+            "sidebar": {
+                "have_a_question": "Tem alguma pergunta?",
+                "contact_mail": "E-mail de contacto",
+                "we_call_you": "Diga-me o seu número e ligamos-lhe em poucos minutos para ajudá-lo.",
+                "your_phone": "Escreva o seu número",
+                "submit_button": "Enviar",
+                "category_list": "Tipos de rampas de carga",
+            "policy": "Aceite a nossa política de privacidade."
+            }
+        },
+        "weight_capacity": "Capacidade estática {toneladas} T",
+        "total_length": "Comprimento máximo: {total_length} mm",
+        "total_width": "Largura total: {total_width} mm",
+        "width_used": "Largura utilizada: {width_used} mm",
+        "length_inclined_plane": "Comprimento do plano inclinado: {length} mm",
+        "length_plateform_horizontal": "Comprimento horizontal da plataforma: {length} mm",
+        "length_lip_penetrating": "Comprimento da viga penetrante: {length}",
+        "exit_lip_length": "Comprimento da viga de saída: {length}",
+        "slope_min_max": "Inclinação: Mín. {min_slope}% - Máx. {max_slope}%",
+        "lifting_height": "Altura ajustável mín. {min_height} mm - máx. {max_height} mm",
+        "hydraulic_leveler": "Ajuste hidráulico",
+        "description": "",
+        "description_feet": "",
+        "industry_used_description": "",
+        "unloaded_weight": "Peso não carregado { weight } kg",
+        "anti-slip-title": "Anti-deslize",
+        "anti-slip-description": "*Grades hot-dip galvanizadas* com superfície de corrida não-deslizante.",
+        "rent-title": "Aluguel",
+        "rent-description": "*Aluguel de curto prazo* (1 dia a 12 meses) ou *aluguel médio* (12 a 36 meses)",
+        "year_experience-title": "42 Anos de Experiência",
+        "year_experience-description": "*Com 42 anos de experiência* no campo de carregamento, somos especialistas em ramais.",
+        "tailor_made_title": "Ramais Personalizados",
+        "tailor_made_description": "*Beneficie da nossa experiência* na confecção de ramais, garantindo a melhor qualidade disponível no mercado.",
+        "support_feet": "{ feet } pés adaptáveis, dependendo do modelo",
+        "side_railings": "Segurança: Guarda-corpo lateral { height } mm",
+        "security_chaines": "Segurança: 2 fios de amarração incluídos",
+        "target_audience_title": "Quem está na Luz da Atração?",
+        "target_audience_01": "Logística e Transporte",
+        "target_audience_02": "Armazéns e Centros de Distribuição",
+        "target_audience_03": "Manufatura e Produção",
+        "target_audience_04": "Engenharia e Construção",
+        "target_audience_05": "Agricultura e Agricultura",
+        "target_audience_06": "Automobilismo e Manutenção de Veículos",
+        "target_audience_07": "Mineração e Indústrias Extratoras",
+        "target_audience_08": "Navegação e Portos",
+        "target_audience_09": "Reciclagem e Gestão de Resíduos",
+        "target_audience_10": "Serviços de Eventos e Exposições",
+        "product_data_sheet": "Folha de dados do produto"
+    }
+}

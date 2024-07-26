@@ -34,4 +34,8 @@ return [
     'pipedrive' => [
         'token' => env('PIPEDRIVE_API_TOKEN'),
     ],
+
+    'openai' => [
+        'secret' => env('OPENAI_API_KEY'),
+    ]
 ];

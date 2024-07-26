@@ -1,0 +1,363 @@
+{
+    "meta": {
+        "title": "AZ Machinery - Hergestallt an Frankräich",
+        "product_detail_view": {
+            "title": {
+                "gas": "Gasbedéngt",
+                "electric": "Elektresch bedéngt",
+                "hydraulic": "Hydraulesch",
+                "leveler": "Integréiert Ausgläichung",
+                "static_ramp": "Statesch Laderampe",
+                "mobile_ramp": "Mobil Laderampe",
+                "platform_ramp": "Stationär Ladeplattform"
+            },
+            "keywords": {
+                "keyword_mobile": "mobil Laderampen,",
+                "keyword_platform": "Ladeplattformen,",
+                "keyword_static": "statesch Laderampen,",
+                "keyword_electric": "elektresch Laderampen,",
+                "keyword_hydraulic": "hydraulesch Laderampen,",
+                "keyword_leveler": "Laderampe mat Ausgläichung,",
+                "keyword_gas": "gasbedéngt Laderampen,",
+                "keyword_truck": "Camion Laderampen,",
+                "keyword_tonnes": "Laderampe Kapazitéit {tonnes} Tonnen,",
+                "keyword_stock": "Lager vu méi wéi 500 Rampen",
+                "keyword_buy_and_rent": "Kaf a Locatioun vu Laderampen"
+            }
+        },
+        "product_list": {
+            "keywords": "Rampenoperatiounen, Frachthandling, Lassystem, Plattformhéichtebedéngung, Rollstuhlwunn, Lassystem, Rampentransport",
+            "description": "Effektiv Léisungen fir schwaarz Frachten op héich Niveau ze beweegen. Entdeckt verschidde Typen vu Laderampen an Transportmethoden.",
+            "og:title": "Mobiler Laderampen, Personaliséiert a Laderampesystemer a Europa: Elektresch, hydraulesch an flexibel, grouss Lager a kontinuéierlech Léiwungen"
+        },
+        "category_list_mobile": {
+            "keywords": "Mobiler Laderampen, Portable Laderampen, Flexibel Luedplattformen, Versetzbar Laderampen, Mobiler Laderampen, Biegbar Laderampen, Léis Laderampen, Mobiler Iwwerschreitungsplattformen, Biegbar Laderampen, Personaliséiert Laderampen",
+            "description": "Liest méi iwwer Laderampen an verschidden Methoden fir schwaarz Frachten ze beweegen. Vun gravitéitsfräiem Transport bis zu hydraulischen Systemer - fannt déi richteg Léisung fir är Bedürfnisser."
+        },
+        "category_list_static": {
+            "keywords": "Personaliséiert Luedplattformen, Personaliséiert Luedstationen, Personaliséiert Luedléisungen, Personaliséiert Luedequipement, Personaliséiert Laderampen, Speziell Luedplattformen, Personaliséiert Laderampesystemer, Personaliséiert Luedstationen, Personaliséiert Luedsystemer",
+            "description": "Optiméiert Äre Materialfluss mat eise Laderampen vu héijer Qualitéit. Erhéicht Effizienz, Sécherheet an Ergonomie beim Lueden an Entladen vu Wueren."
+        },
+        "category_list_station": {
+            "keywords": "Mobiler Luedplattformen, Luedplattformen, Mobiler Luedplattformen mat duerchschnëttlech Iwwerbléck, Viergeplazte Steieren an Europa, Hydraulesch-elektresch Gabelstapler, Luedplattformen fir Gabelstapler, Elektresch, Hydraulesch",
+            "description": "Ëmmer mat ausgestattete mobiler Laderampen, personaliséiert Léisungen an Laderampesystemer an Europa - elektresch, hydraulesch an flexibel - grouss Lager a kontinuéierlech Léiwungen."
+        },
+        "keywords": "mobil Laderampen, Ladeplattformen, mobil Rampe mat mëttlerer Héicht, Vierderachs-Rampen an Europa, elektro-hydraulesch Hiewbréck, Stapler Laderampen, elektresch, hydraulesch",
+        "product_list_view_title": "Mobil, hydraulesch, elektresch Laderampen, 20 Tonnen",
+        "description": "Mobil Laderampen, Ladeplattformen a Rampléisungen an Europa: Elektresch, hydraulesch a flexibel, héich Lagerniveauen a kontinuéierlech Liwwerungen",
+        "canonical_link_href": "https://rampas-carga-moviles.es",
+        "og:url": "https://rampas-carga-moviles.es",
+        "og:title": "Mobil a statesch Laderampen an Europa: Entdeckt eis grouss Auswiel! Méi wéi 500 direkt verfügbar héichqualitativ Laderampen",
+        "og:description": "Kaaft eng mobil Laderampe (mobil Hieframp) vum AZ Machinery Hiersteller fir ganz Europa. De gréissten Hiersteller an Europa mat Laaschtkapazitéite vu 6 bis 30 Tonnen. Grouss Auswiel u Laderampen. Prett fir ze bestellen. Qualitéitsgarantie. CE-Norm. Liwwerungen a ganz Europa.",
+        "og:sitename": "Mobil Laderampen AZ Machinery Europa | Lagerausrüstung",
+        "article:section": "Laderampen",
+        "article:author": "AZ Machinery",
+        "article:tag1": "Mobil Laderampe",
+        "article:tag2": "Mobil Rampe fir Camion",
+        "article:tag3": "Mobil Hieframp",
+        "article:tag4": "Laderampe",
+        "twitter:title": "Mobil a statesch Laderampen an Europa: Entdeckt eis grouss Auswiel! Méi wéi 500 direkt verfügbar héichqualitativ Laderampen",
+        "twitter:description": "Kaaft eng mobil Laderampe (mobil Hieframp) vum AZ Machinery Hiersteller fir ganz Europa. De gréissten Hiersteller an Europa mat Laaschtkapazitéite vu 6 bis 30 Tonnen. Grouss Auswiel u Laderampen. Prett fir ze bestellen. Qualitéitsgarantie. CE-Norm. Liwwerungen a ganz Europa.",
+        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
+        "twitter:domain": "https://rampas-carga-moviles.es"
+    },
+    "header": {
+        "title": "AZ Machinery - Franséisch Qualitéit",
+        "home": "Heem",
+        "about": "Iwwert eis",
+        "contact": "Kontakt",
+        "features": "Fakten",
+        "gallery": "Galerie",
+        "counts": "Fakten",
+        "products": "Produkter",
+        "testimonials": "Clienten zufrieden",
+        "menu": {
+            "productList": "Produkter",
+            "types": "Typen"
+        }
+    },
+    "hero": {
+        "title": {
+            "start": "Luede Technologie fir Är",
+            "end": "Noutwendegkeet"
+        },
+        "box": {
+            "title": "Préventioun vun der Ramp",
+            "choices": {
+                "choice_ramp": "Stierflech rampe",
+                "choice_platform": "Scelta delle piattaforme",
+                "choice_measurement": "Déi falsch",
+                "start_now": "Elo starten...",
+                "more_500": "Méi wéi 500+ verfügbar!"
+            },
+            "requests_today": "Ufroen haut:",
+            "last_requests": "Lescht Ufro:",
+            "button": "CONTINUA",
+            "badges": {
+                "approx_time": "ongeféier 2 min.",
+                "reviews": "4,9 stelle bis 55 Kritik",
+                "last_requests_one": "Ultime räichste",
+                "last_requests_two": "min. fa",
+                "requests_today": "236 räichste oggi"
+            },
+            "error_message": "Dir kënnt d'Selezionare vun der Optioun un"
+        }
+    },
+    "modal": {
+        "title": "Komplett d'Informatioun vum Dënschdeg",
+        "close-button": "Esci"
+    },
+    "about": {
+        "title": "AZ Maschinnen Ären zouverléissege Partner fir Luede Technologie",
+        "description": "AZ Machinery ass de féierende Hiersteller vu Luedegeräter an Europa. Mir bidden eng ëmfaassend Palette vu Luede Rampen, Plattformen, Lager- an Uschlossausrüstung fir all Ufuerderungen ze passen.",
+        "box1Title": "Äre Spezialist fir individuell Ladeléisungen",
+        "box1Description": "Mir bidden Iech eng ëmfaassend Auswiel u Luedeléisungen, déi mir individuell un Är Bedierfnesser upassen. Ob Luede Rampen, Plattformen, Lagerung oder Befestigungsausrüstung - mir fannen déi perfekt Léisung fir Iech.",
+        "box2Title": "Eis Produkter ginn an eiser eegener Produktioun an Europa hiergestallt",
+        "box2Description": "Mir leeë vill Wäert op Sécherheet an Effizienz, fir datt Dir Är Wueren sécher an effizient lueden an ausluede kënnt.",
+        "box3Title": "Liwwerung duerch ganz Europa",
+        "box3Description": "Mir liwweren eis Produkter a ganz Europa a bidden en ëmfaassenden Service un. Eis Experten beroden Iech gären an fannen déi optimal Léisung fir Är Besoinen."
+    },
+    "features": {
+        "title": "Eis Luede Rampen - déi onbestridden Nummer 1 an Europa.",
+        "subTitle": "Kompetitiv",
+        "box1Title": "Schnell Liwwerung",
+        "box2Title": "De Präis wäert",
+        "box3Title": "Schnell Äntwert",
+        "box4Title": "Eegen Alliagen",
+        "box5Title": "Loyer méiglech",
+        "box6Title": "Professionell Equipe",
+        "box7Title": "Gréisst Auswiel",
+        "box8Title": "Bescht Qualitéit"
+    },
+    "gallery": {
+        "title": "Range Champion",
+        "subTitle": "Loosst eis Auswiel Iech iwwerraschen"
+    },
+    "count": {
+        "title1": "Zefridden Clienten",
+        "title2": "Laufend Projeten",
+        "title3": "Joer Erfahrung",
+        "title4": "Employé"
+    },
+    "contact": {
+        "title": "Regionale Kontakt",
+        "subTitle": "Perséinlech Berodung an Ënnerstëtzung",
+        "label": {
+            "place": "Adress:",
+            "phone": "Rufft eis un:",
+            "email": "Schéckt eis eng E-Mail:"
+        },
+        "address": "13 rue de la scierie - 66340 Palau de Cerdagne, Frankräich",
+        "email": "Marketing Frankräich",
+        "number": "+33 03 52 74 03 69",
+        "form": {
+            "label": {
+                "place": "Plaz:",
+                "phone": "Telefon:",
+                "email": "E-mail:"
+            },
+            "placeholder": {
+                "name": "Ären Numm",
+                "email": "Är E-Mail",
+                "company": "Firmennumm",
+                "phone": "Telefonsnummer",
+                "subject": "Sujet",
+                "message": "Message",
+                "send": "Schécken Message"
+            }
+        }
+    },
+    "testimonials": {
+        "louiseSvensonText": "Gréng Gréng mobilgeräte. Méi hutt 5 Exempel vun Az-Modell Prime WLO 8+. Gëtt uffgedréchtet ass Tanschnit nur 10 Dag an der Aufforderung vun der Bestellung. D'Yewewwerk mit AZ Ramp Jérôme GUIGUET war erfohrlich; d'Geräte sinn schénger und eefach zu benotzen. Logistik-Arbëtscher kréieren d'Geräte ergescht. ",
+        "brunoDreixText": "Kaf vun enger Ramp mat enger 100% garantéiert Liwwerung Zäit. D'Disponibilitéit ass e richtege Plus. Éischtklasseg kommerziell Iwwerwaachung vun Bestellung bis Liwwerung an de Verkeefer kennt seng Produkter wéi seng Hand.",
+        "proFoodCenterText": "Méi hutt gréng Geräte. Gréng haltbar und eefach zu benotzen. Wéi überrascht, ass mir am Versandzeitpunkt (10 Tage Wartezeit und Geräte-Ankunft) ginn. Erfälig Versandunternehmen!",
+        "vincentGirardetText": "Bin d'Geräte vun AZ MACHINERY gekauft. I wéi d'Modell Prime XS als galvaniséierte Version. D'Material ass schénger saang; gréng haltbar und eefach zu benotzen. D'Geräte ass nach 10 Tagen nach der Bestellung ausgeliefert worre. Gréng, ass d'Werbung für d'Geschäft mit dësem Unternehmen gmacht! Vincent",
+        "christell48Text": "Héich d'Laat-Haltbarkeets-Verhältnis. Hutt d'Modell Prime WLO8+ als Ganz galvaniséiert-Version ausgewielt. Gréng benotzbar und laut. AZ MACHINERY héicht méi awwern Expresso-Modell. D'Material ass 4 Tage nach der Bestellung ausgeliefert worre, vun d'Hersteller mit dem Auto. Gréng gut, dankeschön!",
+        "mauroMartinText": "Bin d'Geräte vun AZ MACHINERY gekauft, hutt d'Modell AZ RAMP EASY XL 10 T ausgewielt. Gréng Innengerät. D'Geräte ass nach 30 Tagen nach der Bestellung an méi Reserveländer in Spanien ausgeliefert worre, guttige Verbindung mit Jérôme GUIGUET. Dësse Geräte entsprént d'Erfordernisse an Laat und Produktionsstandards."
+    },
+    "footer": {
+        "copyright": "Copyright © 2024 AZ Machinery. All Rechter reservéiert.",
+        "headquarter": {
+            "name": "AZ Maschinnen",
+            "title": "Sëtz",
+            "description": "Mir spezialiséiert op d'Entwécklung, d'Fabrikatioun, de Verkaf an d'Verlounen vun Luedegeräter.",
+            "address": {
+                "street": "CG-2, N°80 Planta Baja, ",
+                "zip": "Ed SUNARI-C, AD100, ",
+                "country": "SOLDEU, Andorra",
+                "phoneLabel": "Telefon: ",
+                "phone": "+376 390 036",
+                "emailLabel": "E-mail: ",
+                "email": "contact[at]az-machinery.com"
+            }
+        },
+        "links": {
+            "title": "Richtlinien",
+            "cookie-policy": "Kichelcher Politik",
+            "privacy-policy": "Privatsphär Politik",
+            "terms-and-conditions": "Benotzungsbedingungen",
+            "imprint": "Ofdrock"
+        },
+        "service": {
+            "title": "Eis Servicer",
+            "customMade": "Custom Made",
+            "delivery": "Ganz Europa",
+            "production": "Eegen Produktioun",
+            "warranty": "1 Jar Garanti + 20 Jar optional",
+            "rental": "Verlounen méiglech"
+        },
+        "newsletter": {
+            "title": "Abonnéiert Iech op eisen Newsletter.",
+            "description": "Bleift informéiert iwwer eis lescht Produkter, Offeren an Eventer.",
+            "button": "Abonnéieren"
+        }
+    },
+    "cookiebanner": {
+        "title": "Awer éischt, Cookien!",
+        "description": "Mir setzen Cookien an, fir Är Präferenzen ze behalen, Iech relevanten Inhalt ze weisen an Är AZ Machinery Erfahrung méi flësseleg ze maachen. Duerch d'Benotze vu AZ Machinery akzeptéiert Dir eis ",
+        "policyLink": "Privatsphär Politik.",
+        "policyLinkAdon": "",
+        "buttonAllow": "Zouginn",
+        "buttonDisallow": "Ofwiessen",
+        "buttonManageCookies": "Cookien administréieren",
+        "manage": {
+            "title": "Cookiéischtellungen",
+            "necessary_title": "Noutwendeg",
+            "necessary_description": "Noutwendeg Cookien garantéieren Grondfunktiounen vum Websäit, wéi Navigatioun an den Zougrëff op d'Sécherheet.",
+            "preferences_title": "Präferenzen",
+            "preferences_description": "Präferenzcookien erënneren un Donnéen, déi d'Verhalen vum Websäit beeënflussen, wéi d'Sprooch oder d'Regioun.",
+            "statistics_title": "Statistiken",
+            "statistics_description": "Statistikcookien sammelen anonym Donnéen fir den Websäitebesëtzer ze hëllefen, d'Interaktiounen vun de Visiteuren ze verstoen.",
+            "marketing_title": "Marketing",
+            "marketing_description": "Marketingcookien verfollegen d'Besucher vun der Websäit fir relevante, attraktiv Annoncen ze weisen, déi wäertvoll fir Erausginn a Publiciteitsmaacher sinn.",
+            "buttonAllow": "All Cookien zouginn",
+            "buttonDisallow": "All Cookien ofwiessen",
+            "buttonAccept": "Astellungen akzeptéieren"
+        }
+    },
+    "policybanner": {
+        "title": "Privatsphär Politik",
+        "title_01": "1. Firmen- an Dateschutzbeamten",
+        "content_01": "Dës Dateschutzpolitik gëllt fir d'Websäit verladerampenprofi.de, bedriwwe vun AZ Machinery.",
+        "title_company_contact": "Kontakt vun der Firma",
+        "company_contact_data": "AZ MACHINERY FRANCE: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE . Frankräich, Tel : (+33) 03 52 74 03 69, Firma ID : 824 654 958 6 000 5 000 8 FR 429 ",
+        "title_02": "2. Datesammlung a Gebrauch",
+        "title_02_01": "2.1 Allgemeng",
+        "content_02_01": "Mir sammelen a benotzen perséinlech Donnéeën nëmmen am Mooss néideg fir eng funktionell Websäit, eisen Inhalt a Servicer ze bidden, an d'Ufro vun de Benotzer ze beäntweren.",
+        "title_02_02": "2.2Zougang zu Daten/Server Log Dateien",
+        "content_02_02": "Wann Dir op eis Websäit zougräift, gëtt d'Informatioun automatesch an de Serverlogdateien gespäichert, déi Äre Browser un eis iwwerdréit. Dës Donnéeën enthalen: (Browsertyp a Versioun, benotzte Betribssystem, Referrer URL (virdrun besicht Säit), Hostnumm vum Zougangscomputer (z.B. Är IP Adress), Zäit vun der Serverufro)",
+        "content_02_02_addon": "Dës Donnéeë ginn net benotzt fir Individuen z'identifizéieren, awer nëmme fir statistesch Zwecker fir d'Benotzung vun eiser Websäit ze analyséieren an ze verbesseren.",
+        "title_02_03": "2.3 Cookien",
+        "content_02_03": "Eis Websäit benotzt Cookien. Cookien si kleng Textdateien, déi vun Ärem Browser op Ärem Apparat gespäichert sinn. Si hëllefen d'Benotzung vun eiser Websäit ze erliichteren a verschidde Funktiounen z'erméiglechen. Mir benotzen Sessiouns-Cookien op eiser Websäit. Dës Cookien ginn automatesch geläscht wann Dir maacht Äre Browser zou Mir benotze Statistike Cookien op eiser Websäit Dës Cookien hëllefen eis d'Benotzung vun eiser Websäit ze analyséieren an ze verbesseren. Si sammelen anonym Donnéeën, wéi d'Zuel vun de Besucher, d'Säiten besicht an d'Zäit déi op der Websäit verbruecht gëtt. Dir kënnt d'Cookien an Äre Browser-Astellungen ausschalten, awer notéiert w.e.g. datt dëst d'Funktionalitéit vun eiser Websäit limitéiere kann.",
+        "title_03": "3. Datendeelen",
+        "content_03": "Mir deelen Är perséinlech Donnéeën net mat Drëtte, ausser wann et vum Gesetz verlaangt oder mat Ärer Zoustëmmung.",
+        "title_04": "4. Datesécherheet",
+        "content_04": "Mir huelen entspriechend technesch an organisatoresch Moossname fir Är perséinlech Donnéeën virum onerlaabten Zougang, Verloscht, Zerstéierung, Ännerung oder onerlaabten Offenbarung ze schützen.",
+        "title_05": "5. Är Rechter",
+        "content_05": "Dir hutt d'Recht op Accès op Är gespäichert perséinlech Donnéeën ze kréien, ongenau Donnéeën ze korrigéieren, Är Donnéeën ze läschen, d'Veraarbechtung vun Ären Donnéeën ze beschränken, géint d'Veraarbechtung vun Ären Donnéeën ze protestéieren an d'Datenportabilitéit.",
+        "title_06": "6. Linken op aner Websäiten",
+        "content_06": "Eis Websäit kann Linken op aner Websäite enthalen. Dës Dateschutzpolitik gëllt nëmme fir eis Websäit. Mir hu keng Kontroll iwwer wéi Är Donnéeën op anere Websäite gesammelt a benotzt ginn. Weg kuckt op déi jeweileg Privatsphär Politiken vun anere Websäiten. ",
+        "title_07": "7. Dateschutzpolitik Updates",
+        "content_07": "Mir behaalen eis d'Recht dës Dateschutzpolitik zu all Moment ze aktualiséieren. D'Aktualiséierung gëtt op eiser Websäit publizéiert.",
+        "last_update": "Lescht aktualiséiert: 10. Februar 2024",
+        "buttonUnderstandPolicy": "Politik akzeptéieren a verstoen"
+    },
+    "categories": {
+        "main": {
+            "head": {
+                "title": "Erkënck d's Range vun Loading Ramp-Typen | AZ Machinery - Franséisch Qualitéit",
+                "og:title": "Mobil loading ramps, loading platforms an Ramp-Lössinge in Europa: Elektrisch, hydraulesch an flexibele, huechs Hoechster an kontinuierlichen Lieferungen"
+            },
+            "title": "Erkränken d'Range vun Loading Ramp-Typen",
+            "description": "Entdecken Sie an Diversität vun Loading Ramp-Typen, dech gerne op d'Loading-Beweren effizient erleichen. Vun flexiblen mobilen ramps bis robusten statischen ramps findt Iech d'r rechte Perfekt-Lösung fir effiziente Loading un Loosing-Operationen. Huechs d'Produktivität mit unseren hochkualitativen Ramp-Optionen.",
+            "mobile_ramp_label": "Mobile Rampen",
+            "mobile_ramp_description": "Erfarung Vielseitigkeit mat eisen innovativen mobilen Loading Rampen.",
+            "static_ramp_label": "Statischen Rampen",
+            "static_ramp_description": "Entdecken Dauer met eisen robusten statische Loading Rampen.",
+            "station_ramp_label": "Stationären Rampen",
+            "station_ramp_description": "Optimiséiert Effizienz mat eisem stationären Loading Plattform."
+        },
+         "category_product_lists": "{ country } - Luederampen am Stock: Entdecke { type }"
+    },
+    "products": {
+        "back_button": "BACK",
+        "list": {
+            "head": {
+                "image": "Bild",
+                "code": "Code",
+                "handle_modus": "Handhabung",
+                "price": "Präis"
+            },
+            "sidebar": {
+                "hydraulic_handling": "Hydraulesch bedéngte Rampen",
+                "electric_handling": "Elektresch bedéngte Rampen",
+                "manuel_handling": "Manuell bedéngte Rampen",
+                "pps_handling": "Drockluft oder Gas bedéngte Rampen"
+            },
+            "have_a_question": "Hutt Dir eng Fro?",
+            "contact_mail": "Kontakt E-Mail",
+            "use_filer": "Benotzt de Filter fir nach méi präzis ze sichen",
+            "title": "Lëscht vun de Rampen",
+            "table": {
+                "head": {
+                    "image": "Bild",
+                    "code": "Code",
+                    "handle_modus": "Handhabung",
+                    "price": "Präis"
+                }
+            },
+            "filter-title": "No Energiequell filteren"
+        },
+        "details": {
+            "title": "Detailer vun der Laderampe",
+            "back": "ZERÉCK",
+            "sidebar": {
+                "have_a_question": "Hutt Dir eng Fro?",
+                "contact_mail": "Kontakt E-Mail",
+                "we_call_you": "Gitt eis Är Nummer an mir ruffen Iech an e puer Minutten un fir Iech ze hëllefen.",
+                "your_phone": "Gitt Är Nummer an",
+                "submit_button": "Ofschécken",
+                "category_list": "Zorten vu Laderampen",
+                "policy": "Akzeptéiert eis Dateschutzrichtlinnen."
+            }
+        },
+        "weight_capacity": "Static capacity { tonnes } T",
+        "total_length": "Maximum length: {total_length} mm",
+        "total_width": "Total width: {total_width} mm",
+        "width_used": "Width used: {width_used} mm",
+        "length_inclined_plane": "Length of the inclined plane: {length} mm",
+        "length_plateform_horizontal": "Length platform horizontal: { length } mm",
+        "length_lip_penetrating": "Entrance lip length: { length }",
+        "exit_lip_length": "Exit lip length: { length }",
+        "slope_min_max": "Slopes: Min. { min_slope }% - Max. { max_slope }%",
+        "lifting_height": "Adjustable height min. { min_height } mm - max. { max_height } mm",
+        "hydraulic_leveler": "Hydraulic leveling",
+        "description": "",
+        "description_feet": "",
+        "industry_used_description": "",
+        "unloaded_weight": "Opluede Gewiicht { weight } kg",
+        "anti-slip-title": "Anti-Rutsch",
+        "anti-slip-description": "*Hot-dip galvaniséiert* Gitter mat engem net-gleedenden Laafstreck.",
+        "rent-title": "Loyer",
+        "rent-description": "*Kuerz Zäit Miete* (1 Dag to12 Méint) oder Mëttel Verleifzäit (12 bis 36 Méint)",
+        "year_experience-title": "42 Joer Erfarung",
+        "year_experience-description": "*Mat 42 Joer Erfarung* am Luedenberäich, si mir Experten an Rampen.",
+        "tailor_made_title": "Op Mier massgeschneiderte Rampen",
+        "tailor_made_description": "*Profitéiert vun eiser Expertise* a Rampen ze schafen, fir déi héchst Qualitéit op dem Marché ze garantéieren.",
+        "support_feet": "Ënnerstëtzung { feet } adaptiv, Modellabhängeg",
+        "side_railings": "Sécherheit: Säegeschutzen { height } mm",
+        "security_chaines": "Sécherheit: 2 anliegende Sicherheitsketten inkluséiert",
+        "target_audience_title": "Wer isch im Spotlight?",
+        "target_audience_01": "Logistik un Transport",
+        "target_audience_02": "Lager un Distributionscenter",
+        "target_audience_03": "Montage un Produktionssektoren",
+        "target_audience_04": "Baubranche un Ingenieur",
+        "target_audience_05": "Landwirtschaft un Ackerbau",
+        "target_audience_06": "Automobil- un Fahrzeuginstandhaltung",
+        "target_audience_07": "Bergbau un Extraktionsindustrie",
+        "target_audience_08": "Schiffahrt un Häere",
+        "target_audience_09": "Recycling un Abfallentsorgung",
+        "target_audience_10": "Event un Ausstellungsdienste",
+        "product_data_sheet": "Produktdatenblatt"
+    }
+}

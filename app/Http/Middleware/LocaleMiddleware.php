@@ -18,7 +18,7 @@ class LocaleMiddleware
         $uri = $request->getRequestUri();
 
         // Check if URI starts with '/pipedrive' and skip locale detection
-        if (strpos($uri, '/pipedrive') === 0 || strpos($uri, '/contact') === 0 || strpos($uri, '/client-request') === 0) {
+        if (strpos($uri, '/pipedrive') === 0 || strpos($uri, '/contact') === 0 || strpos($uri, '/client-request') === 0 || strpos($uri, '/chatgpt') === 0) {
             return $next($request);
         }
 

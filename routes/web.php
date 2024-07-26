@@ -9,6 +9,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PolicyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CategoryController;
+use Illuminate\Support\Facades\Http;
 
 Route::get("/", function () {
     return Inertia::render("Welcome", [
@@ -17,6 +18,33 @@ Route::get("/", function () {
         "laravelVersion" => Application::VERSION,
         "phpVersion" => PHP_VERSION,
     ]);
+});
+
+Route::get('/chatgpt', function() {
+
+    $response = Http::withHeaders([
+        'Authorization' => 'Bearer ' . env('OPENAI_API_KEY'),
+        'Content-Type' => 'application/json',
+    ])->post('https://api.openai.com/v1/chat/completions', [
+        'model' => 'gpt-3.5-turbo',
+        'messages' => [
+            [
+                'role' => 'system',
+                'content' => 'You are a helpful assistant.',
+            ],
+            [
+                'role' => 'user',
+                'content' => 'What is the capital of France?',
+            ],
+        ],
+        'temperature' => 0.5,
+    ]);
+    if ($response->failed()) {
+        dd($response->body());
+        return $response->body();
+    }
+    dd($response->json());
+    return $response->json();
 });
 
 Route::get("/pipedrive", function() {
@@ -74,6 +102,7 @@ Route::post('/change-locale/{locale}', function ($locale) {
 
 Route::post('/contact', [ContactController::class,'submit']);
 Route::post('/client-request', [ContactController::class, 'submit']);
+
 
 Route::fallback(function () {
     return redirect(app()->getLocale());
