@@ -59,11 +59,6 @@ const validOptions = {
   'se': { 'zr': 'sakerhetszon', 'rl': 'sidokanter', 'e': 'elektrisk', 'ff': 'vaxelskytt', 'gal': 'fullt-galvaniserad', 'tb': 'takkup' }
 };
 
-const translateUrlComponent = (component, translations) => {
-  const entry = Object.entries(translations).find(([key, value]) => key === component || value === component);
-  return entry ? entry[0] : component;
-};
-
 const translateSlug = (type, slug, currentLocale, newLocale) => {
   // Define your regex pattern to extract version and options
   const regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
@@ -80,7 +75,8 @@ const translateSlug = (type, slug, currentLocale, newLocale) => {
   // Translate version and options to new locale
   const translatedType = validTypes[newLocale][type];
   const translatedVersion = validVersions[newLocale][version];
-  const translatedOptions = options.map(opt => validOptions[newLocale][opt]).join('/');
+  const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
+
 
   // Construct the new URL
   return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
@@ -117,7 +113,6 @@ const changeLanguage = async (event) => {
         newPath = '/' + newLocale + currentPath;
       }
     }
-
     // Use Inertia to navigate to the new path
     router.visit(newPath, { preserveState: false });
 

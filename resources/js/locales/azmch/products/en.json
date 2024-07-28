@@ -1,428 +1,428 @@
 {
-    "az-ramp-star-8t-standard": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-ff-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-gal-ff-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-ff-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-8t-standard-tb-gal-ff-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-ff-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-gal-ff-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-e": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-e-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-e-rl": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-e-rl-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-ff": {
-        "product_name": "",
-        "product_description": ""
-    },
-    "az-ramp-star-10t-standard-tb-ff-zr": {
-        "product_name": "",
-        "product_description": ""
-    },
+"az-ramp-star-8t-standard": {
+"product_name": "Standard mobile loading ramp with 8-tonne capacity",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD is a versatile mobile loading ramp designed for efficient material handling in various industries. With an 8-tonne weight capacity, it's ideal for warehouses, distribution centers, and light manufacturing facilities. The standard-size ramp features a durable steel construction, non-slip surface, and adjustable height, ensuring safe and smooth loading operations for forklifts and pallet jacks."
+},
+"az-ramp-star-8t-standard-zr": {
+"product_name": "Standard mobile loading ramp with refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-ZR combines safety and efficiency for your loading operations. This 8-tonne capacity ramp includes a refuge zone, providing added security for operators during use. Ideal for busy logistics hubs and retail warehouses, it features a robust design, anti-slip surface, and easy maneuverability. The refuge zone offers a safe space for personnel, enhancing workplace safety in high-traffic loading areas."
+},
+"az-ramp-star-8t-standard-rl": {
+"product_name": "Standard mobile loading ramp with side railings",
+"product_description": "Designed for enhanced safety, the AZ RAMP-STAR-8T-STANDARD-RL features side railings to protect against accidental falls during loading and unloading. With an 8-tonne capacity, this ramp is perfect for automotive workshops, small manufacturing plants, and construction sites. The sturdy side railings provide extra security for operators, while the standard-size design ensures compatibility with various vehicles and loading docks."
+},
+"az-ramp-star-8t-standard-rl-zr": {
+"product_name": "Standard mobile loading ramp with side railings and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-RL-ZR offers maximum safety features for demanding loading environments. This 8-tonne capacity ramp combines side railings and a refuge zone, making it ideal for busy industrial settings and multi-level warehouses. The side railings prevent accidental falls, while the refuge zone provides a safe area for operators. Its standard size ensures versatility across various applications, from food processing plants to chemical storage facilities."
+},
+"az-ramp-star-8t-standard-e": {
+"product_name": "Standard electric mobile loading ramp with 8-tonne capacity",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-E combines convenience and power with its electric operation. This 8-tonne capacity ramp is perfect for logistics centers and manufacturing facilities. Its electric tilting bridges ensure smooth transitions, while the standard size accommodates various vehicle types. The ramp's durable construction and easy-to-use controls make it ideal for frequent loading operations in diverse industrial settings."
+},
+"az-ramp-star-8t-standard-e-zr": {
+"product_name": "Standard electric mobile loading ramp with refuge zone",
+"product_description": "Designed for safety and efficiency, the AZ RAMP-STAR-8T-STANDARD-E-ZR features electric operation and a refuge zone. This 8-tonne capacity ramp is suitable for busy warehouses and distribution centers. The electric tilting bridges offer precise control, while the refuge zone provides a safe area for operators. Its standard size ensures versatility, making it an excellent choice for facilities with varied loading requirements."
+},
+"az-ramp-star-8t-standard-e-rl": {
+"product_name": "Standard electric mobile loading ramp with side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-E-RL combines electric operation with enhanced safety features. This 8-tonne capacity ramp includes side railings, making it ideal for automotive industries and retail warehouses. The electric tilting bridges ensure smooth loading, while the railings provide fall protection. Its standard size and robust construction make it suitable for a wide range of loading dock configurations."
+},
+"az-ramp-star-8t-standard-e-rl-zr": {
+"product_name": "Standard electric mobile loading ramp with side railings and refuge zone",
+"product_description": "Offering maximum safety and convenience, the AZ RAMP-STAR-8T-STANDARD-E-RL-ZR features electric operation, side railings, and a refuge zone. This 8-tonne capacity ramp is perfect for high-traffic warehouses and industrial facilities. The electric tilting bridges, combined with safety features, ensure efficient and secure loading operations. Its versatile design makes it suitable for various industries, from food processing to electronics manufacturing."
+},
+"az-ramp-star-8t-standard-ff": {
+"product_name": "Standard mobile loading ramp with fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-FF is equipped with fork sliders for easy maneuverability. This 8-tonne capacity ramp is ideal for dynamic warehouses and logistics centers. The fork sliders allow quick repositioning by forklifts, enhancing operational flexibility. Its standard size and durable construction make it suitable for various loading scenarios in industries such as e-commerce fulfillment and manufacturing."
+},
+"az-ramp-star-8t-standard-ff-zr": {
+"product_name": "Standard mobile loading ramp with fork sliders and refuge zone",
+"product_description": "Combining safety and mobility, the AZ RAMP-STAR-8T-STANDARD-FF-ZR features fork sliders and a refuge zone. This 8-tonne capacity ramp is perfect for busy distribution centers and industrial warehouses. The fork sliders enable easy relocation, while the refuge zone enhances operator safety. Its versatile design makes it suitable for various loading applications in fast-paced logistics environments."
+},
+"az-ramp-star-8t-standard-ff-rl": {
+"product_name": "Standard mobile loading ramp with fork sliders and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-FF-RL offers enhanced safety and mobility with its fork sliders and side railings. This 8-tonne capacity ramp is ideal for manufacturing plants and construction sites. The fork sliders allow for easy repositioning, while the side railings provide fall protection. Its robust design ensures durability in demanding industrial environments."
+},
+"az-ramp-star-8t-standard-ff-rl-zr": {
+"product_name": "Standard mobile loading ramp with fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-FF-RL-ZR combines multiple safety features with enhanced mobility. This 8-tonne capacity ramp includes fork sliders for easy relocation, side railings for fall protection, and a refuge zone for operator safety. Ideal for high-traffic warehouses and multi-level industrial facilities, it offers versatility and security in demanding loading environments."
+},
+"az-ramp-star-8t-standard-ff-e": {
+"product_name": "Standard electric mobile loading ramp with fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-FF-E offers both electric operation and easy mobility. This 8-tonne capacity ramp features electric tilting bridges for smooth transitions and fork sliders for quick repositioning. Perfect for dynamic logistics centers and manufacturing facilities, it combines efficiency and flexibility to meet diverse loading requirements in fast-paced industrial settings."
+},
+"az-ramp-star-8t-standard-ff-e-zr": {
+"product_name": "Standard electric mobile loading ramp with fork sliders and refuge zone",
+"product_description": "Designed for safety and efficiency, the AZ RAMP-STAR-8T-STANDARD-FF-E-ZR includes electric operation, fork sliders, and a refuge zone. This 8-tonne capacity ramp is ideal for busy distribution centers and automotive industries. The electric tilting bridges ensure smooth loading, while the fork sliders allow easy relocation. The refuge zone adds an extra layer of safety for operators in high-traffic loading areas."
+},
+"az-ramp-star-8t-standard-ff-e-rl": {
+"product_name": "Standard electric mobile loading ramp with fork sliders and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-FF-E-RL combines electric operation, mobility, and safety. This 8-tonne capacity ramp features electric tilting bridges, fork sliders for easy repositioning, and side railings for fall protection. Ideal for busy warehouses and manufacturing plants, it offers efficient loading operations with enhanced safety features."
+},
+"az-ramp-star-8t-standard-ff-e-rl-zr": {
+"product_name": "Standard electric mobile loading ramp with fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-FF-E-RL-ZR offers a comprehensive solution for safe and efficient loading. This 8-tonne capacity ramp includes electric operation, fork sliders, side railings, and a refuge zone. Perfect for high-traffic distribution centers and industrial facilities, it provides maximum safety and flexibility in demanding loading environments."
+},
+"az-ramp-star-8t-standard-gal": {
+"product_name": "Standard fully galvanized mobile loading ramp",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL features full galvanization for superior corrosion resistance. This 8-tonne capacity ramp is ideal for outdoor use in harsh environments such as ports, chemical plants, and food processing facilities. Its durable construction ensures longevity and minimal maintenance, making it a reliable choice for various industries."
+},
+"az-ramp-star-8t-standard-gal-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with refuge zone",
+"product_description": "Combining corrosion resistance and safety, the AZ RAMP-STAR-8T-STANDARD-GAL-ZR features full galvanization and a refuge zone. This 8-tonne capacity ramp is perfect for outdoor loading areas in marine environments and chemical industries. The galvanized finish ensures durability, while the refuge zone enhances operator safety in challenging conditions."
+},
+"az-ramp-star-8t-standard-gal-rl": {
+"product_name": "Standard fully galvanized mobile loading ramp with side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-RL offers enhanced safety and durability with its galvanized finish and side railings. This 8-tonne capacity ramp is ideal for outdoor use in construction sites and agricultural settings. The galvanization provides excellent corrosion resistance, while the side railings ensure safe loading operations in various weather conditions."
+},
+"az-ramp-star-8t-standard-gal-rl-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with side railings and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-RL-ZR combines maximum safety features with corrosion resistance. This 8-tonne capacity ramp includes full galvanization, side railings, and a refuge zone. Perfect for demanding outdoor environments in petrochemical plants and coastal warehouses, it ensures safe and efficient loading operations in harsh conditions."
+},
+"az-ramp-star-8t-standard-gal-e": {
+"product_name": "Standard fully galvanized electric mobile loading ramp",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-E offers electric operation and corrosion resistance. This 8-tonne capacity ramp features full galvanization and electric tilting bridges. Ideal for outdoor use in food processing plants and chemical storage facilities, it combines durability with smooth, efficient loading operations in challenging environments."
+},
+"az-ramp-star-8t-standard-gal-e-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-E-ZR combines corrosion resistance, electric operation, and safety features. This 8-tonne capacity ramp includes full galvanization, electric tilting bridges, and a refuge zone. Ideal for coastal warehouses and chemical plants, it offers efficient loading with enhanced operator safety in harsh outdoor environments."
+},
+"az-ramp-star-8t-standard-gal-e-rl": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-E-RL offers a comprehensive solution for outdoor loading. This 8-tonne capacity ramp features full galvanization, electric operation, and side railings. Perfect for marine logistics and outdoor manufacturing facilities, it ensures safe and efficient loading operations in corrosive environments."
+},
+"az-ramp-star-8t-standard-gal-e-rl-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with side railings and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-E-RL-ZR provides maximum safety and durability for demanding environments. This 8-tonne capacity ramp includes galvanization, electric operation, side railings, and a refuge zone. Ideal for offshore facilities and chemical storage areas, it offers comprehensive protection and efficiency in extreme conditions."
+},
+"az-ramp-star-8t-standard-gal-ff": {
+"product_name": "Standard fully galvanized mobile loading ramp with fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF combines corrosion resistance with enhanced mobility. This 8-tonne capacity ramp features full galvanization and fork sliders. Perfect for outdoor logistics centers and agricultural warehouses, it offers durability and easy repositioning in various weather conditions."
+},
+"az-ramp-star-8t-standard-gal-ff-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with fork sliders and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF-ZR offers versatility and safety for outdoor use. This 8-tonne capacity ramp includes galvanization, fork sliders, and a refuge zone. Ideal for coastal distribution centers and outdoor manufacturing plants, it provides corrosion resistance, mobility, and operator safety in challenging environments."
+},
+"az-ramp-star-8t-standard-gal-ff-rl": {
+"product_name": "Standard fully galvanized mobile loading ramp with fork sliders and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF-RL combines durability, mobility, and safety. This 8-tonne capacity ramp features galvanization, fork sliders, and side railings. Perfect for outdoor construction sites and marine logistics, it ensures efficient and safe loading operations in corrosive environments."
+},
+"az-ramp-star-8t-standard-gal-ff-rl-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF-RL-ZR offers comprehensive features for demanding outdoor use. This 8-tonne capacity ramp includes galvanization, fork sliders, side railings, and a refuge zone. Ideal for petrochemical plants and outdoor distribution hubs, it provides maximum safety, mobility, and corrosion resistance."
+},
+"az-ramp-star-8t-standard-gal-ff-e": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF-E combines corrosion resistance, electric operation, and mobility. This 8-tonne capacity ramp features full galvanization, electric tilting bridges, and fork sliders. Ideal for outdoor chemical storage facilities and coastal warehouses, it offers efficient loading and easy repositioning in harsh environments."
+},
+"az-ramp-star-8t-standard-gal-ff-e-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with fork sliders and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF-E-ZR provides comprehensive features for challenging outdoor use. This 8-tonne capacity ramp includes galvanization, electric operation, fork sliders, and a refuge zone. Perfect for offshore logistics and outdoor manufacturing plants, it ensures safety, efficiency, and durability in corrosive conditions."
+},
+"az-ramp-star-8t-standard-gal-ff-e-rl": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with fork sliders and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF-E-RL offers a complete solution for outdoor loading operations. This 8-tonne capacity ramp features galvanization, electric tilting bridges, fork sliders, and side railings. Ideal for marine industries and outdoor distribution centers, it combines safety, efficiency, and corrosion resistance."
+},
+"az-ramp-star-8t-standard-gal-ff-e-rl-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-GAL-FF-E-RL-ZR is the ultimate outdoor loading solution. This 8-tonne capacity ramp includes galvanization, electric operation, fork sliders, side railings, and a refuge zone. Perfect for petrochemical facilities and harsh coastal environments, it offers maximum safety, efficiency, and durability."
+},
+"az-ramp-star-8t-standard-tb": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB features a tarpaulin tunnel for weather protection. This 8-tonne capacity ramp is ideal for logistics centers and food distribution facilities. The tarpaulin tunnel ensures dry loading conditions, protecting goods from rain and wind during transfer. Its versatile design suits various industries requiring sheltered loading operations."
+},
+"az-ramp-star-8t-standard-tb-zr": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-ZR combines weather protection and safety features. This 8-tonne capacity ramp includes a tarpaulin tunnel and refuge zone. Perfect for busy distribution centers and pharmaceutical warehouses, it offers sheltered loading conditions and enhanced operator safety in high-traffic areas."
+},
+"az-ramp-star-8t-standard-tb-rl": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-RL provides weather protection and fall prevention. This 8-tonne capacity ramp features a tarpaulin tunnel and side railings. Ideal for retail distribution centers and electronics warehouses, it ensures dry loading conditions and operator safety during various weather conditions."
+},
+"az-ramp-star-8t-standard-tb-rl-zr": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-RL-ZR offers comprehensive protection for loading operations. This 8-tonne capacity ramp includes a tarpaulin tunnel, side railings, and a refuge zone. Perfect for pharmaceutical logistics and sensitive goods handling, it provides weather protection, fall prevention, and operator safety in one versatile solution."
+},
+"az-ramp-star-8t-standard-tb-e": {
+"product_name": "Standard electric mobile loading ramp with tarpaulin tunnel",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-E combines electric operation with weather protection. This 8-tonne capacity ramp features electric tilting bridges and a tarpaulin tunnel. Ideal for food distribution centers and e-commerce fulfillment, it ensures smooth, dry loading operations in various weather conditions, enhancing efficiency and product protection."
+},
+"az-ramp-star-8t-standard-tb-e-zr": {
+"product_name": "Standard electric mobile loading ramp with tarpaulin tunnel and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-E-ZR offers electric convenience, weather protection, and safety. This 8-tonne capacity ramp includes electric operation, a tarpaulin tunnel, and a refuge zone. Perfect for busy logistics hubs and temperature-sensitive goods handling, it provides efficient, sheltered loading with enhanced operator safety."
+},
+"az-ramp-star-8t-standard-tb-e-rl": {
+"product_name": "Standard electric mobile loading ramp with tarpaulin tunnel and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-E-RL combines electric efficiency, weather protection, and fall prevention. This 8-tonne capacity ramp features electric tilting bridges, a tarpaulin tunnel, and side railings. Ideal for electronics distribution and retail logistics, it ensures safe, dry loading operations in challenging weather conditions."
+},
+"az-ramp-star-8t-standard-tb-e-rl-zr": {
+"product_name": "Standard electric mobile loading ramp with tarpaulin tunnel, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-E-RL-ZR offers a complete loading solution. This 8-tonne capacity ramp includes electric operation, tarpaulin tunnel, side railings, and a refuge zone. Perfect for pharmaceutical distribution and high-value goods handling, it provides maximum efficiency, weather protection, and safety features for demanding loading environments."
+},
+"az-ramp-star-8t-standard-tb-ff": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel and fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF combines weather protection with enhanced mobility. This 8-tonne capacity ramp features a tarpaulin tunnel and fork sliders. Ideal for flexible logistics operations and temporary warehousing, it offers dry loading conditions and easy repositioning, adapting quickly to changing loading requirements."
+},
+"az-ramp-star-8t-standard-tb-ff-zr": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF-ZR offers versatility and safety for various loading scenarios. This 8-tonne capacity ramp features a tarpaulin tunnel for weather protection, fork sliders for easy repositioning, and a refuge zone for operator safety. Ideal for dynamic distribution centers and multi-use warehouses, it adapts to changing needs while ensuring protected and secure loading operations."
+},
+"az-ramp-star-8t-standard-tb-ff-rl": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF-RL combines weather protection, mobility, and fall prevention. This 8-tonne capacity ramp includes a tarpaulin tunnel, fork sliders, and side railings. Perfect for retail logistics and food distribution, it offers dry loading conditions, easy relocation, and enhanced safety for operators in various weather conditions."
+},
+"az-ramp-star-8t-standard-tb-ff-rl-zr": {
+"product_name": "Standard mobile loading ramp with tarpaulin tunnel, fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF-RL-ZR provides a comprehensive loading solution. This 8-tonne capacity ramp features a tarpaulin tunnel, fork sliders, side railings, and a refuge zone. Ideal for high-traffic distribution centers and versatile warehousing, it offers weather protection, mobility, and multiple safety features for efficient and secure loading operations."
+},
+"az-ramp-star-8t-standard-tb-ff-e": {
+"product_name": "Standard electric mobile loading ramp with tarpaulin tunnel and fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF-E combines electric operation, weather protection, and mobility. This 8-tonne capacity ramp features electric tilting bridges, a tarpaulin tunnel, and fork sliders. Perfect for e-commerce fulfillment centers and temperature-sensitive goods handling, it ensures efficient, dry loading with the flexibility to reposition as needed."
+},
+"az-ramp-star-8t-standard-tb-ff-e-zr": {
+"product_name": "Standard electric mobile loading ramp with tarpaulin tunnel, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF-E-ZR offers electric convenience, weather protection, mobility, and safety. This 8-tonne capacity ramp includes electric operation, a tarpaulin tunnel, fork sliders, and a refuge zone. Ideal for pharmaceutical logistics and busy distribution hubs, it provides efficient, sheltered loading with enhanced operator safety and adaptability."
+},
+"az-ramp-star-8t-standard-tb-ff-e-rl": {
+"product_name": "Standard electric mobile loading ramp with tarpaulin tunnel, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF-E-RL combines electric efficiency, weather protection, mobility, and fall prevention. This 8-tonne capacity ramp features electric operation, a tarpaulin tunnel, fork sliders, and side railings. Perfect for versatile logistics operations and cold storage facilities, it ensures safe, dry, and flexible loading in various environmental conditions."
+},
+"az-ramp-star-8t-standard-tb-ff-e-rl-zr": {
+    "product_name": "Standard electric mobile loading ramp with tarpaulin tunnel, fork sliders, side railings, and refuge zone",
+    "product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-FF-E-RL-ZR offers a comprehensive solution for demanding loading environments. This 8-tonne capacity ramp combines electric operation, weather protection, mobility, and multiple safety features. With its tarpaulin tunnel, fork sliders, side railings, and refuge zone, it's ideal for high-traffic distribution centers, pharmaceutical logistics, and sensitive goods handling. It ensures efficient, protected, and secure loading operations in all weather conditions."
+},
+"az-ramp-star-8t-standard-tb-gal": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL combines corrosion resistance with weather protection. This 8-tonne capacity ramp features full galvanization and a tarpaulin tunnel. Ideal for coastal warehouses and food processing plants, it ensures durability in harsh environments while providing sheltered loading conditions for sensitive goods."
+},
+"az-ramp-star-8t-standard-tb-gal-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-ZR offers corrosion resistance, weather protection, and safety features. This 8-tonne capacity ramp includes full galvanization, a tarpaulin tunnel, and a refuge zone. Perfect for chemical storage facilities and marine logistics, it provides durable, sheltered loading with enhanced operator safety in challenging environments."
+},
+"az-ramp-star-8t-standard-tb-gal-rl": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-RL combines durability, weather protection, and fall prevention. This 8-tonne capacity ramp features galvanization, a tarpaulin tunnel, and side railings. Ideal for outdoor distribution centers and pharmaceutical warehouses, it ensures safe, dry loading operations in corrosive environments."
+},
+"az-ramp-star-8t-standard-tb-gal-rl-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-RL-ZR offers comprehensive protection for demanding environments. This 8-tonne capacity ramp includes galvanization, a tarpaulin tunnel, side railings, and a refuge zone. Perfect for offshore logistics and chemical plants, it provides maximum durability, weather protection, and safety features for challenging loading scenarios."
+},
+"az-ramp-star-8t-standard-tb-gal-e": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-E combines corrosion resistance, weather protection, and electric operation. This 8-tonne capacity ramp features galvanization, a tarpaulin tunnel, and electric tilting bridges. Ideal for coastal food distribution centers and outdoor manufacturing facilities, it offers efficient, sheltered loading in harsh environments."
+},
+"az-ramp-star-8t-standard-tb-gal-e-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-E-ZR provides a comprehensive solution for challenging outdoor loading. This 8-tonne capacity ramp includes galvanization, electric operation, a tarpaulin tunnel, and a refuge zone. Perfect for petrochemical logistics and marine industrial facilities, it ensures efficient, protected loading with enhanced safety in corrosive environments."
+},
+"az-ramp-star-8t-standard-tb-gal-e-rl": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-E-RL offers a comprehensive solution for demanding outdoor environments. This 8-tonne capacity ramp features galvanization, electric operation, a tarpaulin tunnel, and side railings. Ideal for coastal distribution centers and chemical storage facilities, it provides efficient, weather-protected loading with enhanced safety and corrosion resistance."
+},
+"az-ramp-star-8t-standard-tb-gal-e-rl-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-E-RL-ZR is the ultimate solution for challenging outdoor loading scenarios. This 8-tonne capacity ramp combines galvanization, electric operation, a tarpaulin tunnel, side railings, and a refuge zone. Perfect for offshore platforms and heavy-duty industrial environments, it ensures maximum safety, efficiency, and durability in extreme conditions."
+},
+"az-ramp-star-8t-standard-tb-gal-ff": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel and fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF combines corrosion resistance, weather protection, and mobility. This 8-tonne capacity ramp features galvanization, a tarpaulin tunnel, and fork sliders. Ideal for versatile outdoor logistics and marine cargo handling, it offers durable, sheltered loading with the flexibility to reposition as needed in harsh environments."
+},
+"az-ramp-star-8t-standard-tb-gal-ff-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF-ZR provides comprehensive features for challenging outdoor operations. This 8-tonne capacity ramp includes galvanization, a tarpaulin tunnel, fork sliders, and a refuge zone. Perfect for coastal warehouses and chemical distribution centers, it ensures durable, protected loading with enhanced safety and adaptability in corrosive environments."
+},
+"az-ramp-star-8t-standard-tb-gal-ff-rl": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF-RL offers a versatile solution for demanding outdoor loading. This 8-tonne capacity ramp features galvanization, a tarpaulin tunnel, fork sliders, and side railings. Ideal for marine logistics and outdoor manufacturing facilities, it provides corrosion-resistant, weather-protected loading with enhanced safety and easy repositioning capabilities."
+},
+"az-ramp-star-8t-standard-tb-gal-ff-rl-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with tarpaulin tunnel, fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF-RL-ZR is the most comprehensive solution for extreme outdoor loading environments. This 8-tonne capacity ramp combines galvanization, a tarpaulin tunnel, fork sliders, side railings, and a refuge zone. Perfect for offshore industrial complexes and high-risk chemical facilities, it offers maximum durability, weather protection, safety, and adaptability in the most challenging conditions."
+},
+"az-ramp-star-8t-standard-tb-gal-ff-e": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel and fork sliders",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF-E offers a comprehensive solution for demanding outdoor environments. This 8-tonne capacity ramp features galvanization, electric operation, a tarpaulin tunnel, and fork sliders. Ideal for coastal distribution centers and chemical storage facilities, it provides efficient, weather-protected loading with enhanced mobility and corrosion resistance."
+},
+"az-ramp-star-8t-standard-tb-gal-ff-e-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF-E-ZR combines advanced features for challenging outdoor loading scenarios. This 8-tonne capacity ramp includes galvanization, electric operation, a tarpaulin tunnel, fork sliders, and a refuge zone. Perfect for offshore platforms and heavy-duty industrial environments, it ensures maximum safety, efficiency, and adaptability in extreme conditions."
+},
+"az-ramp-star-8t-standard-tb-gal-ff-e-rl": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF-E-RL offers a versatile solution for demanding outdoor loading. This 8-tonne capacity ramp features galvanization, electric operation, a tarpaulin tunnel, fork sliders, and side railings. Ideal for marine logistics and outdoor manufacturing facilities, it provides corrosion-resistant, weather-protected loading with enhanced safety and easy repositioning capabilities."
+},
+"az-ramp-star-8t-standard-tb-gal-ff-e-rl-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with tarpaulin tunnel, fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-8T-STANDARD-TB-GAL-FF-E-RL-ZR is the ultimate solution for extreme outdoor loading environments. This 8-tonne capacity ramp combines galvanization, electric operation, a tarpaulin tunnel, fork sliders, side railings, and a refuge zone. Perfect for offshore industrial complexes and high-risk chemical facilities, it offers maximum durability, efficiency, weather protection, safety, and adaptability in the most challenging conditions."
+},
+"az-ramp-star-10t-standard": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD is a robust mobile loading ramp designed for heavier loads. With a 10-tonne weight capacity, it's ideal for construction sites, heavy manufacturing, and large-scale logistics operations. The standard-size ramp features a durable steel construction, non-slip surface, and adjustable height, ensuring safe and efficient loading for a wide range of heavy vehicles and equipment."
+},
+"az-ramp-star-10t-standard-zr": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-ZR combines heavy-duty performance with enhanced safety features. This 10-tonne capacity ramp includes a refuge zone, providing added security for operators during use. Ideal for busy construction sites and industrial manufacturing facilities, it features a robust design, anti-slip surface, and easy maneuverability. The refuge zone offers a safe space for personnel, enhancing workplace safety in high-traffic loading areas with heavy equipment."
+},
+"az-ramp-star-10t-standard-rl": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-RL offers enhanced safety for heavy-duty loading operations. This 10-tonne capacity ramp features sturdy side railings to protect against accidental falls. Ideal for construction sites, heavy manufacturing plants, and large logistics centers, it provides a secure loading platform for various heavy vehicles and equipment, ensuring operator safety in demanding industrial environments."
+},
+"az-ramp-star-10t-standard-rl-zr": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-RL-ZR combines maximum safety features with heavy-duty performance. This 10-tonne capacity ramp includes side railings and a refuge zone, making it perfect for high-risk industrial settings and busy construction sites. The side railings prevent falls, while the refuge zone offers a safe area for operators, ensuring comprehensive protection during intense loading operations."
+},
+"az-ramp-star-10t-standard-e": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-E merges heavy-duty capability with electric convenience. This 10-tonne capacity ramp features electric tilting bridges for smooth transitions. Ideal for large warehouses, manufacturing plants, and logistics hubs, it offers efficient and precise loading operations for heavy equipment and vehicles, enhancing productivity in demanding industrial settings."
+},
+"az-ramp-star-10t-standard-e-zr": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-E-ZR combines electric efficiency with enhanced safety for heavy-duty applications. This 10-tonne capacity ramp features electric operation and a refuge zone. Perfect for busy industrial facilities and large distribution centers, it ensures smooth, controlled loading of heavy equipment while providing a safe area for operators in high-traffic environments."
+},
+"az-ramp-star-10t-standard-e-rl": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-E-RL offers electric convenience and enhanced safety for heavy-duty loading. This 10-tonne capacity ramp includes electric tilting bridges and sturdy side railings. Ideal for large manufacturing plants and construction logistics, it provides efficient, controlled loading operations while ensuring operator safety when handling heavy equipment and vehicles."
+},
+"az-ramp-star-10t-standard-e-rl-zr": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-E-RL-ZR is the ultimate solution for safe and efficient heavy-duty loading. This 10-tonne capacity ramp combines electric operation, side railings, and a refuge zone. Perfect for high-risk industrial environments and busy construction sites, it offers precise control, fall protection, and a safe area for operators, ensuring maximum safety and efficiency in the most demanding loading scenarios."
+},
+"az-ramp-star-10t-standard-ff": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity and fork sliders",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF combines heavy-duty performance with enhanced mobility. This 10-tonne capacity ramp features fork sliders for easy repositioning. Ideal for dynamic warehouses and large logistics centers, it allows quick adaptation to changing loading requirements. The robust construction handles heavy equipment while offering the flexibility needed in busy industrial environments."
+},
+"az-ramp-star-10t-standard-ff-zr": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF-ZR offers versatility and safety for heavy-duty applications. This 10-tonne capacity ramp includes fork sliders for easy relocation and a refuge zone for operator safety. Perfect for large distribution centers and construction sites, it combines adaptability with crucial safety features, ensuring efficient and secure loading operations in dynamic, high-traffic areas."
+},
+"az-ramp-star-10t-standard-ff-rl": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF-RL merges mobility, safety, and heavy-duty capability. This 10-tonne capacity ramp features fork sliders for easy repositioning and side railings for fall protection. Ideal for versatile industrial settings and construction logistics, it offers the flexibility to adapt to various loading scenarios while maintaining a high level of operator safety."
+},
+"az-ramp-star-10t-standard-ff-rl-zr": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF-RL-ZR provides a comprehensive solution for demanding loading environments. This 10-tonne capacity ramp combines fork sliders, side railings, and a refuge zone. Perfect for high-risk industrial settings and busy construction sites, it offers maximum flexibility, fall protection, and operator safety, making it suitable for the most challenging and dynamic heavy-duty loading operations."
+},
+"az-ramp-star-10t-standard-ff-e": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity and fork sliders",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF-E unites electric efficiency with enhanced mobility for heavy loads. This 10-tonne capacity ramp features electric tilting bridges and fork sliders. Ideal for large warehouses and manufacturing facilities, it offers precise, powered loading operations with the flexibility to easily reposition the ramp, optimizing workflow in dynamic industrial environments."
+},
+"az-ramp-star-10t-standard-ff-e-zr": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF-E-ZR combines electric operation, mobility, and safety for heavy-duty applications. This 10-tonne capacity ramp includes electric tilting bridges, fork sliders, and a refuge zone. Perfect for busy distribution hubs and large industrial complexes, it ensures efficient, adaptable loading operations while providing essential safety features for operators in high-traffic, heavy-load environments."
+},
+"az-ramp-star-10t-standard-ff-e-rl": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF-E-RL offers a comprehensive solution for heavy-duty loading. This 10-tonne capacity ramp features electric operation, fork sliders for easy repositioning, and side railings for safety. Ideal for large manufacturing plants and versatile industrial settings, it combines efficient powered loading, adaptability, and fall protection for optimal performance in demanding environments."
+},
+"az-ramp-star-10t-standard-ff-e-rl-zr": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity, fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-FF-E-RL-ZR is the ultimate heavy-duty loading solution. This 10-tonne capacity ramp integrates electric operation, fork sliders, side railings, and a refuge zone. Perfect for high-risk industrial complexes and busy logistics hubs, it offers maximum efficiency, adaptability, and safety features, ensuring optimal performance and operator protection in the most challenging loading scenarios."
+},
+"az-ramp-star-10t-standard-gal": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL combines heavy-duty performance with superior corrosion resistance. This 10-tonne capacity ramp features full galvanization, making it ideal for harsh outdoor environments such as ports, chemical plants, and coastal industrial facilities. Its durable construction ensures long-lasting performance and minimal maintenance in corrosive conditions."
+},
+"az-ramp-star-10t-standard-gal-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-ZR offers corrosion resistance and enhanced safety for heavy-duty applications. This 10-tonne capacity ramp includes full galvanization and a refuge zone. Perfect for outdoor chemical storage facilities and marine logistics operations, it provides durable performance in harsh environments while ensuring operator safety in high-risk loading areas."
+},
+"az-ramp-star-10t-standard-gal-rl": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-RL combines durability and safety for demanding outdoor use. This 10-tonne capacity ramp features full galvanization and side railings. Ideal for coastal construction sites and outdoor heavy manufacturing, it ensures corrosion-resistant performance and fall protection, making it suitable for long-term use in challenging industrial environments."
+},
+"az-ramp-star-10t-standard-gal-rl-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-RL-ZR offers comprehensive protection for extreme outdoor loading. This 10-tonne capacity ramp combines full galvanization, side railings, and a refuge zone. Perfect for offshore industrial facilities and high-risk chemical plants, it provides maximum durability, fall protection, and operator safety, ensuring reliable performance in the most challenging and corrosive environments."
+},
+"az-ramp-star-10t-standard-gal-e": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-E combines heavy-duty performance, corrosion resistance, and electric operation. This 10-tonne capacity ramp features full galvanization and electric tilting bridges. Ideal for coastal industrial facilities and chemical plants, it offers efficient, powered loading in harsh environments, ensuring durability and smooth operation in corrosive conditions."
+},
+"az-ramp-star-10t-standard-gal-e-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-E-ZR offers corrosion resistance, electric efficiency, and enhanced safety. This 10-tonne capacity ramp includes full galvanization, electric operation, and a refuge zone. Perfect for offshore platforms and high-risk chemical facilities, it provides durable, powered loading with crucial safety features for operators in challenging marine and industrial environments."
+},
+"az-ramp-star-10t-standard-gal-e-rl": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-E-RL combines durability, electric convenience, and safety for demanding outdoor use. This 10-tonne capacity ramp features full galvanization, electric tilting bridges, and side railings. Ideal for coastal manufacturing plants and outdoor chemical storage, it ensures corrosion-resistant, efficient loading with enhanced fall protection in harsh industrial settings."
+},
+"az-ramp-star-10t-standard-gal-e-rl-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-E-RL-ZR offers comprehensive protection and efficiency for extreme outdoor loading. This 10-tonne capacity ramp combines galvanization, electric operation, side railings, and a refuge zone. Perfect for offshore industrial complexes and high-risk chemical facilities, it provides maximum durability, powered efficiency, fall protection, and operator safety in the most challenging corrosive environments."
+},
+"az-ramp-star-10t-standard-gal-ff": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity and fork sliders",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF merges corrosion resistance with enhanced mobility for heavy-duty applications. This 10-tonne capacity ramp features full galvanization and fork sliders. Ideal for versatile outdoor industrial settings and coastal logistics operations, it offers durable performance in harsh environments with the flexibility to easily reposition the ramp, adapting to changing loading requirements."
+},
+"az-ramp-star-10t-standard-gal-ff-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF-ZR combines corrosion resistance, mobility, and safety for demanding outdoor use. This 10-tonne capacity ramp includes full galvanization, fork sliders, and a refuge zone. Perfect for dynamic coastal industrial facilities and chemical storage areas, it provides durable, adaptable loading solutions with essential safety features for operators in harsh, high-risk environments."
+},
+"az-ramp-star-10t-standard-gal-ff-rl": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF-RL offers a comprehensive solution for demanding outdoor environments. This 10-tonne capacity ramp features full galvanization, fork sliders, and side railings. Ideal for coastal industrial facilities and chemical plants, it provides corrosion-resistant, adaptable loading with enhanced fall protection, ensuring safety and efficiency in harsh conditions."
+},
+"az-ramp-star-10t-standard-gal-ff-rl-zr": {
+"product_name": "Standard fully galvanized mobile loading ramp with 10-tonne capacity, fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF-RL-ZR combines maximum protection and versatility for extreme outdoor loading. This 10-tonne capacity ramp includes galvanization, fork sliders, side railings, and a refuge zone. Perfect for offshore platforms and high-risk chemical facilities, it offers superior corrosion resistance, mobility, fall protection, and operator safety in the most challenging industrial environments."
+},
+"az-ramp-star-10t-standard-gal-ff-e": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity and fork sliders",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF-E merges corrosion resistance, electric operation, and mobility for heavy-duty applications. This 10-tonne capacity ramp features full galvanization, electric tilting bridges, and fork sliders. Ideal for coastal manufacturing plants and versatile outdoor logistics, it ensures efficient, powered loading with the flexibility to reposition in harsh, corrosive environments."
+},
+"az-ramp-star-10t-standard-gal-ff-e-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF-E-ZR offers comprehensive features for demanding outdoor operations. This 10-tonne capacity ramp includes galvanization, electric operation, fork sliders, and a refuge zone. Perfect for dynamic coastal industrial complexes and chemical storage facilities, it provides durable, efficient, and adaptable loading solutions with crucial safety features in corrosive, high-risk environments."
+},
+"az-ramp-star-10t-standard-gal-ff-e-rl": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity, fork sliders, and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF-E-RL combines durability, efficiency, mobility, and safety for extreme outdoor use. This 10-tonne capacity ramp features galvanization, electric operation, fork sliders, and side railings. Ideal for offshore logistics and outdoor chemical plants, it ensures corrosion-resistant, powered loading with enhanced adaptability and fall protection in harsh industrial settings."
+},
+"az-ramp-star-10t-standard-gal-ff-e-rl-zr": {
+"product_name": "Standard fully galvanized electric mobile loading ramp with 10-tonne capacity, fork sliders, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-GAL-FF-E-RL-ZR is the ultimate solution for extreme outdoor loading environments. This 10-tonne capacity ramp integrates galvanization, electric operation, fork sliders, side railings, and a refuge zone. Perfect for high-risk offshore facilities and corrosive industrial settings, it offers maximum durability, efficiency, adaptability, and safety features for the most challenging and demanding loading operations"
+},
+"az-ramp-star-10t-standard-tb": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity and tarpaulin tunnel",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB combines heavy-duty performance with weather protection. This 10-tonne capacity ramp features a tarpaulin tunnel, ideal for logistics centers and distribution facilities handling weather-sensitive goods. The tunnel ensures dry loading conditions, protecting heavy equipment and materials from rain and wind during transfer, enhancing operational efficiency in various weather conditions."
+},
+"az-ramp-star-10t-standard-tb-zr": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-ZR offers weather protection and enhanced safety for heavy-duty loading. This 10-tonne capacity ramp includes a tarpaulin tunnel and refuge zone. Perfect for busy distribution centers and industrial warehouses, it provides sheltered loading conditions for large equipment while ensuring operator safety in high-traffic areas, combining efficiency with crucial safety features."
+},
+"az-ramp-star-10t-standard-tb-rl": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-RL merges weather protection and fall prevention for heavy-duty applications. This 10-tonne capacity ramp features a tarpaulin tunnel and side railings. Ideal for manufacturing plants and large-scale logistics operations, it ensures dry, safe loading conditions for heavy equipment, offering both environmental protection and enhanced operator safety during various weather conditions."
+},
+"az-ramp-star-10t-standard-tb-rl-zr": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-RL-ZR provides comprehensive protection for demanding loading environments. This 10-tonne capacity ramp combines a tarpaulin tunnel, side railings, and a refuge zone. Perfect for high-traffic industrial facilities and distribution hubs, it offers weather protection, fall prevention, and a safe area for operators, ensuring maximum safety and efficiency in challenging loading scenarios involving heavy equipment."
+},
+"az-ramp-star-10t-standard-tb-e": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity and tarpaulin tunnel",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-E unites electric efficiency with weather protection for heavy-duty loading. This 10-tonne capacity ramp features electric tilting bridges and a tarpaulin tunnel. Ideal for large-scale logistics operations and manufacturing plants, it offers smooth, powered loading operations while protecting heavy equipment and materials from adverse weather, enhancing productivity in varying environmental conditions."
+},
+"az-ramp-star-10t-standard-tb-e-zr": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-E-ZR combines electric efficiency, weather protection, and enhanced safety for heavy-duty applications. This 10-tonne capacity ramp features electric operation, a tarpaulin tunnel, and a refuge zone. Ideal for busy distribution centers and industrial facilities, it ensures smooth, sheltered loading of heavy equipment while providing a safe area for operators in high-traffic environments."
+},
+"az-ramp-star-10t-standard-tb-e-rl": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, and side railings",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-E-RL offers electric convenience, weather protection, and fall prevention for heavy-duty loading. This 10-tonne capacity ramp includes electric tilting bridges, a tarpaulin tunnel, and sturdy side railings. Perfect for large manufacturing plants and logistics hubs, it provides efficient, controlled loading operations in all weather conditions while ensuring operator safety when handling heavy equipment."
+},
+"az-ramp-star-10t-standard-tb-e-rl-zr": {
+"product_name": "Standard electric mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, side railings, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-E-RL-ZR is the ultimate solution for safe and efficient heavy-duty loading in all weather. This 10-tonne capacity ramp combines electric operation, a tarpaulin tunnel, side railings, and a refuge zone. Ideal for high-risk industrial environments and busy logistics centers, it offers precise control, weather protection, fall prevention, and a safe area for operators, ensuring maximum safety and efficiency in the most demanding loading scenarios."
+},
+"az-ramp-star-10t-standard-tb-ff": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, and fork sliders",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-FF merges weather protection with enhanced mobility for heavy-duty applications. This 10-tonne capacity ramp features a tarpaulin tunnel and fork sliders. Ideal for versatile industrial settings and large-scale logistics operations, it offers sheltered loading conditions for heavy equipment with the flexibility to easily reposition the ramp, adapting to changing loading requirements in various weather conditions."
+},
+"az-ramp-star-10t-standard-tb-ff-zr": {
+"product_name": "Standard mobile loading ramp with 10-tonne capacity, tarpaulin tunnel, fork sliders, and refuge zone",
+"product_description": "The AZ RAMP-STAR-10T-STANDARD-TB-FF-ZR combines weather protection, mobility, and safety for demanding heavy-duty use. This 10-tonne capacity ramp includes a tarpaulin tunnel, fork sliders, and a refuge zone. Perfect for dynamic distribution centers and industrial facilities, it provides sheltered, adaptable loading solutions for large equipment with essential safety features for operators in high-traffic, variable weather environments."
+},
     "az-ramp-star-10t-standard-tb-ff-rl": {
         "product_name": "",
         "product_description": ""

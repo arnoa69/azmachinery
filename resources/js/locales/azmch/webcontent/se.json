@@ -214,13 +214,13 @@
         }
     },
     "cookiebanner": {
-        "title": "Men först, kakor!",
-        "description": "Vi använder kakor för att komma ihåg dina preferenser, visa relevant innehåll och göra din upplevelse på AZ Machinery smidigare. Genom att använda AZ Machinery godkänner du vår ",
+        "title": "Men först, cookies!",
+        "description": "Vi använder cookies för att komma ihåg dina preferenser, visa relevant innehåll och göra din upplevelse på AZ Machinery smidigare. Genom att använda AZ Machinery godkänner du vår ",
         "policyLink": "Integritetspolicy.",
         "policyLinkAdon": "",
-        "buttonAllow": "Tillåt alla kakor",
-        "buttonDisallow": "Neka alla kakor",
-        "buttonManageCookies": "Hantera kakor",
+        "buttonAllow": "Acceptera alla",
+        "buttonDisallow": "Avvisa alla",
+        "buttonManageCookies": "Cookie installningar",
         "manage": {
             "title": "Kakinställningar",
             "necessary_title": "Nödvändiga",

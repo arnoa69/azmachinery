@@ -8,11 +8,13 @@
         "php": "^8.2",
         "barryvdh/laravel-dompdf": "^2.2",
         "devio/pipedrive": "^2.16",
+        "google-gemini-php/laravel": "^1.0",
         "inertiajs/inertia-laravel": "^1.0",
         "laravel/framework": "^11.0",
         "laravel/jetstream": "^5.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
+        "openai-php/client": "^0.10.1",
         "tightenco/ziggy": "^2.0"
     },
     "require-dev": {

@@ -86,10 +86,7 @@ const showPolicyBanner = ref(false)
                                         <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
                                        {{ $t(`${product.slug}.product_description`) }}
                                     </div>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam repudiandae aliquam? Illo debitis quidem necessitatibus, laudantium eaque aliquam quas, repellendus repudiandae blanditiis minima, nulla eius maxime ad alias dolorem!
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam repudiandae aliquam? Illo debitis quidem necessitatibus, laudantium eaque aliquam quas, repellendus repudiandae blanditiis minima, nulla eius maxime ad alias dolorem!
-                                    </p>
+
                                     <!-- <ul>
                                         <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_06") }}</strong></li>
                                         <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_07") }}</strong></li>
@@ -102,7 +99,7 @@ const showPolicyBanner = ref(false)
                                         <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_04") }}</strong></li>
                                         <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_05") }}</strong></li>
                                     </ul> -->
-                                    <div class="chip-wrapper"><p class="chip-red chip">lagerhaus</p><p class="chip-red chip">lagerhaus</p><p class="chip-red chip">lagerhaus</p><p class="chip-red chip">lagerhaus</p></div>
+                                    <div class="chip-wrapper"><p class="chip-red chip">{{ $t("products.target_audience_06") }}</p><p class="chip-red chip">{{ $t("products.target_audience_07") }}</p><p class="chip-red chip">{{ $t("products.target_audience_08") }}</p><p class="chip-red chip">{{ $t("products.target_audience_09") }}</p></div>
                                 </div>
                             </div> <!-- END OF RIGHT CONTNENT COLUMN -->
                             <div class="col-lg-6"> <!-- BEGIN OF LEFT CONTNENT COLUMN -->
@@ -815,7 +812,7 @@ const showPolicyBanner = ref(false)
     font-weight: bold;
     color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 13px;
+    font-size: 11px;
     display: inline-block;
 }
 
