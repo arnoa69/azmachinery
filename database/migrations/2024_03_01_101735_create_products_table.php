@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('type')->default('mobile');
+            $table->string('base_name')->default('star');
             $table->string('version');
             $table->decimal('base_price', 10, 2);
             $table->integer('weight_capacity')->nullable();
@@ -27,7 +28,7 @@ return new class extends Migration
             $table->integer('exit_lip_length')->nullable();
             $table->decimal('slope_min', 10, 2)->nullable();
             $table->decimal('slope_max', 10, 2)->nullable();
-            $table->integer('unloaded_weight')->nullable();
+            $table->string('unloaded_weight')->nullable();
             $table->integer('min_height')->nullable();
             $table->integer('max_height')->nullable();
             $table->timestamps();

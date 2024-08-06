@@ -38,14 +38,14 @@ const submitForm = () => {
     formData.append('message','azmch.we-contact-you:' + props.page_or_slug);
     formData.append('locale', locale.value);
     formData.append('source', 'azmch.we-contact-you:' + props.page_or_slug);
-    const formDataJSON = JSON.stringify([...formData.entries()], (key, value) => {
-        if (value instanceof File) {
-            return 'File(' + value.name + ')';
-        }
-        return value;
-    }, 2);
-    console.log(formDataJSON);
-    //Inertia.post('/client-request', formData);
+    // const formDataJSON = JSON.stringify([...formData.entries()], (key, value) => {
+    //     if (value instanceof File) {
+    //         return 'File(' + value.name + ')';
+    //     }
+    //     return value;
+    // }, 2);
+    // console.log(formDataJSON);
+    Inertia.post('/client-request', formData);
 };
 </script>
 

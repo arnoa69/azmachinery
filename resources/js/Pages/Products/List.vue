@@ -12,10 +12,6 @@ const products = ref([]);
 const { props } = usePage();
 products.value = props.products;
 
-const base_names = ref(['star', 'easy-xl', 'wlo',
-                        'prime-xs', 'star-otc', 'big-foot', 'hcrn-06',
-                        'hcrn-065', 'hcrn-08', 'hcry-08','secu-dock' ]);
-
 const canonicalUrl = ref('');
       canonicalUrl.value = window.location.origin + window.location.pathname;
 const url = ref(window.location.origin);
@@ -66,16 +62,16 @@ const showPolicyBanner = ref(false)
   </Head>
   <Layout>
 
-    <div class="row">
-        <div v-for="(type, key) in base_names" :key="key" class="col-md-4">
-          <div class="card mb-4" :style="{ backgroundColor: ['#FFCDD2', '#BBDEFB', '#C8E6C9'][key % 3] }">
-            <div class="card-body">
-              <h5 class="card-title">{{ type }}</h5>
-              <!-- <Link :href="route('products.list', key)" class="btn btn-primary">Anzeigen</Link> -->
-            </div>
-          </div>
-        </div>
-    </div>
+    <div class="pagetitle">
+        <ProductList :products="products"></ProductList>
+    </div> <!-- End Page Title -->
+    <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
+        @showPolicyBanner="showPolicyBanner = true" />
+
+    <ManageCookieBanner v-if="showConfigBanner" @hideConfigBanner="showConfigBanner = false"
+        @hideBothBanner="showBanner = false, showConfigBanner = false" />
+
+    <PolicyBanner v-if="showPolicyBanner" @hide-policy-banner="showPolicyBanner = false" />
   </Layout>
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 </template>

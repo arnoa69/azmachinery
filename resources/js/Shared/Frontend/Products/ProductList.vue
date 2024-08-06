@@ -103,7 +103,7 @@ const getShortProductName = (name ) => {
                                     <img class="circle-image" :src="getProductImage(product)" alt="test">
                             </div>
                             <div class="col-7 col-sm-8 mobile-text-size">
-                                {{ getShortProductName(product.name) }}
+                                {{ product.name }}
                             </div>
                             <div class="mobile-text-size col-3 col-sm-2">{{ product.total_price }} &#8364;</div>
                              </a>

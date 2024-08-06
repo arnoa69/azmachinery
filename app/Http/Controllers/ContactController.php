@@ -19,75 +19,82 @@ use Illuminate\Support\Facades\App;
 class ContactController extends Controller
 {
     public function submit(Request $request) {
-        $token = config('services.pipedrive.token');
-        $pipedrive = new Pipedrive($token);
-
-        $name = $request->name;
-        $email = $request->email;
-        $phone = $request->phone_number;
-        $company = $request->company_name;
-        $message = config('app.url'). ':' . $request->message;
-        $locale = $request->locale;
-        $source = $request->source;
-
-        $contact = new Contact();
-
-        //save to db
-        $contact->name = $name;
-        $contact->email = $email;
-        $contact->phone_number = $phone;
-        $contact->company_name = $company;
-        $contact->message = $message;
-        $contact->locale = $locale;
-        $contact->source = $source;
-        $contact->save();
-
-
-        $organization = $pipedrive->organizations()->add([
-            'name'=> $company,
-            'label'=> 13
-        ]);
-
-        $org_id = $organization->getData()->id;
-        $person = $pipedrive->persons()->add([
-            'name'=> $name,
-            'email'=> $email,
-            'phone'=> $phone,
-            'org_id'=> $org_id
-        ]);
-
-        $person_id = $person->getData()->id;
-        $deal = $pipedrive->deals()->add([
-            'title'=> $company,
-            'person_id'=> $person_id,
-            'status'=> 1,
-            'channel'=> 3,
-            'visible_to'=> 3,
-            'org_id'=> $org_id
-        ]);
-
-        $deal_id = $deal->getData()->id;
-        $note = $pipedrive->notes()->add([
-            'content'=> $message,
-            'deal_id'=> $deal_id,
-            'org_id'=> $org_id
-        ]);
-
-        return redirect()->back()->with('success','');
-
-
-        Lang::setLocale($contact->locale);
 
         try {
+            $token = config('services.pipedrive.token');
+            $pipedrive = new Pipedrive($token);
+
+            $name = $request->name ?: "Trouver le nom du prospect";
+            $email = $request->email ?: "...que le numero de telephone";
+            $phone = $request->phone_number ?: "000 000 000";
+            $company = $request->company_name;
+            $message = $request->message ? config('app.url'). ':' . $request->message : "origin formulaire min. sans message";
+            $locale = $request->locale;
+            $source = $request->source;
+
+            $contact = new Contact();
+
+            //save to db
+            $contact->name = $name;
+            $contact->email = $email;
+            $contact->phone_number = $phone;
+            $contact->company_name = $company;
+            $contact->message = $message;
+            $contact->locale = $locale;
+            $contact->source = $source;
+            $contact->save();
+
+
+            $organization = $pipedrive->organizations()->add([
+                'name'=> $company,
+                'label'=> 8
+            ]);
+
+            $org_id = $organization->getData()->id;
+            $person = $pipedrive->persons()->add([
+                'name'=> $name,
+                'email'=> $email,
+                'phone'=> $phone,
+                'org_id'=> $org_id
+            ]);
+
+            $person_id = $person->getData()->id;
+            $deal = $pipedrive->deals()->add([
+                'title'=> $company,
+                'person_id'=> $person_id,
+                'status'=> 1,
+                'channel'=> 3,
+                'visible_to'=> 3,
+                'org_id'=> $org_id
+            ]);
+
+            $deal_id = $deal->getData()->id;
+            $note = $pipedrive->notes()->add([
+                'content'=> $message,
+                'deal_id'=> $deal_id,
+                'org_id'=> $org_id
+            ]);
+
             Mail::send(new ClientRequest($contact));
-            if ($contact->source == 'layout1.contact.form') {
-                Mail::send(new InquiryResponse($contact));
-            }
+
+            return redirect()->back()->with('success','');
+
         } catch (Exception $e) {
-            Log::error('Contact form failure, mail was not sent', ['error_message' => $e->getMessage()]);
+            Log::error('Pipedrive API error: ' . $e->getMessage());
         }
-        return ['message' => 'success'];
-        return response()->json(['message' => 'success']);
+
+        // Lang::setLocale($contact->locale);
+
+        // try {
+        //     Mail::send(new ClientRequest($contact));
+        //     if ($contact->source == 'layout1.contact.form') {
+        //         Mail::send(new InquiryResponse($contact));
+        //     }
+        // } catch (Exception $e) {
+        //     Log::error('Contact form failure, mail was not sent', ['error_message' => $e->getMessage()]);
+        // }
+        // return ['message' => 'success'];
+        // return response()->json(['message' => 'success']);
     }
 
     public function contactFormShow()

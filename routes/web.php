@@ -1,6 +1,7 @@
  <?php
 
 use Devio\Pipedrive\Pipedrive;
+use Gemini\Data\Candidate;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -12,6 +13,7 @@ use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Http;
 use OpenAI\Client;
 use Gemini\Laravel\Facades\Gemini;
+use Illuminate\Support\Facades\Log;
 
 Route::get("/", function () {
     return Inertia::render("Welcome", [
@@ -23,47 +25,80 @@ Route::get("/", function () {
 });
 
 Route::get('/chatgpt', function() {
-    $result = Gemini::geminiPro()->generateContent('Generate Content for a product detail page for a mobile loading ramp');
-    dd($result);
-//     $openai =  OpenAI::client(env('OPENAI_API_KEY'));
-//     $openai->apiBase = 'http://localhost:3040/v1/';
+    // Sample slug
+    $slug = 'az-ramp-star-8t-standard-gal-e-rl-zr';
 
-//     $completion = $openai->fineTuning()->retrieveJob([
-//         'model' => 'babbage-002',
-//         'prompt' => 'PHP is'
-//     ]);
-// dd($completion);
+    // Parse the slug
+    $parts = explode('-', $slug);
+    $name = $parts[0] . '-' . $parts[1] . '-' . $parts[2]; // az-ramp-star
+    $capacity = $parts[3]; // 8t
+    $version = $parts[4]; // standard
+    $options = array_slice($parts, 5); // ['gal', 'e', 'rl', 'zr']
 
+    // Define the options map
+    $optionsMap = [
+        'zr' => 'zone-refuge',
+        'rl' => 'side-railings',
+        'e' => 'electric',
+        'ff' => 'fork-slider',
+        'gal' => 'full-galvanized',
+        'tb' => 'tarpaulin-tunnel',
+    ];
 
-    // $response = Http::withHeaders([
-    //     'Authorization' => 'Bearer ' . env('OPENAI_API_KEY'),
-    //     'Content-Type' => 'application/json',
-    // ])->post('http://localhost:3040/v1/chat/completions', [
-    //     'model' => 'gpt-3.5-turbo',
-    //     'messages' => [
-    //         [
-    //             'role' => 'system',
-    //             'content' => 'You are a helpful assistant.',
-    //         ],
-    //         [
-    //             'role' => 'user',
-    //             'content' => 'What is the capital of France?',
-    //         ],
-    //     ],
-    //     'temperature' => 0.5,
-    // ]);
-    // if ($response->failed()) {
-    //     dd($response->body());
-    //     return $response->body();
-    // }
-    // dd($response->json());
-    // return $response->json();
+    // Build the options description
+    $optionsDescription = array_map(function($option) use ($optionsMap) {
+        return $optionsMap[$option] ?? $option;
+    }, $options);
+
+    // Construct the prompt
+    $prompt = "It is a mobile loading ramp for capacities up to $capacity. It is the $version version and has the following options: " . implode(', ', $optionsDescription) . ".";
+
+    // Add the instruction for Gemini to generate plain text content with a max of 550 characters
+    $instruction = "Generate plain text content for a product detail page with a maximum length of 450 characters. Do not include any titles, headings, or lists.";
+
+    // Generate content using GeminiPro
+    $result = Gemini::geminiPro()->generateContent($instruction . ' ' . $prompt);
+
+    $content = trim(strip_tags($result->candidates[0]->content->parts[0]->text));
+    dd($content);
 });
 
 Route::get("/pipedrive", function() {
         $pipedrive = new Pipedrive(config('services.pipedrive.token'));
-        $organizations = $pipedrive->organizations()->all();
-        dd($organizations);
+        $fields = $pipedrive->organizationFields()->all();
+        $dealFields = $pipedrive->dealFields()->all();
+                        // $response = $pipedrive->organizationFields()->all();
+
+                        // if ($response->isSuccess()) {
+                        //     $fields = $response->getData();
+                        //     foreach ($fields as $field) {
+                        //         if ($field->key === 'label') {
+                        //             $options = $field->options;
+                        //             foreach ($options as $option) {
+                        //                 logger("Label: {$option->label}, ID: {$option->id}");
+                        //             }
+                        //             break;
+                        //         }
+                        //     }
+                        // } else {
+                        //     logger()->error('Failed to fetch organization fields: ' . $response->getErrorMessage());
+                        // }
+
+                        //$organizations = $pipedrive->organizations()->all();
+
+
+        foreach ($dealFields as $field) {
+            if ($field->name === 'Deal source') {
+                logger("Deal source: {$field->key}");
+                break;
+            } else {
+                logger("Field: niet amgio");
+            }
+        }
+
+logger("Yo was geht?");
+
+        dd($dealFields);
 });
 // Default route for the root URL
 Route::middleware([LocaleMiddleware::class])->group(function () {
@@ -89,6 +124,7 @@ Route::middleware([LocaleMiddleware::class])->group(function () {
         });
 
         Route::get('/products', [ProductController::class, 'index'])->name('products.index');
+        Route::get('/products/{type}', [ProductController::class, 'list'])->name('products.list');
         Route::get('/{type}/{version}/{options?}/{slug}', [ProductController::class, 'show'])->name('products.show')
         ->where('options', '.*')
         ->where('options', '(.*|no-option)'); // Allow 'no-option' as a valid option

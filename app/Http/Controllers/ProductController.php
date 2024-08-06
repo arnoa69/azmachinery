@@ -29,6 +29,14 @@ class ProductController extends Controller
         return Inertia::render('Products/Index', ['products' => $products]);
     }
 
+    public function list($locale, $type)
+    {
+        // Hier führen Sie die Abfrage basierend auf dem Produkttyp durch
+        $products = Product::where('type', $type)->paginate(20); // Beispielhafte Paginierung
+
+        return view('products.list', compact('products', 'type'));
+    }
+
     public function show($locale, $type, $version, $options = '', $slug)
     {
         // Validate URL components

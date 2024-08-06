@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
+use Gemini\Laravel\Facades\Gemini;
 
 class GenerateLanguageFiles extends Command
 {
@@ -18,9 +19,9 @@ class GenerateLanguageFiles extends Command
 
     public function handle()
     {
-        // Define the languages and file paths
+        $country = env('VITE_APP_COUNTRY', 'azmch'); // 'default_country' is a fallback value
         $languages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se']; // Add other languages as needed
-        $basePath = resource_path('js/locales/azmch/products');
+        $basePath = resource_path('js/locales/' . $country . '/products');
 
         // Fetch all product combinations from the database
         $products = DB::table('product_combinations')->select('slug')->get();
@@ -41,7 +42,6 @@ class GenerateLanguageFiles extends Command
                 $slug = $product->slug;
                 if (!isset($data[$slug])) {
                     $data[$slug] = [
-                        'product_name' => '',
                         'product_description' => '',
                     ];
                 }
@@ -52,5 +52,5 @@ class GenerateLanguageFiles extends Command
         }
 
         $this->info('Language files generated successfully.');
-    }
+        }
 }
