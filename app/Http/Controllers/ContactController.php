@@ -58,15 +58,15 @@ class ContactController extends Controller
                 'org_id'=> $org_id
             ]);
 
-            // $person_id = $person->getData()->id;
-            // $deal = $pipedrive->deals()->add([
-            //     'title'=> $company,
-            //     'person_id'=> $person_id,
-            //     'status'=> 1,
-            //     'channel'=> 3,
-            //     'visible_to'=> 3,
-            //     'org_id'=> $org_id
-            // ]);
+            $person_id = $person->getData()->id;
+            $deal = $pipedrive->deals()->add([
+                'title'=> $company,
+                'person_id'=> $person_id,
+                'status'=> 1,
+                'channel'=> 41,
+                'visible_to'=> 3,
+                'org_id'=> $org_id
+            ]);
 
             // $deal_id = $deal->getData()->id;
             // $note = $pipedrive->notes()->add([

@@ -96,7 +96,7 @@ Route::get("/pipedrive", function() {
             }
         }
 
-logger("Yo was geht?");
+// gugus@sugus.com
 
         dd($dealFields);
 });
