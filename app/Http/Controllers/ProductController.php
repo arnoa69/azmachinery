@@ -31,10 +31,13 @@ class ProductController extends Controller
 
     public function list($locale, $type)
     {
-        // Hier führen Sie die Abfrage basierend auf dem Produkttyp durch
-        $products = Product::where('type', $type)->paginate(20); // Beispielhafte Paginierung
+        $products = DB::table('product_combinations')
+        ->join('products', 'product_combinations.product_id', '=', 'products.id')
+        ->select('product_combinations.name', 'product_combinations.slug', 'product_combinations.total_price', 'products.type', 'products.version')
+        ->where('products.base_name', $type)
+        ->get();
 
-        return view('products.list', compact('products', 'type'));
+        return Inertia::render('Products/List', ['products' => $products]);
     }
 
     public function show($locale, $type, $version, $options = '', $slug)

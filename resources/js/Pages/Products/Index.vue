@@ -71,6 +71,7 @@ const showPolicyBanner = ref(false)
           <div class="card mb-4" :style="{ backgroundColor: ['#FFCDD2', '#BBDEFB', '#C8E6C9'][key % 3] }">
             <div class="card-body">
               <h5 class="card-title">{{ type }}</h5>
+              <a :href="'products/' + type" class="btn btn-primary">show</a>
               <!-- <Link :href="route('products.list', key)" class="btn btn-primary">Anzeigen</Link> -->
             </div>
           </div>
