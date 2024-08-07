@@ -68,12 +68,12 @@ class ContactController extends Controller
                 'org_id'=> $org_id
             ]);
 
-            // $deal_id = $deal->getData()->id;
-            // $note = $pipedrive->notes()->add([
-            //     'content'=> $message,
-            //     'deal_id'=> $deal_id,
-            //     'org_id'=> $org_id
-            // ]);
+            $deal_id = $deal->getData()->id;
+            $note = $pipedrive->notes()->add([
+                'content'=> $message,
+                'deal_id'=> $deal_id,
+                'org_id'=> $org_id
+            ]);
 
             //Mail::send(new ClientRequest($contact));
 
