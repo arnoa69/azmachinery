@@ -60,10 +60,10 @@ class ContactController extends Controller
 
             $person_id = $person->getData()->id;
             $deal = $pipedrive->deals()->add([
-                'title'=> $company,
+                'title'=> 'CALL BACK - '.$name,
                 'person_id'=> $person_id,
-                'status'=> 1,
-                'channel'=> 41,
+                // 'status'=> 1,
+                // 'channel'=> 41,
                 'visible_to'=> 3,
                 'org_id'=> $org_id
             ]);
