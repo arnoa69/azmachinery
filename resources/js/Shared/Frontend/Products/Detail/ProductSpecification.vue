@@ -8,6 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
+    <div class="wrapper">
     <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
         <div class="left-side left-color-1">
             {{ $t("products.weight_capacity", { tonnes: product.weight_capacity }) }}
@@ -194,10 +195,12 @@ const props = defineProps({
             </svg>
         </div>
     </div>
+</div><!-- END wrapper -->
 </template>
 
 
 <style scoped>
+
 .long-pill {
     display: inline-flex;
     border-radius: 5px;
@@ -305,6 +308,12 @@ const props = defineProps({
 }
 
 /* Add more classes for additional colors as needed */
+@media (max-width: 767.98px) {
+    .long-pill {
+        width: 88%;
+        margin-left: 20px;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1400px) {
 

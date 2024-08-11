@@ -52,8 +52,8 @@ const showPolicyBanner = ref(false)
         <div class="container">
             <div class="d-block d-md-none">
                 <div class="section-links flex-column">
-                    <h1 style="margin-left: -180px;">{{ formatProductName(product.name) }}</h1>
-                    <div style="margin-left: -210px;" class="product-stats text-left">
+                    <h1 style="margin-left: -150px;">{{ formatProductName(product.name) }}</h1>
+                    <div style="margin-left: -180px;" class="product-stats text-left">
                         <span class="rating">
                             <i class="bi bi-star-fill" style="color: #DA913C;"></i>
                             4.9
@@ -78,6 +78,17 @@ const showPolicyBanner = ref(false)
                         {{ $t(`${product.slug}.product_description`) }}
                     </div>
                 </div>
+                <div class="sticky-bar">
+                    <a href="/" class="sticky-bar-icon">
+                        <i class="bi bi-house"></i>
+                    </a>
+                    <a href="/price-calculator" class="sticky-bar-icon">
+                        <i class="bi bi-calculator"></i>
+                    </a>
+                    <a href="/get-a-quote" class="sticky-bar-icon">
+                        <i class="bi bi-chat-left-quote"></i>
+                    </a>
+                </div>
             </div>
 
             <div class="row">
@@ -96,8 +107,8 @@ const showPolicyBanner = ref(false)
                         <div class="row no-gutters mt-2">
                         </div>
                         <div class="row categories-list">
-                            <div class="service-details">
-                                <product-specification :product="product" />
+                            <div class="service-details specification">
+                                <product-specification :product="product"/>
                                 <HelpSidebar :page_or_slug="product.slug" />
                             </div>
                         </div>
@@ -766,6 +777,23 @@ h1 {
     position: absolute;
 }
 
+.sticky-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #121313;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        z-index: 1000;
+    }
+
+    .sticky-bar-icon {
+        font-size: 20px;
+        color: #fff;
+    }
+
 @media (max-width: 767.98px) {
     .product-stats {
         display: inline;
@@ -819,6 +847,13 @@ h1 {
     .price-circle {
         display: flex;
         /* Button nur auf mobilen Geräten anzeigen */
+    }
+    .section-title {
+        font-size: 12px;
+    }
+
+    .service-details.specification {
+        margin-top: -15px;
     }
 }
 </style>
