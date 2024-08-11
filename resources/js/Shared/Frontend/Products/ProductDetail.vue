@@ -50,21 +50,34 @@ const showPolicyBanner = ref(false)
     <section id="product-detail" class="about">
         <div class="price-circle">{{ formatPrice(product.total_price) }} €</div>
         <div class="container">
-            <div class="section-links">
-                <div>
-                    <h1>{{ formatProductName(product.name) }}</h1>
-                    <span>sold: 201 p.</span>
+            <div class="d-block d-md-none">
+                <div class="section-links flex-column">
+                    <h1 style="margin-left: -180px;">{{ formatProductName(product.name) }}</h1>
+                    <div style="margin-left: -210px;" class="product-stats text-left">
+                        <span class="rating">
+                            <i class="bi bi-star-fill" style="color: #DA913C;"></i>
+                            4.9
+                        </span>
+                        <span class="reviews">2.4k Reviews</span>
+                        <span class="sold">• 2.9k + sold</span>
+                        <span class="stats d-none d-md-inline">100+ sold</span>
+                    </div>
+                    <button @click="goBack" class="btn-back mt-3">
+                        <i class="bi bi-arrow-left-circle-fill"></i> <span class="back-btn-label">{{ $t("products.back_button") }}</span>
+                    </button>
+
+                    <button @click="goBack" class="btn-back-mobile mt-3">
+                        <i class="bi bi-arrow-left-circle"></i>
+                    </button>
+                    <button @click="toggleFavorites" class="btn-favorites-mobile mt-3">
+                        <i class="bi bi-bookmark-heart"></i>
+                    </button>
+
+                    <div class="section-title mt-2">
+                        <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
+                        {{ $t(`${product.slug}.product_description`) }}
+                    </div>
                 </div>
-                <button @click="goBack" class="btn-back">
-                    <i class="bi bi-arrow-left-circle-fill"></i> <span class="back-btn-label">{{
-                        $t("products.back_button") }}</span>
-                </button>
-                <button @click="goBack" class="btn-back-mobile">
-                    <i class="bi bi-arrow-left-circle"></i>
-                </button>
-                <button @click="toggleFavorites" class="btn-favorites-mobile">
-                    <i class="bi bi-bookmark-heart"></i>
-                </button>
             </div>
 
             <div class="row">
@@ -107,9 +120,11 @@ const showPolicyBanner = ref(false)
 
                             <div class="col-lg-6"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
                                 <div class="for-whom mt-2">
-                                    <div class="section-title">
-                                        <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
-                                        {{ $t(`${product.slug}.product_description`) }}
+                                    <div class="d-none d-md-block">
+                                        <div class="section-title">
+                                            <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
+                                            {{ $t(`${product.slug}.product_description`) }}
+                                        </div>
                                     </div>
 
                                     <!-- <ul>
@@ -137,12 +152,8 @@ const showPolicyBanner = ref(false)
                             </div> <!-- END OF LEFT CONTNENT COLUMN -->
                         </div>
                         <div class="row mt-n3">
-                            <price-calculator :baseName="product.base_name"
-                                              :slug="product.slug"
-                                              :price="product.total_price"
-                                              :version="product.version"
-                                              :type="product.type"
-                            />
+                            <price-calculator :baseName="product.base_name" :slug="product.slug"
+                                :price="product.total_price" :version="product.version" :type="product.type" />
                         </div> <!-- end row -->
                     </div>
                     <!-- End .content-->
@@ -154,7 +165,7 @@ const showPolicyBanner = ref(false)
     <div>
         <fab-button @click="showForm = true" />
         <transition name="slide-in">
-        <help-sidebar v-if="showForm" />
+            <help-sidebar v-if="showForm" />
         </transition>
     </div>
 
@@ -173,18 +184,21 @@ const showPolicyBanner = ref(false)
 --------------------------------------------------------------*/
 
 .card {
-  margin: 20px;
+    margin: 20px;
 }
+
 .card-header {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
 }
+
 .price {
-  font-weight: bold;
-  font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
+
 .description {
-  font-size: 0.9em;
-  color: #6c757d;
+    font-size: 0.9em;
+    color: #6c757d;
 }
 
 .dot-container {
@@ -611,125 +625,200 @@ const showPolicyBanner = ref(false)
 
 /* FAB button */
 .slide-in-enter-active {
-  animation: slide-in 0.5s ease-out;
+    animation: slide-in 0.5s ease-out;
 }
 
 .slide-in-leave-active {
-  animation: slide-out 0.3s ease-in;
+    animation: slide-out 0.3s ease-in;
 }
 
 @keyframes slide-in {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 @keyframes slide-out {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100%);
+    from {
+        transform: translateX(0);
+    }
 
-  }
+    to {
+        transform: translateX(100%);
+
+    }
 }
 
 .btn-back-mobile {
-    display: none; /* Standardmäßig ausblenden */
-    position: absolute; /* Absolut positionieren */
-    top: 220px; /* Abstand vom oberen Rand */
-    left: 20px; /* Abstand vom linken Rand */
-    background-color: transparent; /* Hintergrund transparent */
-    border: none; /* Kein Rahmen */
-    border-radius: 50%; /* Runde Form */
-    width: 40px; /* Breite des Buttons */
-    height: 40px; /* Höhe des Buttons */
-    cursor: pointer; /* Zeiger-Cursor */
-    z-index: 10; /* Über anderen Elementen anzeigen */
+    display: none;
+    /* Standardmäßig ausblenden */
+    position: absolute;
+    /* Absolut positionieren */
+    top: 220px;
+    /* Abstand vom oberen Rand */
+    left: 20px;
+    /* Abstand vom linken Rand */
+    background-color: transparent;
+    /* Hintergrund transparent */
+    border: none;
+    /* Kein Rahmen */
+    border-radius: 50%;
+    /* Runde Form */
+    width: 40px;
+    /* Breite des Buttons */
+    height: 40px;
+    /* Höhe des Buttons */
+    cursor: pointer;
+    /* Zeiger-Cursor */
+    z-index: 10;
+    /* Über anderen Elementen anzeigen */
 }
 
 .btn-back-mobile i {
-    color: white; /* Weiße Farbe für das Icon */
-    font-size: 24px; /* Größe des Icons */
+    color: white;
+    /* Weiße Farbe für das Icon */
+    font-size: 24px;
+    /* Größe des Icons */
 }
 
 .btn-favorites-mobile {
-    display: none; /* Standardmäßig ausblenden */
-    position: absolute; /* Absolut positionieren */
-    top: 220px; /* Gleicher Abstand wie der zurück Button */
-    right: 20px; /* Abstand vom rechten Rand */
-    background-color: transparent; /* Hintergrund transparent */
-    border: none; /* Kein Rahmen */
-    border-radius: 50%; /* Runde Form */
-    width: 40px; /* Breite des Buttons anpassen */
-    height: 40px; /* Höhe des Buttons anpassen */
-    cursor: pointer; /* Zeiger-Cursor */
-    z-index: 10; /* Über anderen Elementen anzeigen */
-    align-items: center; /* Vertikale Zentrierung */
-    justify-content: center; /* Horizontale Zentrierung */
+    display: none;
+    /* Standardmäßig ausblenden */
+    position: absolute;
+    /* Absolut positionieren */
+    top: 220px;
+    /* Gleicher Abstand wie der zurück Button */
+    right: 20px;
+    /* Abstand vom rechten Rand */
+    background-color: transparent;
+    /* Hintergrund transparent */
+    border: none;
+    /* Kein Rahmen */
+    border-radius: 50%;
+    /* Runde Form */
+    width: 40px;
+    /* Breite des Buttons anpassen */
+    height: 40px;
+    /* Höhe des Buttons anpassen */
+    cursor: pointer;
+    /* Zeiger-Cursor */
+    z-index: 10;
+    /* Über anderen Elementen anzeigen */
+    align-items: center;
+    /* Vertikale Zentrierung */
+    justify-content: center;
+    /* Horizontale Zentrierung */
 }
 
 .btn-favorites-mobile i {
-    color: white; /* Weiße Farbe für das Herz-Icon */
-    font-size: 24px; /* Größe des Icons auf 16px setzen */
+    color: white;
+    /* Weiße Farbe für das Herz-Icon */
+    font-size: 24px;
+    /* Größe des Icons auf 16px setzen */
 }
 
 .price-circle {
-    display: none; /* Standardmäßig ausblenden */
-    position: absolute; /* Absolut positionieren */
-    top: 285px; /* Position über dem oberen Rand */
-    right: 26px; /* Abstand vom linken Rand */
-    width: 80px; /* Durchmesser des Kreises */
-    height: 80px; /* Durchmesser des Kreises */
-    background-color: black; /* Hintergrund rot */
+    display: none;
+    /* Standardmäßig ausblenden */
+    position: absolute;
+    /* Absolut positionieren */
+    top: 285px;
+    /* Position über dem oberen Rand */
+    right: 26px;
+    /* Abstand vom linken Rand */
+    width: 80px;
+    /* Durchmesser des Kreises */
+    height: 80px;
+    /* Durchmesser des Kreises */
+    background-color: black;
+    /* Hintergrund rot */
     border: 1px solid white;
-    color: white; /* Schriftfarbe weiß */
-    border-radius: 50%; /* Runde Form */
-    align-items: center; /* Vertikale Zentrierung */
-    justify-content: center; /* Horizontale Zentrierung */
-    font-size: 14px; /* Schriftgröße */
-    font-weight: bold; /* Fettdruck */
-    z-index: 20; /* Über anderen Elementen anzeigen */
+    color: white;
+    /* Schriftfarbe weiß */
+    border-radius: 50%;
+    /* Runde Form */
+    align-items: center;
+    /* Vertikale Zentrierung */
+    justify-content: center;
+    /* Horizontale Zentrierung */
+    font-size: 14px;
+    /* Schriftgröße */
+    font-weight: bold;
+    /* Fettdruck */
+    z-index: 20;
+    /* Über anderen Elementen anzeigen */
 }
+
 h1 {
-    font-size: inherit; /* Standardgröße beibehalten */
+    font-size: inherit;
+    /* Standardgröße beibehalten */
+}
+
+.product-stats {
+    display: none;
+    /* Standardmäßig ausblenden */
+    font-size: 11px;
+    margin-top: -10px;
+    position: absolute;
 }
 
 @media (max-width: 767.98px) {
-    h1 {
-        font-size: 10px; /* Schriftgröße auf 10px setzen */
+    .product-stats {
+        display: inline;
+        /* Auf mobilen Geräten anzeigen */
     }
+
+    h1 {
+        font-size: 10px;
+        /* Schriftgröße auf 10px setzen */
+    }
+
     .btn-back {
         display: none;
     }
+
     .portfolio-item {
-        display: none; /* Verstecke alle Portfolio-Elemente */
+        display: none;
+        /* Verstecke alle Portfolio-Elemente */
     }
 
     /* Zeige nur das Element mit col-lg-12 an */
     .col-lg-12 {
-        display: block; /* Zeige das Element mit col-lg-12 an */
+        display: block;
+        /* Zeige das Element mit col-lg-12 an */
     }
 
     #product-detail {
         margin-top: -40px;
-        border-top-left-radius: 20px; /* Runde die untere linke Ecke */
-        border-top-right-radius: 20px; /* Runde die untere rechte Ecke */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Schatten hinzufügen */
+        border-top-left-radius: 20px;
+        /* Runde die untere linke Ecke */
+        border-top-right-radius: 20px;
+        /* Runde die untere rechte Ecke */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        /* Schatten hinzufügen */
     }
+
     .btn-back-mobile {
-        display: flex; /* Button nur auf mobilen Geräten anzeigen */
-        align-items: center; /* Vertikale Zentrierung */
-        justify-content: center; /* Horizontale Zentrierung */
+        display: flex;
+        /* Button nur auf mobilen Geräten anzeigen */
+        align-items: center;
+        /* Vertikale Zentrierung */
+        justify-content: center;
+        /* Horizontale Zentrierung */
     }
+
     .btn-favorites-mobile {
-        display: flex; /* Button nur auf mobilen Geräten anzeigen */
+        display: flex;
+        /* Button nur auf mobilen Geräten anzeigen */
     }
+
     .price-circle {
-        display: flex; /* Button nur auf mobilen Geräten anzeigen */
+        display: flex;
+        /* Button nur auf mobilen Geräten anzeigen */
     }
 }
 </style>
