@@ -1,12 +1,17 @@
 <script setup>
 import CategorySidebar from "../../../Components/Layouts/Layout1/Sidebar/CategorySidebar.vue";
 import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
-import { ref } from "vue";
+import ProductDetailGallery from "./Detail//ProductDetailGallery.vue";
+import ProductSpecification from "./Detail//ProductSpecification.vue";
+import FabButton from './FAB/FabButton.vue';
+import { ref, computed, watch, onMounted } from "vue";
 import { useI18n } from 'vue-i18n';
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 import { posthogModule } from '@/plugins/posthog';
+import PriceCalculator from './Calculator/PriceCalculator.vue';
+
 
 const { locale } = useI18n();
 
@@ -18,15 +23,23 @@ const props = defineProps({
     }
 });
 
+const showForm = ref(false);
+
+const formatPrice = (price) => {
+    return Math.floor(price); // Entfernt die Dezimalstellen
+};
+const formatProductName = (name) => {
+    const parts = name.split('STANDARD'); // Teile den Namen bei "STANDARD"
+    if (parts[0]) {
+        // Ersetze Bindestriche durch Leerzeichen und entferne überflüssige Leerzeichen
+        return parts[0].replace(/-/g, ' ').trim() + ' STANDARD';
+    }
+    return '';
+};
 
 const goBack = () => {
     window.history.back();
 }
-
-const formatMessage = (message) => {
-    return message.replace(/\*(.*?)\*/g, "<strong>$1</strong>");
-};
-
 const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
 const showConfigBanner = ref(false)
 const showPolicyBanner = ref(false)
@@ -35,31 +48,43 @@ const showPolicyBanner = ref(false)
 
 <template>
     <section id="product-detail" class="about">
+        <div class="price-circle">{{ formatPrice(product.total_price) }} €</div>
         <div class="container">
             <div class="section-links">
-                <div><h1>{{ product.name }}</h1></div>
+                <div>
+                    <h1>{{ formatProductName(product.name) }}</h1>
+                    <span>sold: 201 p.</span>
+                </div>
                 <button @click="goBack" class="btn-back">
                     <i class="bi bi-arrow-left-circle-fill"></i> <span class="back-btn-label">{{
-                    $t("products.back_button") }}</span>
+                        $t("products.back_button") }}</span>
+                </button>
+                <button @click="goBack" class="btn-back-mobile">
+                    <i class="bi bi-arrow-left-circle"></i>
+                </button>
+                <button @click="toggleFavorites" class="btn-favorites-mobile">
+                    <i class="bi bi-bookmark-heart"></i>
                 </button>
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
                     <!-- BEGIN LEFT SIDBAR -->
                     <div class="d-flex flex-column">
-                        <div class="row">
-                            <div class="service-details">
+                        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                            <!-- <div class="service-details">
                                 <div class=" service-box">
                                     <img class="pic" :src="`/img/products/normal/rampes-star_org.jpg`"
-                                        :alt="$t(`${product.slug}.product_name`)" />
+                                        :alt="product.name" />
                                 </div>
-                            </div>
+                            </div> -->
+                            <product-detail-gallery />
                         </div>
                         <div class="row no-gutters mt-2">
                         </div>
                         <div class="row categories-list">
                             <div class="service-details">
+                                <product-specification :product="product" />
                                 <HelpSidebar :page_or_slug="product.slug" />
                             </div>
                         </div>
@@ -84,7 +109,7 @@ const showPolicyBanner = ref(false)
                                 <div class="for-whom mt-2">
                                     <div class="section-title">
                                         <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
-                                       {{ $t(`${product.slug}.product_description`) }}
+                                        {{ $t(`${product.slug}.product_description`) }}
                                     </div>
 
                                     <!-- <ul>
@@ -99,220 +124,26 @@ const showPolicyBanner = ref(false)
                                         <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_04") }}</strong></li>
                                         <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_05") }}</strong></li>
                                     </ul> -->
-                                    <div class="chip-wrapper"><p class="chip-red chip">{{ $t("products.target_audience_06") }}</p><p class="chip-red chip">{{ $t("products.target_audience_07") }}</p><p class="chip-red chip">{{ $t("products.target_audience_08") }}</p><p class="chip-red chip">{{ $t("products.target_audience_09") }}</p></div>
+                                    <!-- <div class="chip-wrapper">
+                                        <p class="chip-red chip">{{ $t("products.target_audience_06") }}</p>
+                                        <p class="chip-red chip">{{ $t("products.target_audience_07") }}</p>
+                                        <p class="chip-red chip">{{ $t("products.target_audience_08") }}</p>
+                                        <p class="chip-red chip">{{ $t("products.target_audience_09") }}</p>
+                                    </div> -->
                                 </div>
                             </div> <!-- END OF RIGHT CONTNENT COLUMN -->
                             <div class="col-lg-6"> <!-- BEGIN OF LEFT CONTNENT COLUMN -->
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-1">
-                                        {{ $t("products.weight_capacity", { tonnes: product.weight_capacity }) }}
-                                    </div>
-                                    <div class="right-side right-color-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-minecart-loaded" viewBox="0 0 16 16">
-                                            <path
-                                                d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4m8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4M.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82 1.313 7h11.17l1.313-7z" />
-                                            <path fill-rule="evenodd"
-                                                d="M6 1a2.498 2.498 0 0 1 4 0c.818 0 1.545.394 2 1 .67 0 1.552.57 2 1h-2c-.314 0-.611-.15-.8-.4-.274-.365-.71-.6-1.2-.6-.314 0-.611-.15-.8-.4a1.497 1.497 0 0 0-2.4 0c-.189.25-.486.4-.8.4-.507 0-.955.251-1.228.638q-.136.194-.308.362H3c.13-.147.401-.432.562-.545a1.6 1.6 0 0 0 .393-.393A2.5 2.5 0 0 1 6 1" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-2">
-                                        {{ $t("products.width_used", { width_used: product.width_used }) }}
-                                    </div>
-                                    <div class="right-side right-color-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows-vertical" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8.354 14.854a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 13.293V2.707L6.354 3.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 2.707v10.586l1.146-1.147a.5.5 0 0 1 .708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-3">
-                                        {{ $t("products.total_width", { total_width: product.total_width }) }}
-                                    </div>
-                                    <div class="right-side right-color-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows-vertical" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8.354 14.854a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 13.293V2.707L6.354 3.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 2.707v10.586l1.146-1.147a.5.5 0 0 1 .708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-4">
-                                        {{ $t("products.total_length", { total_length: product.total_length }) }}
-                                    </div>
-                                    <div class="right-side right-color-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
-                                            <path
-                                                d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-5">
-                                        {{ $t("products.length_inclined_plane", { length: product.length_inclined_plane }) }}
-                                    </div>
-                                    <div class="right-side right-color-5">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
-                                            <path
-                                                d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-6">
-                                        {{ $t("products.length_plateform_horizontal", { length: product.length_plateform_horizontal }) }}
-                                    </div>
-                                    <div class="right-side right-color-6">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
-                                            <path
-                                                d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-7">
-                                        {{ $t("products.length_lip_penetrating", { length: product.length_lip_penetrating }) }}
-                                    </div>
-                                    <div class="right-side right-color-7">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
-                                            <path
-                                                d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-8">
-                                        {{ $t("products.exit_lip_length", { length: product.exit_lip_length }) }}
-                                    </div>
-                                    <div class="right-side right-color-8">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
-                                            <path
-                                                d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-9">
-                                        {{ $t("products.slope_min_max", { min_slope: product.slope_min, max_slope: product.slope_max }) }}
-                                    </div>
-                                    <div class="right-side right-color-9">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-slash-lg" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-10">
-                                        {{ $t("products.lifting_height", { min_height: product.min_height, max_height: product.max_height }) }}
-                                    </div>
-                                    <div class="right-side right-color-10">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-align-top" viewBox="0 0 16 16">
-                                            <rect width="4" height="12" rx="1" transform="matrix(1 0 0 -1 6 15)" />
-                                            <path d="M1.5 2a.5.5 0 0 1 0-1zm13-1a.5.5 0 0 1 0 1zm-13 0h13v1h-13z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-11">
-                                        {{ $t("products.unloaded_weight", { weight: product.unloaded_weight }) }}
-                                    </div>
-                                    <div class="right-side right-color-11">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-minecart" viewBox="0 0 16 16">
-                                            <path
-                                                d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4m8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4M.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82 1.313 7h11.17l1.313-7z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-2">
-                                        {{ $t("products.support_feet", { feet: product.amount_feet }) }}
-                                    </div>
-                                    <div class="right-side right-color-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-align-bottom" viewBox="0 0 16 16">
-                                            <rect width="4" height="12" x="6" y="1" rx="1" />
-                                            <path d="M1.5 14a.5.5 0 0 0 0 1zm13 1a.5.5 0 0 0 0-1zm-13 0h13v-1h-13z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-3">
-                                        {{ $t("products.side_railings", { height: product.side_railings_height }) }}
-                                    </div>
-                                    <div class="right-side right-color-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                            fill="currentColor" class="bi bi-arrows-vertical" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8.354 14.854a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 13.293V2.707L6.354 3.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 2.707v10.586l1.146-1.147a.5.5 0 0 1 .708.708z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="long-pill" data-aos="zoom-in" data-aos-delay="100">
-                                    <div class="left-side left-color-6">
-                                        {{ $t("products.security_chaines") }}
-                                    </div>
-                                    <div class="right-side right-color-6">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
-                                            <path
-                                                d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                                        </svg>
-                                    </div>
-                                </div>
+                                <product-specification :product="product" />
                             </div> <!-- END OF LEFT CONTNENT COLUMN -->
                         </div>
                         <div class="row mt-n3">
-                            <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-emoji-smile" style="color: #20b38e"></i>
-                                    <span class="feature-title">{{ $t("products.anti-slip-title") }}</span>
-                                    <p v-html="formatMessage($t('products.anti-slip-description'))"></p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-bag-check" style="color: #8a1ac2"></i>
-                                    <span class="feature-title">{{ $t("products.rent-title") }}</span>
-                                    <p v-html="formatMessage($t('products.rent-description'))"></p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-award" style="color: #ffb459"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="42"
-                                        data-purecounter-duration="1" class="purecounter"></span>
-                                    <p v-html="formatMessage($t('products.year_experience-description'))"></p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-gem" style="color: #ffb459"></i>
-                                    <span class="feature-title">{{
-                                        $t("products.tailor_made_title")
-                                        }}</span>
-                                    <p v-html="formatMessage($t('products.tailor_made_description'))"></p>
-                                </div>
-                            </div>
-                        </div>
+                            <price-calculator :baseName="product.base_name"
+                                              :slug="product.slug"
+                                              :price="product.total_price"
+                                              :version="product.version"
+                                              :type="product.type"
+                            />
+                        </div> <!-- end row -->
                     </div>
                     <!-- End .content-->
                 </div> <!-- END RIGHT CONTNENT COLUMN -->
@@ -320,6 +151,12 @@ const showPolicyBanner = ref(false)
         </div> <!-- END Container -->
     </section>
     <!-- End About Me Section -->
+    <div>
+        <fab-button @click="showForm = true" />
+        <transition name="slide-in">
+        <help-sidebar v-if="showForm" />
+        </transition>
+    </div>
 
     <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
         @showPolicyBanner="showPolicyBanner = true" />
@@ -334,6 +171,22 @@ const showPolicyBanner = ref(false)
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
+
+.card {
+  margin: 20px;
+}
+.card-header {
+  background-color: #f8f9fa;
+}
+.price {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.description {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
 .dot-container {
     display: inline-block;
     position: relative;
@@ -395,111 +248,7 @@ const showPolicyBanner = ref(false)
     text-decoration: none;
 }
 
-.long-pill {
-    display: inline-flex;
-    border-radius: 5px;
-    overflow: hidden;
-    width: 100%;
-    /* Set the total width of the long pill */
-    margin-bottom: 2px;
-}
 
-.left-side,
-.right-side {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    font-size: 12px !important;
-    /* Set the font size for the text */
-    max-height: 25px;
-}
-
-.left-side {
-    width: 91%;
-    /* Set the width of the left side */
-    justify-content: flex-start;
-    /* Align text to the left */
-    border-top-left-radius: 5px;
-    /* Adjust border radius for left side */
-    border-bottom-left-radius: 5px;
-    /* Adjust border radius for left side */
-    padding: 4px 0 4px 9px;
-    /* Adjust padding as needed */
-}
-
-.right-side {
-    width: 9%;
-    /* Set the width of the right side */
-    justify-content: flex-end;
-    /* Align text to the right */
-    border-top-right-radius: 5px;
-    /* Adjust border radius for right side */
-    border-bottom-right-radius: 5px;
-    /* Adjust border radius for right side */
-    background-color: #f6d0cf;
-    color: #f8f2f2;
-    padding: 4px 9px 4px 0;
-    /* Adjust padding as needed */
-}
-
-.number-odd {
-    font-weight: normal;
-    color: #dbd9d9;
-    margin-left: 3px;
-}
-
-.number-even {
-    font-weight: normal;
-    color: #111;
-    margin-left: 3px;
-}
-
-.left-color-1,
-.left-color-3,
-.left-color-5,
-.left-color-7,
-.left-color-9,
-.left-color-11 {
-    background-color: #e0dfdf;
-    /* Dark grey color for the left side */
-    color: #111;
-    /* Light font color */
-}
-
-.left-color-2,
-.left-color-4,
-.left-color-6,
-.left-color-8,
-.left-color-10 {
-    background-color: #fff;
-    /* Brighter grey color for the left side */
-    color: #111;
-    /* Light font color */
-}
-
-.right-color-1,
-.right-color-3,
-.right-color-5,
-.right-color-7,
-.right-color-9,
-.right-color-11 {
-    background-color: #e0dfdf;
-    /* Light red color for the right side */
-    color: #333333;
-    /* Dark font color */
-}
-
-.right-color-2,
-.right-color-4,
-.right-color-6,
-.right-color-8,
-.right-color-10 {
-    background-color: #fff;
-    /* Lighter red color for the right side */
-    color: #333333;
-    /* Dark font color */
-}
 
 .count-box ul li {
     font-size: 15px;
@@ -514,8 +263,12 @@ const showPolicyBanner = ref(false)
     }
 
     .about h1 {
-        font-size: 18px !important;
+        font-size: 14px !important;
         margin-bottom: 20px;
+        font-weight: 700;
+        color: black;
+        text-align: left;
+        margin-top: -26px;
     }
 
     .description {
@@ -523,26 +276,7 @@ const showPolicyBanner = ref(false)
     }
 }
 
-/* Add more classes for additional colors as needed */
 
-@media (min-width: 992px) and (max-width: 1400px) {
-
-    .left-side,
-    .right-side {
-        font-weight: normal;
-        max-height: 25px;
-    }
-
-    .left-side {
-        font-size: 10px;
-        width: 88%;
-    }
-
-    .right-side {
-        font-size: 10px;
-        width: 12%;
-    }
-}
 
 
 .about .content h3 {
@@ -645,6 +379,8 @@ const showPolicyBanner = ref(false)
 
 .section-title {
     padding-bottom: 15px !important;
+    text-align: left;
+
 }
 
 /*--------------------------------------------------------------
@@ -793,12 +529,6 @@ const showPolicyBanner = ref(false)
     align-items: center;
     margin-bottom: 15px;
 }
-.section-links h1 {
-    font-size: 22px;
-    font-weight: 700;
-    color: #3b434a;
-    text-align: left;
-}
 
 .chips-wrapper {
     display: flex;
@@ -877,5 +607,129 @@ const showPolicyBanner = ref(false)
 
 .form-check {
     margin-top: 10px;
+}
+
+/* FAB button */
+.slide-in-enter-active {
+  animation: slide-in 0.5s ease-out;
+}
+
+.slide-in-leave-active {
+  animation: slide-out 0.3s ease-in;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+
+  }
+}
+
+.btn-back-mobile {
+    display: none; /* Standardmäßig ausblenden */
+    position: absolute; /* Absolut positionieren */
+    top: 220px; /* Abstand vom oberen Rand */
+    left: 20px; /* Abstand vom linken Rand */
+    background-color: transparent; /* Hintergrund transparent */
+    border: none; /* Kein Rahmen */
+    border-radius: 50%; /* Runde Form */
+    width: 40px; /* Breite des Buttons */
+    height: 40px; /* Höhe des Buttons */
+    cursor: pointer; /* Zeiger-Cursor */
+    z-index: 10; /* Über anderen Elementen anzeigen */
+}
+
+.btn-back-mobile i {
+    color: white; /* Weiße Farbe für das Icon */
+    font-size: 24px; /* Größe des Icons */
+}
+
+.btn-favorites-mobile {
+    display: none; /* Standardmäßig ausblenden */
+    position: absolute; /* Absolut positionieren */
+    top: 220px; /* Gleicher Abstand wie der zurück Button */
+    right: 20px; /* Abstand vom rechten Rand */
+    background-color: transparent; /* Hintergrund transparent */
+    border: none; /* Kein Rahmen */
+    border-radius: 50%; /* Runde Form */
+    width: 40px; /* Breite des Buttons anpassen */
+    height: 40px; /* Höhe des Buttons anpassen */
+    cursor: pointer; /* Zeiger-Cursor */
+    z-index: 10; /* Über anderen Elementen anzeigen */
+    align-items: center; /* Vertikale Zentrierung */
+    justify-content: center; /* Horizontale Zentrierung */
+}
+
+.btn-favorites-mobile i {
+    color: white; /* Weiße Farbe für das Herz-Icon */
+    font-size: 24px; /* Größe des Icons auf 16px setzen */
+}
+
+.price-circle {
+    display: none; /* Standardmäßig ausblenden */
+    position: absolute; /* Absolut positionieren */
+    top: 285px; /* Position über dem oberen Rand */
+    right: 26px; /* Abstand vom linken Rand */
+    width: 80px; /* Durchmesser des Kreises */
+    height: 80px; /* Durchmesser des Kreises */
+    background-color: black; /* Hintergrund rot */
+    border: 1px solid white;
+    color: white; /* Schriftfarbe weiß */
+    border-radius: 50%; /* Runde Form */
+    align-items: center; /* Vertikale Zentrierung */
+    justify-content: center; /* Horizontale Zentrierung */
+    font-size: 14px; /* Schriftgröße */
+    font-weight: bold; /* Fettdruck */
+    z-index: 20; /* Über anderen Elementen anzeigen */
+}
+h1 {
+    font-size: inherit; /* Standardgröße beibehalten */
+}
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 10px; /* Schriftgröße auf 10px setzen */
+    }
+    .btn-back {
+        display: none;
+    }
+    .portfolio-item {
+        display: none; /* Verstecke alle Portfolio-Elemente */
+    }
+
+    /* Zeige nur das Element mit col-lg-12 an */
+    .col-lg-12 {
+        display: block; /* Zeige das Element mit col-lg-12 an */
+    }
+
+    #product-detail {
+        margin-top: -40px;
+        border-top-left-radius: 20px; /* Runde die untere linke Ecke */
+        border-top-right-radius: 20px; /* Runde die untere rechte Ecke */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Schatten hinzufügen */
+    }
+    .btn-back-mobile {
+        display: flex; /* Button nur auf mobilen Geräten anzeigen */
+        align-items: center; /* Vertikale Zentrierung */
+        justify-content: center; /* Horizontale Zentrierung */
+    }
+    .btn-favorites-mobile {
+        display: flex; /* Button nur auf mobilen Geräten anzeigen */
+    }
+    .price-circle {
+        display: flex; /* Button nur auf mobilen Geräten anzeigen */
+    }
 }
 </style>

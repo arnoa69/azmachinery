@@ -49,6 +49,7 @@ const validVersions = {
 
 const regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
 function generateUrl(slug, version, type, locale) {
+
     const parts = slug.split('-');
 
     // Find the index of the version in the parts array

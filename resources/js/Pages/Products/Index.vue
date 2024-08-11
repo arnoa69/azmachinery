@@ -64,7 +64,7 @@ const showPolicyBanner = ref(false)
     <meta property="twitter:site" content="@JeromeGuiguet" />
 
   </Head>
-  <Layout>
+  <Layout :isDetailView="false">
 
     <div class="row">
         <div v-for="(type, key) in base_names" :key="key" class="col-md-4">

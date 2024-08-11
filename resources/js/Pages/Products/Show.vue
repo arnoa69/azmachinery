@@ -8,7 +8,7 @@ import { getLocalizedCountry } from '@/utils/localizedSlugMixin';
 
 const { t } = useI18n();
 
-const product = ref([]);
+//const product = ref([]);
 const canonicalUrl = ref('');
 canonicalUrl.value = window.location.origin + window.location.pathname;
 const url = ref(window.location.origin);
@@ -21,7 +21,7 @@ const articleTag3 = ref(t("meta.article:tag3"));
 const articleTag4 = ref(t("meta.article:tag4"));
 
 const { props } = usePage();
-product.value = props.product;
+const product = ref(props.product); // Produkt von props erhalten
 
 // const productInfo = computed(() => {
 //     const info = [];
@@ -134,7 +134,7 @@ product.value = props.product;
         <meta property="twitter:creator" content="@arnoa69" />
         <meta property="twitter:site" content="@JeromeGuiguet" />  -->
     </Head>
-    <Layout>
+    <Layout :product="product" :isDetailView="true">
         <div>
             <ProductDetail :product="product"></ProductDetail>
         </div>

@@ -277,7 +277,7 @@ section,
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
-.page-title {
+/* .page-title {
     color: var(--default-color);
     background-color: var(--background-color);
     background-size: cover;
@@ -321,7 +321,7 @@ section,
     display: inline-block;
     padding-right: 10px;
     color: color-mix(in srgb, var(--default-color), transparent 20%);
-  }
+  } */
 
 /*--------------------------------------------------------------
 # Global Header

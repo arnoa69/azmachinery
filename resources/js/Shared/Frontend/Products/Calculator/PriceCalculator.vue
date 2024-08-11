@@ -1,0 +1,203 @@
+<script setup>
+import { ref, computed, onMounted, watch } from "vue";
+import generateUrl from '@/utils/urlHelper';
+import { useI18n } from 'vue-i18n';
+import { Inertia } from '@inertiajs/inertia';
+
+const { locale } = useI18n();
+
+const props = defineProps({
+    baseName: {
+        type: String,
+        required: true,
+    },
+    slug: {
+        type: String,
+    },
+    price: {
+        type: String,
+    },
+    version: {
+        type: String,
+    },
+    type: {
+        type: String,
+    },
+});
+
+// Import your mobileRamps data
+const mobileRampsData = ref({
+    star: {
+        standard: { '8t': 12950, '10t': 13450, '12t': 14250, '15t': 15250, '20t': 16950 },
+        xl: { '8t': 15250, '10t': 15750, '12t': 16950, '15t': 17950, '20t': 19750 },
+        llo: { '8t': 18550, '10t': 18950, '12t': 19950, '15t': 20450, '20t': 22250 },
+        lloxl: { '8t': 20750, '10t': 21250, '12t': 22050, '15t': 23050, '20t': 24750 },
+    },
+    'easy-xl': {
+        standard: { '8t': 13450, '10t': 14450, '12t': 15450, '15t': 16950, '20t': 17950 },
+    },
+    wlo: {
+        standard: { '8t': 6750, '10t': 7250, '12t': 7750 },
+    },
+    'prime-xs': {
+        standard: { '6t': 9750, '8t': 10250, '10t': 10950 },
+    },
+    'star-otc': {
+        standard: { '8t': 15750, '10t': 16750, '12t': 17750 },
+    },
+    'big-foot': {
+        standard: { '15t': 20750, '20t': 21750, '25t': 22950 },
+    },
+});
+
+const optionsData = ref({
+    zr: { label: 'Zone Security', price: 500 },
+    rl: { label: 'Guardrails', price: 1000 },
+    e: { label: 'Electric', price: 2000 },
+    ff: { label: 'Fork-Slider', price: 750 },
+    gal: { label: 'Steel Galvanized', price: 3000 },
+    tb: { label: 'Cover', price: 4250 },
+});
+
+// Reactive properties for form fields
+const selectedVersion = ref('');
+const selectedWeightCapacity = ref('');
+const selectedOptions = ref([]);
+const previousUrl = ref('');
+
+const availableVersions = computed(() => {
+    return mobileRampsData.value[props.baseName] || {};
+});
+
+const availableWeightCapacities = computed(() => {
+    return availableVersions.value[selectedVersion.value] || {};
+});
+
+const generateOrderedOptions = (selectedOptions) => {
+    const order = {
+        zr: 0,
+        rl: 1,
+        e: 2,
+        ff: 3,
+        gal: 4,
+        tb: 5,
+    };
+    // Erstellen Sie ein Array, das die Optionen nach ihrem Index sortiert
+    const sortedOptions = selectedOptions.sort((a, b) => order[b] - order[a]);
+    // Die höchste Option (mit dem höchsten Index) ist nun die erste
+    return sortedOptions;
+};
+
+const generatedSlug = computed(() => {
+    if (selectedOptions.value.length === 0) {
+        return `az-ramp-${props.baseName}-${selectedWeightCapacity.value}-${selectedVersion.value}`;
+    }
+    // Verwenden Sie die neue Funktion, um die Optionen zu sortieren
+    const orderedOptions = generateOrderedOptions(selectedOptions.value);
+    const optionsArray = orderedOptions.join('-');
+
+    return `az-ramp-${props.baseName}-${selectedWeightCapacity.value}-${selectedVersion.value}-${optionsArray}`;
+});
+
+
+const initializeForm = () => {
+    if (!props.slug) return;
+
+    const regex = /(\d+t)-(.*)/;
+    const match = props.slug.match(regex);
+
+    if (match) {
+        const [_, weightCapacity, rest] = match;
+        const [version, ...options] = rest.split('-');
+        selectedWeightCapacity.value = weightCapacity;
+        selectedVersion.value = version;
+        selectedOptions.value = options;
+    }
+};
+
+onMounted(() => {
+    initializeForm(props.slug);
+});
+
+const handleChange = () => {
+    const selectedVersion = document.getElementById('version');
+    const selectedWeightCapacity = document.getElementById('weightCapacity').value;
+    const selectedOptions = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+        .map(input => input.value);
+
+    // Generiere die neue URL
+     const newUrl = generateUrl(generatedSlug.value, selectedVersion.value, props.type, locale.value);
+     console.log('Neue URL:', newUrl);
+
+// Verwende Inertia, um zur neuen URL zu navigieren
+Inertia.visit(newUrl, {
+    preserveState: true, // Behalte den aktuellen Zustand
+    preserveScroll: true // Behalte die Scroll-Position
+});
+};
+
+// watch(
+//     [() => generatedSlug.value, () => selectedWeightCapacity.value, () => selectedVersion.value, () => selectedOptions.value],
+//     () => {
+//       changeUrl()
+//     }
+// );
+// const changeUrl = () => {
+//   const newUrl = generateUrl(generatedSlug.value, selectedVersion.value, props.type, locale.value);
+//   console.log('n url ', newUrl)
+
+//   history.pushState(null, '', newUrl);
+//   //window.location.reload();
+// }
+// const reloadPage = () => {
+//     window.location.reload(); // Oder verwenden Sie window.location.href = newUrl.value;
+// };
+</script>
+
+<template>
+  <div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <div class="flex-grow-1">
+        <span class="fw-bold">{{ price }}</span>
+        <!-- <span :class="{ 'text-success': priceDifference > 0, 'text-danger': priceDifference < 0 }">
+          {{ priceDifference > 0 ? '+' : '-' }} {{ priceDifference }}
+        </span> -->
+      </div>
+      <span class="description">Your Description Here <p>Generated Slug: {{ generatedSlug }}</p></span>
+    </div>
+    <div class="card-body">
+      <form @submit.prevent="submitForm">
+        <div class="row">
+          <div class="col-4">
+            <label for="baseName" class="form-label">Base Name</label>
+            <p>{{ baseName }}</p>
+          </div>
+          <div class="col-4">
+            <label for="version" class="form-label">Version</label>
+            <select id="version" class="form-select" v-model="selectedVersion" :disabled="!Object.keys(availableVersions).length"  @change="handleChange">
+              <option value="">Select Version</option>
+              <option v-for="(value, key) in availableVersions" :key="key" :value="key">{{ key }}</option>
+            </select>
+          </div>
+
+
+          <div class="col-4">
+            <label for="weightCapacity" class="form-label">Weight Capacity</label>
+            <select id="weightCapacity" class="form-select" v-model="selectedWeightCapacity" :disabled="!Object.keys(availableWeightCapacities).length"  @change="handleChange">
+              <option value="">Select Weight Capacity</option>
+              <option v-for="(capacity, key) in availableWeightCapacities" :key="key" :value="key">{{ key }} {{ capacity }}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+    <div class="col" v-for="(optionData, key) in optionsData" :key="key">
+      <input type="checkbox" :id="`option-${key}`" :value="key" v-model="selectedOptions" :checked="slug.includes(key)"  @change="handleChange">
+      <label :for="`option-${key}`">{{ optionData.label }} ({{ optionData.price }}€)</label>
+    </div>
+  </div>
+      <button @click="reloadPage">Seite neu laden</button>
+      </form>
+    </div>
+  </div>
+</template>
