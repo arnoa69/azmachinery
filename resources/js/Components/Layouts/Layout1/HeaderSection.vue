@@ -11,7 +11,7 @@ const { locale } = useI18n();
 
       <div class="logo d-flex align-items-center">
         <a  href="/"><img src="../../../../../public/img/az-machinery-logo.png" alt="" class="img-fluid"></a>
-        <h1 class="sitename">AZ Machinery</h1> <span>.</span>
+        <h1 class="sitename">AZ Machinery</h1>
       </div>
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -42,6 +42,5 @@ const { locale } = useI18n();
 </template>
 
 <style scoped>
-
 
 </style>
