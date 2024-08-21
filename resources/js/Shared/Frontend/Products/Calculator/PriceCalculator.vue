@@ -63,7 +63,6 @@ const optionsData = ref({
 const selectedVersion = ref('');
 const selectedWeightCapacity = ref('');
 const selectedOptions = ref([]);
-const previousUrl = ref('');
 
 const availableVersions = computed(() => {
     return mobileRampsData.value[props.baseName] || {};
@@ -126,78 +125,139 @@ const handleChange = () => {
         .map(input => input.value);
 
     // Generiere die neue URL
-     const newUrl = generateUrl(generatedSlug.value, selectedVersion.value, props.type, locale.value);
-     console.log('Neue URL:', newUrl);
+    const newUrl = generateUrl(generatedSlug.value, selectedVersion.value, props.type, locale.value);
+    console.log('Neue URL:', newUrl);
 
-// Verwende Inertia, um zur neuen URL zu navigieren
-Inertia.visit(newUrl, {
-    preserveState: true, // Behalte den aktuellen Zustand
-    preserveScroll: true // Behalte die Scroll-Position
-});
+    // Verwende Inertia, um zur neuen URL zu navigieren
+    Inertia.visit(newUrl, {
+        preserveState: true, // Behalte den aktuellen Zustand
+        preserveScroll: true // Behalte die Scroll-Position
+    });
 };
 
-// watch(
-//     [() => generatedSlug.value, () => selectedWeightCapacity.value, () => selectedVersion.value, () => selectedOptions.value],
-//     () => {
-//       changeUrl()
-//     }
-// );
-// const changeUrl = () => {
-//   const newUrl = generateUrl(generatedSlug.value, selectedVersion.value, props.type, locale.value);
-//   console.log('n url ', newUrl)
-
-//   history.pushState(null, '', newUrl);
-//   //window.location.reload();
-// }
-// const reloadPage = () => {
-//     window.location.reload(); // Oder verwenden Sie window.location.href = newUrl.value;
-// };
 </script>
 
 <template>
-  <div class="card">
-    <div class="card-header d-flex justify-content-between align-items-center">
-      <div class="flex-grow-1">
-        <span class="fw-bold">{{ price }}</span>
-        <!-- <span :class="{ 'text-success': priceDifference > 0, 'text-danger': priceDifference < 0 }">
-          {{ priceDifference > 0 ? '+' : '-' }} {{ priceDifference }}
-        </span> -->
-      </div>
-      <span class="description">Your Description Here <p>Generated Slug: {{ generatedSlug }}</p></span>
-    </div>
-    <div class="card-body">
-      <form @submit.prevent="submitForm">
-        <div class="row">
-          <div class="col-4">
-            <label for="baseName" class="form-label">Base Name</label>
-            <p>{{ baseName }}</p>
-          </div>
-          <div class="col-4">
-            <label for="version" class="form-label">Version</label>
-            <select id="version" class="form-select" v-model="selectedVersion" :disabled="!Object.keys(availableVersions).length"  @change="handleChange">
-              <option value="">Select Version</option>
-              <option v-for="(value, key) in availableVersions" :key="key" :value="key">{{ key }}</option>
-            </select>
-          </div>
-
-
-          <div class="col-4">
-            <label for="weightCapacity" class="form-label">Weight Capacity</label>
-            <select id="weightCapacity" class="form-select" v-model="selectedWeightCapacity" :disabled="!Object.keys(availableWeightCapacities).length"  @change="handleChange">
-              <option value="">Select Weight Capacity</option>
-              <option v-for="(capacity, key) in availableWeightCapacities" :key="key" :value="key">{{ key }} {{ capacity }}</option>
-            </select>
-          </div>
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="flex-grow-1">
+                <span class="fw-bold">{{ baseName }} {{ selectedVersion }}</span>
+            </div>
+            <span class="description fw-bold">{{ price }}€</span>
         </div>
-
-        <div class="row mt-3">
-    <div class="col" v-for="(optionData, key) in optionsData" :key="key">
-      <input type="checkbox" :id="`option-${key}`" :value="key" v-model="selectedOptions" :checked="slug.includes(key)"  @change="handleChange">
-      <label :for="`option-${key}`">{{ optionData.label }} ({{ optionData.price }}€)</label>
+        <div class="card-body">
+            <form @submit.prevent="submitForm">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="version" class="form-label">Version</label>
+                        <select id="version" class="form-select" v-model="selectedVersion"
+                            :disabled="!Object.keys(availableVersions).length" @change="handleChange">
+                            <option value="">Select Version</option>
+                            <option v-for="(value, key) in availableVersions" :key="key" :value="key">{{ key }}</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <label for="weightCapacity" class="form-label">Weight Capacity</label>
+                        <select id="weightCapacity" class="form-select" v-model="selectedWeightCapacity"
+                            :disabled="!Object.keys(availableWeightCapacities).length" @change="handleChange">
+                            <option value="">Select Weight Capacity</option>
+                            <option v-for="(capacity, key) in availableWeightCapacities" :key="key" :value="key">{{ key
+                                }}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <label for="weightCapacity" class="form-label">Options</label>
+                    <div class="col-12" v-for="(optionData, key) in optionsData" :key="key">
+                        <input type="checkbox" :id="`option-${key}`" :value="key" v-model="selectedOptions"
+                            :checked="slug.includes(key)" @change="handleChange">
+                            <img class="dummy-picture" src="" />
+                        <label :for="`option-${key}`">{{ optionData.label }} ({{ optionData.price }}€)</label>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-  </div>
-      <button @click="reloadPage">Seite neu laden</button>
-      </form>
-    </div>
-  </div>
 </template>
+
+<style scoped>
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(232, 47, 47, 0.3);
+  border: 2px solid #FF3737;
+  min-height: 400px;
+}
+
+.card-header {
+  background-color: #FF3737;
+  color: #FFFFFF;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+  position: relative;
+}
+
+.card-header::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-image: linear-gradient(to right, #FF3737, #FFC080);
+  background-size: 100px 20px;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  border-radius: 0 0 20px 20px;
+}
+
+.card-header .fw-bold {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.card-header .description {
+  font-size: 18px;
+  font-weight: normal;
+  color: #FFFFFF;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #FF3737;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: #FFFFFF;
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.card-body label {
+  font-size: 14px;
+  color: #666666;
+}
+
+.card-body input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.card-body label img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* add a dummy picture to the checkbox label */
+.card-body label img.dummy-picture {
+  background-color: #CCCCCC;
+  border: none;
+  padding: 5px;
+}
+</style>

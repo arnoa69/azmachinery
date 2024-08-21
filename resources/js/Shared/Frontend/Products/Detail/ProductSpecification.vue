@@ -310,8 +310,8 @@ const props = defineProps({
 /* Add more classes for additional colors as needed */
 @media (max-width: 767.98px) {
     .long-pill {
-        width: 88%;
-        margin-left: 20px;
+        width: 84%;
+        margin-left: 31px;
     }
 }
 

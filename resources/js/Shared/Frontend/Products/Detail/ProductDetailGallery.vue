@@ -1,5 +1,5 @@
 <script setup>
-
+const image = '/../../img/products/normal/test1.jpg';
 </script>
 
 <template>
@@ -7,9 +7,9 @@
         <div class="col-lg-12 col-md-6 portfolio-item isotope-item filter-app">
             <div class="portfolio-content h-100">
                 <div class="portfolio-info">
-                    <a href="https://picsum.photos/id/1/400/300" title="App 1" data-gallery="portfolio-gallery-app"
+                    <a :href="image" title="App 1" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img src="https://picsum.photos/id/1/600/400" class="img-fluid" alt="">
+                        <img :src="image" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -18,9 +18,9 @@
         <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
             <div class="portfolio-content h-100">
                 <div class="portfolio-info">
-                    <a href="https://picsum.photos/id/1/600" title="App 1" data-gallery="portfolio-gallery-app"
+                    <a :href="image" title="App 1" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img src="https://picsum.photos/id/1/200" class="img-fluid" alt="">
+                        <img :src="image" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -28,9 +28,9 @@
         <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
             <div class="portfolio-content h-100">
                 <div class="portfolio-info">
-                    <a href="https://picsum.photos/id/1/600" title="App 1" data-gallery="portfolio-gallery-app"
+                    <a :href="image" title="App 1" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img src="https://picsum.photos/id/1/200" class="img-fluid" alt="">
+                        <img :src="image" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -38,9 +38,9 @@
         <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
             <div class="portfolio-content h-100">
                 <div class="portfolio-info">
-                    <a href="https://picsum.photos/id/1/600" title="App 1" data-gallery="portfolio-gallery-app"
+                    <a :href="image" title="App 1" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img src="https://picsum.photos/id/1/200" class="img-fluid" alt="">
+                        <img :src="image" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -48,9 +48,9 @@
         <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
             <div class="portfolio-content h-100">
                 <div class="portfolio-info">
-                    <a href="https://picsum.photos/id/1/600" title="App 1" data-gallery="portfolio-gallery-app"
+                    <a :href="image" title="App 1" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img src="https://picsum.photos/id/1/200" class="img-fluid" alt="">
+                        <img :src="image" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>

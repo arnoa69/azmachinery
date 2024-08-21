@@ -8,7 +8,7 @@ const props = defineProps({
   isDetailView: Boolean
 });
 console.log('product detailsss ', props.product)
-const imagePath = ref('/../../../img/header/bg-header-products2.jpg');
+const imagePath = ref('/../../../img/header/bg-header-products.jpg');
 const randomImages = [
   '/../../../img/products/normal/test1.jpg',
   '/../../../img/products/normal/test1.jpg',
@@ -49,6 +49,7 @@ const backgroundStyle = computed(() => {
         margin: auto;
         width: 100%;
         padding: 10px;
+        background-color: #fbfbfb;
     }
     @media (min-width: 767.98px) {
       .page-title {
@@ -68,9 +69,6 @@ const backgroundStyle = computed(() => {
     inset: 0;
   }
     }
-
-
-
 
   .page-title h1 {
     font-size: 36px;

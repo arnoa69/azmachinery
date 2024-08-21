@@ -11,6 +11,7 @@ import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 import { posthogModule } from '@/plugins/posthog';
 import PriceCalculator from './Calculator/PriceCalculator.vue';
+import HelpChat from './Calculator/HelpChat.vue';
 
 
 const { locale } = useI18n();
@@ -29,13 +30,34 @@ const formatPrice = (price) => {
     return Math.floor(price); // Entfernt die Dezimalstellen
 };
 const formatProductName = (name) => {
-    const parts = name.split('STANDARD'); // Teile den Namen bei "STANDARD"
+    const parts = name.split(/STANDARD|LLOXL|LLO|XL/); // Teile den Namen bei "STANDARD", "LLOXL", "LLO", oder "XL"
     if (parts[0]) {
         // Ersetze Bindestriche durch Leerzeichen und entferne überflüssige Leerzeichen
-        return parts[0].replace(/-/g, ' ').trim() + ' STANDARD';
+        const suffix = name.includes('STANDARD') ? ' STANDARD' :
+            name.includes('LLOXL') ? ' LLOXL' :
+                name.includes('LLO') ? ' LLO' :
+                    name.includes('XL') ? ' XL' : '';
+        return parts[0].replace(/-/g, ' ').trim() + suffix;
     }
     return '';
 };
+
+const formatProductNameLarge = (name) => {
+    const replacements = {
+        '-LLO': ' Long level off ',
+        '-XL': ' Extra large',
+        '-STANDARD': ' Standard',
+        '-LLOXL': ' Long level off extra large',
+        '-.': ' ',
+        '-TB': ' + Cover',
+        '-ZR': ' + Security zone',
+        '-FF': ' + Fork slider',
+        '-RL': ' + Guardrails',
+        '-E': ' + Electric',
+        '-GAL': ' + Galvanized'
+    }
+    return name.replace(/-LLO|-XL|-STANDARD|-LLOXL|-\.|\.|-TB|-ZR|-FF|-RL|-E|-GAL/g, (match) => replacements[match] || '')
+}
 
 const goBack = () => {
     window.history.back();
@@ -43,6 +65,63 @@ const goBack = () => {
 const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
 const showConfigBanner = ref(false)
 const showPolicyBanner = ref(false)
+
+
+// State to manage the current component being displayed
+const currentComponent = ref('PriceCalculator');
+
+// Methods to change the displayed component
+const showHelpSidebar = () => {
+    console.log('opens help sidebar');
+    currentComponent.value = 'HelpSidebar';
+};
+
+const showHelpChat = () => {
+    console.log('opens HelpChat bot');
+    currentComponent.value = 'HelpChat';
+};
+
+const showPriceCalculator = () => {
+    console.log('opens calculator');
+    currentComponent.value = 'PriceCalculator';
+};
+
+// Method to share the product
+const shareProduct = () => {
+    alert('Share this product on social media!');
+};
+
+// Optional: You can use onMounted to set the initial component explicitly
+onMounted(() => {
+    currentComponent.value = 'PriceCalculator';
+});
+
+// const currentComponentProps = ref({});
+
+// watch(currentComponent, (newComponent) => {
+//   if (newComponent === 'price-calculator') {
+//     currentComponentProps.value = {
+//       baseName: product.base_name,
+//       slug: product.slug,
+//       price: product.total_price,
+//       version: product.version,
+//       type: product.type,
+//     };
+//   } else {
+//     currentComponentProps.value = {
+//       page_or_slug: product.slug,
+//     };
+//   }
+// });
+// function shareProduct() {
+//   // Öffne ein Share-Fenster
+//   const shareData = {
+//     title: 'Produkt teilen',
+//     text: 'Ich möchte dieses Produkt teilen:',
+//     url: 'https://example.com/product/' + product.slug,
+//   };
+//   navigator.share(shareData);
+// }
 
 </script>
 
@@ -52,18 +131,18 @@ const showPolicyBanner = ref(false)
         <div class="container">
             <div class="d-block d-md-none">
                 <div class="section-links flex-column">
-                    <h1 style="margin-left: -150px;">{{ formatProductName(product.name) }}</h1>
-                    <div style="margin-left: -180px;" class="product-stats text-left">
+                    <h1 style="margin-left: -90px;">{{ formatProductName(product.name) }}</h1>
+                    <div style="margin-left: -120px;" class="product-stats-mobile text-left">
                         <span class="rating">
                             <i class="bi bi-star-fill" style="color: #DA913C;"></i>
                             4.9
                         </span>
-                        <span class="reviews">2.4k Reviews</span>
-                        <span class="sold">• 2.9k + sold</span>
-                        <span class="stats d-none d-md-inline">100+ sold</span>
+                        <span class="reviews">2.4k Reviews </span>
+                        <span class="sold"> • 2.9k + sold </span>
                     </div>
                     <button @click="goBack" class="btn-back mt-3">
-                        <i class="bi bi-arrow-left-circle-fill"></i> <span class="back-btn-label">{{ $t("products.back_button") }}</span>
+                        <i class="bi bi-arrow-left-circle-fill"></i> <span class="back-btn-label">{{
+            $t("products.back_button") }}</span>
                     </button>
 
                     <button @click="goBack" class="btn-back-mobile mt-3">
@@ -96,30 +175,13 @@ const showPolicyBanner = ref(false)
                     <!-- BEGIN LEFT SIDBAR -->
                     <div class="d-flex flex-column">
                         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                            <!-- <div class="service-details">
-                                <div class=" service-box">
-                                    <img class="pic" :src="`/img/products/normal/rampes-star_org.jpg`"
-                                        :alt="product.name" />
-                                </div>
-                            </div> -->
                             <product-detail-gallery />
                         </div>
                         <div class="row no-gutters mt-2">
                         </div>
                         <div class="row categories-list">
                             <div class="service-details specification">
-                                <product-specification :product="product"/>
-                                <HelpSidebar :page_or_slug="product.slug" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div
-                                class="col-lg-12 d-flex justify-content-center product-img align-items-stretch position-relative">
-                                <a href="https://www.youtube.com/watch?v=K7FVp6UbXi8"
-                                    class="glightbox play-btn mb-4">.</a>
-                            </div>
-                            <div class="service-details">
-                                <CategorySidebar /> <!-- Component CategorySidebar.vue -->
+                                <product-specification :product="product" />
                             </div>
                         </div>
                     </div>
@@ -128,44 +190,63 @@ const showPolicyBanner = ref(false)
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT CONTNENT COLUMN -->
                     <div class="content ps-lg-4 d-flex flex-column justify-content-center">
                         <div class="row">
-
-                            <div class="col-lg-6"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
-                                <div class="for-whom mt-2">
+                            <div class="col-lg-6 d-none d-lg-block"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
+                                <h1 class="product-title">{{ formatProductNameLarge(product.name) }}</h1>
+                                <div class="product-stats mt-1">
+                                    <span class="rating">
+                                        <i class="bi bi-star-fill" style="color: #DA913C;"></i>
+                                        4.9
+                                    </span>
+                                    <span class="reviews">2.4k Reviews </span>
+                                    <span class="sold">• 2.9k + sold </span>
+                                </div>
+                                <div class="for-whom">
                                     <div class="d-none d-md-block">
-                                        <div class="section-title">
+                                        <div class="section-title mt-6">
                                             <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
                                             {{ $t(`${product.slug}.product_description`) }}
                                         </div>
                                     </div>
-
-                                    <!-- <ul>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_06") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_07") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_08") }}</strong> </li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_09") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_10") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_01") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_02") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_03") }}</strong> </li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_04") }}</strong></li>
-                                        <li><i class="bi bi-chevron-right"></i> <strong>{{ $t("products.target_audience_05") }}</strong></li>
-                                    </ul> -->
-                                    <!-- <div class="chip-wrapper">
-                                        <p class="chip-red chip">{{ $t("products.target_audience_06") }}</p>
-                                        <p class="chip-red chip">{{ $t("products.target_audience_07") }}</p>
-                                        <p class="chip-red chip">{{ $t("products.target_audience_08") }}</p>
-                                        <p class="chip-red chip">{{ $t("products.target_audience_09") }}</p>
-                                    </div> -->
                                 </div>
                             </div> <!-- END OF RIGHT CONTNENT COLUMN -->
-                            <div class="col-lg-6"> <!-- BEGIN OF LEFT CONTNENT COLUMN -->
-                                <product-specification :product="product" />
-                            </div> <!-- END OF LEFT CONTNENT COLUMN -->
+
+
+                            <div class="col-lg-6 calc" style="position: relative;">
+                                <div class="component-wrapper"><!-- wrapper -->
+                                        <!-- Phantom div for maintaining layout structure -->
+                                        <div class="phantom-div"></div>
+                                    <!-- BEGIN OF LEFT CONTENT COLUMN -->
+                                    <transition name="fade" mode="out-in">
+                                        <price-calculator v-if="currentComponent === 'PriceCalculator'"
+                                            :baseName="product?.base_name" :slug="product?.slug"
+                                            :price="product?.total_price" :version="product?.version" :type="product?.type"
+                                            key="price-calculator" />
+                                    </transition>
+
+                                    <transition name="fade" mode="out-in">
+                                        <help-chat v-if="currentComponent === 'HelpChat'" key="help-chat" />
+                                    </transition>
+
+                                    <transition name="fade" mode="out-in">
+                                        <help-sidebar v-if="currentComponent === 'HelpSidebar'"
+                                            :page_or_slug="product?.slug" key="help-sidebar" />
+                                    </transition>
+                                </div><!-- wrapper -->
+                                <div class="contact-bar mt-4">
+                                    <span class="open-window" @click="showHelpSidebar"><i
+                                            class="bi bi-clipboard-data"></i> Quote</span>
+                                    &nbsp;&nbsp;
+                                    <span class="open-window" @click="showHelpChat"><i class="bi bi-chat"></i>
+                                        Seller</span>
+                                    &nbsp;&nbsp;
+                                    <span class="open-window" @click="shareProduct"><i class="bi bi-share"></i>
+                                        Share</span>
+                                    &nbsp;&nbsp;
+                                    <span class="open-window" @click="showPriceCalculator"><i
+                                            class="bi bi-calculator"></i> Calc</span>
+                                </div>
+                            </div> <!-- END OF LEFT CONTENT COLUMN -->
                         </div>
-                        <div class="row mt-n3">
-                            <price-calculator :baseName="product.base_name" :slug="product.slug"
-                                :price="product.total_price" :version="product.version" :type="product.type" />
-                        </div> <!-- end row -->
                     </div>
                     <!-- End .content-->
                 </div> <!-- END RIGHT CONTNENT COLUMN -->
@@ -173,12 +254,12 @@ const showPolicyBanner = ref(false)
         </div> <!-- END Container -->
     </section>
     <!-- End About Me Section -->
-    <div>
+    <!-- <div>
         <fab-button @click="showForm = true" />
         <transition name="slide-in">
             <help-sidebar v-if="showForm" />
         </transition>
-    </div>
+    </div> -->
 
     <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
         @showPolicyBanner="showPolicyBanner = true" />
@@ -193,6 +274,79 @@ const showPolicyBanner = ref(false)
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
+#product-detail {
+    background-color: #fbfbfb;
+}
+.component-wrapper {
+    position: relative;
+    min-height: 400px; /* Same height as the components */
+    min-width: 370px;  /* Same width as the components */
+}
+.component-wrapper > .card {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.phantom-div {
+    width: 100%;
+    height: 100%;
+    visibility: hidden; /* Makes it invisible */
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease;
+    position: absolute;
+    width: 100%;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active in <2.1.8 */
+    {
+    opacity: 0;
+}
+
+.contact-bar {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.open-window {
+    cursor: pointer;
+    color: #c4ccd8;
+    font-size: 18px;
+}
+
+.open-window:hover {
+    text-decoration: underline;
+}
+
+.contact-bar {
+    background-color: #18201d;
+    color: #141921;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.contact-bar i {
+    font-size: 18px;
+    color: #dce3ee;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.calc {
+    margin-top: -23px;
+}
 
 .card {
     margin: 20px;
@@ -606,6 +760,10 @@ const showPolicyBanner = ref(false)
     margin-left: 6px;
 }
 
+.for-whom {
+    margin-top: 44px;
+}
+
 @media (min-width: 992px) {
     .for-whom {
         margin-left: 6px;
@@ -769,7 +927,7 @@ h1 {
     /* Standardgröße beibehalten */
 }
 
-.product-stats {
+.product-stats-mobile {
     display: none;
     /* Standardmäßig ausblenden */
     font-size: 11px;
@@ -777,25 +935,31 @@ h1 {
     position: absolute;
 }
 
-.sticky-bar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #121313;
-        padding: 10px;
-        display: flex;
-        justify-content: space-around;
-        z-index: 1000;
-    }
+.product-stats {
+    font-size: 11px;
+    margin-top: -10px;
+    position: absolute;
+}
 
-    .sticky-bar-icon {
-        font-size: 20px;
-        color: #fff;
-    }
+.sticky-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #121313;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+.sticky-bar-icon {
+    font-size: 20px;
+    color: #fff;
+}
 
 @media (max-width: 767.98px) {
-    .product-stats {
+    .product-stats-mobile {
         display: inline;
         /* Auf mobilen Geräten anzeigen */
     }
@@ -848,6 +1012,7 @@ h1 {
         display: flex;
         /* Button nur auf mobilen Geräten anzeigen */
     }
+
     .section-title {
         font-size: 12px;
     }
