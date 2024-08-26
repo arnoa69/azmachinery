@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
-import { Inertia } from '@inertiajs/inertia';
 import { usePage, router } from '@inertiajs/vue3';
 import axios from 'axios';
 
@@ -12,19 +11,19 @@ const product = page.props.product;
 
 // Translation mappings (this should match your PHP helper values)
 const validTypes = {
-    'en': { 'mobile': 'mobile-loading-ramp', 'static': 'static', 'container': 'container' },
-    'de': { 'mobile': 'mobile-laderampe', 'static': 'fix', 'container': 'container' },
-    'dk': { 'mobile': 'mobil-lasserampe', 'static': 'fast', 'container': 'container' },
-    'ee': { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container': 'container' },
-    'es': { 'mobile': 'rampa-de-carga-movil', 'static': 'estatico', 'container': 'container' },
-    'fi': { 'mobile': 'siirrettava-lastausramppi', 'static': 'staattinen', 'container': 'container' },
-    'fr': { 'mobile': 'rampe-de-chargement-mobile', 'static': 'statique', 'container': 'container' },
-    'it': { 'mobile': 'rampa-di-carico-mobile', 'static': 'statico', 'container': 'container' },
-    'lu': { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container': 'container' },
-    'ne': { 'mobile': 'mobiele-laadramp', 'static': 'statisch', 'container': 'container' },
-    'no': { 'mobile': 'mobil-lasterampe', 'static': 'statisk', 'container': 'container' },
-    'pt': { 'mobile': 'rampa-de-carga-movel', 'static': 'estatico', 'container': 'container' },
-    'se': { 'mobile': 'mobil-lastningsramp', 'static': 'statisk', 'container': 'container' }
+    'en': { 'mobile': 'mobile-loading-ramp', 'static': 'static', 'container': 'container-access-ramps' },
+    'de': { 'mobile': 'mobile-laderampe', 'static': 'fix', 'container': 'container-rampen' },
+    'dk': { 'mobile': 'mobil-lasserampe', 'static': 'fast', 'container': 'container-adgangsramper' },
+    'ee': { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container': 'konteiner-rampid' },
+    'es': { 'mobile': 'rampa-de-carga-movil', 'static': 'estatico', 'container': 'rampas-de-acceso-a-contenedores' },
+    'fi': { 'mobile': 'siirrettava-lastausramppi', 'static': 'staattinen', 'container': 'kontti-rampit' },
+    'fr': { 'mobile': 'rampe-de-chargement-mobile', 'static': 'statique', 'container': 'rampes-access-container' },
+    'it': { 'mobile': 'rampa-di-carico-mobile', 'static': 'statico', 'container': 'rampe-di-accesso-container' },
+    'lu': { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container': 'container-zougangsrampen' },
+    'nl': { 'mobile': 'mobiele-laadramp', 'static': 'statisch', 'container': 'container-toegangsrampen' },
+    'no': { 'mobile': 'mobil-lasterampe', 'static': 'statisk', 'container': 'containeradgangsramper' },
+    'pt': { 'mobile': 'rampa-de-carga-movel', 'static': 'estatico', 'container': 'rampas-de-acesso-a-conteineres' },
+    'se': { 'mobile': 'mobil-lastningsramp', 'static': 'statisk', 'container': 'containerramper' }
 };
 
 const validVersions = {
@@ -37,46 +36,268 @@ const validVersions = {
   'fr': { 'standard': 'taille-standard', 'llo': 'extension-longue', 'xl': 'tres-grand', 'llo-xl': 'extension-longue-tres-grand' },
   'it': { 'standard': 'dimensione-standard', 'llo': 'allungamento-lunghezza', 'xl': 'extra-grande', 'llo-xl': 'allungamento-lunghezza-extra-grande' },
   'lu': { 'standard': 'normale-grossezza', 'llo': 'extension-longue', 'xl': 'extra-gros', 'llo-xl': 'extension-longue-extra-gros' },
-  'ne': { 'standard': 'standaard-grootte', 'llo': 'lange-niveau-uit', 'xl': 'extra-groot', 'llo-xl': 'lange-niveau-uit-extra-groot' },
+  'nl': { 'standard': 'standaard-grootte', 'llo': 'lange-niveau-uit', 'xl': 'extra-groot', 'llo-xl': 'lange-niveau-uit-extra-groot' },
   'no': { 'standard': 'standard-storrelse', 'llo': 'lang-udfylding', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfylding-ekstra-stor' },
   'pt': { 'standard': 'tamanho-padrao', 'llo': 'alongamento-longo', 'xl': 'extra-grande', 'llo-xl': 'alongamento-longo-extra-grande' },
   'se': { 'standard': 'standard-storlek', 'llo': 'lang-utbyggnad', 'xl': 'extra-stor', 'llo-xl': 'lang-utbyggnad-extra-stor' }
 };
 
 const validOptions = {
-  'en': { 'zr': 'zone-refuge', 'rl': 'side-railings', 'e': 'electric', 'ff': 'fork-slider', 'gal': 'full-galvanized', 'tb': 'tarpaulin-tunnel' },
-  'de': { 'zr': 'sicherheitszone', 'rl': 'seitengelaender', 'e': 'elektrisch', 'ff': 'gabelschieber', 'gal': 'vollverzinkt', 'tb': 'planendach' },
-  'dk': { 'zr': 'sikkerhedszone', 'rl': 'sidegardiner', 'e': 'elektrisk', 'ff': 'skiftebærer', 'gal': 'fuld-forzinket', 'tb': 'tagtunnel' },
-  'ee': { 'zr': 'tervitsi-aladus', 'rl': 'poolkorvuti', 'e': 'elektriksne', 'ff': 'katkestaja-liikumisliidur', 'gal': 'taielik-verzinkitud', 'tb': 'tagukoog' },
-  'es': { 'zr': 'zona-refugio', 'rl': 'railes-laterales', 'e': 'electrico', 'ff': 'deslizador-de-bastidor', 'gal': 'totalmente-galvanizado', 'tb': 'tunel-tejado' },
-  'fi': { 'zr': 'suojausalue', 'rl': 'sivuseitit', 'e': 'sahkoinen', 'ff': 'kaaripistooli', 'gal': 'taysiksiveroitu', 'tb': 'paalattiatunnel' },
-  'fr': { 'zr': 'zone-refuge', 'rl': 'parapets-lateraux', 'e': 'electrique', 'ff': 'glissiere-baton', 'gal': 'totalement-galvanise', 'tb': 'tunnel-toit' },
-  'it': { 'zr': 'zona-rifugio', 'rl': 'parapetti-laterali', 'e': 'elettrico', 'ff': 'cambia-slittamento', 'gal': 'totalmente-galvanizzato', 'tb': 'tunnel-tetto' },
-  'lu': { 'zr': 'zone-refuge', 'rl': 'parapets-lateraux', 'e': 'electrique', 'ff': 'glissiere-baton', 'gal': 'totalement-galvanise', 'tb': 'tunnel-toit' },
-  'ne': { 'zr': 'zone-refugie', 'rl': 'rail-laterale', 'e': 'electrisch', 'ff': 'schuifbalk', 'gal': 'volledig-verzinkt', 'tb': 'dak-tunnel' },
-  'no': { 'zr': 'sikkerhetszone', 'rl': 'sidekanter', 'e': 'elektisk', 'ff': 'skifteskytter', 'gal': 'fullt-verzinket', 'tb': 'taggaller' },
-  'pt': { 'zr': 'zona-refugio', 'rl': 'parede-lateral', 'e': 'eletrico', 'ff': 'deslizador-do-eixo', 'gal': 'totalmente-galvanizado', 'tb': 'tunel-telhado' },
-  'se': { 'zr': 'sakerhetszon', 'rl': 'sidokanter', 'e': 'elektrisk', 'ff': 'vaxelskytt', 'gal': 'fullt-galvaniserad', 'tb': 'takkup' }
+    'en': {
+        'zr': 'zone-refuge',
+        'rl1200': 'side-railings',
+        'rl1200p': 'side-railings-prime-xs',
+        'rl350': 'side-railings-350',
+        'le': 'electric-lift',
+        'be': 'electric-crutches',
+        'ff': 'fork-slider',
+        'ffd': 'double-fork-slider',
+        'tt': 'traction-drawbar',
+        'gan': 'full-galvanized',
+        'gap': 'full-galvanized-prime',
+        'gab': 'full-galvanized-bigfoot',
+        'gao': 'full-galvanized-otc',
+        'tb': 'tarpaulin-tunnel' },
+    'de': {
+        'zr': 'schutzbereich',
+        'rl1200': 'seitenreling',
+        'rl1200p': 'seitenreling-prime-xs',
+        'rl350': 'seitenreling-350',
+        'le': 'elektrischer-aufzug',
+        'be': 'elektrische-vorschubbruecke',
+        'ff': 'gabelschlitten',
+        'ffd': 'doppelgabelschlitten',
+        'tt': 'zugdeichsel',
+        'gan': 'vollverzinkt',
+        'gap': 'vollverzinkt-prime',
+        'gab': 'vollverzinkt-bigfoot',
+        'gao': 'vollverzinkt-otc',
+        'tb': 'planentunnel' },
+    'dk': {
+        'zr': 'sikkerhedszone',
+        'rl1200': 'sidegardiner',
+        'rl1200p': 'sidegardiner-prime-xs',
+        'rl350': 'sidegardiner-350',
+        'le': 'elektrisk-lift',
+        'be': 'elektriske-krykker',
+        'ff': 'gaffel-slider',
+        'ffd': 'dobbelt-gaffel-slider',
+        'tt': 'trakkrog',
+        'gan': 'fuld-galvaniseret-forzinket',
+        'gap': 'fuld-galvaniseret-forzinket-prime',
+        'gab': 'fuld-galvaniseret-forzinket-bigfoot',
+        'gao': 'fuld-galvaniseret-forzinket-otc',
+        'tb': 'presenning-tunnel' },
+    'ee': {
+        'zr': 'turvapiirkond',
+        'rl1200': 'poolkorvuti',
+        'rl1200p': 'poolkorvuti-prime-xs',
+        'rl350': 'poolkorvuti-350',
+        'le': 'elektriline-tostuk',
+        'be': 'elektrilised-karkud',
+        'ff': 'katkestaja-liikumisliidur',
+        'ffd': 'topelt-katkestaja-liikumisliidur',
+        'tt': 'tombetost',
+        'gan': 'taielik-verzinkitud',
+        'gap': 'taielik-verzinkitud-prime',
+        'gab': 'taielik-verzinkitud-bigfoot',
+        'gao': 'taielik-verzinkitud-otc',
+        'tb': 'kott-tunnel' },
+    'es': {
+        'zr': 'zona-refugio',
+        'rl1200': 'barandillas-laterales',
+        'rl1200p': 'barandillas-laterales-prime-xs',
+        'rl350': 'barandillas-laterales-350',
+        'le': 'elevador-electrico',
+        'be': 'muletas-electricas',
+        'ff': 'deslizador-de-horquilla',
+        'ffd': 'deslizador-de-doble-horquilla',
+        'tt': 'barra-de-traccion',
+        'gan': 'totalmente-galvanizado',
+        'gap': 'totalmente-galvanizado-prime',
+        'gab': 'totalmente-galvanizado-bigfoot',
+        'gao': 'totalmente-galvanizado-otc',
+        'tb': 'tunel-tejado' },
+    'fi': {
+        'zr': 'suojausalue',
+        'rl1200': 'sivuraidat',
+        'rl1200p': 'sivuraidat-prime-xs',
+        'rl350': 'sivuraidat-350',
+        'le': 'sahkoinen-lift',
+        'be': 'sahkoinen-kepit',
+        'ff': 'haarukkaliukus',
+        'ffd': 'kaksinkertainen-haarukkaliukus',
+        'tt': 'vetotanko',
+        'gan': 'taysiksiveroitu',
+        'gap': 'taysiksiveroitu-prime',
+        'gab': 'taysiksiveroitu-bigfoot',
+        'gao': 'taysiksiveroitu-otc',
+        'tb': 'paalattiatunnel' },
+    'fr': {
+        'zr': 'zone-refuge',
+        'rl1200': 'garde-corps-lateraux',
+        'rl1200p': 'garde-corps-lateraux-prime-xs',
+        'rl350': 'garde-corps-lateraux-350',
+        'le': 'elevateur-electrique',
+        'be': 'bequilles-electrique',
+        'ff': 'fourreaux-de-fourches-transversaux',
+        'ffd': 'double-fourreaux-de-fourches-transversaux',
+        'tt': 'barre-de-tirage',
+        'gan': 'totalement-galvanise',
+        'gap': 'totalement-galvanise-prime',
+        'gab': 'totalement-galvanise-bigfoot',
+        'gao': 'totalement-galvanise-otc',
+        'tb': 'tunnel-toit' },
+    'it': {
+        'zr': 'zona-rifugio',
+        'rl1200': 'parapetti-laterali',
+        'rl1200p': 'parapetti-laterali-prime-xs',
+        'rl350': 'parapetti-laterali-350',
+        'le': 'ascensore-elettrico',
+        'be': 'crutch-elettriche',
+        'ff': 'slittino-a-forca',
+        'ffd': 'doppio-slittino-a-forca',
+        'tt': 'barra-di-trazione',
+        'gan': 'completamente-galvanizzato',
+        'gap': 'completamente-galvanizzato-prime',
+        'gab': 'completamente-galvanizzato-bigfoot',
+        'gao': 'completamente-galvanizzato-otc',
+        'tb': 'tunnel-tetto' },
+    'lu': {
+        'zr': 'zone-refuge',
+        'rl1200': 'barrieres-laterales',
+        'rl1200p': 'barrieres-laterales-prime-xs',
+        'rl350': 'barrieres-laterales-350',
+        'le': 'ascenseur-electrique',
+        'be': 'bequilles-electriques',
+        'ff': 'glissiere-de-fourche',
+        'ffd': 'double-glissiere-de-fourche',
+        'tt': 'barre-de-tirage',
+        'gan': 'totalement-galvanise',
+        'gap': 'totalement-galvanise-prime',
+        'gab': 'totalement-galvanise-bigfoot',
+        'gao': 'totalement-galvanise-otc',
+        'tb': 'tunnel-toit' },
+    'nl': {
+        'zr': 'zone-refuge',
+        'rl1200': 'zijleuningen',
+        'rl1200p': 'zijleuningen-prime-xs',
+        'rl350': 'zijleuningen-350',
+        'le': 'elektrische-lift',
+        'be': 'elektrische-krukken',
+        'ff': 'vork-slider',
+        'ffd': 'dubbele-vork-slider',
+        'tt': 'trekhaak',
+        'gan': 'volledig-galvaniseerd',
+        'gap': 'volledig-galvaniseerd-prime',
+        'gab': 'volledig-galvaniseerd-bigfoot',
+        'gao': 'volledig-galvaniseerd-otc',
+        'tb': 'dak-tunnel' },
+    'no': {
+        'zr': 'sone-tilflukt',
+        'rl1200': 'side-rekkverk',
+        'rl1200p': 'side-rekkverk-prime-xs',
+        'rl350': 'side-rekkverk-350',
+        'le': 'elektrisk-heis',
+        'be': 'elektriske-krykker',
+        'ff': 'gaffel-skyve',
+        'ffd': 'dobbel-gaffel-skyve',
+        'tt': 'trekkstang',
+        'gan': 'full-galvanisert',
+        'gap': 'full-galvanisert-prime',
+        'gab': 'full-galvanisert-bigfoot',
+        'gao': 'full-galvanisert-otc',
+        'tb': 'taggaller' },
+    'pt': {
+        'zr': 'zona-refugio',
+        'rl1200': 'guardas-laterais',
+        'rl1200p': 'guardas-laterais-prime-xs',
+        'rl350': 'guardas-laterais-350',
+        'le': 'elevador-eletrico',
+        'be': 'muletas-eletricas',
+        'ff': 'deslizante-de-garfos',
+        'ffd': 'duplo-deslizante-de-garfos',
+        'tt': 'barra-de-tracao',
+        'gan': 'totalmente-galvanizado',
+        'gap': 'totalmente-galvanizado-prime',
+        'gab': 'totalmente-galvanizado-bigfoot',
+        'gao': 'totalmente-galvanizado-otc',
+        'tb': 'tunel-telhado' },
+    'se': {
+        'zr': 'zon-skydd',
+        'rl1200': 'sidoracken',
+        'rl1200p': 'sidoracken-prime-xs',
+        'rl350': 'sidoracken-350',
+        'le': 'elektrisk-hiss',
+        'be': 'elektriska-kryckor',
+        'ff': 'gaffel-skjutare',
+        'ffd': 'dubbel-gaffel-skjutare',
+        'tt': 'dragstang',
+        'gan': 'helt-galvaniserad',
+        'gap': 'helt-galvaniserad-prime',
+        'gab': 'helt-galvaniserad-bigfoot',
+        'gao': 'helt-galvaniserad-otc',
+        'tb': 'takkup' }
 };
 
-const translateSlug = (type, slug, currentLocale, newLocale) => {
-  // Define your regex pattern to extract version and options
-  const regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
+// const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
+//   // Define your regex pattern to extract version and options
+//   const regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
+
+//   // Extract version and options using regex
+//   const match = slug.match(regex);
+//   if (!match) {
+//     throw new Error('Invalid slug format');
+//   }
+
+//   const version = match[1];
+//   const options = match[2] ? match[2].split('-') : [];
+
+//   // Translate version and options to new locale
+//   const translatedType = validTypes[newLocale][type];
+//   const translatedVersion = validVersions[newLocale][version];
+//   const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
+
+
+//   // Construct the new URL
+//   return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
+// };
+
+const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
+  let version;
+  let options = [];
+
+  // Prüfen, ob der slug mit dem entsprechenden base_name beginnt
+  const baseSlugPattern = `az-ramp-${base_name}-\\d+t-`;
+  const regex = new RegExp(`^${baseSlugPattern}((?:standard|llo-xl|llo|xl))(?:$|-(.+))`);
 
   // Extract version and options using regex
   const match = slug.match(regex);
-  if (!match) {
-    throw new Error('Invalid slug format');
-  }
 
-  const version = match[1];
-  const options = match[2] ? match[2].split('-') : [];
+  if (match) {
+    version = match[1];
+    options = match[2] ? match[2].split('-') : [];
+  } else {
+    // Wenn es kein Match gibt, setzen wir die Version auf "standard" für andere base_names
+    version = 'standard';
+
+    // Für base_name easy-xl, wlo, prime-xs, star-otc, big-foot
+    const otherBaseNames = ['easy-xl', 'wlo', 'prime-xs', 'star-otc', 'big-foot'];
+    const otherBaseSlugPattern = `az-ramp-(${otherBaseNames.join('|')})-\\d+t-standard(?:-(.+))?`;
+    const otherRegex = new RegExp(otherBaseSlugPattern);
+
+    const otherMatch = slug.match(otherRegex);
+    if (otherMatch) {
+      options = otherMatch[2] ? otherMatch[2].split('-') : [];
+    } else {
+      throw new Error('Invalid slug format');
+    }
+  }
 
   // Translate version and options to new locale
   const translatedType = validTypes[newLocale][type];
   const translatedVersion = validVersions[newLocale][version];
   const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
-
 
   // Construct the new URL
   return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
@@ -100,7 +321,7 @@ const changeLanguage = async (event) => {
     let newPath;
 
     if (route().current('products.show') && page.props.product) {
-      newPath = translateSlug(page.props.product.type, page.props.product.slug, currentLocale.value, newLocale);
+      newPath = translateSlug(page.props.product.base_name, page.props.product.type, page.props.product.slug, currentLocale.value, newLocale);
     } else if (route().current('home')) {
       newPath = route('home', { locale: newLocale });
     } else {

@@ -73,7 +73,7 @@ const submitForm = () => {
             </div>
         </div>
 
-        <div class="container copyright text-center mt-4">
+        <div class="container text-center mt-4">
             <div class="copyright" v-html="copyRightHtml"></div>
         </div>
 

@@ -279,6 +279,46 @@ class ProductsTableSeeder extends Seeder
                     'max_height' => 200,
                 ]
             ],
+            'HCBN-08' => [
+                'weights' => 8,
+                'versions' => ['standard', 'galvanized'],
+                'basePrices' => [2750, 3750],
+                'details' => [
+                    'total_length' => 2000,
+                    'total_width' => 2000,
+                    'used_width' => 2000,
+                    'length_inclined_plane' => null,
+                    'length_platform_horizontal' => null,
+                    'length_lip_penetrating' => null,
+                    'entrance_tray_length' => null,
+                    'exit_lip_length' => null,
+                    'slope_min' => null,
+                    'slope_max' => null,
+                    'unloaded_weight' => '295',
+                    'min_height' => 300,
+                    'max_height' => 300,
+                ]
+            ],
+            'CLR8' => [
+                'weights' => 8,
+                'versions' => ['standard', 'galvanized'],
+                'basePrices' => [4450, 5950],
+                'details' => [
+                    'total_length' => 3060,
+                    'total_width' => 2438,
+                    'used_width' => 2180,
+                    'length_inclined_plane' => null,
+                    'length_platform_horizontal' => null,
+                    'length_lip_penetrating' => null,
+                    'entrance_tray_length' => null,
+                    'exit_lip_length' => null,
+                    'slope_min' => null,
+                    'slope_max' => null,
+                    'unloaded_weight' => '450',
+                    'min_height' => 200,
+                    'max_height' => 200,
+                ]
+            ],
         ];
 
         try {

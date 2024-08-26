@@ -104,7 +104,6 @@ const submitForm = () => {
   border: none;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(232, 47, 47, 0.3);
-  border: 2px solid #FF3737;
   min-height: 400px;
 }
 

@@ -13,7 +13,7 @@ class LocaleMiddleware
 {
     public function handle(Request $request, Closure $next)
     {
-        $availableLocales = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'ne', 'no', 'pt', 'se'];
+        $availableLocales = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
 
         $uri = $request->getRequestUri();
 

@@ -51,12 +51,30 @@ const mobileRampsData = ref({
 });
 
 const optionsData = ref({
-    zr: { label: 'Zone Security', price: 500 },
-    rl: { label: 'Guardrails', price: 1000 },
-    e: { label: 'Electric', price: 2000 },
+    zr: { label: 'Security Zone', price: 500 },
+    rl1200: { label: 'Guardrails 1200mm', price: 1000 },
+    rl1200p: { label: 'Guardrails 1200mm', price: 500 },
+    rl350: { label: 'Guardrails 350mm', price: 500 },
+    le: { label: 'Electric Lift', price: 2000 },
+    be: { label: 'Electric Crutches', price: 3500 },
     ff: { label: 'Fork-Slider', price: 750 },
-    gal: { label: 'Steel Galvanized', price: 3000 },
-    tb: { label: 'Cover', price: 4250 },
+    ffd: { label: 'Double Fork-Slider', price: 1500 },
+    tt: { label: 'Traction Drawbar', price: 750 },
+    gan: { label: 'Full Galvanized', price: 3000 },
+    gap: { label: 'Full Galvanized', price: 1500 },
+    gab: { label: 'Full Galvanized', price: 5700 },
+    gao: { label: 'Full Galvanized', price: 3500 },
+    tb: { label: 'Tarpaulin Tunnel', price: 4250 },
+});
+
+// Option Groups
+const optionGroups = ref({
+    'star': ['zr', 'rl1200', 'le', 'be', 'ff', 'gan'],
+    'easy-xl': ['rl1200', 'le', 'ff', 'tt', 'tb', 'gan'],
+    'wlo': ['rl1200', 'be', 'ff', 'tt', 'tb', 'gan'],
+    'prime-xs': ['rl1200p', 'be', 'ff', 'tt', 'gap'],
+    'star-otc': ['le', 'ff', 'gao', 'tb'],
+    'big-foot': ['rl350', 'rl1200', 'ffd', 'gab'],
 });
 
 // Reactive properties for form fields
@@ -72,20 +90,74 @@ const availableWeightCapacities = computed(() => {
     return availableVersions.value[selectedVersion.value] || {};
 });
 
+// Filter options based on the selected baseName
+const availableOptions = computed(() => {
+    const availableKeys = optionGroups.value[props.baseName] || [];
+    return Object.fromEntries(
+        Object.entries(optionsData.value).filter(([key]) => availableKeys.includes(key))
+    );
+});
+
 const generateOrderedOptions = (selectedOptions) => {
-    const order = {
-        zr: 0,
-        rl: 1,
-        e: 2,
-        ff: 3,
-        gal: 4,
-        tb: 5,
+    const orderMap = {
+        star: {
+            zr: 0,
+            rl1200: 1,
+            le: 2,
+            be: 3,
+            ff: 4,
+            gan: 5,
+        },
+        'easy-xl': {
+            rl1200: 0,
+            le: 1,
+            ff: 2,
+            tt: 3,
+            tb: 4,
+            gan: 5,
+        },
+        wlo: {
+            rl1200: 0,
+            be: 1,
+            ff: 2,
+            tt: 3,
+            tb: 4,
+            gan: 5,
+        },
+        'prime-xs': {
+            rl1200p: 0,
+            be: 1,
+            ff: 2,
+            tt: 3,
+            gap: 4,
+        },
+        'star-otc': {
+            le: 0,
+            ff: 1,
+            gao: 2,
+            tb: 3,
+        },
+        'big-foot': {
+            rl350: 0,
+            rl1200: 1,
+            ffd: 2,
+            gab: 3,
+        },
     };
-    // Erstellen Sie ein Array, das die Optionen nach ihrem Index sortiert
-    const sortedOptions = selectedOptions.sort((a, b) => order[b] - order[a]);
-    // Die höchste Option (mit dem höchsten Index) ist nun die erste
+
+    // Holen Sie sich die spezifische Reihenfolge für den aktuellen baseName
+    const currentOrder = orderMap[props.baseName] || {};
+
+    // Sortieren Sie die Optionen basierend auf der spezifischen Reihenfolge
+    const sortedOptions = selectedOptions.sort((a, b) => {
+        const aOrder = currentOrder[a] !== undefined ? currentOrder[a] : Infinity;
+        const bOrder = currentOrder[b] !== undefined ? currentOrder[b] : Infinity;
+        return aOrder - bOrder;
+    });
+
     return sortedOptions;
 };
+
 
 const generatedSlug = computed(() => {
     if (selectedOptions.value.length === 0) {
@@ -118,6 +190,24 @@ onMounted(() => {
     initializeForm(props.slug);
 });
 
+const handleOptionChange = (option) => {
+    // Wenn der baseName 'big-foot' ist, dann überprüfen wir die Logik
+    if (props.baseName === 'big-foot') {
+        // Wenn rl1200 oder rl350 ausgewählt wird, deaktiviere die andere
+        if (option === 'rl1200' && selectedOptions.value.includes('rl350')) {
+            selectedOptions.value = selectedOptions.value.filter(opt => opt !== 'rl350');
+        } else if (option === 'rl350' && selectedOptions.value.includes('rl1200')) {
+            selectedOptions.value = selectedOptions.value.filter(opt => opt !== 'rl1200');
+        }
+    }
+    // Fügen Sie die Option hinzu, wenn sie nicht bereits ausgewählt ist
+    if (!selectedOptions.value.includes(option)) {
+        selectedOptions.value.push(option);
+    }
+    // Trigger the change handling
+    handleChange();
+};
+
 const handleChange = () => {
     const selectedVersion = document.getElementById('version');
     const selectedWeightCapacity = document.getElementById('weightCapacity').value;
@@ -126,7 +216,6 @@ const handleChange = () => {
 
     // Generiere die neue URL
     const newUrl = generateUrl(generatedSlug.value, selectedVersion.value, props.type, locale.value);
-    console.log('Neue URL:', newUrl);
 
     // Verwende Inertia, um zur neuen URL zu navigieren
     Inertia.visit(newUrl, {
@@ -152,26 +241,25 @@ const handleChange = () => {
                         <label for="version" class="form-label">Version</label>
                         <select id="version" class="form-select" v-model="selectedVersion"
                             :disabled="!Object.keys(availableVersions).length" @change="handleChange">
-                            <option value="">Select Version</option>
+                            <option value="">Wählen Sie eine Version</option>
                             <option v-for="(value, key) in availableVersions" :key="key" :value="key">{{ key }}</option>
                         </select>
                     </div>
                     <div class="col-6">
-                        <label for="weightCapacity" class="form-label">Weight Capacity</label>
+                        <label for="weightCapacity" class="form-label">Gewichtskapazität</label>
                         <select id="weightCapacity" class="form-select" v-model="selectedWeightCapacity"
                             :disabled="!Object.keys(availableWeightCapacities).length" @change="handleChange">
-                            <option value="">Select Weight Capacity</option>
-                            <option v-for="(capacity, key) in availableWeightCapacities" :key="key" :value="key">{{ key
-                                }}</option>
+                            <option value="">Wählen Sie eine Gewichtskapazität</option>
+                            <option v-for="(capacity, key) in availableWeightCapacities" :key="key" :value="key">{{ key }}</option>
                         </select>
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <label for="weightCapacity" class="form-label">Options</label>
-                    <div class="col-12" v-for="(optionData, key) in optionsData" :key="key">
+                    <label for="weightCapacity" class="form-label">Optionen</label>
+                    <div class="col-12" v-for="(optionData, key) in availableOptions" :key="key">
                         <input type="checkbox" :id="`option-${key}`" :value="key" v-model="selectedOptions"
-                            :checked="slug.includes(key)" @change="handleChange">
-                            <img class="dummy-picture" src="" />
+                            :checked="selectedOptions.includes(key)"
+                            @change="handleOptionChange(key)">
                         <label :for="`option-${key}`">{{ optionData.label }} ({{ optionData.price }}€)</label>
                     </div>
                 </div>
@@ -186,7 +274,6 @@ const handleChange = () => {
   border: none;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(232, 47, 47, 0.3);
-  border: 2px solid #FF3737;
   min-height: 400px;
 }
 

@@ -70,8 +70,8 @@ const getShortProductName = (name ) => {
                     <!-- BEGIN LEFT SIDBAR -->
                     <div class="row categories-list">
                         <div class="service-details">
-                            <CategorySidebar />
                             <HelpSidebar :page_or_slug="page_or_slug"/>
+                            <CategorySidebar />
                         </div>
                     </div>
                 </div> <!-- END LEFT SIDBAR -->
