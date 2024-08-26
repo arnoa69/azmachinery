@@ -3,7 +3,6 @@ import { ref } from "vue";
 import { usePage } from "@inertiajs/vue3";
 import Layout from "../../Layouts/ProductLayout.vue";
 import HelpSidebar from "../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
-import ProductList from "../../Shared/Frontend/Products/ProductList.vue";
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
@@ -74,7 +73,7 @@ const showPolicyBanner = ref(false)
                 <div class="col-lg-8 d-flex flex-column align-items-stretch">
                     <div v-for="(type, key) in base_names" :key="key" :class="`postcard dark ${['green', 'red', 'blue'][key % 3]}`" >
                         <a class="postcard__img_link" href="#">
-                            <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />
+                            <img class="postcard__img" :src="`/img/products/${type}/${type}.jpg`" alt="Image Title" />
                         </a>
                         <div class="postcard__text">
                             <h1 class="postcard__title"><a href="#">{{ type }}</a></h1>
@@ -97,7 +96,16 @@ const showPolicyBanner = ref(false)
                 </div>
             </div>
         </div>
+    <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
+        @showPolicyBanner="showPolicyBanner = true" />
+
+    <ManageCookieBanner v-if="showConfigBanner" @hideConfigBanner="showConfigBanner = false"
+        @hideBothBanner="showBanner = false, showConfigBanner = false" />
+
+    <PolicyBanner v-if="showPolicyBanner" @hide-policy-banner="showPolicyBanner = false" />
     </Layout>
+
+
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 </template>

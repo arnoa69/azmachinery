@@ -6,21 +6,21 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Console\Command;
 use Carbon\Carbon;
 
-class GenerateFileCommand extends Command
+class GenerateSitemapCommand extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'generate:file';
+    protected $signature = 'generate:sitemap';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Generates a file with product data';
+    protected $description = 'Generates a file with product data as a sitemap.';
 
     /**
      * Execute the console command.
@@ -86,48 +86,6 @@ class GenerateFileCommand extends Command
                 $content .= "</url>\n";
 
                 $productCategoryUrlsAdded = true;
-            }
-        }
-        foreach ($locales as $locale) {
-            $productCategoryMobileUrlsAdded = false;
-            if (!$productCategoryMobileUrlsAdded) {
-                $content .= "<url>\n";
-                $loc = $domain . '/' . $locale . '/category/mobile';
-                $content .= "  <loc>$loc</loc>\n";
-                $lastModified = Carbon::now()->toIso8601String();
-                $content .= "  <lastmod>$lastModified</lastmod>\n";
-                $content .= "  <priority>$priority_08</priority>\n";
-                $content .= "</url>\n";
-
-                $productCategoryMobileUrlsAdded = true;
-            }
-        }
-        foreach ($locales as $locale) {
-            $productCategoryStaticUrlsAdded = false;
-            if (!$productCategoryStaticUrlsAdded) {
-                $content .= "<url>\n";
-                $loc = $domain . '/' . $locale . '/category/static';
-                $content .= "  <loc>$loc</loc>\n";
-                $lastModified = Carbon::now()->toIso8601String();
-                $content .= "  <lastmod>$lastModified</lastmod>\n";
-                $content .= "  <priority>$priority_08</priority>\n";
-                $content .= "</url>\n";
-
-                $productCategoryStaticUrlsAdded = true;
-            }
-        }
-        foreach ($locales as $locale) {
-            $productCategoryStationUrlsAdded = false;
-            if (!$productCategoryStationUrlsAdded) {
-                $content .= "<url>\n";
-                $loc = $domain . '/' . $locale . '/category/station';
-                $content .= "  <loc>$loc</loc>\n";
-                $lastModified = Carbon::now()->toIso8601String();
-                $content .= "  <lastmod>$lastModified</lastmod>\n";
-                $content .= "  <priority>$priority_08</priority>\n";
-                $content .= "</url>\n";
-
-                $productCategoryStationUrlsAdded = true;
             }
         }
 
