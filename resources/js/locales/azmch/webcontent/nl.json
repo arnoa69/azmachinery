@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Franse kwaliteit",
+        "title": "Mobiele laadplatforms: Grote voorraad, snelle levering - AZ Machinery",
         "home": "Thuis",
         "about": "Over ons",
-        "contact": "Contacteer ons",
-        "features": "Kenmerken",
-        "gallery": "Galerij",
-        "counts": "Kenmerken",
+        "contact": "Contact",
         "products": "Producten",
-        "testimonials": "Tevreden klanten",
         "menu": {
             "productList": "Producten",
-            "types": "Types"
-        }
+            "types": "Typen"
+        },
+        "getQuote": "Offerte aanvragen"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Sluiten"
     },
     "about": {
-        "title": "AZ Machinery, uw betrouwbare partner voor laadtechnologie",
-        "description": "AZ Machinery is de toonaangevende fabrikant van laadapparatuur in Europa. We bieden een breed scala aan laadbruggen, platforms, opslag en accessoires om aan alle behoeften te voldoen.",
-        "box1Title": "Uw specialist in op maat gemaakte laadoplossingen",
-        "box1Description": "We bieden een breed scala aan laadoplossingen die we individueel aanpassen aan uw behoeften. Of het nu gaat om laadbruggen, platforms, opslag of accessoires, we zullen de perfecte oplossing voor u vinden.",
-        "box2Title": "Onze producten worden vervaardigd in onze eigen productie in Europa",
-        "box2Description": "We hechten veel belang aan veiligheid en efficiëntie, zodat u uw producten veilig en efficiënt kunt laden en lossen.",
-        "box3Title": "Levering in heel Europa",
-        "box3Description": "We leveren onze producten in heel Europa en bieden een volledige service. Onze experts adviseren u graag en vinden de optimale oplossing voor uw behoeften."
+        "title": "Volledig gegalvaniseerde mobiele hellingen",
+        "point-1-title": "Zekeer uw lading met vertrouwen",
+        "point-1-description": "Deze robuuste kettingen zijn ontworpen om uw lading veilig vast te zetten, waardoor verschuiving en mogelijke schade worden voorkomen",
+        "point-2-title": "Verwijderbare zijleuningen",
+        "point-2-description": "Stel het welzijn van uw operators voorop met onze verwijderbare zijbeveiligingen, die 35 cm hoog zijn.",
+        "point-3-title": "Hydraulisch inklapbare lippen",
+        "point-3-description": "Optimaliseer uw workflow met onze hydraulische in- en uitlaatlippen, bediend door een handpomp.",
+        "point-4-title": "Antislip looppervlak",
+        "point-4-description": "Stel veiligheid voorop met onze premium antislip looppervlak, gemaakt van heetgedipte gegalvaniseerde roosters.",
+        "point-5-title": "Robuuste 500 mm veiligheidszone",
+        "point-5-description": "Zorg voor de veiligheid van uw werknemers met onze dockbumpers met een ruime 500 mm veiligheidszone.",
+        "point-6-title": "Massieve wielen voor transport",
+        "point-6-description": "Deze robuuste wielen zijn gebouwd om bestand te zijn tegen zware omstandigheden en bieden een veilige oplossing voor het transport van goederen."
     },
     "features": {
         "title": "Onze laadrampen - de onbetwiste nummer 1 in Europa.",

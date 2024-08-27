@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Fransk kvalitet",
+        "title": "Mobila lastbryggor: Stort lager, snabb leverans - AZ Machinery",
         "home": "Hem",
         "about": "Om oss",
-        "contact": "Kontakta oss",
-        "features": "Egenskaper",
-        "gallery": "Galleri",
-        "counts": "Egenskaper",
+        "contact": "Kontakt",
         "products": "Produkter",
-        "testimonials": "Nöjda kunder",
         "menu": {
             "productList": "Produkter",
             "types": "Typer"
-        }
+        },
+        "getQuote": "Få en offert"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Lämna"
     },
     "about": {
-        "title": "AZ Machinery din pålitliga partner för lastningsteknik",
-        "description": "AZ Machinery är den ledande tillverkaren av lastutrustning i Europa. Vi erbjuder ett omfattande utbud av lastrampar, plattformar, förvaring och tillbehör för att passa alla krav.",
-        "box1Title": "Din specialist för individuella laddningslösningar",
-        "box1Description": "Vi erbjuder dig ett omfattande urval av lastlösningar som vi individuellt anpassar till dina behov. Oavsett om det är lastramper, plattformar, förvaring eller tillbehör - vi hittar den perfekta lösningen för dig.",
-        "box2Title": "Våra produkter tillverkas i vår egen produktion i Europa",
-        "box2Description": "Vi lägger stor vikt vid säkerhet och effektivitet så att du säkert och effektivt kan lasta och lossa dina varor.",
-        "box3Title": "Leverans i hela Europa",
-        "box3Description": "Vi levererar våra produkter i hela Europa och erbjuder en omfattande service. Våra experter kommer att vara glada att rådgöra med dig och hitta den optimala lösningen för dina behov."
+        "title": "Helt galvaniserade mobila ramper",
+        "point-1-title": "Säkra din last med förtroende",
+        "point-1-description": "Dessa robusta kedjor är utformade för att säkra din last på ett säkert sätt och förhindra förskjutning och potentiella skador",
+        "point-2-title": "Avtagbara sidräcken",
+        "point-2-description": "Prioritera dina operatörers välbefinnande med våra avtagbara säkerhetssidoräcken som är 35 cm höga.",
+        "point-3-title": "Hydrauliskt fällbara läppar",
+        "point-3-description": "Optimera ditt arbetsflöde med våra hydrauliska in- och utloppsläppar, styrda av en manuell pump.",
+        "point-4-title": "Halksäker yta",
+        "point-4-description": "Prioritera säkerheten med vår premium halksäkra yta, tillverkad av varmgalvaniserat galler.",
+        "point-5-title": "Robust 500 mm säkerhetszon",
+        "point-5-description": "Säkra dina medarbetares säkerhet med våra dockbumpers med en rymlig 500 mm säkerhetszon.",
+        "point-6-title": "Solida hjul för transport",
+        "point-6-description": "Dessa robusta hjul är byggda för att tåla tuffa förhållanden och erbjuder en säker lösning för transport av varor."
     },
     "features": {
         "title": "Våra lastramper - den obestridda nummer 1 i Europa.",

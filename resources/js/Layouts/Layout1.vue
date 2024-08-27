@@ -4,7 +4,7 @@ import HeroSection from '@/Components/Layouts/Layout1/HeroSection.vue';
 import AboutSection from '@/Components/Layouts/Layout1/AboutSection.vue';
 import ClientSection from '@/Components/Layouts/Layout1/ClientSection.vue';
 import TabSection from '@/Components/Layouts/Layout1/TabSection.vue';
-import GallerySection from '@/Components/Layouts/Layout1/GallerySection.vue';
+import FaqSection from '@/Components/Layouts/Layout1/FaqSection.vue';
 import FooterSection from '@/Components/Layouts/Layout1/FooterSection.vue';
 import TestimonialsSection from '@/Components/Layouts/Layout1/TestimonialsSection.vue';
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
@@ -47,8 +47,8 @@ const showPolicyBanner = ref(false)
     <main id="main">
         <ClientSection />
         <AboutSection />
-        <TabSection />
-        <GallerySection />
+        <!-- <TabSection /> -->
+        <FaqSection />
         <TestimonialsSection />
     </main>
     <FooterSection />

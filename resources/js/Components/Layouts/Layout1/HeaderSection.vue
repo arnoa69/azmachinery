@@ -32,7 +32,7 @@ const { locale } = useI18n();
           <li>
             <LanguageSwitcher />
           </li>
-          <li> <a class="btn-getstarted" :href="`/${locale}/get-a-quote`">Get a Quote</a></li>
+          <li> <a class="btn-getstarted" :href="`/${locale}/get-a-quote`">{{ $t('header.getQuote') }}</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav><!-- .navbar -->

@@ -60,19 +60,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Calidad francesa",
+        "title": "Rampas de carga móviles: Gran stock, entrega rápida - AZ Machinery",
         "home": "Inicio",
         "about": "Sobre nosotros",
         "contact": "Contacto",
-        "features": "Datos",
-        "gallery": "Galería",
-        "counts": "Datos",
-        "products": "Rango",
-        "testimonials": "Clientes felices",
+        "products": "Productos",
         "menu": {
-            "productList": "Todas rampas",
+            "productList": "Productos",
             "types": "Tipos"
-        }
+        },
+        "getQuote": "Obtener una cotización"
     },
     "hero": {
         "title": {
@@ -107,14 +104,19 @@
         "close-button": "Salir"
     },
     "about": {
-        "title": "AZ Machinery su socio confiable para tecnología de carga",
-        "description": "AZ Machinery es el principal fabricante de equipos de carga en Europa. Ofrecemos una amplia gama de rampas de carga, plataformas, almacenamiento y equipos accesorios para satisfacer todos los requisitos.",
-        "box1Title": "Su especialista en soluciones de carga individuales",
-        "box1Description": "Le ofrecemos una amplia selección de soluciones de carga que adaptamos individualmente a sus necesidades. Ya sea rampas de carga, plataformas, almacenamiento o equipos accesorios, encontraremos la solución perfecta para usted.",
-        "box2Title": "Nuestros productos se fabrican en nuestra propia producción en Europa",
-        "box2Description": "Damos gran importancia a la seguridad y eficiencia para que pueda cargar y descargar sus productos de manera segura y eficiente.",
-        "box3Title": "Entrega en toda Europa",
-        "box3Description": "Entregamos nuestros productos en toda Europa y ofrecemos un servicio integral. Nuestros expertos estarán encantados de asesorarle y encontrar la solución óptima para sus necesidades."
+        "title": "Rampas móviles totalmente galvanizadas",
+        "point-1-title": "Asegura tu carga con confianza",
+        "point-1-description": "Estas robustas cadenas están diseñadas para asegurar tu carga de forma segura, evitando desplazamientos y posibles daños",
+        "point-2-title": "Barandillas laterales extraíbles",
+        "point-2-description": "Prioriza el bienestar de tus operarios con nuestras barandillas laterales de seguridad extraíbles, con una altura de 35 cm.",
+        "point-3-title": "Labios hidráulicos plegables",
+        "point-3-description": "Optimiza tu flujo de trabajo con nuestros labios de entrada y salida hidráulicos, controlados por una bomba manual.",
+        "point-4-title": "Superficie antideslizante",
+        "point-4-description": "Prioriza la seguridad con nuestra superficie antideslizante premium, fabricada con rejilla galvanizada en caliente.",
+        "point-5-title": "Área de refugio duradera de 500 mm",
+        "point-5-description": "Asegura la seguridad de tus trabajadores con nuestros parachoques de muelle con un espacioso área de refugio de 500 mm.",
+        "point-6-title": "Ruedas sólidas para el transporte",
+        "point-6-description": "Estas ruedas duraderas están construidas para soportar condiciones difíciles, proporcionando una solución segura para el transporte de mercancías."
     },
     "features": {
         "title": "Revise todos los beneficios",

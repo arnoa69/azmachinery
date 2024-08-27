@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - French quality",
+        "title": "Mobile Loading Ramps: Huge Stock, Fast Delivery - AZ Machinery",
         "home": "Home",
         "about": "About us",
         "contact": "Contact",
-        "features": "Facts",
-        "gallery": "Gallery",
-        "counts": "Facts",
         "products": "Products",
-        "testimonials": "Happy Customers",
         "menu": {
             "productList": "Products",
             "types": "Types"
-        }
+        },
+        "getQuote": "Get a quote"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Leave"
     },
     "about": {
-        "title": "AZ Machinery your reliable partner for loading technology",
-        "description": "AZ Machinery is the leading manufacturer of loading equipment in Europe. We offer a comprehensive range of loading ramps, platforms, storage and attachment equipment to suit all requirements.",
-        "box1Title": "Your specialist for individual charging solutions",
-        "box1Description": "We offer you a comprehensive selection of loading solutions that we individually adapt to your needs. Whether loading ramps, platforms, storage or attachment equipment - we will find the perfect solution for you.",
-        "box2Title": "Our products are manufactured in our own production in Europe",
-        "box2Description": "We attach great importance to safety and efficiency so that you can load and unload your goods safely and efficiently.",
-        "box3Title": "Delivery throughout Europe",
-        "box3Description": "We deliver our products throughout Europe and offer a comprehensive service. Our experts will be happy to advise you and find the optimal solution for your needs."
+        "title": "Fully galvanized mobile ramps",
+        "point-1-title": "Secure Your Load with Confidence",
+        "point-1-description": "These robust chains are designed to securely fasten your load, preventing shifting and potential damage",
+        "point-2-title": "Removable Side Rails",
+        "point-2-description": "Prioritize the well-being of your operators with our removable side safety rails, standing tall at 35 cm.",
+        "point-3-title": "Hydraulic Folding Lips",
+        "point-3-description": "Streamline your workflow with our hydraulically inlet and outlet lips,  controlled by a manual pump.",
+        "point-4-title": "Anti-Slip Running Surface",
+        "point-4-description": "Prioritize safety with our premium anti-slip running surface, crafted from hot-dip galvanized grating.",
+        "point-5-title": "Durable 500mm Refuge Area",
+        "point-5-description": "Ensure the safety of your workers with our dock bumpers featuring a spacious 500mm refuge area.",
+        "point-6-title": "Solid Wheels for Transportation",
+        "point-6-description": "These durable wheels are built to withstand tough conditions, providing a safe solution for goods."
     },
     "features": {
         "title": "Check all the benefits",

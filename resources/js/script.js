@@ -43,8 +43,8 @@
         mobileNavToogle();
       }
     });
-
   });
+
 
   /**
    * Toggle mobile nav dropdowns

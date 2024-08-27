@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Qualità francese",
-        "home": "Casa",
-        "about": "Chi siamo",
-        "contact": "Contattaci",
-        "features": "Caratteristiche",
-        "gallery": "Galleria",
-        "counts": "Caratteristiche",
+        "title": "Rampe di carico mobili: Grande stock, consegna veloce - AZ Machinery",
+        "home": "Home",
+        "about": "Informazioni su di noi",
+        "contact": "Contatti",
         "products": "Prodotti",
-        "testimonials": "Clienti soddisfatti",
         "menu": {
             "productList": "Prodotti",
             "types": "Tipi"
-        }
+        },
+        "getQuote": "Ottieni un preventivo"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Esci"
     },
     "about": {
-        "title": "AZ Machinery, il tuo affidabile partner per la tecnologia di carico",
-        "description": "AZ Machinery è il principale produttore di attrezzature di carico in Europa. Offriamo un'ampia gamma di ponti di carico, piattaforme, stoccaggio ed accessori per soddisfare tutte le esigenze.",
-        "box1Title": "Il tuo specialista nelle soluzioni di carico personalizzate",
-        "box1Description": "Ti offriamo una vasta selezione di soluzioni di carico che personalizziamo in base alle tue esigenze. Che si tratti di ponti di carico, piattaforme, stoccaggio o accessori, troveremo la soluzione perfetta per te.",
-        "box2Title": "I nostri prodotti sono realizzati nella nostra produzione in Europa",
-        "box2Description": "Diamo grande importanza alla sicurezza e all'efficienza in modo che tu possa caricare e scaricare i tuoi prodotti in modo sicuro ed efficiente.",
-        "box3Title": "Consegna in tutta Europa",
-        "box3Description": "Consegniamo i nostri prodotti in tutta Europa e offriamo un servizio completo. I nostri esperti saranno lieti di consigliarti e trovare la soluzione ottimale per le tue esigenze."
+        "title": "Rampe mobili completamente zincate",
+        "point-1-title": "Assicura il tuo carico in tutta sicurezza",
+        "point-1-description": "Queste robuste catene sono progettate per fissare in modo sicuro il tuo carico, prevenendo lo spostamento e possibili danni",
+        "point-2-title": "Spondine laterali rimovibili",
+        "point-2-description": "Dai priorità al benessere dei tuoi operatori con le nostre spondine laterali di sicurezza rimovibili, alte 35 cm.",
+        "point-3-title": "Labbra pieghevoli idrauliche",
+        "point-3-description": "Ottimizza il tuo flusso di lavoro con le nostre labbra di ingresso e uscita idrauliche, controllate da una pompa manuale.",
+        "point-4-title": "Superficie antiscivolo",
+        "point-4-description": "Dai priorità alla sicurezza con la nostra superficie antiscivolo premium, realizzata in grigliato zincato a caldo.",
+        "point-5-title": "Area di rifugio resistente da 500 mm",
+        "point-5-description": "Assicura la sicurezza dei tuoi lavoratori con i nostri paraurti per banchine con un'ampia area di rifugio da 500 mm.",
+        "point-6-title": "Ruote solide per il trasporto",
+        "point-6-description": "Queste ruote durevoli sono costruite per resistere a condizioni difficili, offrendo una soluzione sicura per il trasporto di merci."
     },
     "features": {
         "title": "Le nostre rampe di carico - il numero 1 indiscusso in Europa.",

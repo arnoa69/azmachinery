@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Fransk kvalitet",
+        "title": "Mobile lastekaier: Stor lager, rask levering - AZ Machinery",
         "home": "Hjem",
         "about": "Om oss",
-        "contact": "Kontakt oss",
-        "features": "Egenskaper",
-        "gallery": "Galleri",
-        "counts": "Egenskaper",
+        "contact": "Kontakt",
         "products": "Produkter",
-        "testimonials": "Fornøyde kunder",
         "menu": {
             "productList": "Produkter",
             "types": "Typer"
-        }
+        },
+        "getQuote": "Få et tilbud"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Lukk"
     },
     "about": {
-        "title": "AZ Machinery, din pålitelige partner for lasteteknologi",
-        "description": "AZ Machinery er den ledende produsenten av lasteutstyr i Europa. Vi tilbyr et bredt utvalg av lasteramper, plattformer, lagring og tilbehør for å imøtekomme alle behov.",
-        "box1Title": "Din spesialist på skreddersydde lasteløsninger",
-        "box1Description": "Vi tilbyr et bredt utvalg av lasteløsninger som vi tilpasser individuelt til dine behov. Enten det er lasteramper, plattformer, lagring eller tilbehør, vil vi finne den perfekte løsningen for deg.",
-        "box2Title": "Våre produkter produseres i vår egen produksjon i Europa",
-        "box2Description": "Vi legger stor vekt på sikkerhet og effektivitet, slik at du trygt og effektivt kan laste og losse produktene dine.",
-        "box3Title": "Levering over hele Europa",
-        "box3Description": "Vi leverer produktene våre over hele Europa og tilbyr en komplett service. Våre eksperter vil gjerne gi deg råd og finne den optimale løsningen for dine behov."
+        "title": "Fullstendig galvaniserte mobile ramper",
+        "point-1-title": "Sikre lasten dine med trygghet",
+        "point-1-description": "Disse robuste kjedene er designet for å sikre lasten din trygt og forhindre skift og potensiell skade",
+        "point-2-title": "Avtakbare sidegjerder",
+        "point-2-description": "Prioriter velferden til operatørene dine med våre avtakbare sidevern som er 35 cm høye.",
+        "point-3-title": "Hydrauliske foldelipp",
+        "point-3-description": "Strømlinje arbeidsflyten din med våre hydrauliske innløps- og utløpslepper, styrt av en manuell pumpe.",
+        "point-4-title": "Antislip overflate",
+        "point-4-description": "Prioriter sikkerhet med vår premium antislip overflate, laget av varmgalvanisert rist.",
+        "point-5-title": "Robust 500 mm tilfluktsrom",
+        "point-5-description": "Sikre sikkerheten til dine ansatte med våre dockbumpers med et romslig 500 mm tilfluktsrom.",
+        "point-6-title": "Solide hjul for transport",
+        "point-6-description": "Disse robuste hjulene er bygget for å tåle tøffe forhold og tilbyr en sikker løsning for transport av varer."
     },
     "features": {
         "title": "Våre lasteramper - den ubestridte nummer 1 i Europa.",

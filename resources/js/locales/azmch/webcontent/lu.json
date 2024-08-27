@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Franséisch Qualitéit",
-        "home": "Heem",
-        "about": "Iwwert eis",
-        "contact": "Kontakt",
-        "features": "Fakten",
-        "gallery": "Galerie",
-        "counts": "Fakten",
-        "products": "Produkter",
-        "testimonials": "Clienten zufrieden",
+        "title": "Mobil Laadrampen: Groot assortiment, snelle levering - AZ Machinery",
+        "home": "Thuis",
+        "about": "Over ons",
+        "contact": "Contact",
+        "products": "Producten",
         "menu": {
-            "productList": "Produkter",
+            "productList": "Producten",
             "types": "Typen"
-        }
+        },
+        "getQuote": "Offerte aanvragen"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Esci"
     },
     "about": {
-        "title": "AZ Maschinnen Ären zouverléissege Partner fir Luede Technologie",
-        "description": "AZ Machinery ass de féierende Hiersteller vu Luedegeräter an Europa. Mir bidden eng ëmfaassend Palette vu Luede Rampen, Plattformen, Lager- an Uschlossausrüstung fir all Ufuerderungen ze passen.",
-        "box1Title": "Äre Spezialist fir individuell Ladeléisungen",
-        "box1Description": "Mir bidden Iech eng ëmfaassend Auswiel u Luedeléisungen, déi mir individuell un Är Bedierfnesser upassen. Ob Luede Rampen, Plattformen, Lagerung oder Befestigungsausrüstung - mir fannen déi perfekt Léisung fir Iech.",
-        "box2Title": "Eis Produkter ginn an eiser eegener Produktioun an Europa hiergestallt",
-        "box2Description": "Mir leeë vill Wäert op Sécherheet an Effizienz, fir datt Dir Är Wueren sécher an effizient lueden an ausluede kënnt.",
-        "box3Title": "Liwwerung duerch ganz Europa",
-        "box3Description": "Mir liwweren eis Produkter a ganz Europa a bidden en ëmfaassenden Service un. Eis Experten beroden Iech gären an fannen déi optimal Léisung fir Är Besoinen."
+        "title": "Voll galvaniséiert mobil Rampen",
+        "point-1-title": "Séchert Är Lëscht mat Vertrauen",
+        "point-1-description": "Dës robust Ketten sinn esou gebaut, dass se Är Lëscht sécher befestegen, fir ze verhënneren datt se sech beweegt an eventuell Schued entstinn",
+        "point-2-title": "Ofneembar Säitebarrièren",
+        "point-2-description": "Prioritéiert d'Wohlbefannen vun Äre Mataarbechter mat eisen ofneembare Säitesécherheetsbarrièren, déi 35 cm héich sinn.",
+        "point-3-title": "Hydraulesch klappbar Lippen",
+        "point-3-description": "Optimiséiert Äre Workflow mat eisen hydraulesche Entrée- an Ausgangslippen, déi manuell gesteiert ginn.",
+        "point-4-title": "Rutschfest Leeﬂäche",
+        "point-4-description": "Prioritéiert d'Sécherheet mat eiser héichwäerteger rutschfester Leeﬂäche, déi aus waarmtgetaucht galvaniséiertem Gitter gemaach ass.",
+        "point-5-title": "Robust 500 mm Fluchtberäich",
+        "point-5-description": "Séchert d'Sécherheet vun Äre Mataarbechter mat eisen Dockbumper mat engem geräumlechen 500 mm Fluchtberäich.",
+        "point-6-title": "Solid Radder fir de Transport",
+        "point-6-description": "Dës robust Radder sinn esou gebaut, dass se schwéiere Bedéngungen standhale kënnen an eng sécher Léisung fir de Transport vu Wueren ubidden."
     },
     "features": {
         "title": "Eis Luede Rampen - déi onbestridden Nummer 1 an Europa.",

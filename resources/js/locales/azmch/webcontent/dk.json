@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Fransk kvalitet",
+        "title": "Mobile lastramper: Stort lager, hurtig levering - AZ Machinery",
         "home": "Hjem",
         "about": "Om os",
         "contact": "Kontakt",
-        "features": "Egenskaber",
-        "gallery": "Galleri",
-        "counts": "Egenskaber",
         "products": "Produkter",
-        "testimonials": "Glade kunder",
         "menu": {
             "productList": "Produkter",
             "types": "Typer"
-        }
+        },
+        "getQuote": "Få et tilbud"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Forlad"
     },
     "about": {
-        "title": "AZ Machinery din pålidelige partner for indlæsningsteknologi",
-        "description": "AZ Machinery er den førende producent af læsseudstyr i Europa. Vi tilbyder et omfattende udvalg af læsseramper, platforme, opbevaring og tilbehør til at imødekomme alle krav.",
-        "box1Title": "Din specialist i individuelle opladningsløsninger",
-        "box1Description": "Vi tilbyder dig et omfattende udvalg af læsninger, som vi individuelt tilpasser til dine behov. Uanset om det er læsseramper, platforme, opbevaring eller tilbehør - vi finder den perfekte løsning for dig.",
-        "box2Title": "Vores produkter produceres i vores eget produktion i Europa",
-        "box2Description": "Vi lægger stor vægt på sikkerhed og effektivitet, så du sikkert og effektivt kan læsse og losse dine varer.",
-        "box3Title": "Levering i hele Europa",
-        "box3Description": "Vi leverer vores produkter i hele Europa og tilbyder en omfattende service. Vores eksperter vil være glade for at rådgive dig og finde den optimale løsning for dine behov."
+        "title": "Fuldt galvaniserede mobile ramper",
+        "point-1-title": "Sikre din last med tillid",
+        "point-1-description": "Disse robuste kæder er designet til at sikre din last sikkert og forhindre skift og potentiel skade",
+        "point-2-title": "Aftagelige siderælinger",
+        "point-2-description": "Prioriter operatørernes velbefindende med vores aftagelige sideværn, der står højt til 35 cm.",
+        "point-3-title": "Hydrauliske foldelip",
+        "point-3-description": "Streamline din arbejdsgang med vores hydrauliske indløbs- og udløbslæber, styret af en manuel pumpe.",
+        "point-4-title": "Skridsikker løbeflade",
+        "point-4-description": "Prioriter sikkerhed med vores premium skridsikre løbeflade, lavet af varmgalvaniseret rist.",
+        "point-5-title": "Robust 500 mm tilflugtssted",
+        "point-5-description": "Sikre dine medarbejderes sikkerhed med vores dokbumper med et rummeligt 500 mm tilflugtssted.",
+        "point-6-title": "Solide hjul til transport",
+        "point-6-description": "Disse robuste hjul er bygget til at modstå hårde forhold og tilbyde en sikker løsning til transport af varer."
     },
     "features": {
         "title": "Tjek alle fordelene",

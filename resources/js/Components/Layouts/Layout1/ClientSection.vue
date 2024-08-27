@@ -42,14 +42,15 @@ const swiperOptions = ref({
                     {{ JSON.stringify(swiperOptions) }}
                 </div>
                 <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="img/clients/client-1.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="img/clients/client-2.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="img/clients/client-3.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="img/clients/client-4.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="img/clients/client-5.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="img/clients/client-6.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="img/clients/client-7.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="img/clients/client-8.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/renault.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/hermes.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/lidle.jpg" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/amazon.jpg" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/hello-fresh.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/aldi.jpg" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/disneyland-paris.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/viessmann.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="img/clients/danone.jpg" class="img-fluid" alt=""></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>

@@ -62,19 +62,15 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Made in France",
-        "home": "Home",
+        "title": "Mobile Ladebrücken, Verladerampen: Riesiger Bestand, schnelle Lieferung - AZ Machinery",
         "about": "Über uns",
         "contact": "Kontakt",
-        "features": "Produktinfo",
-        "gallery": "Bilder",
-        "counts": "Fakten",
         "products": "Produkte",
-        "testimonials": "Zufriedene Kunden",
         "menu": {
-            "productList": "Sortiment",
+            "productList": "Produkte",
             "types": "Typen"
-        }
+        },
+        "getQuote": "Angebot einholen"
     },
     "hero": {
         "title": {
@@ -109,14 +105,19 @@
         "close-button": "Verlassen"
     },
     "about": {
-        "title": "AZ Machinery Ihr zuverlässiger Partner für Verladetechnik",
-        "description": "AZ Machinery ist der führende Hersteller von Verladetechnik in Europa. Wir bieten ein umfassendes Sortiment an Laderampen, Plattformen, Lager- und Anbauausrüstung für alle Anforderungen.",
-        "box1Title": "Ihr Spezialist für individuelle Ladelösungen",
-        "box1Description": "Wir bieten Ihnen eine umfassende Auswahl an Ladelösungen, die wir individuell an Ihre Bedürfnisse anpassen. Ob Laderampen, Plattformen, Lager- oder Anbauausrüstung - wir finden die perfekte Lösung für Sie.",
-        "box2Title": "Unsere Produkte werden in unserer eigenen Produktion in Europa hergestellt",
-        "box2Description": "Wir legen großen Wert auf Sicherheit und Effizienz, damit Sie Ihre Waren sicher und effizient be- und entladen können.",
-        "box3Title": "Lieferung in ganz Europa",
-        "box3Description": "Wir liefern unsere Produkte in ganz Europa und bieten einen umfassenden Service. Unsere Experten beraten Sie gerne und finden die optimale Lösung für Ihre Bedürfnisse."
+        "title": "Vollverzinkte mobile Rampen",
+        "point-1-title": "Sichern Sie Ihre Ladung mit Zuversicht",
+        "point-1-description": "Diese robusten Ketten sind so konzipiert, dass sie Ihre Ladung sicher befestigen und so ein Verrutschen und mögliche Schäden verhindern",
+        "point-2-title": "Abnehmbare Seitenbügel",
+        "point-2-description": "Prioritär behandeln Sie das Wohlergehen Ihrer Bediener mit unseren abnehmbaren seitlichen Sicherheitsbügeln, die 35 cm hoch sind.",
+        "point-3-title": "Hydraulisch klappbare Lippen",
+        "point-3-description": "Optimieren Sie Ihren Arbeitsablauf mit unseren hydraulisch klappbaren Ein- und Auslasslippen, die manuell gesteuert werden.",
+        "point-4-title": "Rutschfeste Lauffläche",
+        "point-4-description": "Prioritär behandeln Sie die Sicherheit mit unserer hochwertigen rutschfesten Lauffläche aus feuerverzinktem Gitterrost.",
+        "point-5-title": "Robuste 500 mm Rückzugsfläche",
+        "point-5-description": "Sichern Sie die Sicherheit Ihrer Mitarbeiter mit unseren Andockpuffer mit einer großzügigen 500 mm Rückzugsfläche.",
+        "point-6-title": "Solide Räder für den Transport",
+        "point-6-description": "Diese robusten Räder sind so gebaut, dass sie harten Bedingungen standhalten und eine sichere Lösung für den Transport von Gütern bieten."
     },
     "features": {
         "title": "Kompetitiv",

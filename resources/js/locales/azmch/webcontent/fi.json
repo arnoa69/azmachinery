@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Ranskan luokka",
+        "title": "Mobiilit lastatrampit: Suuri varasto, nopea toimitus - AZ Machinery",
         "home": "Koti",
-        "about": "Meistä",
-        "contact": "Ota yhteyttä",
-        "features": "Tiedot",
-        "gallery": "Galeria",
-        "counts": "Tiedot",
+        "about": "Tietoja meistä",
+        "contact": "Yhteystiedot",
         "products": "Tuotteet",
-        "testimonials": "Tyytyväisiä asiakkaita",
         "menu": {
             "productList": "Tuotteet",
-            "types": "Tyyppien"
-        }
+            "types": "Tyypit"
+        },
+        "getQuote": "Hae tarjous"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Poistu"
     },
     "about": {
-        "title": "AZ Machinery - Luotettava kumppanisi lastausteknologiassa",
-        "description": "AZ Machinery on johtava lastaustekniikan valmistaja Euroopassa. Tarjoamme laajan valikoiman lastaussiltoja, tasoja, varastointia ja tarvikkeita, jotka vastaavat kaikkiin tarpeisiin.",
-        "box1Title": "Asiantuntijasi yksilöllisissä lastausratkaisuissa",
-        "box1Description": "Tarjoamme laajan valikoiman lastausratkaisuja, joita räätälöimme yksilöllisesti asiakkaan tarpeisiin. Olipa kyseessä lastaussillat, tasot, varastointi tai tarvikkeet, löydämme sinulle täydellisen ratkaisun.",
-        "box2Title": "Tuotteemme valmistetaan omassa tuotannossamme Euroopassa",
-        "box2Description": "Panostamme suuresti turvallisuuteen ja tehokkuuteen, jotta voit lastata ja purkaa tuotteesi turvallisesti ja tehokkaasti.",
-        "box3Title": "Toimitus koko Eurooppaan",
-        "box3Description": "Toimitamme tuotteitamme koko Eurooppaan ja tarjoamme kattavan palvelun. Asiantuntijamme ovat ilolla neuvomassa ja löytämässä optimaalisen ratkaisun tarpeisiisi."
+        "title": "Täysin galvanoidut liikkuvat rampit",
+        "point-1-title": "Varmista lastisi turvallisesti",
+        "point-1-description": "Nämä kestävät ketjut on suunniteltu kiinnittämään lastisi turvallisesti, estäen liukuminen ja mahdolliset vauriot",
+        "point-2-title": "Irrotettavat sivukaiteet",
+        "point-2-description": "Priorisoi työntekijöidesi hyvinvointi irrotettavilla 35 cm korkeilla sivukaiteilla.",
+        "point-3-title": "Hydraulisesti taitettavat huulet",
+        "point-3-description": "Optimoi työvirtasi hydraulisella sisääntulo- ja ulostulohuulilla, joita ohjataan manuaalisella pumpulla.",
+        "point-4-title": "Luistamaton kulkutila",
+        "point-4-description": "Priorisoi turvallisuus premium-luokan luistamattomalla kulkutiellä, joka on valmistettu kuumaliimatulla ristikolla.",
+        "point-5-title": "Kestävä 500 mm turva-alue",
+        "point-5-description": "Varmista työntekijöidesi turvallisuus telakointipuskureillamme, joissa on tilava 500 mm turva-alue.",
+        "point-6-title": "Kiinteät pyörät kuljetusta varten",
+        "point-6-description": "Nämä kestävät pyörät on rakennettu kestämään vaikeita olosuhteita, tarjoamalla turvallisen ratkaisun tavaroiden kuljettamiseen."
     },
     "features": {
         "title": "Tutustu kaikkiin etuihin",

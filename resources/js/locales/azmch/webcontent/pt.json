@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Qualidade francesa",
+        "title": "Rampas de carga móveis: Grande estoque, entrega rápida - AZ Machinery",
         "home": "Início",
         "about": "Sobre nós",
-        "contact": "Contate-nos",
-        "features": "Características",
-        "gallery": "Galeria",
-        "counts": "Características",
+        "contact": "Contato",
         "products": "Produtos",
-        "testimonials": "Clientes satisfeitos",
         "menu": {
             "productList": "Produtos",
             "types": "Tipos"
-        }
+        },
+        "getQuote": "Obter uma cotação"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Fechar"
     },
     "about": {
-        "title": "AZ Machinery, seu parceiro confiável em tecnologia de carregamento",
-        "description": "AZ Machinery é o principal fabricante de equipamentos de carregamento na Europa. Oferecemos uma ampla gama de rampas de carregamento, plataformas, armazenamento e acessórios para atender a todas as necessidades.",
-        "box1Title": "Seu especialista em soluções de carregamento personalizadas",
-        "box1Description": "Oferecemos uma ampla gama de soluções de carregamento que personalizamos individualmente de acordo com suas necessidades. Seja rampas de carregamento, plataformas, armazenamento ou acessórios, encontraremos a solução perfeita para você.",
-        "box2Title": "Nossos produtos são fabricados em nossa própria produção na Europa",
-        "box2Description": "Damos grande importância à segurança e eficiência, para que você possa carregar e descarregar seus produtos com segurança e eficiência.",
-        "box3Title": "Entrega em toda a Europa",
-        "box3Description": "Entregamos nossos produtos em toda a Europa e oferecemos um serviço completo. Nossos especialistas terão prazer em aconselhá-lo e encontrar a solução ideal para suas necessidades."
+        "title": "Rampas móveis totalmente galvanizadas",
+        "point-1-title": "Segure sua carga com confiança",
+        "point-1-description": "Essas correntes robustas são projetadas para prender sua carga de forma segura, evitando deslocamentos e possíveis danos",
+        "point-2-title": "Corrimãos laterais removíveis",
+        "point-2-description": "Priorize o bem-estar de seus operadores com nossos corrimãos laterais de segurança removíveis, com 35 cm de altura.",
+        "point-3-title": "Lábios dobráveis hidráulicos",
+        "point-3-description": "Otimize seu fluxo de trabalho com nossos lábios de entrada e saída hidráulicos, controlados por uma bomba manual.",
+        "point-4-title": "Superfície antiderrapante",
+        "point-4-description": "Priorize a segurança com nossa superfície antiderrapante premium, feita de grade galvanizada a quente.",
+        "point-5-title": "Área de refúgio durável de 500 mm",
+        "point-5-description": "Garanta a segurança de seus trabalhadores com nossos parachoques de doca com uma espaçosa área de refúgio de 500 mm.",
+        "point-6-title": "Rodas sólidas para transporte",
+        "point-6-description": "Essas rodas duráveis são construídas para suportar condições difíceis, proporcionando uma solução segura para o transporte de mercadorias."
     },
     "features": {
         "title": "Nossas rampas de carregamento - o número 1 incontestável na Europa.",

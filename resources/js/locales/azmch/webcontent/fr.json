@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Qualité française",
+        "title": "Rampes de chargement mobiles: Grand stock, livraison rapide - AZ Machinery",
         "home": "Accueil",
         "about": "À propos",
-        "contact": "Contactez-nous",
-        "features": "Caractéristiques",
-        "gallery": "Galerie",
-        "counts": "Caractéristiques",
+        "contact": "Contact",
         "products": "Produits",
-        "testimonials": "Clients satisfaits",
         "menu": {
             "productList": "Produits",
             "types": "Types"
-        }
+        },
+        "getQuote": "Obtenir un devis"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Quitter"
     },
     "about": {
-        "title": "AZ Machinery, votre partenaire fiable pour la technologie de chargement",
-        "description": "AZ Machinery est le principal fabricant d'équipements de chargement en Europe. Nous proposons une large gamme de quais de chargement, de plates-formes, de stockage et d'équipements accessoires pour répondre à tous les besoins.",
-        "box1Title": "Votre spécialiste des solutions de chargement individuelles",
-        "box1Description": "Nous vous proposons une large sélection de solutions de chargement que nous adaptons individuellement à vos besoins. Qu'il s'agisse de quais de chargement, de plates-formes, de stockage ou d'équipements accessoires, nous trouverons la solution parfaite pour vous.",
-        "box2Title": "Nos produits sont fabriqués dans notre propre production en Europe",
-        "box2Description": "Nous attachons une grande importance à la sécurité et à l'efficacité afin que vous puissiez charger et décharger vos produits en toute sécurité et efficacité.",
-        "box3Title": "Livraison dans toute l'Europe",
-        "box3Description": "Nous livrons nos produits dans toute l'Europe et offrons un service complet. Nos experts se feront un plaisir de vous conseiller et de trouver la solution optimale pour vos besoins."
+        "title": "Rampes mobiles entièrement galvanisées",
+        "point-1-title": "Sécurisez votre chargement",
+        "point-1-description": "Ces chaînes robustes sont conçues pour sécuriser votre chargement de manière sûre, empêchant ainsi tout déplacement et tout dommage potentiel",
+        "point-2-title": "Barrières latérales amovibles",
+        "point-2-description": "Privilégiez le bien-être de vos opérateurs avec nos barrières latérales de sécurité amovibles, d'une hauteur de 35 cm.",
+        "point-3-title": "Lèvres pliantes hydrauliques",
+        "point-3-description": "Optimisez votre flux de travail grâce à nos lèvres d'entrée et de sortie hydrauliques, contrôlées par une pompe manuelle.",
+        "point-4-title": "Surface antidérapante",
+        "point-4-description": "Privilégiez la sécurité avec notre surface antidérapante premium, fabriquée à partir de grillage galvanisé à chaud.",
+        "point-5-title": "Zone de refuge durable de 500 mm",
+        "point-5-description": "Assurez la sécurité de vos travailleurs grâce à nos pare-chocs de quai avec une zone de refuge spacieuse de 500 mm.",
+        "point-6-title": "Roues solides pour le transport",
+        "point-6-description": "Ces roues durables sont conçues pour résister à des conditions difficiles, offrant une solution sûre pour le transport de marchandises."
     },
     "features": {
         "title": "Nos rampes de chargement - numéro 1 incontesté en Europe.",

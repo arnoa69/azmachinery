@@ -62,19 +62,16 @@
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "header": {
-        "title": "AZ Machinery - Prantsuse kvaliteet",
-        "home": "Avaleht",
+        "title": "Mobilised laadimisrampid: Suur ladu, kiire tarne - AZ Machinery",
+        "home": "Kodu",
         "about": "Meist",
-        "contact": "Võtke ühendust",
-        "features": "Faktid",
-        "gallery": "Galerii",
-        "counts": "Faktid",
+        "contact": "Kontakt",
         "products": "Tooted",
-        "testimonials": "Rahuldatud kliendid",
         "menu": {
             "productList": "Tooted",
             "types": "Tüübid"
-        }
+        },
+        "getQuote": "Hankige pakkumine"
     },
     "hero": {
         "title": {
@@ -109,14 +106,19 @@
         "close-button": "Lahkuge"
     },
     "about": {
-        "title": "AZ Machinery teie usaldusväärne partner laadimistehnoloogia valdkonnas",
-        "description": "AZ Machinery on juhtiv laadimisseadmete tootja Euroopas. Pakume laia valikut laadimisrampe, platvorme, ladustamist ja lisaseadmeid, et rahuldada kõiki nõudmisi.",
-        "box1Title": "Teie spetsialist individuaalsete laadimislahenduste jaoks",
-        "box1Description": "Pakume teile laia valikut laadimislahendusi, mida me kohandame individuaalselt teie vajadustele. Kas laadimisrambid, platvormid, ladustamine või lisaseadmed - leiame teile ideaalse lahenduse.",
-        "box2Title": "Meie tooted valmistatakse meie enda tootmises Euroopas",
-        "box2Description": "Me pöörame suurt tähelepanu ohutusele ja tõhususele, et saaksite oma kaupu ohutult ja tõhusalt laadida ja mahalaadida.",
-        "box3Title": "Kohaletoimetamine kogu Euroopas",
-        "box3Description": "Me toimetame oma tooted kogu Euroopas ning pakume ulatuslikku teenust. Meie eksperdid on teiega hea meelega nõu andmas ja leiavad teie vajadustele optimaalse lahenduse."
+        "title": "Täielikult galvaniseeritud mobiilsed rampid",
+        "point-1-title": "Turva oma koormat kindlustundega",
+        "point-1-description": "Need tugevad ahelad on loodud teie koorma turvaliseks kinnitamiseks, vältides nihkumist ja võimalikke kahjustusi",
+        "point-2-title": "Eemaldatavad külgpiirded",
+        "point-2-description": "Prioriseeri oma töötajate heaolu meie eemaldatavate külgpiirdetega, mis seisavad 35 cm kõrgusele.",
+        "point-3-title": "Hüdrauliliselt klappivad huuled",
+        "point-3-description": "Optimeerige oma tööjõud meie hüdrauliliselt klappivate sisse- ja väljalaskeavadega, mida juhitakse käsitsi pumbaga.",
+        "point-4-title": "Libisemisvastane jooksurada",
+        "point-4-description": "Prioriseeri ohutust meie kvaliteetse libisemisvastase jooksurajaga, mis on valmistatud kuumtsingitud restist.",
+        "point-5-title": "Vastupidav 500 mm varjupaik",
+        "point-5-description": "Tagage oma töötajate ohutus meie doki põrgete abil, millel on avar 500 mm varjupaik.",
+        "point-6-title": "Tahked rattad transportimiseks",
+        "point-6-description": "Need vastupidavad rattad on ehitatud vastu pidama karmidele tingimustele, pakkudes turvalist lahendust kaupade transportimiseks."
     },
     "features": {
         "title": "Kontrollige kõiki eeliseid",
