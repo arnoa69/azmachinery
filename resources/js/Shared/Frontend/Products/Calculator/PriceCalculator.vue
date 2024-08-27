@@ -237,7 +237,7 @@ const handleChange = () => {
         <div class="card-body">
             <form @submit.prevent="submitForm">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6" >
                         <label for="version" class="form-label">Version</label>
                         <select id="version" class="form-select" v-model="selectedVersion"
                             :disabled="!Object.keys(availableVersions).length" @change="handleChange">
@@ -278,25 +278,13 @@ const handleChange = () => {
 }
 
 .card-header {
-  background-color: #FF3737;
+  background-color: #424242;
   color: #FFFFFF;
   border-radius: 20px 20px 0 0;
   padding: 20px;
   position: relative;
-}
-
-.card-header::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 20px;
-  background-image: linear-gradient(to right, #FF3737, #FFC080);
-  background-size: 100px 20px;
-  background-position: 0 0;
-  background-repeat: repeat-x;
-  border-radius: 0 0 20px 20px;
+  background-image: linear-gradient(to bottom, #424242, #363636);
+  background-size: 100% 100%;
 }
 
 .card-header .fw-bold {
@@ -346,5 +334,13 @@ const handleChange = () => {
   background-color: #CCCCCC;
   border: none;
   padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .card-header .fw-bold {
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
 }
 </style>

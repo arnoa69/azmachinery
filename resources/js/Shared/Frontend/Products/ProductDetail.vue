@@ -72,17 +72,14 @@ const currentComponent = ref('PriceCalculator');
 
 // Methods to change the displayed component
 const showHelpSidebar = () => {
-    console.log('opens help sidebar');
     currentComponent.value = 'HelpSidebar';
 };
 
 const showHelpChat = () => {
-    console.log('opens HelpChat bot');
     currentComponent.value = 'HelpChat';
 };
 
 const showPriceCalculator = () => {
-    console.log('opens calculator');
     currentComponent.value = 'PriceCalculator';
 };
 
@@ -232,7 +229,7 @@ onMounted(() => {
                                             :page_or_slug="product?.slug" key="help-sidebar" />
                                     </transition>
                                 </div><!-- wrapper -->
-                                <div class="contact-bar mt-4">
+                                <div class="contact-bar">
                                     <span class="open-window" @click="showHelpSidebar"><i
                                             class="bi bi-clipboard-data"></i> Quote</span>
                                     &nbsp;&nbsp;
@@ -288,6 +285,25 @@ onMounted(() => {
     top: 0;
     left: 0;
 }
+
+.contact-bar {
+    background-color: #424242;
+    background-image: linear-gradient(to bottom, #424242, #363636);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contact-bar i {
+    font-size: 18px;
+    color: #dce3ee;
+}
+
 .phantom-div {
     width: 100%;
     height: 100%;
@@ -309,10 +325,6 @@ onMounted(() => {
     opacity: 0;
 }
 
-.contact-bar {
-    margin-top: 20px;
-    width: 100%;
-}
 
 .open-window {
     cursor: pointer;
@@ -322,21 +334,6 @@ onMounted(() => {
 
 .open-window:hover {
     text-decoration: underline;
-}
-
-.contact-bar {
-    background-color: #18201d;
-    color: #141921;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 20px;
-    margin: 0 20px;
-    border-radius: 10px;
-}
-
-.contact-bar i {
-    font-size: 18px;
-    color: #dce3ee;
 }
 
 .product-title {
@@ -1020,5 +1017,33 @@ h1 {
     .service-details.specification {
         margin-top: -15px;
     }
+
+
+
+    .component-wrapper > .card {
+        position: absolute;
+        max-width: 84%;
+        left: 0;
+        margin-top: 21px;
+    }
+
+        .contact-bar {
+        display: flex;
+        max-width: 88%;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+
+    .contact-bar i {
+        font-size: 14px;
+        color: #dce3ee;
+    }
+
+    .calc {
+        width: 99%;
+    }
+
+
+
 }
 </style>

@@ -27,19 +27,19 @@ const validTypes = {
 };
 
 const validVersions = {
-  'en': { 'standard': 'standard-size', 'llo': 'long-leveler-off', 'xl': 'extra-large', 'llo-xl': 'long-leveler-off-extra-large' },
-  'de': { 'standard': 'standard-groesse', 'llo': 'ausfahrende-verlaengerung', 'xl': 'extra-lang', 'llo-xl': 'ausfahrende-verlaengerung-extra-lang' },
-  'dk': { 'standard': 'standard-storrelse', 'llo': 'lang-udfyldning', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfyldning-ekstra-stor' },
-  'ee': { 'standard': 'vaikimisi-suurus', 'llo': 'pikk-laiend-valja', 'xl': 'ekstra-suur', 'llo-xl': 'pikk-laiend-valja-ekstra-suur' },
-  'es': { 'standard': 'tamano-estandar', 'llo': 'alargamiento-largo', 'xl': 'extra-grande', 'llo-xl': 'alargamiento-largo-extra-grande' },
-  'fi': { 'standard': 'normaali-koko', 'llo': 'pidentavalennys', 'xl': 'ekstra-suuri', 'llo-xl': 'pidentavalennys-ekstra-suuri' },
-  'fr': { 'standard': 'taille-standard', 'llo': 'extension-longue', 'xl': 'tres-grand', 'llo-xl': 'extension-longue-tres-grand' },
-  'it': { 'standard': 'dimensione-standard', 'llo': 'allungamento-lunghezza', 'xl': 'extra-grande', 'llo-xl': 'allungamento-lunghezza-extra-grande' },
-  'lu': { 'standard': 'normale-grossezza', 'llo': 'extension-longue', 'xl': 'extra-gros', 'llo-xl': 'extension-longue-extra-gros' },
-  'nl': { 'standard': 'standaard-grootte', 'llo': 'lange-niveau-uit', 'xl': 'extra-groot', 'llo-xl': 'lange-niveau-uit-extra-groot' },
-  'no': { 'standard': 'standard-storrelse', 'llo': 'lang-udfylding', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfylding-ekstra-stor' },
-  'pt': { 'standard': 'tamanho-padrao', 'llo': 'alongamento-longo', 'xl': 'extra-grande', 'llo-xl': 'alongamento-longo-extra-grande' },
-  'se': { 'standard': 'standard-storlek', 'llo': 'lang-utbyggnad', 'xl': 'extra-stor', 'llo-xl': 'lang-utbyggnad-extra-stor' }
+    'en': { 'standard': 'standard-size', 'llo': 'long-leveler-off', 'xl': 'extra-large', 'llo-xl': 'long-leveler-off-extra-large' },
+    'de': { 'standard': 'standard-groesse', 'llo': 'ausfahrende-verlaengerung', 'xl': 'extra-lang', 'llo-xl': 'ausfahrende-verlaengerung-extra-lang' },
+    'dk': { 'standard': 'standard-storrelse', 'llo': 'lang-udfyldning', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfyldning-ekstra-stor' },
+    'ee': { 'standard': 'vaikimisi-suurus', 'llo': 'pikk-laiend-valja', 'xl': 'ekstra-suur', 'llo-xl': 'pikk-laiend-valja-ekstra-suur' },
+    'es': { 'standard': 'tamano-estandar', 'llo': 'alargamiento-largo', 'xl': 'extra-grande', 'llo-xl': 'alargamiento-largo-extra-grande' },
+    'fi': { 'standard': 'normaali-koko', 'llo': 'pidentavalennys', 'xl': 'ekstra-suuri', 'llo-xl': 'pidentavalennys-ekstra-suuri' },
+    'fr': { 'standard': 'taille-standard', 'llo': 'extension-longue', 'xl': 'tres-grand', 'llo-xl': 'extension-longue-tres-grand' },
+    'it': { 'standard': 'dimensione-standard', 'llo': 'allungamento-lunghezza', 'xl': 'extra-grande', 'llo-xl': 'allungamento-lunghezza-extra-grande' },
+    'lu': { 'standard': 'normale-grossezza', 'llo': 'extension-longue', 'xl': 'extra-gros', 'llo-xl': 'extension-longue-extra-gros' },
+    'nl': { 'standard': 'standaard-grootte', 'llo': 'lange-niveau-uit', 'xl': 'extra-groot', 'llo-xl': 'lange-niveau-uit-extra-groot' },
+    'no': { 'standard': 'standard-storrelse', 'llo': 'lang-udfylding', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfylding-ekstra-stor' },
+    'pt': { 'standard': 'tamanho-padrao', 'llo': 'alongamento-longo', 'xl': 'extra-grande', 'llo-xl': 'alongamento-longo-extra-grande' },
+    'se': { 'standard': 'standard-storlek', 'llo': 'lang-utbyggnad', 'xl': 'extra-stor', 'llo-xl': 'lang-utbyggnad-extra-stor' }
 };
 
 const validOptions = {
@@ -57,7 +57,8 @@ const validOptions = {
         'gap': 'full-galvanized-prime',
         'gab': 'full-galvanized-bigfoot',
         'gao': 'full-galvanized-otc',
-        'tb': 'tarpaulin-tunnel' },
+        'tb': 'tarpaulin-tunnel'
+    },
     'de': {
         'zr': 'schutzbereich',
         'rl1200': 'seitenreling',
@@ -72,7 +73,8 @@ const validOptions = {
         'gap': 'vollverzinkt-prime',
         'gab': 'vollverzinkt-bigfoot',
         'gao': 'vollverzinkt-otc',
-        'tb': 'planentunnel' },
+        'tb': 'planentunnel'
+    },
     'dk': {
         'zr': 'sikkerhedszone',
         'rl1200': 'sidegardiner',
@@ -87,7 +89,8 @@ const validOptions = {
         'gap': 'fuld-galvaniseret-forzinket-prime',
         'gab': 'fuld-galvaniseret-forzinket-bigfoot',
         'gao': 'fuld-galvaniseret-forzinket-otc',
-        'tb': 'presenning-tunnel' },
+        'tb': 'presenning-tunnel'
+    },
     'ee': {
         'zr': 'turvapiirkond',
         'rl1200': 'poolkorvuti',
@@ -102,7 +105,8 @@ const validOptions = {
         'gap': 'taielik-verzinkitud-prime',
         'gab': 'taielik-verzinkitud-bigfoot',
         'gao': 'taielik-verzinkitud-otc',
-        'tb': 'kott-tunnel' },
+        'tb': 'kott-tunnel'
+    },
     'es': {
         'zr': 'zona-refugio',
         'rl1200': 'barandillas-laterales',
@@ -117,7 +121,8 @@ const validOptions = {
         'gap': 'totalmente-galvanizado-prime',
         'gab': 'totalmente-galvanizado-bigfoot',
         'gao': 'totalmente-galvanizado-otc',
-        'tb': 'tunel-tejado' },
+        'tb': 'tunel-tejado'
+    },
     'fi': {
         'zr': 'suojausalue',
         'rl1200': 'sivuraidat',
@@ -132,7 +137,8 @@ const validOptions = {
         'gap': 'taysiksiveroitu-prime',
         'gab': 'taysiksiveroitu-bigfoot',
         'gao': 'taysiksiveroitu-otc',
-        'tb': 'paalattiatunnel' },
+        'tb': 'paalattiatunnel'
+    },
     'fr': {
         'zr': 'zone-refuge',
         'rl1200': 'garde-corps-lateraux',
@@ -147,7 +153,8 @@ const validOptions = {
         'gap': 'totalement-galvanise-prime',
         'gab': 'totalement-galvanise-bigfoot',
         'gao': 'totalement-galvanise-otc',
-        'tb': 'tunnel-toit' },
+        'tb': 'tunnel-toit'
+    },
     'it': {
         'zr': 'zona-rifugio',
         'rl1200': 'parapetti-laterali',
@@ -162,7 +169,8 @@ const validOptions = {
         'gap': 'completamente-galvanizzato-prime',
         'gab': 'completamente-galvanizzato-bigfoot',
         'gao': 'completamente-galvanizzato-otc',
-        'tb': 'tunnel-tetto' },
+        'tb': 'tunnel-tetto'
+    },
     'lu': {
         'zr': 'zone-refuge',
         'rl1200': 'barrieres-laterales',
@@ -177,7 +185,8 @@ const validOptions = {
         'gap': 'totalement-galvanise-prime',
         'gab': 'totalement-galvanise-bigfoot',
         'gao': 'totalement-galvanise-otc',
-        'tb': 'tunnel-toit' },
+        'tb': 'tunnel-toit'
+    },
     'nl': {
         'zr': 'zone-refuge',
         'rl1200': 'zijleuningen',
@@ -192,7 +201,8 @@ const validOptions = {
         'gap': 'volledig-galvaniseerd-prime',
         'gab': 'volledig-galvaniseerd-bigfoot',
         'gao': 'volledig-galvaniseerd-otc',
-        'tb': 'dak-tunnel' },
+        'tb': 'dak-tunnel'
+    },
     'no': {
         'zr': 'sone-tilflukt',
         'rl1200': 'side-rekkverk',
@@ -207,7 +217,8 @@ const validOptions = {
         'gap': 'full-galvanisert-prime',
         'gab': 'full-galvanisert-bigfoot',
         'gao': 'full-galvanisert-otc',
-        'tb': 'taggaller' },
+        'tb': 'taggaller'
+    },
     'pt': {
         'zr': 'zona-refugio',
         'rl1200': 'guardas-laterais',
@@ -222,7 +233,8 @@ const validOptions = {
         'gap': 'totalmente-galvanizado-prime',
         'gab': 'totalmente-galvanizado-bigfoot',
         'gao': 'totalmente-galvanizado-otc',
-        'tb': 'tunel-telhado' },
+        'tb': 'tunel-telhado'
+    },
     'se': {
         'zr': 'zon-skydd',
         'rl1200': 'sidoracken',
@@ -237,122 +249,129 @@ const validOptions = {
         'gap': 'helt-galvaniserad-prime',
         'gab': 'helt-galvaniserad-bigfoot',
         'gao': 'helt-galvaniserad-otc',
-        'tb': 'takkup' }
+        'tb': 'takkup'
+    }
+};
+
+const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
+
+    let regex;
+    if (base_name === 'easy-xl' || base_name === 'prime-xs' || base_name === 'big-foot' || base_name === 'star-otc') {
+        regex = /^(?:[^-]+-){5}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
+    } else {
+        regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
+    }
+
+    // Extract version and options using regex
+    const match = slug.match(regex);
+
+    if (!match) {
+        throw new Error('Invalid slug format');
+    }
+
+    const version = match[1];
+    const options = match[2] ? match[2].split('-') : [];
+
+    // Translate version and options to new locale
+    const translatedType = validTypes[newLocale][type];
+    const translatedVersion = validVersions[newLocale][version];
+    const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
+
+
+    // Construct the new URL
+    return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
 };
 
 // const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
-//   // Define your regex pattern to extract version and options
-//   const regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
+//   let version;
+//   let options = [];
+
+//   // Prüfen, ob der slug mit dem entsprechenden base_name beginnt
+//   const baseSlugPattern = `az-ramp-${base_name}-\\d+t-`;
+//   const regex = new RegExp(`^${baseSlugPattern}((?:standard|llo-xl|llo|xl))(?:$|-(.+))`);
 
 //   // Extract version and options using regex
 //   const match = slug.match(regex);
-//   if (!match) {
-//     throw new Error('Invalid slug format');
-//   }
 
-//   const version = match[1];
-//   const options = match[2] ? match[2].split('-') : [];
+//   if (match) {
+//     version = match[1];
+//     options = match[2] ? match[2].split('-') : [];
+//   } else {
+//     // Wenn es kein Match gibt, setzen wir die Version auf "standard" für andere base_names
+//     version = 'standard';
+
+//     // Für base_name easy-xl, wlo, prime-xs, star-otc, big-foot
+//     const otherBaseNames = ['easy-xl', 'wlo', 'prime-xs', 'star-otc', 'big-foot'];
+//     const otherBaseSlugPattern = `az-ramp-(${otherBaseNames.join('|')})-\\d+t-standard(?:-(.+))?`;
+//     const otherRegex = new RegExp(otherBaseSlugPattern);
+
+//     const otherMatch = slug.match(otherRegex);
+//     if (otherMatch) {
+//       options = otherMatch[2] ? otherMatch[2].split('-') : [];
+//     } else {
+//       throw new Error('Invalid slug format');
+//     }
+//   }
 
 //   // Translate version and options to new locale
 //   const translatedType = validTypes[newLocale][type];
 //   const translatedVersion = validVersions[newLocale][version];
 //   const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
 
-
 //   // Construct the new URL
 //   return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
 // };
 
-const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
-  let version;
-  let options = [];
-
-  // Prüfen, ob der slug mit dem entsprechenden base_name beginnt
-  const baseSlugPattern = `az-ramp-${base_name}-\\d+t-`;
-  const regex = new RegExp(`^${baseSlugPattern}((?:standard|llo-xl|llo|xl))(?:$|-(.+))`);
-
-  // Extract version and options using regex
-  const match = slug.match(regex);
-
-  if (match) {
-    version = match[1];
-    options = match[2] ? match[2].split('-') : [];
-  } else {
-    // Wenn es kein Match gibt, setzen wir die Version auf "standard" für andere base_names
-    version = 'standard';
-
-    // Für base_name easy-xl, wlo, prime-xs, star-otc, big-foot
-    const otherBaseNames = ['easy-xl', 'wlo', 'prime-xs', 'star-otc', 'big-foot'];
-    const otherBaseSlugPattern = `az-ramp-(${otherBaseNames.join('|')})-\\d+t-standard(?:-(.+))?`;
-    const otherRegex = new RegExp(otherBaseSlugPattern);
-
-    const otherMatch = slug.match(otherRegex);
-    if (otherMatch) {
-      options = otherMatch[2] ? otherMatch[2].split('-') : [];
-    } else {
-      throw new Error('Invalid slug format');
-    }
-  }
-
-  // Translate version and options to new locale
-  const translatedType = validTypes[newLocale][type];
-  const translatedVersion = validVersions[newLocale][version];
-  const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
-
-  // Construct the new URL
-  return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
-};
-
 const changeLanguage = async (event) => {
-  const newLocale = event.target.value;
+    const newLocale = event.target.value;
 
-  try {
-    // First, update the locale on the server
-    const response = await axios.post(`/change-locale/${newLocale}`);
+    try {
+        // First, update the locale on the server
+        const response = await axios.post(`/change-locale/${newLocale}`);
 
-    if (response.status !== 200) {
-      throw new Error('Failed to change locale');
+        if (response.status !== 200) {
+            throw new Error('Failed to change locale');
+        }
+
+        // If successful, update local state
+        locale.value = newLocale;
+        localStorage.setItem('locale', newLocale);
+
+        let newPath;
+
+        if (route().current('products.show') && page.props.product) {
+            newPath = translateSlug(page.props.product.base_name, page.props.product.type, page.props.product.slug, currentLocale.value, newLocale);
+        } else if (route().current('home')) {
+            newPath = route('home', { locale: newLocale });
+        } else {
+            // For any other route, replace the locale in the current URL
+            let currentPath = window.location.pathname;
+            const localeRegex = /^\/[a-z]{2}\//;
+            if (localeRegex.test(currentPath)) {
+                newPath = '/' + newLocale + currentPath.substring(3);
+            } else {
+                newPath = '/' + newLocale + currentPath;
+            }
+        }
+        // Use Inertia to navigate to the new path
+        router.visit(newPath, { preserveState: false });
+
+    } catch (error) {
+        console.error('Error changing locale:', error);
     }
-
-    // If successful, update local state
-    locale.value = newLocale;
-    localStorage.setItem('locale', newLocale);
-
-    let newPath;
-
-    if (route().current('products.show') && page.props.product) {
-      newPath = translateSlug(page.props.product.base_name, page.props.product.type, page.props.product.slug, currentLocale.value, newLocale);
-    } else if (route().current('home')) {
-      newPath = route('home', { locale: newLocale });
-    } else {
-      // For any other route, replace the locale in the current URL
-      let currentPath = window.location.pathname;
-      const localeRegex = /^\/[a-z]{2}\//;
-      if (localeRegex.test(currentPath)) {
-        newPath = '/' + newLocale + currentPath.substring(3);
-      } else {
-        newPath = '/' + newLocale + currentPath;
-      }
-    }
-    // Use Inertia to navigate to the new path
-    router.visit(newPath, { preserveState: false });
-
-  } catch (error) {
-    console.error('Error changing locale:', error);
-  }
 };
 </script>
 
 <template>
-  <div class="language-switcher">
-    <select @change="changeLanguage" v-model="currentLocale">
-      <option v-for="locale in availableLocales" :key="locale" :value="locale">{{ locale }}</option>
-    </select>
-  </div>
+    <div class="language-switcher">
+        <select @change="changeLanguage" v-model="currentLocale">
+            <option v-for="locale in availableLocales" :key="locale" :value="locale">{{ locale }}</option>
+        </select>
+    </div>
 </template>
 
 <style scoped>
 .language-switcher select {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
 </style>

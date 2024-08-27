@@ -7,7 +7,7 @@ const props = defineProps({
   product: Object, // Definiere den prop für das Produkt
   isDetailView: Boolean
 });
-console.log('product detailsss ', props.product)
+
 const imagePath = ref('/../../../img/header/bg-header-products.jpg');
 const randomImages = [
   '/../../../img/products/normal/test1.jpg',

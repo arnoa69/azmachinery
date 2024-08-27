@@ -108,26 +108,15 @@ const submitForm = () => {
 }
 
 .card-header {
-  background-color: #FF3737;
+  background-color: #424242;
   color: #FFFFFF;
   border-radius: 20px 20px 0 0;
   padding: 20px;
   position: relative;
+  background-image: linear-gradient(to bottom, #424242, #363636);
+  background-size: 100% 100%;
 }
 
-.card-header::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 20px;
-  background-image: linear-gradient(to right, #FF3737, #FFC080);
-  background-size: 100px 20px;
-  background-position: 0 0;
-  background-repeat: repeat-x;
-  border-radius: 0 0 20px 20px;
-}
 
 .card-header .fw-bold {
   font-size: 24px;

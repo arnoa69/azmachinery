@@ -4,8 +4,14 @@ import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar
 import generateUrl from '@/utils/urlHelper';
 import { ref, computed } from "vue";
 import { useI18n } from 'vue-i18n';
+import { usePage } from "@inertiajs/vue3";
 
+const page = usePage();
 const { locale } = useI18n();
+
+const regex = /\/products\/star{1,4}?$/;
+
+const showFilter = regex.test(page.url) ? 1 : 0;
 
 const page_or_slug = ref('product_list');
 const selectedFilter = ref('standard');
@@ -34,7 +40,7 @@ const filteredProducts = computed(() => {
 
 const getProductImage = (product) => {
     const options = product.slug.split('-').slice(5);
-    if (options.includes('gal')) {
+    if (options.includes('gan')) {
         return '/img/products/small/rampe-full-galvanized_thumb.jpg';
     }
     switch (product.version) {
@@ -49,13 +55,6 @@ const getProductImage = (product) => {
     }
 };
 
-const getShortProductName = (name ) => {
-  const prefix = 'az-ramp-star-';
-  const index = name.indexOf(prefix);
-  const startIndex = index + prefix.length + 1;
-
-  return name.slice(startIndex);
-}
 </script>
 
 <template>
@@ -77,7 +76,7 @@ const getShortProductName = (name ) => {
                 </div> <!-- END LEFT SIDBAR -->
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT SIDBAR -->
                                 <!-- Filter Links -->
-                    <div class="filter-links">
+                    <div v-if="showFilter" class="filter-links">
                         <div class="filter-links">
                             <a href="#" :class="{'active standard': selectedFilter === 'standard'}" @click.prevent="setFilter('standard')">Standard</a>
                             <a href="#" :class="{'active llo': selectedFilter === 'llo'}" @click.prevent="setFilter('llo')">LLO</a>
