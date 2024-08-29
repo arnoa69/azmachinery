@@ -105,6 +105,47 @@
         "title": "Complete Your Information",
         "close-button": "Leave"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Global inventory: 500+ ramps in stock",
+            "h3": "Massive Stock Ready to Ship!",
+            "p": "We've got you covered with an incredible stock of high-quality materials, all produced in-house and ready for immediate delivery.",
+            "li-1": "We control every step of the process, ensuring exceptional quality and consistency in every product.",
+            "li-2": "No waiting around! We have a vast inventory ready to ship, so you can get started on your project right away.",
+            "li-3": "Time is money. We offer fast and reliable delivery options to get your materials to you quickly and efficiently",
+            "p-end": "Don't settle for less. Choose the best materials, backed by our commitment to quality and customer satisfaction. Browse our extensive catalog today and discover the perfect loading ramp.",
+            "catalog-link": "Catalog"
+        },
+        "rent": {
+            "teaser": "Need a Loading Ramp? Rent It, Don't Buy It!",
+            "h3": "Flexible Solutions for Loading and Unloading",
+            "p": "Tired of the hassle and expense of owning a loading ramp? AZ RAMP offers a smarter solution: flexible, cost-effective ramp rentals tailored to your specific needs.",
+            "p-itali": "Having logistical bottlenecks and limited loading/unloading capabilities? AZ Machinery offers renting high-quality loading ramps tailored to your specific needs.",
+            "li-1": "Rent up to 36 months, adapting to your project timeline and avoiding long-term commitments.",
+            "li-2": "Choose from a range of ramps with varying load capacities, widths, and configurations to perfectly match your loading and unloading requirements.",
+            "li-3": "AZ Machinery is one of the few providers offering loading ramp rentals, giving you access to specialized equipment without the burden of ownership.",
+            "p-end": "Eliminate the hefty upfront investment of purchasing a ramp and enjoy predictable, transparent rental costs with no hidden fees."
+        },
+        "security": {
+            "teaser": "Load with Confidence!",
+            "h3": "Loading Ramps and Prioritize Safety in Your Operations",
+            "p": "Ensure a secure and efficient loading/unloading process with AZ Machinery's high-quality rental ramps, engineered with safety as a top priority.",
+            "li-1": "Robust construction and superior materials guarantee a stable and reliable platform for your loading/unloading operations.",
+            "li-2": "Non-slip surfaces minimize the risk of slips, trips, and falls, ensuring the safety of your personnel and cargo.",
+            "li-3": "Prevent accidental movement and ensure a secure connection between the ramp and the loading dock or truck bed",
+            "p-end": "At AZ Machinery, we understand that safety is paramount in any loading/unloading environment. Our ramps are meticulously designed and maintained to meet the highest safety standards, providing you with peace of mind and minimizing the risk of accidents."
+        },
+        "support": {
+            "teaser": "Reliable Partner for Seamless Operations",
+            "h3": "Experience Uninterrupted Efficiency with AZ Machinery",
+            "p": "Enjoy seamless loading/unloading operations with our reliable ramps and comprehensive support services, designed to provide you with complete peace of mind.",
+            "p-itali": "Our commitment to your satisfaction includes:",
+            "li-1": "Our dedicated team is available around the clock to address your questions, concerns, and urgent requests, ensuring uninterrupted operations.",
+            "li-2": "In the rare event of a ramp malfunction, our expert technicians will promptly diagnose and resolve the issue, minimizing downtime and keeping your operations running smoothly.",
+            "li-3": "We maintain a large inventory of readily available replacement ramps, ensuring that you always have access to a functional ramp, even in unexpected situations.",
+            "p-end": "At AZ Machinery, we understand that downtime can be costly and disruptive. That's why we go above and beyond to provide exceptional customer support and ensure the reliability of our rental ramps."
+        }
+    },
     "about": {
         "title": "Fully galvanized mobile ramps",
         "point-1-title": "Secure Your Load with Confidence",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Testimonials",
+        "subTitle": "What our customers say",
         "louiseSvensonText": "Great Mobile Dock Ramp. We have 5 units of Az ramp model Prime WLO 8+. Delivered in Denmark only 10 days after ordering. The contact with Jérôme GUIGUET was very good; These ramps are very easy to use, good quality manufacturing. The logistics team themselves appreciate them a lot.",
         "brunoDreixText": "Purchase of a ramp with a 100% guaranteed delivery time.The availability is a real plus. First-class commercial monitoring from order to delivery and the sales representative knows his products like the back of his hand.",
         "proFoodCenterText": "We are very happy with the ramp we received. Very robust and manageable ramp. We were surprised by the speed of delivery (10 days between contacting us and receiving the ramp). Very professional company!",

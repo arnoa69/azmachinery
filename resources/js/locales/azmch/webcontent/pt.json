@@ -105,6 +105,47 @@
         "title": "Complete suas informações",
         "close-button": "Fechar"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Estoque Global: 500+ rampas em estoque",
+            "h3": "Estoque Massivo Pronto para Envio!",
+            "p": "Estamos prontos para atender você com um estoque incrível de materiais de alta qualidade, todos produzidos internamente e prontos para entrega imediata.",
+            "li-1": "Controlamos cada etapa do processo, garantindo qualidade e consistência excepcionais em cada produto.",
+            "li-2": "Sem espera! Temos um vasto estoque pronto para envio, para que você possa iniciar seu projeto imediatamente.",
+            "li-3": "Tempo é dinheiro. Oferecemos opções de entrega rápidas e confiáveis para levar seus materiais até você de forma rápida e eficiente.",
+            "p-end": "Não se contente com menos. Escolha os melhores materiais, apoiados pelo nosso compromisso com a qualidade e a satisfação do cliente. Navegue pelo nosso extenso catálogo hoje e descubra a rampa de carga perfeita.",
+            "catalog-link": "Catálogo"
+        },
+        "rent": {
+            "teaser": "Precisa de uma Rampa de Carga? Alugue, Não Compre!",
+            "h3": "Soluções Flexíveis para Carregamento e Descarregamento",
+            "p": "Cansado da complicação e do custo de ter uma rampa de carga? A AZ RAMP oferece uma solução mais inteligente: aluguéis de rampas flexíveis e econômicos, adaptados às suas necessidades específicas.",
+            "p-itali": "Está enfrentando gargalos logísticos e capacidades limitadas de carregamento/descarregamento? A AZ Machinery oferece o aluguel de rampas de carga de alta qualidade adaptadas às suas necessidades específicas.",
+            "li-1": "Alugue por até 36 meses, adaptando-se ao cronograma do seu projeto e evitando compromissos de longo prazo.",
+            "li-2": "Escolha entre uma variedade de rampas com diferentes capacidades de carga, larguras e configurações para atender perfeitamente às suas necessidades de carregamento e descarregamento.",
+            "li-3": "A AZ Machinery é um dos poucos fornecedores que oferecem aluguel de rampas de carga, proporcionando acesso a equipamentos especializados sem o ônus da propriedade.",
+            "p-end": "Elimine o grande investimento inicial na compra de uma rampa e desfrute de custos de aluguel previsíveis e transparentes, sem taxas ocultas."
+        },
+        "security": {
+            "teaser": "Carregue com Confiança!",
+            "h3": "Rampas de Carga e Priorização da Segurança em Suas Operações",
+            "p": "Garanta um processo de carregamento/descarregamento seguro e eficiente com as rampas de aluguel de alta qualidade da AZ Machinery, projetadas com a segurança como prioridade máxima.",
+            "li-1": "Construção robusta e materiais superiores garantem uma plataforma estável e confiável para suas operações de carregamento/descarregamento.",
+            "li-2": "Superfícies antiderrapantes minimizam o risco de escorregões, quedas e acidentes, garantindo a segurança de sua equipe e carga.",
+            "li-3": "Previna movimentos acidentais e assegure uma conexão segura entre a rampa e o cais de carga ou a caçamba do caminhão.",
+            "p-end": "Na AZ Machinery, entendemos que a segurança é primordial em qualquer ambiente de carregamento/descarregamento. Nossas rampas são meticulosamente projetadas e mantidas para atender aos mais altos padrões de segurança, proporcionando tranquilidade e minimizando o risco de acidentes."
+        },
+        "support": {
+            "teaser": "Parceiro Confiável para Operações Sem Interrupções",
+            "h3": "Experimente Eficiência Ininterrupta com a AZ Machinery",
+            "p": "Desfrute de operações de carregamento/descarregamento sem interrupções com nossas rampas confiáveis e serviços de suporte abrangentes, projetados para proporcionar total tranquilidade.",
+            "p-itali": "Nosso compromisso com sua satisfação inclui:",
+            "li-1": "Nossa equipe dedicada está disponível 24 horas por dia, 7 dias por semana, para responder às suas perguntas, preocupações e solicitações urgentes, garantindo operações ininterruptas.",
+            "li-2": "No raro caso de uma falha na rampa, nossos técnicos especializados diagnosticarão e resolverão prontamente o problema, minimizando o tempo de inatividade e mantendo suas operações funcionando sem problemas.",
+            "li-3": "Mantemos um grande estoque de rampas de reposição prontamente disponíveis, garantindo que você tenha sempre acesso a uma rampa funcional, mesmo em situações inesperadas.",
+            "p-end": "Na AZ Machinery, entendemos que o tempo de inatividade pode ser caro e disruptivo. É por isso que fazemos o possível para fornecer um suporte excepcional ao cliente e garantir a confiabilidade de nossas rampas de aluguel."
+        }
+    },
     "about": {
         "title": "Rampas móveis totalmente galvanizadas",
         "point-1-title": "Segure sua carga com confiança",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Depoimentos",
+        "subTitle": "O que nossos clientes dizem",
         "louiseSvensonText": "Grande rampa de doc móvel. Temos 5 unidades do modelo Az Prime WLO 8+. Entregue no Dinamarques apenas 10 dias após a compra. O contato com Jérôme GUIGUET foi muito bom; essas rampas são muito fáceis de usar, de boa qualidade. O time logístico as aprecia muito.",
         "brunoDreixText": "Compra de rampa com prazo de entrega 100% garantido. A disponibilidade é uma verdadeira vantagem. Acompanhamento comercial de primeira linha desde o pedido até a entrega e o representante comercial conhece seus produtos como a palma da sua mão.",
         "proFoodCenterText": "Estamos muito satisfeitos com a rampa que recebemos. É uma rampa robusta e prática. Fomos surpreendidos pela rapidez da entrega (apenas 10 dias entre o contato e a recepção da rampa). Uma empresa muito profissional!",

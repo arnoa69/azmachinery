@@ -105,6 +105,47 @@
         "title": "Komplettera dina uppgifter",
         "close-button": "Lämna"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Globalt Lager: 500+ Ramper i Lager",
+            "h3": "Enormt Lager Redo för Leverans!",
+            "p": "Vi har allt du behöver med ett otroligt lager av högkvalitativa material, alla producerade internt och redo för omedelbar leverans.",
+            "li-1": "Vi kontrollerar varje steg i processen och säkerställer exceptionell kvalitet och konsekvens i varje produkt.",
+            "li-2": "Ingen väntan! Vi har ett stort lager redo för leverans, så att du kan starta ditt projekt direkt.",
+            "li-3": "Tid är pengar. Vi erbjuder snabba och pålitliga leveransalternativ för att få dina material till dig snabbt och effektivt.",
+            "p-end": "Nöj dig inte med mindre. Välj de bästa materialen, stödda av vårt engagemang för kvalitet och kundnöjdhet. Bläddra i vår omfattande katalog idag och upptäck den perfekta lastningsrampen.",
+            "catalog-link": "Katalog"
+        },
+        "rent": {
+            "teaser": "Behöver du en Lastningsramp? Hyr Den, Köp Inte!",
+            "h3": "Flexibla Lösningar för Lastning och Lossning",
+            "p": "Trött på besväret och kostnaden för att äga en lastningsramp? AZ RAMP erbjuder en smartare lösning: flexibla, kostnadseffektiva ramphyresalternativ anpassade efter dina specifika behov.",
+            "p-itali": "Har du logistiska flaskhalsar och begränsade lastnings-/lossningsmöjligheter? AZ Machinery erbjuder hyrning av högkvalitativa lastningsramper skräddarsydda efter dina specifika behov.",
+            "li-1": "Hyr i upp till 36 månader, anpassa till din projektplan och undvik långsiktiga åtaganden.",
+            "li-2": "Välj från ett sortiment av ramper med olika lastkapaciteter, bredder och konfigurationer för att perfekt matcha dina lastnings- och lossningskrav.",
+            "li-3": "AZ Machinery är en av få leverantörer som erbjuder hyra av lastningsramper, vilket ger dig tillgång till specialiserad utrustning utan bördan av ägande.",
+            "p-end": "Eliminera den stora initiala investeringen vid köp av en ramp och njut av förutsägbara, transparenta hyreskostnader utan dolda avgifter."
+        },
+        "security": {
+            "teaser": "Lasta med Självförtroende!",
+            "h3": "Lastningsramper och Prioritera Säkerhet i Dina Operationer",
+            "p": "Säkerställ en säker och effektiv lastnings-/lossningsprocess med AZ Machinerys högkvalitativa hyresramper, konstruerade med säkerhet som högsta prioritet.",
+            "li-1": "Robust konstruktion och överlägsna material garanterar en stabil och pålitlig plattform för dina lastnings-/lossningsoperationer.",
+            "li-2": "Halksäkra ytor minimerar risken för halkningar, snubblingar och fall, vilket säkerställer säkerheten för din personal och ditt gods.",
+            "li-3": "Förhindra oavsiktlig rörelse och säkerställ en säker anslutning mellan rampen och lastkajen eller lastbilens flak.",
+            "p-end": "På AZ Machinery förstår vi att säkerhet är av yttersta vikt i alla lastnings-/lossningsmiljöer. Våra ramper är noggrant designade och underhållna för att uppfylla de högsta säkerhetsstandarderna, vilket ger dig sinnesro och minskar risken för olyckor."
+        },
+        "support": {
+            "teaser": "Pålitlig Partner för Sömlösa Operationer",
+            "h3": "Upplev Oavbruten Effektivitet med AZ Machinery",
+            "p": "Njut av sömlösa lastnings-/lossningsoperationer med våra pålitliga ramper och omfattande supporttjänster, utformade för att ge dig fullständig sinnesro.",
+            "p-itali": "Vårt engagemang för din tillfredsställelse inkluderar:",
+            "li-1": "Vårt dedikerade team är tillgängligt dygnet runt för att ta itu med dina frågor, bekymmer och akuta förfrågningar, vilket säkerställer oavbrutna operationer.",
+            "li-2": "Vid det sällsynta fallet av en rampfunktion, kommer våra experttekniker snabbt att diagnostisera och lösa problemet, minimera stilleståndstid och hålla dina operationer igång smidigt.",
+            "li-3": "Vi håller ett stort lager av snabbt tillgängliga ersättningsramper, vilket säkerställer att du alltid har tillgång till en funktionell ramp, även i oväntade situationer.",
+            "p-end": "På AZ Machinery förstår vi att stillestånd kan vara kostsamt och störande. Därför går vi utöver för att erbjuda exceptionell kundsupport och säkerställa driftsäkerheten för våra hyrda ramper."
+        }
+    },
     "about": {
         "title": "Helt galvaniserade mobila ramper",
         "point-1-title": "Säkra din last med förtroende",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Kundomdömen",
+        "subTitle": "Vad våra kunder säger om oss",
         "louiseSvensonText": "Stor mobil dockramp. Vi har 5 enheter av modellen Az Prime WLO 8+. Levererad till Danmark endast 10 dagar efter beställning. Kontakten med Jérôme GUIGUET var mycket bra; dessa rampar är mycket lätta att använda, av bra kvalitet. Även logistikteamet uppskattar dem.",
         "brunoDreixText": "Köp av en ramp med 100% garanterad leveranstid. Tillgängligheten är ett riktigt plus. Förstklassig kommersiell bevakning från beställning till leverans och säljaren kan sina produkter som sin egen buklopp.",
         "proFoodCenterText": "Vi är mycket nöjda med den ramp vi fick. Robust och lättanvänd ramp. Vi blev förvånade över hastigheten på leveransen (endast 10 dagar mellan kontakt och mottagande av rampen). Ett mycket professionellt företag!",

@@ -105,6 +105,47 @@
         "title": "Komplett d'Informatioun vum Dënschdeg",
         "close-button": "Esci"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Global Inventaire: 500+ Rampen op Lager",
+            "h3": "Massive Stock Bereet Fir Ze Schëcken!",
+            "p": "Mir hunn Iech ofgedeckt mat engem onheemlechen Lager vu qualitativ héichwäertege Materialien, all intern produzéiert a bereet fir direkt Liwwerung.",
+            "li-1": "Mir kontrolléieren all Schrëtt vum Prozess, fir aussergewéinlech Qualitéit a Konsistenz an all Produkt ze garantéieren.",
+            "li-2": "Keng Waardezäit! Mir hunn en enorme Inventaire bereet fir ze schécken, sou datt Dir direkt mat Ärem Projet ufänke kënnt.",
+            "li-3": "Zäit ass Suen. Mir bidden séier a zouverlässeg Liwweroptiounen fir Är Materialien séier a effizient bei Iech ze kréien.",
+            "p-end": "Gitt Iech net mat manner zefridde. Wielt déi bescht Materialien, ënnerstëtzt vun eisem Engagement fir Qualitéit a Clientzefriddenheet. Duerchsicht eise grousse Katalog haut an entdeckt déi perfekt Laascht Ramp.",
+            "catalog-link": "Katalog"
+        },
+        "rent": {
+            "teaser": "Braucht Dir Eng Laascht Ramp? Lount Se, Kaaft Se Net!",
+            "h3": "Flexibel Léisungen Fir Luede An Entlueden",
+            "p": "Seid Dir midd vun den Ustrengungen an Ausgaben vum Besëtz vun enger Laascht Ramp? AZ RAMP bitt eng méi clever Léisung: flexibel, käschtegënschteg Rampverleien, déi op Är spezifesch Besoinen zougeschnidden sinn.",
+            "p-itali": "Hutt Dir logistesche Flaschenhäls an limitéiert Luede/Entluede Kapazitéiten? AZ Machinery bitt Héichqualitativ Laascht Rampen zum Verleih, individuell op Är Besoinen zougeschnidden.",
+            "li-1": "Lount bis zu 36 Méint, passt un Är Projetzäitplang un a vermeit laangfristeg Engagementer.",
+            "li-2": "Wielt aus enger Rei vu Rampen mat verschiddenen Lastkapazitéiten, Breeten an Konfiguratiounen, déi perfekt op Är Luede an Entluede Ufuerderunge passen.",
+            "li-3": "AZ Machinery ass een vun de wéinegen Ubidder, dee Laascht Rampverleien ubitt, wat Iech Zougang zu spezialiséiertem Equipement ouni d'Belaaschtung vum Besëtz gëtt.",
+            "p-end": "Eliminéiert déi massiiv Virinvestitioun vum Kaf vun enger Ramp a genéisst viraussiichtlech, transparent Verleikaäschte ouni verstoppte Käschten."
+        },
+        "security": {
+            "teaser": "Luet Mat Vertrauen!",
+            "h3": "Laascht Rampen A Prioritéiert Sécherheet An Ären Operatiounen",
+            "p": "Sécherstellen Iech e sécheren an effizienten Luede/Entluede Prozess mat den héichqualitativen Verleih Rampen vun AZ Machinery, entwéckelt mat Sécherheet als Haaptprioritéit.",
+            "li-1": "Robust Konstruktioun an iwwerleeën Materialien garantéieren eng stabil an zouverlässeg Plattform fir Är Luede/Entluede Operatiounen.",
+            "li-2": "Rutschfester Uewerflächen miniméieren de Risiko vu Rutschen, Stierzen a Falen, a suergt fir d'Sécherheet vun Ärem Personal an Ärer Fracht.",
+            "li-3": "Préventéiert zoufälleg Beweegung a garantéiert eng sécher Verbindung tëscht der Ramp an dem Luede Dock oder Camion Bett.",
+            "p-end": "Bei AZ Machinery verstinn mir, datt d'Sécherheet an all Luede/Entluede Ëmfeld am wichtegste steet. Eis Rampen sinn mat Suergfalt entworf an ënnerhale fir déi héchste Sécherheetsnormen ze erfëllen, an bidden Iech Rou vum Geescht a miniméiert de Risiko vu Onglécker."
+        },
+        "support": {
+            "teaser": "Zouverlässege Partner Fir Nahtlos Operatiounen",
+            "h3": "Erlieft Onënnerbrach Effizienz Mat AZ Machinery",
+            "p": "Genéisst nahtlos Luede/Entluede Operatiounen mat eise zouverlässege Rampen an ëmfaassende Support Servicer, entworf fir Iech voll Rou vum Geescht ze bidden.",
+            "p-itali": "Eis Engagement fir Är Zefriddenheet ëmfaasst:",
+            "li-1": "Eis engagéiert Equipe ass rund em d'Auer verfügbar fir Är Froen, Bedenken an dréngend Ufroën ze beäntweren, a suergt fir onënnerbrach Operatiounen.",
+            "li-2": "Am rare Fall vun enger Rampfehlfunktion ginn eis Expert Techniker d'Problemer séier diagnostizéieren an léisen, miniméiert Auszäit a suergt dofir, datt Är Operatiounen glat lafen.",
+            "li-3": "Mir behalen e groussen Inventaire vu direkt verfügbaren Ersatzrampen, fir sécherzestellen, datt Dir ëmmer Zougang zu enger funktionaler Ramp hutt, och an onerwaarten Situatiounen.",
+            "p-end": "Bei AZ Machinery verstinn mir, datt Auszäit deier an störend ka sinn. Dofir gi mir iwwer d'Erwaardungen eraus fir aussergewéinlech Clientsservice ze bidden an d'Zouverlässegkeet vun eisen Verleih Rampen ze garantéieren."
+        }
+    },
     "about": {
         "title": "Voll galvaniséiert mobil Rampen",
         "point-1-title": "Séchert Är Lëscht mat Vertrauen",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Klientebewäertungen",
+        "subTitle": "Wat eis Clienten iwwer eis soen",
         "louiseSvensonText": "Gréng Gréng mobilgeräte. Méi hutt 5 Exempel vun Az-Modell Prime WLO 8+. Gëtt uffgedréchtet ass Tanschnit nur 10 Dag an der Aufforderung vun der Bestellung. D'Yewewwerk mit AZ Ramp Jérôme GUIGUET war erfohrlich; d'Geräte sinn schénger und eefach zu benotzen. Logistik-Arbëtscher kréieren d'Geräte ergescht. ",
         "brunoDreixText": "Kaf vun enger Ramp mat enger 100% garantéiert Liwwerung Zäit. D'Disponibilitéit ass e richtege Plus. Éischtklasseg kommerziell Iwwerwaachung vun Bestellung bis Liwwerung an de Verkeefer kennt seng Produkter wéi seng Hand.",
         "proFoodCenterText": "Méi hutt gréng Geräte. Gréng haltbar und eefach zu benotzen. Wéi überrascht, ass mir am Versandzeitpunkt (10 Tage Wartezeit und Geräte-Ankunft) ginn. Erfälig Versandunternehmen!",

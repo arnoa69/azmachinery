@@ -105,6 +105,47 @@
         "title": "Täydennä tietosi",
         "close-button": "Poistu"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Globaali varasto: yli 500 ramppia varastossa",
+            "h3": "Valtava varasto valmiina lähetettäväksi!",
+            "p": "Meillä on valtava varasto korkealaatuisia materiaaleja, kaikki omassa tuotannossamme ja valmiina välittömään toimitukseen.",
+            "li-1": "Hallitsemme jokaisen vaiheen prosessissa, mikä takaa poikkeuksellisen laadun ja johdonmukaisuuden jokaisessa tuotteessa.",
+            "li-2": "Ei odottelua! Meillä on laaja varasto valmiina lähetettäväksi, jotta voit aloittaa projektisi heti.",
+            "li-3": "Aika on rahaa. Tarjoamme nopeita ja luotettavia toimitusvaihtoehtoja, jotta materiaalit saadaan sinulle nopeasti ja tehokkaasti.",
+            "p-end": "Älä tyydy vähempään. Valitse parhaat materiaalit, joita tukee sitoutumisemme laatuun ja asiakastyytyväisyyteen. Tutustu laajaan valikoimaamme ja löydä täydellinen lastausramppi.",
+            "catalog-link": "Luettelo"
+        },
+        "rent": {
+            "teaser": "Tarvitsetko lastausramppia? Vuokraa se, älä osta!",
+            "h3": "Joustavia ratkaisuja lastaukseen ja purkuun",
+            "p": "Kyllästynyt lastausrampin omistamisen vaivaan ja kustannuksiin? AZ RAMP tarjoaa fiksumman ratkaisun: joustavat ja kustannustehokkaat ramppien vuokraukset, jotka on räätälöity juuri sinun tarpeisiisi.",
+            "p-itali": "Onko sinulla logistisia pullonkauloja ja rajoitettuja lastaus/purkumahdollisuuksia? AZ Machinery tarjoaa vuokralle korkealaatuisia lastausramppia, jotka on räätälöity tarpeisiisi.",
+            "li-1": "Vuokraa jopa 36 kuukaudeksi, mukautuen projektisi aikatauluun ja välttäen pitkäaikaisia sitoumuksia.",
+            "li-2": "Valitse valikoimastamme eri kantavuuksilla, leveydellä ja kokoonpanoilla olevia ramppeja, jotka sopivat täydellisesti lastaus- ja purkutarpeisiisi.",
+            "li-3": "AZ Machinery on yksi harvoista tarjoajista, jotka tarjoavat lastausramppien vuokrausta, antaen sinulle pääsyn erikoislaitteisiin ilman omistamisen rasitusta.",
+            "p-end": "Poista raskas alkuinvestointi rampin ostamiseen ja nauti ennustettavista, läpinäkyvistä vuokrakustannuksista ilman piilotettuja maksuja."
+        },
+        "security": {
+            "teaser": "Lataa luottavaisin mielin!",
+            "h3": "Lastausramppi ja priorisoi turvallisuus toiminnoissasi",
+            "p": "Varmista turvallinen ja tehokas lastaus/purkuprosessi AZ Machineryn korkealaatuisten vuokraramppien avulla, jotka on suunniteltu turvallisuus etusijalla.",
+            "li-1": "Vankka rakenne ja ensiluokkaiset materiaalit takaavat vakaan ja luotettavan alustan lastaus/purkuoperaatioillesi.",
+            "li-2": "Luistamattomat pinnat minimoivat liukastumis-, kompastumis- ja kaatumisriskin, varmistaen henkilöstösi ja lastisi turvallisuuden.",
+            "li-3": "Estä tahaton liike ja varmista turvallinen yhteys rampin ja lastaussillan tai kuorma-auton lavan välillä.",
+            "p-end": "AZ Machineryssa ymmärrämme, että turvallisuus on ensiarvoisen tärkeää missä tahansa lastaus/purkukäytössä. Ramppimme on huolellisesti suunniteltu ja ylläpidetty korkeimpien turvallisuusstandardien mukaisesti, tarjoten sinulle mielenrauhaa ja minimoiden onnettomuusriskin."
+        },
+        "support": {
+            "teaser": "Luotettava kumppani saumattomaan toimintaan",
+            "h3": "Koe keskeytymätön tehokkuus AZ Machineryn kanssa",
+            "p": "Nauti saumattomasta lastaus/purkuoperaatiosta luotettavien ramppiemme ja kattavien tukipalvelujemme ansiosta, jotka on suunniteltu tarjoamaan sinulle täysi mielenrauha.",
+            "p-itali": "Sitoumuksemme tyytyväisyyteesi sisältää:",
+            "li-1": "Omistautunut tiimimme on käytettävissä vuorokauden ympäri vastaamaan kysymyksiisi, huolenaiheisiisi ja kiireellisiin pyyntöihisi, varmistaen keskeytymättömän toiminnan.",
+            "li-2": "Harvinaisissa rampin toimintahäiriöissä asiantuntijamme diagnosoivat ja ratkaisevat ongelman nopeasti, minimoiden seisokit ja pitäen toimintasi sujuvana.",
+            "li-3": "Pidämme laajaa varastoa valmiina olevista korvaavista rampeista, varmistaen että sinulla on aina toimiva ramppi, jopa odottamattomissa tilanteissa.",
+            "p-end": "AZ Machineryssa ymmärrämme, että seisokit voivat olla kalliita ja häiritseviä. Siksi teemme kaikkemme tarjotaksemme poikkeuksellista asiakastukea ja varmistaaksemme vuokraramppiemme luotettavuuden."
+        }
+    },
     "about": {
         "title": "Täysin galvanoidut liikkuvat rampit",
         "point-1-title": "Varmista lastisi turvallisesti",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Asiakaskertomukset",
+        "subTitle": "Mitä asiakkaamme sanovat meistä",
         "louiseSvensonText": "Suuri mobiililaite. Meillä on 5 yksilöä Az-mallista Prime WLO 8+. Toimitettu Tanskaan vain 10 päivän jälkeen tilauksen jäljiltymisen jälkeen. Yhteydenottelu AZ Rampin Jérôme GUIGUET'hen oli erinomainen; Laitteet ovat hyvälaatuista ja helppoja käyttää. Logistiikka-työntekijät arvostavat niitä suuresti.",
         "brunoDreixText": "Rampin ostaminen 100% toimitusajalla. Saatavuus on todellinen plussa. Ensiluokkaista kaupallista seurantaa tilauksesta toimitukseen ja myyntiedustaja tuntee tuotteensa kuin omat taskunsa.",
         "proFoodCenterText": "Meillä on erittäin mieltymystä saamaammana laitteena. Hyvin kestävä ja käyttämiseltään helppo. Olimme yllättyneitä toimitusaikanaan (10 päivää viestitystä ja laitteen saapumista). Ammattitaitava yhtiö!",

@@ -105,6 +105,47 @@
         "title": "Täitke oma andmed",
         "close-button": "Lahkuge"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Suur ladu: üle 500 rampa laos",
+            "h3": "Massiivne ladu, koheselt tarnitav!",
+            "p": "Meil on teid kaetud uskumatu koguse kvaliteetsete materjalidega, mis kõik on toodetud sisemiselt ja on koheselt tarneks valmis.",
+            "li-1": "Me kontrollime iga protsessi etappi, tagades erakordse kvaliteedi ja järjepidevuse igas tootes.",
+            "li-2": "Ei mingeid ooteaegu! Meil on suur ladu tarnimiseks valmis, nii et saate oma projektiga kohe alustada.",
+            "li-3": "Aeg on raha. Pakume kiireid ja usaldusväärseid tarnevõimalusi, et saada oma materjalid kiiresti ja tõhusalt teieni.",
+            "p-end": "Ärge lepi vähemaga. Valige parimad materjalid, mida toetab meie pühendumus kvaliteedile ja kliendirahulolule. Sirvige meie laia valikut täna ja avastage täiuslik laadimisramps.",
+            "catalog-link": "Kategooria"
+        },
+        "rent": {
+            "teaser": "Üüri rampa! Ära osta seda!",
+            "h3": "Paindlikud laadimis- ja mahalaadimislahendused",
+            "p": "Väsinud vaevust ja kuludest, mis kaasnevad rampa omamisega? AZ RAMP pakub targemat lahendust: paindlikke, kulutõhusaid rampade üürimist, mis on kohandatud teie konkreetsetele vajadustele.",
+            "p-itali": "Kas teil on logistilised kitsaskohad ja piiratud laadimis-/mahalaadimisvõimalused? AZ Machinery pakub kvaliteetsete laadimisrampide üürimist, mis on kohandatud teie konkreetsetele vajadustele.",
+            "li-1": "Üüri kuni 36 kuud, kohandudes oma projekti ajakavaga ja vältides pikaajalisi kohustusi.",
+            "li-2": "Vali erinevate kandevõimete, laiuste ja konfiguratsioonidega rampe hulgast, et sobitada oma laadimis- ja mahalaadimisnõuded täiuslikult.",
+            "li-3": "AZ Machinery on üks väheseid pakkujaid, kes pakub laadimisrampide renti, andes teile juurdepääsu spetsialiseeritud seadmetele ilma omamise koormata.",
+            "p-end": "Vabastage ennast suure esialgse investeeringu vajadusest rampa ostmiseks ja nautige prognoositavaid, läbipaistvaid renditasusid ilma varjatud tasudeta."
+        },
+        "security": {
+            "teaser": "Laadi enesekindlalt!",
+            "h3": "Laadimisrampid ja pöörake prioriteet turvalisusele oma toimingutes",
+            "p": "Tagage turvaline ja tõhus laadimis-/mahalaadimisprotsess AZ Machinery kvaliteetsete üürirampidega, mis on konstrueeritud turvalisust esmatähtsaks pidades.",
+            "li-1": "Vastupidav konstruktsioon ja ülemad materjalid tagavad stabiilse ja usaldusväärse platvormi teie laadimis-/mahalaadimisoperatsioonide jaoks.",
+            "li-2": "Libisemisvastased pinnad minimeerivad libisemise, komistamise ja kukkumise riski, tagades teie personali ja kauba turvalisuse.",
+            "li-3": "Ärahoidke juhuslikku liikumist ja tagage turvaline ühendus rampa ja laadimisplatvormi või veoauto laadimisplatvormi vahel.",
+            "p-end": "AZ Machinery's mõistame, et turvalisus on ülioluline igas laadimis-/mahalaadimiskeskkonnas. Meie rampid on hoolikalt kujundatud ja hooldatud, et vastata kõrgeimatele ohutusstandarditele, pakkudes teile rahu meelt ja minimeerides õnnetuste riski."
+        },
+        "support": {
+            "teaser": "Usaldusväärne partner sujuvate toimingute jaoks",
+            "h3": "Kogege katkematut tõhusust AZ Machinery'ga",
+            "p": "Nautige sujuvaid laadimis-/mahalaadimisoperatsioone meie usaldusväärsete rampide ja põhjalike tugiteenustega, mis on loodud pakkuma teile täielikku rahu meelt.",
+            "p-itali": "Meie pühendumus teie rahulolule hõlmab:",
+            "li-1": "Meie pühendunud meeskond on saadaval ööpäev läbi, et vastata teie küsimustele, muredele ja kiiretele taotlustele, tagades katkematu töö.",
+            "li-2": "Harvadel juhtudel, kui rammil tekib rike, meie kogenud tehnikud diagnoosivad ja lahendavad probleemi kiiresti, minimeerides seisakuid ja hoides teie toiminguid sujuvalt töötamas.",
+            "li-3":"Hoiame suurt varu kergesti kättesaadavaid varuosade, tagades, et teil on alati juurdepääs töötavale rampile, isegi ootamatutes olukordades.",
+            "p-end": "AZ Machinery's mõistame, et seisakud võivad olla kulukad ja häirivad. Seetõttu teeme kõik endast olmeva, et pakkuda ülimat klienditoetust ja tagada meie üürirampide töökindlus."
+        }
+    },
     "about": {
         "title": "Täielikult galvaniseeritud mobiilsed rampid",
         "point-1-title": "Turva oma koormat kindlustundega",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Klienditunnistused",
+        "subTitle": "Mida meie kliendid meist räägivad",
         "louiseSvensonText": "Hea mobiilkaat. Meil on 5 ühte Az-mudeli Prime WLO 8+. Toodet Danimaali ja 10 päeva pärast tellimuse teostamist. Kontakt AZ rampiga Jérôme GUIGUET oli hea; Need on hea kvaliteedi toodud, toode on hea tootmisest. Logistika meeskonnaga on need suurepärane.",
         "brunoDreixText": "Kaldtee ostmine 100% garanteeritud tarneajaga. Kättesaadavus on tõeline pluss. Esmaklassiline kaubanduslik jälgimine tellimusest tarnimiseni ja müügiesindaja tunneb tema tooteid nagu oma viit sõrme.",
         "proFoodCenterText": "Me oleme väga maitsemused kaatiga, mille me saame. Nii robustne kui lihtne kasutamine. Me oleme ülevalminud toode saabumise kiiruse (10 päeva kliendikontakt ja toode saabumine). Professionaalne ettevõte!",

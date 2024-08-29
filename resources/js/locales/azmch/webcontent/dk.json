@@ -105,6 +105,47 @@
         "title": "Udfyld dine oplysninger",
         "close-button": "Forlad"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Global lager: 500+ ramper på lager",
+            "h3": "Massiv lager klar til afsendelse!",
+            "p": "Vi har dækket dig med en utrolig lager af høj kvalitet materialer, alle produceret internt og klar til omgående levering.",
+            "li-1": "Vi kontrollerer hvert trin af processen og sikrer dermed enestående kvalitet og konsistens i hvert produkt.",
+            "li-2": "Ingen ventetid! Vi har et stort lager klar til afsendelse, så du kan komme i gang med dit projekt med det samme.",
+            "li-3": "Tid er penge. Vi tilbyder hurtige og pålidelige leveringsmuligheder for at få dine materialer til dig hurtigt og effektivt.",
+            "p-end": "Gå ikke på kompromis med mindre. Vælg de bedste materialer, støttet af vores engagement i kvalitet og kundetilfredshed. Gennemse vores omfattende katalog i dag og opdag den perfekte rampe.",
+            "catalog-link": "Katalog"
+        },
+        "rent": {
+            "teaser": "Lej en rampe! Køb den ikke!",
+            "h3": "Fleksibel løsninger til læsning og losning",
+            "p": "Træt af besværet og udgifterne ved at eje en rampe? AZ RAMP tilbyder en smartere løsning: fleksible, omkostningseffektive rampeleje, skræddersyet til dine specifikke behov.",
+            "p-itali": "Har du logistiske flaskehalse og begrænsede læsnings-/losningsmuligheder? AZ Machinery tilbyder udlejning af høj kvalitet ramper skræddersyet til dine specifikke behov.",
+            "li-1": "Lej op til 36 måneder og tilpas dig din projekttidsplan uden langsigtede forpligtelser.",
+            "li-2": "Vælg mellem en række ramper med forskellige kapaciteter, bredder og konfigurationer for at matche dine læsnings- og losningskrav perfekt.",
+            "li-3": "AZ Machinery er en af de få udbydere, der tilbyder leje af læsseramper, hvilket giver dig adgang til specialiseret udstyr uden byrden ved ejerskab.",
+            "p-end": "Eliminer den store forudbetaling for at købe en rampe og nyd forudsigelige, transparente lejeomkostninger uden skjulte gebyrer."
+        },
+        "security": {
+            "teaser": "Lås med tillid!",
+            "h3": "Læsseramper og prioriter sikkerhed i din drift",
+            "p": "Sørg for en sikker og effektiv læsnings-/losningsproces med AZ Machinery's høj kvalitet leje ramper, konstrueret med sikkerhed som en topprioritet.",
+            "li-1": "Robust konstruktion og overlegne materialer garanterer en stabil og pålidelig platform til dine læsnings-/losningsoperationer.",
+            "li-2": "Skridsikre overflader minimerer risikoen for skrid, ture og fald, hvilket sikrer sikkerheden for dit personale og din last.",
+            "li-3": "Forhindre utilsigtet bevægelse og sikre en sikker forbindelse mellem rampen og læssebroen eller lastbilens lad.",
+            "p-end": "Hos AZ Machinery forstår vi, at sikkerhed er afgørende i ethvert læsnings-/losningsmiljø. Vores ramper er omhyggeligt designet og vedligeholdt for at opfylde de højeste sikkerhedsstandarder, hvilket giver dig ro i sindet og minimerer risikoen for ulykker."
+        },
+        "support": {
+            "teaser": "Pålidelig partner til problemfri drift",
+            "h3": "Oplev uafbrudt effektivitet med AZ Machinery",
+            "p": "Nyd problemfri læsnings-/losningsoperationer med vores pålidelige ramper og omfattende supporttjenester, designet til at give dig fuldstændig ro i sindet.",
+            "p-itali": "Vores engagement i din tilfredshed omfatter:",
+            "li-1": "Vores dedikerede team er tilgængeligt døgnet rundt for at besvare dine spørgsmål, bekymringer og presserende anmodninger og sikre uafbrudt drift.",
+            "li-2": "I det usædvanlige tilfælde af en rampestørrelse vil vores ekspertteknikere hurtigt diagnosticere og løse problemet, minimere nedetid og holde din drift kørende problemfrit.",
+            "li-3": "Vi opretholder et stort lager af let tilgængelige reservedele, så du altid har adgang til en funktionel rampe, selv i uventede situationer.",
+            "p-end": "Hos AZ Machinery forstår vi, at nedetid kan være dyrt og forstyrrende. Derfor gør vi alt, hvad vi kan for at levere enestående kundesupport og sikre pålideligheden af vores leje ramper."
+        }
+    },
     "about": {
         "title": "Fuldt galvaniserede mobile ramper",
         "point-1-title": "Sikre din last med tillid",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Kundeudtalelser",
+        "subTitle": "Hvad vores kunder siger om os",
         "louiseSvensonText": "Fantastisk mobil dækken. Vi har 5 enheder af Az-modellen Prime WLO 8+. Leveret i Danmark kun 10 dage efter bestillingen. Kontakten med Jérôme GUIGUET var meget god; Disse dæk er meget nemme at bruge, af god kvalitet. Logistik-teammet skatter dem meget.",
         "brunoDreixText": "Køb af en rampe med 100% garanteret leveringstid. Tilgængeligheden er et reelt plus. Førsteklasses kommerciel overvågning fra ordre til levering og sælgeren kender sine produkter som sin egen bukselomme.",
         "proFoodCenterText": "Vi er meget glædelige med dækket, vi har modtaget. Meget robustt og nemt at bruge. Vi var overrasket over leveringens hastighed (10 dage mellem kontakt og modtagelse af dækket). Meget professionelt firma!",

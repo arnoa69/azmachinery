@@ -104,6 +104,47 @@
         "title": "Vervollständigen Sie Ihre Informationen",
         "close-button": "Verlassen"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Globales Inventar: 500+ Rampen auf Lager",
+            "h3": "Riesiger Bestand, sofort versandbereit!",
+            "p": "Wir haben Sie mit einem unglaublichen Bestand an hochwertigen Materialien abgedeckt, die alle intern produziert werden und sofort versandbereit sind.",
+            "li-1": "Wir kontrollieren jeden Schritt des Prozesses und gewährleisten so außergewöhnliche Qualität und Konsistenz in jedem Produkt.",
+            "li-2": "Keine Wartezeit! Wir haben einen riesigen Bestand versandbereit, sodass Sie sofort mit Ihrem Projekt beginnen können.",
+            "li-3": "Zeit ist Geld. Wir bieten schnelle und zuverlässige Lieferoptionen, um Ihre Materialien schnell und effizient zu Ihnen zu bringen.",
+            "p-end": "Geben Sie sich nicht mit weniger zufrieden. Wählen Sie die besten Materialien, unterstützt durch unser Engagement für Qualität und Kundenzufriedenheit. Durchstöbern Sie noch heute unseren umfangreichen Katalog und entdecken Sie die perfekte Ladefläche.",
+            "catalog-link": "Katalog"
+        },
+        "rent": {
+            "teaser": "Eine Ladefläche mieten? Kaufen Sie sie nicht!",
+            "h3": "Flexible Lösungen für Be- und Entladen",
+            "p": "Müde von den Schwierigkeiten und Kosten einer eigenen Ladefläche? AZ RAMP bietet eine intelligentere Lösung: flexible, kostengünstige Rampenvermietungen, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind.",
+            "p-itali": "Haben Sie logistische Engpässe und begrenzte Lade-/Entlademöglichkeiten? AZ Machinery bietet die Vermietung hochwertiger Ladeflächen, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind.",
+            "li-1": "Mieten Sie bis zu 36 Monate und passen Sie sich Ihrem Projektzeitplan an, ohne langfristige Verpflichtungen einzugehen.",
+            "li-2": "Wählen Sie aus einer Reihe von Rampen mit unterschiedlichen Tragfähigkeiten, Breiten und Konfigurationen, um Ihre Lade- und Entladeanforderungen perfekt zu erfüllen.",
+            "li-3": "AZ Machinery ist einer der wenigen Anbieter, die Laderampen zur Miete anbieten, sodass Sie Zugang zu spezialisiertem Equipment ohne die Last des Besitzes haben.",
+            "p-end": "Eliminieren Sie die hohen Anfangsinvestitionen für den Kauf einer Rampe und genießen Sie vorhersehbare, transparente Mietkosten ohne versteckte Gebühren."
+        },
+        "security": {
+            "teaser": "Mit Zuversicht laden!",
+            "h3": "Ladebrücken und Priorität Sicherheit in Ihren Betrieb",
+            "p": "Sichern Sie sich einen sicheren und effizienten Be-/Entladeprozess mit den hochwertigen Mietrampen von AZ Machinery, die mit Sicherheit als oberste Priorität entwickelt wurden.",
+            "li-1": "Robuste Konstruktion und hochwertige Materialien garantieren eine stabile und zuverlässige Plattform für Ihre Be-/Entladevorgänge.",
+            "li-2": "Rutschfeste Oberflächen minimieren das Risiko von Ausrutschen, Stolpern und Stürzen und gewährleisten die Sicherheit Ihres Personals und Ihrer Ladung.",
+            "li-3": "Verhindern Sie versehentliche Bewegungen und gewährleisten Sie eine sichere Verbindung zwischen Rampe und Ladebrücke oder LKW-Ladefläche.",
+            "p-end": "Bei AZ Machinery verstehen wir, dass Sicherheit in jeder Lade-/Entladevorrichtung von größter Bedeutung ist. Unsere Rampen sind sorgfältig konzipiert und gewartet, um die höchsten Sicherheitsstandards zu erfüllen, Ihnen Ruhe zu geben und das Risiko von Unfällen zu minimieren."
+        },
+        "support": {
+            "teaser": "Zuverlässiger Partner für reibungslose Abläufe",
+            "h3": "Erleben Sie ununterbrochene Effizienz mit AZ Machinery",
+            "p": "Genießen Sie reibungslose Be-/Entladevorgänge mit unseren zuverlässigen Rampen und umfassenden Supportleistungen, die darauf ausgelegt sind, Ihnen absolute Sicherheit zu bieten.",
+            "p-itali": "Unser Engagement für Ihre Zufriedenheit umfasst:",
+            "li-1": "Unser engagiertes Team steht rund um die Uhr zur Verfügung, um Ihre Fragen, Anliegen und dringenden Anfragen zu beantworten und einen reibungslosen Betrieb zu gewährleisten.",
+            "li-2": "Im seltenen Fall einer Rampenfehlfunktion werden unsere erfahrenen Techniker das Problem umgehend diagnostizieren und beheben, Ausfallzeiten minimieren und Ihren Betrieb reibungslos am Laufen halten.",
+            "li-3": "Wir unterhalten einen großen Bestand an sofort verfügbaren Ersatzrampen, um sicherzustellen, dass Sie auch in unerwarteten Situationen immer Zugang zu einer funktionsfähigen Rampe haben.",
+            "p-end": "Bei AZ Machinery verstehen wir, dass Ausfallzeiten kostspielig und störend sein können. Deshalb tun wir alles, um einen außergewöhnlichen Kundensupport zu bieten und die Zuverlässigkeit unserer Mietrampen zu gewährleisten."
+        }
+    },
     "about": {
         "title": "Vollverzinkte mobile Rampen",
         "point-1-title": "Sichern Sie Ihre Ladung mit Zuversicht",
@@ -170,6 +211,8 @@
         }
     },
     "testimonials": {
+        "title": "Kundenbewertungen",
+        "subTitle": "Was unsere Kunden über uns sagen",
         "louiseSvensonText": "Großartige mobile Ladeklappe. Wir haben 5 Einheiten des Az-Modells Prime WLO 8+. Geliefert in Dänemark nur 10 Tage nach der Bestellung. Der Kontakt mit Jérôme GUIGUET war sehr gut; Diese Klappen sind sehr einfach zu bedienen, gute Qualität der Fertigung. Das Logistik-Team schätzt sie sehr.",
         "brunoDreixText": "Kauf einer Rampe mit einer zu 100 % eingehaltenen Lieferzeit.Die Verfügbarkeit ist ein echtes Plus. Erstklassige kaufmännische Überwachung von der Bestellung bis zur Auslieferung und der Außendienstmitarbeiter kennt seine Produkte wie seine Westentasche.",
         "proFoodCenterText": "Wir sind sehr glücklich mit der Klappe, die wir erhalten haben. Sehr robust und leicht zu bedienen. Wir waren überrascht durch die Geschwindigkeit der Lieferung (10 Tage zwischen Kontakt und Klappenempfang). Sehr professionelles Unternehmen!",

@@ -23,7 +23,7 @@
 
       <div class="faq-container">
 
-        <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
           <i class="faq-icon bi bi-question-circle"></i>
           <h3>Why Choose Us?</h3>
           <div class="faq-content">
@@ -42,7 +42,7 @@
           <i class="faq-toggle bi bi-chevron-right"></i>
         </div><!-- End Faq item-->
 
-        <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
           <i class="faq-icon bi bi-question-circle"></i>
           <h3>What types of mobile loading ramps do you offer?</h3>
           <div class="faq-content">

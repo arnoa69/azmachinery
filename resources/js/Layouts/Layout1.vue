@@ -46,10 +46,10 @@ const showPolicyBanner = ref(false)
     <HeroSection @open-modal="openModal" />
     <main id="main">
         <ClientSection />
+        <TabSection />
         <AboutSection />
-        <!-- <TabSection /> -->
-        <FaqSection />
         <TestimonialsSection />
+        <FaqSection />
     </main>
     <FooterSection />
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

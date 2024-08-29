@@ -4,8 +4,6 @@ import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
 
-const heroTitle = t("hero.title.start") + " <span>" + t("hero.title.end") + "</span>";
-
 </script>
 
 <template>

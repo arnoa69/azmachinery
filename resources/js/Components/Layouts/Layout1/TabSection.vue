@@ -1,4 +1,7 @@
 <script setup>
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n()
 </script>
 
 
@@ -11,26 +14,26 @@
             <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
                 <li class="nav-item col-3">
                     <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabs-tab-1">
-                        <i class="bi bi-binoculars"></i>
-                        <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
+                        <i class="bi bi-collection"></i>
+                        <h4 class="d-none d-lg-block">{{ $t('tabs.stock.teaser') }}</h4>
                     </a>
                 </li>
                 <li class="nav-item col-3">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-2">
-                        <i class="bi bi-box-seam"></i>
-                        <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
+                        <i class="bi bi-piggy-bank"></i>
+                        <h4 class="d-none d-lg-block">{{ $t('tabs.rent.teaser') }}</h4>
                     </a>
                 </li>
                 <li class="nav-item col-3">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-3">
-                        <i class="bi bi-brightness-high"></i>
-                        <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+                        <i class="bi bi-shield-check"></i>
+                        <h4 class="d-none d-lg-block">{{ $t('tabs.security.teaser') }}</h4>
                     </a>
                 </li>
                 <li class="nav-item col-3">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-4">
                         <i class="bi bi-command"></i>
-                        <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+                        <h4 class="d-none d-lg-block">{{ $t('tabs.support.teaser') }}</h4>
                     </a>
                 </li>
             </ul><!-- End Tab Nav -->
@@ -40,32 +43,24 @@
                 <div class="tab-pane fade active show" id="tabs-tab-1">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                            <h3>{{ $t('tabs.stock.h3') }}</h3>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
-                                magna aliqua.
+                                {{ $t('tabs.stock.p') }}
                             </p>
                             <ul>
                                 <li><i class="bi bi-check2-all"></i>
-                                    <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                                    <span>{{ $t('tabs.stock.li-1') }}</span>
                                 </li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit</span>.</li>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.stock.li-2') }}</span>.</li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.stock.li-3') }}</span></li>
                             </ul>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                {{ $t('tabs.stock.li-3') }}
+                                <a href="/products">{{ $t('tabs.stock.catalog-link') }}</a>
                             </p>
                         </div>
-                        <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
+                        <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="zoom-out" data-aos-delay="200">
+                            <img src="/img/about/about.jpg" alt="" class="img-fluid animated rounded">
                         </div>
                     </div>
                 </div><!-- End Tab Content Item -->
@@ -73,33 +68,25 @@
                 <div class="tab-pane fade" id="tabs-tab-2">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
+                            <h3>{{ $t('tabs.rent.h3') }}</h3>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                {{ $t('tabs.rent.p') }}
                             </p>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
-                                magna aliqua.
+                                {{ $t('tabs.rent.p-itali') }}
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores
-                                        dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.rent.li-1') }}</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.rent.li-2') }}
+                                </span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.rent.li-3') }}</span></li>
                             </ul>
+                            <p>
+                                {{ $t('tabs.rent.p-end') }}
+                            </p>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
+                            <img src="/img/about/rent-a-ramp.jpg" alt="" class="img-fluid rounded">
                         </div>
                     </div>
                 </div><!-- End Tab Content Item -->
@@ -107,30 +94,21 @@
                 <div class="tab-pane fade" id="tabs-tab-3">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                            <h3>{{ $t('tabs.security.h3') }}</h3>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                {{ $t('tabs.security.p') }}
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores
-                                        dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.security.li-1') }}</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.security.li-2') }}</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.security.li-3') }}</span></li>
                             </ul>
-                            <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
-                                magna aliqua.
+                            <p>
+                                {{ $t('tabs.security.p-end') }}
                             </p>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
+                            <img src="/img/about/loading-ramp-security.jpg" alt="" class="img-fluid rounded">
                         </div>
                     </div>
                 </div><!-- End Tab Content Item -->
@@ -138,31 +116,24 @@
                 <div class="tab-pane fade" id="tabs-tab-4">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                            <h3>{{ $t('tabs.support.h3') }}</h3>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                {{ $t('tabs.support.p') }}
                             </p>
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
-                                magna aliqua.
+                                {{ $t('tabs.support.p-itali') }}
                             </p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in
-                                        voluptate velit.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                        storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.support.li-1') }}.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.support.li-2') }}</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>{{ $t('tabs.support.li-3') }}</span></li>
                             </ul>
+                            <p>
+                                {{ $t('tabs.support.p-end') }}
+                            </p>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+                            <img src="/img/about/reliable-partner.jpg" alt="" class="img-fluid rounded">
                         </div>
                     </div>
                 </div><!-- End Tab Content Item -->

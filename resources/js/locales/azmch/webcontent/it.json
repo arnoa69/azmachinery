@@ -105,6 +105,47 @@
         "title": "Completa le tue informazioni",
         "close-button": "Esci"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Inventario globale: oltre 500 rampe in magazzino",
+            "h3": "Grande quantità di scorte pronte per la spedizione!",
+            "p": "Abbiamo tutto ciò di cui hai bisogno con un incredibile stock di materiali di alta qualità, tutti prodotti internamente e pronti per la consegna immediata.",
+            "li-1": "Controlliamo ogni fase del processo, garantendo qualità eccezionale e coerenza in ogni prodotto.",
+            "li-2": "Nessuna attesa! Abbiamo un vasto inventario pronto per la spedizione, così puoi iniziare subito il tuo progetto.",
+            "li-3": "Il tempo è denaro. Offriamo opzioni di consegna rapide e affidabili per consegnarti i materiali in modo rapido ed efficiente.",
+            "p-end": "Non accontentarti di meno. Scegli i migliori materiali, sostenuti dal nostro impegno per la qualità e la soddisfazione del cliente. Sfoglia il nostro vasto catalogo oggi stesso e scopri la rampa di carico perfetta.",
+            "catalog-link": "Catalogo"
+        },
+        "rent": {
+            "teaser": "Hai bisogno di una rampa di carico? Noleggiala, non acquistarla!",
+            "h3": "Soluzioni flessibili per carico e scarico",
+            "p": "Stanco dei fastidi e delle spese di possedere una rampa di carico? AZ RAMP offre una soluzione più intelligente: noleggi di rampe flessibili ed economici su misura per le tue esigenze specifiche.",
+            "p-itali": "Hai colli di bottiglia logistici e capacità di carico/scarico limitate? AZ Machinery offre il noleggio di rampe di carico di alta qualità su misura per le tue esigenze specifiche.",
+            "li-1": "Noleggia fino a 36 mesi, adattandoti alla tua timeline di progetto ed evitando impegni a lungo termine.",
+            "li-2": "Scegli tra una gamma di rampe con diverse capacità di carico, larghezze e configurazioni per adattarsi perfettamente alle tue esigenze di carico e scarico.",
+            "li-3": "AZ Machinery è uno dei pochi fornitori che offre il noleggio di rampe di carico, permettendoti di accedere ad attrezzature specializzate senza l'onere della proprietà.",
+            "p-end": "Elimina il pesante investimento iniziale nell'acquisto di una rampa e goditi costi di noleggio prevedibili e trasparenti senza costi nascosti."
+        },
+        "security": {
+            "teaser": "Carica con fiducia!",
+            "h3": "Rampe di carico e priorità alla sicurezza nelle tue operazioni",
+            "p": "Assicura un processo di carico/scarico sicuro ed efficiente con le rampe a noleggio di alta qualità di AZ Machinery, progettate con la sicurezza come massima priorità.",
+            "li-1": "La costruzione robusta e i materiali superiori garantiscono una piattaforma stabile e affidabile per le tue operazioni di carico/scarico.",
+            "li-2": "Le superfici antiscivolo riducono al minimo il rischio di scivolamenti, inciampi e cadute, garantendo la sicurezza del tuo personale e del tuo carico.",
+            "li-3": "Previeni movimenti accidentali e assicura una connessione sicura tra la rampa e la banchina di carico o il pianale del camion.",
+            "p-end": "Da AZ Machinery, comprendiamo che la sicurezza è fondamentale in qualsiasi ambiente di carico/scarico. Le nostre rampe sono progettate e mantenute meticolosamente per soddisfare i più elevati standard di sicurezza, fornendoti tranquillità e riducendo al minimo il rischio di incidenti."
+        },
+        "support": {
+            "teaser": "Partner affidabile per operazioni senza intoppi",
+            "h3": "Sperimenta l'efficienza senza interruzioni con AZ Machinery",
+            "p": "Goditi operazioni di carico/scarico senza intoppi con le nostre rampe affidabili e servizi di supporto completi, progettati per offrirti la massima tranquillità.",
+            "p-itali": "Il nostro impegno per la tua soddisfazione include:",
+            "li-1": "Il nostro team dedicato è disponibile 24 ore su 24 per rispondere alle tue domande, preoccupazioni e richieste urgenti, garantendo operazioni senza interruzioni.",
+            "li-2": "Nel raro caso di un malfunzionamento della rampa, i nostri tecnici esperti diagnosticheranno e risolveranno tempestivamente il problema, riducendo al minimo i tempi di inattività e mantenendo le tue operazioni in funzione senza problemi.",
+            "li-3": "Manteniamo un vasto inventario di rampe di ricambio immediatamente disponibili, garantendoti sempre accesso a una rampa funzionante, anche in situazioni impreviste.",
+            "p-end": "Da AZ Machinery, comprendiamo che i tempi di inattività possono essere costosi e distruttivi. Ecco perché facciamo tutto il possibile per offrire un supporto clienti eccezionale e garantire l'affidabilità delle nostre rampe a noleggio."
+        }
+    },
     "about": {
         "title": "Rampe mobili completamente zincate",
         "point-1-title": "Assicura il tuo carico in tutta sicurezza",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Testimonianze",
+        "subTitle": "Cosa dicono i nostri clienti",
         "louiseSvensonText": "Grande Mobile Dock Ramp. Abbiamo 5 unità del modello di rampa Az Prime WLO 8+. Consegnato in Danimarca solo 10 giorni dopo l'ordine. Il contatto con Jérôme GUIGUET è stato molto buono; Queste rampe sono molto facili da usare, di buona qualità. Anche il team logistico le apprezza molto.",
         "brunoDreixText": "Acquisto di una rampa con tempi di consegna garantiti al 100%. La disponibilità è un vero vantaggio. Monitoraggio commerciale di prima classe dall'ordine alla consegna e il rappresentante di vendita conosce i suoi prodotti come le sue tasche.",
         "proFoodCenterText": "Siamo molto contenti della rampa che abbiamo ricevuto. Rampa molto robusta e gestibile. Siamo rimasti sorpresi dalla velocità di consegna (10 giorni tra il contatto e la ricezione della rampa). Azienda molto professionale!",

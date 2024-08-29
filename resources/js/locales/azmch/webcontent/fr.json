@@ -105,6 +105,47 @@
         "title": "Complétez vos informations",
         "close-button": "Quitter"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Inventaire mondial : plus de 500 rampes en stock",
+            "h3": "Un stock massif prêt à être expédié !",
+            "p": "Nous avons tout ce qu'il vous faut avec un incroyable stock de matériaux de haute qualité, tous produits en interne et prêts pour une livraison immédiate.",
+            "li-1": "Nous contrôlons chaque étape du processus, garantissant une qualité exceptionnelle et une cohérence dans chaque produit.",
+            "li-2": "Pas d'attente ! Nous avons un vaste inventaire prêt à être expédié, afin que vous puissiez commencer votre projet immédiatement.",
+            "li-3": "Le temps, c'est de l'argent. Nous offrons des options de livraison rapides et fiables pour vous livrer vos matériaux rapidement et efficacement.",
+            "p-end": "Ne vous contentez pas de moins. Choisissez les meilleurs matériaux, soutenus par notre engagement envers la qualité et la satisfaction du client. Parcourez notre vaste catalogue dès aujourd'hui et découvrez la rampe de chargement parfaite.",
+            "catalog-link": "Catalogue"
+        },
+        "rent": {
+            "teaser": "Besoin d'une rampe de chargement ? Louez-la, ne l'achetez pas !",
+            "h3": "Des solutions flexibles pour le chargement et le déchargement",
+            "p": "Marre des tracas et des frais liés à la possession d'une rampe de chargement ? AZ RAMP propose une solution plus intelligente : des locations de rampes flexibles et économiques adaptées à vos besoins spécifiques.",
+            "p-itali": "Vous avez des goulots d'étranglement logistiques et des capacités de chargement/déchargement limitées ? AZ Machinery propose la location de rampes de chargement de haute qualité adaptées à vos besoins spécifiques.",
+            "li-1": "Louez jusqu'à 36 mois, en vous adaptant à votre calendrier de projet et en évitant les engagements à long terme.",
+            "li-2": "Choisissez parmi une gamme de rampes avec différentes capacités de charge, largeurs et configurations pour répondre parfaitement à vos besoins de chargement et de déchargement.",
+            "li-3": "AZ Machinery est l'un des rares fournisseurs à proposer la location de rampes de chargement, vous donnant accès à un équipement spécialisé sans le fardeau de la propriété.",
+            "p-end": "Éliminez l'investissement initial important de l'achat d'une rampe et profitez de coûts de location prévisibles et transparents sans frais cachés."
+        },
+        "security": {
+            "teaser": "Chargez en toute confiance !",
+            "h3": "Rampe de chargement et priorité à la sécurité dans vos opérations",
+            "p": "Assurez un processus de chargement/déchargement sécurisé et efficace avec les rampes de location de haute qualité d'AZ Machinery, conçues avec la sécurité comme priorité absolue.",
+            "li-1": "Une construction robuste et des matériaux de qualité supérieure garantissent une plateforme stable et fiable pour vos opérations de chargement/déchargement.",
+            "li-2": "Les surfaces antidérapantes minimisent le risque de glissades, de trébuchements et de chutes, garantissant la sécurité de votre personnel et de votre cargaison.",
+            "li-3": "Évitez les mouvements accidentels et assurez une connexion sécurisée entre la rampe et le quai de chargement ou le plateau du camion.",
+            "p-end": "Chez AZ Machinery, nous comprenons que la sécurité est primordiale dans tout environnement de chargement/déchargement. Nos rampes sont méticuleusement conçues et entretenues pour répondre aux normes de sécurité les plus élevées, vous offrant ainsi la tranquillité d'esprit et minimisant le risque d'accidents."
+        },
+        "support": {
+            "teaser": "Un partenaire fiable pour des opérations fluides",
+            "h3": "Découvrez une efficacité ininterrompue avec AZ Machinery",
+            "p": "Profitez d'opérations de chargement/déchargement fluides avec nos rampes fiables et nos services d'assistance complets, conçus pour vous offrir une tranquillité d'esprit totale.",
+            "p-itali": "Notre engagement envers votre satisfaction comprend :",
+            "li-1": "Notre équipe dédiée est disponible 24h/24 pour répondre à vos questions, préoccupations et demandes urgentes, garantissant des opérations ininterrompues.",
+            "li-2": "En cas de dysfonctionnement rare d'une rampe, nos techniciens experts diagnostiquent et résolvent rapidement le problème, minimisant ainsi les temps d'arrêt et assurant le bon fonctionnement de vos opérations.",
+            "li-3": "Nous maintenons un vaste inventaire de rampes de remplacement disponibles immédiatement, vous garantissant un accès à une rampe fonctionnelle, même en cas de situations imprévues.",
+            "p-end": "Chez AZ Machinery, nous comprenons que les temps d'arrêt peuvent être coûteux et perturbateurs. C'est pourquoi nous faisons tout notre possible pour offrir un support client exceptionnel et garantir la fiabilité de nos rampes de location."
+        }
+    },
     "about": {
         "title": "Rampes mobiles entièrement galvanisées",
         "point-1-title": "Sécurisez votre chargement",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Témoignages",
+        "subTitle": "Ce que disent nos clients",
         "louiseSvensonText": "Grande Mobile Dock Ramp. Nous avons 5 unités du modèle de ramp Az Prime WLO 8+. Livré au Danemark seulement 10 jours après la commande. Le contact avec Jérôme GUIGUET a été très bonne; Ces rampes sont très faciles à utiliser, de bonne qualité. L'équipe logistique les apprécie beaucoup.",
         "brunoDreixText": "Achat d'une rampe avec un délai de livraison garanti à 100%. La disponibilité est un vrai plus. Un suivi commercial de premier ordre de la commande à la livraison et le commercial connaît ses produits comme sa poche.",
         "proFoodCenterText": "Nous sommes très satisfaits de la rampe que nous avons reçue. Rampe très robuste et maniable. Nous avons été surpris par la rapidité de la livraison (10 jours entre le contact et la réception de la rampe). Une entreprise très professionnelle!",

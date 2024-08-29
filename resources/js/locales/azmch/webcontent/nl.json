@@ -105,6 +105,47 @@
         "title": "Vul uw gegevens in",
         "close-button": "Sluiten"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Wereldwijde voorraad: 500+ ramps op voorraad",
+            "h3": "Grote voorraad klaar voor verzending!",
+            "p": "Wij hebben u gedekt met een ongelooflijke voorraad hoogwaardige materialen, allemaal in eigen huis geproduceerd en klaar voor onmiddellijke levering.",
+            "li-1": "Wij controleren elke stap van het proces, waardoor we uitzonderlijke kwaliteit en consistentie in elk product kunnen garanderen.",
+            "li-2": "Geen wachttijd! We hebben een enorme voorraad klaar voor verzending, zodat u direct aan uw project kunt beginnen.",
+            "li-3": "Tijd is geld. We bieden snelle en betrouwbare leveringsopties om uw materialen snel en efficiënt bij u te krijgen.",
+            "p-end": "Neem geen genoegen met minder. Kies de beste materialen, ondersteund door onze toewijding aan kwaliteit en klanttevredenheid. Blader vandaag nog door ons uitgebreide catalogus en ontdek de perfecte laadklep.",
+            "catalog-link": "Catalogus"
+        },
+        "rent": {
+            "teaser": "Een laadklep nodig? Huur het, koop het niet!",
+            "h3": "Flexibele oplossingen voor laden en lossen",
+            "p": "Beu van het gedoe en de kosten van het bezit van een laadklep? AZ RAMP biedt een slimmere oplossing: flexibele, kosteneffectieve rampverhuur aangepast aan uw specifieke behoeften.",
+            "p-itali": "Logistieke knelpunten en beperkte laad-/losmogelijkheden? AZ Machinery biedt verhuur van hoogwaardige laadkleppen aangepast aan uw specifieke behoeften.",
+            "li-1": "Huur tot 36 maanden, aangepast aan uw projectplanning en vermijd langdurige verplichtingen.",
+            "li-2": "Kies uit een reeks ramps met verschillende draagvermogens, breedtes en configuraties om perfect aan te sluiten bij uw laad- en losvereisten.",
+            "li-3": "AZ Machinery is een van de weinige aanbieders die verhuur van laadbruggen aanbiedt, waardoor je toegang hebt tot gespecialiseerd materieel zonder de lasten van eigendom.",
+            "p-end": "Elimineer de zware initiële investering van het kopen van een ramp en geniet van voorspelbare, transparante huurlasten zonder verborgen kosten."
+        },
+        "security": {
+            "teaser": "Laad met vertrouwen!",
+            "h3": "Laadkleppen en veiligheid als prioriteit in uw operaties",
+            "p": "Zorg voor een veilige en efficiënte laad-/losprocedure met de hoogwaardige verhuurramps van AZ Machinery, ontworpen met veiligheid als hoogste prioriteit.",
+            "li-1": "Robuuste constructie en superieure materialen garanderen een stabiel en betrouwbaar platform voor uw laad-/losoperaties.",
+            "li-2": "Antislipoppervlakken minimaliseren het risico op uitglijden, struikelen en vallen, waardoor de veiligheid van uw personeel en lading wordt gewaarborgd.",
+            "li-3": "Voorkom onbedoelde beweging en zorg voor een veilige verbinding tussen de ramp en het laadperron of de vrachtwagen.",
+            "p-end": "Bij AZ Machinery begrijpen we dat veiligheid van het grootste belang is in elke laad-/losomgeving. Onze ramps zijn zorgvuldig ontworpen en onderhouden om te voldoen aan de hoogste veiligheidsnormen, zodat u gemoedsrust heeft en het risico op ongevallen wordt geminimaliseerd."
+        },
+        "support": {
+            "teaser": "Betrouwbare partner voor naadloze operaties",
+            "h3": "Ervaar ononderbroken efficiëntie met AZ Machinery",
+            "p": "Geniet van naadloze laad-/losoperaties met onze betrouwbare ramps en uitgebreide ondersteuningsdiensten, ontworpen om u volledige gemoedsrust te bieden.",
+            "p-itali": "Onze toewijding aan uw tevredenheid omvat:",
+            "li-1": "Ons toegewijde team staat 24/7 klaar om uw vragen, zorgen en dringende verzoeken te beantwoorden, zodat uw operaties ononderbroken verlopen.",
+            "li-2": "In het zeldzame geval van een rampstoring, zullen onze deskundige technici het probleem snel diagnosticeren en oplossen, zodat uw operaties soepel blijven verlopen.",
+            "li-3": "Wij hebben een grote voorraad direct beschikbare vervangende ramps, zodat u altijd toegang heeft tot een functionele ramp, zelfs in onverwachte situaties.",
+            "p-end": "Bij AZ Machinery begrijpen we dat downtime kostbaar en storend kan zijn. Daarom gaan we verder dan andere om uitzonderlijke klantenondersteuning te bieden en de betrouwbaarheid van onze verhuurramps te waarborgen."
+        }
+    },
     "about": {
         "title": "Volledig gegalvaniseerde mobiele hellingen",
         "point-1-title": "Zekeer uw lading met vertrouwen",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Klantbeoordelingen",
+        "subTitle": "Wat onze klanten over ons zeggen",
         "louiseSvensonText": "Grote Mobiele Dock Ramp. We hebben 5 eenheden van het Az Prime WLO 8+-model. Verkocht in Denemarken slechts 10 dagen na de bestelling. Contact met Jérôme GUIGUET was erg goed; Deze rampen zijn erg gemakkelijk te gebruiken, van goede kwaliteit. Ook de logistieke team waarderen deze zeer.",
         "brunoDreixText": "Aankoop van een oprit met 100% gegarandeerde levertijd. De beschikbaarheid is een echt pluspunt. Eersteklas commerciële opvolging van bestelling tot levering en de vertegenwoordiger kent zijn producten op zijn duimpje.",
         "proFoodCenterText": "Wij zijn erg tevreden over de ramp die we hebben ontvangen. Robuuste en handzame ramp. We waren verrast door de snelheid van de levering (slechts 10 dagen tussen contact en ontvangst van de ramp). Een erg professionele onderneming!",

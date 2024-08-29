@@ -105,6 +105,47 @@
         "title": "Fyll ut dine opplysninger",
         "close-button": "Lukk"
     },
+    "tabs": {
+        "stock": {
+            "teaser": "Global lager: 500+ ramper på lager",
+            "h3": "Stor lagerbeholdning klar til å sendes!",
+            "p": "Vi har deg dekket med et utrolig lager av materialer av høy kvalitet, alle produsert internt og klare for umiddelbar levering.",
+            "li-1": "Vi kontrollerer hvert steg i prosessen, og sikrer eksepsjonell kvalitet og konsistens i hvert produkt.",
+            "li-2": "Ingen venting! Vi har et stort lager klart til å sendes, slik at du kan komme i gang med prosjektet ditt med en gang.",
+            "li-3": "Tid er penger. Vi tilbyr raske og pålitelige leveringsalternativer for å få materialene dine raskt og effektivt frem.",
+            "p-end": "Ikke nøye deg med mindre. Velg de beste materialene, støttet av vår forpliktelse til kvalitet og kundetilfredshet. Bla gjennom vår omfattende katalog i dag og oppdag den perfekte lasterampen.",
+            "catalog-link": "Katalog"
+        },
+        "rent": {
+            "teaser": "Trenger du en lasterampe? Lei den, ikke kjøp den!",
+            "h3": "Fleksible løsninger for lasting og lossing",
+            "p": "Lei av bryet og kostnadene ved å eie en lasterampe? AZ RAMP tilbyr en smartere løsning: fleksibel og kostnadseffektiv utleie av ramper skreddersydd til dine spesifikke behov.",
+            "p-itali": "Har du logistiske flaskehalser og begrensede laste-/lossingskapasiteter? AZ Machinery tilbyr utleie av høykvalitets lasteramper tilpasset dine spesifikke behov.",
+            "li-1": "Lei opptil 36 måneder, tilpasset prosjektplanen din og unngå langsiktige forpliktelser.",
+            "li-2": "Velg blant et utvalg av ramper med varierende lastekapasitet, bredder og konfigurasjoner for å matche dine laste- og lossebehov perfekt.",
+            "li-3": "AZ Machinery er en av få leverandører som tilbyr utleie av lasteramper, og gir deg tilgang til spesialutstyr uten eierskapsbyrden.",
+            "p-end": "Eliminer den tunge oppstartsinvesteringen ved å kjøpe en rampe, og nyt forutsigbare og transparente leiekostnader uten skjulte avgifter."
+        },
+        "security": {
+            "teaser": "Last med trygghet!",
+            "h3": "Lasteramper og prioriter sikkerhet i operasjonene dine",
+            "p": "Sørg for en sikker og effektiv laste-/losseprosess med AZ Machinerys høykvalitets utleieramper, utviklet med sikkerhet som topp prioritet.",
+            "li-1": "Robust konstruksjon og overlegne materialer garanterer en stabil og pålitelig plattform for dine laste-/losseoperasjoner.",
+            "li-2": "Sklisikre overflater minimerer risikoen for sklir, fall og fall, og sikrer sikkerheten til personell og last.",
+            "li-3": "Forhindre utilsiktet bevegelse og sørg for en sikker tilkobling mellom rampen og lastebryggen eller lastebilplanet.",
+            "p-end": "Hos AZ Machinery forstår vi at sikkerhet er avgjørende i ethvert laste-/lossemiljø. Våre ramper er nøye designet og vedlikeholdt for å møte de høyeste sikkerhetsstandardene, og gir deg trygghet og minimerer risikoen for ulykker."
+        },
+        "support": {
+            "teaser": "Pålitelig partner for sømløse operasjoner",
+            "h3": "Opplev uavbrutt effektivitet med AZ Machinery",
+            "p": "Nyt sømløse laste-/losseoperasjoner med våre pålitelige ramper og omfattende støttetjenester, designet for å gi deg fullstendig trygghet.",
+            "p-itali": "Vår forpliktelse til din tilfredshet inkluderer:",
+            "li-1": "Vårt dedikerte team er tilgjengelig døgnet rundt for å besvare dine spørsmål, bekymringer og hasteforespørsler, og sikre uavbrutt drift.",
+            "li-2": "I det sjeldne tilfellet av en rampesvikt vil våre eksperteknikere raskt diagnostisere og løse problemet, minimere nedetid og holde operasjonene dine i gang.",
+            "li-3": "Vi opprettholder et stort lager av tilgjengelige erstatningsramper, slik at du alltid har tilgang til en funksjonell rampe, selv i uforutsette situasjoner.",
+            "p-end": "Hos AZ Machinery forstår vi at nedetid kan være kostbart og forstyrrende. Derfor går vi lenger enn andre for å gi eksepsjonell kundestøtte og sikre påliteligheten til våre utleieramper."
+        }
+    },
     "about": {
         "title": "Fullstendig galvaniserte mobile ramper",
         "point-1-title": "Sikre lasten dine med trygghet",
@@ -171,6 +212,8 @@
         }
     },
     "testimonials": {
+        "title": "Kundeuttalelser",
+        "subTitle": "Hva våre kunder sier om oss",
         "louiseSvensonText": "Store mobil dock ramp. Vi har 5 enheter av Az Prime WLO 8+-modellen. Leveret til Danmark bare 10 dager etter bestilling. Kontaktet med Jérôme GUIGUET var ganske godt; disse rampene er ganske enkle å bruke, av høy kvalitet. Logistikkteamet elsker dem også.",
         "brunoDreixText": "Kjøp av rampe med 100 % garantert leveringstid. Tilgjengeligheten er et reelt pluss. Førsteklasses kommersiell overvåking fra bestilling til levering og salgsrepresentanten kjenner produktene sine som sin egen bukselomme.",
         "proFoodCenterText": "Vi er svært fornøyd med rampen vi fikk. Robust og lett å bruke ramp. Vi var overrasket av hastigheten på levering (bare 10 dager mellom kontakt og mottak av rampen). En ganske profesjonell bedrift!",
