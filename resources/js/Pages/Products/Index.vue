@@ -66,7 +66,6 @@ const showPolicyBanner = ref(false)
                     <div class="row categories-list">
                         <div class="service-details">
                             <HelpSidebar :page_or_slug="page_or_slug" />
-                            <CategorySidebar />
                         </div>
                     </div>
                 </div>
@@ -83,7 +82,7 @@ const showPolicyBanner = ref(false)
                                 </time>
                             </div>
                             <div class="postcard__bar"></div>
-                            <div class="postcard__preview-txt">{{ $t(`category.${type}.description`) }}</div>
+                            <div class="postcard__preview-txt">{{ $t(`categories.${type}.description`) }}</div>
                             <ul class="postcard__tagbox">
                                 <li class="tag__item"><i class="fas fa-tag mr-2"></i>{{ type }}</li>
                                 <li class="tag__item"><i class="fas fa-clock mr-2"></i>locaction 1,3,6 meses</li>

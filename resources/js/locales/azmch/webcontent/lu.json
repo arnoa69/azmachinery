@@ -184,6 +184,11 @@
         "title4": "Employé"
     },
     "contact": {
+        "bar": {
+            "quote": "Kritt en Offer",
+            "share": "Deelen",
+            "calculator": "Rechner"
+        },
         "helpbox": {
             "title": "Kontaktéiert eis",
             "subTitle": "Mir kontaktéieren Iech sou séier wéi méiglech.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Politik akzeptéieren a verstoen"
     },
     "categories": {
+        "star": {
+            "description": "D'Rampe Star ass eng villsaiteg Optioun mat verschiddene Belaaschtungscapacitéiten (8t, 10t, 12t, 15t, 20t) an Konfiguratiounen (Standard, laang Niveauausfahrt, extra grouss, LLO-XL). Si ass gëeegent fir eng breet Palette vu Gefierer an Uwendungen an bitt Flexibilitéit an Personaliséierung."
+          },
+          "easy-xl": {
+            "description": "Entworf fir schwéier Uwendungen, huet d'EAS-XL eng extra grouss Plattform fir iwwerdimensionéiert Belaaschtungen an grouss Gefierer opzehuelen."
+          },
+          "wlo": {
+            "description": "Ideal fir Situatiounen déi eng laang, niveléiert Iwwergank erfuerderen, bitt d'WLO-Rampe eng glat an eenheetlech Uewerfläch fir d'Belaaschtung an d'Entlaaschtung."
+          },
+          "prime-xs": {
+            "description": "Eng kompakt an liicht Rampe, perfekt fir méi kleng Gefierer an Plazen mat limitéierten Zougank."
+          },
+          "star-otc": {
+            "description": "Eng villsaiteg Rampe déi fir verschidden Uwendungen gëeegent ass an eng robust an zouverléisseg Léisung bitt."
+          },
+          "big-foot": {
+            "description": "Entworf fir ongläich Terrain an schwéier Belaaschtungen, bitt d'Big-Foot-Rampe eng aussergewéinlech Stabilitéit an eng grouss Kontaktfläch."
+          },
+          "hcrn-06": {
+            "description": "D'HCRN-06 ass eng héichwäerteg Containerrampe déi fir eng effizient an sécher Belaaschtung an Entlaaschtung vu 20-Fouss-Containeren entwéckelt gouf. Si huet eng robust Konstruktioun, zouverléisseg Verriegelungsmechanismen an e benutzerfrëndlecht Design."
+          },
+          "hcrn-065": {
+            "description": "D'HCRN-065 ass eng e bëssen méi grouss Containerrampe déi fir d'Handhabung vu 20-Fouss an 40-Fouss-Containeren gëeegent ass. Si bitt eng méi breet Plattform fir eng méi einfach Belaaschtung an Entlaaschtung an integréiert fortgeschratt Sécherheetsfunktiounen."
+          },
+          "hcrn-08": {
+            "description": "D'HCRN-08 ass eng robust Containerrampe déi entwéckelt gouf fir déi schwéierst Belaaschtungen opzehuelen. Si huet eng verstäerkt Konstruktioun, eng extra breet Plattform an fortgeschratt Sécherheetsfunktiounen."
+          },
+          "hcry-08": {
+            "description": "D'HCRY-08 ass eng spezialiséiert Containerrampe déi fir den Asaz an agegrenzte Raim entwéckelt gouf. Si huet e kompakt Design an eng einfach Manövrierbarkeet, wat si ideal fir méi kleng Belaaschtungsberäicher mécht."
+          },
+          "secu-dock": {
+            "description": "D'Secudock ass eng Premium-Containerrampe déi bekannt ass fir hir aussergewéinlech Sécherheetsfunktiounen. Si integréiert modern Technologie fir Accidenter ze vermeiden an e sécheren Belaaschtungs- an Entlaaschtungsprozess ze garantéieren."
+          },
         "main": {
             "head": {
                 "title": "Erkënck d's Range vun Loading Ramp-Typen | AZ Machinery - Franséisch Qualitéit",

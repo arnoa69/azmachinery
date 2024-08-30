@@ -184,6 +184,11 @@
         "title4": "Anställd"
     },
     "contact": {
+        "bar": {
+            "quote": "Få ett offert",
+            "share": "Dela",
+            "calculator": "Kalkylator"
+        },
         "helpbox": {
             "title": "Kontakta oss",
             "subTitle": "Vi kontaktar dig så snart som möjligt.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Acceptera och förstå policy"
     },
     "categories": {
+        "star": {
+            "description": "Star-rampen är ett mångsidigt alternativ med olika lastkapaciteter (8t, 10t, 12t, 15t, 20t) och konfigurationer (standard, lång jämn avfart, extra stor, LLO-XL). Den är lämplig för ett brett spektrum av fordon och applikationer, och erbjuder flexibilitet och anpassning."
+          },
+          "easy-xl": {
+            "description": "Designad för tunga applikationer, har EAS-XL en extra stor plattform för att kunna hantera överdimensionerade laster och stora fordon."
+          },
+          "wlo": {
+            "description": "Idealisk för situationer som kräver en lång, jämn övergång, ger WLO-rampen en jämn och enhetlig yta för lastning och lossning."
+          },
+          "prime-xs": {
+            "description": "En kompakt och lätt ramp, perfekt för mindre fordon och områden med begränsad åtkomst."
+          },
+          "star-otc": {
+            "description": "En mångsidig ramp som är lämplig för olika applikationer, och erbjuder en robust och tillförlitlig lösning."
+          },
+          "big-foot": {
+            "description": "Designad för ojämn terräng och tunga laster, ger Big-Foot-rampen exceptionell stabilitet och ett stort kontaktområde."
+          },
+          "hcrn-06": {
+            "description": "HCRN-06 är en containerramp av hög kvalitet som är designad för effektiv och säker lastning och lossning av 20-fots containrar. Den har en robust konstruktion, tillförlitliga låsmekanismer och en användarvänlig design."
+          },
+          "hcrn-065": {
+            "description": "HCRN-065 är en något större containerramp som är lämplig för hantering av både 20-fots och 40-fots containrar. Den erbjuder en bredare plattform för enklare lastning och lossning, och inkluderar avancerade säkerhetsfunktioner."
+          },
+          "hcrn-08": {
+            "description": "HCRN-08 är en heavy-duty containerramp som är designad för att hantera de tyngsta lasterna. Den har en förstärkt konstruktion, extra bred plattform och avancerade säkerhetsfunktioner."
+          },
+          "hcry-08": {
+            "description": "HCRY-08 är en specialiserad containerramp som är designad för användning i trånga utrymmen. Den har en kompakt design och enkel manövrerbarhet, vilket gör den idealisk för mindre lastningsområden."
+          },
+          "secu-dock": {
+            "description": "Secudock är en premium containerramp som är känd för sina exceptionella säkerhetsfunktioner. Den integrerar avancerad teknik för att förhindra olyckor och säkerställa en säker lastning och lossningsprocess."
+          },
         "main": {
             "head": {
                 "title": "Utforska Vårt Utbud av Lastningsrampstyper | AZ Machinery - Fransk kvalitet",

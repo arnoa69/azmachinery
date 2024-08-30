@@ -184,6 +184,11 @@
         "title4": "Employés"
     },
     "contact": {
+        "bar": {
+            "quote": "Devis",
+            "share": "Partager",
+            "calculator": "Calculatrice"
+        },
         "helpbox": {
             "title": "Contactez-nous",
             "subTitle": "Nous vous répondrons dès que possible.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Accepter et comprendre la politique"
     },
     "categories": {
+        "star": {
+            "description": "La rampe Star est une option polyvalente avec différentes capacités de charge (8t, 10t, 12t, 15t, 20t) et configurations (standard, niveau long, extra large, LLO-XL). Elle convient à une large gamme de véhicules et d'applications, offrant flexibilité et personnalisation."
+          },
+          "easy-xl": {
+            "description": "Conçue pour les applications lourdes, la EAS-XL dispose d'une plateforme extra-large pour accueillir les charges surdimensionnées et les véhicules de grande taille."
+          },
+          "wlo": {
+            "description": "Idéale pour les situations nécessitant une transition longue et de niveau, la rampe WLO offre une surface lisse et uniforme pour le chargement et le déchargement."
+          },
+          "prime-xs": {
+            "description": "Une rampe compacte et légère, parfaite pour les petits véhicules et les espaces avec un accès limité."
+          },
+          "star-otc": {
+            "description": "Une rampe polyvalente adaptée à diverses applications, offrant une solution robuste et fiable."
+          },
+          "big-foot": {
+            "description": "Conçue pour les terrains accidentés et les charges lourdes, la rampe Big-Foot offre une stabilité exceptionnelle et une large surface de contact."
+          },
+          "hcrn-06": {
+            "description": "La HCRN-06 est une rampe à conteneurs de haute qualité conçue pour le chargement et le déchargement efficaces et sûrs des conteneurs de 20 pieds. Elle se caractérise par une construction robuste, des mécanismes de verrouillage fiables et une conception conviviale."
+          },
+          "hcrn-065": {
+            "description": "La HCRN-065 est une rampe à conteneurs légèrement plus grande adaptée à la manipulation des conteneurs de 20 et 40 pieds. Elle offre une plateforme plus large pour un chargement et un déchargement plus faciles et intègre des fonctionnalités de sécurité avancées."
+          },
+          "hcrn-08": {
+            "description": "La HCRN-08 est une rampe à conteneurs robuste conçue pour accueillir les charges les plus lourdes. Elle est dotée d'une construction renforcée, d'une plateforme extra-large et de fonctionnalités de sécurité avancées."
+          },
+          "hcry-08": {
+            "description": "La HCRY-08 est une rampe à conteneurs spécialisée conçue pour une utilisation dans les espaces confinés. Elle se caractérise par un design compact et une maniabilité facile, ce qui la rend idéale pour les zones de chargement plus petites."
+          },
+          "secu-dock": {
+            "description": "La Secudock est une rampe à conteneurs haut de gamme reconnue pour ses fonctionnalités de sécurité exceptionnelles. Elle intègre une technologie de pointe pour prévenir les accidents et garantir un processus de chargement et de déchargement sécurisé."
+          },
         "main": {
             "head": {
                 "title": "Explorez Notre Gamme de Types de Plateformes d'Enlèvement | AZ Machinery - Qualité française",

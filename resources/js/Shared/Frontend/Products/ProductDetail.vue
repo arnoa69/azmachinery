@@ -107,32 +107,6 @@ onMounted(() => {
     currentComponent.value = 'PriceCalculator';
 });
 
-// const currentComponentProps = ref({});
-
-// watch(currentComponent, (newComponent) => {
-//   if (newComponent === 'price-calculator') {
-//     currentComponentProps.value = {
-//       baseName: product.base_name,
-//       slug: product.slug,
-//       price: product.total_price,
-//       version: product.version,
-//       type: product.type,
-//     };
-//   } else {
-//     currentComponentProps.value = {
-//       page_or_slug: product.slug,
-//     };
-//   }
-// });
-// function shareProduct() {
-//   // Öffne ein Share-Fenster
-//   const shareData = {
-//     title: 'Produkt teilen',
-//     text: 'Ich möchte dieses Produkt teilen:',
-//     url: 'https://example.com/product/' + product.slug,
-//   };
-//   navigator.share(shareData);
-// }
 
 </script>
 
@@ -245,16 +219,16 @@ onMounted(() => {
                                 </div><!-- wrapper -->
                                 <div class="contact-bar">
                                     <span class="open-window" @click="showHelpSidebar"><i
-                                            class="bi bi-clipboard-data"></i> Quote</span>
+                                            class="bi bi-clipboard-data"></i> {{ $t("contact.bar.quote") }}</span>
                                     &nbsp;&nbsp;
                                     <!-- <span class="open-window" @click="showHelpChat"><i class="bi bi-chat"></i>
                                         Seller</span>
                                     &nbsp;&nbsp; -->
                                     <span class="open-window" @click="shareProduct"><i class="bi bi-share"></i>
-                                        Share</span>
+                                        {{ $t("contact.bar.share") }}</span>
                                     &nbsp;&nbsp;
                                     <span class="open-window" @click="showPriceCalculator"><i
-                                            class="bi bi-calculator"></i> Calc</span>
+                                            class="bi bi-calculator"></i> {{ $t("contact.bar.calculator") }}</span>
                                 </div>
                             </div> <!-- END OF LEFT CONTENT COLUMN -->
                         </div>
@@ -311,6 +285,10 @@ onMounted(() => {
     margin-left: 20px;
     border-radius: 10px;
     width: 100%;
+    display: flex; /* Aktiviert Flexbox */
+    justify-content: space-between; /* Verteilt die Elemente gleichmäßig */
+    align-items: center; /* Zentriert die Elemente vertikal */
+    padding: 10px; /* Optional: Innenabstand hinzufügen */
 }
 
 .contact-bar i {

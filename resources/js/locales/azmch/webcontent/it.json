@@ -184,6 +184,11 @@
         "title4": "Dipendenti"
     },
     "contact": {
+        "bar": {
+            "quote": "Preventivo",
+            "share": "Condividi",
+            "calculator": "Calcolatrice"
+        },
         "helpbox": {
             "title": "Contattaci",
             "subTitle": "Ti ti contatteremo il prima possibile.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Accetta e comprendi la politica"
     },
     "categories": {
+        "star": {
+            "description": "La rampa Star è un'opzione versatile con diverse capacità di carico (8t, 10t, 12t, 15t, 20t) e configurazioni (standard, livello lungo, extra large, LLO-XL). È adatta a un'ampia gamma di veicoli e applicazioni, offrendo flessibilità e personalizzazione."
+          },
+          "easy-xl": {
+            "description": "Progettata per applicazioni pesanti, la EAS-XL presenta una piattaforma extra large per ospitare carichi di grandi dimensioni e veicoli di grandi dimensioni."
+          },
+          "wlo": {
+            "description": "Ideale per situazioni che richiedono una transizione lunga e livellata, la rampa WLO fornisce una superficie liscia e uniforme per il carico e lo scarico."
+          },
+          "prime-xs": {
+            "description": "Una rampa compatta e leggera, perfetta per veicoli più piccoli e spazi con accesso limitato."
+          },
+          "star-otc": {
+            "description": "Una rampa versatile adatta a diverse applicazioni, che offre una soluzione robusta e affidabile."
+          },
+          "big-foot": {
+            "description": "Progettata per terreni irregolari e carichi pesanti, la rampa Big-Foot fornisce una stabilità eccezionale e un'ampia area di contatto."
+          },
+          "hcrn-06": {
+            "description": "La HCRN-06 è una rampa per container di alta qualità progettata per il carico e lo scarico efficiente e sicuro di container da 20 piedi. Vanta una costruzione robusta, meccanismi di bloccaggio affidabili e un design intuitivo."
+          },
+          "hcrn-065": {
+            "description": "La HCRN-065 è una rampa per container leggermente più grande adatta a gestire container da 20 e 40 piedi. Offre una piattaforma più ampia per un carico e uno scarico più facili e integra funzionalità di sicurezza avanzate."
+          },
+          "hcrn-08": {
+            "description": "La HCRN-08 è una rampa per container heavy-duty progettata per ospitare i carichi più pesanti. Vanta una costruzione rinforzata, una piattaforma extra larga e funzionalità di sicurezza avanzate."
+          },
+          "hcry-08": {
+            "description": "La HCRY-08 è una rampa per container specializzata progettata per l'uso in spazi ristretti. Vanta un design compatto e una facile manovrabilità, il che la rende ideale per aree di carico più piccole."
+          },
+          "secu-dock": {
+            "description": "La Secudock è una rampa per container premium nota per le sue eccezionali caratteristiche di sicurezza. Integra tecnologie avanzate per prevenire incidenti e garantire un processo di carico e scarico sicuro."
+          },
         "main": {
             "head": {
                 "title": "Esplora il nostro assortimento di tipi di rampe di carico | AZ Machinery - Qualità francese",

@@ -182,6 +182,11 @@
         "title4": "Empleado"
     },
     "contact": {
+        "bar": {
+            "quote": "Presupuesto",
+            "share": "Compartir",
+            "calculator": "Calculadora"
+        },
         "helpbox": {
             "title": "Ponte en contacto",
             "subTitle": "Te responderemos lo antes posible.",
@@ -363,6 +368,39 @@
         "buttonUnderstandPolicy": "Aceptar y entender la política"
     },
     "categories": {
+"star": {
+      "description": "La rampa Star es una opción versátil con diversas capacidades de carga (8t, 10t, 12t, 15t, 20t) y configuraciones (estándar, nivel largo, extra grande, LLO-XL). Es adecuada para una amplia gama de vehículos y aplicaciones, ofreciendo flexibilidad y personalización."
+    },
+    "easy-xl": {
+      "description": "Diseñada para aplicaciones de servicio pesado, la EAS-XL presenta una plataforma extragrande para acomodar cargas de gran tamaño y vehículos grandes."
+    },
+    "wlo": {
+      "description": "Ideal para situaciones que requieren una transición larga y nivelada, la rampa WLO proporciona una superficie lisa y uniforme para la carga y descarga."
+    },
+    "prime-xs": {
+      "description": "Una rampa compacta y ligera, perfecta para vehículos más pequeños y espacios con acceso limitado."
+    },
+    "star-otc": {
+      "description": "Una rampa versátil adecuada para diversas aplicaciones, que ofrece una solución robusta y fiable."
+    },
+    "big-foot": {
+      "description": "Diseñada para terrenos irregulares y cargas pesadas, la rampa Big-Foot proporciona una estabilidad excepcional y una gran área de contacto."
+    },
+    "hcrn-06": {
+      "description": "La HCRN-06 es una rampa para contenedores de alta calidad diseñada para la carga y descarga eficiente y segura de contenedores de 20 pies. Cuenta con una construcción robusta, mecanismos de bloqueo fiables y un diseño fácil de usar."
+    },
+    "hcrn-065": {
+      "description": "La HCRN-065 es una rampa para contenedores ligeramente más grande adecuada para manipular contenedores de 20 y 40 pies. Ofrece una plataforma más amplia para una carga y descarga más fáciles e incorpora funciones de seguridad avanzadas."
+    },
+    "hcrn-08": {
+      "description": "La HCRN-08 es una rampa para contenedores de alta resistencia diseñada para acomodar las cargas más pesadas. Cuenta con una construcción reforzada, una plataforma extra ancha y funciones de seguridad avanzadas."
+    },
+    "hcry-08": {
+      "description": "La HCRY-08 es una rampa para contenedores especializada diseñada para usarse en espacios confinados. Cuenta con un diseño compacto y una fácil maniobrabilidad, lo que la hace ideal para áreas de carga más pequeñas."
+    },
+    "secu-dock": {
+      "description": "La Secudock es una rampa para contenedores premium conocida por sus excepcionales características de seguridad. Incorpora tecnología avanzada para prevenir accidentes y garantizar un proceso de carga y descarga seguro."
+    },
         "main": {
             "head": {
                 "title": "Explore nuestra gama de tipos de rampas de carga | AZ Machinery - Calidad francesa",

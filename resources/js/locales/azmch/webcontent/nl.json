@@ -184,6 +184,11 @@
         "title4": "Werknemers"
     },
     "contact": {
+        "bar": {
+            "quote": "Offerte",
+            "share": "Delen",
+            "calculator": "Rekenmachine"
+        },
         "helpbox": {
             "title": "Neem contact op",
             "subTitle": "We nemen zo snel mogelijk contact met je op.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Accepteer en begrijp het beleid"
     },
     "categories": {
+        "star": {
+            "description": "De Star-oprit is een veelzijdige optie met verschillende draagcapaciteiten (8t, 10t, 12t, 15t, 20t) en configuraties (standaard, lange vlakke afloop, extra groot, LLO-XL). Hij is geschikt voor een breed scala aan voertuigen en toepassingen, en biedt flexibiliteit en aanpassing."
+          },
+          "easy-xl": {
+            "description": "Ontworpen voor zware toepassingen, beschikt de EAS-XL over een extra groot platform om overmaatse ladingen en grote voertuigen te accommoderen."
+          },
+          "wlo": {
+            "description": "Ideaal voor situaties die een lange, vlakke overgang vereisen, biedt de WLO-oprit een glad en gelijkmatig oppervlak voor laden en lossen."
+          },
+          "prime-xs": {
+            "description": "Een compacte en lichte oprit, perfect voor kleinere voertuigen en ruimtes met beperkte toegang."
+          },
+          "star-otc": {
+            "description": "Een veelzijdige oprit die geschikt is voor diverse toepassingen, en een robuuste en betrouwbare oplossing biedt."
+          },
+          "big-foot": {
+            "description": "Ontworpen voor oneffen terrein en zware ladingen, biedt de Big-Foot-oprit uitzonderlijke stabiliteit en een groot contactoppervlak."
+          },
+          "hcrn-06": {
+            "description": "De HCRN-06 is een hoogwaardige containeroprit die is ontworpen voor efficiënt en veilig laden en lossen van 20-voets containers. Hij beschikt over een stevige constructie, betrouwbare vergrendelingsmechanismen en een gebruiksvriendelijk ontwerp."
+          },
+          "hcrn-065": {
+            "description": "De HCRN-065 is een iets grotere containeroprit die geschikt is voor het hanteren van zowel 20-voets als 40-voets containers. Hij biedt een breder platform voor eenvoudiger laden en lossen en bevat geavanceerde veiligheidsfuncties."
+          },
+          "hcrn-08": {
+            "description": "De HCRN-08 is een heavy-duty containeroprit die is ontworpen om de zwaarste ladingen te dragen. Hij beschikt over een versterkte constructie, een extra breed platform en geavanceerde veiligheidsfuncties."
+          },
+          "hcry-08": {
+            "description": "De HCRY-08 is een gespecialiseerde containeroprit die is ontworpen voor gebruik in krappe ruimtes. Hij beschikt over een compact ontwerp en eenvoudige manoeuvreerbaarheid, waardoor hij ideaal is voor kleinere laadzones."
+          },
+          "secu-dock": {
+            "description": "De Secudock is een premium containeroprit die bekend staat om zijn uitzonderlijke veiligheidsfuncties. Hij integreert geavanceerde technologie om ongelukken te voorkomen en een veilig laad- en losproces te garanderen."
+          },
         "main": {
             "head": {
                 "title": "Ontdek Ons Assortiment Lastrijksrampen | AZ Machinery - Franse kwaliteit",

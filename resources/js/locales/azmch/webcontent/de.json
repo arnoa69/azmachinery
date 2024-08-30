@@ -183,6 +183,11 @@
         "title4": "Mitarbeiter"
     },
     "contact": {
+        "bar": {
+            "quote": "Angebot anfordern",
+            "share": "Teilen",
+            "calculator": "Rechner"
+        },
         "helpbox": {
             "title": "Kontaktieren Sie uns",
             "subTitle": "Wir melden uns so schnell wie möglich bei Ihnen.",
@@ -365,6 +370,39 @@
         "buttonUnderstandPolicy": "Accept and understand policy"
     },
     "categories": {
+"star": {
+            "description": "Die Star-Rampe ist eine vielseitige Option mit verschiedenen Tragfähigkeiten (8t, 10t, 12t, 15t, 20t) und Konfigurationen (Standard, langes Niveau, extra groß, LLO-XL). Sie ist für eine Vielzahl von Fahrzeugen und Anwendungen geeignet und bietet Flexibilität und Anpassungsmöglichkeiten."
+        },
+        "easy-xl": {
+            "description": "Die EAS-XL ist für schwere Anwendungen konzipiert und verfügt über eine extra große Plattform, um übergroße Lasten und große Fahrzeuge aufzunehmen."
+        },
+        "wlo": {
+            "description": "Ideal für Situationen, die einen langen, ebenen Übergang erfordern, bietet die WLO-Rampe eine glatte und gleichmäßige Oberfläche zum Laden und Entladen."
+        },
+        "prime-xs": {
+            "description": "Eine kompakte und leichte Rampe, perfekt für kleinere Fahrzeuge und Räume mit begrenztem Zugang."
+        },
+        "star-otc": {
+            "description": "Eine vielseitige Rampe, die für verschiedene Anwendungen geeignet ist und eine robuste und zuverlässige Lösung bietet."
+        },
+        "big-foot": {
+            "description": "Entwickelt für unebenes Gelände und schwere Lasten, bietet die Big-Foot-Rampe außergewöhnliche Stabilität und eine große Kontaktfläche."
+        },
+        "hcrn-06": {
+            "description": "Die HCRN-06 ist eine hochwertige Container-Rampe, die für ein effizientes und sicheres Laden und Entladen von 20-Fuß-Containern entwickelt wurde. Sie verfügt über eine robuste Konstruktion, zuverlässige Verriegelungsmechanismen und ein benutzerfreundliches Design."
+        },
+        "hcrn-065": {
+            "description": "Die HCRN-065 ist eine leicht größere Container-Rampe, die sowohl für 20-Fuß- als auch für 40-Fuß-Container geeignet ist. Sie bietet eine breitere Plattform für einfacheres Laden und Entladen und integriert fortschrittliche Sicherheitsmerkmale."
+        },
+        "hcrn-08": {
+            "description": "Die HCRN-08 ist eine schwere Container-Rampe, die für die schwersten Lasten ausgelegt ist. Sie verfügt über eine verstärkte Konstruktion, eine extra breite Plattform und fortschrittliche Sicherheitsmerkmale."
+        },
+        "hcry-08": {
+            "description": "Die HCRY-08 ist eine spezialisierte Container-Rampe, die für den Einsatz in engen Räumen konzipiert ist. Sie verfügt über ein kompaktes Design und eine einfache Manövrierfähigkeit, was sie ideal für kleinere Ladebereiche macht."
+        },
+        "secu-dock": {
+            "description": "Die Secudock ist eine hochwertige Container-Rampe, die für ihre außergewöhnlichen Sicherheitsmerkmale bekannt ist. Sie integriert fortschrittliche Technologien zur Vermeidung von Unfällen und zur Gewährleistung eines sicheren Lade- und Entladeprozesses."
+        },
         "main": {
             "head": {
                 "title": "Entdecke unsere Vielfalt an Lastenaufzugs-Typen | AZ-Maschinen - Französische Qualität",

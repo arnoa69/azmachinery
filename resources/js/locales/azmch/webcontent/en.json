@@ -184,6 +184,11 @@
         "title4": "Employee"
     },
     "contact": {
+        "bar": {
+            "quote": "Get a quote",
+            "share": "Share",
+            "calculator": "Calc"
+        },
         "helpbox": {
             "title": "Get in touch",
             "subTitle": "We will get back to you as soon as we can.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Accept and understand policy"
     },
     "categories": {
+        "star": {
+            "description": "The Star ramp is a versatile option with various load capacities (8t, 10t, 12t, 15t, 20t) and configurations (standard, long level off, extra large, LLO-XL). It's suitable for a wide range of vehicles and applications, offering flexibility and customization."
+        },
+        "easy-xl": {
+            "description": "Designed for heavy-duty applications, the EAS-XL features an extra-large platform to accommodate oversized loads and large vehicles."
+        },
+        "wlo": {
+            "description": "Ideal for situations requiring a long, level transition, the WLO ramp provides a smooth and even surface for loading and unloading."
+        },
+        "prime-xs": {
+            "description": "A compact and lightweight ramp, perfect for smaller vehicles and spaces with limited access."
+        },
+        "star-otc": {
+            "description": "A versatile ramp suitable for various applications, offering a robust and reliable solution."
+        },
+        "big-foot": {
+            "description": "Designed for uneven terrain and heavy loads, the Big-Foot ramp provides exceptional stability and a large contact area."
+        },
+        "hcrn-06": {
+            "description": "The HCRN-06 is a high-quality container ramp designed for efficient and safe loading and unloading of 20-foot containers. It features a sturdy construction, reliable locking mechanisms, and a user-friendly design."
+        },
+        "hcrn-065": {
+            "description": "The HCRN-065 is a slightly larger container ramp suitable for handling both 20-foot and 40-foot containers. It offers a wider platform for easier loading and unloading and incorporates advanced safety features."
+        },
+        "hcrn-08": {
+            "description": "The HCRN-08 is a heavy-duty container ramp designed to accommodate the heaviest loads. It features a reinforced construction, extra-wide platform, and advanced safety features."
+        },
+        "hcry-08": {
+            "description": "The HCRY-08 is a specialized container ramp designed for use in confined spaces. It features a compact design and easy maneuverability, making it ideal for smaller loading areas."
+        },
+        "secu-dock": {
+            "description": "The Secudock is a premium container ramp known for its exceptional safety features. It incorporates advanced technology to prevent accidents and ensure a secure loading and unloading process."
+        },
         "main": {
             "head": {
                 "title": "Explore Our Range of Loading Ramp Types | AZ Machinery - French quality",

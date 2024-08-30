@@ -184,6 +184,11 @@
         "title4": "Töötaja"
     },
     "contact": {
+        "bar": {
+            "quote": "Hankige tsitaat",
+            "share": "Jaga",
+            "calculator": "Kalkulaator"
+        },
         "helpbox": {
             "title": "Võtke meiega ühendust",
             "subTitle": "Me võtame teiega niipea kui võimalik ühendust.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Nõustu ja mõista poliitikat"
     },
     "categories": {
+        "star": {
+            "description": "Star ramp on mitmekülgne valik erinevate kandevõimetega (8t, 10t, 12t, 15t, 20t) ja konfiguratsioonidega (standardsuurus, pikk tasand, üli suur, LLO-XL). See sobib laia valiku sõidukite ja rakenduste jaoks, pakkudes paindlikkust ja kohandatavust."
+        },
+        "easy-xl": {
+            "description": "EAS-XL on mõeldud raskeveokite rakendusteks ning sellel on üli suur platvorm, et mahutada ülekaalulisi koormusi ja suuri sõidukeid."
+        },
+        "wlo": {
+            "description": "Ideaalne olukordades, kus on vaja pikka, tasast üleminekut, pakub WLO ramp sujuvat ja ühtlast pinda laadimiseks ja mahalaadimiseks."
+        },
+        "prime-xs": {
+            "description": "Kompaktne ja kerge rampe, ideaalne väiksematele sõidukitele ja piiratud ligipääsuga aladele."
+        },
+        "star-otc": {
+            "description": "Mitmekülgne rampe, mis sobib erinevate rakenduste jaoks, pakkudes robustset ja usaldusväärset lahendust."
+        },
+        "big-foot": {
+            "description": "Unejõulisteks maastikele ja rasketele koormatele mõeldud Big-Foot rampe pakub erakordset stabiilsust ja suurt kontaktpinda."
+        },
+        "hcrn-06": {
+            "description": "HCRN-06 on kvaliteetne konteinerirampe, mis on mõeldud efektiivseks ja ohutuks 20-jalaste konteinerite laadimiseks ja mahalaadimiseks. Sellel on tugev ehitus, usaldusväärsed lukustussüsteemid ja kasutajasõbralik disain."
+        },
+        "hcrn-065": {
+            "description": "HCRN-065 on veidi suurem konteinerirampe, mis sobib nii 20-jalaste kui ka 40-jalaste konteinerite käsitsemiseks. See pakub laiemat platvormi lihtsamaks laadimiseks ja mahalaadimiseks ning sisaldab täiustatud ohutusfunktsioone."
+        },
+        "hcrn-08": {
+            "description": "HCRN-08 on raske konteinerirampe, mis on mõeldud raskete koormate mahutamiseks. Sellel on tugevdatud konstruktsioon, üli lai platvorm ja täiustatud ohutusfunktsioonid."
+        },
+        "hcry-08": {
+            "description": "HCRY-08 on spetsialiseeritud konteinerirampe, mis on mõeldud kasutamiseks kitsastes ruumides. Sellel on kompaktne disain ja lihtne manööverdusvõime, mis teeb selle ideaalseks väiksemates laadimispindades."
+        },
+        "secu-dock": {
+            "description": "Secudock on esmaklassiline konteineriramp, mis on tuntud oma erakordsete ohutusfunktsioonide poolest. See integreerib täiustatud tehnoloogia õnnetuste vältimiseks ja turvalise laadimise ja mahalaadimise protsessi tagamiseks."
+        },
         "main": {
             "head": {
                 "title": "Uurige meie laadiraudte erinevusi | AZ Machinery - Prantsuse lahja",

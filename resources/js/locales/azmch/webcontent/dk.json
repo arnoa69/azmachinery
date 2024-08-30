@@ -184,6 +184,11 @@
         "title4": "Medarbejder"
     },
     "contact": {
+        "bar": {
+            "quote": "Få et tilbud",
+            "share": "Del",
+            "calculator": "Kalkulator"
+        },
         "helpbox": {
             "title": "Kontakt os",
             "subTitle": "Vi vender tilbage til dig så hurtigt som muligt.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Accepter og forstå politik"
     },
     "categories": {
+"star": {
+            "description": "Star rampen er en alsidig mulighed med forskellige lastekapaciteter (8t, 10t, 12t, 15t, 20t) og konfigurationer (standard, lang niveau, ekstra stor, LLO-XL). Den er velegnet til en bred vifte af køretøjer og anvendelser, hvilket giver fleksibilitet og tilpasning."
+        },
+        "easy-xl": {
+            "description": "Designet til tunge applikationer, har EAS-XL en ekstra stor platform til at rumme overdimensionerede laster og store køretøjer."
+        },
+        "wlo": {
+            "description": "Ideel til situationer, hvor der kræves en lang, lige overgang, giver WLO rampen en glat og jævn overflade til lastning og losning."
+        },
+        "prime-xs": {
+            "description": "En kompakt og let rampe, perfekt til mindre køretøjer og rum med begrænset adgang."
+        },
+        "star-otc": {
+            "description": "En alsidig rampe, der er velegnet til forskellige anvendelser og tilbyder en robust og pålidelig løsning."
+        },
+        "big-foot": {
+            "description": "Designet til ujævnt terræn og tunge laster, giver Big-Foot rampen enestående stabilitet og et stort kontaktområde."
+        },
+        "hcrn-06": {
+            "description": "HCRN-06 er en høj kvalitet container rampe designet til effektiv og sikker lastning og losning af 20 fods containere. Den har en robust konstruktion, pålidelige låsemekanismer og et brugervenligt design."
+        },
+        "hcrn-065": {
+            "description": "HCRN-065 er en lidt større container rampe, der er velegnet til håndtering af både 20 fods og 40 fods containere. Den tilbyder en bredere platform for lettere lastning og losning og indeholder avancerede sikkerhedsfunktioner."
+        },
+        "hcrn-08": {
+            "description": "HCRN-08 er en tung container rampe designet til at rumme de tungeste laster. Den har en forstærket konstruktion, ekstra bred platform og avancerede sikkerhedsfunktioner."
+        },
+        "hcry-08": {
+            "description": "HCRY-08 er en specialiseret container rampe designet til brug i trange rum. Den har et kompakt design og nem manøvredygtighed, hvilket gør den ideel til mindre lasteområder."
+        },
+        "secu-dock": {
+            "description": "Secudock er en premium container rampe kendt for sine fremragende sikkerhedsfunktioner. Den integrerer avanceret teknologi for at forhindre ulykker og sikre en sikker lastnings- og losningsproces."
+        },
         "main": {
             "head": {
                 "title": "Udforsk den rækkevidde af vores ladebænketyper | AZ Machinery - Fransk kvalitet",

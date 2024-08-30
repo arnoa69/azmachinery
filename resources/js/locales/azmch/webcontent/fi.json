@@ -184,6 +184,11 @@
         "title4": "Työntekijää"
     },
     "contact": {
+        "bar": {
+            "quote": "Hanki tarjous",
+            "share": "Jaa",
+            "calculator": "Laskuri"
+        },
         "helpbox": {
             "title": "Ota yhteyttä",
             "subTitle": "Olemme yhteydessä sinuun mahdollisimman pian.",
@@ -366,6 +371,39 @@
         "buttonUnderstandPolicy": "Hyväksy ja ymmärrä käytäntö"
     },
     "categories": {
+        "star": {
+            "description": "Star-ramppi on monipuolinen vaihtoehto, jolla on useita kantavuuksia (8t, 10t, 12t, 15t, 20t) ja konfiguraatioita (vakio, pitkä tasainen lasku, erittäin suuri, LLO-XL). Se sopii laajaan valikoimaan ajoneuvoja ja sovelluksia, ja se tarjoaa joustavuutta ja räätälöintiä."
+          },
+          "easy-xl": {
+            "description": "EAS-XL on suunniteltu raskaisiin käyttötarkoituksiin, ja siinä on erittäin suuri alusta, joka sopii ylisuurille kuormille ja suurille ajoneuvoille."
+          },
+          "wlo": {
+            "description": "WLO-ramppi on ihanteellinen tilanteisiin, joissa tarvitaan pitkä ja tasainen siirtymä, ja se tarjoaa tasaisen ja tasaisen pinnan lastaamiseen ja purkamiseen."
+          },
+          "prime-xs": {
+            "description": "Kompakti ja kevyt ramppi, joka sopii täydellisesti pienemmille ajoneuvoille ja tiloille, joissa on rajoitettu pääsy."
+          },
+          "star-otc": {
+            "description": "Monipuolinen ramppi, joka sopii useisiin sovelluksiin ja tarjoaa vankan ja luotettavan ratkaisun."
+          },
+          "big-foot": {
+            "description": "Big-Foot-ramppi on suunniteltu epätasaiselle maastolle ja raskaille kuormille, ja se tarjoaa erinomaisen vakauden ja suuren kosketuspinnan."
+          },
+          "hcrn-06": {
+            "description": "HCRN-06 on korkealaatuinen konttiramppi, joka on suunniteltu 20 jalan konttien tehokkaaseen ja turvalliseen lastaamiseen ja purkamiseen. Siinä on tukeva rakenne, luotettavat lukitusmekanismit ja helppokäyttöinen muotoilu."
+          },
+          "hcrn-065": {
+            "description": "HCRN-065 on hieman suurempi konttiramppi, joka sopii sekä 20 jalan että 40 jalan konttien käsittelyyn. Se tarjoaa leveämmän alustan helpompaa lastaamista ja purkamista varten ja sisältää edistyksellisiä turvaominaisuuksia."
+          },
+          "hcrn-08": {
+            "description": "HCRN-08 on raskaan käytön konttiramppi, joka on suunniteltu käsittelemään raskaimpia kuormia. Siinä on vahvistettu rakenne, erittäin leveä alusta ja edistykselliset turvaominaisuudet."
+          },
+          "hcry-08": {
+            "description": "HCRY-08 on erikoistunut konttiramppi, joka on suunniteltu käytettäväksi ahtaissa tiloissa. Siinä on kompakti muotoilu ja helppo käsiteltävyys, mikä tekee siitä ihanteellisen pienemmille lastausalueille."
+          },
+          "secu-dock": {
+            "description": "Secudock on premium-konttiramppi, joka tunnetaan erinomaisista turvaominaisuuksistaan. Se sisältää edistyksellisen teknologian onnettomuuksien estämiseksi ja turvallisen lastaus- ja purkamisprosessin varmistamiseksi."
+          },
         "main": {
             "head": {
                 "title": "Tutkii lapsivarantoamme liikennörampujen erilaisuudet | AZ Machinery - Ranskalainen lahja",
