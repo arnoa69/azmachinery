@@ -184,6 +184,11 @@
         "title4": "Töötaja"
     },
     "contact": {
+        "helpbox": {
+            "title": "Võtke meiega ühendust",
+            "subTitle": "Me võtame teiega niipea kui võimalik ühendust.",
+            "preferedContact": "Eelistatud kontaktviis?"
+        },
         "title": "Piirkondlik kontakt",
         "subTitle": "Isiklik nõuanne ja tugi",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Laiendatud kvaliteedi-hinnakoha kogemus. Valisin Prime WLO8+ galvane rampa Täielikult galvaniseeritud versioonis. Väga kasulik ja kvaliteetne. AZ MACHINERY taastas meie vana Expresso-mudeli. Materjal toodi 4 päeva pärast meie tellimust tootja autost. Tegelikult hea, täname!",
         "mauroMartinText": "Minul oli uus kaat AZ MACHINERY ostnud. Valisin mudel AZ RAMP EASY XL 10 T. Hea sisemine laadimiskaat. Toode saabumisel meie laos Eesti ja 30 päeva pärast suurepärane kliendi vastus. Kontakt AZ rampiga Jérôme GUIGUET oli hea; See kaat vastab kõik aktiivsed nõuded kvaliteetile ja tootmisel."
     },
+"faq": {
+    "title": "Mobiilne laadimisrambid: Täielik juhend",
+    "subTitle": "Kõik, mida teada tuleb mobiilsetest laadimisrampidest",
+    "q": {
+        "1": "Miks peaksin teil valida?",
+        "2": "Milliseid mobiilseid laadimisrampe saate pakkuda?",
+        "3": "Kuidas valin ma õige ramba oma vajaduste jaoks?",
+        "4": "Kas saate rambaid kohandada?",
+        "5": "Pakkute sa rentimise võimalust?",
+        "6": "Kui kaua võtab kohaletoimetamine aega?",
+        "7": "Kuidas võin kontakteeruda tehnilise toe eest vastutava meeskonnaga?"
+    },
+    "a": {
+        "1": {
+            "1": "Me oleme teie üks ja ainus valik kõigi teie mobiilse laadimisrambi vajaduste jaoks. Siin on põhjused, miks me oleme parim valik:",
+            "2": {
+                "bold": "Laia valik:",
+                "c": "Meil on üle 500 ramba laos, mis on valmis kohe saatmiseks üle terve Euroopa."
+            },
+            "3": {
+                "bold": "Kiire kohaletoimetamine:",
+                "c": "Kogemus kiire kohaletoimetamisega. Teie tellimus saadetakse 3 päeva jooksul, et teil oleksid saanud olla rambad, kui teil on neid vaja."
+            },
+            "4": {
+                "bold": "Premium-kvaliteet:",
+                "c": "Meie rambad on valmistatud parimatest materjalidest, mis tagab kestvuse ja ohutuse."
+            },
+            "5": {
+                "bold": "Kohandatavad lahendused:",
+                "c": "Me spetsialiseerume kohandatavate rambade loomisel, mis vastavad teie spetsiifilistele nõudmistele."
+            },
+            "6": {
+                "bold": "Innovatiivsed funktsioonid:",
+                "c": "Meie rambad on varustatud uuenduslike turvalisusfunktsioonidega, mis teeb neid kõige usaldusväärsemaks turul."
+            },
+            "7": {
+                "bold": "Rentimise võimalused:",
+                "c": "Kas teil on vaja ramba lühiajaliseks projektiks? Me pakkume paindlikke rentimise võimalusi, mis vastavad teie vajadustele."
+            },
+            "8": {
+                "bold": "Ekspertide tugi:",
+                "c": "Meie ekspertide meeskond on alati valmis andma teile ekspertiisi ja tugiteenuseid."
+            }
+        },
+        "2": "Me pakkume erinevaid ramba tüüpe, sealhulgas standardrambe, dokkrambe ja spetsiaalrambe erinevateks otstarveteks.",
+        "3": "Meie ekspertide meeskond võib aidata teil valida õige ramba teie vajaduste jaoks, arvestades teie lasti kaalu, mõõtmeid ja eesmärki.",
+        "4": "Jah, me võime kohandada rambaid teie spetsiifilistele nõudmistele vastavalt, sealhulgas pikkuse, laiuse ja koormuskapatsiteedi.",
+        "5": "Jah, me pakkume paindlikke rentimise võimalusi neile, kes on vaja ramba lühiajaliseks projektiks.",
+        "6": "Me kohaletoome teie tellimused tavaliselt 3 päeva jooksul üle terve Euroopa.",
+        "7": "Te võite kontakteeruda meie tehnilise toe eest vastutava meeskonnaga telefoniga, e-postiga või otse vestluse teel. Meie kontaktandmed on kättesaadavad meie veebilehel."
+    }
+},
     "footer": {
         "copyright": "Autoriõigused © 2024 AZ Machinery. Kõik õigused kaitstud.",
         "headquarter": {

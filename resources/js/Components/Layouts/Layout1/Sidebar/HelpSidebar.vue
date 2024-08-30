@@ -52,41 +52,42 @@ const submitForm = () => {
 <template>
     <div class="card">
         <div class="card-header d-flex justify-content-between align-items-center">
-            <div class="flex-grow-1">
-                <h2>Contact Information</h2>
+            <div class="flex-grow-1 card-title">
+                <h2>{{ $t('contact.helpbox.title') }}</h2>
+                <p>{{ $t('contact.helpbox.subTitle') }}</p>
             </div>
         </div>
         <div class="card-body">
             <form @submit.prevent="submitForm">
-            <div class="ro">
+            <div>
                 <i class="bi bi-headset help-icon"></i>
-                <label class="me-2">Preferred contact method?</label>
+                <label class="me-2">{{ $t('contact.helpbox.preferedContact') }}</label>
             </div>
                 <div class="row">
                     <div class="col-12">
-                        <span class="label" :class="{ 'active-email': contactMethod === 'email' }" @click="contactMethod = 'email'">
-                        <i class="bi bi-envelope-at-fill"></i> Email
+                        <span class="label-mail-phone" :class="{ 'active-email': contactMethod === 'email' }" @click="contactMethod = 'email'">
+                        <i class="bi bi-envelope-at-fill"></i> {{ $t('contact.form.label.email') }}
                     </span>
                     <label class="toggle-switch">
                         <input type="checkbox" v-model="isPhoneSelectedComputed">
                         <span class="toggle-slider"></span>
                     </label>
-                    <span class="label" :class="{ 'active-phone': contactMethod === 'phone' }" @click="contactMethod = 'phone'">
-                        <i class="bi bi-telephone-fill"></i> Phone
+                    <span class="label-mail-phone" :class="{ 'active-phone': contactMethod === 'phone' }" @click="contactMethod = 'phone'">
+                        <i class="bi bi-telephone-fill"></i> {{ $t('contact.form.label.phone') }}
                     </span>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 mt-3">
                         <div v-if="contactMethod === 'email'">
-                        <input type="email" class="mt-1 form-control" v-model="email" placeholder="Enter your email">
+                        <input type="email" class="mt-1 form-control" v-model="email" :placeholder="$t('contact.form.placeholder.email')">
                     </div>
                     <div v-else-if="contactMethod === 'phone'">
                         <input type="tel" class="mt-1 form-control" v-model="phone_number"
-                            placeholder="Enter your phone number">
+                            :placeholder="$t('contact.form.placeholder.phone')">
                     </div>
                     </div>
                     <div class="col-12 mt-3">
                         <input type="text" class="form-control" id="company_name" v-model="company_name"
-                        placeholder="Company Name">
+                        :placeholder="$t('contact.form.placeholder.company')">
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -100,23 +101,51 @@ const submitForm = () => {
 </template>
 
 <style scoped>
+.about .content p {
+    margin-bottom: 10px;
+}
 .card {
   border: none;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(232, 47, 47, 0.3);
+  box-shadow: 0 0 10px rgba(109, 11, 11, 0.3);
   min-height: 400px;
 }
 
 .card-header {
-  background-color: #424242;
+  background-color: #161519;
   color: #FFFFFF;
   border-radius: 20px 20px 0 0;
-  padding: 20px;
+  padding: 10px 20px;
   position: relative;
-  background-image: linear-gradient(to bottom, #424242, #363636);
+  background-image: linear-gradient(to bottom, #424242, #161519);
   background-size: 100% 100%;
 }
 
+.card-title h2 {
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textschatten hinzufügen */
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.card-title p {
+  font-size: 16px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Textschatten hinzufügen */
+  margin-left: 5px;
+  font-weight: 200;
+}
+
+.me-2 {
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.label-mail-phone {
+    cursor: pointer;
+    font-size: 16px;
+    color: #999;
+    margin-left: 5px;
+}
 
 .card-header .fw-bold {
   font-size: 24px;
@@ -198,6 +227,7 @@ const submitForm = () => {
 .help-icon {
     font-size: 18px;
     color: #151313; /* Ensure the help icon matches the color scheme */
+    margin-left: 5px;
 }
 
 .submit-button {
@@ -205,22 +235,18 @@ const submitForm = () => {
     width: 100%;
     border: none;
     height: 35px;
-    background-color: #FF3737; /* Button background same as container */
+    background-color: #BC0C26; /* Button background same as container */
     color: #FFFFFF; /* Button text white */
     border-radius: 10px;
 }
 
-.label {
-    font-size: 18px;
-    margin-top: -10px;
-}
 .active-email {
-    color: #FF3737;
+    color: #333;
     font-weight: bold;
 }
 
 .active-phone {
-    color: #FF3737;
+    color: #333;
     font-weight: bold;
 }
 

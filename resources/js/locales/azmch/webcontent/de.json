@@ -183,6 +183,11 @@
         "title4": "Mitarbeiter"
     },
     "contact": {
+        "helpbox": {
+            "title": "Kontaktieren Sie uns",
+            "subTitle": "Wir melden uns so schnell wie möglich bei Ihnen.",
+            "preferedContact": "Bevorzugte Kontaktmethode?"
+        },
         "title": "Regionaler Kontakt",
         "subTitle": "Persönliche Beratung und Support",
         "label": {
@@ -219,6 +224,58 @@
         "vincentGirardetText": "Kaufe eine Prime XS-Klappe in einer galvanisierten Version. Material ist sehr schön; robust und einfach zu bedienen. Geliefert in der Schweiz nur 10 Tage nach unserer Bestellung, bin ich glücklich, dass ich mit dieser Firma Geschäfte gemacht habe! Vincent",
         "christell48Text": "Exzellente Qualität-Preis-Beziehung. Wir haben die Prime WLO8+ mit Geländer in der Version Voll galvanisiert gewählt. Sehr praktisch, gute Qualität. AZ MACHINERY hat unser altes Expresso-Modell wieder instand gesetzt. Material wurde am 4. Tag nach unserer Bestellung vom Hersteller in den Wagen geliefert. Sehr gut, danke.",
         "mauroMartinText": "Ich habe eine neue Klappe von AZ MACHINERY gekauft, haben wir das Modell AZ RAMP EASY XL 10 T gewählt. Eine sehr gute Laderampe. Geliefert in unserem Lager in Argentinien in 30 Tagen, gut Kontakt mit dem sehr freundlichen Verkäufer. Diese Klappe ist von sehr guter Qualität und fehlerfreier Handarbeit. Wir sind sehr glücklich mit unserem Kauf."
+    },
+    "faq": {
+        "title": "Mobile Loading Ramps: Your Complete Guide",
+        "subTitle": "Everything You Need to Know About Mobile Loading",
+        "q": {
+            "1": "Why Choose Us?",
+            "2": "What types of mobile loading ramps do you offer?",
+            "3": "How do I choose the right ramp for my needs?",
+            "4": "Can you customize your ramps?",
+            "5": "Do you offer rental services?",
+            "6": "How long does delivery take?",
+            "7": "How can I contact technical support?"
+        },
+        "a": {
+            "1": {
+                "1": "We are your one-stop shop for all your mobile loading ramp needs. Here's why we're the best choice:",
+                "2": {
+                    "bold": "Extensive Inventory:",
+                    "c": "We have over 500 ramps in stock, ready for immediate delivery to anywhere in Europe."
+                },
+                "3": {
+                    "bold": "Fast Delivery:",
+                    "c": "Experience lightning-fast delivery times. Your order will be shipped within 3 days, ensuring you get your ramps when you need them."
+                },
+                "4": {
+                    "bold": "Premium Quality:",
+                    "c": "Our ramps are crafted from the finest materials, guaranteeing durability and safety."
+                },
+                "5": {
+                    "bold": "Custom Solutions:",
+                    "c": "We specialize in creating customized ramps to accommodate your unique requirements."
+                },
+                "6": {
+                    "bold": "Innovative Features:",
+                    "c": "Our ramps incorporate cutting-edge safety features, making them the most reliable on the market."
+                },
+                "7": {
+                    "bold": "Rental Options:",
+                    "c": "Need a ramp for a short-term project? We offer flexible rental options to suit your needs."
+                },
+                "8": {
+                    "bold": "Expert Support:",
+                    "c": "Our team of experienced professionals is always available to provide expert guidance and assistance."
+                }
+            },
+            "2": "We offer a variety of ramp types, including standard ramps, dock ramps, and specialty ramps for specific applications.",
+            "3": "Our team of experts can help you select the ideal ramp based on your load weight, dimensions, and intended use.",
+            "4": "Absolutely! We can customize ramps to fit your specific requirements, such as length, width, and load capacity.",
+            "5": "Yes, we offer flexible rental options for those who need a ramp for a short-term project.",
+            "6": "We typically deliver orders within 3 days to anywhere in Europe.",
+            "7": "You can contact our technical support team via phone, email, or live chat. Our contact information is available on our website."
+        }
     },
     "footer": {
         "copyright": "Copyright © 2024 AZ Machinery. Alle Rechte vorbehalten",

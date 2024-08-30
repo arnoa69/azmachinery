@@ -184,6 +184,11 @@
         "title4": "Anställd"
     },
     "contact": {
+        "helpbox": {
+            "title": "Kontakta oss",
+            "subTitle": "Vi kontaktar dig så snart som möjligt.",
+            "preferedContact": "Föredragen kontaktmetod?"
+        },
         "title": "Regional kontakt",
         "subTitle": "Personligt råd och stöd",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Utmärkt pris/prestanda-förhållande. Vi valde PRIME WLO8+ med räcke i FULL GALVA-version. Mycket praktisk, bra kvalitet. AZ MACHINERY hämtade till och med upp vår gamla Expresso-ramp som inte längre stod. Materialet fick vi 4 dagar efter vår beställning på transportören från tillverkaren. Mycket bra, tack.",
         "mauroMartinText": "Jag köpte en ny ramp från AZ MACHINERY, vi valde modellen AZ RAMP EASY XL 10 T, en mycket bra lastningsramp. Vi fick den till vårt lager i Argentina på 30 dagar, en bra kontakt med den mycket vänlige säljaren. Denna ramp är av utmärkt kvalitet och hantverk. Vi är mycket nöjda med vårt köp."
     },
+"faq": {
+    "title": "Mobila lastningsrampar: Den kompletta guiden",
+    "subTitle": "Allt du behöver veta om mobila lastningsrampar",
+    "q": {
+        "1": "Varför ska jag välja oss?",
+        "2": "Vilka typer av mobila lastningsrampar erbjuder vi?",
+        "3": "Hur väljer jag den rätta rampen för mina behov?",
+        "4": "Kan vi anpassa ramparna?",
+        "5": "Erbjuder vi uthyrningsalternativ?",
+        "6": "Hur lång tid tar leveransen?",
+        "7": "Hur kan jag kontakta teknisk support?"
+    },
+    "a": {
+        "1": {
+            "1": "Vi är din enda val för alla dina mobila lastningsrampbehov. Här är anledningarna till varför vi är det bästa valet:",
+            "2": {
+                "bold": "Brett utbud:",
+                "c": "Vi har över 500 rampar på lager, redo att levereras i hela Europa."
+            },
+            "3": {
+                "bold": "Snabb leverans:",
+                "c": "Upplev snabb leverans. Din beställning kommer att skickas inom 3 dagar, så att du kan få dina rampar när du behöver dem."
+            },
+            "4": {
+                "bold": "Hög kvalitet:",
+                "c": "Våra rampar är tillverkade av de bästa materialen, vilket garanterar hållbarhet och säkerhet."
+            },
+            "5": {
+                "bold": "Anpassade lösningar:",
+                "c": "Vi specialiserar oss på att skapa anpassade rampar som uppfyller dina specifika behov."
+            },
+            "6": {
+                "bold": "Innovativa funktioner:",
+                "c": "Våra rampar har innovativa säkerhetsfunktioner, vilket gör dem till de mest tillförlitliga på marknaden."
+            },
+            "7": {
+                "bold": "Uthyrningsalternativ:",
+                "c": "Behöver du en ramp för ett kort projekt? Vi erbjuder flexibla uthyrningsalternativ som uppfyller dina behov."
+            },
+            "8": {
+                "bold": "Teknisk support:",
+                "c": "Vårt tekniska supportteam är alltid tillgängligt för att erbjuda teknisk support och hjälp."
+            }
+        },
+        "2": "Vi erbjuder olika typer av rampar, inklusive standardrampar, kajrampar och specialrampar för specifika applikationer.",
+        "3": "Vårt tekniska supportteam kan hjälpa dig att välja den rätta rampen för dina behov, med beaktande av last, dimensioner och användning.",
+        "4": "Ja, vi kan anpassa ramparna för att uppfylla dina specifika behov, såsom längd, bredd och kapacitet.",
+        "5": "Ja, vi erbjuder flexibla uthyrningsalternativ för korta projekt.",
+        "6": "Vi levererar våra beställningar vanligtvis inom 3 dagar i hela Europa.",
+        "7": "Du kan kontakta vårt tekniska supportteam via telefon, e-post eller live-chat. Våra kontaktuppgifter finns på vår webbplats."
+    }
+},
     "footer": {
         "copyright": "Upphovsrätt © 2024 AZ Machinery. Alla rättigheter förbehållna.",
         "headquarter": {

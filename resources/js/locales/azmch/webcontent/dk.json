@@ -184,6 +184,11 @@
         "title4": "Medarbejder"
     },
     "contact": {
+        "helpbox": {
+            "title": "Kontakt os",
+            "subTitle": "Vi vender tilbage til dig så hurtigt som muligt.",
+            "preferedContact": "Foretrukket kontaktmetode?"
+         },
         "title": "Regional kontakt",
         "subTitle": "Personlig rådgivning og støtte",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Udvidet kvalitet-prisforholdelse. Vi har valgt Prime WLO8+ med rampe i Fuld galvaniseret-version. Meget praktisk, god kvalitet. AZ MACHINERY har gendannet vores gamle Expresso-modul. Material blev leveret på 4 dage efter vores bestilling fra producenten. Reelt godt, tak!",
         "mauroMartinText": "Jeg har købt en ny dæk fra AZ MACHINERY, vi valgte modellen AZ RAMP EASY XL 10 T. En meget god indlæsningsdæk. Leveret i vores lager i Argentina i 30 dage, god kontakt med den meget venlige sælger. Dette dæk opfylder alle aktuelle krav til kvalitet og fremstilling. Vi er meget glade med vores køb."
     },
+"faq": {
+    "title": "Mobile Læsseramper: Den komplette guide",
+    "subTitle": "Alt, hvad du skal vide om mobile læsseramper",
+    "q": {
+        "1": "Hvorfor skal du vælge os?",
+        "2": "Hvilke typer mobile læsseramper tilbyder vi?",
+        "3": "Hvordan vælger jeg den rigtige rampe til mine behov?",
+        "4": "Kan I tilpasse jeres ramper?",
+        "5": "Tilbyder I leje?",
+        "6": "Hvor lang tid tager leveringen?",
+        "7": "Hvordan kan jeg kontakte teknisk support?"
+    },
+    "a": {
+        "1": {
+            "1": "Vi er din eneste stop for alle dine mobile læsserampebehov. Her er årsagerne til, hvorfor vi er det bedste valg:",
+            "2": {
+                "bold": "Omfattende udvalg:",
+                "c": "Vi har over 500 ramper på lager, klar til omgående levering til hele Europa."
+            },
+            "3": {
+                "bold": "Hurtig levering:",
+                "c": "Oplev lynhurtig levering. Din bestilling bliver afsendt inden for 3 dage, så du får dine ramper, når du har brug for dem."
+            },
+            "4": {
+                "bold": "Premiumkvalitet:",
+                "c": "Vores ramper er fremstillet af de bedste materialer, hvilket garanterer holdbarhed og sikkerhed."
+            },
+            "5": {
+                "bold": "Tilpassede løsninger:",
+                "c": "Vi specialiserer os i at fremstille tilpassede ramper, der opfylder dine specifikke krav."
+            },
+            "6": {
+                "bold": "Innovative funktioner:",
+                "c": "Vores ramper har banebrydende sikkerhedsfunktioner, der gør dem til de mest pålidelige på markedet."
+            },
+            "7": {
+                "bold": "Lejemuligheder:",
+                "c": "Har du brug for en rampe til et kortvarigt projekt? Vi tilbyder fleksible lejemuligheder, der opfylder dine behov."
+            },
+            "8": {
+                "bold": "Ekspertsupport:",
+                "c": "Vores team af erfarne eksperter er altid til rådighed for at tilbyde dig ekspertvejledning og støtte."
+            }
+        },
+        "2": "Vi tilbyder en række forskellige ramper, herunder standardramper, dokramper og specialramper til specifikke formål.",
+        "3": "Vores team af eksperter kan hjælpe dig med at vælge den perfekte rampe på baggrund af din lastvægt, mål og formål.",
+        "4": "Ja, vi kan tilpasse ramper til dine specifikke behov, såsom længde, bredde og lastkapacitet.",
+        "5": "Ja, vi tilbyder fleksible lejemuligheder til dem, der har brug for en rampe til et kortvarigt projekt.",
+        "6": "Vi leverer dine bestillinger som regel inden for 3 dage til hele Europa.",
+        "7": "Du kan kontakte vores tekniske supportteam via telefon, e-mail eller live chat. Vores kontaktoplysninger finder du på vores hjemmeside."
+    }
+},
     "footer": {
         "copyright": "Ophavsret © 2024 AZ Machinery. Alle rettigheder forbeholdes.",
         "headquarter": {

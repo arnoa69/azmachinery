@@ -1,4 +1,7 @@
 <script setup>
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
 
 </script>
 
@@ -6,8 +9,8 @@
     <section id="faq-2" class="faq-2 section light-background">
 
 <div class="container section-title" data-aos="fade-up">
-  <h2>Mobile Loading Ramps: Your Complete Guide</h2>
-  <p>Everything You Need to Know About Mobile Loading </p>
+  <h2>{{ $t('faq.title') }}</h2>
+  <p>{{ $t('faq.subTitle') }} </p>
 </div><!-- End Section Title -->
 
 <div class="container">
@@ -25,17 +28,17 @@
 
         <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
           <i class="faq-icon bi bi-question-circle"></i>
-          <h3>Why Choose Us?</h3>
+          <h3>{{ $t('faq.q.1') }}</h3>
           <div class="faq-content">
-            <p>We are your one-stop shop for all your mobile loading ramp needs. Here's why we're the best choice:<br /><br />
+            <p>{{ $t('faq.a.1.1') }}<br /><br />
 
-                <b>Extensive Inventory:</b> We have over 500 ramps in stock, ready for immediate delivery to anywhere in Europe.<br />
-                <b>Fast Delivery:</b> Experience lightning-fast delivery times. Your order will be shipped within 3 days, ensuring you get your ramps when you need them.<br />
-                <b>Premium Quality:</b> Our ramps are crafted from the finest materials, guaranteeing durability and safety.<br />
-                <b>Custom Solutions:</b> We specialize in creating customized ramps to accommodate your unique requirements.<br />
-                <b>Innovative Features: </b> Our ramps incorporate cutting-edge safety features, making them the most reliable on the market.<br />
-                <b>Rental Options:</b> Need a ramp for a short-term project? We offer flexible rental options to suit your needs.<br />
-                <b>Expert Support:</b> Our team of experienced professionals is always available to provide expert guidance and assistance.
+                <b>{{ $t('faq.a.1.2.bold') }}</b> {{ $t('faq.a.1.2.c') }}<br />
+                <b>{{ $t('faq.a.1.3.bold') }}</b> {{ $t('faq.a.1.3.c') }}<br />
+                <b>{{ $t('faq.a.1.4.bold') }}</b> {{ $t('faq.a.1.4.c') }}<br />
+                <b>{{ $t('faq.a.1.5.bold') }}</b> {{ $t('faq.a.1.5.c') }}<br />
+                <b>{{ $t('faq.a.1.6.bold') }}</b> {{ $t('faq.a.1.6.c') }}<br />
+                <b>{{ $t('faq.a.1.7.bold') }}</b> {{ $t('faq.a.1.7.c') }}<br />
+                <b>{{ $t('faq.a.1.8.bold') }}</b> {{ $t('faq.a.1.8.c') }}
 
             </p>
           </div>
@@ -44,54 +47,54 @@
 
         <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="300">
           <i class="faq-icon bi bi-question-circle"></i>
-          <h3>What types of mobile loading ramps do you offer?</h3>
+          <h3>{{ $t('faq.q.2') }}</h3>
           <div class="faq-content">
-            <p>We offer a variety of ramp types, including standard ramps, dock ramps, and specialty ramps for specific applications.</p>
+            <p>{{ $t('faq.a.2') }}</p>
           </div>
           <i class="faq-toggle bi bi-chevron-right"></i>
         </div><!-- End Faq item-->
 
         <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
           <i class="faq-icon bi bi-question-circle"></i>
-          <h3>How do I choose the right ramp for my needs?</h3>
+          <h3>{{ $t('faq.q.3') }}</h3>
           <div class="faq-content">
-            <p>Our team of experts can help you select the ideal ramp based on your load weight, dimensions, and intended use.</p>
+            <p>{{ $t('faq.a.3') }}</p>
           </div>
           <i class="faq-toggle bi bi-chevron-right"></i>
         </div><!-- End Faq item-->
 
         <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
           <i class="faq-icon bi bi-question-circle"></i>
-          <h3>Can you customize your ramps?</h3>
+          <h3>{{ $t('faq.q.4') }}</h3>
           <div class="faq-content">
-            <p>Absolutely! We can customize ramps to fit your specific requirements, such as length, width, and load capacity.</p>
+            <p>{{ $t('faq.a.4') }}</p>
           </div>
           <i class="faq-toggle bi bi-chevron-right"></i>
         </div><!-- End Faq item-->
 
         <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
           <i class="faq-icon bi bi-question-circle"></i>
-          <h3>Do you offer rental services?</h3>
+          <h3>{{ $t('faq.q.5') }}</h3>
           <div class="faq-content">
-            <p>Yes, we offer flexible rental options for those who need a ramp for a short-term project.</p>
+            <p>{{ $t('faq.a.5') }}</p>
           </div>
           <i class="faq-toggle bi bi-chevron-right"></i>
         </div><!-- End Faq item-->
 
         <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
           <i class="faq-icon bi bi-question-circle"></i>
-          <h3>How long does delivery take?</h3>
+          <h3>{{ $t('faq.q.6') }}</h3>
           <div class="faq-content">
-            <p>We typically deliver orders within 3 days to anywhere in Europe.</p>
+            <p>{{ $t('faq.a.6') }}</p>
           </div>
           <i class="faq-toggle bi bi-chevron-right"></i>
         </div><!-- End Faq item-->
 
         <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
           <i class="faq-icon bi bi-question-circle"></i>
-          <h3>How can I contact technical support?</h3>
+          <h3>{{ $t('faq.q.7') }}</h3>
           <div class="faq-content">
-            <p>You can contact our technical support team via phone, email, or live chat. Our contact information is available on our website.</p>
+            <p>{{ $t('faq.a.7') }}</p>
           </div>
           <i class="faq-toggle bi bi-chevron-right"></i>
         </div><!-- End Faq item-->

@@ -184,6 +184,11 @@
         "title4": "Werknemers"
     },
     "contact": {
+        "helpbox": {
+            "title": "Neem contact op",
+            "subTitle": "We nemen zo snel mogelijk contact met je op.",
+            "preferedContact": "Voorkeur contactmethode?"
+        },
         "title": "Regionaal contact",
         "subTitle": "Persoonlijk advies en ondersteuning",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Uitstekend prijsgenot. Wij hebben de PRIME WLO8+ met railing in FULL GALVA-uitvoering uitgekozen. Super praktisch, goede kwaliteit. AZ MACHINERY heeft zelfs onze oude Expresso-ramp opgehaald die niet meer stond. Het materiaal kregen wij 4 dagen na onze bestelling op ons transporteur van de fabrikant. Erg goed, bedankt.",
         "mauroMartinText": "Ik heb een nieuwe ramp van AZ MACHINERY gekocht, wij hebben de AZ RAMP EASY XL 10 T-model gekozen, een erg goede laadramppas. Wij hebben deze in ons magazijn in Argentinië in 30 dagen ontvangen, een goed contact met de erg vriendelijke verkoper. Deze ramp is van uitstekende kwaliteit en fijn werkman. Wij zijn erg tevreden over onze aankoop."
     },
+"faq": {
+    "title": "Mobiele laadkleppen: De complete gids",
+    "subTitle": "Alles wat u moet weten over mobiele laadkleppen",
+    "q": {
+        "1": "Waarom kiest u voor ons?",
+        "2": "Welke soorten mobiele laadkleppen bieden wij aan?",
+        "3": "Hoe kies ik de juiste klep voor mijn behoeften?",
+        "4": "Kunnen wij kleppen aanpassen?",
+        "5": "Bieden wij huuropties aan?",
+        "6": "Hoe lang duurt de levering?",
+        "7": "Hoe kan ik contact opnemen met de technische ondersteuning?"
+    },
+    "a": {
+        "1": {
+            "1": "Wij zijn uw enige keuze voor al uw mobiele laadkleppenbehoeften. Hier zijn de redenen waarom wij de beste optie zijn:",
+            "2": {
+                "bold": "Groot assortiment:",
+                "c": "Wij hebben meer dan 500 kleppen op voorraad, klaar om te worden geleverd in heel Europa."
+            },
+            "3": {
+                "bold": "Snel leveren:",
+                "c": "Ervaar snelle levering. Uw bestelling wordt binnen 3 dagen geleverd, zodat u uw kleppen krijgt wanneer u ze nodig heeft."
+            },
+            "4": {
+                "bold": "Hoge kwaliteit:",
+                "c": "Onze kleppen zijn gemaakt van de beste materialen, wat garantie geeft voor duurzaamheid en veiligheid."
+            },
+            "5": {
+                "bold": "Aangepaste oplossingen:",
+                "c": "Wij zijn gespecialiseerd in het creëren van aangepaste kleppen die voldoen aan uw specifieke behoeften."
+            },
+            "6": {
+                "bold": "Innovatieve functionaliteiten:",
+                "c": "Onze kleppen zijn uitgerust met innovatieve veiligheidsfunctionaliteiten, waardoor ze de meest betrouwbare op de markt zijn."
+            },
+            "7": {
+                "bold": "Huur-opties:",
+                "c": "Heeft u een klep nodig voor een kort project? Wij bieden flexibele huuropties om aan uw behoeften te voldoen."
+            },
+            "8": {
+                "bold": "Technische ondersteuning:",
+                "c": "Ons team van technici is altijd beschikbaar om u technische ondersteuning en assistentie te bieden."
+            }
+        },
+        "2": "Wij bieden verschillende soorten kleppen aan, waaronder standaardkleppen, kadekleppen en speciale kleppen voor specifieke toepassingen.",
+        "3": "Ons team van technici kan u helpen de juiste klep te kiezen voor uw behoeften, waarbij uw lading, afmetingen en gebruik worden meegenomen.",
+        "4": "Ja, wij kunnen kleppen aanpassen om aan uw specifieke behoeften te voldoen, zoals lengte, breedte en capaciteit.",
+        "5": "Ja, wij bieden flexibele huuropties voor korte projecten.",
+        "6": "Wij leveren onze bestellingen meestal binnen 3 dagen in heel Europa.",
+        "7": "U kunt contact opnemen met onze technische ondersteuning per telefoon, e-mail of live-chat. Onze contactgegevens zijn te vinden op onze website."
+    }
+},
     "footer": {
         "copyright": "Auteursrecht © 2024 AZ Machinery. Alle rechten voorbehouden.",
         "headquarter": {

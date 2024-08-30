@@ -184,6 +184,11 @@
         "title4": "Employés"
     },
     "contact": {
+        "helpbox": {
+            "title": "Contactez-nous",
+            "subTitle": "Nous vous répondrons dès que possible.",
+            "preferedContact": "Méthode de contact préférée ?"
+        },
         "title": "Contact régional",
         "subTitle": "Conseils et accompagnement personnalisés",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Excellent rapport qualité/prix. Nous avons choisi le PRIME WLO8+ avec garde-corps en version FULL GALVA. Super pratique, de bonne qualité. AZ MACHINERY a même récupéré notre ancienne rampe Expresso qui ne tenait plus debout. Matériau reçu par nous dans le camion du fabricant 4 jours après notre commande. Vraiment bien, merci.",
         "mauroMartinText": "J'ai acheté une nouvelle rampe chez AZ MACHINERY, nous avons choisi le modèle AZ RAMP EASY XL 10 T, une excellente rampe d'accès. Nous l'avons reçu dans notre entrepôt en Argentine en 30 jours, bon contact avec le vendeur très amical. Cette rampe est de très bonne qualité et fabrication impeccable travail. Nous sommes très satisfaits de notre achat."
     },
+"faq": {
+    "title": "Rampes de chargement mobiles : Le guide complet",
+    "subTitle": "Tout ce que vous devez savoir sur les rampes de chargement mobiles",
+    "q": {
+        "1": "Pourquoi choisir notre entreprise ?",
+        "2": "Quels types de rampes de chargement mobiles proposons-nous ?",
+        "3": "Comment choisir la rampe adaptée à mes besoins ?",
+        "4": "Pouvez-vous personnaliser les rampes ?",
+        "5": "Proposez-vous des services de location ?",
+        "6": "Combien de temps prend la livraison ?",
+        "7": "Comment contacter le support technique ?"
+    },
+    "a": {
+        "1": {
+            "1": "Nous sommes votre seul et unique choix pour tous vos besoins en rampes de chargement mobiles. Voici les raisons pour lesquelles nous sommes la meilleure option :",
+            "2": {
+                "bold": "Gamme large de produits :",
+                "c": "Nous disposons de plus de 500 rampes en stock, prêtes à être livrées partout en Europe."
+            },
+            "3": {
+                "bold": "Livraison rapide :",
+                "c": "Expérimentez une livraison rapide. Votre commande sera expédiée dans les 3 jours, afin que vous puissiez recevoir vos rampes au moment opportun."
+            },
+            "4": {
+                "bold": "Qualité premium :",
+                "c": "Nos rampes sont fabriquées avec les meilleurs matériaux, ce qui garantit leur durabilité et leur sécurité."
+            },
+            "5": {
+                "bold": "Solutions personnalisées :",
+                "c": "Nous nous spécialisons dans la création de rampes personnalisées répondant à vos besoins spécifiques."
+            },
+            "6": {
+                "bold": "Fonctionnalités innovantes :",
+                "c": "Nos rampes disposent de fonctionnalités innovantes en matière de sécurité, ce qui les rend les plus fiables du marché."
+            },
+            "7": {
+                "bold": "Options de location :",
+                "c": "Avez-vous besoin d'une rampe pour un projet de courte durée ? Nous proposons des options de location flexibles pour répondre à vos besoins."
+            },
+            "8": {
+                "bold": "Support technique :",
+                "c": "Notre équipe de techniciens est toujours à votre disposition pour vous fournir une assistance technique et un support."
+            }
+        },
+        "2": "Nous proposons différents types de rampes, notamment des rampes standards, des rampes de quai et des rampes spécialisées pour des applications spécifiques.",
+        "3": "Notre équipe de techniciens peut vous aider à choisir la rampe adaptée à vos besoins, en prenant en compte la charge, les dimensions et l'utilisation prévue.",
+        "4": "Oui, nous pouvons personnaliser les rampes pour répondre à vos besoins spécifiques, tels que la longueur, la largeur et la capacité de charge.",
+        "5": "Oui, nous proposons des options de location flexibles pour les projets de courte durée.",
+        "6": "Nous livrons généralement vos commandes dans les 3 jours partout en Europe.",
+        "7": "Vous pouvez contacter notre équipe de support technique par téléphone, par courrier électronique ou par chat en direct. Nos coordonnées sont disponibles sur notre site web."
+    }
+},
     "footer": {
         "copyright": "Droits d'auteur © 2024 AZ Machinery. Tous droits réservés.",
         "headquarter": {

@@ -184,6 +184,11 @@
         "title4": "Employé"
     },
     "contact": {
+        "helpbox": {
+            "title": "Kontaktéiert eis",
+            "subTitle": "Mir kontaktéieren Iech sou séier wéi méiglech.",
+            "preferedContact": "Präferéiert Kontaktmethod?"
+        },
         "title": "Regionale Kontakt",
         "subTitle": "Perséinlech Berodung an Ënnerstëtzung",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Héich d'Laat-Haltbarkeets-Verhältnis. Hutt d'Modell Prime WLO8+ als Ganz galvaniséiert-Version ausgewielt. Gréng benotzbar und laut. AZ MACHINERY héicht méi awwern Expresso-Modell. D'Material ass 4 Tage nach der Bestellung ausgeliefert worre, vun d'Hersteller mit dem Auto. Gréng gut, dankeschön!",
         "mauroMartinText": "Bin d'Geräte vun AZ MACHINERY gekauft, hutt d'Modell AZ RAMP EASY XL 10 T ausgewielt. Gréng Innengerät. D'Geräte ass nach 30 Tagen nach der Bestellung an méi Reserveländer in Spanien ausgeliefert worre, guttige Verbindung mit Jérôme GUIGUET. Dësse Geräte entsprént d'Erfordernisse an Laat und Produktionsstandards."
     },
+"faq": {
+    "title": "Mobill Luederampen: De ganz Guide",
+    "subTitle": "Alles, wat Dir iwwer mobill Luederampen wëssen musst",
+    "q": {
+        "1": "Wat sollt Dir auswielen?",
+        "2": "Wat Aarten vu mobill Luederampen bidden Dir un?",
+        "3": "Wéi wielt Dir déi richteg Luederamp fir däi Bedierfniss aus?",
+        "4": "Kënnt Dir d'Luederampen nohalen?",
+        "5": "Bidden Dir Leihdéngschter un?",
+        "6": "Wat dauert déi Liwwerung?",
+        "7": "Wéi kann Dir de techneschen Ënnerstëtz kontaktéieren?"
+    },
+    "a": {
+        "1": {
+            "1": "Mir sinn déi eenzeg a richteg Wiel fir all däi Bedierfniss un mobill Luederampen. Hei sinn déi Grënn, firwat mir déi bescht Wiel sinn:",
+            "2": {
+                "bold": "Grouss Sortiment:",
+                "c": "Mir hunn iwwer 500 Luederampen am Lager, déi fir d'direkt Liwwerung a ganz Europa bereet sinn."
+            },
+            "3": {
+                "bold": "Schnell Liwwerung:",
+                "c": "Mach déi schnell Liwwerung aus. Déi Bestellung gëtt an 3 Deeg geschéckt, dat Dir déi Luederampen kruten, wann Dir se braucht."
+            },
+            "4": {
+                "bold": "Qualitéit:",
+                "c": "Déi Luederampen sinn aus déi beschten Materialien gemaach, wat déi Dauerhaftegkeet a Sécherheet garantéiert."
+            },
+            "5": {
+                "bold": "No haltbar Léisungen:",
+                "c": "Mir sinn spezialiséiert un déi Luederampen nohalen, déi déi bescht déngschter fir däi Bedierfniss sinn."
+            },
+            "6": {
+                "bold": "Innovativ Funktiounen:",
+                "c": "Déi Luederampen hunn innovativ Funktiounen fir d'Sécherheet, wat se déi bescht op dem Maart mécht."
+            },
+            "7": {
+                "bold": "Leihdéngschter:",
+                "c": "Hast Dir eng Luederamp fir en kuerzen Zäitraum gebraucht? Mir bidden flexibel Leihdéngschter fir däi Bedierfniss un."
+            },
+            "8": {
+                "bold": "Techneschen Ënnerstëtz:",
+                "c": "Déi techneschen Ënnerstëtzer sinn ëmmer fir Dir bereet, fir Dir techneschen Ënnerstëtz a Leedung unzubidden."
+            }
+        },
+        "2": "Mir bidden verschidden Typpe vu mobill Luederampen un, wéi déi Standard-Luederampen, déi Muel-Luederampen an déi spezialiséiert Luederampen fir bestëmmte Gebrauch.",
+        "3": "Déi techneschen Ënnerstëtzer kënnen Dir hëllefen, déi bescht Luederamp fir däi Bedierfniss auszewielen, déi däi Luedung, déi Dimensiounen an den usgeschter Gebrauch unhuele.",
+        "4": "Jo, mir kënnen déi Luederampen nohalen fir däi bescht déngschter fir däi Bedierfniss, wéi déi Längt, déi Breet an déi Kapazitéit fir d'Luft.",
+        "5": "Jo, mir bidden flexibel Leihdéngschter fir déi kuerzen Zäitraum un.",
+        "6": "Mir liwweren déi Bestellungen normalerweis an 3 Deeg a ganz Europa.",
+        "7": "Dir kannscht déi techneschen Ënnerstëtzer per Telefon, Email oder live-Chat kontaktéieren. Déi Adressen sinn op eiser Websäit ze fannen."
+    }
+},
     "footer": {
         "copyright": "Copyright © 2024 AZ Machinery. All Rechter reservéiert.",
         "headquarter": {

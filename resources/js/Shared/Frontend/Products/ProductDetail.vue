@@ -85,7 +85,21 @@ const showPriceCalculator = () => {
 
 // Method to share the product
 const shareProduct = () => {
-    alert('Share this product on social media!');
+    if (navigator.share) {
+        navigator.share({
+            title: 'Produktname', // Titel des Produkts
+            text: 'Schau dir dieses Produkt an!', // Text, der geteilt wird
+            url: window.location.href // URL der aktuellen Seite
+        })
+        .then(() => {
+            console.log('Erfolgreich geteilt');
+        })
+        .catch((error) => {
+            console.error('Fehler beim Teilen:', error);
+        });
+    } else {
+        alert('Teilen ist auf diesem Gerät nicht unterstützt.');
+    }
 };
 
 // Optional: You can use onMounted to set the initial component explicitly
@@ -233,9 +247,9 @@ onMounted(() => {
                                     <span class="open-window" @click="showHelpSidebar"><i
                                             class="bi bi-clipboard-data"></i> Quote</span>
                                     &nbsp;&nbsp;
-                                    <span class="open-window" @click="showHelpChat"><i class="bi bi-chat"></i>
+                                    <!-- <span class="open-window" @click="showHelpChat"><i class="bi bi-chat"></i>
                                         Seller</span>
-                                    &nbsp;&nbsp;
+                                    &nbsp;&nbsp; -->
                                     <span class="open-window" @click="shareProduct"><i class="bi bi-share"></i>
                                         Share</span>
                                     &nbsp;&nbsp;
@@ -288,7 +302,7 @@ onMounted(() => {
 
 .contact-bar {
     background-color: #424242;
-    background-image: linear-gradient(to bottom, #424242, #363636);
+    background-image: linear-gradient(to bottom, #424242, #161519);
     color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;

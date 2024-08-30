@@ -184,6 +184,11 @@
         "title4": "Funcionários"
     },
     "contact": {
+        "helpbox": {
+            "title": "Entre em contato",
+            "subTitle": "Nós entraremos em contato o mais rápido possível.",
+            "preferedContact": "Método de contato preferido?"
+        },
         "title": "Contato regional",
         "subTitle": "Aconselhamento e suporte pessoal",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Excelente relação preço/qualidade. Escolhemos o PRIME WLO8+ com corredor em versão FULL GALVA. Muito prático, de boa qualidade. A AZ MACHINERY até mesmo pegou nossa rampa Expresso antiga que não mais ficava em pé. Recebemos o material no nosso armazém em Argentina em 4 dias após a compra. Muito bom, obrigado.",
         "mauroMartinText": "Comprei uma nova rampa na AZ MACHINERY, escolhemos o modelo AZ RAMP EASY XL 10 T, uma excelente rampa de acesso. Recebemos a rampa em nosso armazém em Argentina em 30 dias, um bom contato com o vendedor muito amigável. Esta rampa é de excelente qualidade e fabricação. Estamos muito satisfeitos com a compra."
     },
+"faq": {
+    "title": "Rampas de Carga Móveis: O Guia Completo",
+    "subTitle": "Tudo o que você precisa saber sobre rampas de carga móveis",
+    "q": {
+        "1": "Por que escolher a nossa empresa?",
+        "2": "Quais são os tipos de rampas de carga móveis que oferecemos?",
+        "3": "Como escolher a rampa certa para minhas necessidades?",
+        "4": "Podemos personalizar as rampas?",
+        "5": "Oferecemos opções de aluguel?",
+        "6": "Quanto tempo leva a entrega?",
+        "7": "Como posso entrar em contato com o suporte técnico?"
+    },
+    "a": {
+        "1": {
+            "1": "Somos a sua única opção para todas as suas necessidades de rampas de carga móveis. Aqui estão as razões pelas quais somos a melhor escolha:",
+            "2": {
+                "bold": "Ampla gama de produtos:",
+                "c": "Nós temos mais de 500 rampas em estoque, prontas para serem entregues em toda a Europa."
+            },
+            "3": {
+                "bold": "Entrega rápida:",
+                "c": "Experimente a entrega rápida. Sua ordem será enviada dentro de 3 dias, para que você possa receber suas rampas quando precisar."
+            },
+            "4": {
+                "bold": "Qualidade superior:",
+                "c": "Nossas rampas são fabricadas com os melhores materiais, o que garante a durabilidade e a segurança."
+            },
+            "5": {
+                "bold": "Soluções personalizadas:",
+                "c": "Nós nos especializamos em criar rampas personalizadas que atendam às suas necessidades específicas."
+            },
+            "6": {
+                "bold": "Funções inovadoras:",
+                "c": "Nossas rampas possuem funções inovadoras de segurança, o que as torna as mais confiáveis do mercado."
+            },
+            "7": {
+                "bold": "Opções de aluguel:",
+                "c": "Você precisa de uma rampa para um projeto de curto prazo? Nós oferecemos opções de aluguel flexíveis para atender às suas necessidades."
+            },
+            "8": {
+                "bold": "Suporte técnico:",
+                "c": "Nossa equipe de suporte técnico está sempre disponível para fornecer assistência técnica e apoio."
+            }
+        },
+        "2": "Nós oferecemos diferentes tipos de rampas, incluindo rampas padrão, rampas de cais e rampas especializadas para aplicações específicas.",
+        "3": "Nossa equipe de suporte técnico pode ajudá-lo a escolher a rampa certa para suas necessidades, levando em consideração o peso, as dimensões e o uso pretendido.",
+        "4": "Sim, podemos personalizar as rampas para atender às suas necessidades específicas, como comprimento, largura e capacidade.",
+        "5": "Sim, nós oferecemos opções de aluguel flexíveis para projetos de curto prazo.",
+        "6": "Nós entregamos nossas encomendas geralmente dentro de 3 dias em toda a Europa.",
+        "7": "Você pode entrar em contato com nossa equipe de suporte técnico por telefone, e-mail ou chat ao vivo. Nossas informações de contato estão disponíveis em nosso site."
+    }
+},
     "footer": {
         "copyright": "Direitos autorais © 2024 AZ Machinery. Todos os direitos reservados.",
         "headquarter": {

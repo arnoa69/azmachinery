@@ -182,6 +182,11 @@
         "title4": "Empleado"
     },
     "contact": {
+        "helpbox": {
+            "title": "Ponte en contacto",
+            "subTitle": "Te responderemos lo antes posible.",
+            "preferedContact": "¿Método de contacto preferido?"
+        },
         "title": "Contacto regional",
         "subTitle": "Asesoramiento y apoyo personal",
         "label": {
@@ -196,7 +201,7 @@
             "label": {
                 "place": "Dirección:",
                 "phone": "Llámenos:",
-                "email": "Envíenos un correo electrónico:"
+                "email": "Correo electrónico:"
             },
             "placeholder": {
                 "name": "Su nombre completo",
@@ -218,6 +223,58 @@
         "christell48Text": "Excelente relación calidad-precio.Elegimos el PRIME WLO8+ con barandilla en versión “FULL GALVA”. Súper práctico, buena calidad.AZ MACHINERY incluso recuperó nuestra antigua rampa Expresso que ya no estaba en pie.Material recibido por nosotros en el camión del fabricante 4 días después de nuestro pedido.Realmente bueno, gracias",
         "mauroMartinText": "Compré una rampa nueva de AZ MACHINERY, elegimos el modelo AZ RAMP EASY XL 10 T, una muy buena rampa de carga. Lo recibimos en nuestro almacén de Argentina en 30 días, buen contacto con el vendedor muy amable. Esta rampa es de muy buena calidad y mano de obra impecable. Estamos muy contentos con nuestra compra."
     },
+"faq": {
+    "title": "Rampas de carga móviles: La guía completa",
+    "subTitle": "Todo lo que necesitas saber sobre rampas de carga móviles",
+    "q": {
+        "1": "¿Por qué debemos elegirte?",
+        "2": "¿Qué tipos de rampas de carga móviles ofrecen?",
+        "3": "¿Cómo elijo la rampa adecuada para mis necesidades?",
+        "4": "¿Pueden personalizar las rampas?",
+        "5": "¿Ofrecen servicios de alquiler?",
+        "6": "¿Cuánto tarda la entrega?",
+        "7": "¿Cómo puedo contactar con el soporte técnico?"
+    },
+    "a": {
+        "1": {
+            "1": "Somos tu única opción para todas tus necesidades de rampas de carga móviles. Aquí están las razones por las que somos la mejor opción:",
+            "2": {
+                "bold": "Inventario amplio:",
+                "c": "Tenemos más de 500 rampas en stock, listas para ser enviadas de inmediato a cualquier lugar de Europa."
+            },
+            "3": {
+                "bold": "Entrega rápida:",
+                "c": "Experiencia la entrega rápida. Tu pedido se enviará dentro de los 3 días, para que puedas recibir tus rampas cuando las necesites."
+            },
+            "4": {
+                "bold": "Calidad premium:",
+                "c": "Nuestras rampas están fabricadas con los mejores materiales, lo que garantiza la durabilidad y la seguridad."
+            },
+            "5": {
+                "bold": "Soluciones personalizadas:",
+                "c": "Nos especializamos en crear rampas personalizadas para satisfacer tus necesidades específicas."
+            },
+            "6": {
+                "bold": "Funciones innovadoras:",
+                "c": "Nuestras rampas cuentan con funciones de seguridad innovadoras, lo que las convierte en las más confiables del mercado."
+            },
+            "7": {
+                "bold": "Opciones de alquiler:",
+                "c": "¿Necesitas una rampa para un proyecto de corta duración? Ofrecemos opciones de alquiler flexibles para satisfacer tus necesidades."
+            },
+            "8": {
+                "bold": "Soporte técnico:",
+                "c": "Nuestro equipo de expertos está siempre disponible para ofrecerte asistencia técnica y soporte."
+            }
+        },
+        "2": "Ofrecemos diferentes tipos de rampas, incluyendo rampas estándar, rampas de muelle y rampas especializadas para aplicaciones específicas.",
+        "3": "Nuestro equipo de expertos puede ayudarte a elegir la rampa adecuada para tus necesidades, teniendo en cuenta tu carga, dimensiones y uso previsto.",
+        "4": "Sí, podemos personalizar las rampas para satisfacer tus necesidades específicas, como la longitud, el ancho y la capacidad de carga.",
+        "5": "Sí, ofrecemos opciones de alquiler flexibles para aquellos que necesitan una rampa para un proyecto de corta duración.",
+        "6": "Normalmente, entregamos los pedidos dentro de los 3 días en cualquier lugar de Europa.",
+        "7": "Puedes contactar con nuestro equipo de soporte técnico por teléfono, correo electrónico o chat en directo. Nuestra información de contacto está disponible en nuestro sitio web."
+    }
+},
     "footer": {
         "copyright": "Derechos de autor © 2024 AZ Machinery. Todos los derechos reservados.",
         "headquarter": {

@@ -184,6 +184,11 @@
         "title4": "Työntekijää"
     },
     "contact": {
+        "helpbox": {
+            "title": "Ota yhteyttä",
+            "subTitle": "Olemme yhteydessä sinuun mahdollisimman pian.",
+            "preferedContact": "Suositeltava yhteydenottotapa?"
+        },
         "title": "Alueellinen yhteyshenkilö",
         "subTitle": "Henkilökohtaista neuvontaa ja tukea",
         "label": {
@@ -221,6 +226,58 @@
         "christell48Text": "Lisään laatu-hinta-suhteellisuutta. Valitsin Prime WLO8+ -laitteen Täysin galvanisoitu-version. Hyvin käyttöystävällinen ja laatuinen. AZ MACHINERY korjasi meidän vanhan Expresso-mallin. Materiaali toimitettiin 4 päivän kuluttua tilauksen jäljiltymisen jälkeen valmistajan autolla. Todellinen hyvä, kiitos!",
         "mauroMartinText": "Ostan uuden laitteen AZ MACHINERYltä, valitsin mallin AZ RAMP EASY XL 10 T. Hyvä sisemmäislaite. Laite toimitettiin meidän varastoollemme Espanjaan vain 30 päivän kuluttua erittäin hyvät yhteydet Jérôme GUIGUETin kanssa. Tämä laite vastaa kaikkiin nykyisiin vaatimuksiin laatuun ja tootantatasolle."
     },
+"faq": {
+    "title": "Mobiililaiturit: Täydellinen opas",
+    "subTitle": "Kaikki, mitä tarvitset tietää mobiililaitureista",
+    "q": {
+        "1": "Miksi kannattaa valita meitä?",
+        "2": "Mitenlaisia mobiililaitureita tarjoamme?",
+        "3": "Miten valitsen oikean laiturin tarpeisiini?",
+        "4": "Voinko tilata laiturin mukautettuna?",
+        "5": "Tarjoatteko vuokrauspalveluita?",
+        "6": "Kuinka kauan kestää toimitus?",
+        "7": "Miten voin olla yhteydessä tekniseen tukeen?"
+    },
+    "a": {
+        "1": {
+            "1": "Olemme ainoa valintanne kaikissa mobiililaituritarpeissanne. Tässä ovat syyt, miksi olemme paras valinta:",
+            "2": {
+                "bold": "Laaja valikoima:",
+                "c": "Meillä on yli 500 laituria varastossa, jotka ovat valmiit lähetettäväksi heti Euroopan alueelle."
+            },
+            "3": {
+                "bold": "Nopea toimitus:",
+                "c": "Kokemus nopeasta toimittamisesta. Tilauksesi toimitetaan 3 päivän kuluessa, jotta saat laiturit tarvitsemasi ajankohtana."
+            },
+            "4": {
+                "bold": "Laadukas tuote:",
+                "c": "Laiturimme on valmistettu parhaista materiaaleista, mikä takaa kestävyyden ja turvallisuuden."
+            },
+            "5": {
+                "bold": "Mukautettavat ratkaisut:",
+                "c": "Erityisosaamisemme on laatia laiturit asiakkaiden tarpeisiin sopiviksi."
+            },
+            "6": {
+                "bold": "Innovaatiot:",
+                "c": "Laitureissamme on uusinta teknologiaa, mikä takaa turvallisuuden ja toimivuuden."
+            },
+            "7": {
+                "bold": "Vuokrausmahdollisuudet:",
+                "c": "Tarvitsetko laituria vain lyhytaikaiseen projektiin? Tarjoamme joustavat vuokrausmahdollisuudet."
+            },
+            "8": {
+                "bold": "Tekninen tuki:",
+                "c": "Asiakaspalvelutiimimme on aina valmis auttamaan ja antamaan teknistä tukea."
+            }
+        },
+        "2": "Tarjoamme erilaisia laiturimalleja, kuten standardilaitureita, satamalaitureita ja erikoislaitureita erityistarkoituksiin.",
+        "3": "Asiakaspalvelutiimimme auttaa valitsemaan oikean laiturin tarpeisiisi sopivasti, ottaen huomioon lastin koon, painon ja käyttötarkoituksen.",
+        "4": "Kyllä, voimme mukauttaa laiturin tarpeisiisi sopivaksi, kuten pituuden, leveyden ja kuorman vaatimukset.",
+        "5": "Kyllä, tarjoamme joustavat vuokrausmahdollisuudet lyhytaikaisiin projekteihin.",
+        "6": "Toimitamme tilauksesi yleensä 3 päivän kuluessa Euroopan alueelle.",
+        "7": "Voit olla yhteydessä tekniseen tukeen puhelimitse, sähköpostitse tai live-chatin kautta. Yhteystietomme löytyvät kotisivuiltamme."
+    }
+},
     "footer": {
         "copyright": "Tekijänoikeus © 2024 AZ Machinery. Kaikki oikeudet pidätetään.",
         "headquarter": {

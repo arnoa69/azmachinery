@@ -283,7 +283,7 @@ const handleChange = () => {
   border-radius: 20px 20px 0 0;
   padding: 20px;
   position: relative;
-  background-image: linear-gradient(to bottom, #424242, #363636);
+  background-image: linear-gradient(to bottom, #424242, #161519);
   background-size: 100% 100%;
 }
 
