@@ -497,5 +497,26 @@
         "target_audience_09": "Recycling and Waste Management",
         "target_audience_10": "Event and Exhibition Services",
         "product_data_sheet": "Produktdatenblatt"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Version",
+        "capacitylabel": "Angebot anfordern",
+        "optionen": "Zusätzliche Optionen",
+        "subtitle": "Füllen Sie das untenstehende Formular aus und wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.",
+        "choose-version": "Version wählen",
+        "security-zone": "Sicherheitszone",
+        "rl1200": "Schutzgeländer 1200mm",
+        "rl1200p": "Schutzgeländer 1200mm",
+        "rl350": "Schutzgeländer 350mm",
+        "le": "Elektrischer Lift",
+        "be": "Elektrische Krücken",
+        "ff": "Gabel-Schieber",
+        "ffd": "Doppelter Gabel-Schieber",
+        "tt": "Zugdeichsel",
+        "gan": "Vollverzinkt",
+        "gap": "Vollverzinkt",
+        "gab": "Vollverzinkt",
+        "gao": "Vollverzinkt",
+        "tb": "Überdachter Tunnel"
+      }
 }

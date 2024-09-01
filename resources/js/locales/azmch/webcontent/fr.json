@@ -498,5 +498,26 @@
         "target_audience_09": "Récyclage et gestion des déchets",
         "target_audience_10": "Services d'événements et d'expositions",
         "product_data_sheet": "Fiche technique produit"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Version",
+        "capacitylabel": "Demander un devis",
+        "optionen": "Options additionnelles",
+        "subtitle": "Remplissez le formulaire ci-dessous et nous vous contacterons dès que possible.",
+        "choose-version": "Choisissez une version",
+        "security-zone": "Zone de sécurité",
+        "rl1200": "Garde-corps 1200mm",
+        "rl1200p": "Garde-corps 1200mm",
+        "rl350": "Garde-corps 350mm",
+        "le": "Ascenseur électrique",
+        "be": "Béquilles électriques",
+        "ff": "Coulisseau de fourche",
+        "ffd": "Double coulisseau de fourche",
+        "tt": "Barre de traction",
+        "gan": "Entièrement galvanisé",
+        "gap": "Entièrement galvanisé",
+        "gab": "Entièrement galvanisé",
+        "gao": "Entièrement galvanisé",
+        "tb": "Tunnel bâché"
+      }
 }

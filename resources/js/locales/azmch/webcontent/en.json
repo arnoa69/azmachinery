@@ -500,5 +500,26 @@
         "target_audience_09": "Recycling and Waste Management",
         "target_audience_10": "Event and Exhibition Services",
         "product_data_sheet": "Product data sheet"
+    },
+    "request-box": {
+        "versionlabel": "Version",
+        "capacitylabel": "Request a quote",
+        "optionen": "Additional options",
+        "subtitle": "Fill in the form below and we will contact you as soon as possible.",
+        "choose-version": "Choose a version",
+        "security-zone": "Security zone",
+        "rl1200": "Guardrails 1200mm",
+        "rl1200p": "Guardrails 1200mm",
+        "rl350": "Guardrails 350mm",
+        "le": "Electrical lift",
+        "be": "Electric crutches",
+        "ff": "Fork slider",
+        "ffd": "Double fork slider",
+        "tt": "Traction drawbar",
+        "gan": "Full galvanized",
+        "gap": "Full galvanized",
+        "gab": "Full galvanized",
+        "gao": "Full galvanized",
+        "tb": "Covered tunnel"
     }
 }

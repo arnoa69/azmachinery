@@ -498,5 +498,26 @@
         "target_audience_09": "Kierrätys ja jätehuolto",
         "target_audience_10": "Tapahtuma- ja näyttelypalvelut",
         "product_data_sheet": "Tuotetietolomake"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Versio",
+        "capacitylabel": "Pyydä tarjous",
+        "optionen": "Lisävaihtoehdot",
+        "subtitle": "Täytä alla oleva lomake ja otamme sinuun yhteyttä mahdollisimman pian.",
+        "choose-version": "Valitse versio",
+        "security-zone": "Turva-alue",
+        "rl1200": "Kaiteet 1200mm",
+        "rl1200p": "Kaiteet 1200mm",
+        "rl350": "Kaiteet 350mm",
+        "le": "Sähköinen nostin",
+        "be": "Sähköiset kainalosauvat",
+        "ff": "Haarukkaliukusäädin",
+        "ffd": "Tuplahaarukkaliukusäädin",
+        "tt": "Vetoaisatanko",
+        "gan": "Täysin sinkitty",
+        "gap": "Täysin sinkitty",
+        "gab": "Täysin sinkitty",
+        "gao": "Täysin sinkitty",
+        "tb": "Katettu tunneli"
+      }
 }

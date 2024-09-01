@@ -498,5 +498,26 @@
         "target_audience_09": "Återvinning och avfallshantering",
         "target_audience_10": "Event- och utställningstjänster",
         "product_data_sheet": "Produktblad"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Version",
+        "capacitylabel": "Begär offert",
+        "optionen": "Tillvalsfunktioner",
+        "subtitle": "Fyll i formuläret nedan så kontaktar vi dig så snart som möjligt.",
+        "choose-version": "Välj en version",
+        "security-zone": "Säkerhetszon",
+        "rl1200": "Skyddsräcken 1200mm",
+        "rl1200p": "Skyddsräcken 1200mm",
+        "rl350": "Skyddsräcken 350mm",
+        "le": "Elektrisk hiss",
+        "be": "Elektriska kryckor",
+        "ff": "Gaffelreglage",
+        "ffd": "Dubbelt gaffelreglage",
+        "tt": "Dragstång",
+        "gan": "Helt galvaniserad",
+        "gap": "Helt galvaniserad",
+        "gab": "Helt galvaniserad",
+        "gao": "Helt galvaniserad",
+        "tb": "Täckt tunnel"
+      }
 }

@@ -4,7 +4,7 @@ import generateUrl from '@/utils/urlHelper';
 import { useI18n } from 'vue-i18n';
 import { Inertia } from '@inertiajs/inertia';
 
-const { locale } = useI18n();
+const { locale, t } = useI18n();
 
 const props = defineProps({
     baseName: {
@@ -51,20 +51,20 @@ const mobileRampsData = ref({
 });
 
 const optionsData = ref({
-    zr: { label: 'Security Zone', price: 500 },
-    rl1200: { label: 'Guardrails 1200mm', price: 1000 },
-    rl1200p: { label: 'Guardrails 1200mm', price: 500 },
-    rl350: { label: 'Guardrails 350mm', price: 500 },
-    le: { label: 'Electric Lift', price: 2000 },
-    be: { label: 'Electric Crutches', price: 3500 },
-    ff: { label: 'Fork-Slider', price: 750 },
-    ffd: { label: 'Double Fork-Slider', price: 1500 },
-    tt: { label: 'Traction Drawbar', price: 750 },
-    gan: { label: 'Full Galvanized', price: 3000 },
-    gap: { label: 'Full Galvanized', price: 1500 },
-    gab: { label: 'Full Galvanized', price: 5700 },
-    gao: { label: 'Full Galvanized', price: 3500 },
-    tb: { label: 'Tarpaulin Tunnel', price: 4250 },
+    zr: { label: t('request-box.security-zone'), price: 500 },
+    rl1200: { label: t('request-box.rl1200'), price: 1000 },
+    rl1200p: { label: t('request-box.rl1200p'), price: 500 },
+    rl350: { label: t('request-box.rl350'), price: 500 },
+    le: { label: t('request-box.le'), price: 2000 },
+    be: { label: t('request-box.be'), price: 3500 },
+    ff: { label: t('request-box.ff'), price: 750 },
+    ffd: { label: t('request-box.ffd'), price: 1500 },
+    tt: { label: t('request-box.tt'), price: 750 },
+    gan: { label: t('request-box.gan'), price: 3000 },
+    gap: { label: t('request-box.gap'), price: 1500 },
+    gab: { label: t('request-box.gab'), price: 5700 },
+    gao: { label: t('request-box.gao'), price: 3500 },
+    tb: { label: t('request-box.tb'), price: 4250 },
 });
 
 // Option Groups
@@ -190,29 +190,22 @@ onMounted(() => {
     initializeForm(props.slug);
 });
 
-const handleOptionChange = (option) => {
-    // Wenn der baseName 'big-foot' ist, dann überprüfen wir die Logik
-    if (props.baseName === 'big-foot') {
-        // Wenn rl1200 oder rl350 ausgewählt wird, deaktiviere die andere
-        if (option === 'rl1200' && selectedOptions.value.includes('rl350')) {
-            selectedOptions.value = selectedOptions.value.filter(opt => opt !== 'rl350');
-        } else if (option === 'rl350' && selectedOptions.value.includes('rl1200')) {
-            selectedOptions.value = selectedOptions.value.filter(opt => opt !== 'rl1200');
-        }
-    }
-    // Fügen Sie die Option hinzu, wenn sie nicht bereits ausgewählt ist
-    if (!selectedOptions.value.includes(option)) {
-        selectedOptions.value.push(option);
-    }
-    // Trigger the change handling
-    handleChange();
-};
 
-const handleChange = () => {
+const handleChange = (key) => {
     const selectedVersion = document.getElementById('version');
     const selectedWeightCapacity = document.getElementById('weightCapacity').value;
-    const selectedOptions = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
-        .map(input => input.value);
+    if (props.baseName === 'big-foot') {
+        // Wenn rl1200 ausgewählt wird und rl350 bereits ausgewählt ist
+        if (key === 'rl1200' && selectedOptions.value.includes('rl350')) {
+            // Entferne rl350 aus den ausgewählten Optionen
+            selectedOptions.value = selectedOptions.value.filter(option => option !== 'rl350');
+        }
+        // Wenn rl350 ausgewählt wird und rl1200 bereits ausgewählt ist
+        else if (key === 'rl350' && selectedOptions.value.includes('rl1200')) {
+            // Entferne rl1200 aus den ausgewählten Optionen
+            selectedOptions.value = selectedOptions.value.filter(option => option !== 'rl1200');
+        }
+    }
 
     // Generiere die neue URL
     const newUrl = generateUrl(generatedSlug.value, selectedVersion.value, props.type, locale.value);
@@ -238,15 +231,15 @@ const handleChange = () => {
             <form @submit.prevent="submitForm">
                 <div class="row">
                     <div class="col-6" >
-                        <label for="version" class="form-label">Version</label>
+                        <label for="version" class="form-label">{{ $t( 'request-box.versionlabel' )}}</label>
                         <select id="version" class="form-select" v-model="selectedVersion"
                             :disabled="!Object.keys(availableVersions).length" @change="handleChange">
-                            <option value="">Wählen Sie eine Version</option>
+                            <option value="">{{ $t( 'request-box.choose-version' )}}</option>
                             <option v-for="(value, key) in availableVersions" :key="key" :value="key">{{ key }}</option>
                         </select>
                     </div>
                     <div class="col-6">
-                        <label for="weightCapacity" class="form-label">Gewichtskapazität</label>
+                        <label for="weightCapacity" class="form-label">{{ $t( 'request-box.capacitylabel' )}}</label>
                         <select id="weightCapacity" class="form-select" v-model="selectedWeightCapacity"
                             :disabled="!Object.keys(availableWeightCapacities).length" @change="handleChange">
                             <option value="">Wählen Sie eine Gewichtskapazität</option>
@@ -255,11 +248,11 @@ const handleChange = () => {
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <label for="weightCapacity" class="form-label">Optionen</label>
+                    <label for="weightCapacity" class="form-label">{{ $t( 'request-box.optionen' )}}</label>
                     <div class="col-12" v-for="(optionData, key) in availableOptions" :key="key">
                         <input type="checkbox" :id="`option-${key}`" :value="key" v-model="selectedOptions"
                             :checked="selectedOptions.includes(key)"
-                            @change="handleOptionChange(key)">
+                            @change="handleChange(key)">
                         <label :for="`option-${key}`">{{ optionData.label }} ({{ optionData.price }}€)</label>
                     </div>
                 </div>

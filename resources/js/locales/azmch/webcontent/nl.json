@@ -498,5 +498,26 @@
         "target_audience_09": "Recyclage en afvalbeheer",
         "target_audience_10": "Evenementen- en expositiebedrijven",
         "product_data_sheet": "Productgegevensblad"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Versie",
+        "capacitylabel": "Offerte aanvragen",
+        "optionen": "Extra opties",
+        "subtitle": "Vul het onderstaande formulier in en wij nemen zo spoedig mogelijk contact met u op.",
+        "choose-version": "Kies een versie",
+        "security-zone": "Veiligheidszone",
+        "rl1200": "Leuningen 1200mm",
+        "rl1200p": "Leuningen 1200mm",
+        "rl350": "Leuningen 350mm",
+        "le": "Elektrische lift",
+        "be": "Elektrische krukken",
+        "ff": "Vorkschuif",
+        "ffd": "Dubbele vorkschuif",
+        "tt": "Trekhaak",
+        "gan": "Volledig gegalvaniseerd",
+        "gap": "Volledig gegalvaniseerd",
+        "gab": "Volledig gegalvaniseerd",
+        "gao": "Volledig gegalvaniseerd",
+        "tb": "Overdekte tunnel"
+      }
 }

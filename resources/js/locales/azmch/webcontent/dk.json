@@ -498,5 +498,26 @@
         "target_audience_09": "Genanvendelse og Afvalshåndtering",
         "target_audience_10": "Arrangementer og Udstillinger",
         "product_data_sheet": "Produktdataark"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Version",
+        "capacitylabel": "Anmod om et tilbud",
+        "optionen": "Yderligere muligheder",
+        "subtitle": "Udfyld formularen nedenfor, og vi kontakter dig hurtigst muligt.",
+        "choose-version": "Vælg en version",
+        "security-zone": "Sikkerhedszone",
+        "rl1200": "Rækværk 1200mm",
+        "rl1200p": "Rækværk 1200mm",
+        "rl350": "Rækværk 350mm",
+        "le": "Elektrisk lift",
+        "be": "Elektriske krykker",
+        "ff": "Gaffelskyder",
+        "ffd": "Dobbelt gaffelskyder",
+        "tt": "Trækstang",
+        "gan": "Fuldt galvaniseret",
+        "gap": "Fuldt galvaniseret",
+        "gab": "Fuldt galvaniseret",
+        "gao": "Fuldt galvaniseret",
+        "tb": "Overdækket tunnel"
+      }
 }

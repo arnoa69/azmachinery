@@ -498,5 +498,26 @@
         "target_audience_09": "Papir- og avfallshåndtering",
         "target_audience_10": "Arrangementstjenester og utstillinger",
         "product_data_sheet": "Produktdatablad"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Versjon",
+        "capacitylabel": "Be om et tilbud",
+        "optionen": "Tilleggsvalg",
+        "subtitle": "Fyll ut skjemaet nedenfor, så kontakter vi deg så snart som mulig.",
+        "choose-version": "Velg en versjon",
+        "security-zone": "Sikkerhetssone",
+        "rl1200": "Rekkverk 1200mm",
+        "rl1200p": "Rekkverk 1200mm",
+        "rl350": "Rekkverk 350mm",
+        "le": "Elektrisk heis",
+        "be": "Elektriske krykker",
+        "ff": "Gaffelskyver",
+        "ffd": "Dobbel gaffelskyver",
+        "tt": "Dragstang",
+        "gan": "Helt galvanisert",
+        "gap": "Helt galvanisert",
+        "gab": "Helt galvanisert",
+        "gao": "Helt galvanisert",
+        "tb": "Overbygd tunnel"
+      }
 }

@@ -495,5 +495,26 @@
         "target_audience_09": "Reciclaje y Gestión de Residuos",
         "target_audience_10": "Servicios de eventos y exposiciones",
         "product_data_sheet": "Hoja de datos del producto"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Versión",
+        "capacitylabel": "Solicitar presupuesto",
+        "optionen": "Opciones adicionales",
+        "subtitle": "Complete el siguiente formulario y nos pondremos en contacto con usted lo antes posible.",
+        "choose-version": "Elija una versión",
+        "security-zone": "Zona de seguridad",
+        "rl1200": "Barandillas 1200mm",
+        "rl1200p": "Barandillas 1200mm",
+        "rl350": "Barandillas 350mm",
+        "le": "Elevador eléctrico",
+        "be": "Muletas eléctricas",
+        "ff": "Deslizador de horquilla",
+        "ffd": "Deslizador de horquilla doble",
+        "tt": "Barra de tracción",
+        "gan": "Totalmente galvanizado",
+        "gap": "Totalmente galvanizado",
+        "gab": "Totalmente galvanizado",
+        "gao": "Totalmente galvanizado",
+        "tb": "Túnel cubierto"
+      }
 }

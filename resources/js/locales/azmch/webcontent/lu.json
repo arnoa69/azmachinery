@@ -500,5 +500,26 @@
         "target_audience_09": "Recycling un Abfallentsorgung",
         "target_audience_10": "Event un Ausstellungsdienste",
         "product_data_sheet": "Produktdatenblatt"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Versioun",
+        "capacitylabel": "Ufro e Präis",
+        "optionen": "Zousätzlech Optiounen",
+        "subtitle": "Fëllt de Formulaire hei ënnendrënner aus a mir kontaktéieren Iech sou séier wéi méiglech.",
+        "choose-version": "Wielt eng Versioun",
+        "security-zone": "Sécherheetszon",
+        "rl1200": "Gelänner 1200mm",
+        "rl1200p": "Gelänner 1200mm",
+        "rl350": "Gelänner 350mm",
+        "le": "Elektreschen Lift",
+        "be": "Elektresch Krëcken",
+        "ff": "Gabel-Schieber",
+        "ffd": "Duebele Gabel-Schieber",
+        "tt": "Zuchstang",
+        "gan": "Voll galvaniséiert",
+        "gap": "Voll galvaniséiert",
+        "gab": "Voll galvaniséiert",
+        "gao": "Voll galvaniséiert",
+        "tb": "Iwwerdaachte Tunnel"
+      }
 }

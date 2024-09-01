@@ -498,5 +498,26 @@
         "target_audience_09": "Reciclagem e Gestão de Resíduos",
         "target_audience_10": "Serviços de Eventos e Exposições",
         "product_data_sheet": "Folha de dados do produto"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Versão",
+        "capacitylabel": "Solicitar orçamento",
+        "optionen": "Opções adicionais",
+        "subtitle": "Preencha o formulário abaixo e entraremos em contato o mais breve possível.",
+        "choose-version": "Escolha uma versão",
+        "security-zone": "Zona de segurança",
+        "rl1200": "Grades de proteção 1200mm",
+        "rl1200p": "Grades de proteção 1200mm",
+        "rl350": "Grades de proteção 350mm",
+        "le": "Elevador elétrico",
+        "be": "Muletas elétricas",
+        "ff": "Deslizador de garfo",
+        "ffd": "Deslizador de garfo duplo",
+        "tt": "Barra de tração",
+        "gan": "Totalmente galvanizado",
+        "gap": "Totalmente galvanizado",
+        "gab": "Totalmente galvanizado",
+        "gao": "Totalmente galvanizado",
+        "tb": "Túnel coberto"
+      }
 }

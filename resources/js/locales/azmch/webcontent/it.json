@@ -498,5 +498,26 @@
         "target_audience_09": "Riciclaggio e gestione dei rifiuti",
         "target_audience_10": "Servizi per eventi ed esposizioni",
         "product_data_sheet": "Scheda tecnica del prodotto"
-    }
+    },
+    "request-box": {
+        "versionlabel": "Versione",
+        "capacitylabel": "Richiedi un preventivo",
+        "optionen": "Opzioni aggiuntive",
+        "subtitle": "Compila il modulo sottostante e ti contatteremo il prima possibile.",
+        "choose-version": "Scegli una versione",
+        "security-zone": "Zona di sicurezza",
+        "rl1200": "Ringhiere 1200mm",
+        "rl1200p": "Ringhiere 1200mm",
+        "rl350": "Ringhiere 350mm",
+        "le": "Sollevatore elettrico",
+        "be": "Stampelle elettriche",
+        "ff": "Cursore forcella",
+        "ffd": "Doppio cursore forcella",
+        "tt": "Barra di traino",
+        "gan": "Completamente zincato",
+        "gap": "Completamente zincato",
+        "gab": "Completamente zincato",
+        "gao": "Completamente zincato",
+        "tb": "Tunnel coperto"
+      }
 }
