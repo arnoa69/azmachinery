@@ -21,53 +21,49 @@ const backgroundStyle = ref({
 
     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
       <form action="forms/get-a-quote.php" method="post" class="php-email-form">
-        <h3>Get a quote</h3>
-        <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+        <h3>{{ $t('contact.form.get-a-quote.title') }}</h3>
+        <p>{{ $t('contact.form.get-a-quote.subTitle') }}</p>
 
         <div class="row gy-4">
 
           <div class="col-md-6">
-            <input type="text" name="departure" class="form-control" placeholder="City of Departure" required="">
+            <input type="text" name="delivery" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.deliveryCity')" required="">
           </div>
 
           <div class="col-md-6">
-            <input type="text" name="delivery" class="form-control" placeholder="Delivery City" required="">
+            <input type="text" name="weight" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.total-weight')" required="">
           </div>
 
           <div class="col-md-6">
-            <input type="text" name="weight" class="form-control" placeholder="Total Weight (kg)" required="">
-          </div>
-
-          <div class="col-md-6">
-            <input type="text" name="dimensions" class="form-control" placeholder="Dimensions (cm)" required="">
+            <input type="text" name="dimensions" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.total-dimensions')" required="">
           </div>
 
           <div class="col-lg-12">
-            <h4>Your Personal Details</h4>
+            <h4>{{ $t('contact.form.get-a-quote.details-title') }}</h4>
           </div>
 
           <div class="col-12">
-            <input type="text" name="name" class="form-control" placeholder="Name" required="">
+            <input type="text" name="name" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.name')" required="">
           </div>
 
           <div class="col-12 ">
-            <input type="email" class="form-control" name="email" placeholder="Email" required="">
+            <input type="email" class="form-control" name="email" :placeholder="$t('contact.form.get-a-quote.placeholder.email')" required="">
           </div>
 
           <div class="col-12">
-            <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
+            <input type="text" class="form-control" name="phone" :placeholder="$t('contact.form.get-a-quote.placeholder.phone')" required="">
           </div>
 
           <div class="col-12">
-            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            <textarea class="form-control" name="message" rows="6" :placeholder="$t('contact.form.get-a-quote.placeholder.message')" required=""></textarea>
           </div>
 
           <div class="col-12 text-center">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+            <div class="loading">{{ $t('contact.form.loading') }}</div>
+            <div class="error-message">{{ $t('contact.form.error') }}</div>
+            <div class="sent-message">{{ $t('contact.form.success-send') }}</div>
 
-            <button type="submit">Get a quote</button>
+            <button type="submit">{{ $t('contact.form.get-a-quote.title') }}</button>
           </div>
 
         </div>

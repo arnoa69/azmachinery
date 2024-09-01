@@ -218,6 +218,31 @@
                 "subject": "Ämne",
                 "message": "Meddelande",
                 "send": "Skicka meddelande"
+            },
+            "select": {
+                "select": "Välj",
+                "specific-need": "Specifik behov",
+                "custom-manufacturing": "Anpassad tillverkning",
+                "transport-quote": "Transportoffer",
+                "need-financing": "Behöver finansiering"
+            },
+            "sales-representive": "Säljare",
+            "loading": "Laddar",
+            "error": "Fel",
+            "success-send": "Ditt meddelande har skickats. Tack så mycket!",
+            "get-a-quote": {
+                "title": "Få en offert",
+                "subTitle": "Vi återkommer till dig så snart vi kan.",
+                "details-title": "Dina personuppgifter",
+                "placeholder": {
+                    "deliveryCity": "Leveransstad",
+                    "total-weight": "Totalvikt (kg)",
+                    "total-dimensions": "Totala mått (cm)",
+                    "name": "Ditt namn",
+                    "email": "Ange din e-postadress",
+                    "phone": "Ange ditt telefonnummer",
+                    "message": "Meddelande"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Tillvalsfunktioner",
         "subtitle": "Fyll i formuläret nedan så kontaktar vi dig så snart som möjligt.",
         "choose-version": "Välj en version",
+        "choose-capacity": "Välj en kapacitet",
         "security-zone": "Säkerhetszon",
         "rl1200": "Skyddsräcken 1200mm",
         "rl1200p": "Skyddsräcken 1200mm",

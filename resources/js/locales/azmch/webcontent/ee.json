@@ -218,6 +218,31 @@
                 "subject": "Teema",
                 "message": "Sõnum",
                 "send": "Saada sõnum"
+            },
+            "select": {
+                "select": "Vali",
+                "specific-need": "Täpne vajadus",
+                "custom-manufacturing": "Täpselt tellitud tootmine",
+                "transport-quote": "Transportihind",
+                "need-financing": "Finantseerimisvajadus"
+            },
+            "sales-representive": "Müügiesindaja",
+            "loading": "Laadimine",
+            "error": "Viga",
+            "success-send": "Teie sõnum on saadetud. Aitäh!",
+            "get-a-quote": {
+                "title": "Küsi pakkumist",
+                "subTitle": "Võtame teiega esimesel võimalusel ühendust.",
+                "details-title": "Teie isikuandmed",
+                "placeholder": {
+                    "deliveryCity": "Tarne linn",
+                    "total-weight": "Kogukaal (kg)",
+                    "total-dimensions": "Kogumõõtmed (cm)",
+                    "name": "Teie nimi",
+                    "email": "Sisestage oma e-post",
+                    "phone": "Sisestage oma telefoninumber",
+                    "message": "Sõnum"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Lisavõimalused",
         "subtitle": "Täitke allolev vorm ja me võtame teiega esimesel võimalusel ühendust.",
         "choose-version": "Valige versioon",
+        "choose-capacity": "Vali võimsus",
         "security-zone": "Turvatsoon",
         "rl1200": "Käsipuud 1200mm",
         "rl1200p": "Käsipuud 1200mm",

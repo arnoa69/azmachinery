@@ -218,6 +218,31 @@
                 "subject": "Emne",
                 "message": "Besked",
                 "send": "Send besked"
+            },
+            "select": {
+                "select": "Vælg",
+                "specific-need": "Specifik behov",
+                "custom-manufacturing": "Tilpasset fremstilling",
+                "transport-quote": "Transportcitat",
+                "need-financing": "Finansieringsbehov"
+            },
+            "sales-representive": "Salgsrepræsentant",
+            "loading": "Indlæser",
+            "error": "Fejl",
+            "success-send": "Din besked er sendt. Mange tak!",
+            "get-a-quote": {
+                "title": "Få et tilbud",
+                "subTitle": "Vi vender tilbage til dig så hurtigt som muligt.",
+                "details-title": "Dine personlige oplysninger",
+                "placeholder": {
+                    "deliveryCity": "Leveringsby",
+                    "total-weight": "Samlet vægt (kg)",
+                    "total-dimensions": "Samlede dimensioner (cm)",
+                    "name": "Dit navn",
+                    "email": "Indtast din e-mail",
+                    "phone": "Indtast dit telefonnummer",
+                    "message": "Besked"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Yderligere muligheder",
         "subtitle": "Udfyld formularen nedenfor, og vi kontakter dig hurtigst muligt.",
         "choose-version": "Vælg en version",
+        "choose-capacity": "Vælg en kapacitet",
         "security-zone": "Sikkerhedszone",
         "rl1200": "Rækværk 1200mm",
         "rl1200p": "Rækværk 1200mm",

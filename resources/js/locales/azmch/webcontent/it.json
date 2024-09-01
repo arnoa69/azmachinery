@@ -218,6 +218,31 @@
                 "subject": "Oggetto",
                 "message": "Messaggio",
                 "send": "Invia messaggio"
+            },
+            "select": {
+                "select": "Seleziona",
+                "specific-need": "Esigenza specifica",
+                "custom-manufacturing": "Produzione personalizzata",
+                "transport-quote": "Preventivo di trasporto",
+                "need-financing": "Esigenza di finanziamento"
+            },
+            "sales-representive": "Rappresentante delle vendite",
+            "loading": "Caricamento",
+            "error": "Errore",
+            "success-send": "Il tuo messaggio è stato inviato. Grazie mille!",
+            "get-a-quote": {
+                "title": "Richiedi un preventivo",
+                "subTitle": "Ti risponderemo il prima possibile.",
+                "details-title": "I tuoi dati personali",
+                "placeholder": {
+                    "deliveryCity": "Città di consegna",
+                    "total-weight": "Peso totale (kg)",
+                    "total-dimensions": "Dimensioni totali (cm)",
+                    "name": "Il tuo nome",
+                    "email": "Inserisci la tua email",
+                    "phone": "Inserisci il tuo numero di telefono",
+                    "message": "Messaggio"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Opzioni aggiuntive",
         "subtitle": "Compila il modulo sottostante e ti contatteremo il prima possibile.",
         "choose-version": "Scegli una versione",
+        "choose-capacity": "Scegli una capacità",
         "security-zone": "Zona di sicurezza",
         "rl1200": "Ringhiere 1200mm",
         "rl1200p": "Ringhiere 1200mm",

@@ -215,6 +215,31 @@
                 "phone": "Teléfono",
                 "message": "Mensaje/Consulta",
                 "send": "Enviar mensaje"
+            },
+            "select": {
+                "select": "Seleccionar",
+                "specific-need": "Necesidad específica",
+                "custom-manufacturing": "Fabricación personalizada",
+                "transport-quote": "Cotización de transporte",
+                "need-financing": "Necesidad de financiamiento"
+            },
+            "sales-representive": "Representante de ventas",
+            "loading": "Cargando",
+            "error": "Error",
+            "success-send": "Su mensaje ha sido enviado. ¡Muchas gracias!",
+            "get-a-quote": {
+                "title": "Solicitar un presupuesto",
+                "subTitle": "Nos pondremos en contacto contigo lo antes posible.",
+                "details-title": "Tus datos personales",
+                "placeholder": {
+                    "deliveryCity": "Ciudad de entrega",
+                    "total-weight": "Peso total (kg)",
+                    "total-dimensions": "Dimensiones totales (cm)",
+                    "name": "Tu nombre",
+                    "email": "Introduce tu correo electrónico",
+                    "phone": "Introduce tu teléfono",
+                    "message": "Mensaje"
+                }
             }
         }
     },
@@ -502,6 +527,7 @@
         "optionen": "Opciones adicionales",
         "subtitle": "Complete el siguiente formulario y nos pondremos en contacto con usted lo antes posible.",
         "choose-version": "Elija una versión",
+        "choose-capacity": "Elige una capacidad",
         "security-zone": "Zona de seguridad",
         "rl1200": "Barandillas 1200mm",
         "rl1200p": "Barandillas 1200mm",

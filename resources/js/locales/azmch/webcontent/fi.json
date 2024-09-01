@@ -218,6 +218,31 @@
                 "subject": "Aihe",
                 "message": "Viesti",
                 "send": "Lähetä viesti"
+            },
+            "select": {
+                "select": "Valitse",
+                "specific-need": "Tarkka tarve",
+                "custom-manufacturing": "Räätälöity tuotanto",
+                "transport-quote": "Kuljetusarvio",
+                "need-financing": "Rahoitustarve"
+            },
+            "sales-representive": "Myynninedistäjä",
+            "loading": "Ladataan",
+            "error": "Virhe",
+            "success-send": "Viestisi on lähetetty. Kiitos!",
+            "get-a-quote": {
+                "title": "Pyydä tarjous",
+                "subTitle": "Olemme sinuun yhteydessä mahdollisimman pian.",
+                "details-title": "Henkilötietosi",
+                "placeholder": {
+                    "deliveryCity": "Toimituskaupunki",
+                    "total-weight": "Kokonaispaino (kg)",
+                    "total-dimensions": "Kokonaismitat (cm)",
+                    "name": "Nimesi",
+                    "email": "Syötä sähköpostiosoitteesi",
+                    "phone": "Syötä puhelinnumerosi",
+                    "message": "Viesti"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Lisävaihtoehdot",
         "subtitle": "Täytä alla oleva lomake ja otamme sinuun yhteyttä mahdollisimman pian.",
         "choose-version": "Valitse versio",
+        "choose-capacity": "Valitse kapasiteetti",
         "security-zone": "Turva-alue",
         "rl1200": "Kaiteet 1200mm",
         "rl1200p": "Kaiteet 1200mm",

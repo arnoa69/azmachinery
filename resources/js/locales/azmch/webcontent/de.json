@@ -217,6 +217,31 @@
                 "subject": "Betreff",
                 "message": "Nachricht",
                 "send": "Nachricht Senden"
+            },
+            "select": {
+                "select": "Auswählen",
+                "specific-need": "Spezifische Anforderung",
+                "custom-manufacturing": "Benutzerdefinierte Herstellung",
+                "transport-quote": "Transportanfrage",
+                "need-financing": "Finanzierungsforderung"
+            },
+            "sales-representive": "Verkaufsvertreter",
+            "loading": "Laden",
+            "error": "Fehler",
+            "success-send": "Ihre Nachricht wurde gesendet. Danke schön!",
+            "get-a-quote": {
+                "title": "Angebot einholen",
+                "subTitle": "Wir melden uns so schnell wie möglich bei Ihnen.",
+                "details-title": "Ihre persönlichen Angaben",
+                "placeholder": {
+                    "deliveryCity": "Lieferstadt",
+                    "total-weight": "Gesamtgewicht (kg)",
+                    "total-dimensions": "Gesamtabmessungen (cm)",
+                    "name": "Ihr Name",
+                    "email": "Geben Sie Ihre E-Mail-Adresse ein",
+                    "phone": "Geben Sie Ihre Telefonnummer ein",
+                    "message": "Nachricht"
+                }
             }
         }
     },
@@ -504,6 +529,7 @@
         "optionen": "Zusätzliche Optionen",
         "subtitle": "Füllen Sie das untenstehende Formular aus und wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.",
         "choose-version": "Version wählen",
+        "choose-capacity": "Kapazität wählen",
         "security-zone": "Sicherheitszone",
         "rl1200": "Schutzgeländer 1200mm",
         "rl1200p": "Schutzgeländer 1200mm",
@@ -518,5 +544,5 @@
         "gab": "Vollverzinkt",
         "gao": "Vollverzinkt",
         "tb": "Überdachter Tunnel"
-      }
+    }
 }

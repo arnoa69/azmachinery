@@ -218,6 +218,31 @@
                 "subject": "Sujet",
                 "message": "Message",
                 "send": "Envoyer le message"
+            },
+            "select": {
+                "select": "Sélectionner",
+                "specific-need": "Besoins spécifiques",
+                "custom-manufacturing": "Fabrication sur mesure",
+                "transport-quote": "Devis de transport",
+                "need-financing": "Besoin de financement"
+            },
+            "sales-representive": "Représentant des ventes",
+            "loading": "Chargement",
+            "error": "Erreur",
+            "success-send": "Votre message a été envoyé. Merci beaucoup!",
+            "get-a-quote": {
+                "title": "Obtenir un devis",
+                "subTitle": "Nous vous contacterons dès que possible.",
+                "details-title": "Vos coordonnées personnelles",
+                "placeholder": {
+                    "deliveryCity": "Ville de livraison",
+                    "total-weight": "Poids total (kg)",
+                    "total-dimensions": "Dimensions totales (cm)",
+                    "name": "Votre nom",
+                    "email": "Entrez votre email",
+                    "phone": "Entrez votre téléphone",
+                    "message": "Message"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Options additionnelles",
         "subtitle": "Remplissez le formulaire ci-dessous et nous vous contacterons dès que possible.",
         "choose-version": "Choisissez une version",
+        "choose-capacity": "Choisissez une capacité",
         "security-zone": "Zone de sécurité",
         "rl1200": "Garde-corps 1200mm",
         "rl1200p": "Garde-corps 1200mm",

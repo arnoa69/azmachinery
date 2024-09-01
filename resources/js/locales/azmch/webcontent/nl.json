@@ -218,6 +218,31 @@
                 "subject": "Onderwerp",
                 "message": "Bericht",
                 "send": "Bericht versturen"
+            },
+            "select": {
+                "select": "Selecteer",
+                "specific-need": "Specifieke behoefte",
+                "custom-manufacturing": "Maatwerkproductie",
+                "transport-quote": "Vervoersaanbod",
+                "need-financing": "Financieringsbehoefte"
+            },
+            "sales-representive": "Verkoopvertegenwoordiger",
+            "loading": "Laden",
+            "error": "Fout",
+            "success-send": "Uw bericht is verzonden. Dank u wel!",
+            "get-a-quote": {
+                "title": "Vraag een offerte aan",
+                "subTitle": "We nemen zo snel mogelijk contact met u op.",
+                "details-title": "Uw persoonlijke gegevens",
+                "placeholder": {
+                    "deliveryCity": "Bezorgstad",
+                    "total-weight": "Totaal gewicht (kg)",
+                    "total-dimensions": "Totale afmetingen (cm)",
+                    "name": "Uw naam",
+                    "email": "Voer uw e-mail in",
+                    "phone": "Voer uw telefoonnummer in",
+                    "message": "Bericht"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Extra opties",
         "subtitle": "Vul het onderstaande formulier in en wij nemen zo spoedig mogelijk contact met u op.",
         "choose-version": "Kies een versie",
+        "choose-capacity": "Kies een capaciteit",
         "security-zone": "Veiligheidszone",
         "rl1200": "Leuningen 1200mm",
         "rl1200p": "Leuningen 1200mm",

@@ -69,8 +69,10 @@ const submitForm = () => {
                                         data-aos="fade-up" data-aos-delay="400">
                                         <i class="bi bi-envelope"></i>
                                         <h3>{{ $t('contact.label.email') }}</h3>
-                                        <p><a href="mailto:alexander.arnold@az-machinery.ch" target="_blank">Sales
-                                                representative</a></p>
+                                        <p>
+                                            <a href="mailto:alexander.arnold@az-machinery.ch" target="_blank">{{ $t('contact.form.sales-representive') }}
+                                            </a>
+                                        </p>
                                     </div>
                                 </div><!-- End Info Item -->
 
@@ -84,11 +86,11 @@ const submitForm = () => {
 
                                     <div class="col-md-6">
                                         <select name="inquiry_type" class="form-control select" id="inquiry_type">
-                                            <option value="">Please select an inquiry type</option>
-                                            <option value="specific_needs">Specific needs?</option>
-                                            <option value="custom_manufacturing">Special, custom manufacturing?</option>
-                                            <option value="transport_quote">Transport quote?</option>
-                                            <option value="financing">Do you need financing?</option>
+                                            <option value="">{{ $t('contact.form.select.select') }}</option>
+                                            <option value="specific_needs">{{ $t('contact.form.select.specific-need') }}</option>
+                                            <option value="custom_manufacturing">{{ $t('contact.form.select.custom-manufacturing') }}</option>
+                                            <option value="transport_quote">{{ $t('contact.form.select.transport-quote') }}</option>
+                                            <option value="financing">{{ $t('contact.form.select.need-financing') }}</option>
                                         </select>
                                     </div>
 
@@ -114,9 +116,9 @@ const submitForm = () => {
                                     </div>
 
                                     <div class="col-md-12 text-center">
-                                        <div class="loading">Loading</div>
-                                        <div class="error-message">Error</div>
-                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                        <div class="loading">{{ $t('contact.form.loading') }}</div>
+                                        <div class="error-message">{{ $t('contact.form.error') }}</div>
+                                        <div class="sent-message">{{ $t('contact.form.success-send') }}</div>
 
                                         <button type="submit">{{ $t('contact.form.placeholder.send') }}</button>
                                     </div>

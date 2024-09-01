@@ -218,7 +218,33 @@
                 "subject": "Sujet",
                 "message": "Message",
                 "send": "Schécken Message"
-            }
+            },
+            "select": {
+                "select": "Wiel",
+                "specific-need": "Spezifesch Bedarf",
+                "custom-manufacturing": "Speziell Herstellung",
+                "transport-quote": "Transport-Offert",
+                "need-financing": "Finanzéierungsfro"
+            },
+            "sales-representive": "Verkaufsvertrieder",
+            "loading": "Luede",
+            "error": "Feeler",
+            "success-send": "Är Message gouf geschéckt. Villmools Merci!",
+            "get-a-quote": {
+                "title": "Aanfrage vun",
+                "subTitle": "Mer wellen dir säi Antwaarden wéi schnell wéi mëscht.",
+                "details-title": "Déi perséinlech Informationen",
+                "placeholder": {
+                  "deliveryCity": "Stad vun der Léierung",
+                  "total-weight": "Gesamtgewicht (kg)",
+                  "total-dimensions": "Gesamtmaßen (cm)",
+                  "name": "Duerch",
+                  "email": "E-Mail erausfëllen",
+                  "phone": "Telefonnummer erausfëllen",
+                  "message": "Bemierkung"
+                }
+              }
+
         }
     },
     "testimonials": {
@@ -507,6 +533,7 @@
         "optionen": "Zousätzlech Optiounen",
         "subtitle": "Fëllt de Formulaire hei ënnendrënner aus a mir kontaktéieren Iech sou séier wéi méiglech.",
         "choose-version": "Wielt eng Versioun",
+        "choose-capacity": "Wiel en Kapazitéit",
         "security-zone": "Sécherheetszon",
         "rl1200": "Gelänner 1200mm",
         "rl1200p": "Gelänner 1200mm",

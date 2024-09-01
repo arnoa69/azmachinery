@@ -218,6 +218,31 @@
                 "subject": "Assunto",
                 "message": "Mensagem",
                 "send": "Enviar mensagem"
+            },
+            "select": {
+                "select": "Selecionar",
+                "specific-need": "Necessidade específica",
+                "custom-manufacturing": "Produção personalizada",
+                "transport-quote": "Cotação de transporte",
+                "need-financing": "Necessidade de financiamento"
+            },
+            "sales-representive": "Representante de vendas",
+            "loading": "Carregando",
+            "error": "Erro",
+            "success-send": "Sua mensagem foi enviada. Muito obrigado!",
+            "get-a-quote": {
+                "title": "Peça um orçamento",
+                "subTitle": "Entraremos em contato com você o mais rápido possível.",
+                "details-title": "Seus dados pessoais",
+                "placeholder": {
+                    "deliveryCity": "Cidade de entrega",
+                    "total-weight": "Peso total (kg)",
+                    "total-dimensions": "Dimensões totais (cm)",
+                    "name": "Seu nome",
+                    "email": "Digite seu e-mail",
+                    "phone": "Digite seu telefone",
+                    "message": "Mensagem"
+                }
             }
         }
     },
@@ -505,6 +530,7 @@
         "optionen": "Opções adicionais",
         "subtitle": "Preencha o formulário abaixo e entraremos em contato o mais breve possível.",
         "choose-version": "Escolha uma versão",
+        "choose-capacity": "Escolha uma capacidade",
         "security-zone": "Zona de segurança",
         "rl1200": "Grades de proteção 1200mm",
         "rl1200p": "Grades de proteção 1200mm",

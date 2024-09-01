@@ -67,25 +67,6 @@ Route::get("/pipedrive", function() {
         $pipedrive = new Pipedrive(config('services.pipedrive.token'));
         $fields = $pipedrive->organizationFields()->all();
         $dealFields = $pipedrive->dealFields()->all();
-                        // $response = $pipedrive->organizationFields()->all();
-
-                        // if ($response->isSuccess()) {
-                        //     $fields = $response->getData();
-                        //     foreach ($fields as $field) {
-                        //         if ($field->key === 'label') {
-                        //             $options = $field->options;
-                        //             foreach ($options as $option) {
-                        //                 logger("Label: {$option->label}, ID: {$option->id}");
-                        //             }
-                        //             break;
-                        //         }
-                        //     }
-                        // } else {
-                        //     logger()->error('Failed to fetch organization fields: ' . $response->getErrorMessage());
-                        // }
-
-                        //$organizations = $pipedrive->organizations()->all();
-
 
         foreach ($dealFields as $field) {
             if ($field->name === 'Deal source') {
@@ -95,10 +76,6 @@ Route::get("/pipedrive", function() {
                 logger("Field: niet amgio");
             }
         }
-
-// gugus@sugus.com
-
-        dd($dealFields);
 });
 // Default route for the root URL
 Route::middleware([LocaleMiddleware::class])->group(function () {
