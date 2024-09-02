@@ -68,8 +68,19 @@
         "contact": "Yhteystiedot",
         "products": "Tuotteet",
         "menu": {
-            "productList": "Tuotteet",
-            "types": "Tyypit"
+            "type-mobile": "Mobiililavaramppit",
+            "type-container": "Konttilavaramppit",
+            "star": "STAR",
+            "easy-xl": "Easy XL",
+            "wlo": "WLO",
+            "prime-xs": "Prime XS",
+            "star-otc": "STAR OTC",
+            "big-foot": "Big Foot",
+            "hcrn-06": "HCRN-06",
+            "hcrn-065": "HCRN-065",
+            "hcrn-08": "HCRN-08",
+            "hcry-08": "HCRY-08",
+            "secu-dock": "Secu-Dock"
         },
         "getQuote": "Hae tarjous"
     },
@@ -232,13 +243,14 @@
             "success-send": "Viestisi on lähetetty. Kiitos!",
             "get-a-quote": {
                 "title": "Pyydä tarjous",
-                "subTitle": "Olemme sinuun yhteydessä mahdollisimman pian.",
+                "subTitle": "Jotta voimme tarjota sinulle tarkan ja kilpailukykyisen tarjouksen, pyydämme sinua täyttämään viestin vaadittavien mittayksiköiden ja -mittojen kanssa. Tämä mahdollistaa tarjouksemme räätälöinnin erityistarpeisiisi ja varmistaa hinnoittelumme tarkkuuden. Kiitos yhteistyöstä.",
                 "details-title": "Henkilötietosi",
                 "placeholder": {
                     "deliveryCity": "Toimituskaupunki",
                     "total-weight": "Kokonaispaino (kg)",
                     "total-dimensions": "Kokonaismitat (cm)",
                     "name": "Nimesi",
+                    "company": "Yrityksen nimi",
                     "email": "Syötä sähköpostiosoitteesi",
                     "phone": "Syötä puhelinnumerosi",
                     "message": "Viesti"
@@ -256,58 +268,58 @@
         "christell48Text": "Lisään laatu-hinta-suhteellisuutta. Valitsin Prime WLO8+ -laitteen Täysin galvanisoitu-version. Hyvin käyttöystävällinen ja laatuinen. AZ MACHINERY korjasi meidän vanhan Expresso-mallin. Materiaali toimitettiin 4 päivän kuluttua tilauksen jäljiltymisen jälkeen valmistajan autolla. Todellinen hyvä, kiitos!",
         "mauroMartinText": "Ostan uuden laitteen AZ MACHINERYltä, valitsin mallin AZ RAMP EASY XL 10 T. Hyvä sisemmäislaite. Laite toimitettiin meidän varastoollemme Espanjaan vain 30 päivän kuluttua erittäin hyvät yhteydet Jérôme GUIGUETin kanssa. Tämä laite vastaa kaikkiin nykyisiin vaatimuksiin laatuun ja tootantatasolle."
     },
-"faq": {
-    "title": "Mobiililaiturit: Täydellinen opas",
-    "subTitle": "Kaikki, mitä tarvitset tietää mobiililaitureista",
-    "q": {
-        "1": "Miksi kannattaa valita meitä?",
-        "2": "Mitenlaisia mobiililaitureita tarjoamme?",
-        "3": "Miten valitsen oikean laiturin tarpeisiini?",
-        "4": "Voinko tilata laiturin mukautettuna?",
-        "5": "Tarjoatteko vuokrauspalveluita?",
-        "6": "Kuinka kauan kestää toimitus?",
-        "7": "Miten voin olla yhteydessä tekniseen tukeen?"
-    },
-    "a": {
-        "1": {
-            "1": "Olemme ainoa valintanne kaikissa mobiililaituritarpeissanne. Tässä ovat syyt, miksi olemme paras valinta:",
-            "2": {
-                "bold": "Laaja valikoima:",
-                "c": "Meillä on yli 500 laituria varastossa, jotka ovat valmiit lähetettäväksi heti Euroopan alueelle."
-            },
-            "3": {
-                "bold": "Nopea toimitus:",
-                "c": "Kokemus nopeasta toimittamisesta. Tilauksesi toimitetaan 3 päivän kuluessa, jotta saat laiturit tarvitsemasi ajankohtana."
-            },
-            "4": {
-                "bold": "Laadukas tuote:",
-                "c": "Laiturimme on valmistettu parhaista materiaaleista, mikä takaa kestävyyden ja turvallisuuden."
-            },
-            "5": {
-                "bold": "Mukautettavat ratkaisut:",
-                "c": "Erityisosaamisemme on laatia laiturit asiakkaiden tarpeisiin sopiviksi."
-            },
-            "6": {
-                "bold": "Innovaatiot:",
-                "c": "Laitureissamme on uusinta teknologiaa, mikä takaa turvallisuuden ja toimivuuden."
-            },
-            "7": {
-                "bold": "Vuokrausmahdollisuudet:",
-                "c": "Tarvitsetko laituria vain lyhytaikaiseen projektiin? Tarjoamme joustavat vuokrausmahdollisuudet."
-            },
-            "8": {
-                "bold": "Tekninen tuki:",
-                "c": "Asiakaspalvelutiimimme on aina valmis auttamaan ja antamaan teknistä tukea."
-            }
+    "faq": {
+        "title": "Mobiililaiturit: Täydellinen opas",
+        "subTitle": "Kaikki, mitä tarvitset tietää mobiililaitureista",
+        "q": {
+            "1": "Miksi kannattaa valita meitä?",
+            "2": "Mitenlaisia mobiililaitureita tarjoamme?",
+            "3": "Miten valitsen oikean laiturin tarpeisiini?",
+            "4": "Voinko tilata laiturin mukautettuna?",
+            "5": "Tarjoatteko vuokrauspalveluita?",
+            "6": "Kuinka kauan kestää toimitus?",
+            "7": "Miten voin olla yhteydessä tekniseen tukeen?"
         },
-        "2": "Tarjoamme erilaisia laiturimalleja, kuten standardilaitureita, satamalaitureita ja erikoislaitureita erityistarkoituksiin.",
-        "3": "Asiakaspalvelutiimimme auttaa valitsemaan oikean laiturin tarpeisiisi sopivasti, ottaen huomioon lastin koon, painon ja käyttötarkoituksen.",
-        "4": "Kyllä, voimme mukauttaa laiturin tarpeisiisi sopivaksi, kuten pituuden, leveyden ja kuorman vaatimukset.",
-        "5": "Kyllä, tarjoamme joustavat vuokrausmahdollisuudet lyhytaikaisiin projekteihin.",
-        "6": "Toimitamme tilauksesi yleensä 3 päivän kuluessa Euroopan alueelle.",
-        "7": "Voit olla yhteydessä tekniseen tukeen puhelimitse, sähköpostitse tai live-chatin kautta. Yhteystietomme löytyvät kotisivuiltamme."
-    }
-},
+        "a": {
+            "1": {
+                "1": "Olemme ainoa valintanne kaikissa mobiililaituritarpeissanne. Tässä ovat syyt, miksi olemme paras valinta:",
+                "2": {
+                    "bold": "Laaja valikoima:",
+                    "c": "Meillä on yli 500 laituria varastossa, jotka ovat valmiit lähetettäväksi heti Euroopan alueelle."
+                },
+                "3": {
+                    "bold": "Nopea toimitus:",
+                    "c": "Kokemus nopeasta toimittamisesta. Tilauksesi toimitetaan 3 päivän kuluessa, jotta saat laiturit tarvitsemasi ajankohtana."
+                },
+                "4": {
+                    "bold": "Laadukas tuote:",
+                    "c": "Laiturimme on valmistettu parhaista materiaaleista, mikä takaa kestävyyden ja turvallisuuden."
+                },
+                "5": {
+                    "bold": "Mukautettavat ratkaisut:",
+                    "c": "Erityisosaamisemme on laatia laiturit asiakkaiden tarpeisiin sopiviksi."
+                },
+                "6": {
+                    "bold": "Innovaatiot:",
+                    "c": "Laitureissamme on uusinta teknologiaa, mikä takaa turvallisuuden ja toimivuuden."
+                },
+                "7": {
+                    "bold": "Vuokrausmahdollisuudet:",
+                    "c": "Tarvitsetko laituria vain lyhytaikaiseen projektiin? Tarjoamme joustavat vuokrausmahdollisuudet."
+                },
+                "8": {
+                    "bold": "Tekninen tuki:",
+                    "c": "Asiakaspalvelutiimimme on aina valmis auttamaan ja antamaan teknistä tukea."
+                }
+            },
+            "2": "Tarjoamme erilaisia laiturimalleja, kuten standardilaitureita, satamalaitureita ja erikoislaitureita erityistarkoituksiin.",
+            "3": "Asiakaspalvelutiimimme auttaa valitsemaan oikean laiturin tarpeisiisi sopivasti, ottaen huomioon lastin koon, painon ja käyttötarkoituksen.",
+            "4": "Kyllä, voimme mukauttaa laiturin tarpeisiisi sopivaksi, kuten pituuden, leveyden ja kuorman vaatimukset.",
+            "5": "Kyllä, tarjoamme joustavat vuokrausmahdollisuudet lyhytaikaisiin projekteihin.",
+            "6": "Toimitamme tilauksesi yleensä 3 päivän kuluessa Euroopan alueelle.",
+            "7": "Voit olla yhteydessä tekniseen tukeen puhelimitse, sähköpostitse tai live-chatin kautta. Yhteystietomme löytyvät kotisivuiltamme."
+        }
+    },
     "footer": {
         "copyright": "Tekijänoikeus © 2024 AZ Machinery. Kaikki oikeudet pidätetään.",
         "headquarter": {
@@ -398,37 +410,37 @@
     "categories": {
         "star": {
             "description": "Star-ramppi on monipuolinen vaihtoehto, jolla on useita kantavuuksia (8t, 10t, 12t, 15t, 20t) ja konfiguraatioita (vakio, pitkä tasainen lasku, erittäin suuri, LLO-XL). Se sopii laajaan valikoimaan ajoneuvoja ja sovelluksia, ja se tarjoaa joustavuutta ja räätälöintiä."
-          },
-          "easy-xl": {
+        },
+        "easy-xl": {
             "description": "EAS-XL on suunniteltu raskaisiin käyttötarkoituksiin, ja siinä on erittäin suuri alusta, joka sopii ylisuurille kuormille ja suurille ajoneuvoille."
-          },
-          "wlo": {
+        },
+        "wlo": {
             "description": "WLO-ramppi on ihanteellinen tilanteisiin, joissa tarvitaan pitkä ja tasainen siirtymä, ja se tarjoaa tasaisen ja tasaisen pinnan lastaamiseen ja purkamiseen."
-          },
-          "prime-xs": {
+        },
+        "prime-xs": {
             "description": "Kompakti ja kevyt ramppi, joka sopii täydellisesti pienemmille ajoneuvoille ja tiloille, joissa on rajoitettu pääsy."
-          },
-          "star-otc": {
+        },
+        "star-otc": {
             "description": "Monipuolinen ramppi, joka sopii useisiin sovelluksiin ja tarjoaa vankan ja luotettavan ratkaisun."
-          },
-          "big-foot": {
+        },
+        "big-foot": {
             "description": "Big-Foot-ramppi on suunniteltu epätasaiselle maastolle ja raskaille kuormille, ja se tarjoaa erinomaisen vakauden ja suuren kosketuspinnan."
-          },
-          "hcrn-06": {
+        },
+        "hcrn-06": {
             "description": "HCRN-06 on korkealaatuinen konttiramppi, joka on suunniteltu 20 jalan konttien tehokkaaseen ja turvalliseen lastaamiseen ja purkamiseen. Siinä on tukeva rakenne, luotettavat lukitusmekanismit ja helppokäyttöinen muotoilu."
-          },
-          "hcrn-065": {
+        },
+        "hcrn-065": {
             "description": "HCRN-065 on hieman suurempi konttiramppi, joka sopii sekä 20 jalan että 40 jalan konttien käsittelyyn. Se tarjoaa leveämmän alustan helpompaa lastaamista ja purkamista varten ja sisältää edistyksellisiä turvaominaisuuksia."
-          },
-          "hcrn-08": {
+        },
+        "hcrn-08": {
             "description": "HCRN-08 on raskaan käytön konttiramppi, joka on suunniteltu käsittelemään raskaimpia kuormia. Siinä on vahvistettu rakenne, erittäin leveä alusta ja edistykselliset turvaominaisuudet."
-          },
-          "hcry-08": {
+        },
+        "hcry-08": {
             "description": "HCRY-08 on erikoistunut konttiramppi, joka on suunniteltu käytettäväksi ahtaissa tiloissa. Siinä on kompakti muotoilu ja helppo käsiteltävyys, mikä tekee siitä ihanteellisen pienemmille lastausalueille."
-          },
-          "secu-dock": {
+        },
+        "secu-dock": {
             "description": "Secudock on premium-konttiramppi, joka tunnetaan erinomaisista turvaominaisuuksistaan. Se sisältää edistyksellisen teknologian onnettomuuksien estämiseksi ja turvallisen lastaus- ja purkamisprosessin varmistamiseksi."
-          },
+        },
         "main": {
             "head": {
                 "title": "Tutkii lapsivarantoamme liikennörampujen erilaisuudet | AZ Machinery - Ranskalainen lahja",
@@ -443,7 +455,7 @@
             "station_ramp_label": "Aseman liikennöramput",
             "station_ramp_description": "Optimoi tehokkuutta aseman latausalustalla."
         },
-         "category_product_lists": "{ country } - Lastausramppi varastossa: Tutustu { type }"
+        "category_product_lists": "{ country } - Lastausramppi varastossa: Tutustu { type }"
     },
     "products": {
         "back_button": "TAKAISIN",
@@ -482,7 +494,7 @@
                 "your_phone": "Kirjoita numerosi",
                 "submit_button": "Lähetä",
                 "category_list": "Lastausrampin tyypit",
-            "policy": "Hyväksy tietosuojakäytäntömme."
+                "policy": "Hyväksy tietosuojakäytäntömme."
             }
         },
         "weight_capacity": "Staattinen kapasiteetti { tonnit } T",
@@ -545,5 +557,5 @@
         "gab": "Täysin sinkitty",
         "gao": "Täysin sinkitty",
         "tb": "Katettu tunneli"
-      }
+    }
 }

@@ -1,5 +1,4 @@
 <script setup>
-import CategorySidebar from "../../../Components/Layouts/Layout1/Sidebar/CategorySidebar.vue";
 import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
 import ProductDetailGallery from "./Detail//ProductDetailGallery.vue";
 import ProductSpecification from "./Detail//ProductSpecification.vue";

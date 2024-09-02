@@ -1,8 +1,8 @@
 <script setup>
 import ContactFormLayout from '@/Layouts/ContactFormLayout.vue';
 import { ref } from 'vue';
-import { Inertia } from '@inertiajs/inertia';
 import { useI18n } from 'vue-i18n';
+import { Inertia } from '@inertiajs/inertia';
 
 const { locale } = useI18n();
 
@@ -11,7 +11,7 @@ const email = ref('');
 const company_name = ref('');
 const phone_number = ref('');
 const message = ref('');
-const source = ref('');
+const inquiryType = ref('');
 
 const submitForm = () => {
     const formData = new FormData();
@@ -20,9 +20,9 @@ const submitForm = () => {
     formData.append('email', email.value);
     formData.append('company_name', company_name.value);
     formData.append('phone_number', phone_number.value);
-    formData.append('message', message.value);
+    formData.append('message', 'locale:' + locale.value + ';contact.form;request-type:' + inquiryType.value + ';Client-Message: ' + message.value);
     formData.append('locale', locale.value);
-    formData.append('source', 'azm:ch.contact.form');
+    formData.append('source', 'azm:ch.contact.form;request-type:' + inquiryType.value);
 
     Inertia.post('/client-request', formData);
 }
@@ -70,7 +70,8 @@ const submitForm = () => {
                                         <i class="bi bi-envelope"></i>
                                         <h3>{{ $t('contact.label.email') }}</h3>
                                         <p>
-                                            <a href="mailto:alexander.arnold@az-machinery.ch" target="_blank">{{ $t('contact.form.sales-representive') }}
+                                            <a href="mailto:alexander.arnold@az-machinery.ch" target="_blank">{{
+                        $t('contact.form.sales-representive') }}
                                             </a>
                                         </p>
                                     </div>
@@ -85,7 +86,7 @@ const submitForm = () => {
                                 <div class="row gy-4">
 
                                     <div class="col-md-6">
-                                        <select name="inquiry_type" class="form-control select" id="inquiry_type">
+                                        <select name="inquiry_type" class="form-control select" id="inquiry_type" v-model="inquiryType">
                                             <option value="">{{ $t('contact.form.select.select') }}</option>
                                             <option value="specific_needs">{{ $t('contact.form.select.specific-need') }}</option>
                                             <option value="custom_manufacturing">{{ $t('contact.form.select.custom-manufacturing') }}</option>
@@ -95,23 +96,31 @@ const submitForm = () => {
                                     </div>
 
                                     <div class="col-md-6">
-                                        <input type="text" name="name" class="form-control"
-                                            :placeholder="$t('contact.form.placeholder.name')" required="">
+                                        <input type="text" name="name" v-model="name" class="form-control"
+                                            :placeholder="$t('contact.form.get-a-quote.placeholder.name')" required="">
+
+                                    </div>
+
+                                    <div class="col-12">
+                                        <input type="text" name="company_name" v-model="company_name"
+                                            class="form-control"
+                                            :placeholder="$t('contact.form.get-a-quote.placeholder.company')"
+                                            required="">
                                     </div>
 
                                     <div class="col-md-12 ">
-                                        <input type="email" class="form-control" name="email"
-                                            :placeholder="$t('contact.form.placeholder.email')" required="">
+                                        <input type="email" v-model="email" class="form-control" name="email"
+                                            :placeholder="$t('contact.form.get-a-quote.placeholder.email')" required="">
                                     </div>
 
                                     <div class="col-md-12">
-                                        <input type="text" class="form-control" name="subject"
-                                            :placeholder="$t('contact.form.placeholder.phone')" required="">
+                                        <input type="text" v-model="phone_number" class="form-control" name="phone"
+                                            :placeholder="$t('contact.form.get-a-quote.placeholder.phone')" required="">
                                     </div>
 
                                     <div class="col-md-12">
-                                        <textarea class="form-control" name="message" rows="4"
-                                            :placeholder="$t('contact.form.placeholder.message')"
+                                        <textarea class="form-control" v-model="message" name="message" rows="6"
+                                            :placeholder="$t('contact.form.get-a-quote.placeholder.message')"
                                             required=""></textarea>
                                     </div>
 

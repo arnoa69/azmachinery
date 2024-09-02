@@ -68,8 +68,19 @@
         "contact": "Kontakt",
         "products": "Tooted",
         "menu": {
-            "productList": "Tooted",
-            "types": "Tüübid"
+            "type-mobile": "Mobiilsed laadimisrambid",
+            "type-container": "Konteinerlaadimisrambid",
+            "star": "STAR",
+            "easy-xl": "Easy XL",
+            "wlo": "WLO",
+            "prime-xs": "Prime XS",
+            "star-otc": "STAR OTC",
+            "big-foot": "Big Foot",
+            "hcrn-06": "HCRN-06",
+            "hcrn-065": "HCRN-065",
+            "hcrn-08": "HCRN-08",
+            "hcry-08": "HCRY-08",
+            "secu-dock": "Secu-Dock"
         },
         "getQuote": "Hankige pakkumine"
     },
@@ -142,7 +153,7 @@
             "p-itali": "Meie pühendumus teie rahulolule hõlmab:",
             "li-1": "Meie pühendunud meeskond on saadaval ööpäev läbi, et vastata teie küsimustele, muredele ja kiiretele taotlustele, tagades katkematu töö.",
             "li-2": "Harvadel juhtudel, kui rammil tekib rike, meie kogenud tehnikud diagnoosivad ja lahendavad probleemi kiiresti, minimeerides seisakuid ja hoides teie toiminguid sujuvalt töötamas.",
-            "li-3":"Hoiame suurt varu kergesti kättesaadavaid varuosade, tagades, et teil on alati juurdepääs töötavale rampile, isegi ootamatutes olukordades.",
+            "li-3": "Hoiame suurt varu kergesti kättesaadavaid varuosade, tagades, et teil on alati juurdepääs töötavale rampile, isegi ootamatutes olukordades.",
             "p-end": "AZ Machinery's mõistame, et seisakud võivad olla kulukad ja häirivad. Seetõttu teeme kõik endast olmeva, et pakkuda ülimat klienditoetust ja tagada meie üürirampide töökindlus."
         }
     },
@@ -232,13 +243,14 @@
             "success-send": "Teie sõnum on saadetud. Aitäh!",
             "get-a-quote": {
                 "title": "Küsi pakkumist",
-                "subTitle": "Võtame teiega esimesel võimalusel ühendust.",
+                "subTitle": "Et anda teile täpne ja konkurentsivõimeline pakkumine, palume täita sõnumit vajalike mõõtudega ja ühikutega. See võimaldab meil pakkumist kohandada teie konkreetsetele vajadustele ja tagada hinna määramise täpsus. Täname teid koostöö eest.",
                 "details-title": "Teie isikuandmed",
                 "placeholder": {
                     "deliveryCity": "Tarne linn",
                     "total-weight": "Kogukaal (kg)",
                     "total-dimensions": "Kogumõõtmed (cm)",
                     "name": "Teie nimi",
+                    "company": "Ettevõtte nimi",
                     "email": "Sisestage oma e-post",
                     "phone": "Sisestage oma telefoninumber",
                     "message": "Sõnum"
@@ -256,58 +268,58 @@
         "christell48Text": "Laiendatud kvaliteedi-hinnakoha kogemus. Valisin Prime WLO8+ galvane rampa Täielikult galvaniseeritud versioonis. Väga kasulik ja kvaliteetne. AZ MACHINERY taastas meie vana Expresso-mudeli. Materjal toodi 4 päeva pärast meie tellimust tootja autost. Tegelikult hea, täname!",
         "mauroMartinText": "Minul oli uus kaat AZ MACHINERY ostnud. Valisin mudel AZ RAMP EASY XL 10 T. Hea sisemine laadimiskaat. Toode saabumisel meie laos Eesti ja 30 päeva pärast suurepärane kliendi vastus. Kontakt AZ rampiga Jérôme GUIGUET oli hea; See kaat vastab kõik aktiivsed nõuded kvaliteetile ja tootmisel."
     },
-"faq": {
-    "title": "Mobiilne laadimisrambid: Täielik juhend",
-    "subTitle": "Kõik, mida teada tuleb mobiilsetest laadimisrampidest",
-    "q": {
-        "1": "Miks peaksin teil valida?",
-        "2": "Milliseid mobiilseid laadimisrampe saate pakkuda?",
-        "3": "Kuidas valin ma õige ramba oma vajaduste jaoks?",
-        "4": "Kas saate rambaid kohandada?",
-        "5": "Pakkute sa rentimise võimalust?",
-        "6": "Kui kaua võtab kohaletoimetamine aega?",
-        "7": "Kuidas võin kontakteeruda tehnilise toe eest vastutava meeskonnaga?"
-    },
-    "a": {
-        "1": {
-            "1": "Me oleme teie üks ja ainus valik kõigi teie mobiilse laadimisrambi vajaduste jaoks. Siin on põhjused, miks me oleme parim valik:",
-            "2": {
-                "bold": "Laia valik:",
-                "c": "Meil on üle 500 ramba laos, mis on valmis kohe saatmiseks üle terve Euroopa."
-            },
-            "3": {
-                "bold": "Kiire kohaletoimetamine:",
-                "c": "Kogemus kiire kohaletoimetamisega. Teie tellimus saadetakse 3 päeva jooksul, et teil oleksid saanud olla rambad, kui teil on neid vaja."
-            },
-            "4": {
-                "bold": "Premium-kvaliteet:",
-                "c": "Meie rambad on valmistatud parimatest materjalidest, mis tagab kestvuse ja ohutuse."
-            },
-            "5": {
-                "bold": "Kohandatavad lahendused:",
-                "c": "Me spetsialiseerume kohandatavate rambade loomisel, mis vastavad teie spetsiifilistele nõudmistele."
-            },
-            "6": {
-                "bold": "Innovatiivsed funktsioonid:",
-                "c": "Meie rambad on varustatud uuenduslike turvalisusfunktsioonidega, mis teeb neid kõige usaldusväärsemaks turul."
-            },
-            "7": {
-                "bold": "Rentimise võimalused:",
-                "c": "Kas teil on vaja ramba lühiajaliseks projektiks? Me pakkume paindlikke rentimise võimalusi, mis vastavad teie vajadustele."
-            },
-            "8": {
-                "bold": "Ekspertide tugi:",
-                "c": "Meie ekspertide meeskond on alati valmis andma teile ekspertiisi ja tugiteenuseid."
-            }
+    "faq": {
+        "title": "Mobiilne laadimisrambid: Täielik juhend",
+        "subTitle": "Kõik, mida teada tuleb mobiilsetest laadimisrampidest",
+        "q": {
+            "1": "Miks peaksin teil valida?",
+            "2": "Milliseid mobiilseid laadimisrampe saate pakkuda?",
+            "3": "Kuidas valin ma õige ramba oma vajaduste jaoks?",
+            "4": "Kas saate rambaid kohandada?",
+            "5": "Pakkute sa rentimise võimalust?",
+            "6": "Kui kaua võtab kohaletoimetamine aega?",
+            "7": "Kuidas võin kontakteeruda tehnilise toe eest vastutava meeskonnaga?"
         },
-        "2": "Me pakkume erinevaid ramba tüüpe, sealhulgas standardrambe, dokkrambe ja spetsiaalrambe erinevateks otstarveteks.",
-        "3": "Meie ekspertide meeskond võib aidata teil valida õige ramba teie vajaduste jaoks, arvestades teie lasti kaalu, mõõtmeid ja eesmärki.",
-        "4": "Jah, me võime kohandada rambaid teie spetsiifilistele nõudmistele vastavalt, sealhulgas pikkuse, laiuse ja koormuskapatsiteedi.",
-        "5": "Jah, me pakkume paindlikke rentimise võimalusi neile, kes on vaja ramba lühiajaliseks projektiks.",
-        "6": "Me kohaletoome teie tellimused tavaliselt 3 päeva jooksul üle terve Euroopa.",
-        "7": "Te võite kontakteeruda meie tehnilise toe eest vastutava meeskonnaga telefoniga, e-postiga või otse vestluse teel. Meie kontaktandmed on kättesaadavad meie veebilehel."
-    }
-},
+        "a": {
+            "1": {
+                "1": "Me oleme teie üks ja ainus valik kõigi teie mobiilse laadimisrambi vajaduste jaoks. Siin on põhjused, miks me oleme parim valik:",
+                "2": {
+                    "bold": "Laia valik:",
+                    "c": "Meil on üle 500 ramba laos, mis on valmis kohe saatmiseks üle terve Euroopa."
+                },
+                "3": {
+                    "bold": "Kiire kohaletoimetamine:",
+                    "c": "Kogemus kiire kohaletoimetamisega. Teie tellimus saadetakse 3 päeva jooksul, et teil oleksid saanud olla rambad, kui teil on neid vaja."
+                },
+                "4": {
+                    "bold": "Premium-kvaliteet:",
+                    "c": "Meie rambad on valmistatud parimatest materjalidest, mis tagab kestvuse ja ohutuse."
+                },
+                "5": {
+                    "bold": "Kohandatavad lahendused:",
+                    "c": "Me spetsialiseerume kohandatavate rambade loomisel, mis vastavad teie spetsiifilistele nõudmistele."
+                },
+                "6": {
+                    "bold": "Innovatiivsed funktsioonid:",
+                    "c": "Meie rambad on varustatud uuenduslike turvalisusfunktsioonidega, mis teeb neid kõige usaldusväärsemaks turul."
+                },
+                "7": {
+                    "bold": "Rentimise võimalused:",
+                    "c": "Kas teil on vaja ramba lühiajaliseks projektiks? Me pakkume paindlikke rentimise võimalusi, mis vastavad teie vajadustele."
+                },
+                "8": {
+                    "bold": "Ekspertide tugi:",
+                    "c": "Meie ekspertide meeskond on alati valmis andma teile ekspertiisi ja tugiteenuseid."
+                }
+            },
+            "2": "Me pakkume erinevaid ramba tüüpe, sealhulgas standardrambe, dokkrambe ja spetsiaalrambe erinevateks otstarveteks.",
+            "3": "Meie ekspertide meeskond võib aidata teil valida õige ramba teie vajaduste jaoks, arvestades teie lasti kaalu, mõõtmeid ja eesmärki.",
+            "4": "Jah, me võime kohandada rambaid teie spetsiifilistele nõudmistele vastavalt, sealhulgas pikkuse, laiuse ja koormuskapatsiteedi.",
+            "5": "Jah, me pakkume paindlikke rentimise võimalusi neile, kes on vaja ramba lühiajaliseks projektiks.",
+            "6": "Me kohaletoome teie tellimused tavaliselt 3 päeva jooksul üle terve Euroopa.",
+            "7": "Te võite kontakteeruda meie tehnilise toe eest vastutava meeskonnaga telefoniga, e-postiga või otse vestluse teel. Meie kontaktandmed on kättesaadavad meie veebilehel."
+        }
+    },
     "footer": {
         "copyright": "Autoriõigused © 2024 AZ Machinery. Kõik õigused kaitstud.",
         "headquarter": {
@@ -443,7 +455,7 @@
             "station_ramp_label": "Paigalduselised laadiraudte",
             "station_ramp_description": "Optimeerige efektsuselt laadiraudte platvormiga."
         },
-         "category_product_lists": "{ country } - Laaduramp varutoodetena: Tutvu { type }"
+        "category_product_lists": "{ country } - Laaduramp varutoodetena: Tutvu { type }"
     },
     "products": {
         "back_button": "TAGASI",
@@ -545,5 +557,5 @@
         "gab": "Täielikult tsingitud",
         "gao": "Täielikult tsingitud",
         "tb": "Kaetud tunnel"
-      }
+    }
 }

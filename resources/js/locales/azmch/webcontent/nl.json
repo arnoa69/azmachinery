@@ -68,8 +68,19 @@
         "contact": "Contact",
         "products": "Producten",
         "menu": {
-            "productList": "Producten",
-            "types": "Typen"
+            "type-mobile": "Mobiele laadbruggen",
+            "type-container": "Containerlaadbruggen",
+            "star": "STAR",
+            "easy-xl": "Easy XL",
+            "wlo": "WLO",
+            "prime-xs": "Prime XS",
+            "star-otc": "STAR OTC",
+            "big-foot": "Big Foot",
+            "hcrn-06": "HCRN-06",
+            "hcrn-065": "HCRN-065",
+            "hcrn-08": "HCRN-08",
+            "hcry-08": "HCRY-08",
+            "secu-dock": "Secu-Dock"
         },
         "getQuote": "Offerte aanvragen"
     },
@@ -232,13 +243,14 @@
             "success-send": "Uw bericht is verzonden. Dank u wel!",
             "get-a-quote": {
                 "title": "Vraag een offerte aan",
-                "subTitle": "We nemen zo snel mogelijk contact met u op.",
+                "subTitle": "Om u een nauwkeurig en concurrerend aanbod te kunnen doen, vult u alstublieft het bericht in met de benodigde afmetingen en eenheden. Dit stelt ons in staat om ons voorstel aan uw specifieke behoeften aan te passen en de precisie van onze prijsbepaling te waarborgen. Bedankt voor uw medewerking.",
                 "details-title": "Uw persoonlijke gegevens",
                 "placeholder": {
                     "deliveryCity": "Bezorgstad",
                     "total-weight": "Totaal gewicht (kg)",
                     "total-dimensions": "Totale afmetingen (cm)",
                     "name": "Uw naam",
+                    "company": "Bedrijfsnaam",
                     "email": "Voer uw e-mail in",
                     "phone": "Voer uw telefoonnummer in",
                     "message": "Bericht"
@@ -256,58 +268,58 @@
         "christell48Text": "Uitstekend prijsgenot. Wij hebben de PRIME WLO8+ met railing in FULL GALVA-uitvoering uitgekozen. Super praktisch, goede kwaliteit. AZ MACHINERY heeft zelfs onze oude Expresso-ramp opgehaald die niet meer stond. Het materiaal kregen wij 4 dagen na onze bestelling op ons transporteur van de fabrikant. Erg goed, bedankt.",
         "mauroMartinText": "Ik heb een nieuwe ramp van AZ MACHINERY gekocht, wij hebben de AZ RAMP EASY XL 10 T-model gekozen, een erg goede laadramppas. Wij hebben deze in ons magazijn in Argentinië in 30 dagen ontvangen, een goed contact met de erg vriendelijke verkoper. Deze ramp is van uitstekende kwaliteit en fijn werkman. Wij zijn erg tevreden over onze aankoop."
     },
-"faq": {
-    "title": "Mobiele laadkleppen: De complete gids",
-    "subTitle": "Alles wat u moet weten over mobiele laadkleppen",
-    "q": {
-        "1": "Waarom kiest u voor ons?",
-        "2": "Welke soorten mobiele laadkleppen bieden wij aan?",
-        "3": "Hoe kies ik de juiste klep voor mijn behoeften?",
-        "4": "Kunnen wij kleppen aanpassen?",
-        "5": "Bieden wij huuropties aan?",
-        "6": "Hoe lang duurt de levering?",
-        "7": "Hoe kan ik contact opnemen met de technische ondersteuning?"
-    },
-    "a": {
-        "1": {
-            "1": "Wij zijn uw enige keuze voor al uw mobiele laadkleppenbehoeften. Hier zijn de redenen waarom wij de beste optie zijn:",
-            "2": {
-                "bold": "Groot assortiment:",
-                "c": "Wij hebben meer dan 500 kleppen op voorraad, klaar om te worden geleverd in heel Europa."
-            },
-            "3": {
-                "bold": "Snel leveren:",
-                "c": "Ervaar snelle levering. Uw bestelling wordt binnen 3 dagen geleverd, zodat u uw kleppen krijgt wanneer u ze nodig heeft."
-            },
-            "4": {
-                "bold": "Hoge kwaliteit:",
-                "c": "Onze kleppen zijn gemaakt van de beste materialen, wat garantie geeft voor duurzaamheid en veiligheid."
-            },
-            "5": {
-                "bold": "Aangepaste oplossingen:",
-                "c": "Wij zijn gespecialiseerd in het creëren van aangepaste kleppen die voldoen aan uw specifieke behoeften."
-            },
-            "6": {
-                "bold": "Innovatieve functionaliteiten:",
-                "c": "Onze kleppen zijn uitgerust met innovatieve veiligheidsfunctionaliteiten, waardoor ze de meest betrouwbare op de markt zijn."
-            },
-            "7": {
-                "bold": "Huur-opties:",
-                "c": "Heeft u een klep nodig voor een kort project? Wij bieden flexibele huuropties om aan uw behoeften te voldoen."
-            },
-            "8": {
-                "bold": "Technische ondersteuning:",
-                "c": "Ons team van technici is altijd beschikbaar om u technische ondersteuning en assistentie te bieden."
-            }
+    "faq": {
+        "title": "Mobiele laadkleppen: De complete gids",
+        "subTitle": "Alles wat u moet weten over mobiele laadkleppen",
+        "q": {
+            "1": "Waarom kiest u voor ons?",
+            "2": "Welke soorten mobiele laadkleppen bieden wij aan?",
+            "3": "Hoe kies ik de juiste klep voor mijn behoeften?",
+            "4": "Kunnen wij kleppen aanpassen?",
+            "5": "Bieden wij huuropties aan?",
+            "6": "Hoe lang duurt de levering?",
+            "7": "Hoe kan ik contact opnemen met de technische ondersteuning?"
         },
-        "2": "Wij bieden verschillende soorten kleppen aan, waaronder standaardkleppen, kadekleppen en speciale kleppen voor specifieke toepassingen.",
-        "3": "Ons team van technici kan u helpen de juiste klep te kiezen voor uw behoeften, waarbij uw lading, afmetingen en gebruik worden meegenomen.",
-        "4": "Ja, wij kunnen kleppen aanpassen om aan uw specifieke behoeften te voldoen, zoals lengte, breedte en capaciteit.",
-        "5": "Ja, wij bieden flexibele huuropties voor korte projecten.",
-        "6": "Wij leveren onze bestellingen meestal binnen 3 dagen in heel Europa.",
-        "7": "U kunt contact opnemen met onze technische ondersteuning per telefoon, e-mail of live-chat. Onze contactgegevens zijn te vinden op onze website."
-    }
-},
+        "a": {
+            "1": {
+                "1": "Wij zijn uw enige keuze voor al uw mobiele laadkleppenbehoeften. Hier zijn de redenen waarom wij de beste optie zijn:",
+                "2": {
+                    "bold": "Groot assortiment:",
+                    "c": "Wij hebben meer dan 500 kleppen op voorraad, klaar om te worden geleverd in heel Europa."
+                },
+                "3": {
+                    "bold": "Snel leveren:",
+                    "c": "Ervaar snelle levering. Uw bestelling wordt binnen 3 dagen geleverd, zodat u uw kleppen krijgt wanneer u ze nodig heeft."
+                },
+                "4": {
+                    "bold": "Hoge kwaliteit:",
+                    "c": "Onze kleppen zijn gemaakt van de beste materialen, wat garantie geeft voor duurzaamheid en veiligheid."
+                },
+                "5": {
+                    "bold": "Aangepaste oplossingen:",
+                    "c": "Wij zijn gespecialiseerd in het creëren van aangepaste kleppen die voldoen aan uw specifieke behoeften."
+                },
+                "6": {
+                    "bold": "Innovatieve functionaliteiten:",
+                    "c": "Onze kleppen zijn uitgerust met innovatieve veiligheidsfunctionaliteiten, waardoor ze de meest betrouwbare op de markt zijn."
+                },
+                "7": {
+                    "bold": "Huur-opties:",
+                    "c": "Heeft u een klep nodig voor een kort project? Wij bieden flexibele huuropties om aan uw behoeften te voldoen."
+                },
+                "8": {
+                    "bold": "Technische ondersteuning:",
+                    "c": "Ons team van technici is altijd beschikbaar om u technische ondersteuning en assistentie te bieden."
+                }
+            },
+            "2": "Wij bieden verschillende soorten kleppen aan, waaronder standaardkleppen, kadekleppen en speciale kleppen voor specifieke toepassingen.",
+            "3": "Ons team van technici kan u helpen de juiste klep te kiezen voor uw behoeften, waarbij uw lading, afmetingen en gebruik worden meegenomen.",
+            "4": "Ja, wij kunnen kleppen aanpassen om aan uw specifieke behoeften te voldoen, zoals lengte, breedte en capaciteit.",
+            "5": "Ja, wij bieden flexibele huuropties voor korte projecten.",
+            "6": "Wij leveren onze bestellingen meestal binnen 3 dagen in heel Europa.",
+            "7": "U kunt contact opnemen met onze technische ondersteuning per telefoon, e-mail of live-chat. Onze contactgegevens zijn te vinden op onze website."
+        }
+    },
     "footer": {
         "copyright": "Auteursrecht © 2024 AZ Machinery. Alle rechten voorbehouden.",
         "headquarter": {
@@ -398,37 +410,37 @@
     "categories": {
         "star": {
             "description": "De Star-oprit is een veelzijdige optie met verschillende draagcapaciteiten (8t, 10t, 12t, 15t, 20t) en configuraties (standaard, lange vlakke afloop, extra groot, LLO-XL). Hij is geschikt voor een breed scala aan voertuigen en toepassingen, en biedt flexibiliteit en aanpassing."
-          },
-          "easy-xl": {
+        },
+        "easy-xl": {
             "description": "Ontworpen voor zware toepassingen, beschikt de EAS-XL over een extra groot platform om overmaatse ladingen en grote voertuigen te accommoderen."
-          },
-          "wlo": {
+        },
+        "wlo": {
             "description": "Ideaal voor situaties die een lange, vlakke overgang vereisen, biedt de WLO-oprit een glad en gelijkmatig oppervlak voor laden en lossen."
-          },
-          "prime-xs": {
+        },
+        "prime-xs": {
             "description": "Een compacte en lichte oprit, perfect voor kleinere voertuigen en ruimtes met beperkte toegang."
-          },
-          "star-otc": {
+        },
+        "star-otc": {
             "description": "Een veelzijdige oprit die geschikt is voor diverse toepassingen, en een robuuste en betrouwbare oplossing biedt."
-          },
-          "big-foot": {
+        },
+        "big-foot": {
             "description": "Ontworpen voor oneffen terrein en zware ladingen, biedt de Big-Foot-oprit uitzonderlijke stabiliteit en een groot contactoppervlak."
-          },
-          "hcrn-06": {
+        },
+        "hcrn-06": {
             "description": "De HCRN-06 is een hoogwaardige containeroprit die is ontworpen voor efficiënt en veilig laden en lossen van 20-voets containers. Hij beschikt over een stevige constructie, betrouwbare vergrendelingsmechanismen en een gebruiksvriendelijk ontwerp."
-          },
-          "hcrn-065": {
+        },
+        "hcrn-065": {
             "description": "De HCRN-065 is een iets grotere containeroprit die geschikt is voor het hanteren van zowel 20-voets als 40-voets containers. Hij biedt een breder platform voor eenvoudiger laden en lossen en bevat geavanceerde veiligheidsfuncties."
-          },
-          "hcrn-08": {
+        },
+        "hcrn-08": {
             "description": "De HCRN-08 is een heavy-duty containeroprit die is ontworpen om de zwaarste ladingen te dragen. Hij beschikt over een versterkte constructie, een extra breed platform en geavanceerde veiligheidsfuncties."
-          },
-          "hcry-08": {
+        },
+        "hcry-08": {
             "description": "De HCRY-08 is een gespecialiseerde containeroprit die is ontworpen voor gebruik in krappe ruimtes. Hij beschikt over een compact ontwerp en eenvoudige manoeuvreerbaarheid, waardoor hij ideaal is voor kleinere laadzones."
-          },
-          "secu-dock": {
+        },
+        "secu-dock": {
             "description": "De Secudock is een premium containeroprit die bekend staat om zijn uitzonderlijke veiligheidsfuncties. Hij integreert geavanceerde technologie om ongelukken te voorkomen en een veilig laad- en losproces te garanderen."
-          },
+        },
         "main": {
             "head": {
                 "title": "Ontdek Ons Assortiment Lastrijksrampen | AZ Machinery - Franse kwaliteit",
@@ -443,7 +455,7 @@
             "station_ramp_label": "Stationaire rampen",
             "station_ramp_description": "Optimaliseer de efficiëntie met onze stationaire lastplaten."
         },
-         "category_product_lists": "{ country } - Laadkleppen op voorraad: Verken { type }"
+        "category_product_lists": "{ country } - Laadkleppen op voorraad: Verken { type }"
     },
     "products": {
         "back_button": "TERUG",
@@ -482,7 +494,7 @@
                 "your_phone": "Voer uw nummer in",
                 "submit_button": "Verzenden",
                 "category_list": "Soorten laadkleppen",
-            "policy": "Accepteer ons privacybeleid."
+                "policy": "Accepteer ons privacybeleid."
             }
         },
         "weight_capacity": "Statische capaciteit { tonnes } T",
@@ -545,5 +557,5 @@
         "gab": "Volledig gegalvaniseerd",
         "gao": "Volledig gegalvaniseerd",
         "tb": "Overdekte tunnel"
-      }
+    }
 }

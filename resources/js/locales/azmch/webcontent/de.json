@@ -26,9 +26,9 @@
             }
         },
         "product_list": {
-            "keywords":"Rampenbetrieb,Warenförderung,Lade- und Entladetechnik,Dockleveler,Rollbahn,Verladetechnik,Rampenförderung",
+            "keywords": "Rampenbetrieb,Warenförderung,Lade- und Entladetechnik,Dockleveler,Rollbahn,Verladetechnik,Rampenförderung",
             "description": "Effiziente Lösungen für den Transport schwerer Lasten auf höhere Ebenen. Entdecken Sie verschiedene Arten von Verladerampen und Fördertechniken.",
-            "og:title":"Mobile Verladerampen, Individuelle  und Rampensysteme in Europa: Elektrisch, hydraulisch und flexibel, hohe Bestände und kontinuierliche Lieferungen"
+            "og:title": "Mobile Verladerampen, Individuelle  und Rampensysteme in Europa: Elektrisch, hydraulisch und flexibel, hohe Bestände und kontinuierliche Lieferungen"
         },
         "category_list_mobile": {
             "keywords": "mobile Verladerampen, tragbare Laderampen, flexible Verladebrücken, transportable Rampen, mobile Laderampen, klappbare Verladerampen, leichte Verladerampen, mobile Überfahrbrücken, faltbare Laderampen, verstellbare Rampen",
@@ -67,8 +67,19 @@
         "contact": "Kontakt",
         "products": "Produkte",
         "menu": {
-            "productList": "Produkte",
-            "types": "Typen"
+            "type-mobile": "Mobile Ladebrücken",
+            "type-container": "Containerladebrücken",
+            "star": "STAR",
+            "easy-xl": "Easy XL",
+            "wlo": "WLO",
+            "prime-xs": "Prime XS",
+            "star-otc": "STAR OTC",
+            "big-foot": "Big Foot",
+            "hcrn-06": "HCRN-06",
+            "hcrn-065": "HCRN-065",
+            "hcrn-08": "HCRN-08",
+            "hcry-08": "HCRY-08",
+            "secu-dock": "Secu-Dock"
         },
         "getQuote": "Angebot einholen"
     },
@@ -231,13 +242,14 @@
             "success-send": "Ihre Nachricht wurde gesendet. Danke schön!",
             "get-a-quote": {
                 "title": "Angebot einholen",
-                "subTitle": "Wir melden uns so schnell wie möglich bei Ihnen.",
+                "subTitle": "Um Ihnen ein präzises und wettbewerbsfähiges Angebot zu unterbreiten, bitten wir Sie, die Nachricht mit den erforderlichen Abmessungen und Einheiten auszufüllen. Dies ermöglicht es uns, unseren Vorschlag Ihren individuellen Bedürfnissen entsprechend zuzuschneiden und die Preisgestaltung genau zu bestimmen. Vielen Dank für Ihre Kooperation.",
                 "details-title": "Ihre persönlichen Angaben",
                 "placeholder": {
-                    "deliveryCity": "Lieferstadt",
+                    "deliveryCity": "Lieferort",
                     "total-weight": "Gesamtgewicht (kg)",
                     "total-dimensions": "Gesamtabmessungen (cm)",
                     "name": "Ihr Name",
+                    "company": "Firmenname",
                     "email": "Geben Sie Ihre E-Mail-Adresse ein",
                     "phone": "Geben Sie Ihre Telefonnummer ein",
                     "message": "Nachricht"
@@ -395,7 +407,7 @@
         "buttonUnderstandPolicy": "Accept and understand policy"
     },
     "categories": {
-"star": {
+        "star": {
             "description": "Die Star-Rampe ist eine vielseitige Option mit verschiedenen Tragfähigkeiten (8t, 10t, 12t, 15t, 20t) und Konfigurationen (Standard, langes Niveau, extra groß, LLO-XL). Sie ist für eine Vielzahl von Fahrzeugen und Anwendungen geeignet und bietet Flexibilität und Anpassungsmöglichkeiten."
         },
         "easy-xl": {

@@ -1,6 +1,5 @@
 <script setup>
 import LegalLayout from '@/Layouts/LegalLayout.vue';
-import CategorySidebar from "@/Components/Layouts/Layout1/Sidebar/CategorySidebar.vue";
 import HelpSidebar from "@/Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
 import { useI18n } from 'vue-i18n';
 
@@ -22,7 +21,6 @@ const { locale } = useI18n();
                             <!-- BEGIN LEFT SIDBAR -->
                             <div class="row categories-list">
                                 <div class="service-details">
-                                    <CategorySidebar />
                                     <HelpSidebar :phone_number="phone_number" />
                                 </div>
                             </div>

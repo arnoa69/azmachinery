@@ -66,10 +66,21 @@
         "home": "Home",
         "about": "About us",
         "contact": "Contact",
-        "products": "Products",
+        "products": "Loading Ramp Catalogue",
         "menu": {
-            "productList": "Products",
-            "types": "Types"
+            "type-mobile": "Mobile loading ramps",
+            "type-container": "Container loading ramps",
+            "star": "STAR",
+            "easy-xl": "Easy XL",
+            "wlo": "WLO",
+            "prime-xs": "Prime XS",
+            "star-otc": "STAR OTC",
+            "big-foot": "Big Foot",
+            "hcrn-06": "HCRN-06",
+            "hcrn-065": "HCRN-065",
+            "hcrn-08": "HCRN-08",
+            "hcry-08": "HCRY-08",
+            "secu-dock": "Secu-Dock"
         },
         "getQuote": "Get a quote"
     },
@@ -232,13 +243,14 @@
             "success-send": "Your message has been sent. Thank you!",
             "get-a-quote": {
                 "title": "Get a quote",
-                "subTitle": "We will get back to you as soon as we can.",
+                "subTitle": "To provide you with an accurate and competitive offer, please complete the message with the required dimensions and units. This will enable us to tailor our proposal to your specific needs and ensure precision in our pricing. Thank you for your cooperation.",
                 "details-title": "Your personal details",
                 "placeholder": {
                     "deliveryCity": "Delivery city",
                     "total-weight": "Total weight (kg)",
                     "total-dimensions": "Total dimensions (cm)",
                     "name": "Your name",
+                    "company": "Enter your Company",
                     "email": "Enter your email",
                     "phone": "Enter your phone",
                     "message": "Message"

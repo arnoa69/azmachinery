@@ -1,6 +1,30 @@
 <script setup>
 import GetQuoteLayout from '@/Layouts/GetQuoteLayout.vue';
 import { ref } from 'vue'
+import { useI18n } from 'vue-i18n';
+import { Inertia } from '@inertiajs/inertia';
+
+const { locale } = useI18n();
+
+const name = ref('');
+const email = ref('');
+const company_name = ref('');
+const phone_number = ref('');
+const message = ref('');
+
+const submitForm = () => {
+    const formData = new FormData();
+
+    formData.append('name', name.value);
+    formData.append('email', email.value);
+    formData.append('company_name', company_name.value);
+    formData.append('phone_number', phone_number.value);
+    formData.append('message', 'locale:' + locale.value + ';contact.form' + ';Client-Message: ' + message.value);
+    formData.append('locale', locale.value);
+    formData.append('source', 'azm:ch.get.quote.form');
+
+    Inertia.post('/client-request', formData);
+}
 
 const imagePath = ref('/../../../img/quote-bg.jpg');
 const backgroundStyle = ref({
@@ -20,42 +44,35 @@ const backgroundStyle = ref({
     <div class="col-lg-5 quote-bg" :style="backgroundStyle"></div>
 
     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
-      <form action="forms/get-a-quote.php" method="post" class="php-email-form">
-        <h3>{{ $t('contact.form.get-a-quote.title') }}</h3>
-        <p>{{ $t('contact.form.get-a-quote.subTitle') }}</p>
-
+        <form @submit.prevent="submitForm" method="post" class="php-email-form" data-aos="fade-up"
+        data-aos-delay="500">
         <div class="row gy-4">
 
-          <div class="col-md-6">
-            <input type="text" name="delivery" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.deliveryCity')" required="">
-          </div>
-
-          <div class="col-md-6">
-            <input type="text" name="weight" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.total-weight')" required="">
-          </div>
-
-          <div class="col-md-6">
-            <input type="text" name="dimensions" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.total-dimensions')" required="">
-          </div>
+        <h3>{{ $t('contact.form.get-a-quote.title') }}</h3>
+        <p>{{ $t('contact.form.get-a-quote.subTitle') }}</p>
 
           <div class="col-lg-12">
             <h4>{{ $t('contact.form.get-a-quote.details-title') }}</h4>
           </div>
 
           <div class="col-12">
-            <input type="text" name="name" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.name')" required="">
+            <input type="text" name="name" v-model="name" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.name')" required="">
+          </div>
+
+          <div class="col-12">
+            <input type="text" name="company_name" v-model="company_name" class="form-control" :placeholder="$t('contact.form.get-a-quote.placeholder.company')" required="">
           </div>
 
           <div class="col-12 ">
-            <input type="email" class="form-control" name="email" :placeholder="$t('contact.form.get-a-quote.placeholder.email')" required="">
+            <input type="email" v-model="email" class="form-control" name="email" :placeholder="$t('contact.form.get-a-quote.placeholder.email')" required="">
           </div>
 
           <div class="col-12">
-            <input type="text" class="form-control" name="phone" :placeholder="$t('contact.form.get-a-quote.placeholder.phone')" required="">
+            <input type="text" v-model="phone_number" class="form-control" name="phone" :placeholder="$t('contact.form.get-a-quote.placeholder.phone')" required="">
           </div>
 
           <div class="col-12">
-            <textarea class="form-control" name="message" rows="6" :placeholder="$t('contact.form.get-a-quote.placeholder.message')" required=""></textarea>
+            <textarea class="form-control" v-model="message" name="message" rows="6" :placeholder="$t('contact.form.get-a-quote.placeholder.message')" required=""></textarea>
           </div>
 
           <div class="col-12 text-center">
@@ -69,7 +86,6 @@ const backgroundStyle = ref({
         </div>
       </form>
     </div><!-- End Quote Form -->
-
   </div>
 
 </div>

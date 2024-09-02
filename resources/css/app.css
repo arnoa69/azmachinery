@@ -380,6 +380,15 @@ section,
       display: none;
     }
     .header .logo h1 {font-size: 16px;}
+
+    .header .btn-getstarted {
+      font-size: 21px;
+      width: 50%;
+      float: right;
+    }
+    a.btn-getstarted {
+      text-align: center;
+    }
 }
 
 @media (max-width: 1200px) {

@@ -106,8 +106,6 @@ Route::middleware([LocaleMiddleware::class])->group(function () {
         ->where('options', '.*')
         ->where('options', '(.*|no-option)'); // Allow 'no-option' as a valid option
         Route::get('/products/{slug}/pdf', [ProductController::class, 'generateProductPdf'])->name('products.pdf');
-        Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
-        Route::get('/category/{type}', [CategoryController::class, 'show'])->name('categories.show');
         Route::get('/contact', [ContactController::class, 'contactFormShow'])->name('contacts.form.show');
         Route::get('/get-a-quote', [ContactController::class, 'getQuoteFormShow'])->name('contacts.get.quote.form.show');
         Route::get('/cookie-policy', [PolicyController::class, 'showCookiePolicy'])->name('policy.showCookiePolicy');

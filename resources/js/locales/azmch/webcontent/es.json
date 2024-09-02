@@ -66,8 +66,19 @@
         "contact": "Contacto",
         "products": "Productos",
         "menu": {
-            "productList": "Productos",
-            "types": "Tipos"
+            "type-mobile": "Rampas de carga móviles",
+            "type-container": "Rampas de carga de contenedores",
+            "star": "STAR",
+            "easy-xl": "Easy XL",
+            "wlo": "WLO",
+            "prime-xs": "Prime XS",
+            "star-otc": "STAR OTC",
+            "big-foot": "Big Foot",
+            "hcrn-06": "HCRN-06",
+            "hcrn-065": "HCRN-065",
+            "hcrn-08": "HCRN-08",
+            "hcry-08": "HCRY-08",
+            "secu-dock": "Secu-Dock"
         },
         "getQuote": "Obtener una cotización"
     },
@@ -104,46 +115,46 @@
         "close-button": "Salir"
     },
     "tabs": {
-            "stock": {
-                "teaser": "Inventario global: más de 500 rampas en stock",
-                "h3": "¡Gran stock listo para enviar!",
-                "p": "Tenemos todo cubierto con un increíble stock de materiales de alta calidad, todos producidos internamente y listos para entrega inmediata.",
-                "li-1": "Controlamos cada paso del proceso, asegurando calidad excepcional y consistencia en cada producto.",
-                "li-2": "¡Nada de esperar! Tenemos un vasto inventario listo para enviar, para que puedas comenzar tu proyecto de inmediato.",
-                "li-3": "El tiempo es dinero. Ofrecemos opciones de entrega rápidas y confiables para que tus materiales lleguen de manera rápida y eficiente.",
-                "p-end": "No te conformes con menos. Elige los mejores materiales, respaldados por nuestro compromiso con la calidad y la satisfacción del cliente. Explora nuestro extenso catálogo hoy y descubre la rampa de carga perfecta.",
-                "catalog-link": "Catálogo"
-            },
-            "rent": {
-                "teaser": "¿Necesitas una rampa de carga? ¡Alquílala, no la compres!",
-                "h3": "Soluciones flexibles para cargar y descargar",
-                "p": "¿Cansado de las molestias y los costos de tener una rampa de carga? AZ RAMP ofrece una solución más inteligente: alquileres de rampas flexibles y rentables, adaptados a tus necesidades específicas.",
-                "p-itali": "¿Tienes cuellos de botella logísticos y capacidades limitadas de carga/descarga? AZ Machinery ofrece el alquiler de rampas de carga de alta calidad, adaptadas a tus necesidades específicas.",
-                "li-1": "Alquila hasta 36 meses, adaptándote a la línea de tiempo de tu proyecto y evitando compromisos a largo plazo.",
-                "li-2": "Elige entre una variedad de rampas con diferentes capacidades de carga, anchos y configuraciones para adaptarse perfectamente a tus requisitos de carga y descarga.",
-                "li-3": "AZ Machinery es uno de los pocos proveedores que ofrece alquiler de rampas de carga, brindándole acceso a equipos especializados sin la carga de la propiedad.",
-                "p-end": "Elimina la fuerte inversión inicial de comprar una rampa y disfruta de costos de alquiler predecibles y transparentes, sin tarifas ocultas."
-            },
-            "security": {
-                "teaser": "¡Carga con confianza!",
-                "h3": "Rampas de carga y prioridad en la seguridad de tus operaciones",
-                "p": "Asegura un proceso de carga/descarga seguro y eficiente con las rampas de alquiler de alta calidad de AZ Machinery, diseñadas con la seguridad como máxima prioridad.",
-                "li-1": "Construcción robusta y materiales superiores garantizan una plataforma estable y confiable para tus operaciones de carga/descarga.",
-                "li-2": "Superficies antideslizantes minimizan el riesgo de resbalones, tropiezos y caídas, asegurando la seguridad de tu personal y carga.",
-                "li-3": "Evita movimientos accidentales y asegura una conexión segura entre la rampa y el muelle de carga o la cama del camión.",
-                "p-end": "En AZ Machinery, entendemos que la seguridad es fundamental en cualquier entorno de carga/descarga. Nuestras rampas están meticulosamente diseñadas y mantenidas para cumplir con los más altos estándares de seguridad, brindándote tranquilidad y minimizando el riesgo de accidentes."
-            },
-            "support": {
-                "teaser": "Socio confiable para operaciones sin problemas",
-                "h3": "Experimenta eficiencia ininterrumpida con AZ Machinery",
-                "p": "Disfruta de operaciones de carga/descarga sin problemas con nuestras rampas confiables y servicios de soporte completos, diseñados para brindarte total tranquilidad.",
-                "p-itali": "Nuestro compromiso con tu satisfacción incluye:",
-                "li-1": "Nuestro equipo dedicado está disponible las 24 horas para responder tus preguntas, inquietudes y solicitudes urgentes, asegurando operaciones ininterrumpidas.",
-                "li-2": "En el raro caso de un mal funcionamiento de la rampa, nuestros técnicos expertos diagnosticarán y resolverán rápidamente el problema, minimizando el tiempo de inactividad y manteniendo tus operaciones sin problemas.",
-                "li-3": "Mantenemos un gran inventario de rampas de reemplazo disponibles, asegurando que siempre tengas acceso a una rampa funcional, incluso en situaciones inesperadas.",
-                "p-end": "En AZ Machinery, entendemos que el tiempo de inactividad puede ser costoso y disruptivo. Por eso vamos más allá para proporcionar un soporte al cliente excepcional y asegurar la confiabilidad de nuestras rampas de alquiler."
-            }
+        "stock": {
+            "teaser": "Inventario global: más de 500 rampas en stock",
+            "h3": "¡Gran stock listo para enviar!",
+            "p": "Tenemos todo cubierto con un increíble stock de materiales de alta calidad, todos producidos internamente y listos para entrega inmediata.",
+            "li-1": "Controlamos cada paso del proceso, asegurando calidad excepcional y consistencia en cada producto.",
+            "li-2": "¡Nada de esperar! Tenemos un vasto inventario listo para enviar, para que puedas comenzar tu proyecto de inmediato.",
+            "li-3": "El tiempo es dinero. Ofrecemos opciones de entrega rápidas y confiables para que tus materiales lleguen de manera rápida y eficiente.",
+            "p-end": "No te conformes con menos. Elige los mejores materiales, respaldados por nuestro compromiso con la calidad y la satisfacción del cliente. Explora nuestro extenso catálogo hoy y descubre la rampa de carga perfecta.",
+            "catalog-link": "Catálogo"
         },
+        "rent": {
+            "teaser": "¿Necesitas una rampa de carga? ¡Alquílala, no la compres!",
+            "h3": "Soluciones flexibles para cargar y descargar",
+            "p": "¿Cansado de las molestias y los costos de tener una rampa de carga? AZ RAMP ofrece una solución más inteligente: alquileres de rampas flexibles y rentables, adaptados a tus necesidades específicas.",
+            "p-itali": "¿Tienes cuellos de botella logísticos y capacidades limitadas de carga/descarga? AZ Machinery ofrece el alquiler de rampas de carga de alta calidad, adaptadas a tus necesidades específicas.",
+            "li-1": "Alquila hasta 36 meses, adaptándote a la línea de tiempo de tu proyecto y evitando compromisos a largo plazo.",
+            "li-2": "Elige entre una variedad de rampas con diferentes capacidades de carga, anchos y configuraciones para adaptarse perfectamente a tus requisitos de carga y descarga.",
+            "li-3": "AZ Machinery es uno de los pocos proveedores que ofrece alquiler de rampas de carga, brindándole acceso a equipos especializados sin la carga de la propiedad.",
+            "p-end": "Elimina la fuerte inversión inicial de comprar una rampa y disfruta de costos de alquiler predecibles y transparentes, sin tarifas ocultas."
+        },
+        "security": {
+            "teaser": "¡Carga con confianza!",
+            "h3": "Rampas de carga y prioridad en la seguridad de tus operaciones",
+            "p": "Asegura un proceso de carga/descarga seguro y eficiente con las rampas de alquiler de alta calidad de AZ Machinery, diseñadas con la seguridad como máxima prioridad.",
+            "li-1": "Construcción robusta y materiales superiores garantizan una plataforma estable y confiable para tus operaciones de carga/descarga.",
+            "li-2": "Superficies antideslizantes minimizan el riesgo de resbalones, tropiezos y caídas, asegurando la seguridad de tu personal y carga.",
+            "li-3": "Evita movimientos accidentales y asegura una conexión segura entre la rampa y el muelle de carga o la cama del camión.",
+            "p-end": "En AZ Machinery, entendemos que la seguridad es fundamental en cualquier entorno de carga/descarga. Nuestras rampas están meticulosamente diseñadas y mantenidas para cumplir con los más altos estándares de seguridad, brindándote tranquilidad y minimizando el riesgo de accidentes."
+        },
+        "support": {
+            "teaser": "Socio confiable para operaciones sin problemas",
+            "h3": "Experimenta eficiencia ininterrumpida con AZ Machinery",
+            "p": "Disfruta de operaciones de carga/descarga sin problemas con nuestras rampas confiables y servicios de soporte completos, diseñados para brindarte total tranquilidad.",
+            "p-itali": "Nuestro compromiso con tu satisfacción incluye:",
+            "li-1": "Nuestro equipo dedicado está disponible las 24 horas para responder tus preguntas, inquietudes y solicitudes urgentes, asegurando operaciones ininterrumpidas.",
+            "li-2": "En el raro caso de un mal funcionamiento de la rampa, nuestros técnicos expertos diagnosticarán y resolverán rápidamente el problema, minimizando el tiempo de inactividad y manteniendo tus operaciones sin problemas.",
+            "li-3": "Mantenemos un gran inventario de rampas de reemplazo disponibles, asegurando que siempre tengas acceso a una rampa funcional, incluso en situaciones inesperadas.",
+            "p-end": "En AZ Machinery, entendemos que el tiempo de inactividad puede ser costoso y disruptivo. Por eso vamos más allá para proporcionar un soporte al cliente excepcional y asegurar la confiabilidad de nuestras rampas de alquiler."
+        }
+    },
     "about": {
         "title": "Rampas móviles totalmente galvanizadas",
         "point-1-title": "Asegura tu carga con confianza",
@@ -229,13 +240,14 @@
             "success-send": "Su mensaje ha sido enviado. ¡Muchas gracias!",
             "get-a-quote": {
                 "title": "Solicitar un presupuesto",
-                "subTitle": "Nos pondremos en contacto contigo lo antes posible.",
+                "subTitle": "Para ofrecerle una propuesta precisa y competitiva, por favor complete el mensaje con las dimensiones y unidades requeridas. Esto nos permitirá adaptar nuestra oferta a sus necesidades específicas y asegurar la precisión en nuestra fijación de precios. Gracias por su cooperación.",
                 "details-title": "Tus datos personales",
                 "placeholder": {
                     "deliveryCity": "Ciudad de entrega",
                     "total-weight": "Peso total (kg)",
                     "total-dimensions": "Dimensiones totales (cm)",
                     "name": "Tu nombre",
+                    "company": "Introduce tu empresa",
                     "email": "Introduce tu correo electrónico",
                     "phone": "Introduce tu teléfono",
                     "message": "Mensaje"
@@ -253,58 +265,58 @@
         "christell48Text": "Excelente relación calidad-precio.Elegimos el PRIME WLO8+ con barandilla en versión “FULL GALVA”. Súper práctico, buena calidad.AZ MACHINERY incluso recuperó nuestra antigua rampa Expresso que ya no estaba en pie.Material recibido por nosotros en el camión del fabricante 4 días después de nuestro pedido.Realmente bueno, gracias",
         "mauroMartinText": "Compré una rampa nueva de AZ MACHINERY, elegimos el modelo AZ RAMP EASY XL 10 T, una muy buena rampa de carga. Lo recibimos en nuestro almacén de Argentina en 30 días, buen contacto con el vendedor muy amable. Esta rampa es de muy buena calidad y mano de obra impecable. Estamos muy contentos con nuestra compra."
     },
-"faq": {
-    "title": "Rampas de carga móviles: La guía completa",
-    "subTitle": "Todo lo que necesitas saber sobre rampas de carga móviles",
-    "q": {
-        "1": "¿Por qué debemos elegirte?",
-        "2": "¿Qué tipos de rampas de carga móviles ofrecen?",
-        "3": "¿Cómo elijo la rampa adecuada para mis necesidades?",
-        "4": "¿Pueden personalizar las rampas?",
-        "5": "¿Ofrecen servicios de alquiler?",
-        "6": "¿Cuánto tarda la entrega?",
-        "7": "¿Cómo puedo contactar con el soporte técnico?"
-    },
-    "a": {
-        "1": {
-            "1": "Somos tu única opción para todas tus necesidades de rampas de carga móviles. Aquí están las razones por las que somos la mejor opción:",
-            "2": {
-                "bold": "Inventario amplio:",
-                "c": "Tenemos más de 500 rampas en stock, listas para ser enviadas de inmediato a cualquier lugar de Europa."
-            },
-            "3": {
-                "bold": "Entrega rápida:",
-                "c": "Experiencia la entrega rápida. Tu pedido se enviará dentro de los 3 días, para que puedas recibir tus rampas cuando las necesites."
-            },
-            "4": {
-                "bold": "Calidad premium:",
-                "c": "Nuestras rampas están fabricadas con los mejores materiales, lo que garantiza la durabilidad y la seguridad."
-            },
-            "5": {
-                "bold": "Soluciones personalizadas:",
-                "c": "Nos especializamos en crear rampas personalizadas para satisfacer tus necesidades específicas."
-            },
-            "6": {
-                "bold": "Funciones innovadoras:",
-                "c": "Nuestras rampas cuentan con funciones de seguridad innovadoras, lo que las convierte en las más confiables del mercado."
-            },
-            "7": {
-                "bold": "Opciones de alquiler:",
-                "c": "¿Necesitas una rampa para un proyecto de corta duración? Ofrecemos opciones de alquiler flexibles para satisfacer tus necesidades."
-            },
-            "8": {
-                "bold": "Soporte técnico:",
-                "c": "Nuestro equipo de expertos está siempre disponible para ofrecerte asistencia técnica y soporte."
-            }
+    "faq": {
+        "title": "Rampas de carga móviles: La guía completa",
+        "subTitle": "Todo lo que necesitas saber sobre rampas de carga móviles",
+        "q": {
+            "1": "¿Por qué debemos elegirte?",
+            "2": "¿Qué tipos de rampas de carga móviles ofrecen?",
+            "3": "¿Cómo elijo la rampa adecuada para mis necesidades?",
+            "4": "¿Pueden personalizar las rampas?",
+            "5": "¿Ofrecen servicios de alquiler?",
+            "6": "¿Cuánto tarda la entrega?",
+            "7": "¿Cómo puedo contactar con el soporte técnico?"
         },
-        "2": "Ofrecemos diferentes tipos de rampas, incluyendo rampas estándar, rampas de muelle y rampas especializadas para aplicaciones específicas.",
-        "3": "Nuestro equipo de expertos puede ayudarte a elegir la rampa adecuada para tus necesidades, teniendo en cuenta tu carga, dimensiones y uso previsto.",
-        "4": "Sí, podemos personalizar las rampas para satisfacer tus necesidades específicas, como la longitud, el ancho y la capacidad de carga.",
-        "5": "Sí, ofrecemos opciones de alquiler flexibles para aquellos que necesitan una rampa para un proyecto de corta duración.",
-        "6": "Normalmente, entregamos los pedidos dentro de los 3 días en cualquier lugar de Europa.",
-        "7": "Puedes contactar con nuestro equipo de soporte técnico por teléfono, correo electrónico o chat en directo. Nuestra información de contacto está disponible en nuestro sitio web."
-    }
-},
+        "a": {
+            "1": {
+                "1": "Somos tu única opción para todas tus necesidades de rampas de carga móviles. Aquí están las razones por las que somos la mejor opción:",
+                "2": {
+                    "bold": "Inventario amplio:",
+                    "c": "Tenemos más de 500 rampas en stock, listas para ser enviadas de inmediato a cualquier lugar de Europa."
+                },
+                "3": {
+                    "bold": "Entrega rápida:",
+                    "c": "Experiencia la entrega rápida. Tu pedido se enviará dentro de los 3 días, para que puedas recibir tus rampas cuando las necesites."
+                },
+                "4": {
+                    "bold": "Calidad premium:",
+                    "c": "Nuestras rampas están fabricadas con los mejores materiales, lo que garantiza la durabilidad y la seguridad."
+                },
+                "5": {
+                    "bold": "Soluciones personalizadas:",
+                    "c": "Nos especializamos en crear rampas personalizadas para satisfacer tus necesidades específicas."
+                },
+                "6": {
+                    "bold": "Funciones innovadoras:",
+                    "c": "Nuestras rampas cuentan con funciones de seguridad innovadoras, lo que las convierte en las más confiables del mercado."
+                },
+                "7": {
+                    "bold": "Opciones de alquiler:",
+                    "c": "¿Necesitas una rampa para un proyecto de corta duración? Ofrecemos opciones de alquiler flexibles para satisfacer tus necesidades."
+                },
+                "8": {
+                    "bold": "Soporte técnico:",
+                    "c": "Nuestro equipo de expertos está siempre disponible para ofrecerte asistencia técnica y soporte."
+                }
+            },
+            "2": "Ofrecemos diferentes tipos de rampas, incluyendo rampas estándar, rampas de muelle y rampas especializadas para aplicaciones específicas.",
+            "3": "Nuestro equipo de expertos puede ayudarte a elegir la rampa adecuada para tus necesidades, teniendo en cuenta tu carga, dimensiones y uso previsto.",
+            "4": "Sí, podemos personalizar las rampas para satisfacer tus necesidades específicas, como la longitud, el ancho y la capacidad de carga.",
+            "5": "Sí, ofrecemos opciones de alquiler flexibles para aquellos que necesitan una rampa para un proyecto de corta duración.",
+            "6": "Normalmente, entregamos los pedidos dentro de los 3 días en cualquier lugar de Europa.",
+            "7": "Puedes contactar con nuestro equipo de soporte técnico por teléfono, correo electrónico o chat en directo. Nuestra información de contacto está disponible en nuestro sitio web."
+        }
+    },
     "footer": {
         "copyright": "Derechos de autor © 2024 AZ Machinery. Todos los derechos reservados.",
         "headquarter": {
@@ -393,39 +405,39 @@
         "buttonUnderstandPolicy": "Aceptar y entender la política"
     },
     "categories": {
-"star": {
-      "description": "La rampa Star es una opción versátil con diversas capacidades de carga (8t, 10t, 12t, 15t, 20t) y configuraciones (estándar, nivel largo, extra grande, LLO-XL). Es adecuada para una amplia gama de vehículos y aplicaciones, ofreciendo flexibilidad y personalización."
-    },
-    "easy-xl": {
-      "description": "Diseñada para aplicaciones de servicio pesado, la EAS-XL presenta una plataforma extragrande para acomodar cargas de gran tamaño y vehículos grandes."
-    },
-    "wlo": {
-      "description": "Ideal para situaciones que requieren una transición larga y nivelada, la rampa WLO proporciona una superficie lisa y uniforme para la carga y descarga."
-    },
-    "prime-xs": {
-      "description": "Una rampa compacta y ligera, perfecta para vehículos más pequeños y espacios con acceso limitado."
-    },
-    "star-otc": {
-      "description": "Una rampa versátil adecuada para diversas aplicaciones, que ofrece una solución robusta y fiable."
-    },
-    "big-foot": {
-      "description": "Diseñada para terrenos irregulares y cargas pesadas, la rampa Big-Foot proporciona una estabilidad excepcional y una gran área de contacto."
-    },
-    "hcrn-06": {
-      "description": "La HCRN-06 es una rampa para contenedores de alta calidad diseñada para la carga y descarga eficiente y segura de contenedores de 20 pies. Cuenta con una construcción robusta, mecanismos de bloqueo fiables y un diseño fácil de usar."
-    },
-    "hcrn-065": {
-      "description": "La HCRN-065 es una rampa para contenedores ligeramente más grande adecuada para manipular contenedores de 20 y 40 pies. Ofrece una plataforma más amplia para una carga y descarga más fáciles e incorpora funciones de seguridad avanzadas."
-    },
-    "hcrn-08": {
-      "description": "La HCRN-08 es una rampa para contenedores de alta resistencia diseñada para acomodar las cargas más pesadas. Cuenta con una construcción reforzada, una plataforma extra ancha y funciones de seguridad avanzadas."
-    },
-    "hcry-08": {
-      "description": "La HCRY-08 es una rampa para contenedores especializada diseñada para usarse en espacios confinados. Cuenta con un diseño compacto y una fácil maniobrabilidad, lo que la hace ideal para áreas de carga más pequeñas."
-    },
-    "secu-dock": {
-      "description": "La Secudock es una rampa para contenedores premium conocida por sus excepcionales características de seguridad. Incorpora tecnología avanzada para prevenir accidentes y garantizar un proceso de carga y descarga seguro."
-    },
+        "star": {
+            "description": "La rampa Star es una opción versátil con diversas capacidades de carga (8t, 10t, 12t, 15t, 20t) y configuraciones (estándar, nivel largo, extra grande, LLO-XL). Es adecuada para una amplia gama de vehículos y aplicaciones, ofreciendo flexibilidad y personalización."
+        },
+        "easy-xl": {
+            "description": "Diseñada para aplicaciones de servicio pesado, la EAS-XL presenta una plataforma extragrande para acomodar cargas de gran tamaño y vehículos grandes."
+        },
+        "wlo": {
+            "description": "Ideal para situaciones que requieren una transición larga y nivelada, la rampa WLO proporciona una superficie lisa y uniforme para la carga y descarga."
+        },
+        "prime-xs": {
+            "description": "Una rampa compacta y ligera, perfecta para vehículos más pequeños y espacios con acceso limitado."
+        },
+        "star-otc": {
+            "description": "Una rampa versátil adecuada para diversas aplicaciones, que ofrece una solución robusta y fiable."
+        },
+        "big-foot": {
+            "description": "Diseñada para terrenos irregulares y cargas pesadas, la rampa Big-Foot proporciona una estabilidad excepcional y una gran área de contacto."
+        },
+        "hcrn-06": {
+            "description": "La HCRN-06 es una rampa para contenedores de alta calidad diseñada para la carga y descarga eficiente y segura de contenedores de 20 pies. Cuenta con una construcción robusta, mecanismos de bloqueo fiables y un diseño fácil de usar."
+        },
+        "hcrn-065": {
+            "description": "La HCRN-065 es una rampa para contenedores ligeramente más grande adecuada para manipular contenedores de 20 y 40 pies. Ofrece una plataforma más amplia para una carga y descarga más fáciles e incorpora funciones de seguridad avanzadas."
+        },
+        "hcrn-08": {
+            "description": "La HCRN-08 es una rampa para contenedores de alta resistencia diseñada para acomodar las cargas más pesadas. Cuenta con una construcción reforzada, una plataforma extra ancha y funciones de seguridad avanzadas."
+        },
+        "hcry-08": {
+            "description": "La HCRY-08 es una rampa para contenedores especializada diseñada para usarse en espacios confinados. Cuenta con un diseño compacto y una fácil maniobrabilidad, lo que la hace ideal para áreas de carga más pequeñas."
+        },
+        "secu-dock": {
+            "description": "La Secudock es una rampa para contenedores premium conocida por sus excepcionales características de seguridad. Incorpora tecnología avanzada para prevenir accidentes y garantizar un proceso de carga y descarga seguro."
+        },
         "main": {
             "head": {
                 "title": "Explore nuestra gama de tipos de rampas de carga | AZ Machinery - Calidad francesa",
@@ -479,7 +491,7 @@
                 "your_phone": "Escribe tu número",
                 "submit_button": "Enviar",
                 "category_list": "Tipos de rampas de carga",
-            "policy": "Acepte nuestra política de privacidad."
+                "policy": "Acepte nuestra política de privacidad."
             }
         },
         "weight_capacity": "Capacidad estática { tonnes } T",
@@ -542,5 +554,5 @@
         "gab": "Totalmente galvanizado",
         "gao": "Totalmente galvanizado",
         "tb": "Túnel cubierto"
-      }
+    }
 }

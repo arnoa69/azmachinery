@@ -68,8 +68,19 @@
         "contact": "Kontakt",
         "products": "Produkter",
         "menu": {
-            "productList": "Produkter",
-            "types": "Typer"
+            "type-mobile": "Mobile læssebroer",
+            "type-container": "Container læssebroer",
+            "star": "STAR",
+            "easy-xl": "Easy XL",
+            "wlo": "WLO",
+            "prime-xs": "Prime XS",
+            "star-otc": "STAR OTC",
+            "big-foot": "Big Foot",
+            "hcrn-06": "HCRN-06",
+            "hcrn-065": "HCRN-065",
+            "hcrn-08": "HCRN-08",
+            "hcry-08": "HCRY-08",
+            "secu-dock": "Secu-Dock"
         },
         "getQuote": "Få et tilbud"
     },
@@ -193,7 +204,7 @@
             "title": "Kontakt os",
             "subTitle": "Vi vender tilbage til dig så hurtigt som muligt.",
             "preferedContact": "Foretrukket kontaktmetode?"
-         },
+        },
         "title": "Regional kontakt",
         "subTitle": "Personlig rådgivning og støtte",
         "label": {
@@ -232,13 +243,14 @@
             "success-send": "Din besked er sendt. Mange tak!",
             "get-a-quote": {
                 "title": "Få et tilbud",
-                "subTitle": "Vi vender tilbage til dig så hurtigt som muligt.",
+                "subTitle": "For at kunne give dig et præcist og konkurrencedygtigt tilbud, bedes du udfylde meddelelsen med de nødvendige dimensioner og enheder. Dette gør os i stand til at tilpasse vores forslag til dine specifikke behov og sikre nøjagtighed i vores prissætning. Tak for din samarbejde.",
                 "details-title": "Dine personlige oplysninger",
                 "placeholder": {
                     "deliveryCity": "Leveringsby",
                     "total-weight": "Samlet vægt (kg)",
                     "total-dimensions": "Samlede dimensioner (cm)",
                     "name": "Dit navn",
+                    "company": "Virksomhedsnavn",
                     "email": "Indtast din e-mail",
                     "phone": "Indtast dit telefonnummer",
                     "message": "Besked"
@@ -256,58 +268,58 @@
         "christell48Text": "Udvidet kvalitet-prisforholdelse. Vi har valgt Prime WLO8+ med rampe i Fuld galvaniseret-version. Meget praktisk, god kvalitet. AZ MACHINERY har gendannet vores gamle Expresso-modul. Material blev leveret på 4 dage efter vores bestilling fra producenten. Reelt godt, tak!",
         "mauroMartinText": "Jeg har købt en ny dæk fra AZ MACHINERY, vi valgte modellen AZ RAMP EASY XL 10 T. En meget god indlæsningsdæk. Leveret i vores lager i Argentina i 30 dage, god kontakt med den meget venlige sælger. Dette dæk opfylder alle aktuelle krav til kvalitet og fremstilling. Vi er meget glade med vores køb."
     },
-"faq": {
-    "title": "Mobile Læsseramper: Den komplette guide",
-    "subTitle": "Alt, hvad du skal vide om mobile læsseramper",
-    "q": {
-        "1": "Hvorfor skal du vælge os?",
-        "2": "Hvilke typer mobile læsseramper tilbyder vi?",
-        "3": "Hvordan vælger jeg den rigtige rampe til mine behov?",
-        "4": "Kan I tilpasse jeres ramper?",
-        "5": "Tilbyder I leje?",
-        "6": "Hvor lang tid tager leveringen?",
-        "7": "Hvordan kan jeg kontakte teknisk support?"
-    },
-    "a": {
-        "1": {
-            "1": "Vi er din eneste stop for alle dine mobile læsserampebehov. Her er årsagerne til, hvorfor vi er det bedste valg:",
-            "2": {
-                "bold": "Omfattende udvalg:",
-                "c": "Vi har over 500 ramper på lager, klar til omgående levering til hele Europa."
-            },
-            "3": {
-                "bold": "Hurtig levering:",
-                "c": "Oplev lynhurtig levering. Din bestilling bliver afsendt inden for 3 dage, så du får dine ramper, når du har brug for dem."
-            },
-            "4": {
-                "bold": "Premiumkvalitet:",
-                "c": "Vores ramper er fremstillet af de bedste materialer, hvilket garanterer holdbarhed og sikkerhed."
-            },
-            "5": {
-                "bold": "Tilpassede løsninger:",
-                "c": "Vi specialiserer os i at fremstille tilpassede ramper, der opfylder dine specifikke krav."
-            },
-            "6": {
-                "bold": "Innovative funktioner:",
-                "c": "Vores ramper har banebrydende sikkerhedsfunktioner, der gør dem til de mest pålidelige på markedet."
-            },
-            "7": {
-                "bold": "Lejemuligheder:",
-                "c": "Har du brug for en rampe til et kortvarigt projekt? Vi tilbyder fleksible lejemuligheder, der opfylder dine behov."
-            },
-            "8": {
-                "bold": "Ekspertsupport:",
-                "c": "Vores team af erfarne eksperter er altid til rådighed for at tilbyde dig ekspertvejledning og støtte."
-            }
+    "faq": {
+        "title": "Mobile Læsseramper: Den komplette guide",
+        "subTitle": "Alt, hvad du skal vide om mobile læsseramper",
+        "q": {
+            "1": "Hvorfor skal du vælge os?",
+            "2": "Hvilke typer mobile læsseramper tilbyder vi?",
+            "3": "Hvordan vælger jeg den rigtige rampe til mine behov?",
+            "4": "Kan I tilpasse jeres ramper?",
+            "5": "Tilbyder I leje?",
+            "6": "Hvor lang tid tager leveringen?",
+            "7": "Hvordan kan jeg kontakte teknisk support?"
         },
-        "2": "Vi tilbyder en række forskellige ramper, herunder standardramper, dokramper og specialramper til specifikke formål.",
-        "3": "Vores team af eksperter kan hjælpe dig med at vælge den perfekte rampe på baggrund af din lastvægt, mål og formål.",
-        "4": "Ja, vi kan tilpasse ramper til dine specifikke behov, såsom længde, bredde og lastkapacitet.",
-        "5": "Ja, vi tilbyder fleksible lejemuligheder til dem, der har brug for en rampe til et kortvarigt projekt.",
-        "6": "Vi leverer dine bestillinger som regel inden for 3 dage til hele Europa.",
-        "7": "Du kan kontakte vores tekniske supportteam via telefon, e-mail eller live chat. Vores kontaktoplysninger finder du på vores hjemmeside."
-    }
-},
+        "a": {
+            "1": {
+                "1": "Vi er din eneste stop for alle dine mobile læsserampebehov. Her er årsagerne til, hvorfor vi er det bedste valg:",
+                "2": {
+                    "bold": "Omfattende udvalg:",
+                    "c": "Vi har over 500 ramper på lager, klar til omgående levering til hele Europa."
+                },
+                "3": {
+                    "bold": "Hurtig levering:",
+                    "c": "Oplev lynhurtig levering. Din bestilling bliver afsendt inden for 3 dage, så du får dine ramper, når du har brug for dem."
+                },
+                "4": {
+                    "bold": "Premiumkvalitet:",
+                    "c": "Vores ramper er fremstillet af de bedste materialer, hvilket garanterer holdbarhed og sikkerhed."
+                },
+                "5": {
+                    "bold": "Tilpassede løsninger:",
+                    "c": "Vi specialiserer os i at fremstille tilpassede ramper, der opfylder dine specifikke krav."
+                },
+                "6": {
+                    "bold": "Innovative funktioner:",
+                    "c": "Vores ramper har banebrydende sikkerhedsfunktioner, der gør dem til de mest pålidelige på markedet."
+                },
+                "7": {
+                    "bold": "Lejemuligheder:",
+                    "c": "Har du brug for en rampe til et kortvarigt projekt? Vi tilbyder fleksible lejemuligheder, der opfylder dine behov."
+                },
+                "8": {
+                    "bold": "Ekspertsupport:",
+                    "c": "Vores team af erfarne eksperter er altid til rådighed for at tilbyde dig ekspertvejledning og støtte."
+                }
+            },
+            "2": "Vi tilbyder en række forskellige ramper, herunder standardramper, dokramper og specialramper til specifikke formål.",
+            "3": "Vores team af eksperter kan hjælpe dig med at vælge den perfekte rampe på baggrund af din lastvægt, mål og formål.",
+            "4": "Ja, vi kan tilpasse ramper til dine specifikke behov, såsom længde, bredde og lastkapacitet.",
+            "5": "Ja, vi tilbyder fleksible lejemuligheder til dem, der har brug for en rampe til et kortvarigt projekt.",
+            "6": "Vi leverer dine bestillinger som regel inden for 3 dage til hele Europa.",
+            "7": "Du kan kontakte vores tekniske supportteam via telefon, e-mail eller live chat. Vores kontaktoplysninger finder du på vores hjemmeside."
+        }
+    },
     "footer": {
         "copyright": "Ophavsret © 2024 AZ Machinery. Alle rettigheder forbeholdes.",
         "headquarter": {
@@ -396,7 +408,7 @@
         "buttonUnderstandPolicy": "Accepter og forstå politik"
     },
     "categories": {
-"star": {
+        "star": {
             "description": "Star rampen er en alsidig mulighed med forskellige lastekapaciteter (8t, 10t, 12t, 15t, 20t) og konfigurationer (standard, lang niveau, ekstra stor, LLO-XL). Den er velegnet til en bred vifte af køretøjer og anvendelser, hvilket giver fleksibilitet og tilpasning."
         },
         "easy-xl": {
@@ -443,7 +455,7 @@
             "station_ramp_label": "Stationære ladebænke",
             "station_ramp_description": "Optimer dit effektivitet med vores stationære ladeplads."
         },
-         "category_product_lists": "{ country } - Læseramper på lager: Udforsk { type }"
+        "category_product_lists": "{ country } - Læseramper på lager: Udforsk { type }"
     },
     "products": {
         "back_button": "TILBAGE",
@@ -545,5 +557,5 @@
         "gab": "Fuldt galvaniseret",
         "gao": "Fuldt galvaniseret",
         "tb": "Overdækket tunnel"
-      }
+    }
 }
