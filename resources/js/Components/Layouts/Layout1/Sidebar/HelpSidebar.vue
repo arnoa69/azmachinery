@@ -117,6 +117,7 @@ const submitForm = () => {
 .card-title h2 {
   font-size: 24px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textschatten hinzufügen */
+  color: #FFF;
   margin-left: 5px;
   font-weight: bold;
 }
