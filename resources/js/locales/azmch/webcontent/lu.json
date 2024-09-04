@@ -559,5 +559,256 @@
         "gab": "Voll galvaniséiert",
         "gao": "Voll galvaniséiert",
         "tb": "Iwwerdaachte Tunnel"
+    },
+    "imprint": {
+        "title": "Informatiounen",
+        "azm-france": "AZ Machinery Frankräich",
+        "address": "13 Rue de la scierie - 66340 Palau de Cerdagne, Frankräich",
+        "phone": {
+            "france": "Tel.: (+33) 03 52 74 03 69",
+            "headquarter": "Tel.: +376 390 036"
+        },
+        "siret": {
+            "1": "Siret: 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - Steiernummer: FR39"
+        },
+        "tva": "Steiernummer: FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Kapital 3 000.000 €",
+        "headquarter": "Haaptbüro: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - Registernummer: 16585",
+        "fiscal": "Steierverantwortlecher vu AZ MACHINERY a Frankräich:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Frankräich",
+        "ceo": "Responsabele Direkter: Jérôme GUIGUET",
+        "property": "Dës Websäit respektéiert d'Auteursrecht. All Rechter vun den Auteuren vu geschützte Wierker, déi op dëser Websäit reproduzéiert a kommunikéiert ginn, sinn reservéiert. Ausser autoriséiert ass de Gebrauch vu geschützte Wierker anescht wéi fir d'Reproduktioun an d'individuell an privat Konsultatioun verbueden. D'Websäit az-machinery gëtt vun Ionos erausginn an vun der Firma Ionos gehéiert."
+    },
+    "privacy": {
+        "title": {
+            "1": "Privatsphären-Politik",
+            "2": "Informatiounen, déi mir sammelen",
+            "3": "Cookies",
+            "4": "Benotzung vun Daten",
+            "5": "Déi Rechter",
+            "6": "Kontaktéiert eis"
+        },
+        "subtitle": {
+            "1": "Déi Privatsphär ass fir eis wichteg"
+        },
+        "content": {
+            "1": "Bei AZ Machinery sinn mir dozougesin, déi Privatsphär ze schützen. Dës Privatsphären-Politik erkläreng, wéi mir Informatiounen sammelen, benotzen a schützen, wann Dir eis Servicer benotzt.",
+            "2": "Als Produzent a Verkéifer vu Lastrampe sammelen mir nëmme déi néideg perséinlech Informatiounen fir eis Geschäftsaktivitéiten. Déi eenzeg Informatiounen, déi mir sammelen, sinn iwwer Google Analytics a PostHog. Déi Informatiounen hëllefen eis, fir ze verstoen, wéi eis Web-Säit benotzt gëtt a fir eis Servicer ze verbesseren.",
+            "3": "Mir benotzen Cookies, fir déi Erfahrung op eiser Web-Säit ze verbesseren. Eiser GDPR-konformt Cookie-Banner gëtt Dir Informatiounen iwwer déi Cookies, déi mir benotzen, a erméiglecht Dir, déi Rechter op därcher ze stéllen.",
+            "4": "Déi Informatiounen, déi mir sammelen, ginn nëmme zu Analys-Zwecker benotzt a fir eis Produiten a Servicer ze verbesseren. Mir verkeefer nëmme déi perséinlech Informatiounen un Drëttleistender ouni därch Rech.",
+            "5": "Nom Reglement General fir déi Schutz vun déi perséinlechen Informatiounen (GDPR) huert Dir déi Recht, fir z'op eis perséinlech Informatiounen z'opzegellen, fir se ze korrigéieren oder fir se ze léschen. Wann Dir Froen oder Bedenken iwwer därch Informatiounen huert, kéier Dir eis.",
+            "6": "Wann Dir Froen iwwer dës Privatsphären-Politik oder eis Praktiken fir den Schutz vun déi perséinlechen Informatiounen huert, kéier Dir eis:"
+        },
+        "email": "E-Mail: contact[at]azmachinery.com",
+        "phone": "Telefon: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Konditiounen",
+        "subtitle": "Aféierung",
+        "content": "Dës Konditioune regéieren d'Relatioun tëscht Iech an AZ Machinery. Andeems Dir Zougang zu eise Servicer hutt oder se benotzt, sidd Dir averstanen, Iech un dës Konditiounen ze halen.",
+        "article": {
+            "1": {
+                "title": "Artikel 1 – D'Geltungsberäich",
+                "list": {
+                    "1": "Reguléierend Ofkommes: Dës Allgemeng Bedéngungen zesumme mat all spezifesch Bestellkonditiounen regéieren d'Relatioun tëscht AZ MACHINERY-SL ('Verkeefer') an dem Keefer. Am Fall vu Konflikt ginn déi spezifesch Bestellkonditiounen virgezunn.",
+                    "2": "Keng Stëllschweigend Verzichterklärung: All Ännerungen un dëse Konditioune musse explizit sinn, an d'Verkeefer seng Feel fir eng Bedéngung zu all Moment duerchzesetzen stellt keng Verzichterklärung vun där Bedéngung an der Zukunft duer.",
+                    "3": "Akzeptanz an Disponibilitéit: De Keefer erkennt un an akzeptéiert dës Allgemeng Bedéngungen, déi op der Websäit vum Verkeefer (www.az-machinery.ch) an op de Säiten 2 an 3 vu Offeren a Proforma Rechnungen verfügbar sinn. De Verkeefer behält sech d'Recht vir dës Konditioune z'änneren; d'Akzeptanz vum Keefer gëtt ugeholl nodeems 15 Kalennerdeeg Notifikatioun vergaange sinn, wann keng Beanstandung gemaach gëtt.",
+                    "4": "Bestellbestätegung: De Versand vum Verkeefer bedeit d'Akzeptanz vun der Bestellung, ausser et gëtt anescht schrëftlech verienbart.",
+                    "5": "Geltungsberäich: Dës Konditioune gëllen fir Verkaf bannent Andorra, Frankräich an international."
+                }
+            },
+            "2": {
+                "title": "Artikel 2 – Offeren a Bestellungen",
+                "list": {
+                    "1": "Offeren & Verbindlecht Ofkommes: Offere sinn 30 Deeg gëlteg, sinn net deellbar a sinn nëmmen Propose. Nëmmen eng Proforma Rechnung, déi vum Verkeefer ausgestallt gëtt, schaaft en verbindlecht Ofkommes.",
+                    "2": "Keeferinformatioun: De Verkeefer hëlt un datt d'Informatioun, Zeechnungen a Dokumenter, déi vum Keefer geliwwert ginn, korrekt sinn. Wann de Keefer Deeler Zuelen ubitt, hëlt de Verkeefer un datt se korrekt sinn.",
+                    "3": "Produktiounspezifikatioune: Illustratiounen, Dimensiounen, Kapazitéiten, Gewiichter, Präisser, an Beschreiwunge sinn nëmmen zur Informatioun a sinn ongeféier.",
+                    "4": "Maschinn Iwwerpréiwung: Spezifikatioune wéi Heefthéicht, Kapazitéit, Dimensiounen, etc. sinn nëmme indikativ. De Keefer ass responsabel fir se ze iwwerpréiwen ier d'Bestellung bestätegt gëtt. All Differenzen sinn dem Keefer seng Verantwortung. Nei Equipement gëtt EXW vun der Fabréck oder engem Logistiksite verkaf mat enger 12-Méint Hiersteller Garantie. Gebraucht Equipement gëtt 'wéi et ass' verkaaft, net funktionell, ouni Garantie, a gëtt als Deeler nëmme betruecht. Professionell Inspektioun a Reparatur si virun der Benotzung erfuerderlech.",
+                    "5": "Ausschlëss: Zousätzlech wéi Gabelen, Side-Shift-Attachments, Positionéierer a Gelänner si net am Verkaf abegraff ausser explizit uginn.",
+                    "6": "Equipement ass disponibel ab dem Offer Datum, ënnerleien dem virdrun Verkaf."
+                }
+            },
+            "3": {
+                "title": "Artikel 3 – Zweck",
+                "list": {
+                    "1": "Liwwerungsspezifikatioun: Déi spezifesch Artikelen, déi vun dësem Ofkommes ofgedeckt ginn (als 'Verkafte Artikelen' bezeechent) sinn an de spezifesch Bestellkonditiounen detailléiert. Dës kënne Accessoiren, Ausrüstung, Instrumenter, Maschinnen, etc. enthalen.",
+                    "2": "Responsabilitéit vum Keefer: De Keefer ass responsabel fir déi passend 'Verkafte Artikelen' ze wielen, déi standard Artikelen sinn, ausser se gi vum Verkeefer op Ufro vum Keefer personaliséiert. De Verkeefer ass net haftbar wann d'Verkafte Artikelen net déi spezifesch Bedierfnesser vum Keefer entspriechen.",
+                    "3": "Präisser: De Präis vun de 'Verkafte Artikelen' ass an de spezifesch Bestellkonditiounen ('Akaafspräis') festgeluecht. Den Akaafspräis ass an Euro, exklusive TVA, Steieren, Import/Exportfraise an Liwwer-/Ophuelkäschten. Installatiouns- an Inbetriebnahmekäschte sinn och ausgeschloss an si dem Keefer seng Verantwortung.",
+                    "4": "Bezuelungsbedéngungen: Keng Remisen ginn fir fréi Bezuelung ugebueden. Zougëllen Steieren sinn déi, déi um Rechnungsdatum gëllen. Präisser a Konditioune kënne baséiert op der Lag vum Keefer variéieren. Kuckt Artikel 12 (Rechnungsstellung) fir Detailer."
+                }
+            },
+            "4": {
+                "title": "Artikel 4 – Präisser",
+                "list": {
+                    "1": "Akaafspräis: De Präis vun de verkaafte Artikelen ('Akaafspräis') ass an de spezifesch Bestellkonditiounen spezifizéiert. Den Akaafspräis ass an Euro, exklusive TVA, Steieren, Import/Exportfraise an Liwwer-/Ophuelkäschten. Installatiouns- an Inbetriebnahmekäschte sinn och ausgeschloss an si dem Keefer seng Verantwortung.",
+                    "2": "Keng Fréi Bezuelungsremisen: Keng Remisen ginn fir fréi Bezuelung ugebueden.",
+                    "3": "Zougëllen Steieren: Steieren sinn déi, déi um Rechnungsdatum gëllen.",
+                    "4": "Geographesch Variatiounen: Präisser a Konditioune kënne baséiert op der Lag vum Keefer variéieren. Kuckt Artikel 12 (Rechnungsstellung) fir Detailer."
+                }
+            },
+            "5": {
+                "title": "Artikel 5 – Bezuelungsbedingungen",
+                "list": {
+                    "1": "Bezuelung beim Kaf: Ausser et gëtt anescht schrëftlech spezifizéiert, ass d'Bezuelung vum Akaafspräis an all assoziéierter Käschten virun der Liwwerung vollstänneg iwwer Bankiwwerweisung op de Kont, deen vum Verkeefer zur Verfügung gestallt gëtt, ënner Referenz op d'Rechnung (Dossier Referenz an Proforma Rechnungsnummer). De Verkeefer kann eng 50% Depot bei der Bestellung verlaangen fir d'Ausrüstung ze reservéieren oder d'Fabrikatioun unzefänken.",
+                    "2": "Bezuelungsbestätegung: D'Bezuelung gëtt nëmmen als ofgeschloss ugesinn wann de Verkeefer d'Fongen empfaangen huet. D'Liwwerung geschitt nëmmen no der voller Bezuelung vun der entspriechender Proforma Rechnung.",
+                    "3": "Scheckbezuelungen: Wann de Verkeefer averstan ass, en Scheck unzehuelen, gëtt d'Bezuelung nëmmen als ofgeschloss ugesinn wann d'Fongen no der gesetzlecher Scheck Clearing Period onbedéngt empfaange ginn.",
+                    "4": "Verspéit Bezuelungen: Verspéit Bezuelungen zéien automatesch Zënsen zum Banque de France Avance Taux plus 2%, plus all gesetzlech Käschten.",
+                    "5": "Verfall: Am Fall vun net Bezuelung, Insolvenz, Faillite, Opléisung, Liquidatioun, Protest, Geriichtsvirladung wéinst Bezuelungsréckstand, Insolvenzverfahren oder Verméigensverlaf ginn all ausstoend Montanten (och déi, déi u verbonne Firmen geschëld ginn) direkt ouni Avis fälleg. De Verkeefer kann d'Ofkommes direkt ouni Avis an ouni Haftung fir Schuedenersaz ophiewen, während e sech d'Recht virbehält Schuedenersaz ze froen.",
+                    "6": "Drëtt Partei Rechnungen: Wann de Keefer d'Rechnungsstellung un eng drëtt Partei freet, bleiwen si gemeinsam a solidaresch fir all Verflichtungen haftbar. D'geographesch Lag vun der drëtter Partei bestëmmt all applicabel Käschten.",
+                    "7": "Locatiounsbezuelungen: Locatiounsbezuelungen ginn duerch direkt Debitt um Fälligdagsdatum gemaach. Déi éischt Bezuelung gëtt beim Ënnerschreiwe vum Locatiounsvertrag gesammelt.",
+                    "8": "Locatiounsdokumenter: Locatiounsverträg erfuerderen eng Bankkontonummer, ID, Kautioun (Scheck oder Iwwerweisung), ënnerschriwwen an gestempelt Autorisatioun fir direkt Debitt, an all aner Dokumenter, déi vum Vermieter gefrot ginn, ier d'Ausrüstung erausgëtt.",
+                    "9": "Zréckginn Bezuelungen: Zréckginn direkt Debits ginn 5 Deeg méi spéit nei ofgeliwwert. Eng Käschte vu 15 € gëtt fir all zréckginn Bezuelung verrechent.",
+                    "10": "Zweet Zréckginn Bezuelung: Eng zweet zréckginn Bezuelung féiert zu enger Fuerderung fir voll Bezuelung vun ausstoende Rechnungen an Ausrüstungszréckginn bannent 3 Deeg. Réckverschéckungskäschten an eng 70% Strof op reschtlech Locatiounsbezuelungen fir fréi Vertragsbeendegung ginn verrechent.",
+                    "11": "Custom Bestellungen: Fir speziell Bestellungen ass eng 50% Depot bei der Bestellung fälleg, mam Rescht 50% fälleg bei der Fäerdegstellung vun der Fabrikatioun. De Client huet 5 Deeg fir de Rescht ze bezuelen nodeems hie benoriicht gouf. D'Ausrüstung gëtt eréischt erausginn oder geliwwert nodeems d'voll Bezuelung kritt gouf. Verspéidungen bei der Bezuelung resultéieren an entspriechende Verspéidungen bei der Ausrüstungsausgab.",
+                    "12": "Späicheren vun onsold Ausrüstung: Eng 10-Deeg gratis Späicherperiod gëtt no der Notifikatioun vun der Fabrikatioun fäerdegstellung zouginn. De Client muss de Rescht bezuelen an d'Opnam oder Liwwerung bannent dëser Zäit arrangéieren. No 10 Deeg gëtt d'Ausrüstung an engem Logistikdepot oder mat engem Drëttanbieter gelagert, an Späicherkäschten applizéieren.",
+                    "13": "Späicherkäschten: Späicherkäschten variéieren no der Ausrüstungstyp, Gréisst a Komplexitéit, kategoriséiert an 7 Gruppen mat spezifesche deegleche Tariffer."
+                }
+            },
+            "6": {
+                "title": "Artikel 6 – Transfert vu Besëtz & Risiko",
+                "list": {
+                    "1": "Risiko Transfert: De Risiko vu Verloscht oder Schued un de verkafte Artikelen iwwerdréit op de Keefer bei der Liwwerung.",
+                    "2": "Besëtz Transfert: Besëtz vun de verkafte Artikelen gëtt nëmmen iwwerdréit bei voller Bezuelung vum Akaafspräis an all assoziéierter Käschten. Bis dohin ass den Besëtz Transfert suspendéiert.",
+                    "3": "Versécherung vum Keefer: Bis zur voller Besëtztransfert ass de Keefer verflicht d'verkafte Artikelen géint all Risiken ze versécheren déi se kënne verursaachen oder erstallt ginn, op d'mannst bis zum Wäert vum Akaafspräis an assoziéierter Käschten.",
+                    "4": "Intellectual Property: De Keefer erkennt un datt de Verkeefer den exklusiven Besëtz vun all intellektuellen Eegentumsrechter am Zesummenhang mat de verkafte Artikelen behält, inklusiv dem Markennumm an dem Logo, a stëmmt zou datt hien keng Fuerderunge géint dës Rechter mécht."
+                }
+            },
+            "7": {
+                "title": "Artikel 7 – Liwwerung",
+                "list": {
+                    "1": "Liwwerbedéngungen: D'Liwwerung ass EX-WORKS vun der AZ MACHINERY-SL Fabrik (Incoterms 2020) oder aus de Lageren vun hire Partneren, ausser et gëtt anescht schrëftlech vereinbart. Wann d'Liwwerung op d'Plaz vum Keefer vereinbart ass, kann dat och an der Absence vum Keefer geschéien. Den Liwwerschäin déngt als Beweis vun der Liwwerung. Douanekäschte si ausgeschloss a ginn separat mat 20% vum Gesamtmaterialwäert nom Liwwerung verrechent.",
+                    "2": "Liwwerzäiten: D'Liwwerzäiten sinn Schätzungen. De Keefer kann keng Schuedenersaz verlaangen oder d'Liwwerung refuséieren wéinst verspéiter Liwwerung oder der Onméiglechkeet vum Verkeefer, d'Ofkommes ze erfëllen.",
+                    "3": "Ufank vun der Liwwerzäit: All vereinbart Liwwerzäitfënster fänkt eréischt un nodeems de Verkeefer all néideg Informatiounen a Dokumenter fir d'Liwwerung huet.",
+                    "4": "Schuedenersaz bei verspéiter Liwwerung: Wann Schuedenersaz fir verspéit Liwwerung schrëftlech vereinbart ginn, muss de Keefer de Verkeefer formell iwwer d'Verspéidung notifizéieren an de Schued beweisen. De Verkeefer ass net haftbar fir Verspéidungen wéinst Force Majeure oder vum Keefer verursaachte Verspéidungen. Am leschte Fall muss de Keefer dem Verkeefer fir Schuedenersaz a Käschten erstatten. Force Majeure beinhalt (awer ass net limitéiert op) Regierungsufroen, Mobiliséierung, Krich, Pandemien, Epidemien, Streiken, Defekter, Bränn, Iwwerschwemmungen, Explosiounen, Material- oder Aarbechtsknappheeten, wirtschaftlech Ännerungen, Schëffverspéidungen, reliéis Feierdeeg, Vandalismus, an aner Ëmstänn, déi net ënner Kontroll vum Verkeefer sinn. Schuedenersaz fir verspéit Liwwerung ass op 0.5% vum Akaafspräis pro voller Woch nom 21. Geschäftsdag vum Liwwerdatum limitéiert, bis zu engem Maximum vun 5% vum totalen Akaafspräis.",
+                    "5": "Keng Kündigung wéinst verspéiter Liwwerung: De Keefer kann den Accord net wéinst verspéiter Liwwerung vum Verkeefer kündigen.",
+                    "6": "Partiell Liwwerung & Refus: Wann eng partiell Liwwerung gemaach gouf an de Keefer weider Liwwerungen refuséiert oder verhënnert, ass de Betrag fir de geliwwerte Deel direkt fälleg, an de Keefer ass fir Schuedenersaz haftbar, mat engem Minimum vun 70% vum Akaafspräis vum net geliwwerten Deel.",
+                    "7": "Verpakung & Versand: De Keefer ass fir d'Verpakungs- a Versandkäschten verantwortlech an arrangéiert d'Opnam an der Fabrik an der Tierkei, China oder Europa. Wann keng Instruktioune ginn, schéckt de Verkeefer d'Wuer nom Empfang vun de Fongen am beschten Interesse vum Keefer. Versécherung gëtt nëmmen op ausdréckleche Wonsch vum Keefer a op seng Käschte geliwwert.",
+                    "8": "Liwwerinspektioun: De Keefer muss d'Wuer bei der Liwwerung iwwerpréiwen. Wann keng Reservatiounen um Liwwerschäin notéiert sinn, gëtt d'Liwwerung als konform ugesinn.",
+                    "9": "Liwwerungsreservatiounen: All Reservatioune, déi vum Keefer bei der Liwwerung gemaach ginn, betreffen den Transporteur, d'Schëfferfirma an den Droeger.",
+                    "10": "Virausbezuelung fir Liwwerung: Keng Liwwerung gëtt gemaach virun der voller Bezuelung vun der entspriechender Proforma Rechnung, ausser et gëtt anescht schrëftlech spezifizéiert.",
+                    "11": "Dokumentatioun: Fir Materialverkaaf gëtt nëmmen d'Rechnung geliwwert. Fir nei Ausrüstung gëtt e CE Zertifikat an e Benotzerhandbuch (op Englesch) geliwwert. D'Iwwersetzung ass Verantwortung vum Keefer. Fir gebrauchte Ausrüstung ginn keng Konformitéitszertifikater, periodesch Inspektiounen, Ënnerhaltsprotokoller oder Handbicher geliwwert.",
+                    "12": "Entluede vu Materialien: Wann AZ MACHINERY SL den Transport iwwerhëlt, ass d'Liwwerung duerch 33-Tonne Tautliner oder Containercamionen. D'Entluedung ass Verantwortung vum Keefer bei der Arrivée op senger Plaz. De Keefer muss d'néideg mënschlech an technesch Ressourcen hunn, fir d'Wuer ofzelueden. Wann d'Entluedung onméiglech ass, behält AZ MACHINERY SL sech d'Recht vir, d'Wuer ze späicheren an de Keefer fir Transport, Chauffeurwartzäit, Chassis Immobiliséierung (250 €/Stonn) an eng 500 € Strof fir d'Versäumnis vun der Entluedung ze verrechnen."
+                }
+            },
+            "8": {
+                "title": "Artikel 8 – Recht op Retention",
+                "list": "Am Fall vun net Bezuelung huet de Verkeefer d'Recht, all Artikele a Dokumenter, déi vum Keefer zur Verfügung gestallt goufen, z'erhalen bis zur voller Bezuelung vum Haaptbetrag, Zënsen, Handhabungskäschten, Transport- a Lagerkäschten, Fracht- a Douanekäschten an aner assoziéiert Käschten."
+            },
+            "9": {
+                "title": "Artikel 9 – Zoustand vun de verkafte Saachen & Garantie",
+                "list": {
+                    "1": "'Wéi et ass' Zoustand: Nei a gebrauchte Saache gi 'wéi et ass' verkaaft a gi vum Keefer bei der Liwwerung akzeptéiert.",
+                    "2": "Garantieausschloss: De Verkeefer ass net haftbar wann: a) De Keefer d'Element reparéiert oder geännert huet. b) Defekter duerch Mëssbrauch, Mësshandlung oder Notzung ausserhalb vum virgesinne Zweck entstinn (z.B. iwwerlaascht, falsch Bedreiwung, onzougänglech Installatioun/Ënnerhalt).",
+                    "3": "Keen Retour/Ëmtausch: Artikele sinn net zréckginn oder austauschbar ouni schrëftlech Zoustëmmung vum Verkeefer.",
+                    "4": "Garantie fir nei Ausrüstung: Nei Ausrüstung kënnt mat enger 12-Méint Hiersteller Garantie an engem CE Zertifikat. Entluedung, Installatioun, Inbetriebnahm, an all noutwendeg Konformitéitsinspektiounen sinn d'Verantwortung vum Keefer.",
+                    "5": "Garantie fir gebraucht Ausrüstung: Gebrauchte Ausrüstung gëtt 'wéi et ass' verkaaft ouni Garantie, ausser et ass anescht spezifizéiert. Wann eng Garantie fir gebraucht Ausrüstung ugebuede gëtt, deckt se den Motor, d'Transmissioun an d'Achsen fir 6 Méint. All aner Deeler gi 'wéi et ass' verkaaft ouni Garantie. Sécherheetskontrollen duerch eng zertifizéiert Agence an all noutwendeg Reparaturen sinn d'Verantwortung vum Keefer virum Gebrauch.",
+                    "6": "Garantiedeckung: D'Garantie deckt nëmmen de Motor, d'Transmissioun an d'Achsen. Batterien, Rieder, Gelänner, hydraulesch Eenheeten, Schläich, Accessoiren, Sensoren a Ladegeräter sinn ausgeschloss. D'Garantie ass net iwwerdrobar a gëtt ongëlteg wann onautoriséiert Reparature gemaach ginn. Reparaturen ënner Garantie gi generell an der Wierkstatt vum Fournisseur gemaach. De Keefer ass verantwortlech fir den Transport vun der Ausrüstung oder de defekte Deeler. Wann en Techniker muss reesen, gi seng Rees- an Ënnerkunftskäschte dem Keefer verrechent. D'Garantie deckt net normalen Verschleiß, Schied wéinst Mangel u Ënnerhalt, Mëssbrauch oder Vandalismus.",
+                    "7": "Garantie Ënnerhalt: De Keefer muss all preventive Ënnerhalt ausféieren, deen vum Verkeefer oder senge Serviceprovider recommandéiert gëtt, fir d'Garantie ze erhalen.",
+                    "8": "Garantiebedéngungen: D'Garantie gëllt an Andorra, am franséische Festland an international mat Andorraner Ersatzdeelerpräisser. Si deckt mechanesch Deeler (wéi am Hierstellerkatalog spezifizéiert) fir de Motor, d'Transmissioun an d'Achsen. Demontage an Neimontage fir Problemléisung sinn net abegraff. D'Garantie schléit Mängel aus, déi wéinst bewossten Handlungen, Accidenter, Strofgelder, Batterien, Accessoiren an elektronesche Komponente sinn. Si schléit och Schied aus, wou keng Schrëtt geholl goufen fir d'Verschlechterung ze verhënneren, Reparaturen duerch onqualifizéiert Personal an d'Benotzung ausserhalb vun de spezifizéierten Bedreiwungsparameteren. D'Garantie gëtt ongëlteg wann de Gefier ouni d'Autorisatioun vum Verkeefer geännert gëtt.",
+                    "9": "Garantie Dauer: Nei Ausrüstung huet eng 12-Méint Hiersteller Garantie (36 Méint fir Spuenien) déi nëmmen d'Deeler deckt. Gebrauchte Ausrüstung huet eng 6-Méint Garantie limitéiert op 50 Stonnen Notzung. D'Garantie endet no 6 Méint oder wann d'Zäitlimite erreecht gëtt (wat och ëmmer als éischt geschitt).",
+                    "10": "Garantie Uspréch: Am Fall vun enger Stéierung muss de Keefer de Verkeefer schrëftlech an telefonesch bannent 3 Geschäftsdagen notifizéieren. E Versoen dëst ze maachen mécht all Garantieufuerderung ongëlteg. De Keefer muss Schrëtt huelen fir weider Schied ze verhënneren, relevant Informatioune liwweren an de Verkeefer erlaben d'Fro ze iwwerpréiwen. Reparaturen musse vum Verkeefer guttgeheescht ginn ier se ausgefouert ginn. Aarbechtskäschte si net ofgedeckt. De Verkeefer kann e Policebericht ufroen, wann néideg. Reparaturen kënnen mat gebrauchten Deeler ('Austauschstandard') gemaach ginn. De Verkeefer behält sech d'Recht fir Deeler ze liwweren. Wann d'Reparaturkäschten d'Garantieabdeckung iwwerschreiden, ass de Keefer verantwortlech fir den Ënnerscheed. Reparaturen mussen innerhalb vun engem Mount no der gemellten Feelfunktioun ofgeschloss sinn. Déi maximal Reparaturrëmbezuelung ass op Basis vum Wäert vun der neier Ausrüstung ofgekappt. Spezifesch Detailer vun de Partien, déi vun der Garantie gedeckt ginn, gi fir de Motor, d'Transmissioun an d'Achsen geliwwert."
+                }
+            },
+            "10": {
+                "title": "Artikel 10 – Locatiounsbedéngungen",
+                "list": {
+                    "1": "Ënnerhalt: All Locatiounen gi als Ënnerhalts-ausgeschloss ugesinn, ausser anescht schrëftlech festgehalen. Wann de Full-Service Ënnerhalt abegraff ass, ass de Locataire verantwortlech fir den Ersatz vu Pneuën, Gabelen, Sëtzer, Verschleißschued, Versécherung an obligatoresch periodesch Inspektiounen.",
+                    "2": "Finanzéierung: De Locataire ass verantwortlech fir d'Arrangéieren vun all Bankfinanzéierung fir déi gelount Ausrüstung.",
+                    "3": "Besëtz: D'Ausrüstung bleift vum Moment vun der Liwwerung bis zur Retour d'Besëtz vum Verléiner.",
+                    "4": "Retour Zoustand: De Locataire muss d'Ausrüstung a guddem funktionellen Zoustand zréckginn a ass verantwortlech fir all néideg Reparaturen, fir se erëm hierzestellen, inklusiv Schläich, Pneuen, Koppelen, Gelänner, hydraulesch Eenheeten, Faarwen an aner beschiedegt Deeler.",
+                    "5": "Fréi Kündegung: Eng fréi Kündegung vun engem Locatiounsvertrag bréngt eng Strof vun 70% vun de verbleiwende Locatiounsbezuelungen plus d'Käschte fir den Transport zréck.",
+                    "6": "Versécherung: De Locataire muss d'Ausrüstung géint Déifstall, Vandalismus, Feier, Schued, zivil Haftung a Verkéiershaftung versécheren.",
+                    "7": "Jores Iwwerpréiwung: Eng jores Iwwerpréiwung gëtt duerchgefouert fir d'Eegnung vum Kontrakt baséiert op der tatsächlecher Notzung vun der Ausrüstung ze bewäerten. Wann d'Notzung d'100 Stonnen jäerlech iwwerschreit, passt de Kontrakt automatesch un, fir d'tatsächlech Notzung, inklusiv Ënnerhaltskäschten, ze reflektéieren.",
+                    "8": "Iwwerstonnen: Extra Benotzungsstonnen ginn zum aktuelle Tarif verrechent, jee no der Ausrüstung.",
+                    "9": "AZ MACHINERY-SL Locatiounskontrakter: Eng fréi Kündegung vun engem AZ MACHINERY-SL Locatiounskontrakt bréngt eng 70% Strof vun de verbleiwende Bezuelungen plus d'Käschte fir den Transport zréck.",
+                    "10": "Kurzfristeg Locatiounen: Kurzfristeg Locatiounspräisser baséieren op 8 Stonnen/Daag a 5 Deeg/Woch an enthalen net Transport, Bedreiwung, Brennstoff, Versécherung a Reinigungskäschten. Normal Notzung erfuerdert keng Reinigung. Eng Reinigungskäschte vun 200 € gëtt verrechent wann eng Reinigung néideg ass bei der Retour. Eng Kautioun vun 1.250 € ass erfuerderlech (Bankiwwerweisung oder Direktdebitt). De Locataire muss d'Ausrüstung wärend der ganzer Locatiounszäit versécheren, egal wou an Europa. D'Ofdeckung enthält Maschinnefehler, Déifstall, Beluedungs-/Entluedungsschued, Transportschued, Feier, an Ëmstierz/ Kollisiounen. D'Versécherungskäschte si Verantwortung vum Locataire, an e Beweis vun der Versécherung muss virun der Liwwerung geliwwert ginn. Eng Kautioun vun 2.250 € gëllt fir Schued an 7.500 € fir Déifstall. De Kontrakt ass gëlteg vum Startdatum un, bis de Locataire d'Ausrüstungsaussortement ufreet. All Aussortementsufroen mussen per E-Mail un contact[at]az-machinery.com bis 10:00 Auer den nächsten Aarbechtsdag nom gewënschten Enndatum geschéckt ginn. De Locataire bleift haftbar fir d'Ausrüstung fir 96 Stonnen no der Aussortementsufro. AZ MACHINERY-SL behält sech d'Recht vir, e Modell oder eng Kategorie vun enger anerer Ausrüstung ze ersetzen, wann de gefrote Modell net verfügbar ass.",
+                    "11": "Eingeschränkt Benotzung: D'Ausrüstung däerf net fir Sandstrahlen, Handhabung vu korrosive oder chemesche Produkter oder Zementbehandlung benotzt ginn."
+                }
+            },
+            "11": {
+                "title": "Artikel 11 – Haftung",
+                "list": {
+                    "1": "Begrenzte Haftung: D'Haftung vum Verkeefer fir Schuedenersatz, déi direkt aus den Obligatiounen entstinn, déi ënner dësem Vertrag opgezwonge sinn, ass limitéiert op den Ausmooss, wéi et gesetzlech erfuerderlech ass.",
+                    "2": "Ausschloss vun ekonomeschen Schued: De Verkeefer ass net haftbar fir ekonomesch Verloschter, verluerene Gewënn, verluerene Einnahmen oder aner direkt, indirekt oder konsequential Schuedenersatz oder Fuerderungen, déi aus der Ausféierung vun dësem Vertrag entstinn.",
+                    "3": "Keng Reklamatioun fir Drëttpartie Fuerderungen: Wann de Keefer vun Drëttpersounen fir Schuedenersatz, verursaacht duerch e Manktem an de verkaaften Artikelen, haftbar gehalen gëtt, kënnen se net géint de Verkeefer recouréieren."
+                }
+            },
+            "12": {
+                "title": "Artikel 12 – Rechnungsstellung",
+                "list": {
+                    "1": "TVA & Präisgestaltung: Präisser ginn exklusive TVA ugewisen (20% franséisch TVA gëllt fir auslännesch Firmen mat Steiervertriedung a Frankräich). TVA-registréiert EU-Betriber bezuelen eng TVA-Virschoss bei der Ausstellung vun der Proforma Rechnung. Dës Virschoss gëtt op d'Zollklärungskäschten applizéiert (20% vum Materialwäert). Fir TVA-registréiert Betriber gëtt d'20% TVA selbstfakturéiert no der EU TVA Direktive 21-1-a oder dem franséischen Steiergesetzbuch Artikel 283-1. De Client muss eng gëlteg TVA-Nummer ubidden, déi mat der Bestellungseentitéit an dem Bezuelungsbankkonto entsprécht. Fir Eenzelpersounen gëtt d'TVA-Virschoss sou wéi ugewandt.",
+                    "2": "Rechnungsausstellung: AZ MACHINERY SL stellt eng Depotrechnung oder eng provisoresch Rechnung (mat Mark 'P') op Ufro aus. No der Inspektioun an der Liwwerung an der Bezuelung vun den Zolltaxen gëtt d'Finalrechnung geschéckt.",
+                    "3": "Ännerungen un der Rechnungsstellung (2024): AZ MACHINERY SL ass net vun der elektronescher Rechnungsstellung betraff als andorranescht Entreprise. Fir d'Saachen ze vereinfachen, ginn dräi Clientekategorien agefouert: A: Betriber an Andorra B: Betriber a Frankräich C: Betriber an anere europäesche Länner, DOM-TOM, an am Ausland",
+                    "4": "Rechnungsstellung fir Andorra (Gruppe A): Präisser ginn exklusive TVA ugewisen (4.5% TVA gëllt), abegraff d'Zollklärungskäschten. Eng Depotrechnung gëtt ausgestallt, an de Client muss Beweis vun der NRT-Gültegkeet liwweren. D'Finalrechnung gëtt no der Inspektioun an der Liwwerung ausgestallt.",
+                    "5": "Rechnungsstellung fir Frankräich (Gruppe B): Fir Betriber, déi net der elektronescher Rechnungsstellung ënnerleien, sinn d'Regelen wéi an den Sektiounen 12.1 an 12.2 beschriwwen. Betriber, déi der elektronescher Rechnungsstellung ënnerleien, mussen AZ MACHINERY SL hir Plattform bei der Bestellung matdeelen an e Beweis vun hirer TVA-Nummer liwweren. Si ginn automatesch fir TVA Selbstfakturatioun gefacturéiert. All zousätzlech Käschten ginn separat gefacturéiert. Wann keng Informatioun geliwwert gëtt, ass en 20% Depot erfuerderlech, erëmbezuelbar innerhalb 30 Deeg no der Finalrechnung op Ufro. - Ausnamen: Regulär Clienten (méi Bestellunge oder Rechnungen am aktuelle Joer) si vun der Liwwerung vun hirer TVA-Nummer befreit, Zollklärungskäschten ginn net verrechent, an d'TVA gëtt automatesch selffakturéiert.",
+                    "6": "Rechnungsstellung fir aner Standuerter (Gruppe C): Betriber mussen Beweis vum Export liwweren (T1 oder anert Dokument) fir Wueren, déi Andorra oder d'EU verloossen. Nom Empfang vum Exportbeweis ginn d'Zollklärungskäschten net verrechent, an d'TVA gëtt selffakturéiert."
+                }
+            },
+            "13": {
+                "title": "Artikel 13 – Installatioun, Montage, Inbetribnahm a Maintenance",
+                "list": {
+                    "1": "Op-Plaz Installatioun: Soss net anescht uginn, gëtt de Client iwwer den geplangten Installatiounsdatum per E-Mail informéiert. De Client ass verantwortlech fir Zougang zu der Installatiounsplaz, Handhabungsausrüstung fir d'Beweegung, Montage an Installatioun, an d'Stroumversuergung fir d'Verbindung vun den Tools an Ausrüstung ze garantéieren. De Client muss all néideg technesch Kanäl oder Griewen no den Empfehlungen vun AZ MACHINERY-SL virbereeden.",
+                    "2": "Ënnervertrauen: AZ MACHINERY-SL kann lokal Ënnervertrieder fir d'Installatioun benotzen, ofhängeg vun der Plaz.",
+                    "3": {
+                        "0": "Installatiounsbezuelung: Déi voll Bezuelung fir d'Installatioun ass fälleg ier d'Aarbecht ufänkt. Wann d'Bezuelung kritt gëtt, plangt AZ MACHINERY-SL d'Installatioun baséiert op der Disponibilitéit vun den Techniker.",
+                        "1": "Waarden Zäit: De Client muss suergen, datt d'Techniker Prioritéit Zougang zu Handhabungsausrüstung hunn. Soss ginn Waarden Zäit, Rees- an Ënnerkunftskäschten baséiert op de folgende Tariffer verrechent:",
+                        "2": "Standard Techniker (Mecanical/Hydraulesch): 97€/Stonn",
+                        "3": "Elektriker: 127€/Stonn",
+                        "4": "Rees: Real Käschten",
+                        "5": "Ënnerkunft: 95€/Nuecht/Techniker",
+                        "6": "Site Zougang Preparatioun: D'Zäit, déi fir d'Erreechung vum Site Zougang, d'Virbereedung vun Sécherheetspläng, d'Erreechung vun Badge an d'Participatioun un Treffen benotzt gëtt, gëtt zu de selwechte Tariffer wéi Waarden Zäit verrechent."
+                    },
+                    "4": "Inbetriebnahm: D'Inbetriebnahm gëtt vun den Technikeren um Enn vun der Installatioun virum Depart ausgefouert. Wann e Balance fälleg ass, muss de Client et bezuelen an e Beweis virun der Inbetriebnahm ubidden. De Client ass verantwortlech fir d'Sécherung an d'Markéierung vun der installéiert Ausrüstung. Wann de Client eng Konformitéit Inspektioun vun enger zertifizéierter Agentur erfuerdert, mussen se et arrangéieren a bezuelen.",
+                    "5": "Bildrechter: Soss net anescht uginn, autoriséiert de Client AZ MACHINERY-SL d'Benotzung vun de Biller vun der installéiert Ausrüstung fir kommerziell Zwecker, Training, a Produktverbesserungen.",
+                    "6": "Ënnerhalt: D'Installatioun enthält kee Maintenance. Maintenance gëtt als optionalen Kontrakt exklusiv fir Ausrüstung, déi vun AZ MACHINERY-SL installéiert ass, ugebueden."
+                }
+            },
+            "14": {
+                "title": "Artikel 14 – Suspension a Kënnegung",
+                "list": {
+                    "1": "Suspension fir net Bezuelen: Wann d'Rechnung net bis zur fällegen Datum voll bezuelt gëtt (wéi an Artikel 5.1 festgeluecht), huet de Verkeefer d'Recht, all nei oder bestoen Ofkommes mam Keefer ze suspendéieren.",
+                    "2": "Suspension wéinst Verstouss géint de Kontrakt: De Verkeefer huet d'Recht, d'Ofkommes ze suspendéieren, wann no senger Ofschloss et als onwahrscheinlech ugesi gëtt, datt de Keefer e wesentlechen Deel vu senge Verpflichtungen erfëllt wéinst enger bedeitender Reduktioun an hirer Fäegkeet dëst ze maachen, engem Verloscht u Kredibilitéit, oder Verstouss géint d'Bedingungen vun dësem Ofkommes. De Verkeefer muss de Keefer direkt iwwer all Suspension informéieren.",
+                    "3": "Kënnegung wéinst antizipéierte Verstouss: Wann et dem Verkeefer kloer gëtt, virum Ausféierung vum Ofkommes, datt de Keefer e wesentleche Verstouss mécht, huet de Verkeefer d'Recht, d'Ofkommes ze kündigen."
+                }
+            },
+            "15": {
+                "title": "Artikel 15 – Divers",
+                "list": {
+                    "1": "Trennbarkeet: Wann eng Bestëmmung vun dësem Ofkommes ongëlteg ass, bleiwen déi verbleiwen Bestëmmungen a Kraaft. D'Parteien wäerten zesumme schaffen, fir d'ongëlteg Bestëmmung duerch eng gëlteg ze ersetzen, déi e ähnlecht wirtschaftlecht Resultat erreecht.",
+                    "2": "Iwwerherrschend Konditiounen: Dëst Ofkommes ersetzt all allgemeng oder spezifesch Konditioune vum Keefer. All widerspréchlech Konditioune, déi vum Keefer proposéiert ginn, si net bindend fir de Verkeefer, ausser se ginn ausdrécklech akzeptéiert.",
+                    "3": "Gesamt Ofkommes: Dëst Ofkommes annuléiert an ersetzt all virdrun Ofkommes, Kontrakter, Propositiounen an Engagementer, déi op deeselwechten Thema bezéien, wéi an de spezifesche Bestellungsbedingunge beschriwwen.",
+                    "4": "Geschäftsdeeg: Geschäftsdeeg fir d'Zwecker vun dësem Ofkommes sinn vu Méindeg bis Freideg, ausser gesetzlech Feierdeeg.",
+                    "5": "Standard Zollklärungskäschten: Standard Zollklärungskäschte sinn 20% vum Materialwäert exklusive TVA.",
+                    "6": "Juristesch Iwwerpréiwung: Dës Allgemeng Konditioune goufen vun enger juristescher Entitéit iwwerpréift a validéiert."
+                }
+            },
+            "16": {
+                "title": "Artikel 16 – Kënnegung – Récktrëtt",
+                "list": {
+                    "1": "Bestellungsbestätegung: All Bestellungsbestätegung gëtt als final a bindend ugesinn.",
+                    "2": "Récktrëtt vum Konsument: Konsumenten hunn eng 7-Deeg Récktrëttperiod wann d'Bestellung vum Verkeefer gefrot gouf.",
+                    "3": "Methoden fir Bestellungsbestätegung: D'Bestellungsbestätegung ka via Fax, E-Mail, Depotcheck, Bestellung, Proforma Rechnung, Offerlut, etc. gemaach ginn.",
+                    "4": "Keen Récktrëtt fir Professioneller: Eng Récktrëttperiod gëllt net fir Verkaf oder Locatiounen un Professioneller.",
+                    "5": "Kënnegungsstrof: Wann eng Bestellung annuléiert gëtt, muss de Client eng Mindeststrof vun 70% vum Materialwäert exklusive TVA bezuelen.",
+                    "6": "Depot: Depoten oder voll Bezuelunge bei der Bestellung ginn vum Verkeefer als Kënnegungsstrof gehalen.",
+                    "7": "Depot als Bestellungsakzeptanz: All Depot stellt eng Akzeptanz vun der Bestellung vun de spezifizéierte Material(en) wéi an der Offer, Devis oder Rechnung festgeluecht, zesumme mat dësen spezifesche Allgemenge Verkaafskonditioune. E Depot handelt als Bestellung a eliminéiert d'Notwendegkeet fir eng schrëftlech Bestellungsbestätegung.",
+                    "8": "TVA: Präisser ginn exklusive TVA ugewisen. Den uwendbaren TVA-Taux hänkt vun der Plaz vum Keefer of (4.5% fir andorranesch Betriber, 20% franséisch TVA fir auslännesch Firmen mat Steiervertriedung a Frankräich). TVA-registréiert EU-Betriber ginn fir TVA Selbstfakturatioun gefacturéiert. Eng gëlteg TVA-Nummer muss geliwwert ginn, déi mat der Bestellungseentitéit an dem Bezuelungsbankkonto entsprécht. Versoen, dës Verpflichtungen nozekommen, resultéiert an automatescher Bestellungsannulatioun."
+                }
+            },
+            "17": {
+                "title": "Artikel 17 – Bedingten Ofkommes",
+                "list": "Wann de Verkeefer dem Keefer Kredit gëtt, ass d'Ofkommes ënner der Bedingung, datt de Kredit vun der Kreditinstitutioun innerhalb vun 60 Kalennerdeeg no der Ofschloss vum Ofkommes guttgeheescht gëtt. De Keefer muss de Verkeefer innerhalb vun 15 Kalennerdeeg iwwer d'Decisioun vun der Kreditinstitutioun informéieren. D'Ofkommes gëtt nëmmen voll wirksam nom Empfang vun der Kreditgenehmegung. Wann de Kredit net guttgeheescht gëtt, ass d'Ofkommes ongëlteg an huet keng rechtlech Auswierkungen. A sou Fäll huet de Keefer kee Recht, Schuedenersatz ze verlaangen."
+            },
+            "18": {
+                "title": "Artikel 18 – Gëlteg Gesetz a Juridictioun",
+                "list": "Dëst Ofkommes gëtt vum andorranesche Gesetz regéiert, ausser anescht ausdrécklech an de Generellen oder Spezifischen Konditioune festgeluecht. D'Applikatioun vun der Wiener Konventioun"
+            },
+            "19": {
+                "title": "Artikel 19 – Juridictioun",
+                "list": "All Sträit bezéie sech op d'Interpretatioun oder d'Ausféierung vun dësen Allgemengen a Spezifische Konditioune si vun der exklusive Juridictioun vun de Geriichter um registréierte Siège vum Verkeefer ënnerworf."
+            }
+        }
     }
 }

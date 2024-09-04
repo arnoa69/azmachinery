@@ -57,10 +57,10 @@ const submitForm = () => {
                 <div class="col-lg-2 col-6 footer-links">
                     <h4>{{ t('footer.links.title') }}</h4>
                     <ul>
-                        <li><a :href="`/${locale}/imprint`" target="_blank">{{ $t("footer.links.imprint") }}</a></li>
-                        <li><a :href="`/${locale}/cookie-policy`" class="policy-link" target="_blank">{{ $t("footer.links.cookie-policy") }}</a></li>
-                        <li><a :href="`/${locale}/privacy-policy`" class="policy-link" target="_blank">{{ $t("footer.links.privacy-policy") }}</a></li>
-                        <li><a :href="`/${locale}/terms-and-conditions`" class="policy-link" target="_blank">{{ $t("footer.links.terms-and-conditions") }}</a></li>
+                        <li><a :href="`/${locale}/imprint`" >{{ $t("footer.links.imprint") }}</a></li>
+                        <li><a :href="`/${locale}/cookie-policy`" class="policy-link" >{{ $t("footer.links.cookie-policy") }}</a></li>
+                        <li><a :href="`/${locale}/privacy-policy`" class="policy-link">{{ $t("footer.links.privacy-policy") }}</a></li>
+                        <li><a :href="`/${locale}/terms-and-conditions`" class="policy-link">{{ $t("footer.links.terms-and-conditions") }}</a></li>
                     </ul>
                 </div>
 

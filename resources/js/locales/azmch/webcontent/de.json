@@ -556,5 +556,248 @@
         "gab": "Vollverzinkt",
         "gao": "Vollverzinkt",
         "tb": "Überdachter Tunnel"
+    },
+    "imprint": {
+        "title": "Impressum",
+        "azm-france": "AZ Machinery Frankreich",
+        "address": "13 Rue de la scierie - 66340 Palau de Cerdagne, Frankreich",
+        "phone": {
+            "france": "Tel.: (+33) 03 52 74 03 69",
+            "headquarter": "Tel.: +376 390 036"
+        },
+        "siret": {
+            "1": "Siret: 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - USt-IdNr.: FR39"
+        },
+        "tva": "USt-IdNr.: FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Kapital 3 000.000 €",
+        "headquarter": "Hauptsitz: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - Registrierungsnummer: 16585",
+        "fiscal": "Steuerverantwortlicher von AZ MACHINERY in Frankreich:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Frankreich",
+        "ceo": "Chefredakteur: Jérôme GUIGUET",
+        "property": "Diese Website respektiert das Urheberrecht. Alle Rechte der Autoren der auf dieser Website wiedergegebenen und verbreiteten Werke sind vorbehalten. Ohne Genehmigung ist die Verwendung der Werke, außer zur Wiedergabe und individuellen, privaten Ansicht, verboten. Die Website az-machinery wird von Ionos herausgegeben und von der Firma Ionos gehostet."
+    },
+    "privacy": {
+        "title": {
+            "1": "Datenschutzrichtlinie",
+            "2": "Informationen, die wir sammeln",
+            "3": "Cookies",
+            "4": "Datenverwendung",
+            "5": "Ihre Rechte",
+            "6": "Kontaktieren Sie uns"
+        },
+        "subtitle": {
+            "1": "Ihre Privatsphäre ist uns wichtig"
+        },
+        "content": {
+            "1": "Bei AZ Machinery sind wir bestrebt, Ihre Privatsphäre zu schützen. Diese Datenschutzrichtlinie erläutert, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unsere Dienste nutzen.",
+            "2": "Als Hersteller und Verkäufer von Laderampen sammeln wir nur die notwendigen personenbezogenen Daten für unsere Geschäftstätigkeit. Die einzigen Daten, die wir sammeln, sind durch Google Analytics und PostHog. Diese Daten helfen uns, zu verstehen, wie unsere Website genutzt wird und unsere Dienste zu verbessern.",
+            "3": "Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern. Unser GDPR-konformes Cookie-Banner bietet Ihnen Informationen über die Cookies, die wir verwenden, und ermöglicht Ihnen, Ihre Einstellungen zu verwalten.",
+            "4": "Die von uns gesammelten Daten werden ausschließlich zu Analysezwecken und zur Verbesserung unserer Produkte und Dienstleistungen verwendet. Wir verkaufen oder teilen Ihre personenbezogenen Daten nicht ohne Ihre Zustimmung an Dritte.",
+            "5": "Gemäß der Datenschutz-Grundverordnung (DSGVO) haben Sie das Recht, auf Ihre personenbezogenen Daten zuzugreifen, zu berichtigen oder zu löschen. Wenn Sie Fragen oder Bedenken bezüglich Ihrer Daten haben, wenden Sie sich bitte an uns.",
+            "6": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder unseren Datenschutzpraktiken haben, wenden Sie sich bitte an uns unter:"
+        },
+        "email": "E-Mail: contact[at]azmachinery.com",
+        "phone": "Telefon: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Allgemeine Geschäftsbedingungen",
+        "subtitle": "Einleitung",
+        "content": "Diese Allgemeinen Geschäftsbedingungen regeln die Beziehung zwischen Ihnen und AZ Machinery. Durch den Zugriff auf oder die Nutzung unserer Dienste stimmen Sie zu, diese Bedingungen einzuhalten.",
+        "article": {
+            "1": {
+                "title": "Artikel 1 – Anwendungsbereich",
+                "list": {
+                    "1": "Regelung: Diese Allgemeinen Geschäftsbedingungen, zusammen mit allen spezifischen Bestellbedingungen, regeln die Beziehung zwischen AZ MACHINERY-SL ('Verkäufer') und dem Käufer. Im Falle von Widersprüchen haben spezifische Bestellbedingungen Vorrang.",
+                    "2": "Keine stillschweigende Aufhebung: Jegliche Änderungen dieser Bedingungen müssen explizit erfolgen, und die Nichtdurchsetzung einer Klausel durch den Verkäufer zu einem bestimmten Zeitpunkt stellt keine Aufhebung dieser Klausel in Zukunft dar.",
+                    "3": "Annahme und Verfügbarkeit: Der Käufer erkennt und akzeptiert diese Allgemeinen Geschäftsbedingungen, die auf der Website des Verkäufers (www.az-machinery.ch) und auf den Seiten 2 und 3 von Angeboten und Proforma-Rechnungen verfügbar sind. Der Verkäufer behält sich das Recht vor, diese Bedingungen zu ändern; die Annahme des Käufers wird nach 15 Kalendertagen der Benachrichtigung angenommen, wenn kein Widerspruch erhoben wird.",
+                    "4": "Bestätigung der Bestellung: Die Lieferung durch den Verkäufer gilt als Annahme der Bestellung, sofern nicht schriftlich anderes vereinbart wurde.",
+                    "5": "Anwendungsbereich: Diese Bedingungen gelten für Verkäufe innerhalb von Andorra, Frankreich und international."
+                }
+            },
+            "2": {
+                "title": "Artikel 2 – Angebote und Bestellungen",
+                "list": {
+                    "1": "Angebote & verbindliche Vereinbarung: Angebote sind 30 Tage lang gültig, sind nicht teilbar und sind lediglich Vorschläge. Nur eine von dem Verkäufer ausgestellte Proforma-Rechnung schafft eine verbindliche Vereinbarung.",
+                    "2": "Käuferinformationen: Der Verkäufer geht davon aus, dass die vom Käufer bereitgestellten Informationen, Zeichnungen und Dokumente korrekt sind. Wenn der Käufer Teile nummern提供, geht der Verkäufer davon aus, dass diese korrekt sind.",
+                    "3": "Produktspezifikationen: Abbildungen, Abmessungen, Kapazitäten, Gewichte, Preise und Beschreibungen dienen lediglich zu Informationszwecken und sind Näherungen.",
+                    "4": "Maschinenprüfung: Spezifikationen wie Hubhöhe, Kapazität, Abmessungen usw. sind lediglich indikativ. Der Käufer ist für die Prüfung dieser Spezifikationen vor Bestätigung der Bestellung verantwortlich. Jegliche Abweichungen sind die Verantwortung des Käufers. Neue Geräte werden EXW vom Werk des Verkäufers oder einem Logistikstandort abgegeben, es sei denn, es wurde schriftlich anderes vereinbart. Gebrauchte Geräte werden 'wie besehen' verkauft, nicht funktionsfähig, ohne Garantie und als Ersatzteile angesehen. Eine professionelle Inspektion und Reparatur sind erforderlich, bevor sie verwendet werden.",
+                    "5": "Ausschlüsse: Zubehör wie Gabeln, Seitenverschiebevorrichtungen, Positionierer und Geländer sind nicht im Verkauf enthalten, sofern nicht explizit erwähnt.",
+                    "6": "Geräte sind ab dem Angebotstag verfügbar, vorbehaltlich vorheriger Verkauf."
+                }
+            },
+            "3": {
+                "title": "Artikel 3 – Zweck",
+                "list": {
+                    "1": "Lieferumfang: Die spezifischen Gegenstände, die von diesem Vertrag erfasst werden (im Folgenden als 'verkaufte Gegenstände' bezeichnet), sind in den spezifischen Bestellbedingungen aufgeführt. Dazu gehören Zubehör, Geräte, Werkzeuge, Maschinen usw.",
+                    "2": "Käuferverantwortung: Der Käufer ist für die Auswahl der geeigneten 'verkauften Gegenstände' verantwortlich, die Standardgegenstände sind, es sei denn, der Verkäufer hat sie auf Wunsch des Käufers angepasst. Der Verkäufer ist nicht haftbar, wenn die 'verkauften Gegenstände' nicht den spezifischen Bedürfnissen des Käufers entsprechen.",
+                    "3": "Preis: Der Preis der 'verkauften Gegenstände' ist in den spezifischen Bestellbedingungen ('Kaufpreis') aufgeführt. Der Kaufpreis ist in Euro, ohne Mehrwertsteuer, Steuern, Einfuhr-/Ausfuhrzöllen und Liefer-/Abholkosten. Installation- und Inbetriebnahmekosten sind ebenfalls ausgeschlossen und sind die Verantwortung des Käufers.",
+                    "4": "Zahlungsbedingungen: Es werden keine Rabatte für vorzeitige Zahlung angeboten. Anwendbare Steuern sind diejenigen, die am Rechnungsdatum gelten. Preise und Bedingungen können je nach Standort des Käufers variieren. Siehe Artikel 12 (Rechnungstellung) für Details."
+                }
+            },
+            "4": {
+                "title": "Artikel 4 – Preisgestaltung",
+                "list": {
+                    "1": "Kaufpreis: Der Preis der verkauften Gegenstände ('Kaufpreis') ist in den spezifischen Bestellbedingungen aufgeführt. Der Kaufpreis ist in Euro, ohne Mehrwertsteuer, Steuern, Einfuhr-/Ausfuhrzöllen und Liefer-/Abholkosten. Installation- und Inbetriebnahmekosten sind ebenfalls ausgeschlossen und sind die Verantwortung des Käufers.",
+                    "2": "Keine Rabatte für vorzeitige Zahlung: Es werden keine Rabatte für vorzeitige Zahlung angeboten.",
+                    "3": "Anwendbare Steuern: Steuern sind diejenigen, die am Rechnungsdatum gelten.",
+                    "4": "Geografische Variationen: Preise und Bedingungen können je nach Standort des Käufers variieren. Siehe Artikel 12 (Rechnungstellung) für Details."
+                }
+            },
+            "5": {
+                "title": "Artikel 5 – Zahlungsbedingungen",
+                "list": {
+                    "1": "Zahlung bei Kauf: Sofern nicht schriftlich anderes vereinbart wurde, ist die Zahlung des Kaufpreises und aller damit verbundenen Kosten fällig, bevor die Lieferung erfolgt, per Banküberweisung auf das vom Verkäufer angegebene Konto, unter Angabe der Rechnungsdaten (Dateireferenz und Proforma-Rechnungsnummer). Der Verkäufer kann eine Anzahlung von 50 % bei Bestellung verlangen, um die Ausrüstung zu reservieren oder die Fertigung zu beginnen.",
+                    "2": "Zahlungsbestätigung: Die Zahlung gilt erst dann als abgeschlossen, wenn der Verkäufer die Mittel erhalten hat. Die Lieferung erfolgt erst nach vollständiger Zahlung der entsprechenden Proforma-Rechnung.",
+                    "3": "Scheckzahlungen: Wenn der Verkäufer Scheckzahlungen akzeptiert, gilt die Zahlung erst dann als abgeschlossen, wenn der Verkäufer die Mittel ohne Bedingungen erhalten hat, nachdem die gesetzliche Scheckabrechnungsperiode abgelaufen ist.",
+                    "4": "Verspätete Zahlungen: Verspätete Zahlungen verursachen automatisch Zinsen in Höhe des Banque de France-Satzes plus 2 % sowie alle anfallenden Rechtsgebühren.",
+                    "5": "Verzug: Im Falle von Zahlungsverzug, Insolvenz, Liquidation, Protest, gerichtlicher Zahlungsaufforderung, Insolvenzverfahren oder Übertragung von Vermögenswerten werden alle ausstehenden Beträge (einschließlich der Beträge, die an verbundene Unternehmen geschuldet werden) sofort fällig, ohne vorherige Ankündigung. Der Verkäufer kann den Vertrag sofort ohne Ankündigung und ohne Haftung für Schäden kündigen, während er sich das Recht vorbehält, Schadensersatz zu verlangen.",
+                    "6": "Drittverrechnung: Wenn der Käufer eine Rechnung an einen Dritten wünscht, bleibt er gesamtschuldnerisch für alle Verpflichtungen. Der geografische Standort des Dritten bestimmt alle anfallenden Kosten.",
+                    "7": "Mietzahlungen: Mietzahlungen erfolgen per Lastschrift am Fälligkeitstag. Die erste Zahlung wird bei Unterzeichnung des Mietvertrags abgebucht.",
+                    "8": "Mietdokumente: Mietverträge erfordern eine Bankkontonummer, Ausweis, Sicherheitsleistung (Scheck oder Überweisung), unterschriebene und gestempelte Lastschrift-Ermächtigung und alle anderen vom Vermieter angeforderten Dokumente vor der Geräteabgabe.",
+                    "9": "Rückgegebene Zahlungen: Rückgegebene Lastschriften werden 5 Tage später erneut eingereicht. Eine Gebühr von 15 € wird für jede zurückgegebene Zahlung erhoben.",
+                    "10": "Zweite zurückgegebene Zahlung: Eine zweite zurückgegebene Zahlung resultiert in einer Aufforderung zur Zahlung aller ausstehenden Rechnungen und Geräterückgabe innerhalb von 3 Tagen. Rücktransportkosten und eine Strafe von 70 % der verbleibenden Mietzahlungen für die vorzeitige Vertragskündigung werden berechnet.",
+                    "11": "Sonderbestellungen: Für Sonderbestellungen ist eine Anzahlung von 50 % bei Bestellung fällig, der Restbetrag ist bei Fertigstellung der Produktion fällig. Der Kunde hat 5 Tage Zeit, den Restbetrag zu zahlen, nachdem er benachrichtigt wurde. Die Geräteabgabe oder -lieferung erfolgt erst nach vollständiger Zahlung des Restbetrags. Verzögerungen bei der Zahlung verursachen gleich lange Verzögerungen bei der Geräteabgabe.",
+                    "12": "Lagerung von unverkauften Geräten: Ein kostenloser Lagerzeitraum von 10 Tagen wird nach Benachrichtigung der Fertigstellung der Produktion gewährt. Der Kunde muss den Restbetrag zahlen und die Abholung oder Lieferung innerhalb dieser Zeit arrangieren. Nach 10 Tagen werden die Geräte bei einem Logistikzentrum oder einem Drittvertragspartner gelagert und Lagergebühren erhoben.",
+                    "13": "Lagergebühren: Lagergebühren variieren je nach Gerätetyp, -größe und -komplexität, unterteilt in 7 Kategorien mit spezifischen Tagesraten."
+                }
+            },
+            "6": {
+                "title": "Artikel 6 – Eigentumsübergang und Risiko",
+                "list": {
+                    "1": "Risikoübergang: Das Risiko des Verlusts oder der Beschädigung der verkauften Gegenstände geht auf den Käufer über, sobald die Lieferung erfolgt ist.",
+                    "2": "Eigentumsübergang: Das Eigentum an den verkauften Gegenständen geht erst auf den Käufer über, wenn der Kaufpreis und alle damit verbundenen Kosten vollständig gezahlt sind. Bis dahin ist der Eigentumsübergang ausgesetzt.",
+                    "3": "Käuferversicherung: Der Käufer ist verpflichtet, die verkauften Gegenstände gegen alle Risiken, die sie eingehen oder verursachen, zu versichern, mindestens in Höhe des Kaufpreises und der damit verbundenen Kosten. Bis zum Eigentumsübergang ist der Käufer verpflichtet, die verkauften Gegenstände gegen alle Risiken zu versichern.",
+                    "4": "Geistiges Eigentum: Der Käufer erkennt an, dass der Verkäufer die ausschließlichen Rechte an allen geistigen Eigentumsrechten im Zusammenhang mit den verkauften Gegenständen, einschließlich des Markennamens und des Logos, behält und stimmt zu, dass er keine Ansprüche auf diese Rechte erhebt."
+                }
+            },
+            "7": {
+                "title": "Artikel 7 – Lieferung",
+                "list": {
+                    "1": "Lieferbedingungen: Die Lieferung erfolgt EX-WORKS vom Werk des Verkäufers (Incoterms 2020) oder von einem Logistikzentrum, es sei denn, es wurde schriftlich anderes vereinbart. Wenn die Lieferung an den Standort des Käufers vereinbart wurde, kann sie in dessen Abwesenheit erfolgen. Die Lieferbescheinigung gilt als Beweis für die Lieferung. Zollabfertigungskosten sind ausgeschlossen und werden separat berechnet.",
+                    "2": "Lieferzeiten: Die Lieferzeiten sind Schätzungen. Der Käufer kann keine Schadensersatzansprüche oder die Ablehnung der Lieferung wegen verspäteter Lieferung oder der Unfähigkeit des Verkäufers, den Vertrag zu erfüllen, geltend machen.",
+                    "3": "Beginn der Lieferzeit: Jegliche vereinbarte Lieferfrist beginnt erst dann, wenn der Verkäufer alle notwendigen Informationen und Dokumente für die Lieferung erhalten hat.",
+                    "4": "Verspätete Lieferung: Wenn Schadensersatzansprüche für verspätete Lieferung schriftlich vereinbart wurden, muss der Käufer den Verkäufer schriftlich und telefonisch innerhalb von 3 Geschäftstagen über die Verzögerung informieren. Andernfalls erlöschen jegliche Schadensersatzansprüche. Der Käufer muss Schritte unternehmen, um weiteren Schaden zu verhindern, relevante Informationen bereitstellen und es dem Verkäufer ermöglichen, den Schaden zu untersuchen. Reparaturen müssen vom Verkäufer genehmigt werden, bevor sie durchgeführt werden. Arbeitskosten sind nicht abgedeckt. Der Verkäufer kann die Vorlage eines Polizeiberichts verlangen, wenn erforderlich. Reparaturen können mit gebrauchten Teilen ('Ersatzstandard') durchgeführt werden. Der Verkäufer behält sich das Recht vor, Teile bereitzustellen. Wenn die Reparaturkosten den Garantiewert übersteigen, ist der Käufer für die Differenz verantwortlich. Reparaturen müssen innerhalb eines Monats nach dem gemeldeten Defekt abgeschlossen sein. Die Höchstsumme für die Reparaturkosten ist auf den Wert des neuen Geräts begrenzt. Spezifische Details der durch die Garantie abgedeckten Teile sind für den Motor, das Getriebe und die Achsen verfügbar."
+                }
+            },
+            "8": {
+                "title": "Artikel 8 – Zurückbehaltungsrecht",
+                "list": "Im Falle von Zahlungsverzug hat der Verkäufer das Recht, jegliche Gegenstände und Dokumente, die vom Käufer bereitgestellt wurden, zurückzubehalten, bis der Kaufpreis, die Zinsen, die Bearbeitungsgebühren, die Transport- und Lagerkosten, die Zoll- und Abfertigungskosten und alle damit verbundenen Kosten vollständig gezahlt sind."
+            },
+            "9": {
+                "title": "Artikel 9 – Zustand der verkauften Gegenstände und Garantie",
+                "list": {
+                    "1": "'Wie gesehen'-Zustand: Neue und gebrauchte Gegenstände werden 'wie besehen' verkauft und vom Käufer bei der Lieferung akzeptiert.",
+                    "2": "Ausschluss von Garantien: Der Verkäufer ist nicht haftbar, wenn: a) Der Käufer die Gegenstände repariert oder modifiziert hat. b) Defekte durch Missbrauch, unsachgemäße Handhabung oder Verwendung außerhalb des vorgesehenen Zwecks (z.B. übermäßige Belastung, falsche Bedienung, unsachgemäße Installation/Wartung) verursacht werden.",
+                    "3": "Keine Rückgaben oder Umtausch: Gegenstände sind nicht zurückgabefähig oder umtauschbar, es sei denn, der Verkäufer hat schriftlich anderes vereinbart.",
+                    "4": "Garantie für neue Geräte: Neue Geräte sind mit einer 12-monatigen Herstellergarantie und einer CE-Konformitätserklärung ausgestattet. Die Entladung, Installation, Inbetriebnahme und eventuelle erforderliche Konformitätsprüfungen sind die Verantwortung des Käufers.",
+                    "5": "Garantie für gebrauchte Geräte: Gebrauchte Geräte werden 'wie besehen' ohne Garantie verkauft, es sei denn, es wurde anderes schriftlich vereinbart. Wenn eine Garantie für gebrauchte Geräte angeboten wird, deckt sie den Motor, das Getriebe und die Achsen für 6 Monate ab. Alle anderen Teile werden 'wie besehen' ohne Garantie verkauft. Sicherheitsprüfungen durch eine zertifizierte Behörde und eventuell erforderliche Reparaturen sind die Verantwortung des Käufers vor der Inbetriebnahme.",
+                    "6": "Garantieabdeckung: Die Garantie deckt den Motor, das Getriebe und die Achsen ab. Batterien, Räder, Geländer, hydraulische Einheiten, Schläuche, Zubehör, Sensoren und Ladegeräte sind ausgeschlossen. Die Garantie ist nicht übertragbar und erlischt, wenn nicht autorisierte Reparaturen durchgeführt werden. Reparaturen im Rahmen der Garantie werden in der Regel in der Werkstatt des Lieferanten durchgeführt. Der Käufer ist für die Versendung der Geräte oder defekten Teile verantwortlich. Wenn ein Techniker reisen muss, werden die Reise- und Unterbringungskosten dem Käufer in Rechnung gestellt. Die Garantie deckt keinen normalen Verschleiß, Schäden durch mangelnde Wartung, Missbrauch oder Vandalismus ab.",
+                    "7": "Garantiepflege: Der Käufer muss alle vom Verkäufer oder seinen Dienstleistern empfohlenen vorbeugenden Wartungen durchführen, um die Garantie aufrechtzuerhalten.",
+                    "8": "Garantiebedingungen: Die Garantie gilt in Andorra, im französischen Festland und international, unter Verwendung von andorranischen Ersatzteilen. Sie deckt mechanische Teile (wie im Herstellerkatalog angegeben) für den Motor, das Getriebe und die Achsen ab. Demontage und Remontage für die Fehlerdiagnose sind nicht abgedeckt. Die Garantie schließt Funktionsstörungen aufgrund vorsätzlichen Handelns, Unfälle, Bußgelder, Batterien, Zubehör und elektronische Komponenten aus. Sie schließt auch Schäden aus, bei denen keine Maßnahmen zur Vermeidung einer Verschlimmerung ergriffen wurden, Reparaturen durch nicht autorisiertes Personal und die Verwendung außerhalb der vorgesehenen Betriebsparameter aus.",
+                    "9": "Garantiedauer: Neue Geräte haben eine 12-monatige Herstellergarantie (36 Monate für Spanien) abdeckt nur Teile. Gebrauchte Geräte haben eine 6-monatige Garantie, begrenzt auf 50 Betriebsstunden. Die Garantie endet nach 6 Monaten oder wenn die Betriebsstundengrenze erreicht ist (je nachdem, was früher eintritt).",
+                    "10": "Garantieansprüche: Im Falle eines Defekts muss der Käufer den Verkäufer schriftlich und telefonisch innerhalb von 3 Geschäftstagen benachrichtigen. Andernfalls erlischt jeder Garantieanspruch. Der Käufer muss Schritte unternehmen, um weiteren Schaden zu verhindern, relevante Informationen bereitstellen und es dem Verkäufer ermöglichen, den Defekt zu untersuchen. Reparaturen müssen vom Verkäufer genehmigt werden, bevor sie durchgeführt werden. Arbeitskosten sind nicht abgedeckt. Der Verkäufer kann die Vorlage eines Polizeiberichts verlangen, wenn erforderlich. Reparaturen können mit gebrauchten Teilen ('Ersatzstandard') durchgeführt werden. Der Verkäufer behält sich das Recht vor, Teile bereitzustellen. Wenn die Reparaturkosten den Garantiewert übersteigen, ist der Käufer für die Differenz verantwortlich. Reparaturen müssen innerhalb eines Monats nach dem gemeldeten Defekt abgeschlossen sein. Die Höchstsumme für die Reparaturkosten ist auf den Wert des neuen Geräts begrenzt. Spezifische Details der durch die Garantie abgedeckten Teile sind für den Motor, das Getriebe und die Achsen verfügbar."
+                }
+            },
+            "10": {
+                "title": "Artikel 10 – Mietbedingungen",
+                "list": {
+                    "1": "Wartung: Alle Mietverträge gelten als wartungsausschließlich, es sei denn, es wurde schriftlich anderes vereinbart. Wenn eine Vollwartung eingeschlossen ist, ist der Mieter für die Reifen, Gabeln, Sitze, Verschleißschäden, Versicherung und erforderliche periodische Inspektionen verantwortlich.",
+                    "2": "Finanzierung: Der Mieter ist für die Einrichtung einer Bankfinanzierung für die gemietete Ausrüstung verantwortlich.",
+                    "3": "Eigentum: Die Ausrüstung bleibt im Eigentum des Vermieters von der Lieferung bis zur Rückgabe.",
+                    "4": "Rückgabebedingungen: Der Mieter muss die Ausrüstung in einem ordnungsgemäßen Zustand zurückgeben und ist für alle erforderlichen Reparaturen verantwortlich, einschließlich Schläuche, Reifen, Kupplungen, Geländer, hydraulische Einheiten, Lackierung und andere beschädigte Teile.",
+                    "5": "Vorzeitige Vertragskündigung: Eine vorzeitige Vertragskündigung verursacht eine Strafe von 70 % der verbleibenden Mietzahlungen plus Rücktransportkosten.",
+                    "6": "Versicherung: Der Mieter muss die Ausrüstung gegen Diebstahl, Vandalismus, Feuer, Schäden, zivilrechtliche Haftung und Verkehrshaftung versichern.",
+                    "7": "Jährliche Überprüfung: Eine jährliche Überprüfung wird durchgeführt, um die Eignung des Vertrags auf der Grundlage der tatsächlichen Ausrüstungsnutzung zu bewerten. Wenn die Nutzung 100 Betriebsstunden pro Jahr übersteigt, wird der Vertrag automatisch an die tatsächliche Nutzung angepasst, einschließlich der Wartungskosten.",
+                    "8": "Überstunden: Zusätzliche Betriebsstunden werden zum aktuellen Satz berechnet, je nach Ausrüstung.",
+                    "9": "AZ MACHINERY-SL-Mietverträge: Eine vorzeitige Vertragskündigung eines AZ MACHINERY-SL-Mietvertrags verursacht eine Strafe von 70 % der verbleibenden Mietzahlungen plus Rücktransportkosten.",
+                    "10": "Kurzfristige Mieten: Kurzfristige Mietpreise basieren auf 8 Stunden/Tag und 5 Tagen/Woche und schließen den Transport, Betrieb, Treibstoff, Versicherung und Reinigung aus. Eine normale Nutzung erfordert keine Reinigung. Eine Reinigungsgebühr von 200 € wird berechnet, wenn eine Reinigung erforderlich ist. Eine Sicherheitsleistung von 1.250 € ist erforderlich (Banküberweisung oder Lastschrift). Der Mieter muss die Ausrüstung während der gesamten Mietdauer in Europa versichern, unabhängig vom Standort. Der Versicherungsschutz umfasst Maschinenschäden, Diebstahl, Lade- und Löschschäden, Transportschäden, Feuer und Umkippen/Kollisionen. Die Versicherungskosten sind die Verantwortung des Mieters und der Nachweis der Versicherung muss vor der Lieferung erbracht werden. Ein Selbstbehalt von 2.250 € gilt für Schäden und 7.500 € für Diebstahl. Der Vertrag gilt vom Startdatum bis zum Rückgabeantrag des Mieters. Alle Rückgabeanträge müssen schriftlich an contact[at]az-machinery.com gesendet werden, bis 10:00 Uhr des folgenden Geschäftstags nach dem gewünschten Enddatum. Der Mieter bleibt für die Ausrüstung für 96 Stunden nach dem Rückgabeantrag verantwortlich. AZ MACHINERY-SL behält sich das Recht vor, ein anderes Modell oder eine andere Ausrüstungskategorie bereitzustellen, wenn das gewünschte Modell nicht verfügbar ist.",
+                    "11": "Eingeschränkte Nutzung: Ausrüstung darf nicht für Sandstrahlen, die Handhabung von korrosiven oder chemischen Produkten oder die Handhabung von Zement verwendet werden."
+                }
+            },
+            "11": {
+                "title": "Artikel 11 – Haftung",
+                "list": {
+                    "1": "Begrenzte Haftung: Die Haftung des Verkäufers für Schäden, die direkt aus den Verpflichtungen dieses Vertrags entstehen, ist auf das gesetzlich erforderliche Maß beschränkt.",
+                    "2": "Ausschluss von wirtschaftlichen Schäden: Der Verkäufer ist nicht haftbar für wirtschaftliche Verluste, entgangene Gewinne, entgangene Umsätze oder andere direkte, indirekte oder Folgeschäden oder Ansprüche, die aus der Durchführung dieses Vertrags entstehen.",
+                    "3": "Keine Rechtsansprüche von Dritten: Wenn der Käufer von Dritten für Schäden haftbar gemacht wird, die durch einen Defekt der verkauften Gegenstände verursacht wurden, kann er keine Rechtsansprüche gegen den Verkäufer geltend machen."
+                }
+            },
+            "12": {
+                "title": "Artikel 12 – Rechnungstellung",
+                "list": {
+                    "1": "MwSt. & Preise: Preise sind ohne MwSt. (20 % französische MwSt. für ausländische Unternehmen mit Steuervertretung in Frankreich) angegeben. MwSt.-registrierte EU-Unternehmen zahlen eine MwSt.-Vorauszahlung bei Erstellung der Proforma-Rechnung. Diese Vorauszahlung wird auf die Zollabfertigungskosten (20 % des Materialwerts) angerechnet. Für MwSt.-registrierte Unternehmen wird die 20 % MwSt. selbst fakturiert gemäß EU-MwSt.-Richtlinie 21-1-a oder französischem Steuergesetz Artikel 283-1. Der Kunde muss eine gültige MwSt.-Nummer angeben, die der Bestellung und dem Zahlungskonto entspricht. Für Privatpersonen wird die MwSt.-Vorauszahlung wie angegeben angerechnet.",
+                    "2": "Rechnungserstellung: AZ MACHINERY SL stellt eine Anzahlungsrechnung oder eine vorläufige Rechnung (mit der Bezeichnung 'P') auf Antrag aus. Nach der Inspektion und Lieferung sowie Zahlung der Zollabgaben wird die endgültige Rechnung gesendet.",
+                    "3": "Änderungen der Rechnungstellung (2024): AZ MACHINERY SL ist nicht zur elektronischen Rechnungstellung als andorranisches Unternehmen verpflichtet. Um die Dinge zu vereinfachen, werden drei Kundengruppen eingeführt: A: Unternehmen in Andorra B: Unternehmen im französischen Festland C: Unternehmen in anderen europäischen Ländern, DOM-TOM und im Ausland",
+                    "4": "Rechnungstellung für Andorra (Gruppe A): Preise sind ohne MwSt. (4,5 % MwSt.) angegeben, einschließlich Zollabfertigungskosten. Eine Anzahlungsrechnung wird bereitgestellt und der Kunde muss den Nachweis der NRT-Gültigkeit erbringen. Die endgültige Rechnung wird nach der Inspektion und Lieferung ausgestellt.",
+                    "5": "Rechnungstellung für Frankreich (Gruppe B): Für Unternehmen, die nicht zur elektronischen Rechnungstellung verpflichtet sind, gelten die Regeln in den Abschnitten 12.1 und 12.2. Unternehmen, die zur elektronischen Rechnungstellung verpflichtet sind, müssen AZ MACHINERY SL ihre Plattform bei der Bestellung mitteilen und den Nachweis ihrer MwSt.-Nummer erbringen. Sie werden automatisch für die MwSt.-Selbstfakturierung in Rechnung gestellt. Jegliche zusätzlichen Kosten werden separat berechnet. Wenn keine Informationen bereitgestellt werden, ist eine Anzahlung von 20 % erforderlich, die innerhalb von 30 Tagen nach Erstellung der endgültigen Rechnung erstattet wird, sofern der Kunde dies beantragt. Ausnahmen: Reguläre Kunden (mehrfache Bestellungen oder Rechnungen im laufenden Jahr) sind von der Angabe ihrer MwSt.-Nummer befreit, Zollabfertigungskosten werden nicht berechnet und die MwSt. wird automatisch selbst fakturiert.",
+                    "6": "Rechnungstellung für andere Länder (Gruppe C): Unternehmen müssen den Nachweis der Ausfuhr (T1 oder anderes Dokument) für Waren, die Andorra oder die EU verlassen, erbringen. Nach Erhalt des Ausfuhrnachweises werden die Zollabfertigungskosten nicht berechnet und die MwSt. wird selbst fakturiert."
+                }
+            },
+            "13": {
+                "title": "Artikel 13 – Installation, Montage, Inbetriebnahme und Wartung",
+                "list": {
+                    "1": "Vor-Ort-Installation: Sofern nicht schriftlich anderes vereinbart wurde, wird der Kunde per E-Mail über den geplanten Installationszeitpunkt informiert. Der Kunde ist für die Bereitstellung des Zugangs zum Installationsort, die Handhabung von Ausrüstung für den Umzug, die Montage und Installation sowie die Bereitstellung einer Stromversorgung für Werkzeuge und die Verbindung von Geräten verantwortlich. Der Kunde muss die erforderlichen technischen Schächte oder Gruben gemäß den Empfehlungen von AZ MACHINERY-SL vorbereiten.",
+                    "2": "Unterauftragnehmer: AZ MACHINERY-SL kann lokale Unterauftragnehmer für die Installation je nach Standort einsetzen.",
+                    "3": {
+                        "0": "Installationszahlung: Die volle Zahlung für die Installation ist vor Beginn der Arbeiten fällig. Sobald die Zahlung eingegangen ist, plant AZ MACHINERY-SL die Installation basierend auf der Verfügbarkeit der Techniker.",
+                        "1": "Wartezeit: Der Kunde muss sicherstellen, dass die Techniker Zugang zu der Ausrüstung haben. Andernfalls werden Wartezeit, Reise- und Unterbringungskosten basierend auf den folgenden Sätzen berechnet:",
+                        "2": "Standardtechniker (mechanisch/hydraulisch): 97 €/Stunde",
+                        "3": "Elektriker: 127 €/Stunde",
+                        "4": "Reise: Tatsächliche Kosten",
+                        "5": "Unterkunft: 95 €/Nacht/Techniker",
+                        "6": "Vorbereitung des Installationsorts: Die Zeit, die für die Erlangung des Zugangs zum Installationsort, die Vorbereitung von Sicherheitsplänen, die Erlangung von Ausweispapieren und die Teilnahme an Sitzungen aufgewendet wird, wird mit den gleichen Sätzen wie die Wartezeit berechnet."
+                    },
+                    "4": "Inbetriebnahme: Die Inbetriebnahme wird durch die Techniker am Ende der Installation durchgeführt, bevor sie den Standort verlassen. Wenn ein Restbetrag fällig ist, muss der Kunde den Betrag zahlen und den Nachweis erbringen, bevor die Inbetriebnahme durchgeführt wird. Der Kunde ist für die Sicherung und Kennzeichnung der installierten Ausrüstung verantwortlich. Wenn der Kunde eine Konformitätsprüfung durch eine zertifizierte Behörde verlangt, muss er diese organisieren und bezahlen.",
+                    "5": "Bildrechte: Der Kunde erteilt AZ MACHINERY-SL die Erlaubnis, Bilder der installierten Ausrüstung für kommerzielle Zwecke, Schulungen und Produktverbesserungen zu verwenden, sofern nicht schriftlich anderes vereinbart wurde.",
+                    "6": "Wartung: Die Installation umfasst keine Wartung. Die Wartung wird als optionales Vertragsangebot ausschließlich für von AZ MACHINERY-SL installierte Ausrüstung angeboten."
+                }
+            },
+            "14": {
+                "title": "Artikel 14 – Aussetzung und Kündigung",
+                "list": {
+                    "1": "Aussetzung wegen Zahlungsverzug: Wenn die Rechnung nicht innerhalb der Frist (wie in Artikel 5.1 angegeben) vollständig bezahlt wird, hat der Verkäufer das Recht, neue oder bestehende Vereinbarungen mit dem Käufer auszusetzen.",
+                    "2": "Aussetzung wegen Vertragsverletzung: Der Verkäufer hat das Recht, den Vertrag auszusetzen, wenn nach Abschluss des Vertrags festgestellt wird, dass der Käufer wahrscheinlich nicht in der Lage ist, einen wesentlichen Teil seiner Verpflichtungen zu erfüllen, aufgrund einer erheblichen Verschlechterung seiner Fähigkeit, dies zu tun, eines Verlusts an Glaubwürdigkeit oder einer Verletzung der Bedingungen dieses Vertrags. Der Verkäufer muss den Käufer unverzüglich über die Aussetzung informieren.",
+                    "3": "Kündigung wegen vorheriger Verletzung: Wenn es vor der Durchführung des Vertrags offensichtlich wird, dass der Käufer eine wesentliche Verletzung begehen wird, hat der Verkäufer das Recht, den Vertrag zu kündigen."
+                }
+            },
+            "15": {
+                "title": "Artikel 15 – Verschiedenes",
+                "list": {
+                    "1": "Abtrennbarkeit: Wenn eine Bestimmung dieses Vertrags ungültig ist, bleiben die verbleibenden Bestimmungen in Kraft. Die Parteien werden zusammenarbeiten, um die ungültige Bestimmung durch eine gültige zu ersetzen, die ein ähnliches wirtschaftliches Ergebnis erzielt.",
+                    "2": "Vorrang von Bedingungen: Dieser Vertrag ersetzt alle allgemeinen oder spezifischen Bedingungen des Käufers. Jegliche widersprüchlichen Bedingungen, die vom Käufer vorgeschlagen werden, sind für den Verkäufer nicht bindend, es sei denn, sie werden schriftlich ausdrücklich akzeptiert.",
+                    "3": "Gesamteinigung: Dieser Vertrag ersetzt alle vorherigen Einigungen, Verträge, Vorschläge und Verpflichtungen in Bezug auf denselben Gegenstand, der in den spezifischen Bestellbedingungen beschrieben ist.",
+                    "4": "Geschäftstage: Geschäftstage im Sinne dieses Vertrags sind Montag bis Freitag, außer gesetzlichen Feiertagen.",
+                    "5": "Standard-Zollabfertigungskosten: Standard-Zollabfertigungskosten betragen 20 % des Materialwerts ohne MwSt.",
+                    "6": "Rechtliche Überprüfung: Diese allgemeinen Geschäftsbedingungen wurden von einer Rechtsfirma überprüft und validiert."
+                }
+            },
+            "16": {
+                "title": "Artikel 16 – Stornierung – Widerruf",
+                "list": {
+                    "1": "Bestätigung der Bestellung: Jegliche Bestätigung der Bestellung gilt als endgültig und bindend.",
+                    "2": "Verbraucherwiderrufsrecht: Verbraucher haben ein Widerrufsrecht von 7 Tagen, wenn die Bestellung vom Verkäufer angefordert wurde.",
+                    "3": "Bestätigungsmethoden: Die Bestätigung der Bestellung kann per Fax, E-Mail, Anzahlungsscheck, Kaufauftrag, Proforma-Rechnung, Angebot usw. erfolgen.",
+                    "4": "Kein Widerrufsrecht für Unternehmen: Es besteht kein Widerrufsrecht für Verkäufe oder Mieten an Unternehmen.",
+                    "5": "Stornogebühren: Wenn eine Bestellung storniert wird, muss der Kunde eine Mindeststornogebühr von 70 % des Materialwerts ohne MwSt. zahlen.",
+                    "6": "Anzahlungen: Anzahlungen oder vollständige Zahlungen, die bei der Bestellung geleistet wurden, werden vom Verkäufer als Stornogebühr einbehalten.",
+                    "7": "Anzahlung als Bestellungsauftrag: Jegliche Anzahlung gilt als Bestellungsauftrag für die spezifizierten Materialien, wie in Angebot, Quote oder Rechnung angegeben, zusammen mit diesen spezifischen Allgemeinen Geschäftsbedingungen. Eine Anzahlung eliminiert die Notwendigkeit einer schriftlichen Bestätigung der Bestellung.",
+                    "8": "MwSt.: Preise sind ohne MwSt. angegeben. Der anwendbare MwSt.-Satz hängt vom Standort des Käufers ab (4,5 % für andorranische Unternehmen, 20 % französische MwSt. für ausländische Unternehmen mit Steuervertretung in Frankreich). MwSt.-registrierte EU-Unternehmen werden mit der MwSt.-Selbstfakturierung in Rechnung gestellt. Eine gültige MwSt.-Nummer muss angegeben werden, die der Bestellung und dem Zahlungskonto entspricht. Ein Verstoß gegen diese Pflichten führt zur automatischen Stornierung der Bestellung."
+                }
+            },
+            "17": {
+                "title": "Artikel 17 – Bedingter Vertrag",
+                "list": "Wenn der Verkäufer dem Käufer Kredit gewährt, unterliegt der Vertrag der Bedingung, dass die Kreditgenehmigung von der Kreditinstitut innerhalb von 60 Kalendertagen nach Abschluss des Vertrags erteilt wird. Der Käufer muss den Verkäufer innerhalb von 15 Kalendertagen über die Entscheidung des Kreditinstituts informieren. Der Vertrag wird erst wirksam, wenn die Kreditgenehmigung erteilt wird. Wenn die Kreditgenehmigung nicht erteilt wird, ist der Vertrag ungültig und hat keine rechtliche Wirkung. In solchen Fällen hat der Käufer kein Recht, Schadensersatz zu fordern."
+            },
+            "18": {
+                "title": "Artikel 18 – Anwendbares Recht & Gerichtsstand",
+                "list": "Dieser Vertrag unterliegt dem andorranischen Recht, außer wenn ausdrücklich anders in den Allgemeinen oder Spezifischen Geschäftsbedingungen vorgesehen. Die Anwendung des Wiener Kaufrechtsübereinkommens"
+            },
+            "19": {
+                "title": "Artikel 19 – Gerichtsstand",
+                "list": "Jegliche Streitigkeit, die sich auf die Auslegung oder Durchführung dieser Allgemeinen Geschäftsbedingungen und der Spezifischen Geschäftsbedingungen bezieht, unterliegt der ausschließlichen Zuständigkeit der Gerichte am Sitz des Verkäufers."
+            }
+        }
     }
 }

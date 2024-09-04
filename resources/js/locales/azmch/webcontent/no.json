@@ -557,5 +557,254 @@
         "gab": "Helt galvanisert",
         "gao": "Helt galvanisert",
         "tb": "Overbygd tunnel"
+    },
+    "imprint": {
+        "title": "Informasjon",
+        "azm-france": "AZ Machinery Frankrike",
+        "address": "13 Rue de la scierie - 66340 Palau de Cerdagne, Frankrike",
+        "phone": {
+            "france": "Tlf.: (+33) 03 52 74 03 69",
+            "headquarter": "Tlf.: +376 390 036"
+        },
+        "siret": {
+            "1": "Siret: 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - Org.nr.: FR39"
+        },
+        "tva": "Org.nr.: FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Kapital 3 000.000 €",
+        "headquarter": "Hovedkontor: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - Registernummer: 16585",
+        "fiscal": "Skatteansvarlig for AZ MACHINERY i Frankrike:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Frankrike",
+        "ceo": "Ansvarlig redaktør: Jérôme GUIGUET",
+        "property": "Denne nettsiden respekterer opphavsretten. Alle rettigheter tilhører opphavsmennene til de på nettsiden reproduerte og offentliggjorte verkene. Enhver bruk av verkene annet enn til reprodusjon og individuell og privat anvendelse er forbudt uten tillatelse. Nettsiden az-machinery utgis av Ionos og driftes av selskapet Ionos."
+    },
+    "privacy": {
+        "title": {
+            "1": "Personvernspolicy",
+            "2": "Informasjon vi samler inn",
+            "3": "Cookies",
+            "4": "Bruk av data",
+            "5": "Dine rettigheter",
+            "6": "Kontakt oss"
+        },
+        "subtitle": {
+            "1": "Din personvern er viktig for oss"
+        },
+        "content": {
+            "1": "Hos AZ Machinery er vi engasjert i å beskytte din personvern. Denne personvernspolicyn forklarer hvordan vi samler inn, bruker og beskytter informasjon når du bruker våre tjenester.",
+            "2": "Som produsent og selger av lasteramper samler vi bare inn nødvendige personopplysninger for våre bedriftsaktiviteter. Bare informasjon som vi samler inn er gjennom Google Analytics og PostHog. Disse opplysningene hjelper oss å forstå hvordan vår nettside blir brukt og å forbedre våre tjenester.",
+            "3": "Vi bruker cookies for å forbedre din opplevelse på vår nettside. Vår GDPR-konforme cookiebanner gir deg informasjon om cookieene vi bruker og lar deg styre dine preferanser.",
+            "4": "Informasjonen vi samler inn brukes bare til analytiske formål og å forbedre våre produkter og tjenester. Vi selger ikke eller deler dine personopplysninger med tredjeparter uten din samtykke.",
+            "5": "I henhold til Den europeiske dataportefølge (GDPR) har du rett til å få tilgang til, rette eller slette dine personopplysninger. Hvis du har spørsmål eller bekymringer om dine opplysninger, kontakt oss.",
+            "6": "Hvis du har spørsmål om denne personvernspolicyn eller våre praksis for personvern, kontakt oss:"
+        },
+        "email": "E-post: contact[at]azmachinery.com",
+        "phone": "Telefon: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Vilkår og betingelser",
+        "subtitle": "Innledning",
+        "content": "Disse vilkårene og betingelsene regulerer forholdet mellom deg og AZ Machinery. Ved å få tilgang til eller bruke tjenestene våre, godtar du å overholde disse vilkårene.",
+        "article": {
+            "1": {
+                "title": "Artikkel 1 - Omfang",
+                "list": {
+                    "1": "Gjeldende avtale: Disse generelle vilkårene og betingelsene, sammen med eventuelle spesifikke bestillingsvilkår, regulerer forholdet mellom AZ MACHINERY-SL ('Selger') og kjøperen. Ved konflikt har spesifikke bestillingsvilkår forrang.",
+                    "2": "Ingen stilltiende fraskrivelse: Eventuelle endringer i disse vilkårene må være uttrykkelige, og selgers unnlatelse av å håndheve et vilkår på et gitt tidspunkt, utgjør ikke en fraskrivelse av det aktuelle vilkåret i fremtiden.",
+                    "3": "Aksept og tilgjengelighet: Kjøperen erkjenner og godtar disse generelle vilkårene og betingelsene, som er tilgjengelige på selgers nettsted (www.az-machinery.ch) og på side 2 og 3 i tilbud og proformafakturaer. Selgeren forbeholder seg retten til å endre disse vilkårene; kjøperens aksept antas etter 15 kalenderdager etter varsling dersom det ikke er noen innsigelser.",
+                    "4": "Ordrebekreftelse: Forsendelse fra selgeren innebærer aksept av bestillingen, med mindre annet er skriftlig avtalt.",
+                    "5": "Omfang: Disse vilkårene gjelder for salg i Andorra, Frankrike og internasjonalt."
+                }
+            },
+            "2": {
+                "title": "Artikkel 2 - Tilbud og bestillinger",
+                "list": {
+                    "1": "Tilbud og bindende avtale: Tilbud er gyldige i 30 dager, er udelelige og er kun forslag. Kun en proformafaktura utstedt av selgeren skaper en bindende avtale.",
+                    "2": "Kjøperinformasjon: Selgeren antar at informasjon, tegninger og dokumenter som er gitt av kjøperen, er korrekte. Hvis kjøperen oppgir delenummer, antar selgeren at disse er korrekte.",
+                    "3": "Produktspesifikasjoner: Illustrasjoner, dimensjoner, kapasiteter, vekt, priser og beskrivelser er kun ment som informasjon og er omtrentlige.",
+                    "4": "Maskinverifisering: Spesifikasjoner som løftehøyde, kapasitet, dimensjoner osv. er kun veiledende. Kjøperen er ansvarlig for å bekrefte disse før bestillingen bekreftes. Eventuelle avvik er kjøperens ansvar. Nytt utstyr selges EXW fra fabrikken eller et logistikksted med 12 måneders produsentgaranti. Brukt utstyr selges 'som det er', ikke-funksjonelt, uten garanti og anses kun for deler. Faglig inspeksjon og reparasjon er nødvendig før bruk.",
+                    "5": "Unntak: Tilbehør som gafler, sideskiftutstyr, posisjoneringsutstyr og rekkverk er ikke inkludert i salget med mindre det er uttrykkelig spesifisert.",
+                    "6": "Utstyr er tilgjengelig fra tilbudsdatoen, med forbehold om forhåndssalg."
+                }
+            },
+            "3": {
+                "title": "Artikkel 3 - Formål",
+                "list": {
+                    "1": "Leveringsomfang: De spesifikke varene som dekkes av denne avtalen (referert til som 'solgte varer'), er beskrevet i de spesifikke bestillingsvilkårene. Disse kan omfatte tilbehør, utstyr, verktøy, maskiner osv.",
+                    "2": "Kjøperens ansvar: Kjøperen er ansvarlig for å velge passende 'solgte varer', som er standardvarer med mindre de er tilpasset av selgeren på kjøperens forespørsel. Selgeren er ikke ansvarlig dersom de 'solgte varene' ikke oppfyller kjøperens spesifikke behov.",
+                    "3": "Priser: Prisen på de 'solgte varene' er beskrevet i de spesifikke bestillingsvilkårene ('kjøpesum'). Kjøpesummen er i euro, eksklusive moms, avgifter, import-/eksportavgifter og leverings-/hentekostnader. Installasjons- og igangkjøringskostnader er også ekskludert og er kjøperens ansvar.",
+                    "4": "Betalingsbetingelser: Det gis ingen rabatter for tidlig betaling. Gjeldende avgifter er de som gjelder på fakturadatoen. Priser og vilkår kan variere avhengig av kjøperens plassering. Se artikkel 12 (Fakturering) for detaljer."
+                }
+            },
+            "4": {
+                "title": "Artikkel 4 - Priser",
+                "list": {
+                    "1": "Kjøpesum: Prisen på de solgte varene ('kjøpesum') er spesifisert i de spesifikke bestillingsvilkårene. Kjøpesummen er i euro, eksklusive moms, avgifter, import-/eksportavgifter og leverings-/hentekostnader. Installasjons- og igangkjøringskostnader er også ekskludert og er kjøperens ansvar.",
+                    "2": "Ingen rabatter for tidlig betaling: Det gis ingen rabatter for tidlig betaling.",
+                    "3": "Gjeldende avgifter: Avgifter er de som gjelder på fakturadatoen.",
+                    "4": "Geografiske variasjoner: Priser og vilkår kan variere avhengig av kjøperens plassering. Se artikkel 12 (Fakturering) for detaljer."
+                }
+            },
+            "5": {
+                "title": "Artikkel 5 - Betalingsbetingelser",
+                "list": {
+                    "1": "Betaling ved kjøp: Med mindre annet er skriftlig avtalt, forfaller betaling for kjøpesummen og eventuelle tilhørende kostnader i sin helhet før levering via bankoverføring til kontoen oppgitt av selgeren, med henvisning til fakturadetaljene (filreferanse og proformafakturanummer). Selgeren kan kreve et depositum på 50 % ved bestilling for å reservere utstyret eller starte produksjonen.",
+                    "2": "Betalingsbekreftelse: Betaling anses først som fullført når selgeren har mottatt pengene. Levering skjer først etter full betaling av den tilsvarende proformafakturaen.",
+                    "3": "Sjekkbetalinger: Hvis selgeren godtar å motta en sjekk, anses betalingen først som fullført ved ubetinget mottak av pengene etter den lovbestemte sjekkclearingperioden.",
+                    "4": "Forsinket betaling: Forsinket betaling påløper automatisk renter til Banque de Frances diskontorente pluss 2 %, pluss eventuelle saksomkostninger.",
+                    "5": "Mislighold: Ved manglende betaling, konkurs, insolvens, oppløsning, avvikling, protest, stevning for betalingsmislighold, insolvensbehandling eller overføring av eiendeler, forfaller alle utestående beløp (inkludert beløp som skyldes tilknyttede selskaper) umiddelbart uten varsel. Selgeren kan si opp avtalen umiddelbart uten varsel og uten erstatningsansvar, samtidig som selgeren forbeholder seg retten til å kreve erstatning.",
+                    "6": "Fakturering til tredjepart: Dersom kjøperen ber om fakturering til en tredjepart, er kjøperen fortsatt solidarisk ansvarlig for alle forpliktelser. Den geografiske plasseringen til tredjeparten vil avgjøre eventuelle gjeldende kostnader.",
+                    "7": "Leiebetalinger: Leiebetalinger skjer via AvtaleGiro på forfallsdato. Den første betalingen trekkes ved inngåelse av leieavtalen.",
+                    "8": "Leiedokumenter: Leieavtaler krever kontonummer, legitimasjon, depositum (sjekk eller overføring), signert og stemplet AvtaleGiro-fullmakt og eventuelle andre dokumenter som utleier ber om før utstyret utleveres.",
+                    "9": "Returnerte betalinger: Returnerte AvtaleGiro-trekk blir forsøkt trukket på nytt 5 dager senere. Det belastes et gebyr på 15 euro for hver returnert betaling.",
+                    "10": "Andre returnerte betaling: En andre returnert betaling resulterer i et krav om full betaling av utestående fakturaer og retur av utstyr innen 3 dager. Returfraktkostnader og et gebyr på 70 % av resterende leiebetalinger for tidlig oppsigelse av kontrakten belastes.",
+                    "11": "Tilpassede bestillinger: For tilpassede bestillinger forfaller et depositum på 50 % ved bestilling, og de resterende 50 % forfaller ved ferdigstillelse av produksjonen. Kunden har 5 dager på seg til å betale restbeløpet etter varsling. Utlevering eller levering av utstyr skjer først etter at hele beløpet er mottatt. Forsinkelser i betaling resulterer i tilsvarende forsinkelser i utlevering av utstyr.",
+                    "12": "Lagring av usolgt utstyr: Det gis en gratis lagringsperiode på 10 dager etter varsling om at produksjonen er fullført. Kunden må betale restbeløpet og sørge for henting eller levering innen denne tiden. Etter 10 dager lagres utstyret på et logistikklager eller hos en tredjepartsleverandør, og lagringsgebyrer påløper.",
+                    "13": "Lagringsgebyrer: Lagringsgebyrer varierer avhengig av utstyrstype, størrelse og kompleksitet, kategorisert i 7 grupper med spesifikke dagspriser."
+                }
+            },
+            "6": {
+                "title": "Artikkel 6 - Overføring av eierskap og risiko",
+                "list": {
+                    "1": "Risikoovergang: Risikoen for tap av eller skade på de solgte varene overføres til kjøperen ved levering.",
+                    "2": "Eierskapsovergang: Eierskapet til de solgte varene overføres først når kjøpesummen og alle tilhørende kostnader er betalt i sin helhet. Inntil da er eierskapsovergangen suspendert.",
+                    "3": "Kjøperens forsikring: Inntil full eierskapsovergang er kjøperen forpliktet til å forsikre de solgte varene mot enhver risiko de måtte pådra seg eller forårsake, til minst verdien av kjøpesummen og tilhørende kostnader.",
+                    "4": "Immaterielle rettigheter: Kjøperen erkjenner at selgeren beholder eksklusivt eierskap til alle immaterielle rettigheter knyttet til de solgte varene, inkludert merkenavnet og logoen, og godtar å ikke gjøre krav på disse rettighetene."
+                }
+            },
+            "7": {
+                "title": "Artikkel 7 - Levering",
+                "list": {
+                    "1": "Leveringsbetingelser: Levering skjer EX-WORKS fra AZ MACHINERY-SLs fabrikk (Incoterms 2020) eller fra deres partneres lager, med mindre annet er skriftlig avtalt. Hvis levering til kjøperens plassering er avtalt, kan det gjøres i kjøperens fravær. Fraktbrevet fungerer som bevis på levering. Fortollingsgebyrer er ekskludert og faktureres separat med 20 % av den totale materialverdien etter levering.",
+                    "2": "Leveringstider: Leveringstider er estimater. Kjøperen kan ikke kreve erstatning eller nekte levering på grunn av forsinket levering eller selgers manglende evne til å oppfylle avtalen.",
+                    "3": "Start av leveringstid: Enhver avtalt leveringstid starter først etter at selgeren har all nødvendig informasjon og dokumenter for levering.",
+                    "4": "Erstatning for forsinket levering: Hvis erstatning for forsinket levering er skriftlig avtalt, må kjøperen formelt varsle selgeren om forsinkelsen og dokumentere tapet. Selgeren er ikke ansvarlig for forsinkelser på grunn av force majeure eller forsinkelser forårsaket av kjøperen. I sistnevnte tilfelle må kjøperen refundere selgeren for skader og kostnader. Force majeure inkluderer (men er ikke begrenset til) myndighetspålegg, mobilisering, krig, pandemier, epidemier, streik, defekter, branner, flom, eksplosjoner, mangel på materialer eller arbeidskraft, økonomiske endringer, skipsforsinkelser, religiøse høytider, hærverk og andre omstendigheter utenfor selgers kontroll. Erstatning for forsinket levering er begrenset til 0,5 % av kjøpesummen per hele uke etter den 21. virkedagen etter leveringsdatoen, opptil maksimalt 5 % av den totale kjøpesummen.",
+                    "5": "Ingen oppsigelse for forsinket levering: Kjøperen kan ikke si opp avtalen på grunn av forsinket levering fra selgeren.",
+                    "6": "Delvis levering og nektelse: Hvis en delvis levering er utført, og kjøperen nekter eller forhindrer ytterligere leveranser, forfaller beløpet for den leverte delen umiddelbart, og kjøperen er ansvarlig for skader, med minimum 70 % av kjøpesummen for den ikke-leverte delen.",
+                    "7": "Emballasje og frakt: Kjøperen er ansvarlig for emballerings- og fraktkostnader og sørger for henting på fabrikken i Tyrkia, Kina eller Europa. Hvis det ikke gis instruksjoner, sender selgeren varene ved mottak av betaling i kjøperens beste interesse. Forsikring tegnes kun på kjøperens uttrykkelige forespørsel og for kjøperens regning.",
+                    "8": "Leveringsinspeksjon: Kjøperen må inspisere varene ved levering. Hvis det ikke er notert reservasjoner på fraktbrevet, anses leveringen som akseptert.",
+                    "9": "Leveringsreservasjoner: Eventuelle reservasjoner som kjøperen gjør ved levering, gjelder speditøren, transportøren og fraktfører.",
+                    "10": "Forhåndsbetaling for levering: Ingen leveranser gjøres før full betaling av tilsvarende proformafaktura, med mindre annet er skriftlig avtalt.",
+                    "11": "Dokumentasjon: Ved materialsalg leveres kun fakturaen. For nytt utstyr leveres et CE-sertifikat og brukerhåndbok (på engelsk). Oversettelse er kjøperens ansvar. For brukt utstyr leveres det ingen samsvarserklæringer, periodiske inspeksjonsrapporter, vedlikeholdslogger eller håndbøker.",
+                    "12": "Lossing av materialer: Når AZ MACHINERY SL håndterer transport, skjer levering med 33-tonns trekkvogner eller containerbiler. Lossing er kjøperens ansvar ved ankomst til deres lokaler. Kjøperen må ha de nødvendige menneskelige og tekniske ressursene til å losse varene. Hvis lossing er umulig, forbeholder AZ MACHINERY SL seg retten til å lagre varene og belaste kjøperen for transport, sjåførens ventetid, immobilisering av chassis (250 euro/time) og et gebyr på 500 euro for manglende lossing."
+                }
+            },
+            "8": "Artikkel 8 - Retensjonsrett",
+            "list": "Ved manglende betaling har selgeren rett til å holde tilbake varer og dokumenter som er gitt av kjøperen, inntil full betaling av hovedstolen, renter, håndteringsgebyrer, transport- og lagringskostnader, frakt- og fortollingsgebyrer og andre tilhørende kostnader.",
+            "9": {
+                "title": "Artikkel 9 - Tilstand på solgte varer og garanti",
+                "list": {
+                    "1": "'Som den er'-tilstand: Nye og brukte varer selges 'som de er' og aksepteres av kjøperen ved levering.",
+                    "2": "Garantiunntak: Selgeren er ikke ansvarlig dersom: a) Kjøperen har reparert eller modifisert varen. b) Defekter skyldes feil bruk, misbruk eller bruk utenfor tiltenkt formål (f.eks. overbelastning, feil betjening, feil installasjon/vedlikehold).",
+                    "3": "Ingen retur/bytte: Varer kan ikke returneres eller byttes uten skriftlig avtale fra selgeren.",
+                    "4": "Garanti på nytt utstyr: Nytt utstyr leveres med 12 måneders produsentgaranti og et CE-sertifikat. Lossing, installasjon, igangkjøring og eventuelle nødvendige samsvarskontroller er kjøperens ansvar.",
+                    "5": "Garanti på brukt utstyr: Brukt utstyr selges 'som det er' uten garanti, med mindre annet er spesifisert. Hvis det tilbys garanti på brukt utstyr, dekker den motor, girkasse og aksler i 6 måneder. Alle andre deler selges 'som de er' uten garanti. Sikkerhetskontroller av et sertifisert organ og eventuelle nødvendige reparasjoner er kjøperens ansvar før bruk.",
+                    "6": "Garantidekning: Garantien dekker kun motor, girkasse og aksler. Batterier, hjul, rekkverk, hydraulikkenheter, slanger, tilbehør, sensorer og ladere er ekskludert. Garantien kan ikke overføres og er ugyldig dersom uautoriserte reparasjoner utføres. Reparasjoner under garanti utføres vanligvis på leverandørens verksted. Kjøperen er ansvarlig for frakt av utstyret eller defekte deler. Hvis en tekniker må reise, belastes kjøperen for reise- og oppholdskostnader. Garantien dekker ikke normal slitasje, skader på grunn av manglende vedlikehold, feil bruk eller hærverk.",
+                    "7": "Garantivedlikehold: Kjøperen må utføre alt forebyggende vedlikehold som anbefales av selgeren eller selgerens tjenesteleverandører, for å opprettholde garantien.",
+                    "8": "Garantibetingelser: Garantien gjelder i Andorra, Frankrike og internasjonalt, og bruker Andorras reservedelspriser. Den dekker mekaniske deler (som spesifisert i produsentens katalog) for motor, girkasse og aksler. Demontering og montering for feilsøking dekkes ikke. Garantien ekskluderer funksjonsfeil på grunn av forsettlige handlinger, ulykker, bøter, batterier, tilbehør og elektroniske komponenter. Den ekskluderer også skader der det ikke er tatt skritt for å forhindre forverring, reparasjoner utført av ukvalifisert personell og bruk utenfor de spesifiserte driftsparametrene. Garantien er ugyldig dersom kjøretøyet er modifisert uten selgerens godkjenning.",
+                    "9": "Garantiperiode: Nytt utstyr har 12 måneders produsentgaranti (36 måneder for Spania) som kun dekker deler. Brukt utstyr har 6 måneders garanti begrenset til 50 timers bruk. Garantien utløper etter 6 måneder eller når tidsgrensen er nådd (avhengig av hva som inntreffer først).",
+                    "10": "Garantikrav: Ved havari må kjøperen varsle selgeren skriftlig og per telefon innen 3 virkedager. Unnlatelse av å gjøre dette ugyldiggjør ethvert garantikrav. Kjøperen må ta skritt for å forhindre ytterligere skade, gi relevant informasjon og la selgeren inspisere problemet. Reparasjoner må godkjennes av selgeren før de utføres. Arbeidskostnader dekkes ikke. Selgeren kan be om en politirapport hvis det er nødvendig. Reparasjoner kan utføres med brukte deler ('byttestandard'). Selgeren forbeholder seg retten til å levere deler. Hvis reparasjonskostnadene overstiger garantidekningen, er kjøperen ansvarlig for differansen. Reparasjoner må være fullført innen én måned etter at feilen ble rapportert. Maksimal refusjon for reparasjon er begrenset basert på verdien av nytt utstyr. Spesifikke detaljer om deler som dekkes av garantien, er gitt for motor, girkasse og aksler."
+                }
+            },
+            "10": {
+                "title": "Artikkel 10 - Leiebetingelser",
+                "list": {
+                    "1": "Vedlikehold: Alle utleieforhold anses som vedlikeholdsekskludert med mindre annet er skriftlig avtalt. Hvis fullservicevedlikehold er inkludert, er leietaker ansvarlig for dekkskift, gafler, seter, slitasjeskader, forsikring og obligatoriske periodiske inspeksjoner.",
+                    "2": "Finansiering: Leietaker er ansvarlig for å ordne eventuell bankfinansiering for leid utstyr.",
+                    "3": "Eierskap: Utstyret forblir utleiers eiendom fra leveringstidspunktet til det returneres.",
+                    "4": "Returtilstand: Leietaker må returnere utstyret i god stand og er ansvarlig for eventuelle reparasjoner som er nødvendige for å gjenopprette det, inkludert slanger, dekk, tilhengerfeste, rekkverk, hydraulikkenheter, lakk og andre skadede deler.",
+                    "5": "Tidlig oppsigelse: Tidlig oppsigelse av en leieavtale medfører et gebyr på 70 % av resterende leiebetalinger pluss returtransportkostnader.",
+                    "6": "Forsikring: Leietaker må forsikre utstyret mot tyveri, hærverk, brann, skade, erstatningsansvar og trafikkansvar.",
+                    "7": "Årlig gjennomgang: Det gjennomføres en årlig gjennomgang for å vurdere avtalens egnethet basert på faktisk bruk av utstyret. Hvis bruken overstiger 100 timer årlig, justeres avtalen automatisk for å gjenspeile faktisk bruk, inkludert vedlikeholdskostnader.",
+                    "8": "Overtid: Ekstra brukstimer faktureres til gjeldende sats, avhengig av utstyret.",
+                    "9": "AZ MACHINERY-SLs leieavtaler: Tidlig oppsigelse av en AZ MACHINERY-SL-leieavtale medfører et gebyr på 70 % av resterende betalinger pluss returtransportkostnader.",
+                    "10": "Korttidsleie: Korttidsleiepriser er basert på 8 timer/dag og 5 dager/uke og ekskluderer transport-, drifts-, drivstoff-, forsikrings- og rengjøringsgebyrer. Normal bruk krever ikke rengjøring. Et rengjøringsgebyr på 200 euro belastes hvis rengjøring er nødvendig ved retur. Et depositum på 1 250 euro kreves (bankoverføring eller AvtaleGiro). Leietaker må forsikre utstyret i hele leieperioden, uavhengig av plassering i Europa. Dekningen inkluderer maskinhavari, tyveri, laste-/losseskader, transportskader, brann og velte-/kollisjonsskader. Forsikringskostnader er leietakers ansvar, og bevis på forsikring må fremlegges før levering. En egenandel på 2 250 euro gjelder for skader og 7 500 euro for tyveri. Avtalen gjelder fra startdatoen til leietaker ber om fjerning av utstyr. Alle forespørsler om fjerning må sendes på e-post til contact[at]az-machinery.com innen klokken 10.00 neste virkedag etter ønsket sluttdato. Leietaker er fortsatt ansvarlig for utstyret i 96 timer etter forespørselen om fjerning. AZ MACHINERY-SL forbeholder seg retten til å erstatte en annen modell eller kategori av utstyr hvis den forespurte modellen ikke er tilgjengelig.",
+                    "11": "Begrenset bruk: Utstyr kan ikke brukes til sandblåsing, håndtering av etsende eller kjemiske produkter eller håndtering av sement."
+                }
+            },
+            "11": {
+                "title": "Artikkel 11 - Ansvar",
+                "list": {
+                    "1": "Begrenset ansvar: Selgers ansvar for skader som oppstår direkte fra forpliktelsene som følger av denne avtalen, er begrenset til det som er lovpålagt.",
+                    "2": "Unntak av økonomiske tap: Selgeren er ikke ansvarlig for økonomiske tap, tapte fortjenester, tapte inntekter eller andre direkte, indirekte eller følgeskader eller krav som oppstår som følge av gjennomføringen av denne avtalen.",
+                    "3": "Ingen regress for krav fra tredjeparter: Hvis kjøperen blir holdt ansvarlig av tredjeparter for skader forårsaket av en mangel ved de solgte varene, kan kjøperen ikke kreve regress fra selgeren."
+                }
+            },
+            "12": {
+                "title": "Artikkel 12 - Fakturering",
+                "list": {
+                    "1": "Moms og priser: Prisene vises eksklusive moms (20 % fransk moms gjelder for utenlandske selskaper med skattemessig representasjon i Frankrike). Momsregistrerte EU-bedrifter betaler et momstilleggsbeløp ved utstedelse av proformafakturaen. Dette tilleggsbeløpet gjelder fortollingsgebyrer (20 % av materialverdien). For momsregistrerte bedrifter faktureres 20 % moms i henhold til EUs momssystem i samsvar med EUs momsdirektiv 21-1-a eller artikkel 283-1 i den franske skatteloven. Kunden må oppgi et gyldig momsnummer som samsvarer med den bestillende enheten og betalingskontoen. For privatpersoner gjelder momstilleggsbeløpet som det er.",
+                    "2": "Fakturautstedelse: AZ MACHINERY SL utsteder en depositumsfaktura eller en foreløpig faktura (merket 'P') på forespørsel. Etter inspeksjon og levering, og betaling av tollavgifter, sendes den endelige fakturaen.",
+                    "3": "Endringer i fakturering (2024): AZ MACHINERY SL er ikke underlagt elektronisk fakturering som et andorransk selskap. For å forenkle ting introduseres tre kundekategorier: A: Bedrifter i Andorra B: Bedrifter i Frankrike C: Bedrifter i andre europeiske land, DOM-TOM og utlandet",
+                    "4": "Fakturering for Andorra (gruppe A): Prisene vises eksklusive moms (4,5 % moms gjelder), inkludert fortollingsgebyrer. En depositumsfaktura leveres, og kunden må fremlegge bevis på gyldig NRT. Den endelige fakturaen utstedes etter inspeksjon og levering.",
+                    "5": "Fakturering for Frankrike (gruppe B): For bedrifter som ikke er underlagt elektronisk fakturering, gjelder reglene som beskrevet i punkt 12.1 og 12.2. Bedrifter som er underlagt elektronisk fakturering, må informere AZ MACHINERY SL om plattformen sin ved bestilling og fremlegge bevis på momsnummeret sitt. De vil automatisk bli fakturert for moms i henhold til EUs momssystem. Eventuelle tilleggskostnader faktureres separat. Hvis ingen informasjon oppgis, kreves et depositum på 20 %, som refunderes innen 30 dager etter at den endelige fakturaen er utstedt på forespørsel. - Unntak: Faste kunder (flere bestillinger eller fakturaer i inneværende år) er fritatt fra å oppgi momsnummeret sitt, fortollingsgebyrer belastes ikke, og moms faktureres automatisk i henhold til EUs momssystem.",
+                    "6": "Fakturering for andre steder (gruppe C): Bedrifter må fremlegge bevis på eksport (T1 eller annet dokument) for varer som forlater Andorra eller EU. Ved mottak av bevis på eksport belastes ikke fortollingsgebyrer, og moms faktureres i henhold til EUs momssystem."
+                }
+            },
+            "13": {
+                "title": "Artikkel 13 - Installasjon, montering, igangkjøring og vedlikehold",
+                "list": {
+                    "1": "Installasjon på stedet: Med mindre annet er spesifisert, varsles kunden om planlagt installasjonsdato via e-post. Kunden er ansvarlig for å gi tilgang til installasjonsstedet, håndtere utstyr for flytting, montering og installasjon, og sikre strømforsyning for tilkobling av verktøy og utstyr. Kunden må forberede nødvendige tekniske kanaler eller groper i henhold til AZ MACHINERY-SLs anbefalinger.",
+                    "2": "Utleie av underleverandører: AZ MACHINERY-SL kan bruke lokale underleverandører til installasjon avhengig av sted.",
+                    "3": {
+                        "0": "Betaling for installasjon: Full betaling for installasjon forfaller før arbeidet starter. Når betalingen er mottatt, planlegger AZ MACHINERY-SL installasjonen basert på teknikernes tilgjengelighet.",
+                        "1": "Ventetid: Kunden må sørge for at teknikere har prioritert tilgang til håndteringsutstyr. Ellers belastes ventetid, reise- og oppholdskostnader basert på følgende satser:",
+                        "2": "Standardtekniker (mekanisk/hydraulisk): 97 euro/time",
+                        "3": "Elektriker: 127 euro/time",
+                        "4": "Reise: Faktiske kostnader",
+                        "5": "Overnatting: 95 euro/natt/tekniker",
+                        "6": "Forberedelse av tilgang til stedet: Tid brukt på å få tilgang til stedet, utarbeide sikkerhetsplaner, skaffe adgangskort og delta på møter faktureres til samme satser som ventetid."
+                    },
+                    "4": "Igangkjøring: Igangkjøring utføres av teknikerne på slutten av installasjonen før avreise. Hvis det gjenstår et skyldig beløp, må kunden betale dette og fremlegge bevis før igangkjøring. Kunden er ansvarlig for å sikre og merke det installerte utstyret. Hvis kunden krever en samsvarskontroll fra et sertifisert organ, må de ordne og betale for dette selv.",
+                    "5": "Rettigheter til bilder: Med mindre annet er angitt, gir kunden AZ MACHINERY-SL tillatelse til å bruke bilder av det installerte utstyret til kommersielle formål, opplæring og produktforbedringer.",
+                    "6": "Vedlikehold: Installasjon inkluderer ikke vedlikehold. Vedlikehold tilbys som en valgfri avtale utelukkende for utstyr installert av AZ MACHINERY-SL."
+                }
+            },
+            "14": {
+                "title": "Artikkel 14 - Suspensjon og oppsigelse",
+                "list": {
+                    "1": "Suspensjon på grunn av manglende betaling: Hvis fakturaen ikke er betalt i sin helhet innen forfallsdato (i henhold til artikkel 5.1), har selgeren rett til å suspendere alle nye eller eksisterende avtaler med kjøperen.",
+                    "2": "Suspensjon på grunn av kontraktsbrudd: Selgeren har rett til å suspendere avtalen hvis det, etter inngåelse, anses som usannsynlig at kjøperen vil oppfylle en vesentlig del av sine forpliktelser på grunn av en betydelig reduksjon i deres evne til å gjøre det, tap av troverdighet eller unnlatelse av å overholde vilkårene i denne avtalen. Selgeren må varsle kjøperen umiddelbart om eventuell suspensjon.",
+                    "3": "Oppsigelse på grunn av forventet kontraktsbrudd: Hvis det blir klart for selgeren, før avtalen gjennomføres, at kjøperen vil begå et vesentlig kontraktsbrudd, har selgeren rett til å si opp avtalen."
+                }
+            },
+            "15": {
+                "title": "Artikkel 15 - Diverse",
+                "list": {
+                    "1": "Uavhengighet av bestemmelsene: Hvis noen av bestemmelsene i denne avtalen er ugyldige, forblir de resterende bestemmelsene gyldige. Partene skal samarbeide om å erstatte den ugyldige bestemmelsen med en gyldig bestemmelse som oppnår et lignende økonomisk resultat.",
+                    "2": "Forrang for disse vilkårene: Denne avtalen erstatter alle generelle eller spesifikke vilkår og betingelser fra kjøperen. Eventuelle motstridende vilkår foreslått av kjøperen, er ikke bindende for selgeren med mindre de er uttrykkelig akseptert.",
+                    "3": "Helhetlig avtale: Denne avtalen opphever og erstatter alle tidligere avtaler, kontrakter, forslag og forpliktelser knyttet til samme saksforhold som beskrevet i de spesifikke bestillingsvilkårene.",
+                    "4": "Virkedager: Virkedager i henhold til denne avtalen er mandag til fredag, unntatt lovbestemte helligdager.",
+                    "5": "Standard fortollingsgebyrer: Standard fortollingsgebyrer er 20 % av materialverdien eksklusive moms.",
+                    "6": "Juridisk gjennomgang: Disse generelle vilkårene og betingelsene er gjennomgått og godkjent av en juridisk enhet."
+                }
+            },
+            "16": {
+                "title": "Artikkel 16 - Avbestilling - Angrerett",
+                "list": {
+                    "1": "Ordrebekreftelse: Enhver ordrebekreftelse anses som endelig og bindende.",
+                    "2": "Forbrukers angrerett: Forbrukere har 7 dagers angrerett hvis bestillingen ble forespurt av selgeren.",
+                    "3": "Metoder for ordrebekreftelse: Ordrebekreftelse kan skje via faks, e-post, depositumsjekk, bestillingsordre, proformafaktura, tilbud osv.",
+                    "4": "Ingen angrerett for profesjonelle aktører: Angrerett gjelder ikke for salg eller utleie til profesjonelle aktører.",
+                    "5": "Avbestillingsgebyrer: Hvis en bestilling avbestilles, må kunden betale et avbestillingsgebyr på minimum 70 % av materialverdien eksklusive moms.",
+                    "6": "Depositum: Depositum eller fulle betalinger som er gjort ved bestilling, beholdes av selgeren som et avbestillingsgebyr.",
+                    "7": "Depositum som ordreaksept: Ethvert depositum utgjør ordreaksept av det/de spesifiserte materialet/materialene som beskrevet i tilbudet, pristilbudet eller fakturaen, sammen med disse spesifikke generelle salgsbetingelsene. Et depositum fungerer som en bestillingsordre og eliminerer behovet for skriftlig ordrebekreftelse.",
+                    "8": "Moms: Prisene vises eksklusive moms. Gjeldende momssats avhenger av kjøperens plassering (4,5 % for andorranske bedrifter, 20 % fransk moms for utenlandske selskaper med skattemessig representasjon i Frankrike). Momsregistrerte EU-bedrifter faktureres for moms i henhold til EUs momssystem. Et gyldig momsnummer må oppgis, som samsvarer med den bestillende enheten og betalingskontoen. Unnlatelse av å overholde disse forpliktelsene fører til automatisk kansellering av bestillingen."
+                }
+            },
+            "17": {
+                "title": "Artikkel 17 - Betinget avtale",
+                "list": "Hvis selgeren gir kreditt til kjøperen, er avtalen underlagt den oppfyllelseshindrende betingelsen om å innhente kredittgodkjenning fra kredittinstitusjonen innen 60 kalenderdager etter at avtalen ble inngått. Kjøperen må informere selgeren om kredittinstitusjonens avgjørelse innen 15 kalenderdager. Avtalen trer først i kraft når kredittgodkjenning er mottatt. Hvis kreditt ikke godkjennes, er avtalen ugyldig og har ingen rettslig virkning. I slike tilfeller har ikke kjøperen rett til å kreve erstatning."
+            },
+            "18": {
+                "title": "Artikkel 18 - Gjeldende lov og verneting",
+                "list": "Denne avtalen er underlagt andorransk lov, med unntak av der annet er uttrykkelig angitt i de generelle eller spesifikke vilkårene og betingelsene. Anvendelsen av Wien-konvensjonen"
+            },
+            "19": {
+                "title": "Artikkel 19 - Verneting",
+                "list": "Enhver tvist knyttet til tolkningen eller gjennomføringen av disse generelle vilkårene og betingelsene og de spesifikke vilkårene og betingelsene skal være underlagt den eksklusive jurisdiksjonen til domstolene der selgeren har sitt hovedkontor."
+            }
+        }
     }
 }

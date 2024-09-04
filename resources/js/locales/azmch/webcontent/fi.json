@@ -557,5 +557,256 @@
         "gab": "Täysin sinkitty",
         "gao": "Täysin sinkitty",
         "tb": "Katettu tunneli"
+    },
+    "imprint": {
+        "title": "Tietoa",
+        "azm-france": "AZ Machinery Ranska",
+        "address": "13 Rue de la scierie - 66340 Palau de Cerdagne, Ranska",
+        "phone": {
+            "france": "Puh.: (+33) 03 52 74 03 69",
+            "headquarter": "Puh.: +376 390 036"
+        },
+        "siret": {
+            "1": "Siret: 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - ALV-numero: FR39"
+        },
+        "tva": "ALV-numero: FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Pääoma 3 000.000 €",
+        "headquarter": "Pääkonttori: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - Rekisterinumero: 16585",
+        "fiscal": "AZ MACHINERY:n verotusvastuuhenkilö Ranskassa:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Ranska",
+        "ceo": "Päätoimittaja: Jérôme GUIGUET",
+        "property": "Tämä verkkosivusto noudattaa tekijänoikeuksia. Kaikki tämän verkkosivuston kautta julkaistujen ja saatavilla olevien teosten tekijöiden oikeudet on suojattu. Tekijänoikeudellisesti suojattujen teosten käyttö muuhun kuin yksityiseen ja yksilölliseen käyttöön on kielletty ilman lupaa. Verkkosivusto az-machinery on julkaistu Ionoksen toimesta ja se on Ionoksen vastuulla."
+    },
+    "privacy": {
+        "title": {
+            "1": "Yksityisyydensuojakäytäntö",
+            "2": "Tiedot, joita keräämme",
+            "3": "Evästeet",
+            "4": "Tietojen käyttö",
+            "5": "Oikeutesi",
+            "6": "Ota yhteyttä"
+        },
+        "subtitle": {
+            "1": "Yksityisyytesi on meille tärkeää"
+        },
+        "content": {
+            "1": "AZ Machineryssa olemme sitoutuneita suojelemaan yksityisyyttäsi. Tämä yksityisyydensuojakäytäntö kertoo, miten keräämme, käytämme ja suojelemme tietojasi, kun käytät palveluitamme.",
+            "2": "Kun olemme lastauslaitteiden valmistaja ja myyjä, keräämme vain välttämättömät henkilötiedot liiketoimintamme tarpeisiin. Keräämme tietoja vain Google Analyticsin ja PostHogin kautta. Nämä tiedot auttavat meitä ymmärtämään, miten verkkosivustomme käytetään ja parantamaan palveluitamme.",
+            "3": "Käytämme evästeitä parantamaan käyttökokemustasi verkkosivustollamme. GDPR-yhdenmukainen evästebanneri antaa sinulle tietoja evästeistä, joita käytämme, ja mahdollistaa sinun hallitsemaan asetuksiasi.",
+            "4": "Keräämämme tiedot käytetään vain analyyttisiin tarkoituksiin ja parantamaan tuotteitamme ja palveluitamme. Emme myy tai jaa henkilötietojasi kolmansille ilman suostumustasi.",
+            "5": "Euroopan unionin yleisen tietosuojalain mukaan sinulla on oikeus päästä käyttöösi henkilötietoihin, oikaista tai poistaa ne. Jos sinulla on kysymyksiä tai huolia tietojesi suhteen, ota yhteyttä meihin.",
+            "6": "Jos sinulla on kysymyksiä tästä yksityisyydensuojakäytännöstä tai tietosuojakäytännöistämme, ota yhteyttä meihin:"
+        },
+        "email": "Sähköposti: contact[at]azmachinery.com",
+        "phone": "Puhelin: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Ehdot ja säännöt",
+        "subtitle": " Johdanto",
+        "content": "Nämä ehdot ja säännöt määrittelevät suhteen sinun ja AZ Machinery:n välillä. Käyttämällä tai käyttämällä palveluitamme, hyväksyt nämä ehdot.",
+        "article": {
+            "1": {
+                "title": "Artikla 1 – Soveltamisala",
+                "list": {
+                    "1": "Hallinnollinen sopimus: Näiden yleisten ehtojen ja sääntöjen, sekä kaikkien erityisten tilauskohtien mukaisesti, määrittelevät suhteen AZ MACHINERY-SL ('Myyjä') ja ostajan välillä. Mikäli on ristiriitaa, erityiset tilauskohdat ovat ensisijaisia.",
+                    "2": "Ei oletettava luopuminen: Mikäli nämä ehdot muuttuvat, on muutokset oltava selkeästi ilmaistuja, eikä Myyjän toimettomuus mitään ehtoa koskien tulevaisuudessa määrittele.",
+                    "3": "Hyväksyminen ja saatavuus: Ostaja tunnustaa ja hyväksyy nämä yleiset ehdot ja säännöt, jotka ovat saatavilla Myyjän verkkosivustolla (www.az-machinery.ch) sekä tilauskohteiden ja proforma-laskujen sivuilla 2 ja 3. Myyjä pidättää oikeuden muuttaa näitä ehdoja, ostajan hyväksyminen oletetaan 15 kalenteripäivän kuluttua ilmoittamisesta, mikäli ei ole esitetty vastalauseita.",
+                    "4": "Tilausvahvistus: Myyjän toimittama tilausvahvistus merkitsee tilauksen hyväksymistä, mikäli ei ole toisin sovittu kirjallisesti.",
+                    "5": "Soveltamisala: Näitä ehtoja sovelletaan myyntiin Andorrassa, Ranskassa ja kansainvälisesti."
+                }
+            },
+            "2": {
+                "title": "Artikla 2 – Tarjoukset ja tilaukset",
+                "list": {
+                    "1": "Tarjoukset ja sitova sopimus: Tarjoukset ovat voimassa 30 päivää, eivätkä ne ole jaettavia, vaan pelkästään ehdotuksia. Vain Myyjän antama proforma-lasku luo sitovan sopimuksen.",
+                    "2": "Ostajan tiedot: Myyjä olettaa, että ostajan antamat tiedot, piirroskuva, ja asiakirjat ovat oikeita. Mikäli ostaja antaa osanumerot, Myyjä olettaa, että ne ovat oikeita.",
+                    "3": "Tuotekohtaiset tiedot: Piirroskuvat, mitat, kapasiteetit, painot, hinnat ja kuvaust ovat vain tietoa varten ja niiden arvot ovat suunnilleen.",
+                    "4": "Koneen tarkastus: Koneen ominaisuudet, kuten nostokorkeus, kapasiteetti, mitat jne. ovat vain ohjeellisia. Ostaja on vastuussa niiden tarkistamisesta ennen tilauksen vahvistamista. Mikäli on eroja, ne ovat ostajan vastuulla. Uudet koneet myydään EXW-tehokkaasta tai logistiikkakeskuksesta 12 kuukauden valmistajan takuulla. Käytetyt koneet myydään 'sellaisenaan', eivätkä ne ole toimivia, ilman takuuta ja ne otetaan huomioon vain varaosina. Ammattimainen tarkastus ja korjaus ovat välttämättömiä ennen käyttöönottoa.",
+                    "5": "Poissulkeumat: Tarvikkeet, kuten gaffelit, sivusiirto, asettimet ja kaiteet eivät ole myynnissä, ellei niin ole erikseen mainittu.",
+                    "6": "Koneet ovat saatavilla tarjouksen päivämäärästä lähtien, edellyttäen, että niitä ei ole myyty eteenpäin."
+                }
+            },
+            "3": {
+                "title": "Artikla 3 – Tarkoitus",
+                "list": {
+                    "1": "Toimituksen laajuus: Tämän sopimuksen mukaisesti toimitettavat erityiset kohdat (jotka kutsutaan 'Myydyiksi tuotteiksi') on kuvattu erityisissä tilauskohtaisissa ehdoissa. Niihin voi kuulua tarvikkeita, laitteita, työkaluja, koneita jne.",
+                    "2": "Ostajan vastuu: Ostaja on vastuussa valitsemassa oikeat 'Myydyt tuotteet', jotka ovat vakiotuotteita, ellei Myyjä ole muokannut niitä ostajan pyynnöstä. Myyjä ei ole vastuussa, jos 'Myydyt tuotteet' eivät täytä ostajan erityisiä tarpeita.",
+                    "3": "Hinta: 'Myytyjen tuotteiden' hinta on kuvattu erityisissä tilauskohtaisissa ehdoissa ('Ostohinta'). Ostohinta on euroissa, ilman ALV:ta, verot, tuonti-/vientitullit ja toimitus-/noudattamiskustannukset. Asennus- ja käyttöönoton kustannukset ovat myös erillisiä ja ovat ostajan vastuulla.",
+                    "4": "Maksuehdot: Ei ole etukäteen sovittuja alennuksia. Soveltuvat verot ovat ne, jotka ovat voimassa laskupäivänä. Hinnat ja ehdot voivat vaihdella ostajan sijainnin mukaan. Katso artikla 12 (Laskutus) lisätiedoksista."
+                }
+            },
+            "4": {
+                "title": "Artikla 4 – Hinta",
+                "list": {
+                    "1": "Ostohinta: 'Myytyjen tuotteiden' hinta ('Ostohinta') on kuvattu erityisissä tilauskohtaisissa ehdoissa. Ostohinta on euroissa, ilman ALV:ta, verot, tuonti-/vientitullit ja toimitus-/noudattamiskustannukset. Asennus- ja käyttöönoton kustannukset ovat myös erillisiä ja ovat ostajan vastuulla.",
+                    "2": "Ei etukäteen sovittuja alennuksia: Ei ole etukäteen sovittuja alennuksia.",
+                    "3": "Soveltuvat verot: Verot ovat ne, jotka ovat voimassa laskupäivänä.",
+                    "4": "Maantieteelliset vaihtelut: Hinnat ja ehdot voivat vaihdella ostajan sijainnin mukaan. Katso artikla 12 (Laskutus) lisätiedoksista."
+                }
+            },
+            "5": {
+                "title": "Artikla 5 – Maksuehdot",
+                "list": {
+                    "1": "Maksu ostamisen yhteydessä: Ellei kirjallisesti ole sovittu toisin, ostohinnan ja kaikkien siihen liittyvien kustannusten täydellinen maksu erääntyy ennen toimitusta pankkisiirtona Myyjän antamalle tilille, viitaten laskun tietoihin (tiedostoviite ja pro forma -laskun numero). Myyjä voi vaatia 50%:n ennakkomaksua tilauksen yhteydessä varustuksen varaamiseksi tai valmistuksen aloittamiseksi.",
+                    "2": "Maksuvahvistus: Maksu katsotaan suoritetuksi vasta, kun Myyjä on vastaanottanut rahat. Toimitus tapahtuu vasta, kun vastaava pro forma -lasku on maksettu kokonaisuudessaan.",
+                    "3": "Tšekkimaksut: Jos Myyjä suostuu hyväksymään tšekin, maksu katsotaan suoritetuksi vasta, kun rahat on vastaanotettu ehdoitta tšekin oikeudellisen selvitysajan jälkeen.",
+                    "4": "Viivästyneet maksut: Viivästyneet maksut tuottavat automaattisesti korkoa Banque de France'in ennakkomäärän plus 2% plus mahdolliset oikeudenkäyntikulut.",
+                    "5": "Oletusarvoinen: Jos maksua ei suoriteta, tapahtuu konkurssi, maksukyvyttömyys, purkautuminen, likvidaatio, protesti, maksuvaatimusten yhteydessä annettu tuomioistuinmääräys, maksukyvyttömyysmenettely tai omaisuuden siirto, kaikki erääntyneet summat (mukaan lukien seottujen yritysten velat) tulevat välittömästi erääntyviksi ilman ennakkoilmoitusta. Myyjä voi irtisanoa sopimuksen välittömästi ilman ennakkoilmoitusta ja ilman vastuuta vahingoista, mutta pidättää itsellään oikeuden vaatia vahingonkorvausta.",
+                    "6": "Kolmannen osapuolen laskutus: Jos ostaja pyytää laskun lähettämistä kolmannelle osapuolelle, he ovat edelleen solidaarisesti vastuussa kaikista velvoitteista. Kolmannen osapuolen maantieteellinen sijainti määrittää kaikki sovellettavat kustannukset.",
+                    "7": "Vuokramaksut: Vuokramaksut suoritetaan suoraveloituksena eräpäivänä. Ensimmäinen maksu peritään vuokrasopimuksen allekirjoittamisen yhteydessä.",
+                    "8": "Vuokrausasiakirjat: Vuokrasopimukset edellyttävät pankkitilitiliä, henkilöllisyystodistusta, vakuusmaksua (tšekki tai pankkisiirto), allekirjoitettua ja leimattua suoraveloituslupaa ja kaikkia muita asiakirjoja, joita vuokranantaja vaatii ennen varustuksen vapauttamista.",
+                    "9": "Palautetut maksut: Palautetut suoraveloitukset lähetetään uudelleen 5 päivän kuluttua. Jokaisen palautetun maksun yhteydessä veloitetaan € 15.",
+                    "10": "Toinen palautettu maksu: Toinen palautettu maksu johtaa vaatimukseen maksaa kaikki erääntyneet laskut ja palauttaa varustus 3 päivän kuluessa. Paluupostikulut ja 70%:n sakko jäljellä olevista vuokramaksuista varhaisen sopimuksen irtisanomisen vuoksi veloitetaan.",
+                    "11": "Mukautetut tilaukset: Mukautettujen tilausten osalta 50%:n ennakkomaksu erääntyy tilauksen tekohetkellä, ja loput 50% erääntyvät valmistuksen valmistuttua. Asiakkaalla on 5 päivää aikaa maksaa saldo ilmoituksen jälkeen. Varustuksen vapauttaminen tai toimitus tapahtuu vasta, kun täysi maksu on vastaanotettu. Maksuviivästykset johtavat vastaaviin viivästyksiin varustuksen vapauttamisessa.",
+                    "12": "Myymättömän varustuksen varastointi: 10 päivän ilmainen varastointiaika myönnetään valmistuksen valmistumisesta ilmoittamisen jälkeen. Asiakkaan on maksettava saldo ja järjestettävä nouto tai toimitus tämän ajan kuluessa. 10 päivän kuluttua varustus varastoidaan logistiikkakeskukseen tai kolmannen osapuolen palveluntarjoajan luo, ja varastointimaksut ovat voimassa.",
+                    "13": "Varastointimaksut: Varastointimaksut vaihtelevat varustuksen tyypin, koon ja monimutkaisuuden mukaan ja ne on jaettu 7 ryhmään, joilla on omat päivittäiset hinnat."
+                }
+            },
+            "6": {
+                "title": "Artikla 6 – Omistusoikeuden siirto ja riski",
+                "list": {
+                    "1": "Riskin siirto: Myydyistä tuotteista aiheutuvan vahingon tai menetyksen riski siirtyy ostajalle toimituksen yhteydessä.",
+                    "2": "Omistusoikeuden siirto: Myydyistä tuotteista omistusoikeus siirtyy vasta, kun ostaja on maksanut täysimääräisesti ostohinnan ja kaikkien liittyvien kustannusten. Ennen tätä omistusoikeuden siirto on pidätetty.",
+                    "3": "Ostajan vakuutus: Ennen omistusoikeuden siirtoa ostaja on velvollinen vakuuttamaan myydyt tuotteet kaikkia vastaan, jotka hän saattaa aiheuttaa tai luoda, vähintään ostohinnan ja liittyvien kustannusten arvoisesti.",
+                    "4": "Immateriaalioikeudet: Ostaja tunnustaa, että Myyjä säilyttää kaikki myydyihin tuotteisiin liittyvät immateriaalioikeudet, mukaan lukien tuotemerkki ja logo, ja sopii, ettei esitä näihin oikeuksiin liittyviä vaatimuksia."
+                }
+            },
+            "7": {
+                "title": "Artikla 7 – Toimitus",
+                "list": {
+                    "1": "Toimitusehdot: Toimitus on EX-WORKS Myyjän tehtaasta (Incoterms 2020) tai Myyjän kumppaneiden varastoista, ellei ole toisin sovittu kirjallisesti. Jos toimitus on sovittu ostajan sijaintipaikkaan, se voidaan tehdä ostajan poissa ollessa. Toimitustodistus toimii toimituksen todisteena. Tullimaksut ovat erillisiä ja laskutetaan erikseen 20 %:n arvonlisäverollisesta materiaalihinnasta toimituksen jälkeen.",
+                    "2": "Toimitusaika: Toimitusaika on arvioitu. Ostaja ei voi vaatia vahingonkorvausta tai hylätä toimitusta myöhästyneen toimituksen tai Myyjän kyvyttömyyden vuoksi täyttää sopimusta.",
+                    "3": "Toimitusajan alkaminen: Mikä tahansa sovittu toimitusaika alkaa vasta, kun Myyjä on saanut kaikki välttämättömät tiedot ja asiakirjat toimitusta varten.",
+                    "4": "Myöhästyneen toimituksen vahingot: Jos myöhästyneen toimituksen vahingot on sovittu kirjallisesti, ostaja on velvollinen ilmoittamaan Myyjälle myöhästymisestä ja toimittamaan todisteita vahingoista. Myyjä ei ole vastuussa myöhästymisistä, jotka johtuvat pakko-olosuhteista tai ostajan aiheuttamista myöhästymisistä. Jälkimmäisessä tapauksessa ostaja on velvollinen korvaamaan Myyjälle vahingot ja kustannukset. Pakko-olosuhteisiin kuuluvat (mutta eivät rajoitu) hallituksen määräykset, mobilisointi, sota, pandemit, epidemi, lakot, vikojen, tulipalot, tulvat, räjähdykset, raaka-aineiden tai työvoimapuutteet, taloudelliset muutokset, laivakatkot, uskonnolliset juhlat, vandalismi ja muut Myyjän valvonnan ulkopuolella olevat olosuhteet. Myöhästyneen toimituksen vahingot ovat rajoitettuja 0,5 %:iin ostohinnasta joka täysi viikko myöhästymisen jälkeen 21. liiketoimintapäivältä toimituspäivämäärästä, enintään 5 %:iin ostohinnasta.",
+                    "5": "Ei lopettamista myöhästyneen toimituksen vuoksi: Ostaja ei voi lopettaa sopimusta myöhästyneen toimituksen vuoksi.",
+                    "6": "Osittainen toimitus ja hylkääminen: Jos osittainen toimitus on tehty ja ostaja kieltäytyy tai estää lisätoimituksia, toimitetun osan hinta on maksettava välittömästi, ja ostaja on vastuussa vahingoista, vähintään 70 %:iin ostohinnasta toimitettavasta osasta.",
+                    "7": "Pakkaus ja kuljetus: Ostaja on vastuussa pakkaus- ja kuljetuskustannuksista ja järjestää noutamista tehtaasta Turkista, Kiinasta tai Euroopasta. Jos ei ole annettu ohjeita, Myyjä toimittaa tuotteet vastaanotettujen varojen mukaisesti ostajan parhaaksi. Vakuutus on tarjolla vain ostajan nimenomaisesta pyynnöstä ja kustannuksella.",
+                    "8": "Toimitustarkastus: Ostaja on velvollinen tarkastamaan tuotteet toimituksen yhteydessä. Jos ei ole mainittu varauksia toimitustodistuksessa, toimitus katsotaan olevan asianmukainen.",
+                    "9": "Toimitusvaraukset: Ostajan tekemät varaukset toimituksen yhteydessä koskevat kuljetusyhtiötä, kuljetusyritystä ja kuljettajaa.",
+                    "10": "Maksu toimituksen yhteydessä: Ei tehdä toimitusta ennen kuin vastaava proforma-lasku on maksettu täysimääräisesti, ellei ole toisin sovittu kirjallisesti.",
+                    "11": "Asiakirjat: Materiaalitoimituksiin toimitetaan vain lasku. Uusien koneiden kohdalla toimitetaan CE-sertifikaatti ja käyttöohje (englanniksi). Käännös on ostajan vastuulla. Käytettyjen koneiden kohdalla ei toimiteta yhdenmukaisuustodistuksia, säännöllisiä tarkastuksia, huolto-ohjeita eikä käyttöohjeita.",
+                    "12": "Lastauksen purku: Kun AZ MACHINERY SL hoitaa kuljetuksen, toimitus tapahtuu 33-tonnisten tautlinereiden tai konttien kautta. Lastauksen purku on ostajan vastuulla saapumisen jälkeen. Ostaja on vastuussa varmistamaan, että hänellä on tarvittavat ihmis- ja tekniset resurssit lastauksen purkamiseen. Jos purku on mahdotonta, AZ MACHINERY SL pidättää oikeuden säilyttää tuotteita ja laskuttaa ostajalle kuljetus-, odotus-, alusten immobilisaatio- (250 €/tunti) ja 500 €:n sakon purkamatta jättämisestä."
+                }
+            },
+            "8": {
+                "title": "Artikla 8 – Pidätysoikeus",
+                "list": "Maksamattomuuden tapauksessa myyjällä on oikeus pidättää ostajan toimittamat tavarat ja asiakirjat, kunnes pääoma, korko, käsittelymaksut, kuljetus- ja varastointikulut, rahtikulut ja tullimaksut sekä muut siihen liittyvät kustannukset on maksettu kokonaan."
+            },
+            "9": {
+                "title": "Artikla 9 – Myydyistä tuotteista ja takuusta",
+                "list": {
+                    "1": "'Sellaisenaan' -tila: Uudet ja käytetyt tuotteet myydään 'sellaisenaan' ja ostaja hyväksyy ne toimituksen yhteydessä.",
+                    "2": "Takuun rajoitukset: Myyjä ei ole vastuussa, jos: a) Ostaja on korjannut tai muuttanut tuotetta. b) Viat johtuvat väärinkäytöstä, väärästä käytöstä tai käytöstä ulkopuolella ilmoitetusta käyttötarkoituksesta (esim. ylikuormitus, väärä käyttö, riittämätön huolto).",
+                    "3": "Ei palautuksia/vaihtoja: Tuotteita ei voida palauttaa/vaihtaa ilman Myyjän kirjallista suostumusta.",
+                    "4": "Uusien koneiden takuu: Uudet koneet myydään 12 kuukauden valmistajan takuulla ja CE-sertifikaatilla. Toimitus, asennus, käyttöönotto ja tarvittavat yhdenmukaisuustarkastukset ovat ostajan vastuulla.",
+                    "5": "Käytettyjen koneiden takuu: Käytetyt koneet myydään 'sellaisenaan' ilman takuuta, ellei toisin ole sovittu. Jos käytetyn koneen takuu on tarjolla, se kattaa moottorin, vaihteiston ja akselin 6 kuukauden ajan. Kaikki muut osat myydään 'sellaisenaan' ilman takuuta. Turvallisuustarkastukset sertifioitujen toimijoiden toimesta ja tarvittavat korjaukset ovat ostajan vastuulla ennen käyttöönottoa.",
+                    "6": "Takuun kattavuus: Takuu kattaa vain moottorin, vaihteiston ja akselin. Akut, renkaat, kaiteet, hydrauliset yksiköt, letkut, lisävarusteet, sensorit ja latauslaitteet ovat poissuljettuja. Takuu ei ole siirrettävissä eikä se ole voimassa, jos tehdään epävirallisia korjauksia. Takuukorjaukset tehdään yleensä toimittajan työpajassa. Ostaja on vastuussa toimittamasta tuotteita tai viallisia osia. Jos teknikkoliikkua on tarpeen, kuljetus- ja majoituskustannukset laskutetaan ostajalle. Takuu ei kata normaalia kulumista, vikoja huollon puutteesta, väärinkäytöstä tai vandalismista.",
+                    "7": "Takuun ylläpito: Ostaja on velvollinen suorittamaan kaikki ennaltaehkäisevät huollot, jotka Myyjä tai sen palveluntarjoajat suosittelevat, jotta takuu säilyy.",
+                    "8": "Takuuehdot: Takuu on voimassa Andorrassa, Ranskassa ja kansainvälisesti käyttäen Andorran varaosien hintoja. Se kattaa mekaaniset osat (kuten valmistajan luettelossa on mainittu) moottorille, vaihteistolle ja akselille. Purkaminen ja uudelleenkokoonpano vianetsintää varten eivät ole kattavissa. Takuu sulkee pois vikojen aiheuttamisen tahallisesta toiminnasta, onnettomuuksista, sakkoista, akusta, lisävarusteista ja sähköisistä osista. Se sulkee myös pois vahingot, joita ei ole estetty tarvittavilla toimilla, korjaukset pätevittämättömiltä henkilöiltä ja käyttö ulkopuolella spesifioitujen käyttöolosuhteita. Takuu on mitätön, jos ajoneuvoa on muutettu ilman Myyjän suostumusta.",
+                    "9": "Takuuaika: Uusien koneiden takuu kestää 12 kuukautta (36 kuukautta Espanjassa) vain osia koskien. Käytettyjen koneiden takuu kestää 6 kuukautta ja on rajattu 50 tuntiin. Takuu päättyy 6 kuukauden kuluttua tai kun aikaraja on saavutettu (kumpi tahansa ensin).",
+                    "10": "Takuuväitteet: Vian sattuessa ostaja on velvollinen ilmoittamaan Myyjälle kirjallisesti ja puhelimitse 3 liiketoimintapäivän kuluessa. Mikäli ei ilmoiteta, takuuvaatimus mitätöityy. Ostaja on velvollinen estämään lisävahinkoja, antamaan asiaa koskevat tiedot ja sallima Myyjän tarkastaa asian. Korjaukset on hyväksyttävä Myyjän toimesta ennen niiden suorittamista. Työkustannukset eivät ole kattavissa. Myyjä voi pyytää poliisiraporttia, jos tarpeen. Korjaukset voidaan tehdä käytetyillä osilla ('vaihtostandardi'). Myyjä pidättää oikeuden toimittaa osat. Jos korjauskustannukset ylittävät takuun kattavuuden, ostaja on vastuussa eroista. Korjaukset on suoritettava yhden kuukauden kuluessa ilmoitetusta vian sattumisesta. Maksimikorvaus on rajattu uuden koneen arvoon. Yksityiskohtaiset tiedot takuun kattavista osista ovat saatavilla moottorille, vaihteistolle ja akselille."
+                }
+            },
+            "10": {
+                "title": "Artikla 10 – Vuokraehdot",
+                "list": {
+                    "1": "Huolto: Kaikki vuokrasopimukset ovat huoltovapaita, ellei toisin ole sovittu kirjallisesti. Jos täysi huolto on mukana, vuokralainen on vastuussa renkaanvaihdosta, gaffelista, istuimista, kulutus- ja vahinkovaurioista, vakuutuksesta ja pakollisista säännöllisistä tarkastuksista.",
+                    "2": "Rahoitus: Vuokralainen on vastuussa järjestämään pankkirahoitusta vuokrattavalle koneelle.",
+                    "3": "Omistusoikeus: Kone on Myyjän omistuksessa toimituksesta palauttamiseen saakka.",
+                    "4": "Palautusehdot: Vuokralainen on velvollinen palauttamaan koneen hyvässä käyttökunnossa ja on vastuussa kaikista tarvittavista korjaustöistä, mukaan lukien letkut, renkaat, liittimet, kaiteet, hydrauliset yksiköt, maalaus ja muut vahingonkärsineet osat.",
+                    "5": "Ennenaikainen päättäminen: Ennenaikainen päättäminen vuokrasopimuksesta aiheuttaa sakon 70 %:iin jäävistä vuokrakustannuksista sekä palautuskustannuksista.",
+                    "6": "Vakuutus: Vuokralainen on velvollinen vakuuttamaan koneen varkauden, vandalismiin, tulipalon, vahinkojen, siviilioikeuden ja liikennevastuun kattavaksi.",
+                    "7": "Vuotuinen tarkastus: Vuotuinen tarkastus tehdään, jotta arvioida sopimuksen sopivuutta reaalisten koneiden käyttötietojen perusteella. Jos käyttö ylittää 100 tuntia vuodessa, sopimus muutetaan automaattisesti reaalisten käyttötietojen mukaan, mukaan lukien huoltokustannukset.",
+                    "8": "Ylityö: Ylityö maksetaan käyttöön liittyvien tuntien mukaan, riippuen koneen tyyppistä.",
+                    "9": "AZ MACHINERY-SL:n vuokrasopimukset: Ennenaikainen päättäminen AZ MACHINERY-SL:n vuokrasopimuksesta aiheuttaa sakon 70 %:iin jäävistä vuokrakustannuksista sekä palautuskustannuksista.",
+                    "10": "Lyhytaikaiset vuokrasopimukset: Lyhytaikaiset vuokrasopimukset perustuvat 8 tuntiin päivässä ja 5 päivään viikossa, eikä ne sisällä kuljetusta, käyttöä, polttoainetta, vakuutusta eikä siivoustöitä. Normaali käyttö ei edellytä siivoustöitä. Siivoustyöt maksavat 200 €, jos niitä tarvitaan. 1250 €:n takuumaksu on pakollinen (pankkisiirto tai suora veloitus). Vuokralainen on velvollinen vakuuttamaan koneen koko vuokra-ajan ajan Euroopassa, riippumatta sijainnista. Vakuutus kattaa koneen rikkoutumisen, varkauden, lastauksen/purkamisen vahingot, kuljetusvahingot, tulipalon ja kaatumisen/kolarin. Vakuutuskustannukset ovat vuokralaisen vastuulla, ja vakuutustodisteen on toimitettava ennen toimitusta. 2250 €:n omavastuu on vahingonkorvauksessa ja 7500 € varkaudessa. Sopimus on voimassa alkaen sopimuspäivämäärästä vuokralaisen pyynnöstä koneen palauttamisesta. Kaikki palautuspyynnöt on lähetettävä sähköpostitse contact[at]az-machinery.com klo 10:00 mennessä seuraavana työpäivänä toivottuun päättymispäivämäärään. Vuokralainen on vastuussa koneesta 96 tuntia palautuspyynnön jälkeen. AZ MACHINERY-SL pidättää oikeuden korvata toinen malli tai koneen tyyppi, jos toivottu malli ei ole saatavilla.",
+                    "11": "Rajoitettu käyttö: Koneita ei saa käyttää hiekkapuhallukseen, korroosiokestävien tai kemiallisten tuotteiden käsittelyyn tai sementin käsittelyyn."
+                }
+            },
+            "11": {
+                "title": "Artikla 11 – Vastuu",
+                "list": {
+                    "1": "Rajoitettu vastuu: Myyjän vastuu vahingoista, jotka johtuvat tämän sopimuksen mukaisista velvoitteiden täyttämisestä, on rajoitettu lain säätelemällä tavalla.",
+                    "2": "Ei taloudellisia vahinkoja: Myyjä ei ole vastuussa taloudellisista vahingoista, kuten tulojen menetyksestä, myyntitulojen menetyksestä tai muista suorista, epäsuorista tai seuraamuksellisista vahingoista tai vaatimuksista, jotka johtuvat tämän sopimuksen täyttämisestä.",
+                    "3": "Ei kolmannen osapuolen vaatimuksia: Jos ostaja on vastuussa kolmannen osapuolen vahingoista, jotka johtuvat myydyistä tuotteista, hän ei voi esittää vaatimuksia Myyjää vastaan."
+                }
+            },
+            "12": {
+                "title": "Artikla 12 – Laskutus",
+                "list": {
+                    "1": "ALV ja hinnat: Hinnat näytetään ilman ALV:ta (20 %:n Ranskan ALV soveltuu ulkomaalaisiin yrityksiin, joilla on verotarkastaja Ranskassa). ALV-rekisteröidyille EU-yrityksille maksetaan ALV-etuus laskun antamisen yhteydessä. Tämä etuus soveltuu tullimaksujen laskutukseen (20 %:iin materiaalin arvosta). ALV-rekisteröidyille yrityksille soveltuu 20 %:n ALV itse, EU:n ALV-direktiivin 21-1-a mukaan tai Ranskan verolain 283-1 §:n mukaan. Asiakkaan on toimitettava voimassa oleva ALV-numero, joka vastaa tilausta ja maksutiliä. Yksityishenkilöiden osalta soveltuu ALV-etuuksia samalla tavalla.",
+                    "2": "Laskun antaminen: AZ MACHINERY SL antaa ennakkomaksulaskun tai väliaikaisen laskun (merkitty 'P') pyynnöstä. Tarkastuksen, toimituksen ja tullimaksujen maksamisen jälkeen lasketaan lopullinen lasku.",
+                    "3": "Laskutuksen muutokset (2024): AZ MACHINERY SL ei ole velvollinen sähköiseen laskutukseen Andorran yrityksenä. Yksinkertaisuuden vuoksi on luotu kolme asiakasluokkaa: A: Yritykset Andorrassa B: Yritykset Ranskassa C: Yritykset muissa Euroopan maissa, DOM-TOM ja ulkomailla",
+                    "4": "Laskutus Andorrassa (ryhmä A): Hinnat näytetään ilman ALV:ta (4,5 %:n ALV). Ennakkomaksulasku annetaan, ja asiakkaan on toimitettava NRT:n voimassaoloa osoittava asiakirja. Lopullinen lasku annetaan tarkastuksen ja toimituksen jälkeen.",
+                    "5": "Laskutus Ranskassa (ryhmä B): Yrityksille, jotka eivät ole velvollisia sähköiseen laskutukseen, sovelletaan kohtia 12.1 ja 12.2. Yrityksille, jotka ovat velvollisia sähköiseen laskutukseen, on ilmoitettava AZ MACHINERY SL:lle heidän alustansa tilauksen yhteydessä ja toimitettava ALV-numeron todiste. Heille laskutetaan automaattisesti ALV itse. Mahdolliset lisäkulut laskutetaan erikseen. Jos ei ole annettu tietoja, on vaadittu 20 %:n ennakkomaksu, joka on palautettavissa 30 päivän kuluessa lopullisen laskun antamisesta pyynnöstä. Poikkeukset: Säännölliset asiakkaat (useat tilaukset tai laskut nykyisen vuoden aikana) ovat vapautuneet ALV-numeron toimittamisesta, tullimaksut eivät ole laskutettavissa ja ALV on laskutettu itse.",
+                    "6": "Laskutus muissa maissa (ryhmä C): Yritysten on toimitettava vientitodistus (T1 tai muu asiakirja) tuotteiden Andorran tai EU:n ulkopuolelle vientiin. Vientitodistuksen saamisen jälkeen tullimaksut eivät ole laskutettavissa ja ALV on laskutettu itse."
+                }
+            },
+            "13": {
+                "title": "Artikla 13 – Asennus, kokoonpano, käyttöönotto ja huolto",
+                "list": {
+                    "1": "Asennus: Ellei ole toisin sovittu, asiakas ilmoitetaan sähköpostitse asennuspäivämäärästä. Asiakas on velvollinen varmistamaan asennuspaikan saatavuuden, huolehtimaan laitteiden siirtämisestä, asennuksesta ja käyttöönotosta sekä varmistamaan sähköyhteyden työkaluille ja laitteille. Asiakas on velvollinen valmistelemaan tarvittavat tekniset kanavat tai kaivot AZ MACHINERY-SL:n suositusten mukaisesti.",
+                    "2": "Alamyynti: AZ MACHINERY SL voi käyttää paikallisia alamyyntiä asennuksessa riippuen sijainnista.",
+                    "3": {
+                        "0": "Asennusmaksu: Asennusmaksu on maksettava ennen työn aloittamista. Kun maksu on vastaanotettu, AZ MACHINERY SL suunnittelee asennuksen työntekijöiden saatavuuden mukaan.",
+                        "1": "Odotusaika: Asiakkaan on varmistettava, että työntekijät saavat prioriteettiohjauksen laitteiden käsittelyyn. Muussa tapauksessa odotusaika, matkakulut ja majoituskulut laskutetaan seuraavien sääntöjen mukaan:",
+                        "2": "Standardi työntekijä (mekaaninen/hydraulinen): 97 €/tunti",
+                        "3": "Sähköasentaja: 127 €/tunti",
+                        "4": "Matkakulut: Todelliset kulut",
+                        "5": "Majoituskulut: 95 €/yö/työntekijä",
+                        "6": "Asennuspaikan valmistelu: Aika, joka on käytetty asennuspaikan valmisteluun, turvallisuussuunnitelmien laatimiseen, määrkittyjen henkilöiden saatamiseen ja kokouksiin osallistumiseen, laskutetaan samalla tavalla kuin odotusaika."
+                    },
+                    "4": "Käyttöönotto: Käyttöönotto tehdään työntekijöiden toimesta asennuksen lopussa ennen lähtöä. Jos on maksettava saldo, asiakkaan on maksettava saldo ja toimitettava todiste ennen käyttöönottoa. Asiakas on vastuussa asennettujen laitteiden turvallisuudesta ja merkinnöistä. Jos asiakas vaatii sertifioidun toimijan suorittamaa yhdenmukaisuustarkastusta, hän on vastuussa sen järjestämisestä ja maksamisesta.",
+                    "5": "Kuvaoikeudet: Ellei ole toisin sovittu, asiakas antaa AZ MACHINERY SL:lle luvan käyttää asennettujen laitteiden kuvia kaupallisissa tarkoituksissa, koulutuksessa ja tuotekehityksessä.",
+                    "6": "Huolto: Asennus ei sisällä huoltoa. Huolto on tarjolla valinnaiseen sopimukseen vain AZ MACHINERY-SL:n asentamille laitteille."
+                }
+            },
+            "14": {
+                "title": "Artikla 14 – Keskeytys ja päättäminen",
+                "list": {
+                    "1": "Keskeytys maksamattomuuden vuoksi: Jos lasku ei ole maksettu täysimääräisesti 15 päivän kuluessa (kohta 5.1), Myyjällä on oikeus keskeyttää kaikki uudet tai olemassa olevat sopimukset ostajan kanssa.",
+                    "2": "Keskeytys sopimuksen rikkomisen vuoksi: Myyjällä on oikeus keskeyttää sopimus, jos sen jälkeen, kun se on solmittu, ostaja ei ole todennäköisesti kykenevä täyttämään merkittävää osaa sopimuksen mukaista velvoitteistaan. Myyjä ilmoittaa ostajalle keskeytyksestä välittömästi.",
+                    "3": "Päättäminen odotetun rikkomisen vuoksi: Jos Myyjä havaitsee ennen sopimuksen solmimista, että ostaja aikoo tehdä merkittävän rikkomisen, Myyjällä on oikeus päättää sopimus."
+                }
+            },
+            "15": {
+                "title": "Artikla 15 – Muut",
+                "list": {
+                    "1": "Erikoissäännöt: Jos jokin sääntö on mitätön, muut säännöt pysyvät voimassa. Osapuolet työskentelevät yhdessä, jotta korvata mitätön sääntö voimassaolevalla säännöllä, joka saavuttaa samanlaisen taloudellisen tuloksen.",
+                    "2": "Ensisijaiset säännöt: Tämä sopimus korvaa kaikki ostajan yleiset ja erityiset säännöt. Mikäli ostaja ehdottaa ristiriitaisia sääntöjä, ne eivät ole Myyjälle sitovia ellei ne ole nimenomaisesti hyväksytty.",
+                    "3": "Kokonaisuussopimus: Tämä sopimus korvaa kaikki aiemmat sopimukset, kontraktit, ehdotukset ja sitoumukset, jotka liittyvät samaan aiheeseen kuin erityisissä tilauskohtaisissa ehdoissa on kuvattu.",
+                    "4": "Liiketoimintapäivät: Liiketoimintapäivät tämän sopimuksen tarkoituksessa ovat maanantai - perjantai, pois lukien pyhäpäivät.",
+                    "5": "Oletusarvon tullimaksut: Oletusarvon tullimaksut ovat 20 %:iin materiaalin arvosta.",
+                    "6": "Oikeudellinen tarkastus: Nämä yleiset ehdot ja säännöt on tarkastettu ja vahvistettu oikeudellisesti."
+                }
+            },
+            "16": {
+                "title": "Artikla 16 – Peruutus - Palautus",
+                "list": {
+                    "1": "Tilausvahvistus: Kaikki tilausvahvistukset ovat lopullisia ja sitovia.",
+                    "2": "Kuluttajien peruutusoikeus: Kuluttajilla on 7 päivän peruutusoikeus, jos tilaus oli Myyjän aloitteesta.",
+                    "3": "Tilausvahvistusmenetelmät: Tilausvahvistus voidaan tehdä faksilla, sähköpostilla, ennakkomaksulla, ostotilauksella, proforma-laskulla, tarjouksella jne.",
+                    "4": "Ei peruutusoikeutta yrityksille: Yrityksillä ei ole peruutusoikeutta.",
+                    "5": "Peruutusmaksut: Jos tilaus peruutetaan, asiakkaan on maksettava vähintään 70 %:iin materiaalin arvosta peruutusmaksuna.",
+                    "6": "Ennakkomaksut: Ennakkomaksut tai täysimääräiset maksut, jotka on tehty tilauksen yhteydessä, pidätetään Myyjän toimesta peruutusmaksuna.",
+                    "7": "Ennakkomaksu tilausvahvistuksena: Jokainen ennakkomaksu on tilausvahvistus spesifioitujen materiaalien osalta, kuten on kuvattu tarjouksessa, hinnassa tai laskussa, yhdessä näiden yleisten myynti- ja ostosääntöjen kanssa. Ennakkomaksu on ostotilaus ja poistaa tarpeen kirjallisesta tilausvahvistuksesta.",
+                    "8": "ALV: Hinnat näytetään ilman ALV:ta. Soveltuvat verot ovat ne, jotka ovat voimassa laskupäivänä. ALV-rekisteröidyille EU-yrityksille maksetaan ALV-etuuksia. Asiakkaan on toimitettava voimassa oleva ALV-numero, joka vastaa tilausta ja maksutiliä. Mikäli ei toimiteta tietoja, peruutetaan tilaus automaattisesti."
+                }
+            },
+            "17": {
+                "title": "Artikla 17 – Ehdollinen sopimus",
+                "list": "Jos Myyjä antaa ostajalle luoton, sopimus on ehdollinen luoton hyväksymisestä luottolaitoksesta 60 kalenteripäivän kuluessa sopimuksen tekemisestä. Ostaja on ilmoittava Myyjälle luottolaitoksen päätöksestä 15 kalenteripäivän kuluessa. Sopimus tulee voimaan vasta luoton hyväksymisen jälkeen. Jos luottoa ei hyväksytä, sopimus on mitätön eikä se ole oikeudellisesti sitova. Tällaisissa tapauksissa ostajalla ei ole oikeutta vaatia vahingonkorvausta."
+            },
+            "18": {
+                "title": "Artikla 18 – Soveltuva laki ja tuomioistuin",
+                "list": "Tämä sopimus on Andorran lainsäädännön alainen, ellei ole toisin säädetty yleisissä tai erityisissä ehdossa. Wienin yleissopimuksen soveltaminen"
+            },
+            "19": {
+                "title": "Artikla 19 – Tuomioistuin",
+                "list": "Kaikki riidat, jotka liittyvät tämän yleissopimuksen ja erityissopimuksen tulkintaan tai täytäntöönpanoon, ovat Myyjän rekisteröitymispäivämäärän mukaisen tuomioistuimen yksinomaisen toimivallan alaisia."
+            }
+        }
     }
 }

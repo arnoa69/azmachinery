@@ -557,5 +557,256 @@
         "gab": "Completamente zincato",
         "gao": "Completamente zincato",
         "tb": "Tunnel coperto"
+    },
+    "imprint": {
+        "title": "Informazioni",
+        "azm-france": "AZ Machinery Francia",
+        "address": "13 Rue de la scierie - 66340 Palau de Cerdagne, Francia",
+        "phone": {
+            "france": "Tel.: (+33) 03 52 74 03 69",
+            "headquarter": "Tel.: +376 390 036"
+        },
+        "siret": {
+            "1": "Siret: 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - Partita IVA: FR39"
+        },
+        "tva": "Partita IVA: FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Capitale 3 000.000 €",
+        "headquarter": "Sede centrale: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - Numero di registro: 16585",
+        "fiscal": "Rappresentante fiscale di AZ MACHINERY in Francia:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Francia",
+        "ceo": "Direttore responsabile: Jérôme GUIGUET",
+        "property": "Questo sito web rispetta i diritti d'autore. Tutti i diritti degli autori delle opere protette riprodotte e comunicate su questo sito sono riservati. Salvo autorizzazione, qualsiasi utilizzo delle opere diverse dalla riproduzione e dalla consultazione individuale e privata è vietato. Il sito web az-machinery è edito da Ionos e ospitato dalla società Ionos."
+    },
+    "privacy": {
+        "title": {
+            "1": "Politica sulla privacy",
+            "2": "Informazioni che raccogliamo",
+            "3": "Cookie",
+            "4": "Uso dei dati",
+            "5": "I tuoi diritti",
+            "6": "Contattaci"
+        },
+        "subtitle": {
+            "1": "La tua privacy è importante per noi"
+        },
+        "content": {
+            "1": "In AZ Machinery, ci impegniamo a proteggere la tua privacy. Questa politica sulla privacy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni quando utilizzi i nostri servizi.",
+            "2": "Come produttore e venditore di rampe di carico, raccogliamo solo le informazioni personali necessarie per le nostre operazioni. Le uniche informazioni che raccogliamo sono tramite Google Analytics e PostHog. Queste informazioni ci aiutano a capire come il nostro sito web viene utilizzato e a migliorare i nostri servizi.",
+            "3": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web. La nostra barra dei cookie conforme al GDPR ti fornisce informazioni sui cookie che utilizziamo e ti consente di gestire le tue preferenze.",
+            "4": "Le informazioni che raccogliamo vengono utilizzate solo per scopi analitici e per migliorare i nostri prodotti e servizi. Non vendiamo né condividiamo le tue informazioni personali con terzi senza il tuo consenso.",
+            "5": "Secondo il Regolamento generale sulla protezione dei dati (GDPR), hai il diritto di accedere, rettificare o cancellare le tue informazioni personali. Se hai domande o preoccupazioni relative alle tue informazioni, contattaci.",
+            "6": "Se hai domande su questa politica sulla privacy o sulle nostre pratiche di protezione dei dati, contattaci:"
+        },
+        "email": "E-mail: contact[at]azmachinery.com",
+        "phone": "Telefono: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Termini e condizioni",
+        "subtitle": "Introduzione",
+        "content": "Questi Termini e condizioni regolano il rapporto tra te e AZ Machinery. Accedendo o utilizzando i nostri servizi, accetti di rispettare questi termini.",
+        "article": {
+            "1": {
+                "title": "Articolo 1 – Ambito di applicazione",
+                "list": {
+                    "1": "Accordo regolatore: Questi Termini e condizioni generali, insieme a qualsiasi termine specifico dell'ordine, regolano il rapporto tra AZ MACHINERY-SL ('Venditore') e l'acquirente. In caso di conflitto, prevalgono i termini specifici dell'ordine.",
+                    "2": "Nessuna rinuncia tacita: Qualsiasi modifica a questi termini deve essere esplicita e il mancato rispetto di un termine da parte del Venditore in qualsiasi momento non costituisce una rinuncia a tale termine in futuro.",
+                    "3": "Accettazione e disponibilità: L'acquirente riconosce e accetta questi Termini e condizioni generali, che sono disponibili sul sito Web del Venditore (www.az-machinery.ch) e sulle pagine 2 e 3 dei preventivi e delle fatture proforma. Il Venditore si riserva il diritto di modificare questi termini; l'accettazione da parte dell'acquirente è presunta dopo 15 giorni di calendario dalla notifica se non vengono sollevate obiezioni.",
+                    "4": "Conferma dell'ordine: La spedizione da parte del Venditore significa l'accettazione dell'ordine, salvo diverso accordo scritto.",
+                    "5": "Ambito di applicazione: Questi termini si applicano alle vendite in Andorra, Francia e a livello internazionale."
+                }
+            },
+            "2": {
+                "title": "Articolo 2 – Offerte e ordini",
+                "list": {
+                    "1": "Offerte & Accordo vincolante: Le offerte sono valide per 30 giorni, sono indivisibili e sono solo proposte. Solo una fattura proforma emessa dal Venditore crea un accordo vincolante.",
+                    "2": "Informazioni dell'acquirente: Il Venditore presume la correttezza delle informazioni, dei disegni e dei documenti forniti dall'acquirente. Se l'acquirente fornisce numeri di parte, il Venditore presume che siano corretti.",
+                    "3": "Specifiche del prodotto: Illustrazioni, dimensioni, capacità, pesi, prezzi e descrizioni sono solo a scopo informativo e sono approssimativi.",
+                    "4": "Verifica della macchina: Specifiche come l'altezza di sollevamento, la capacità, le dimensioni, ecc., sono solo indicative. L'acquirente è responsabile della loro verifica prima di confermare l'ordine. Eventuali discrepanze sono a carico dell'acquirente. Le attrezzature nuove vengono vendute EXW dalla fabbrica o da un sito logistico con una garanzia del produttore di 12 mesi. Le attrezzature usate vengono vendute 'così come sono', non funzionanti, senza garanzia e considerate solo per pezzi di ricambio. Prima dell'uso è necessaria un'ispezione e una riparazione professionale.",
+                    "5": "Esclusioni: Accessori come forche, attacchi di spostamento laterale, posizionatori e ringhiere non sono inclusi nella vendita, a meno che non siano esplicitamente specificati.",
+                    "6": "L'attrezzatura è disponibile a partire dalla data dell'offerta, soggetta a vendita precedente."
+                }
+            },
+            "3": {
+                "title": "Articolo 3 – Scopo",
+                "list": {
+                    "1": "Ambito di fornitura: Gli articoli specifici coperti da questo accordo (denominati 'Articoli venduti') sono dettagliati nei termini specifici dell'ordine. Questi possono includere accessori, attrezzature, strumenti, macchine, ecc.",
+                    "2": "Responsabilità dell'acquirente: L'acquirente è responsabile della selezione degli 'Articoli venduti' appropriati, che sono articoli standard a meno che non vengano personalizzati dal Venditore su richiesta dell'acquirente. Il Venditore non è responsabile se gli 'Articoli venduti' non soddisfano le esigenze specifiche dell'acquirente.",
+                    "3": "Prezzi: Il prezzo degli 'Articoli venduti' è descritto nei termini specifici dell'ordine ('Prezzo di acquisto'). Il Prezzo di acquisto è in Euro, esclusi IVA, tasse, dazi di importazione/esportazione e costi di consegna/ritiro. I costi di installazione e messa in servizio sono anch'essi esclusi e sono a carico dell'acquirente.",
+                    "4": "Condizioni di pagamento: Non vengono offerti sconti per il pagamento anticipato. Le tasse applicabili sono quelle in vigore alla data della fattura. I prezzi e le condizioni possono variare in base alla posizione dell'acquirente. Consultare l'Articolo 12 (Fatturazione) per maggiori dettagli."
+                }
+            },
+            "4": {
+                "title": "Articolo 4 – Prezzi",
+                "list": {
+                    "1": "Prezzo di acquisto: Il prezzo degli articoli venduti ('Prezzo di acquisto') è specificato nei termini specifici dell'ordine. Il Prezzo di acquisto è in Euro, esclusi IVA, tasse, dazi di importazione/esportazione e costi di consegna/ritiro. I costi di installazione e messa in servizio sono anch'essi esclusi e sono a carico dell'acquirente.",
+                    "2": "Nessun sconto per il pagamento anticipato: Non vengono offerti sconti per il pagamento anticipato.",
+                    "3": "Tasse applicabili: Le tasse sono quelle in vigore alla data della fattura.",
+                    "4": "Variazioni geografiche: I prezzi e le condizioni possono variare in base alla posizione dell'acquirente. Consultare l'Articolo 12 (Fatturazione) per maggiori dettagli."
+                }
+            },
+            "5": {
+                "title": "Articolo 5 – Condizioni di pagamento",
+                "list": {
+                    "1": "Pagamento all'acquisto: Salvo diversa indicazione scritta, il pagamento del prezzo di acquisto e di tutti i costi associati è dovuto per intero prima della consegna tramite bonifico bancario sul conto fornito dal Venditore, facendo riferimento ai dettagli della fattura (riferimento del file e numero della fattura proforma). Il Venditore può richiedere un acconto del 50% all'ordine per riservare l'attrezzatura o iniziare la produzione.",
+                    "2": "Conferma di pagamento: Il pagamento è considerato completo solo quando il Venditore ha ricevuto i fondi. La consegna avviene solo dopo il pagamento completo della fattura proforma corrispondente.",
+                    "3": "Pagamenti con assegno: Se il Venditore accetta di accettare un assegno, il pagamento è considerato completo solo al ricevimento incondizionato dei fondi dopo il periodo legale di compensazione degli assegni.",
+                    "4": "Pagamenti in ritardo: I pagamenti in ritardo comportano automaticamente interessi al tasso di anticipo della Banque de France più il 2%, più eventuali spese legali.",
+                    "5": " inadempienza: In caso di mancato pagamento, fallimento, insolvenza, scioglimento, liquidazione, protesta, citazione in giudizio per arretrati di pagamento, procedure di insolvenza o trasferimento di attività, tutti gli importi in sospeso (compresi quelli dovuti a società collegate) diventano immediatamente esigibili senza preavviso. Il Venditore può risolvere immediatamente il contratto senza preavviso e senza responsabilità per danni, pur riservandosi il diritto di richiedere danni.",
+                    "6": "Fatturazione a terzi: Se l'acquirente richiede la fatturazione a un terzo, rimangono solidalmente responsabili di tutti gli obblighi. La posizione geografica del terzo determinerà eventuali costi applicabili.",
+                    "7": "Pagamenti di locazione: I pagamenti di locazione vengono effettuati tramite addebito diretto alla data di scadenza. Il primo pagamento viene riscosso alla firma del contratto di locazione.",
+                    "8": "Documenti di locazione: I contratti di locazione richiedono un numero di conto bancario, un documento d'identità, un deposito cauzionale (assegno o bonifico), l'autorizzazione all'addebito diretto firmata e timbrata e qualsiasi altro documento richiesto dal locatore prima del rilascio dell'attrezzatura.",
+                    "9": "Pagamenti restituiti: Gli addebiti diretti restituiti vengono ripresentati 5 giorni dopo. Viene addebitata una commissione di € 15 per ogni pagamento restituito.",
+                    "10": "Secondo pagamento restituito: Un secondo pagamento restituito comporta una richiesta di pagamento completo delle fatture in sospeso e la restituzione dell'attrezzatura entro 3 giorni. Vengono addebitati i costi di spedizione di ritorno e una penale del 70% sui pagamenti di locazione rimanenti per la risoluzione anticipata del contratto.",
+                    "11": "Ordini personalizzati: Per gli ordini personalizzati, è dovuto un acconto del 50% al momento dell'ordine, con il restante 50% dovuto al completamento della produzione. Il cliente ha 5 giorni per pagare il saldo dopo la notifica. Il rilascio o la consegna dell'attrezzatura avviene solo dopo il ricevimento del pagamento completo. I ritardi nel pagamento comportano ritardi uguali nel rilascio dell'attrezzatura.",
+                    "12": "Stoccaggio di attrezzature non vendute: Viene concesso un periodo di stoccaggio gratuito di 10 giorni dopo la notifica del completamento della produzione. Il cliente deve pagare il saldo e organizzare il ritiro o la consegna entro questo periodo. Dopo 10 giorni, l'attrezzatura viene stoccata in un deposito logistico o presso un fornitore esterno, e si applicano le spese di stoccaggio.",
+                    "13": "Spese di stoccaggio: Le spese di stoccaggio variano in base al tipo di attrezzatura, alle dimensioni e alla complessità, classificate in 7 gruppi con tariffe giornaliere specifiche."
+                }
+            },
+            "6": {
+                "title": "Articolo 6 – Trasferimento di proprietà e rischio",
+                "list": {
+                    "1": "Trasferimento del rischio: Il rischio di perdita o danno degli articoli venduti viene trasferito all'acquirente al momento della consegna.",
+                    "2": "Trasferimento di proprietà: La proprietà degli articoli venduti viene trasferita solo al momento del pagamento completo del prezzo di acquisto e di tutti i costi associati. Fino a quel momento, il trasferimento di proprietà è sospeso.",
+                    "3": "Assicurazione dell'acquirente: Fino al trasferimento completo della proprietà, l'acquirente è tenuto ad assicurare gli articoli venduti contro qualsiasi rischio che possa incorrere o creare, almeno fino al valore del prezzo di acquisto e dei costi associati.",
+                    "4": "Proprietà intellettuale: L'acquirente riconosce che il Venditore conserva la proprietà esclusiva di tutti i diritti di proprietà intellettuale relativi agli articoli venduti, incluso il marchio e il logo, e accetta di non avanzare alcuna pretesa su questi diritti."
+                }
+            },
+            "7": {
+                "title": "Articolo 7 – Consegna",
+                "list": {
+                    "1": "Condizioni di consegna: La consegna è EX-WORKS dalla fabbrica di AZ MACHINERY-SL (Incoterms 2020) o dai magazzini dei suoi partner, a meno che non sia diversamente concordato per iscritto. Se la consegna alla posizione dell'acquirente è concordata, può essere effettuata in assenza dell'acquirente. La bolla di consegna funge da prova di consegna. Le spese di sdoganamento sono escluse e vengono fatturate separatamente al 20% del valore totale del materiale dopo la consegna.",
+                    "2": "Tempi di consegna: I tempi di consegna sono stime. L'acquirente non può richiedere danni o rifiutare la consegna a causa di una consegna tardiva o dell'impossibilità del venditore di adempiere al contratto.",
+                    "3": "Inizio del tempo di consegna: Qualsiasi termine di consegna concordato inizia solo dopo che il Venditore ha ricevuto tutte le informazioni e i documenti necessari per la consegna.",
+                    "4": "Danni per consegna in ritardo: Se i danni per consegna in ritardo sono concordati per iscritto, l'acquirente deve notificare formalmente al Venditore il ritardo, fornendo prove dei danni. Il Venditore non è responsabile dei ritardi dovuti a forza maggiore o ritardi causati dall'acquirente. In quest'ultimo caso, l'acquirente deve rimborsare al Venditore i danni e i costi. La forza maggiore comprende (ma non è limitata a) ordini governativi, mobilitazione, guerra, pandemie, epidemie, scioperi, difetti, incendi, inondazioni, esplosioni, carenze di materiali o manodopera, cambiamenti economici, ritardi delle navi, festività religiose, atti vandalici e altre circostanze al di fuori del controllo del Venditore. I danni per consegna in ritardo sono limitati allo 0,5% del prezzo di acquisto per ogni settimana completa dopo il 21° giorno lavorativo della data di consegna, fino a un massimo del 5% del prezzo di acquisto totale.",
+                    "5": "Nessuna risoluzione per consegna in ritardo: L'acquirente non può risolvere il contratto a causa di una consegna in ritardo da parte del Venditore.",
+                    "6": "Consegna parziale e rifiuto: Se è stata effettuata una consegna parziale e l'acquirente rifiuta o impedisce ulteriori consegne, l'importo della parte consegnata è immediatamente dovuto e l'acquirente è responsabile dei danni, con un minimo del 70% del prezzo di acquisto della parte non consegnata.",
+                    "7": "Imballaggio e spedizione: L'acquirente è responsabile dei costi di imballaggio e spedizione e organizza il ritiro presso la fabbrica in Turchia, Cina o Europa. Se non vengono fornite istruzioni, il Venditore spedisce le merci al ricevimento dei fondi nel miglior interesse dell'acquirente. L'assicurazione viene fornita solo su richiesta espressa dell'acquirente e a sue spese.",
+                    "8": "Ispezione della consegna: L'acquirente deve ispezionare le merci al momento della consegna. Se non vengono annotate riserve sul documento di consegna, la consegna è considerata conforme.",
+                    "9": "Riserve di consegna: Eventuali riserve fatte dall'acquirente al momento della consegna riguardano lo spedizioniere, la compagnia di navigazione e il vettore.",
+                    "10": "Pagamento anticipato per la consegna: Nessuna consegna viene effettuata prima del pagamento completo della fattura proforma corrispondente, a meno che non sia diversamente concordato per iscritto.",
+                    "11": "Documentazione: Per le vendite di materiali, viene fornita solo la fattura. Per le attrezzature nuove, viene fornito un certificato CE e un manuale dell'utente (in inglese). La traduzione è a carico dell'acquirente. Per le attrezzature usate, non vengono forniti certificati di conformità, ispezioni periodiche, registri di manutenzione o manuali.",
+                    "12": "Scarico dei materiali: Quando AZ MACHINERY SL gestisce il trasporto, la consegna viene effettuata tramite tautliner da 33 tonnellate o camion container. Lo scarico è a carico dell'acquirente al suo arrivo presso i suoi locali. L'acquirente deve disporre delle risorse umane e tecniche necessarie per scaricare le merci. Se lo scarico è impossibile, AZ MACHINERY SL si riserva il diritto di immagazzinare le merci e addebitare all'acquirente il trasporto, il tempo di attesa del conducente, l'immobilizzazione del telaio (€ 250/ora) e una penale di € 500 per mancato scarico."
+                }
+            },
+            "8": {
+                "title": "Articolo 8 – Diritto di ritenzione",
+                "list": "In caso di mancato pagamento, il Venditore ha il diritto di trattenere tutti gli articoli e i documenti forniti dall'Acquirente fino al pagamento completo del capitale, degli interessi, delle spese di gestione, dei costi di trasporto e stoccaggio, delle spese di trasporto e sdoganamento e di altri costi associati."
+            },
+            "9": {
+                "title": "Articolo 9 – Condizione degli articoli venduti e garanzia",
+                "list": {
+                    "1": "'Così come è'-Condizione: Gli articoli nuovi e usati vengono venduti 'così come sono' e accettati dall'acquirente al momento della consegna.",
+                    "2": "Esclusioni della garanzia: Il Venditore non è responsabile se: a) L'acquirente ha riparato o modificato l'articolo. b) I difetti derivano da un uso improprio, abuso o utilizzo al di fuori dello scopo previsto (ad esempio, sovraccarico, funzionamento errato, installazione/manutenzione inadeguata).",
+                    "3": "Nessun restituzione/scambio: Gli articoli non sono restituibili o scambiabili senza l'accordo scritto del Venditore.",
+                    "4": "Garanzia di attrezzatura nuova: Le attrezzature nuove sono fornite con una garanzia del produttore di 12 mesi e un certificato CE. Lo scarico, l'installazione, la messa in servizio e qualsiasi ispezione di conformità richiesta sono a carico dell'acquirente.",
+                    "5": "Garanzia di attrezzatura usata: Le attrezzature usate vengono vendute 'così come sono' senza garanzia, a meno che non sia diversamente specificato. Se viene offerta una garanzia per attrezzature usate, essa copre il motore, la trasmissione e gli assi per 6 mesi. Tutte le altre parti vengono vendute 'così come sono' senza garanzia. I controlli di sicurezza da parte di un ente certificato e le riparazioni necessarie sono a carico dell'acquirente prima dell'uso.",
+                    "6": "Copertura della garanzia: La garanzia copre solo il motore, la trasmissione e gli assi. Batterie, ruote, ringhiere, unità idrauliche, tubi flessibili, accessori, sensori e caricabatterie sono esclusi. La garanzia non è trasferibile ed è nulla se vengono eseguite riparazioni non autorizzate. Le riparazioni in garanzia vengono generalmente eseguite presso l'officina del fornitore. L'acquirente è responsabile della spedizione dell'attrezzatura o delle parti difettose. Se un tecnico deve viaggiare, le sue spese di viaggio e alloggio vengono addebitate all'acquirente. La garanzia non copre la normale usura, i danni dovuti alla mancanza di manutenzione, al cattivo uso o al vandalismo.",
+                    "7": "Manutenzione della garanzia: L'acquirente deve eseguire tutti i lavori di manutenzione preventiva raccomandati dal Venditore o dai suoi fornitori di servizi per mantenere la garanzia.",
+                    "8": "Condizioni di garanzia: La garanzia si applica in Andorra, nella Francia continentale e a livello internazionale, utilizzando i prezzi dei ricambi andorrani. Copre i componenti meccanici (come specificato nel catalogo del produttore) per il motore, la trasmissione e gli assi. Lo smontaggio e il rimontaggio per la risoluzione dei problemi non sono coperti. La garanzia esclude i malfunzionamenti dovuti ad azioni intenzionali, incidenti, multe, batterie, accessori e componenti elettronici. Esclude anche i danni in cui non sono state prese misure per evitare l'aggravarsi, le riparazioni eseguite da personale non qualificato e l'uso al di fuori dei parametri operativi specificati. La garanzia è nulla se il veicolo viene modificato senza l'autorizzazione del Venditore.",
+                    "9": "Durata della garanzia: Le attrezzature nuove hanno una garanzia del produttore di 12 mesi (36 mesi per la Spagna) che copre solo le parti. Le attrezzature usate hanno una garanzia di 6 mesi limitata a 50 ore di utilizzo. La garanzia scade dopo 6 mesi o quando viene raggiunto il limite di tempo (a seconda di quale si verifica per primo).",
+                    "10": "Reclami di garanzia: In caso di guasto, l'acquirente deve informare il Venditore per iscritto e per telefono entro 3 giorni lavorativi. La mancata osservanza di questo annulla qualsiasi reclamo di garanzia. L'acquirente deve prendere provvedimenti per evitare ulteriori danni, fornire informazioni pertinenti e consentire al Venditore di ispezionare il problema. Le riparazioni devono essere approvate dal Venditore prima di essere eseguite. I costi di manodopera non sono coperti. Il Venditore può richiedere un rapporto di polizia se necessario. Le riparazioni possono essere eseguite utilizzando pezzi usati ('standard di scambio'). Il Venditore si riserva il diritto di fornire pezzi. Se il costo di riparazione supera la copertura della garanzia, l'acquirente è responsabile della differenza. Le riparazioni devono essere completate entro un mese dalla segnalazione del guasto. Il rimborso massimo per le riparazioni è limitato in base al valore della nuova attrezzatura. Vengono forniti dettagli specifici sulle parti coperte dalla garanzia per il motore, la trasmissione e gli assi."
+                }
+            },
+            "10": {
+                "title": "Articolo 10 – Condizioni di locazione",
+                "list": {
+                    "1": "Manutenzione: Tutti i noleggi sono considerati esclusi dalla manutenzione, a meno che non sia diversamente specificato per iscritto. Se è inclusa la manutenzione completa, il locatario è responsabile della sostituzione dei pneumatici, delle forche, dei sedili, dei danni da usura, dell'assicurazione e delle ispezioni periodiche obbligatorie.",
+                    "2": "Finanziamento: Il locatario è responsabile dell'organizzazione di qualsiasi finanziamento bancario per l'attrezzatura noleggiata.",
+                    "3": "Proprietà: L'attrezzatura rimane di proprietà del locatore dal momento della consegna fino alla restituzione.",
+                    "4": "Condizione di restituzione: Il locatario deve restituire l'attrezzatura in buono stato di funzionamento ed è responsabile di eventuali riparazioni necessarie per ripristinarla, inclusi tubi flessibili, pneumatici, ganci, ringhiere, unità idrauliche, vernice e altre parti danneggiate.",
+                    "5": "Risoluzione anticipata: La risoluzione anticipata di un contratto di locazione comporta una penale del 70% dei pagamenti di locazione rimanenti più i costi di trasporto di ritorno.",
+                    "6": "Assicurazione: Il locatario deve assicurare l'attrezzatura contro furto, atti vandalici, incendio, danni, responsabilità civile e responsabilità per il traffico.",
+                    "7": "Revisione annuale: Viene effettuata una revisione annuale per valutare l'adeguatezza del contratto in base all'utilizzo effettivo dell'attrezzatura. Se l'utilizzo supera le 100 ore all'anno, il contratto si regola automaticamente per riflettere l'utilizzo effettivo, inclusi i costi di manutenzione.",
+                    "8": "Ore straordinarie: Le ore extra di utilizzo vengono fatturate al tasso corrente, a seconda dell'attrezzatura.",
+                    "9": "Contratti di locazione AZ MACHINERY-SL: La risoluzione anticipata di un contratto di locazione AZ MACHINERY-SL comporta una penale del 70% dei pagamenti rimanenti più i costi di trasporto di ritorno.",
+                    "10": "Noleggi a breve termine: Le tariffe di noleggio a breve termine si basano su 8 ore/giorno e 5 giorni/settimana ed escludono i costi di trasporto, funzionamento, carburante, assicurazione e pulizia. L'utilizzo normale non richiede la pulizia. Viene addebitata una tariffa di pulizia di € 200 se la pulizia è necessaria al momento della restituzione. È richiesto un deposito cauzionale di € 1.250 (bonifico bancario o addebito diretto). Il locatario deve assicurare l'attrezzatura per l'intero periodo di locazione, indipendentemente dalla posizione in Europa. La copertura include guasti alla macchina, furto, danni alla carico/scarico, danni al trasporto, incendio e ribaltamenti/collisioni. I costi dell'assicurazione sono a carico del locatario e la prova dell'assicurazione deve essere fornita prima della consegna. Si applica una franchigia di € 2.250 per i danni e € 7.500 per il furto. Il contratto è valido dalla data di inizio fino a quando il locatario richiede la rimozione dell'attrezzatura. Tutte le richieste di rimozione devono essere inviate via e-mail a contact[at]az-machinery.com entro le 10:00 del giorno lavorativo successivo alla data di fine desiderata. Il locatario rimane responsabile dell'attrezzatura per 96 ore dopo la richiesta di rimozione. AZ MACHINERY-SL si riserva il diritto di sostituire un modello o una categoria di attrezzatura diversa se il modello richiesto non è disponibile.",
+                    "11": "Utilizzo limitato: L'attrezzatura non può essere utilizzata per la sabbiatura, la movimentazione di prodotti corrosivi o chimici o la movimentazione del cemento."
+                }
+            },
+            "11": {
+                "title": "Articolo 11 – Responsabilità",
+                "list": {
+                    "1": "Responsabilità limitata: La responsabilità del Venditore per i danni derivanti direttamente dagli obblighi imposti ai sensi del presente accordo è limitata nella misura in cui ciò è richiesto dalla legge.",
+                    "2": "Esclusione dei danni economici: Il Venditore non è responsabile di eventuali perdite economiche, perdite di profitti, perdite di entrate o altri danni diretti, indiretti o consequenziali o reclami derivanti dall'esecuzione del presente accordo.",
+                    "3": "Nessun ricorso per reclami di terzi: Se l'acquirente è ritenuto responsabile da terzi per danni causati da un difetto negli articoli venduti, non può esercitare alcun ricorso contro il Venditore."
+                }
+            },
+            "12": {
+                "title": "Articolo 12 – Fatturazione",
+                "list": {
+                    "1": "IVA e prezzi: I prezzi sono visualizzati esclusi IVA (si applica l'IVA francese del 20% per le società straniere con rappresentanza fiscale in Francia). Le imprese dell'UE registrate all'IVA pagano una quota di IVA al momento dell'emissione della fattura proforma. Questa quota viene applicata alle tasse di sdoganamento (20% del valore del materiale). Per le imprese registrate all'IVA, l'IVA del 20% viene autofatturata in conformità alla direttiva IVA dell'UE 21-1-a o all'articolo 283-1 del Codice fiscale francese. Il cliente deve fornire un numero di IVA valido che corrisponda all'entità che effettua l'ordine e al conto bancario di pagamento. Per le persone fisiche, la quota di IVA viene applicata così come è.",
+                    "2": "Emissione di fatture: AZ MACHINERY SL fornisce una fattura di deposito o una fattura provvisoria (contrassegnata 'P') su richiesta. Dopo l'ispezione e la consegna, e il pagamento dei dazi doganali, viene inviata la fattura finale.",
+                    "3": "Modifiche alla fatturazione (2024): AZ MACHINERY SL non è soggetta alla fatturazione elettronica in quanto società andorrana. Per semplificare le cose, vengono introdotte tre categorie di clienti: A: Aziende in Andorra B: Aziende nella Francia continentale C: Aziende in altri paesi europei, DOM-TOM e all'estero",
+                    "4": "Fatturazione per Andorra (Gruppo A): I prezzi vengono mostrati esclusi IVA (si applica l'IVA del 4,5%), inclusi i dazi di sdoganamento. Viene fornita una fattura di deposito e il cliente deve fornire la prova della validità di NRT. La fattura finale viene emessa dopo l'ispezione e la consegna.",
+                    "5": "Fatturazione per la Francia (Gruppo B): Per le aziende non soggette alla fatturazione elettronica, le regole sono quelle descritte nelle sezioni 12.1 e 12.2. Le aziende soggette alla fatturazione elettronica devono informare AZ MACHINERY SL della loro piattaforma al momento dell'ordine e fornire la prova del loro numero di IVA. Riceveranno automaticamente la fattura per l'autofatturazione dell'IVA. Eventuali costi aggiuntivi vengono fatturati separatamente. Se non vengono fornite informazioni, è richiesto un deposito del 20%, rimborsabile entro 30 giorni dalla emissione della fattura finale su richiesta. - Eccezioni: I clienti abituali (più ordini o fatture nell'anno in corso) sono esenti dal fornire il loro numero di IVA, non vengono addebitati i dazi di sdoganamento e l'IVA viene automaticamente autofatturata.",
+                    "6": "Fatturazione per altre località (Gruppo C): Le aziende devono fornire la prova di esportazione (T1 o altro documento) per le merci che lasciano Andorra o l'UE. Al ricevimento della prova di esportazione, non vengono addebitati i dazi di sdoganamento e l'IVA viene autofatturata."
+                }
+            },
+            "13": {
+                "title": "Articolo 13 – Installazione, assemblaggio, messa in servizio e manutenzione",
+                "list": {
+                    "1": "Installazione in loco: Salvo diversa indicazione, il cliente viene informato della data di installazione programmata tramite e-mail. Il cliente è responsabile della fornitura dell'accesso al sito di installazione, della gestione delle attrezzature per lo spostamento, l'assemblaggio e l'installazione e della garanzia di un'alimentazione elettrica per la connessione di strumenti e attrezzature. Il cliente deve preparare eventuali condotti o pozzi tecnici necessari secondo le raccomandazioni di AZ MACHINERY-SL.",
+                    "2": "Sottoappalto: AZ MACHINERY-SL può utilizzare subappaltatori locali per l'installazione a seconda della posizione.",
+                    "3": {
+                        "0": "Pagamento dell'installazione: Il pagamento completo dell'installazione è dovuto prima dell'inizio dei lavori. Una volta ricevuto il pagamento, AZ MACHINERY-SL pianifica l'installazione in base alla disponibilità del tecnico.",
+                        "1": "Tempo di attesa: Il cliente deve garantire che i tecnici abbiano accesso prioritario al trattamento delle attrezzature. In caso contrario, le spese di tempo di attesa, viaggio e alloggio vengono addebitate in base alle seguenti tariffe:",
+                        "2": "Tecnico standard (meccanico/idraulico): € 97/ora",
+                        "3": "Elettricista: € 127/ora",
+                        "4": "Viaggio: Costo effettivo",
+                        "5": "Alloggio: € 95/notte/tecnico",
+                        "6": "Preparazione dell'accesso al sito: Il tempo dedicato all'ottenimento dell'accesso al sito, alla preparazione dei piani di sicurezza, all'ottenimento dei badge e alla partecipazione alle riunioni viene fatturato alle stesse tariffe del tempo di attesa."
+                    },
+                    "4": "Messa in servizio: La messa in servizio viene eseguita dai tecnici al termine dell'installazione prima della partenza. Se è dovuto un saldo, il cliente deve pagarlo e fornire una prova prima della messa in servizio. Il cliente è responsabile della sicurezza e della marcatura dell'attrezzatura installata. Se il cliente richiede un'ispezione di conformità da parte di un ente certificato, deve organizzarla e pagarla.",
+                    "5": "Diritti di immagine: Salvo diversa indicazione, il cliente autorizza AZ MACHINERY-SL a utilizzare immagini dell'attrezzatura installata per scopi commerciali, formazione e miglioramenti dei prodotti.",
+                    "6": "Manutenzione: L'installazione non include la manutenzione. La manutenzione viene offerta come contratto opzionale esclusivamente per le attrezzature installate da AZ MACHINERY-SL."
+                }
+            },
+            "14": {
+                "title": "Articolo 14 – Sospensione e risoluzione",
+                "list": {
+                    "1": "Sospensione per mancato pagamento: Se la fattura non viene pagata per intero entro la data di scadenza (come da Articolo 5.1), il Venditore ha il diritto di sospendere qualsiasi nuovo o esistente accordo con l'Acquirente.",
+                    "2": "Sospensione per inadempimento contrattuale: Il Venditore ha il diritto di sospendere il contratto se, dopo la sua conclusione, l'Acquirente è considerato improbabile che adempia a una parte sostanziale dei suoi obblighi a causa di una significativa riduzione della sua capacità di farlo, una perdita di credibilità o un mancato rispetto dei termini del presente contratto. Il Venditore deve notificare immediatamente all'Acquirente qualsiasi sospensione.",
+                    "3": "Risoluzione per inadempimento anticipato: Se diventa chiaro al Venditore, prima dell'esecuzione del contratto, che l'Acquirente commetterà un inadempimento significativo, il Venditore ha il diritto di risolvere il contratto."
+                }
+            },
+            "15": {
+                "title": "Articolo 15 – Varie",
+                "list": {
+                    "1": "Separabilità: Se qualsiasi disposizione del presente accordo è invalida, le restanti disposizioni rimarranno in vigore. Le parti lavoreranno insieme per sostituire la disposizione non valida con una valida che raggiunga un risultato economico simile.",
+                    "2": "Condizioni prevalenti: Il presente accordo prevale su qualsiasi termine o condizione generale o specifica dell'Acquirente. Eventuali termini in conflitto proposti dall'Acquirente non saranno vincolanti per il Venditore a meno che non siano espressamente accettati.",
+                    "3": "Intero accordo: Il presente accordo annulla e sostituisce tutti gli accordi, contratti, proposte e impegni precedenti relativi allo stesso oggetto come descritto nei termini specifici dell'ordine.",
+                    "4": "Giorni lavorativi: I giorni lavorativi ai fini del presente accordo sono dal lunedì al venerdì, esclusi i giorni festivi legali.",
+                    "5": "Spese di sdoganamento predefinite: Le spese di sdoganamento predefinite sono il 20% del valore del materiale esclusi IVA.",
+                    "6": "Revisione legale: Questi Termini e condizioni generali sono stati esaminati e convalidati da un ente legale."
+                }
+            },
+            "16": {
+                "title": "Articolo 16 – Annullamento - Restituzione",
+                "list": {
+                    "1": "Conferma d'ordine: Tutte le conferme d'ordine sono considerate definitive e vincolanti.",
+                    "2": "Diritto di recesso dei consumatori: I consumatori hanno un diritto di recesso di 7 giorni se l'ordine è stato sollecitato dal Venditore.",
+                    "3": "Metodi di conferma d'ordine: La conferma d'ordine può essere effettuata via fax, e-mail, assegno, ordine d'acquisto, fattura proforma, offerta, ecc.",
+                    "4": "Nessun diritto di recesso per gli imprenditori: Gli imprenditori non hanno diritto di recesso.",
+                    "5": "Spese di annullamento: Se l'ordine è annullato, il cliente deve pagare un minimo di spese di annullamento del 70% del valore delle merci.",
+                    "6": "Acconti: Gli acconti o i pagamenti completi effettuati all'ordine sono trattenuti dal Venditore come spese di annullamento.",
+                    "7": "Acconto come conferma d'ordine: Ogni acconto costituisce una conferma d'ordine delle merci specificate, come descritte nell'offerta, nella fattura o nell'ordine, insieme alle presenti condizioni generali di vendita. Un acconto agisce come un ordine d'acquisto e elimina la necessità di una conferma d'ordine scritta.",
+                    "8": "IVA: I prezzi sono visualizzati senza IVA. Le spese IVA applicabili dipendono dalla localizzazione del cliente (4,5% per le società andorrane, 20% di IVA francese per le società estere con rappresentanza fiscale in Francia). Le società registrate per l'IVA in Europa pagano un acconto IVA. Il cliente deve fornire un numero IVA valido corrispondente all'entità d'ordine e al conto corrente di pagamento. In caso di mancata osservanza di queste obbligazioni, l'ordine viene annullato automaticamente."
+                }
+            },
+            "17": {
+                "title": "Articolo 17 – Contratto condizionale",
+                "list": "Se il Venditore concede un credito all'acquirente, il contratto è subordinato alla condizione sospensiva dell'approvazione del credito da parte dell'istituto di credito entro 60 giorni dalla conclusione del contratto. L'acquirente deve informare il Venditore della decisione dell'istituto di credito entro 15 giorni dalla ricezione della decisione. Il contratto diventa effettivo solo dopo l'approvazione del credito. Se il credito non è approvato, il contratto è annullato e non ha alcun effetto giuridico. In tale caso, l'acquirente non ha diritto di richiedere risarcimenti."
+            },
+            "18": {
+                "title": "Articolo 18 – Legge applicabile e giurisdizione",
+                "list": "Il presente contratto è soggetto alla legge andorrana, salvo disposizione contraria espressa nelle condizioni generali o particolari. L'applicazione della Convenzione di Vienna"
+            },
+            "19": {
+                "title": "Articolo 19 – Giurisdizione",
+                "list": "Tutti i litigi relativi all'interpretazione o all'esecuzione delle presenti condizioni generali e particolari sono soggetti alla giurisdizione esclusiva dei tribunali del luogo di residenza del Venditore."
+            }
+        }
     }
 }

@@ -11,10 +11,6 @@ const { locale } = useI18n();
         <LegalLayout title="cookie policy">
             <section id="page-title" class="about">
                 <div class="container">
-                    <div class="section-title">
-                        <h1>{{ $t("products.list.title") }}</h1>
-                        <h2>{{ $t("products.details.title") }}</h2>
-                    </div>
                     <div class="row">
                         <div
                             class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
@@ -27,7 +23,8 @@ const { locale } = useI18n();
                         </div> <!-- END LEFT SIDBAR -->
                         <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT SIDBAR -->
                             <div class="container">
-                                lklkhkh
+                                <h1>Cookie Policy</h1>
+                                <h2>AZ Machinery France</h2>
 
                             </div> <!-- END container -->
                         </div> <!-- END RIGHT SIDBAR -->

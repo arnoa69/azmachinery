@@ -557,5 +557,256 @@
         "gab": "Volledig gegalvaniseerd",
         "gao": "Volledig gegalvaniseerd",
         "tb": "Overdekte tunnel"
+    },
+    "imprint": {
+        "title": "Informatie",
+        "azm-france": "AZ Machinery Frankrijk",
+        "address": "13 Rue de la scierie - 66340 Palau de Cerdagne, Frankrijk",
+        "phone": {
+            "france": "Tel.: (+33) 03 52 74 03 69",
+            "headquarter": "Tel.: +376 390 036"
+        },
+        "siret": {
+            "1": "Siret: 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - BTW-nummer: FR39"
+        },
+        "tva": "BTW-nummer: FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Kapitaal 3 000.000 €",
+        "headquarter": "Hoofdkantoor: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - Registratienummer: 16585",
+        "fiscal": "Fiscaal vertegenwoordiger van AZ MACHINERY in Frankrijk:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Frankrijk",
+        "ceo": "Hoofdredacteur: Jérôme GUIGUET",
+        "property": "Deze website respecteert de auteursrechten. Alle rechten van de auteurs van de op deze website gereproduceerde en gecommuniceerde werken zijn voorbehouden. Behoudens toestemming is het gebruik van werken, anders dan voor reproductie en individuele en particuliere raadpleging, verboden. De website az-machinery wordt uitgegeven door Ionos en gehost door het bedrijf Ionos."
+    },
+    "privacy": {
+        "title": {
+            "1": "Privacybeleid",
+            "2": "Informatie die we verzamelen",
+            "3": "Cookies",
+            "4": "Gebruik van gegevens",
+            "5": "Uw rechten",
+            "6": "Contacteer ons"
+        },
+        "subtitle": {
+            "1": "Uw privacy is belangrijk voor ons"
+        },
+        "content": {
+            "1": "Bij AZ Machinery zijn we toegewijd om uw privacy te beschermen. Dit privacybeleid legt uit hoe we informatie verzamelen, gebruiken en beschermen wanneer u onze diensten gebruikt.",
+            "2": "Als producent en verkoper van laadkleppen verzamelen we alleen de noodzakelijke persoonlijke gegevens voor onze bedrijfsactiviteiten. De enige gegevens die we verzamelen zijn via Google Analytics en PostHog. Deze gegevens helpen ons om te begrijpen hoe onze website wordt gebruikt en onze diensten te verbeteren.",
+            "3": "We gebruiken cookies om uw ervaring op onze website te verbeteren. Ons GDPR-conform cookiebanner geeft u informatie over de cookies die we gebruiken en stelt u in staat om uw voorkeuren te beheren.",
+            "4": "De gegevens die we verzamelen worden alleen gebruikt voor analytische doeleinden en om onze producten en diensten te verbeteren. We verkopen of delen uw persoonlijke gegevens niet met derden zonder uw toestemming.",
+            "5": "In overeenstemming met de Algemene Verordening Gegevensbescherming (GDPR) heeft u het recht om toegang te krijgen tot, te rectificeren of te wissen van uw persoonlijke gegevens. Als u vragen of zorgen heeft over uw gegevens, neem dan contact met ons op.",
+            "6": "Als u vragen heeft over dit privacybeleid of onze praktijken voor gegevensbescherming, neem dan contact met ons op:"
+        },
+        "email": "E-mail: contact[at]azmachinery.com",
+        "phone": "Telefoon: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Algemene Voorwaarden",
+        "subtitle": "Inleiding",
+        "content": "Deze Algemene Voorwaarden regelen de relatie tussen u en AZ Machinery. Door onze diensten te gebruiken of te bezoeken, stemt u in met deze voorwaarden.",
+        "article": {
+            "1": {
+                "title": "Artikel 1 – Toepassingsgebied",
+                "list": {
+                    "1": "Governing Agreement: Deze Algemene Voorwaarden, samen met eventuele specifieke ordervoorwaarden, regelen de relatie tussen AZ MACHINERY-SL ('Verkoper') en de koper. In geval van conflict hebben de specifieke ordervoorwaarden voorrang.",
+                    "2": "Geen Stilzwijgende Afstand: Wijzigingen in deze voorwaarden moeten expliciet zijn, en het niet afdwingen van een voorwaarde door de Verkoper op enig moment betekent niet dat er in de toekomst afstand van wordt gedaan.",
+                    "3": "Aanvaarding en Beschikbaarheid: De koper erkent en aanvaardt deze Algemene Voorwaarden, die beschikbaar zijn op de website van de Verkoper (www.az-machinery.ch) en op pagina's 2 en 3 van offertes en proforma facturen. De Verkoper behoudt zich het recht voor deze voorwaarden te wijzigen; aanvaarding door de koper wordt verondersteld na 15 kalenderdagen na kennisgeving indien er geen bezwaar wordt gemaakt.",
+                    "4": "Orderbevestiging: Verzending door de Verkoper betekent acceptatie van de bestelling, tenzij anders schriftelijk overeengekomen.",
+                    "5": "Toepassingsgebied: Deze voorwaarden zijn van toepassing op verkoop binnen Andorra, Frankrijk en internationaal."
+                }
+            },
+            "2": {
+                "title": "Artikel 2 – Aanbiedingen en Bestellingen",
+                "list": {
+                    "1": "Aanbiedingen & Bindende Overeenkomst: Aanbiedingen zijn 30 dagen geldig, ondeelbaar en slechts voorstellen. Alleen een proforma factuur uitgegeven door de Verkoper creëert een bindende overeenkomst.",
+                    "2": "Koperinformatie: De Verkoper gaat uit van de juistheid van de door de koper verstrekte informatie, tekeningen en documenten. Als de koper onderdelenummers verstrekt, gaat de Verkoper ervan uit dat deze correct zijn.",
+                    "3": "Productspecificaties: Illustraties, afmetingen, capaciteiten, gewichten, prijzen en beschrijvingen zijn alleen voor informatieve doeleinden en zijn bij benadering.",
+                    "4": "Machineverificatie: Specificaties zoals hefhoogte, capaciteit, afmetingen, enz. zijn slechts indicatief. De koper is verantwoordelijk voor het verifiëren hiervan voordat de bestelling wordt bevestigd. Eventuele afwijkingen zijn de verantwoordelijkheid van de koper. Nieuw materieel wordt verkocht EXW vanuit de fabriek of een logistieke locatie met 12 maanden fabrieksgarantie. Gebruikt materieel wordt 'as is' verkocht, niet functionerend, zonder garantie, en wordt beschouwd als alleen voor onderdelen. Professionele inspectie en reparatie zijn vereist voordat gebruik.",
+                    "5": "Uitsluitingen: Accessoires zoals vorken, zijverschuifinrichtingen, positioneerders en leuningen zijn niet inbegrepen in de verkoop tenzij expliciet gespecificeerd.",
+                    "6": "Materieel is beschikbaar op de datum van de aanbieding, onder voorbehoud van eerdere verkoop."
+                }
+            },
+            "3": {
+                "title": "Artikel 3 – Doel",
+                "list": {
+                    "1": "Omvang van Levering: De specifieke items die onder deze overeenkomst vallen (hierna 'Verkochte Items' genoemd) worden beschreven in de specifieke ordervoorwaarden. Deze kunnen accessoires, uitrusting, gereedschap, machines, enz. omvatten.",
+                    "2": "Verantwoordelijkheid van de Koper: De koper is verantwoordelijk voor het selecteren van de juiste 'Verkochte Items', die standaarditems zijn tenzij aangepast door de Verkoper op verzoek van de koper. De Verkoper is niet aansprakelijk als de 'Verkochte Items' niet voldoen aan de specifieke behoeften van de koper.",
+                    "3": "Prijzen: De prijs van de 'Verkochte Items' is vastgelegd in de specifieke ordervoorwaarden ('Aankoopprijs'). De Aankoopprijs is in euro's, exclusief BTW, belastingen, invoer-/uitvoerrechten en leverings-/ophalingskosten. Installatie- en inbedrijfstellingskosten zijn ook uitgesloten en zijn de verantwoordelijkheid van de koper.",
+                    "4": "Betalingsvoorwaarden: Er worden geen kortingen gegeven voor vervroegde betaling. Toepasselijke belastingen zijn die welke van kracht zijn op de factuurdatum. Prijzen en voorwaarden kunnen variëren op basis van de locatie van de koper. Zie Artikel 12 (Facturering) voor details."
+                }
+            },
+            "4": {
+                "title": "Artikel 4 – Prijsbepaling",
+                "list": {
+                    "1": "Aankoopprijs: De prijs van de verkochte items ('Aankoopprijs') is gespecificeerd in de specifieke ordervoorwaarden. De Aankoopprijs is in euro's, exclusief BTW, belastingen, invoer-/uitvoerrechten en leverings-/ophalingskosten. Installatie- en inbedrijfstellingskosten zijn ook uitgesloten en zijn de verantwoordelijkheid van de koper.",
+                    "2": "Geen Korting voor Vroegtijdige Betaling: Er worden geen kortingen verleend voor vroegtijdige betaling.",
+                    "3": "Toepasselijke Belastingen: Belastingen zijn die welke van kracht zijn op de factuurdatum.",
+                    "4": "Geografische Variaties: Prijzen en voorwaarden kunnen variëren afhankelijk van de locatie van de koper. Raadpleeg Artikel 12 (Facturering) voor details."
+                }
+            },
+            "5": {
+                "title": "Artikel 5 – Betalingsvoorwaarden",
+                "list": {
+                    "1": "Betaling bij Aankoop: Tenzij anders schriftelijk overeengekomen, is betaling van de aankoopprijs en eventuele bijkomende kosten volledig verschuldigd vóór levering via bankoverschrijving naar het door de Verkoper opgegeven rekeningnummer, met vermelding van de factuurgegevens (dossiernummer en proforma factuurnummer). De Verkoper kan een aanbetaling van 50% vereisen bij bestelling om het materiaal te reserveren of met de productie te beginnen.",
+                    "2": "Betalingsbevestiging: Betaling wordt pas als voltooid beschouwd wanneer de Verkoper de fondsen heeft ontvangen. Levering vindt alleen plaats na volledige betaling van de bijbehorende proforma factuur.",
+                    "3": "Betaling per Cheque: Als de Verkoper akkoord gaat met betaling per cheque, wordt de betaling pas als voltooid beschouwd bij onvoorwaardelijke ontvangst van de fondsen na de wettelijke chequeverificatieperiode.",
+                    "4": "Te late Betalingen: Te late betalingen brengen automatisch rente met zich mee tegen het voorschotpercentage van de Banque de France plus 2%, plus eventuele juridische kosten.",
+                    "5": "Wanbetaling: In geval van wanbetaling, faillissement, insolventie, ontbinding, liquidatie, protest, gerechtelijke dagvaarding voor betalingsachterstand, insolventieprocedures of activatransfer, worden alle openstaande bedragen (inclusief die verschuldigd aan gelieerde bedrijven) onmiddellijk opeisbaar zonder kennisgeving. De Verkoper kan de overeenkomst onmiddellijk beëindigen zonder kennisgeving en zonder aansprakelijkheid voor schade, terwijl hij nog steeds het recht behoudt om schadevergoeding te eisen.",
+                    "6": "Facturering aan Derden: Als de koper verzoekt om facturering aan een derde partij, blijven zij hoofdelijk aansprakelijk voor alle verplichtingen. De geografische locatie van de derde partij bepaalt eventuele toepasselijke kosten.",
+                    "7": "Huurbetalingen: Huurbetalingen worden via automatische incasso op de vervaldatum geïnd. De eerste betaling wordt geïnd bij ondertekening van het huurcontract.",
+                    "8": "Huurdocumenten: Huurcontracten vereisen een bankrekeningnummer, identiteitsbewijs, borgsom (cheque of overschrijving), ondertekende en gestempelde automatische incasso-autorisatie, en eventuele andere door de verhuurder gevraagde documenten voordat het materiaal wordt vrijgegeven.",
+                    "9": "Teruggestuurde Betalingen: Teruggestuurde automatische incasso's worden 5 dagen later opnieuw aangeboden. Een vergoeding van €15 wordt in rekening gebracht voor elke teruggestuurde betaling.",
+                    "10": "Tweede Teruggestuurde Betaling: Een tweede teruggestuurde betaling resulteert in een eis tot volledige betaling van openstaande facturen en teruggave van het materieel binnen 3 dagen. Verzendkosten voor retourzending en een boete van 70% op resterende huurbetalingen voor voortijdige contractbeëindiging worden in rekening gebracht.",
+                    "11": "Aangepaste Bestellingen: Voor aangepaste bestellingen is een aanbetaling van 50% verschuldigd bij bestelling, met de resterende 50% verschuldigd bij voltooiing van de productie. De klant heeft 5 dagen om het restant te betalen na kennisgeving. Vrijgave of levering van het materieel vindt alleen plaats na volledige betaling. Vertragingen in betaling leiden tot gelijke vertragingen in de vrijgave van het materieel.",
+                    "12": "Opslag van Onverkocht Materieel: Een gratis opslagperiode van 10 dagen wordt verleend na kennisgeving van de voltooiing van de productie. De klant moet het resterende bedrag betalen en zorgen voor afhaling of levering binnen deze periode. Na 10 dagen wordt het materieel opgeslagen in een logistiek depot of bij een derde partij, en worden opslagkosten in rekening gebracht.",
+                    "13": "Opslagkosten: Opslagkosten variëren afhankelijk van het type, de grootte en de complexiteit van het materieel, ingedeeld in 7 groepen met specifieke dagtarieven."
+                }
+            },
+            "6": {
+                "title": "Artikel 6 – Overdracht van Eigendom & Risico",
+                "list": {
+                    "1": "Risico-overdracht: Het risico van verlies of schade aan de verkochte items gaat over op de koper bij levering.",
+                    "2": "Eigendomsoverdracht: Het eigendom van de verkochte items wordt pas overgedragen na volledige betaling van de aankoopprijs en alle bijbehorende kosten. Tot die tijd blijft de eigendomsoverdracht opgeschort.",
+                    "3": "Verzekering door de Koper: Tot de volledige eigendomsoverdracht is de koper verplicht de verkochte items te verzekeren tegen alle risico's die zij kunnen oplopen of veroorzaken, ten minste tot de waarde van de aankoopprijs en bijbehorende kosten.",
+                    "4": "Intellectuele Eigendom: De koper erkent dat de Verkoper exclusief eigenaar blijft van alle intellectuele eigendomsrechten met betrekking tot de verkochte items, inclusief de merknaam en het logo, en stemt ermee in geen aanspraken te maken op deze rechten."
+                }
+            },
+            "7": {
+                "title": "Artikel 7 – Levering",
+                "list": {
+                    "1": "Leveringsvoorwaarden: Levering is EX-WORKS vanaf de fabriek van AZ MACHINERY-SL (Incoterms 2020) of vanaf de magazijnen van hun partners, tenzij anders schriftelijk overeengekomen. Als levering op de locatie van de koper is overeengekomen, kan dit gebeuren in afwezigheid van de koper. De leveringsbon dient als bewijs van levering. Douanekosten zijn uitgesloten en worden apart gefactureerd tegen 20% van de totale materiaalwaarde na levering.",
+                    "2": "Levertijden: Levertijden zijn schattingen. De koper kan geen schadevergoeding eisen of de levering weigeren vanwege een late levering of het onvermogen van de verkoper om de overeenkomst na te komen.",
+                    "3": "Start van de Levertijd: Elke overeengekomen leveringstermijn begint pas nadat de Verkoper alle benodigde informatie en documenten voor levering heeft ontvangen.",
+                    "4": "Schadevergoeding bij Late Levering: Als schadevergoeding bij late levering schriftelijk is overeengekomen, moet de koper de Verkoper formeel op de hoogte stellen van de vertraging, met bewijs van schade. De Verkoper is niet aansprakelijk voor vertragingen als gevolg van overmacht of koper-geïnduceerde vertragingen. In dat geval moet de koper de Verkoper vergoeden voor schade en kosten. Overmacht omvat (maar is niet beperkt tot) overheidsbevelen, mobilisatie, oorlog, pandemieën, epidemieën, stakingen, defecten, branden, overstromingen, explosies, materiaal- of arbeidstekorten, economische veranderingen, vertragingen van schepen, religieuze feestdagen, vandalisme en andere omstandigheden buiten de controle van de Verkoper. Schadevergoeding voor late levering is beperkt tot 0,5% van de aankoopprijs per volledige week na de 21e werkdag van de leveringsdatum, tot een maximum van 5% van de totale aankoopprijs.",
+                    "5": "Geen Beëindiging bij Late Levering: De koper kan de overeenkomst niet beëindigen vanwege een late levering door de Verkoper.",
+                    "6": "Deellevering & Weigering: Als een deellevering heeft plaatsgevonden en de koper verdere leveringen weigert of voorkomt, wordt het bedrag voor het geleverde deel onmiddellijk opeisbaar, en is de koper aansprakelijk voor schadevergoeding, met een minimum van 70% van de aankoopprijs van het niet-geleverde deel.",
+                    "7": "Verpakking & Verzending: De koper is verantwoordelijk voor de kosten van verpakking en verzending en regelt de afhaling bij de fabriek in Turkije, China of Europa. Als er geen instructies worden gegeven, verzendt de Verkoper het goed.",
+                    "8": "Leveringinspectie: De koper dient de goederen bij levering te inspecteren. Indien geen reserveringen worden genoteerd op het leveringsbewijs, wordt de levering geacht te voldoen.",
+                    "9": "Leveringsreserveringen: Alle reserveringen die door de koper bij levering worden gedaan, betreffen de vervoerder, rederij en vervoerder.",
+                    "10": "Vooruitbetaling voor levering: Er wordt geen levering gedaan vóór volledige betaling van de betreffende proformafactuur, tenzij anders schriftelijk is overeengekomen.",
+                    "11": "Documentatie: Voor materiaale verkoop wordt alleen de factuur verstrekt. Voor nieuw materieel wordt een CE-certificaat en gebruiksaanwijzing (in het Engels) verstrekt. Vertaling is de verantwoordelijkheid van de koper. Voor gebruikte apparatuur worden geen conformiteitscertificaten, periodieke inspecties, onderhoudsregistraties of handleidingen verstrekt.",
+                    "12": "Ontladen van materialen: Wanneer AZ MACHINERY SL het transport verzorgt, vindt de levering plaats via 33-ton tautliners of containervrachtwagens. Het ontladen is de verantwoordelijkheid van de koper bij aankomst op hun terrein. De koper moet over de noodzakelijke menselijke en technische middelen beschikken om de goederen te ontladen. Indien ontladen onmogelijk is, behoudt AZ MACHINERY SL zich het recht voor om de goederen te bewaren en de koper te factureren voor transport, wachttijd van de chauffeur, chassisimmobilisatie (€250/uur) en een boete van €500 voor het niet ontladen."
+                }
+            },
+            "8": {
+                "title": "Artikel 8 – Recht van Behoud",
+                "list": "In geval van niet-betaling heeft de verkoper het recht om alle door de koper verstrekte artikelen en documenten te behouden totdat de volledige betaling van het hoofdsom, rente, administratiekosten, transport- en opslagkosten, vracht- en douanekosten en andere daarmee samenhangende kosten is voldaan."
+            },
+            "9": {
+                "title": "Artikel 9 – Staat van Verkochte Artikelen & Garantie",
+                "list": {
+                    "1": "'Zoals is' Staat: Nieuwe en gebruikte artikelen worden 'zoals is' verkocht en geaccepteerd door de koper bij levering.",
+                    "2": "Garantie Uitsluitingen: De verkoper is niet aansprakelijk indien: a) De koper het artikel heeft gerepareerd of gewijzigd. b) Defecten ontstaan door misbruik, onjuist gebruik of gebruik buiten de voorziene doeleinden (bijv. overbelasting, onjuiste bediening, onjuiste installatie/onderhoud).",
+                    "3": "Geen Retourneren/Wisselen: Artikelen zijn niet retourneerbaar of uitwisselbaar zonder schriftelijke toestemming van de verkoper.",
+                    "4": "Garantie Nieuw Materiaal: Nieuw materieel wordt geleverd met een 12-maanden fabrieksgarantie en een CE-certificaat. Ontladen, installatie, inbedrijfstelling en alle benodigde conformiteitsinspecties zijn de verantwoordelijkheid van de koper.",
+                    "5": "Garantie Gebruikt Materiaal: Gebruikt materieel wordt 'zoals is' verkocht zonder garantie, tenzij anders vermeld. Indien er een garantie op gebruikt materieel wordt aangeboden, dekt deze de motor, transmissie en assen voor 6 maanden. Alle andere onderdelen worden 'zoals is' verkocht zonder garantie. Veiligheid controles door een gecertificeerde instantie en alle noodzakelijke reparaties zijn de verantwoordelijkheid van de koper vóór gebruik.",
+                    "6": "Garantiedekking: De garantie dekt alleen de motor, transmissie en assen. Batterijen, wielen, leuningen, hydraulische eenheden, slangen, accessoires, sensoren en laders zijn uitgesloten. De garantie is niet overdraagbaar en vervalt indien niet-geautoriseerde reparaties worden uitgevoerd. Reparaties onder garantie worden over het algemeen uitgevoerd in de werkplaats van de leverancier. De koper is verantwoordelijk voor het verzenden van het materieel of defecte onderdelen. Indien een technicus moet reizen, worden de reis- en verblijfskosten in rekening gebracht bij de koper. De garantie dekt geen normale slijtage, schade door gebrek aan onderhoud, misbruik of vandalisme.",
+                    "7": "Garantieonderhoud: De koper moet alle door de verkoper of zijn serviceproviders aanbevolen preventief onderhoud uitvoeren om de garantie te behouden.",
+                    "8": "Garantievoorwaarden: De garantie is van toepassing in Andorra, Frankrijk (buiten de overzeese gebieden) en internationaal, met behulp van Andorran onderdelenprijzen. Het dekt mechanische onderdelen (zoals vermeld in de catalogus van de fabrikant) voor de motor, transmissie en assen. Demontage en hermontage voor het oplossen van storingen zijn niet gedekt. De garantie sluit storingen uit die ontstaan door opzettelijke handelingen, ongelukken, boetes, batterijen, accessoires en elektronische componenten. Het sluit ook schade uit waarvoor geen stappen zijn ondernomen om erger te voorkomen, reparaties door niet gekwalificeerd personeel en gebruik buiten de opgegeven bedrijfsvoorschriften. De garantie vervalt indien het voertuig wordt gewijzigd zonder de schriftelijke toestemming van de verkoper.",
+                    "9": "Garantieduur: Nieuw materieel heeft een 12-maanden fabrieksgarantie (36 maanden voor Spanje) die alleen de onderdelen dekt. Gebruikt materieel heeft een 6-maanden garantie beperkt tot 50 uur gebruik. De garantie eindigt na 6 maanden of wanneer de tijdslimiet is bereikt (wat eerst komt).",
+                    "10": "Garantie Claims: In geval van een storing moet de koper de verkoper schriftelijk en telefonisch binnen 3 werkdagen op de hoogte stellen. Het niet doen van dit laatste maakt elke garantie claim ongeldig. De koper moet stappen ondernemen om verdere schade te voorkomen, relevante informatie verstrekken en de verkoper toelaten om het probleem te inspecteren. Reparaties moeten worden goedgekeurd door de verkoper voordat ze worden uitgevoerd. Arbeidskosten worden niet gedekt. De verkoper kan een politieverslag vragen indien nodig. Reparaties kunnen worden uitgevoerd met gebruikte onderdelen ('uitwisselingsnormaal'). De verkoper behoudt zich het recht voor om onderdelen te leveren. Indien de reparatiekosten de garantiedekking overschrijden, is de koper verantwoordelijk voor het verschil. Reparaties moeten binnen een maand na de gemeldde storing worden voltooid. De maximale reparatievergoeding is beperkt op basis van de waarde van het nieuwe materieel. Specifieke details over de onderdelen die onder de garantie vallen, worden verstrekt voor de motor, transmissie en assen."
+                }
+            },
+            "10": {
+                "title": "Artikel 10 – Huurvoorwaarden",
+                "list": {
+                    "1": "Onderhoud: Alle huurcontracten worden beschouwd als onderhoud-uitsluitend, tenzij anders schriftelijk is overeengekomen. Indien full-service onderhoud is inbegrepen, is de huurder verantwoordelijk voor de vervanging van banden, vorken, zitplaatsen, slijtage, verzekering en verplichte periodieke inspecties.",
+                    "2": "Financiering: De huurder is verantwoordelijk voor het regelen van eventuele bankfinanciering voor gehuurd materieel.",
+                    "3": "Eigendom: Het materieel blijft het eigendom van de verhuurder vanaf het moment van aflevering tot de teruggave.",
+                    "4": "Teruggaveconditie: De huurder moet het materieel in goede werkende staat teruggeven en is verantwoordelijk voor alle reparaties die nodig zijn om het te herstellen, inclusief slangen, banden, trekhaken, leuningen, hydraulische eenheden, verf en andere beschadigde onderdelen.",
+                    "5": "Vroegtijdige beëindiging: Vroegtijdige beëindiging van een huurcontract leidt tot een boete van 70% van de resterende huurbetalingen plus retourtransportkosten.",
+                    "6": "Verzekering: De huurder moet het materieel verzekeren tegen diefstal, vandalisme, brand, schade, burgerlijke aansprakelijkheid en verkeersaansprakelijkheid.",
+                    "7": "Jaarlijkse beoordeling: Er wordt jaarlijks een beoordeling uitgevoerd om de geschiktheid van het contract te beoordelen op basis van de daadwerkelijke gebruik van het materieel. Als het gebruik meer dan 100 uur per jaar bedraagt, wordt het contract automatisch aangepast om de daadwerkelijke gebruik te weerspiegelen, inclusief onderhoudskosten.",
+                    "8": "Overuren: Extra gebruiksuren worden gefactureerd tegen de actuele tarief, afhankelijk van het materieel.",
+                    "9": "AZ MACHINERY-SL Huurcontracten: Vroegtijdige beëindiging van een AZ MACHINERY-SL huurcontract leidt tot een boete van 70% van de resterende betalingen plus retourtransportkosten.",
+                    "10": "Kortetermijnverhuur: Tarieven voor kortetermijnverhuur zijn gebaseerd op 8 uur/dag en 5 dagen/week en sluiten transport, bediening, brandstof, verzekering en schoonmaakkosten uit. Normaal gebruik vereist geen schoonmaak. Er wordt een schoonmaakkosten van €200 in rekening gebracht indien schoonmaak bij teruggave noodzakelijk is. Er wordt een borg van €1.250 gevraagd (bankoverschrijving of directe debet). De huurder moet het materieel verzekeren gedurende de gehele huurperiode, ongeacht de locatie in Europa. De dekking omvat machine defect, diefstal, laad-/ los schade, transport schade, brand en omwentelingen/botsingen. De verzekeringkosten zijn voor rekening van de huurder en er moet bewijs van verzekering worden verstrekt vóór aflevering. Er is een eigen risico van €2.250 voor schade en €7.500 voor diefstal. Het contract is geldig vanaf de startdatum totdat de huurder het verzoek tot verwijdering van het materieel indient. Alle verwijderingsverzoeken moeten per e-mail worden verzonden naar contact[at]az-machinery.com vóór 10:00 uur op de volgende werkdag na de gewenste einddatum. De huurder blijft aansprakelijk voor het materieel gedurende 96 uur na het verwijderingsverzoek. AZ MACHINERY-SL behoudt zich het recht voor om een ander model of categorie materieel te substitueren indien het gewenste model niet beschikbaar is.",
+                    "11": "Beperkt gebruik: Het materieel mag niet worden gebruikt voor zandstralen, het hanteren van corrosieve of chemische producten of het hanteren van cement."
+                }
+            },
+            "11": {
+                "title": "Artikel 11 – Aansprakelijkheid",
+                "list": {
+                    "1": "Beperkte aansprakelijkheid: De aansprakelijkheid van de verkoper voor schade die direct voortvloeit uit de verplichtingen die voortvloeien uit deze overeenkomst, is beperkt tot de wettelijke vereisten.",
+                    "2": "Uitsluiting van economische schade: De verkoper is niet aansprakelijk voor enige economische verliezen, verloren winst, verloren omzet of andere directe, indirecte of gevolgschade of vorderingen die voortvloeien uit de uitvoering van deze overeenkomst.",
+                    "3": "Geen verhaal voor vorderingen van derden: Als de koper door derden aansprakelijk wordt gesteld voor schade veroorzaakt door een defect in de verkochte artikelen, kan de koper geen verhaal voeren tegen de verkoper."
+                }
+            },
+            "12": {
+                "title": "Artikel 12 – Facturering",
+                "list": {
+                    "1": "BTW en Prijzen: Prijzen worden weergegeven exclusief BTW (20% Franse BTW is van toepassing voor buitenlandse bedrijven met fiscale vertegenwoordiging in Frankrijk). BTW-plichte EU-bedrijven betalen een BTW-voorziening bij uitgifte van de pro-formafactuur. Deze voorziening wordt toegepast op inklaringskosten (20% van de materiaalwaarde). Voor BTW-plichte bedrijven wordt de 20% BTW zelf gefactureerd volgens EU BTW-richtlijn 21-1-a of artikel 283-1 van de Franse belastingwetgeving. De klant moet een geldig BTW-nummer overleggen dat overeenkomt met de bestellende entiteit en de bankrekening voor betaling. Voor particulieren wordt de BTW-voorziening toegepast zoals deze is.",
+                    "2": "Factuur Uitgifte: AZ MACHINERY SL verstrekt op verzoek een aanbetalingsfactuur of een voorlopige factuur (gemarkeerd met 'P'). Na inspectie en levering, en betaling van douanerechten, wordt de definitieve factuur verzonden.",
+                    "3": "Wijzigingen in Facturering (2024): AZ MACHINERY SL is als Andorrees bedrijf niet onderworpen aan elektronische facturering. Om de zaken te vereenvoudigen, worden er drie klantcategorieën geïntroduceerd: A: Bedrijven in Andorra B: Bedrijven in Europees Frankrijk C: Bedrijven in andere Europese landen, DOM-TOM en het buitenland",
+                    "4": "Facturering voor Andorra (Groep A): Prijzen worden getoond exclusief BTW (4,5% BTW van toepassing), inclusief inklaringskosten. Er wordt een aanbetalingsfactuur verstrekt en de klant dient een bewijs van NRT-geldigheid te overleggen. De definitieve factuur wordt na inspectie en levering uitgegeven.",
+                    "5": "Facturering voor Frankrijk (Groep B): Voor bedrijven die niet onderworpen zijn aan elektronische facturering, zijn de regels zoals beschreven in secties 12.1 en 12.2. Bedrijven die onderworpen zijn aan elektronische facturering, moeten AZ MACHINERY SL bij bestelling op de hoogte stellen van hun platform en een bewijs van hun BTW-nummer overleggen. Zij worden automatisch gefactureerd voor BTW-zelffacturering. Eventuele extra kosten worden apart in rekening gebracht. Indien geen informatie wordt verstrekt, is een aanbetaling van 20% vereist, restitueerbaar binnen 30 dagen na uitgifte van de definitieve factuur op verzoek. - Uitzonderingen: Vaste klanten (meerdere bestellingen of facturen in het lopende jaar) zijn vrijgesteld van het overleggen van hun BTW-nummer, inklaringskosten worden niet in rekening gebracht en de BTW wordt automatisch zelf gefactureerd.",
+                    "6": "Facturering voor Andere Locaties (Groep C): Bedrijven dienen een bewijs van uitvoer (T1 of ander document) te overleggen voor goederen die Andorra of de EU verlaten. Na ontvangst van het bewijs van uitvoer worden geen inklaringskosten in rekening gebracht en wordt de BTW zelf gefactureerd."
+                }
+            },
+            "13": {
+                "title": "Artikel 13 – Installatie, Montage, Ingebruikname en Onderhoud",
+                "list": {
+                    "1": "Installatie op Locatie: Tenzij anders vermeld, wordt de klant per e-mail op de hoogte gebracht van de geplande installatiedatum. De klant is verantwoordelijk voor het verlenen van toegang tot de installatieplaats, het hanteren van apparatuur voor verplaatsing, montage en installatie, en het waarborgen van een elektrische voeding voor de aansluiting van gereedschappen en apparatuur. De klant dient eventuele benodigde technische leidingen of putten voor te bereiden volgens de aanbevelingen van AZ MACHINERY-SL.",
+                    "2": "Uitbesteding: AZ MACHINERY-SL kan, afhankelijk van de locatie, lokale onderaannemers inschakelen voor de installatie.",
+                    "3": {
+                        "0": "Installatiebetaling: De volledige betaling voor de installatie is verschuldigd voordat de werkzaamheden beginnen. Zodra de betaling is ontvangen, plant AZ MACHINERY-SL de installatie in op basis van de beschikbaarheid van technici.",
+                        "1": "Wachttijd: De klant dient ervoor te zorgen dat technici prioritaire toegang hebben tot de handlingapparatuur. Anders worden wachttijd, reis- en verblijfskosten in rekening gebracht op basis van de volgende tarieven:",
+                        "2": "Standaard Technicus (Mechanisch/Hydraulisch): €97/uur",
+                        "3": "Elektricien: €127/uur",
+                        "4": "Reizen: Werkelijke kosten",
+                        "5": "Accommodatie: €95/nacht/technicus",
+                        "6": "Voorbereiding Toegang tot de Locatie: Tijd besteed aan het verkrijgen van toegang tot de locatie, het voorbereiden van veiligheidsplannen, het verkrijgen van badges en het bijwonen van vergaderingen wordt gefactureerd tegen dezelfde tarieven als wachttijd."
+                    },
+                    "4": "Ingebruikname: De inbedrijfstelling wordt door de technici aan het einde van de installatie, vóór vertrek, uitgevoerd. Indien er nog een saldo openstaat, dient de klant dit te voldoen en hiervan bewijs te overleggen alvorens tot inbedrijfstelling wordt overgegaan. De klant is verantwoordelijk voor het beveiligen en markeren van de geïnstalleerde apparatuur. Indien de klant een conformiteitskeuring door een gecertificeerde instantie wenst, dient hij deze zelf te regelen en te betalen.",
+                    "5": "Afbeeldingsrechten: Tenzij anders vermeld, geeft de klant AZ MACHINERY-SL toestemming om afbeeldingen van de geïnstalleerde apparatuur te gebruiken voor commerciële doeleinden, training en productverbeteringen.",
+                    "6": "Onderhoud: Installatie is exclusief onderhoud. Onderhoud wordt aangeboden als een optioneel contract, uitsluitend voor apparatuur die door AZ MACHINERY-SL is geïnstalleerd."
+                }
+            },
+            "14": {
+                "title": "Artikel 14 – Opschorting en Beëindiging",
+                "list": {
+                    "1": "Opschorting wegens Niet-betaling: Indien de factuur niet volledig is voldaan op de vervaldag (zoals beschreven in artikel 5.1), heeft de Verkoper het recht om elke nieuwe of bestaande overeenkomst met de Koper op te schorten.",
+                    "2": "Opschorting wegens Wanprestatie: De Verkoper heeft het recht de overeenkomst op te schorten indien, na de totstandkoming ervan, blijkt dat de Koper waarschijnlijk niet aan een wezenlijk deel van zijn verplichtingen zal voldoen als gevolg van een aanzienlijke vermindering van zijn vermogen daartoe, een verlies aan kredietwaardigheid of het niet naleven van de bepalingen van deze overeenkomst. De Verkoper dient de Koper onverwijld op de hoogte te stellen van elke opschorting.",
+                    "3": "Beëindiging wegens Verwachtte Wanprestatie: Indien het voor de Verkoper, vóór de uitvoering van de overeenkomst, duidelijk wordt dat de Koper een wezenlijke tekortkoming zal begaan, heeft de Verkoper het recht de overeenkomst te beëindigen."
+                }
+            },
+            "15": {
+                "title": "Artikel 15 – Diversen",
+                "list": {
+                    "1": "Scheidbaarheid: Indien enige bepaling van deze overeenkomst ongeldig is, blijven de overige bepalingen van kracht. De partijen zullen samenwerken om de ongeldige bepaling te vervangen door een geldige bepaling die een vergelijkbaar economisch resultaat oplevert.",
+                    "2": "Overheersende Voorwaarden: Deze overeenkomst heeft voorrang op alle algemene of specifieke voorwaarden van de Koper. Eventuele tegenstrijdige voorwaarden die door de Koper worden voorgesteld, zijn niet bindend voor de Verkoper, tenzij deze uitdrukkelijk zijn aanvaard.",
+                    "3": "Volledige Overeenkomst: Deze overeenkomst annuleert en vervangt alle eerdere overeenkomsten, contracten, voorstellen en verbintenissen met betrekking tot hetzelfde onderwerp zoals beschreven in de specifieke voorwaarden van de bestelling.",
+                    "4": "Werkdagen: Werkdagen in het kader van deze overeenkomst zijn maandag tot en met vrijdag, met uitzondering van wettelijke feestdagen.",
+                    "5": "Standaard Inklari ngskosten: Standaard inklaringskosten bedragen 20% van de materiaalwaarde exclusief BTW.",
+                    "6": "Juridische Beoordeling: Deze Algemene Voorwaarden zijn beoordeeld en gevalideerd door een juridische entiteit."
+                }
+            },
+            "16": {
+                "title": "Artikel 16 – Annulering – Herroeping",
+                "list": {
+                    "1": "Orderbevestiging: Elke orderbevestiging wordt beschouwd als definitief en bindend.",
+                    "2": "Herroepingsrecht Consument: Consumenten hebben een bedenktijd van 7 dagen indien de bestelling door de Verkoper is aangevraagd.",
+                    "3": "Methoden voor Orderbevestiging: Orderbevestiging kan plaatsvinden via fax, e-mail, aanbetalingscheque, inkooporder, pro-formafactuur, offerte, enz.",
+                    "4": "Geen Herroepingsrecht voor Professionelen: Er geldt geen herroepingstermijn voor verkoop of verhuur aan professionelen.",
+                    "5": "Annuleringskosten: Indien een bestelling wordt geannuleerd, dient de klant minimaal 70% van de materiaalwaarde exclusief BTW aan annuleringskosten te betalen.",
+                    "6": "Aanbetalingen: Aanbetalingen of volledige betalingen die bij bestelling zijn gedaan, worden door de Verkoper ingehouden als annuleringskosten.",
+                    "7": "Aanbetaling als Orderacceptatie: Elke aanbetaling houdt orderacceptatie in van het/de gespecificeerde materiaal(en) zoals beschreven in de offerte, offerte of factuur, samen met deze specifieke Algemene Verkoopvoorwaarden. Een aanbetaling fungeert als een inkooporder en maakt een schriftelijke orderbevestiging overbodig.",
+                    "8": "BTW: Prijzen worden weergegeven exclusief BTW. Het toepasselijke BTW-tarief is afhankelijk van de locatie van de koper (4,5% voor Andorrese bedrijven, 20% Franse BTW voor buitenlandse bedrijven met fiscale vertegenwoordiging in Frankrijk). BTW-plichtige EU-bedrijven krijgen een factuur voor zelffacturering van de BTW. Er moet een geldig BTW-nummer worden opgegeven, dat overeenkomt met de bestellende entiteit en de bankrekening voor betaling. Het niet naleven van deze verplichtingen leidt tot automatische annulering van de bestelling."
+                }
+            },
+            "17": {
+                "title": "Artikel 17 – Voorwaardelijke Overeenkomst",
+                "list": "Indien de Verkoper krediet verleent aan de Koper, is de overeenkomst onderworpen aan de opschortende voorwaarde van het verkrijgen van kredietgoedkeuring van de kredietinstelling binnen 60 kalenderdagen na de sluiting van de overeenkomst. De Koper dient de Verkoper binnen 15 kalenderdagen op de hoogte te stellen van het besluit van de kredietinstelling. De overeenkomst wordt pas volledig van kracht na ontvangst van de kredietgoedkeuring. Indien het krediet niet wordt goedgekeurd, is de overeenkomst nietig en heeft deze geen rechtsgevolgen. In dergelijke gevallen heeft de Koper geen recht op schadevergoeding."
+            },
+            "18": {
+                "title": "Artikel 18 – Toepasselijk Recht en Bevoegde Rechter",
+                "list": "Op deze overeenkomst is Andorrees recht van toepassing, behalve waar uitdrukkelijk anders is bepaald in de Algemene of Bijzondere Voorwaarden. De toepasselijkheid van het Weens Koopverdrag"
+            },
+            "19": {
+                "title": "Artikel 19 – Bevoegde Rechter",
+                "list": "Alle geschillen met betrekking tot de interpretatie of uitvoering van deze Algemene Voorwaarden en de Bijzondere Voorwaarden zullen worden voorgelegd aan de exclusieve bevoegdheid van de rechtbanken van de plaats waar de Verkoper zijn maatschappelijke zetel heeft."
+            }
+        }
     }
 }

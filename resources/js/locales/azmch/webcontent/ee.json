@@ -557,5 +557,256 @@
         "gab": "Täielikult tsingitud",
         "gao": "Täielikult tsingitud",
         "tb": "Kaetud tunnel"
+    },
+    "imprint": {
+        "title": "Avalik",
+        "azm-france": "AZ Machinery Prantsusmaa",
+        "address": "13 Rue de la scierie - 66340 Palau de Cerdagne, Prantsusmaa",
+        "phone": {
+            "france": "Tlf.: (+33) 03 52 74 03 69",
+            "headquarter": "Tlf.: +376 390 036"
+        },
+        "siret": {
+            "1": "Siret: 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - KM-kood: FR39"
+        },
+        "tva": "KM-kood: FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Kapital 3 000.000 €",
+        "headquarter": "Peakorter: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - Registrikood: 16585",
+        "fiscal": "AZ MACHINERY maksuametnik Prantsusmaal:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Prantsusmaa",
+        "ceo": "Peatoimetaja: Jérôme GUIGUET",
+        "property": "See veebileht austab autoriõigust. Kõikidele veebilehel avaldatud ja kättesaadavate tööde autoritele kuuluvad kõik õigused. Tööde kasutamine teistel eesmärkidel kui avalikustamiseks ja isiklikuks kasutamiseks on keelatud ilma loa saamata. Veebileht az-machinery avaldab Ionos ja võtab selle vastutuse Ionos."
+    },
+    "privacy": {
+        "title": {
+            "1": "Privaatsuspoliitika",
+            "2": "Me kogume teavet",
+            "3": "Küpsised",
+            "4": "Andmete kasutamine",
+            "5": "Teie õigused",
+            "6": "Võtke meiega ühendust"
+        },
+        "subtitle": {
+            "1": "Teie privaatsus on meile oluline"
+        },
+        "content": {
+            "1": "AZ Machinerys on me vastutavalt hoolitseda Teie privaatsuse eest. See privaatsuspoliitika selgitab, kuidas me kogume, kasutame ja kaitseme Teie andmeid, kui Teil on võimalus meie teenuseid kasutada.",
+            "2": "Kui laadimisrampide tootja ja müüja, kogume me vaid vajalikke isikuandmeid oma äritegevuseks. Me kogume andmeid vaid Google Analyticsi ja PostHogi kaudu. Need andmed aitavad meil mõista, kuidas meie veebileht on kasutusel ja teenuseid täiustada.",
+            "3": "Me kasutame küpsiseid, et täiustada Teie kogemust meie veebilehel. Meie GDPR-le vastav küpsiste teade annab Teile teavet küpsiste kohta, mida me kasutame, ja võimaldab teil oma eelistusi haldada.",
+            "4": "Meie kogutud andmeid kasutatakse üksnes analüüsimiseks ja meie toodete ning teenuste täiustamiseks. Me ei müü ega jagada Teie isikuandmeid kolmandatele isikutega Teie nõusolekuta.",
+            "5": "Euroopa Liidu üldise andmekaitse määruse kohaselt on Teil õigus pääseda oma isikuandmetele, parandada neid või kustutada. Kui Teil on küsimusi või muresid Teie andmete kohta, võtke meiega ühendust.",
+            "6": "Kui Teil on küsimusi selle privaatsuspoliitika või meie andmetöötluse praktika kohta, võtke meiega ühendust:"
+        },
+        "email": "E-post: contact[at]azmachinery.com",
+        "phone": "Telefon: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Tingimused ja tingimused",
+        "subtitle": "Sissejuhatus",
+        "content": "Nad need tingimused ja tingimused reguleerivad teie ja AZ Machinery vahelist suhet. Teie kasutades või lugedes meie teenuseid, nõustute te need tingimused järgima.",
+        "article": {
+            "1": {
+                "title": "Artikkel 1 – Ulatus",
+                "list": {
+                    "1": "Juhtiv leping: Need üldised tingimused ja tingimused, koos iga spetsiifilise tellimusega, reguleerivad teie ja AZ MACHINERY-SL ('Müüja') vahelist suhet. Konflikti korral eeldatakse spetsiifilised tellimus tingimused.",
+                    "2": "Ei võrdväärne ümbervõtmine: Iga muutus needes tingimustes peab olema väljaselgitatud ning müüja ei saa ümbervõtta ühtegi tingimust, mis võib põhjustada tingimusandmise või selle võimalust tulevikus.",
+                    "3": "Nõusolek ja kättesaadavus: Ostja tunnistab ja võtab vastu need üldised tingimused, mis on kättesaadavad müüja veebilehel (www.az-machinery.ch) ning tellimuste ja proforma-arvete lehekülgedel 2 ja 3. Müüja reserveerib endale õiguse muuta need tingimused, ostja nõusolek antakse eeldatakse pärast 15 kalendripäeva teatamist, kui ei ole esitatud vastuväiteid.",
+                    "4": "Tellimuse kinnitamine: Müüja saadab tellimuse kinnitamiseks või müügilepingu sõlmimiseks ostjale kirjaliku teatisega või e-kirjaga.",
+                    "5": "Ulatus: Need tingimused kehtivad müügilepingutele Andorra, Prantsusmaa ning rahvusvaheliselt."
+                }
+            },
+            "2": {
+                "title": "Artikkel 2 – Pakkumised ja tellimused",
+                "list": {
+                    "1": "Pakkumised ja siduv leping: Pakkumised on kehtivad 30 päeva jooksul ning pole jagatavad, need on ainult ettepanekud. Ainult müüja poolt välja antud proforma-arve loob siduva lepingu.",
+                    "2": "Ostja teave: Müüja eeldab, et ostja esitatud teave, joonised ning dokumendid on korrektsed. Kui ostja esitab detailinumbreid, müüja eeldab, et need on korrektsed.",
+                    "3": "Toote spetsifikatsioonid: Illustratsioonid, mõõtmed, võimsus, kaal, hinnad ning kirjeldused on ainult informatsiooniks ning on lähendatud väärtused.",
+                    "4": "Masina kontroll: Spetsifikatsioonid nagu tõstekõrgus, võimsus, mõõtmed jne on ainult näidisandmed. Ostja on kohustatud need kontrollima enne tellimuse kinnitamist. Kõik võimalikud erinevused on ostja vastutus. Uued masinad müüakse EXW müüja tehases või logistikakeskuses 12 kuu tootja garantii ning CE sertifikaadiga. Kasutatud masinad müüakse 'nagu on' müügile, pole funktsionaalsed, pole garantii ning võetakse arvesse ainult varuosadena. Professionaalne kontroll ja remont on nõutav enne kasutuselevõtmist.",
+                    "5": "Eraldised: Lisad nagu gaffel, kõrvalpaigutusseadmed, positsioneerimisseadmed ning raudkardinad ei ole müügile võetud, kui pole spetsiaalselt märgitud.",
+                    "6": "Seadmed on kättesaadavad pakkumise kuupäevast, eeldades eelnev müük."
+                }
+            },
+            "3": {
+                "title": "Artikkel 3 – Eesmärk",
+                "list": {
+                    "1": "Varude ulatus: Selle lepinguga kaetud spetsiifilised asjad (nimetatud 'Müüdud asjad') on kirjeldatud spetsiifilistes tellimustingimustes. Need võivad hõlmata lisasid, seadmeid, tööriistu, masinaid jne.",
+                    "2": "Ostja vastutus: Ostja on kohustatud valima sobivad 'Müüdud asjad', mis on standardasjad, kui müüja pole need ostja soovil kohandanud. Müüja pole vastutav, kui 'Müüdud asjad' ei vasta ostja spetsiifilistele vajadustele.",
+                    "3": "Hind: 'Müüdud asjade' hind on kirjeldatud spetsiifilistes tellimustingimustes ('Ostuhind'). Ostuhind on eurodes, müügimaksust, maksudest, impordi/ekspordi tollist ning kohaletoimetamis- ja võtmise kuludest. Seadmise ja käivitamise kulud on samuti eraldised ning on ostja vastutus.",
+                    "4": "Makse tingimused: Pole ettevaatamiseks ettevõtetud soodustusi. Käibelised maksud on need, mis on kehtivad arve kuupäeval. Hinnad ja tingimused võivad muutuda ostja asukoha põhjal. Vaata artiklit 12 (Arveldamine) üksikasjalikumate andmete jaoks."
+                }
+            },
+            "4": {
+                "title": "Artikkel 4 – Hind",
+                "list": {
+                    "1": "Ostuhind: 'Müüdud asjade' hind ('Ostuhind') on spetsifitseeritud spetsiifilistes tellimustingimustes. Ostuhind on eurodes, müügimaksust, maksudest, impordi/ekspordi tollist ning kohaletoimetamis- ja võtmise kuludest. Seadmise ja käivitamise kulud on samuti eraldised ning on ostja vastutus.",
+                    "2": "Ei ettevaatamiseks soodustusi: Pole ettevõtetud soodustusi.",
+                    "3": "Käibelised maksud: Maksud on need, mis on kehtivad arve kuupäeval.",
+                    "4": "Geograafilised erinevused: Hinnad ja tingimused võivad muutuda ostja asukoha põhjal. Vaata artiklit 12 (Arveldamine) üksikasjalikumate andmete jaoks."
+                }
+            },
+            "5": {
+                "title": "Artikkel 5 – Makse tingimused",
+                "list": {
+                    "1": "Makse ostu ajal: Kui pole teisiti kirjalikult ettevaatud, tuleb ostuhinnale ja kõigile seotud kuludele maksta täies mahus enne kohaletoimetamist pangaliitumise teel müüja poolt ette näidatud kontole, viidates arve üksikasjadele (failiviide ja proforma-arve number). Müüja võib nõuda 50% deposiiti tellimuse tegemisel, et reserveerida seadmeid või alustada tootmist.",
+                    "2": "Makse kinnitus: Makse on täies mahus makstud ainult siis, kui müüja on saanud raha. Kohaletoimetamine toimub ainult pärast täielikku proforma-arve maksmist.",
+                    "3": "Tšekimakse: Kui müüja nõustub tšekimaksega, on makse täies mahus makstud ainult tingimusteta raha saamisel pärast seadusliku tšekiajal.",
+                    "4": "Hilinemised: Hilinemised tekitavad automaatselt Banque de France edukausu juurde 2% juurde, pluss veel õigusabi.",
+                    "5": "Võlgnevus: Võlgnevuse korral, pankroti, maksejõuetuse, laialiminek, likvideerimine, protest, kohtuvõlgnevuse, pankroti menetlus või vara üleandmine, võib müüja lõpetada lepingu kohe, ilma ettevõtmata ühtegi ettevaatamist või võlausaldusi.",
+                    "6": "Kolmanda osapoole arveldamine: Kui ostja soovib arveldada kolmanda osapoolega, on ta võlausaldatud kõigi kohustuste eest. Kolmanda osapoole geograafiline asukoht määrab kõikide rakendatavad kulud.",
+                    "7": "Rendimakse: Rendimakseid tehakse otse debiteerimise teel arveldamise kuupäeval. Esimene makse võetakse rendilepingu allkirjastamisel.",
+                    "8": "Rendidokumendid: Rendilepingud nõuavad pangakontonumbrit, isikutunnistust, deposiiti (tšekk või ülekanne), allkirjastatud ja pitsatitud otse debiteerimise loa ning teisi dokumente, mida müüja võib nõuda enne seadme väljastamist.",
+                    "9": "Tagastatud makse: Tagastatud otse debiteerimisi esitatakse 5 päeva pärast. Iga tagastatud makse eest võetakse 15 € tasu.",
+                    "10": "Teine tagastatud makse: Teise tagastatud makse korral nõutakse täieliku maksmist võlgnikele ning seadme tagastamist 3 päeva jooksul. Tagastamise kulud ning 70% trahv jäävad alles rendilepingu ebaõnnestumise korral.",
+                    "11": "Täpsemad tellimused: Täpsemate tellimuste korral tuleb deposiit 50% maksta tellimuse tegemisel, ning ülejäänud 50% tuleb maksta tootmise lõppemisel. Klientil on 5 päeva aega tasuda tasakaalustamiseks pärast teatist. Seadme väljastamine või kohaletoimetamine on võimalik ainult täieliku maksmise korral. Hilinemised põhjustavad võrdseid hilinemisi seadme väljastamisel.",
+                    "12": "Müüdud seadmete hoidmine: 10-päevane tasuta hoidmise periood on ette näidatud tootmise lõppemisel. Klient peab tasakaalustama ning korraldama võtmise või kohaletoimetamise selle perioodi jooksul. Pärast 10 päeva hoiavad seadmed logistikakeskuses või kolmanda osapoolega ning kohaldatakse hoidmise kulud.",
+                    "13": "Hoidmise kulud: Hoidmise kulud võivad muutuda seadme tüübi, suuruse ning keerukuse põhjal, kategoriseeritud 7 gruppi spetsiifiliste päevaste hindadega."
+                }
+            },
+            "6": {
+                "title": "Artikkel 6 – Omandi üleandmine ja risk",
+                "list": {
+                    "1": "Riski üleandmine: Müüdud seadmete kaotuse või kahjustuse risk üleandub ostjale kohaletoimetamisel.",
+                    "2": "Omandi üleandmine: Müüdud seadmete omandi üleandmine toimub ainult pärast täielikku ostuhinnale ning kõigile seotud kuludele maksmist. Enne seda on omandi üleandmine peatatud.",
+                    "3": "Ostja kindlustus: Enne täielikku omandi üleandmist on ostja kohustatud kindlustama müüdud seadmeid kõigi riskide eest, mis võivad tekkida või luua, vähemalt ostuhinnale ning seotud kuludele.",
+                    "4": "Immaterialne õigused: Ostja tunnistab, et müüja säilitab kõiki immateriaalseid õigusi müüdud seadmetega seotud, sealhulgas kaubamärgi ning logo, ning nõustub mitte esitama nende õiguste suhtes nõudeid."
+                }
+            },
+            "7": {
+                "title": "Artikkel 7 – Kohaletoimetamine",
+                "list": {
+                    "1": "Kohaletoimetamise tingimused: Kohaletoimetamine on EX-WORKS müüja tehast (Incoterms 2020) või müüja partnerite ladudest, kui pole teisiti kirjalikult ettevaatud. Kui kohaletoimetamine ostja asukohas on ettevaatud, võib see toimuda ostja puudumisel. Kohaletoimetamise kinnitus on tõend kohaletoimetamiseks. Tollimaksud on eraldised ning arveldatud eraldi 20% materjali väärtusest pärast kohaletoimetamist.",
+                    "2": "Kohaletoimetamise ajad: Kohaletoimetamise ajad on hinnangulised. Ostja ei saa nõuda kahjutasusid või keelduda kohaletoimetamisest kohaletoimetamise viivituse või müüja võimetuse tõttu lepingu täitmiseks.",
+                    "3": "Kohaletoimetamise algus: Iga kokkulepitud kohaletoimetamise ajaperiood algab ainult pärast müüja on saanud kõik vajalikud dokumendid kohaletoimetamiseks.",
+                    "4": "Hilinenud tarne tagajärjed: Kui hilinenud tarne tagajärjed on kirjalikult kokku lepitud, peab ostja formeerima Müüjat viivitusest informeerima ja esitama tõendid kahjude kohta. Müüja ei vastuta viivituste eest, mis on tingitud force majeure'st või ostja poolt põhjustatud viivituste eest. Viimasel juhul peab ostja hüvitama Müüjale kahjud ja kulud. Force majeure hõlmab (ilma piiranguteta) valitsuse korraldusi, mobiliseerimist, sõda, pandeemiaid, epideemiaid, streike, defekte, tulekahjusid, üleujutusi, plahvatusi, materjalide või tööjõu puudust, majanduslikke muutusi, laevade viivitusi, religioosseid pühasid, vandalismist ja muudest oludest, mis on väljaspool Müüja kontrolli. Hilinenud tarne tagajärjed on piiratud 0,5% ostuhinnaga iga täieliku nädala kohta pärast 21. tööpäeva tarnekuupäeva, maksimaalselt aga 5% kogu ostuhinnast.",
+                    "5": "Ei ole lõpetamist hilinenud tarne tõttu: Ostja ei saa lepingut lõpetada Müüja hilinenud tarne tõttu.",
+                    "6": "Osaline tarne ja keeldumine: Kui osaline tarne on tehtud ja ostja keeldub või takistab edasisi tarneid, on tarnitud osa summa koheselt forfalden ja ostja vastutab kahjude eest, vähemalt 70% ostuhinnast tarnimata osa kohta.",
+                    "7": "Pakkimine ja saatmine: Ostja vastutab pakkimis- ja saatmiskulude eest ja korraldab kättetoimetamise Türgi, Hiina või Euroopa tehasest. Kui juhiseid ei ole antud, saadab Müüja kauba pärast raha laekumist ostja parimates huvides. Kindlustus pakutakse ainult ostja selgesõnalise taotluse ja tema kulul.",
+                    "8": "Tarne kontroll: Ostja peab kauba tarne ajal kontrollima. Kui tarnelipul ei ole märgitud reserveeringuid, loetakse tarne vastavaks.",
+                    "9": "Tarne reserveeringud: Kõik ostja poolt tarne ajal tehtud reserveeringud puudutavad speditööri, laevafirma ja vedaja.",
+                    "10": "Eelmakse tarne eest: Enne vastava proformaarve täielikku tasumist ei toimu tarne, välja arvatud juhul, kui see on kirjalikult kokku lepitud.",
+                    "11": "Dokumentatsioon: Materjalide müügi puhul esitatakse ainult arve. Uute seadmete puhul esitatakse CE-sertifikaat ja kasutusjuhend (inglise keeles). Tõlge on ostja vastutusel. Kasutatud seadmete puhul ei esitata konformiteedisertifikaate, perioodilisi inspekteeringuid, hooldusregistreid ega juhendeid.",
+                    "12": "Materjalide mahalaadimine: Kui AZ MACHINERY SL tegeleb transpordiga, toimub tarne 33-tonnise telgiga haagise või konteinerveokitega. Mahalaadimine on ostja vastutusel pärast saabumist tema ruumidesse. Ostjal peab olema olemas vajalikud inimressursid ja tehnilised vahendid kauba mahalaadimiseks. Kui mahalaadimine on võimatu, jätab AZ MACHINERY SL endale õiguse kauba ladustada ja arvestada ostjale transpordikulud, juhi ooteaeg, šassii immobiliseerimine (€ 250/tund) ja € 500 trahv mahalaadimise ebaõnnestumise eest."
+                }
+            },
+            "8": {
+                "title": "Artikkel 8 – Hoolduse õigus",
+                "list": "Makse mittetäitmisel on müüjal õigus hoida kõiki ostjalt saadud esemeid ja dokumente seni, kuni ostja on täitnud kõik kohustused, sealhulgas peamine summa, intressid, käsitlemiskulud, transport- ja hoidmise kulud, tolli- ja tollimaksukulud ning teised seotud kulud."
+            },
+            "9": {
+                "title": "Artikkel 9 – Müüdud esemete seisund ja garanti",
+                "list": {
+                    "1": "'Nagu on' seisund: Uued ja kasutatud esemed müüakse 'nagu on' ja ostja võtab need vastu kohaletoimetamisel.",
+                    "2": "Garanti eelarvamised: Müüja pole vastutav, kui: a) Ostja on parandanud või muutnud eset. b) Defektid on põhjustatud ebaseaduslikust kasutamisest, väärkohtlemisest või kasutamisest väljaspool näidatud otstarvet (nt ülekoormamine, vale kasutamine, ebapiisav hooldamine).",
+                    "3": "Tagastused/vahetused: Esemeid ei saa tagastada/vahetada müüja kirjaliku nõusolekuta.",
+                    "4": "Uute seadmete garanti: Uued seadmed müüakse 12 kuu tootja garantiiga ja CE sertifikaadiga. Kohaletoimetamine, seadistamine, käivitamine ning vajalikud ühilduvus kontrollid on ostja vastutus.",
+                    "5": "Kasutatud seadmete garanti: Kasutatud seadmed müüakse 'nagu on' ilma garantiita, kui pole teisiti ettevaatud. Kui kasutatud seadme garanti on pakutud, see hõlmab mootorit, transmissiooni ning telgi 6 kuu jooksul. Kõik teised osad müüakse 'nagu on' ilma garantiita. Turvameetmete kontrollid sertifitseeritud asutuse poolt ning vajalikud remondid on ostja vastutus enne kasutuselevõtmist.",
+                    "6": "Garanti katab: Garanti katab mootori, transmissiooni ning telgi. Patareid, rattad, kardinad, hüdraulilised üksused, torud, lisad, sensorid ning laadijad on eraldised. Garanti pole ülekannev ning on tühistatud, kui tehtud on mittelitsentsioonilisi remonditöid. Garanti remonditöid tehakse tavaliselt tarnija töökojas. Ostja on vastutav seadme või defektsete osade saatmise eest. Kui tehnikul on vaja reisida, võetakse temalt reise- ja majutuskulud. Garanti ei kata normaalset kulumist, kahjustusi puuduliku hoolduse tõttu, väärkohtlemist või vandalismi.",
+                    "7": "Garanti hooldus: Ostja peab täitma kõiki ennetavat hooldust, mida müüja või tema teenusepakkujad soovitavad, et säilitada garanti.",
+                    "8": "Garanti tingimused: Garanti kehtib Andorra, Prantsusmaa ning rahvusvaheliselt, kasutades Andorra varuosade hindu. See katab mehaanilisi osi (nagu tootja kataloogis on märgitud) mootori, transmissiooni ning telgi jaoks. Demontaaž ning ülesseadmine probleemi lahendamiseks pole katab. Garanti eelarvab vigastusi, mis on põhjustatud tahtlikust tegevusest, õnnetustest, trahvidest, patareidest, lisadest ning elektroonilistest komponentidest. See eelarvab ka kahjustusi, kus pole võetud ette meetmeid selle vältimiseks, remondid mittelitsentsiooniliste isikutelt ning kasutamine väljaspool spetsifitseeritud töötingimusi. Garanti on tühistatud, kui sõidukit on muudetud müüja nõusolekuta.",
+                    "9": "Garanti aeg: Uute seadmete garanti kestab 12 kuud (36 kuud Hispaania jaoks) ainult osade jaoks. Kasutatud seadmete garanti kestab 6 kuud ning on piiratud 50 töötunni jooksul. Garanti lõppeb 6 kuu pärast või kui on saavutatud aegpiir (millest esimene on teostatud).",
+                    "10": "Garanti nõuded: Kahjustuse korral peab ostja müüjale teatama kirjalikult ning telefoniga 3 tööpäeva jooksul. Mitteteadmine võimaldab garanti nõudeid. Ostja peab võtma meetmeid kahjustuse vältimiseks, esitama asjakohaseid andmeid ning lubama müüjale probleemi kontrollida. Remondid peavad olema müüja poolt kinnitatud enne nende teostamist. Töökulud pole katab. Müüja võib nõuda politsei aruannet, kui on vaja. Remonditöid võidakse teha kasutatud osadega ('vahetusstandard'). Müüja reserveerib endale õiguse osade pakkumiseks. Kui remondikulu ületab garanti katet, peab ostja maksma erinevuse. Remonditöid peavad olema lõpetatud ühe kuu jooksul pärast probleemi teatamist. Maksimaalne remondikulu on piiratud uue seadme väärtusega. Üksikasjalikud andmed garanti katetud osade kohta on esitatud mootori, transmissiooni ning telgi jaoks."
+                }
+            },
+            "10": {
+                "title": "Artikkel 10 – Rentnikutingimused",
+                "list": {
+                    "1": "Hooldus: Kõik rentnikulepingud on hooldusvabad, kui pole teisiti ettevaatud kirjalikult. Kui täielik hooldus on kaasas, on rentnik vastutav rehvivahetuse, gaffeli, istmete, kulumise ning kahjustuste eest, kindlustuse, ning vajalike perioodiliste kontrollide eest.",
+                    "2": "Finantsimine: Rentnik on vastutav banki finantsimise korraldamise eest rentitud seadme jaoks.",
+                    "3": "Omand: Seade jääb müüja omandisse kuni selle tagastamiseni.",
+                    "4": "Tagastamistingimused: Rentnik peab tagastama seadme heas töökorras ning on vastutav kõigi vajalike remonditööde eest, sealhulgas torude, rehvide, haakide, kardinaid, hüdrauliliste üksuste, värvimise ning teiste kahjustatud osade eest.",
+                    "5": "Ebaõnnestumine: Ebaõnnestumise korral rentnikulepingu eest tuleb rentnikul maksta 70% jäävatest rentimaksetest ning tagastamiskuludest.",
+                    "6": "Kindlustus: Rentnik peab kindlustama seadme varguse, vandalismi, tulekahju, kahjustuste, tsiviilvastutuse ning liiklusvastutuse eest.",
+                    "7": "Aastane ülevaatus: Aastane ülevaatus tehakse, et hinnata lepingu sobivust reaalsete seadme kasutamise andmete põhjal. Kui kasutamine ületab 100 tundi aastas, siis leping kohandatakse automaatselt reaalsete kasutamise andmete järgi, sealhulgas hoolduskuludega.",
+                    "8": "Ületund: Ületundide eest arvestatakse praegu kehtivad hinnad, sõltudes seadme tüübist.",
+                    "9": "AZ MACHINERY-SL rentnikulepingud: Ebaõnnestumine AZ MACHINERY-SL rentnikulepingu eest tuleb rentnikul maksta 70% jäävatest rentimaksetest ning tagastamiskuludest.",
+                    "10": "Lühiajalised rentnikulepingud: Lühiajalised rentnikulepingud on põhitud 8 tunni päevas ning 5 päeva nädalas ning ei sisalda transporti, kasutamist, kütust, kindlustust ning puhastamise kulud. Normaalne kasutamine ei nõua puhastamist. Puhastamise eest võetakse 200 € tasu, kui puhastamine on vaja. 1250 € deposiit on nõutav (pangaliitumine või otse debiteerimine). Rentnik peab kindlustama seadme kogu rentiperioodi jooksul Euroopas, sõltumata asukohast. Kindlustus katab seadme rikkumise, varguse, laadimise/lossimise kahjustusi, transpordikahjustusi, tulekahju ning ümberpööramise/kokkupõrkeid. Kindlustuskulud on rentniku vastutus ning kindlustuse tõendi esitamine on vaja enne kohaletoimetamist. 2250 € omakasu kehtib kahjustuste eest ning 7500 € varguse eest. Leping on kehtiv alates alguskuupäevast kuni rentniku seadme tagastamise taotluse esitamiseni. Kõik tagastamistaotlused peavad olema saadetud e-kirjaga contact[at]az-machinery.com kella 10:00ks järgmisel tööpäeval soovitud lõppkuupäeva järel. Rentnik on vastutav seadme eest 96 tundi pärast tagastamistaotluse esitamist. AZ MACHINERY-SL reserveerib endale õiguse asendada teise mudel või seadmetüübi, kui soovitud mudel pole saadaval.",
+                    "11": "Piiratud kasutamine: Seadmeid ei saa kasutada liivapritsmiseks, kemikaalide või tsmenti käitlemiseks."
+                }
+            },
+            "11": {
+                "title": "Artikkel 11 – Vastutus",
+                "list": {
+                    "1": "Piiratud vastutus: Müüja vastutus kahjustuste eest, mis tulenevad sellest, et müüja on täitnud kohustusi, on piiratud seadusega ette näidatud ulatuses.",
+                    "2": "Ei majanduskahjustusi: Müüja pole vastutav majanduskahjustuste eest, sealhulgas tulud, müügikahjumid, müügikahjumid või muud otsest, kaudset või järelejäänud kahjustusi või nõudeid, mis tulenevad sellest, et müüja on täitnud kohustusi.",
+                    "3": "Ei kolmanda osapoole nõudeid: Kui ostja on vastutav kolmanda osapoole ees kahjustuste eest, mis on põhjustatud müüdud esemete defektist, võib ta müüjale nõudeid esitada."
+                }
+            },
+            "12": {
+                "title": "Artikkel 12 – Arveldamine",
+                "list": {
+                    "1": "Maksud ja hinnad: Hinnad on näidatud maksuvabalt (20% Prantsuse maksu kehtib välismaistele ettevõttele, mis on registreeritud maksu esindajaga Prantsusmaal). Maksuregistreeritud EL ettevõtted maksavad maksu ise, kui on välja antud proforma-arve. See summa rakendatakse tollimaksu arveldamisele (20% materjali väärtusest). Maksuregistreeritud ettevõtetele kehtib 20% maksu ise, vastavalt EL maksudirektiivi 21-1-a või Prantsuse maksuseaduse artiklile 283-1. Kliendi peab esitama kehtiva maksunumbri, mis vastab tellimusele ning maksukontole. Isikute puhul rakendatakse maksu summa nagu on.",
+                    "2": "Arve väljastamine: AZ MACHINERY SL väljastab deposiitarve või esialgse arve (märgitud 'P') tellimuse järgi. Pärast kontrolli, kohaletoimetamist ning tollimaksu maksu väljastatakse lõpparve.",
+                    "3": "Arveldamise muutused (2024): AZ MACHINERY SL ei ole kohustatud elektroonilise arveldamiseks Andorra ettevõttena. Lihtsustamiseks on sisse viidud kolm kliendikategooriat: A: Ettevõtted Andorras B: Ettevõtted Prantsusmaal C: Ettevõtted teistes Euroopa riikides, DOM-TOM ja välismaal",
+                    "4": "Arveldamine Andorras (grupp A): Hinnad on näidatud maksuvabalt (4,5% maksu). Deposiitarve väljastatakse, ning kliendi peab esitama NRT kehtivuse tõendi. Lõpparve väljastatakse pärast kontrolli ning kohaletoimetamist.",
+                    "5": "Arveldamine Prantsusmaal (grupp B): Ettevõtetele, mis ei ole elektroonilise arveldamisega kohustatud, kehtivad sätted punktides 12.1 ning 12.2. Ettevõtetele, mis on elektroonilise arveldamisega kohustatud, peab AZ MACHINERY SL teatama oma platvormist tellimise järgi ning esitama maksunumbri tõendi. Nad arveldavad ise maksu. Lisakulud arveldatakse eraldi. Kui pole andmeid esitatud, siis on deposiit 20% nõutav, mis on tagastatav 30 päeva jooksul pärast lõpparve väljastamist, kui klient seda taotleb. Erandid: Regulaarsed kliendid (mitu tellimust või arvet praeguses aastas) on vabastatud maksunumbri esitamisest, tollimaksud pole arveldatavad ning maksu on ise arveldatud.",
+                    "6": "Arveldamine teistes riikides (grupp C): Ettevõtted peavad esitama eksporditõendi (T1 või muu dokument) kaupade Andorras või EL-st väljaveo korral. Eksporditõendi saamisel pole tollimaksud arveldatavad ning maksu on ise arveldatud."
+                }
+            },
+            "13": {
+                "title": "Artikkel 13 – Paigaldamine, monteerimine, käivitamine ning hooldus",
+                "list": {
+                    "1": "Paigaldamine: Kui pole teisiti ettevaatud, siis teatatakse kliendile e-kirjaga paigaldamise ajast. Klient on vastutav paigaldamiskoha kättesaadavuse eest, seadme käitlemise eest, monteerimise eest ning elektrikonnektori eest tööriistade ja seadmete ühendamiseks. Klient peab ettevalmistama vajalikud tehnilised kanalid või kaevud AZ MACHINERY-SL soovituste kohaselt.",
+                    "2": "Alamettevõtlus: AZ MACHINERY-SL võib kasutada kohalikke alamettevõtjaid paigaldamiseks, sõltuvalt asukohast.",
+                    "3": {
+                        "0": "Paigaldamise maksmine: Paigaldamise maksmine on ettevaatud enne töö algust. Pärast maksmise vastuvõtmist, planeerib AZ MACHINERY-SL paigaldamise tehnikute kättesaadavuse põhjal.",
+                        "1": "Ootamise aeg: Klient peab tagama, et tehnikud saavad prioriteeritud juurdepääsu seadmele. Muul juhul arvestatakse ootamise aeg, reise- ning majutuskulud järgmiseid sätteid kasutades:",
+                        "2": "Standard tehnik (mehaaniline/hüdrauliline): 97 €/tund",
+                        "3": "Elektrik: 127 €/tund",
+                        "4": "Reisikulud: Reaalkulud",
+                        "5": "Majutuskulud: 95 €/öö/tehnik",
+                        "6": "Paigaldamiskohta juurdepääsu ettevalmistamine: Aeg, mis on kulutatud paigaldamiskohta juurdepääsu saamiseks, ohutusplaani ettevalmistamiseks, märkide saamiseks ning kohtumistele osalemiseks, arvestatakse samaaegselt ootamise aja sätetega."
+                    },
+                    "4": "Käivitamine: Käivitamine tehakse tehnikute poolt paigaldamise lõpus enne lahkumist. Kui on vaja tasuda tasakaalust, peab klient tasakaalu tasuma ning tõendi esitama enne käivitamist. Klient on vastutav seadme kindlustamise ning märgistamise eest. Kui klient soovib sertifitseeritud asutuse poolt tehtud ühilduvus kontrolli, peab klient selle korraldama ning maksma.",
+                    "5": "Pildiõigused: Kui pole teisiti ettevaatud, siis annab klient AZ MACHINERY-SL luba kasutada paigaldatud seadme pilti ärieesmärkidel, koolitamiseks ning toote parendamiseks.",
+                    "6": "Hooldus: Paigaldamine ei sisalda hooldust. Hooldus on pakutud valikulise lepinguna ainult AZ MACHINERY-SL poolt paigaldatud seadmetele."
+                }
+            },
+            "14": {
+                "title": "Artikkel 14 – Peatamine ning lõpetamine",
+                "list": {
+                    "1": "Peatamine mittetäitmisel: Kui arve pole täies mahus makstud 15 päeva jooksul (punkt 5.1), siis on müüjal õigus peatada kõik uued või olemasolevad lepingud ostjaga.",
+                    "2": "Peatamine lepingu rikkumisel: Müüjal on õigus peatada lepingu, kui pärast lepingu sõlmimist selgub, et ostja pole võimeline täitma olulist osa oma kohustusi seoses tootmise või müügiga. Müüja teatab ostjale peatamisest kohe.",
+                    "3": "Lõpetamine oodatud rikkumisel: Kui müüja selgub enne lepingu sõlmimist, et ostja kavatseb teha olulise rikkumise, siis on müüjal õigus lõpetada leping."
+                }
+            },
+            "15": {
+                "title": "Artikkel 15 – Muu",
+                "list": {
+                    "1": "Eraldi sätete kehtimine: Kui ükski sätted on ebaseaduslik, siis jäävad ülejäänud sätted kehtima. Osapooled töötavad koos, et asendada ebaseadusliku sätte kehtiva sättega, mis saavutab sarnase majandusliku tulemuse.",
+                    "2": "Eelnevad sätted: See leping asendab kõik varasemad lepingud, contraktid, ettepanekud ning kohustused, mis on seotud sama teemaga nagu spetsiifilistes tellimustingimustes on kirjeldatud.",
+                    "3": "Terve leping: See leping kehtib kõigi osapoolte vahel, kellel on seotud sellega.",
+                    "4": "Äri päevad: Äri päevad selles lepingus on esmaspäevast reedeni, välja arvatud pühad.",
+                    "5": "Vaikimisi tollimaksud: Vaikimisi tollimaksud on 20% materjali väärtusest.",
+                    "6": "Õiguslik ülevaatus: Need üldised tingimused on ülevaatatud ning kinnitatud õigusliku isiku poolt."
+                }
+            },
+            "16": {
+                "title": "Artikkel 16 – Tühistamine – Tagasivõtmine",
+                "list": {
+                    "1": "Tellimuse kinnitamine: Iga tellimuse kinnitamine on lõplik ning siduv.",
+                    "2": "Tarbijate tagasivõtmise õigus: Tarbijatel on 7-päevane tagasivõtmise aeg, kui tellimus oli müüja algatusel.",
+                    "3": "Tellimuse kinnitamise meetodid: Tellimuse kinnitamine võib toimuda faksi, e-kirja, deposiidi, ostu korralduse, proforma-arve, pakkumise jms abil.",
+                    "4": "Ei tagasivõtmise õigust ettevõtjatele: Ettevõtjatele ei kehti tagasivõtmise aeg.",
+                    "5": "Tühistamise trahvid: Kui tellimus tühistatakse, peab klient maksma vähemalt 70% materjali väärtusest tühistamise trahvi.",
+                    "6": "Deposiidid: Deposiidid või täielikud maksemised, mis on tehtud koos tellimusega, hoitakse müüja poolt tühistamise trahvina.",
+                    "7": "Deposiit kui tellimuse kinnitamine: Iga deposiit on tellimuse kinnitamine spetsiifiliste materjalide kohta, nagu on kirjeldatud pakkumises, hinnas või arves, koos need üldised müügi- ning ostutingimused. Deposiit on ostu korraldus ning vabastab vajadusest kirjalikku tellimuse kinnitamiseks.",
+                    "8": "Maksud: Hinnad on näidatud maksuvabalt. Rakendatavad maksud sõltuvad ostja asukohast (4,5% Andorra ettevõtetele, 20% Prantsuse maksu välismaistele ettevõtetele Prantsusmaal). Maksuregistreeritud EL ettevõtted maksavad ise maksu. Klient peab esitama kehtiva maksunumbri, mis vastab tellimusele ning maksekontole. Kui klient ei täida neid kohustusi, siis tühistatakse tellimus automaatselt."
+                }
+            },
+            "17": {
+                "title": "Artikkel 17 – Tingitud leping",
+                "list": "Kui müüja annab ostjale krediiti, siis on leping tingitud krediidi heakskiidu saamisest krediidiinstitutsioonilt 60 kalendripäeva jooksul lepingu sõlmimisest. Ostja peab müüjale teatama krediidiinstitutsiooni otsusest 15 kalendripäeva jooksul. Leping saab kehtima alles krediidi heakskiidu saamisel. Kui krediiti ei ole heakskiidetud, siis on leping tühistatud ning pole õiguslikku jõudu. Sellistes juhtumites pole ostjal õigust nõuda kahjutasu."
+            },
+            "18": {
+                "title": "Artikkel 18 – Kehtiv õigus ning kohtutee",
+                "list": "See leping on Andorra õiguse all, välja arvatud juhul, kui on ette näidatud üldistes või spetsiifilistes tingimustes. Viini konventsiooni rakendamine"
+            },
+            "19": {
+                "title": "Artikkel 19 – Kohtutee",
+                "list": "Kõik tüliküsimused, mis tekivad selle üldise lepingu ning spetsiifilise lepingu tõlgendamisel või täitmisel, on müüja registreeritud aadressiga seotud kohtutee alla."
+            }
+        }
     }
 }

@@ -559,5 +559,256 @@
         "gab": "Full galvanized",
         "gao": "Full galvanized",
         "tb": "Covered tunnel"
+    },
+    "imprint": {
+        "title": "Imprint",
+        "azm-france": "AZ Machinery France",
+        "address": "13 rue de la scierie - 66340 Palau de Cerdagne, France",
+        "phone": {
+            "france": "Tél : (+33) 03 52 74 03 69",
+            "headquarter": "Tél : +376 390 036"
+        },
+        "siret": {
+            "1": "Siret : 824 654 958 000 19",
+            "2": "Siret: 509 902 722 - TVA : FR39"
+        },
+        "tva": "TVA : FR62 824 654 958",
+        "capital": "AZ MACHINERY - SLU, Capital 3 000.000 €",
+        "headquarter": "Siège social: Carrer Doctor Palau, N°8 AD600 Sant Julià de Loria, Andorra",
+        "nrt": "NRT : L-711694-Z - N° Registral : 16585",
+        "fiscal": "Représentant Fiscal d' AZ MACHINERY en France:",
+        "nvotf": "NVOTF Group: 13 rue de la scierie - 66 340 PALAU DE CERDAGNE, Frankreich",
+        "ceo": "Directeur de publication : Jérôme GUIGUET",
+        "property": "Ce site respecte le droit d’auteur. Tous les droits des auteurs des œuvres protégées reproduites et communiquées sur ce site, sont réservés. Sauf autorisation, toute utilisation des œuvres autres que la reproduction et la consultation individuelles et privées sont interdites. Le site az-machinery est édité par Ionos et hébergé par la société Ionos."
+    },
+    "privacy": {
+        "title": {
+            "1": "Privacy Policy",
+            "2": "Information We Collect",
+            "3": "Cookies",
+            "4": "Data Usage",
+            "5": "Your Rights",
+            "6": "Contact Us"
+        },
+        "subtitle": {
+            "1": "Your Privacy Matters"
+        },
+        "content": {
+            "1": "At AZ Machinery, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your information when you interact with our services.",
+            "2": "As a producer and seller of loading ramps, we collect minimal personal data necessary for our operations. The only data we collect is through Google Analytics and PostHog. This data helps us understand how our website is used and improve our services.",
+            "3": "We use cookies to enhance your experience on our website. Our GDPR-compliant cookie banner provides you with information about the cookies we use and allows you to manage your preferences.",
+            "4": "The data we collect is used solely for analytical purposes and to improve our products and services. We do not sell or share your personal information with third parties without your consent.",
+            "5": "Under the General Data Protection Regulation (GDPR), you have the right to access, rectify, or delete your personal data. If you have any questions or concerns regarding your data, please contact us.",
+            "6": "If you have any questions about this Privacy Policy or our data practices, please contact us at:"
+        },
+        "email": "Email: contact[at]azmachinery.com",
+        "phone": "Phone: (+33) 03 52 74 03 69"
+    },
+    "terms": {
+        "title": "Terms and Conditions",
+        "subtitle": "Introduction",
+        "content": "These Terms and Conditions govern the relationship between you and AZ Machinery. By accessing or using our services, you agree to comply with these terms.",
+        "article": {
+            "1": {
+                "title": "Article 1 – Scope",
+                "list": {
+                    "1": "Governing Agreement: These General Terms and Conditions, along with any specific order terms, govern the relationship between AZ MACHINERY-SL ('Seller') and the buyer. In case of conflict, specific order terms take precedence.",
+                    "2": "No Tacit Waiver: Any changes to these terms must be explicit, and Seller's failure to enforce a term at any time does not constitute a waiver of that term in the future.",
+                    "3": "Acceptance and Availability: The buyer acknowledges and accepts these General Terms and Conditions, which are available on the Seller's website (www.az-machinery.ch) and on pages 2 and 3 of quotes and proforma invoices. The Seller reserves the right to modify these terms; buyer acceptance is assumed after 15 calendar days of notification if no objection is raised.",
+                    "4": "Order Confirmation: Shipment by the Seller signifies acceptance of the order unless otherwise agreed in writing.",
+                    "5": "Scope: These terms apply to sales within Andorra, France, and internationally."
+                }
+            },
+            "2": {
+                "title": "Article 2 – Offers and Orders",
+                "list": {
+                    "1": "Offers & Binding Agreement: Offers are valid for 30 days, are non-divisible, and are merely proposals. Only a proforma invoice issued by the Seller creates a binding agreement.",
+                    "2": "Buyer Information: Seller assumes accuracy of information, drawings, and documents provided by the buyer. If the buyer provides part numbers, the Seller assumes they are correct.",
+                    "3": "Product Specifications: Illustrations, dimensions, capacities, weights, prices, and descriptions are for informational purposes only and are approximate.",
+                    "4": "Machine Verification: Specifications like lifting height, capacity, dimensions, etc. are indicative only. The buyer is responsible for verifying them before confirming the order. Any discrepancies are the buyer's responsibility. New equipment is sold EXW from the factory or a logistics site with a 12-month manufacturer's warranty. Used equipment is sold 'as is,' non-functional, without warranty, and considered for parts only. Professional inspection and repair are required before use.",
+                    "5": "Exclusions: Accessories like forks, side-shift attachments, positioners, and railings are not included in the sale unless explicitly specified.",
+                    "6": "Equipment is available as of the offer date, subject to prior sale."
+                }
+            },
+            "3": {
+                "title": "Article 3 – Purpose",
+                "list": {
+                    "1": "Scope of Supply: The specific items covered by this agreement (referred to as 'Sold Items') are detailed in the specific order terms. These may include accessories, equipment, tools, machines, etc.",
+                    "2": "Buyer Responsibility: The buyer is responsible for selecting the appropriate 'Sold Items,' which are standard items unless customized by the Seller at the buyer's request. The Seller is not liable if the 'Sold Items' do not meet the buyer's specific needs.",
+                    "3": "Pricing: The price of the 'Sold Items' is outlined in the specific order terms ('Purchase Price'). The Purchase Price is in Euros, excluding VAT, taxes, import/export duties, and delivery/pickup costs. Installation and commissioning costs are also excluded and are the buyer's responsibility.",
+                    "4": "Payment Terms: No discounts are offered for early payment. Applicable taxes are those in effect on the invoice date. Prices and terms may vary based on the buyer's location. See Article 12 (Invoicing) for details."
+                }
+            },
+            "4": {
+                "title": "Article 4 – Pricing",
+                "list": {
+                    "1": "Purchase Price: The price of the sold items ('Purchase Price') is specified in the specific order terms. The Purchase Price is in Euros, excluding VAT, taxes, import/export duties, and delivery/pickup costs. Installation and commissioning costs are also excluded and are the buyer's responsibility.",
+                    "2": "No Early Payment Discounts: No discounts are offered for early payment.",
+                    "3": "Applicable Taxes: Taxes are those in effect on the invoice date.",
+                    "4": "Geographic Variations: Prices and terms may vary based on the buyer's location. Refer to Article 12 (Invoicing) for details."
+                }
+            },
+            "5": {
+                "title": "Article 5 – Payment Terms",
+                "list": {
+                    "1": "Payment Upon Purchase: Unless otherwise specified in writing, payment for the purchase price and any associated costs is due in full before delivery via bank transfer to the account provided by the Seller, referencing the invoice details (file reference and proforma invoice number). Seller may require a 50% deposit upon order to reserve the equipment or begin manufacturing.",
+                    "2": "Payment Confirmation: Payment is considered complete only when the Seller has received the funds. Delivery occurs only after full payment of the corresponding proforma invoice.",
+                    "3": "Check Payments: If Seller agrees to accept a check, payment is considered complete only upon unconditional receipt of the funds after the legal check-clearing period.",
+                    "4": "Late Payments: Late payments automatically incur interest at the Banque de France advance rate plus 2%, plus any legal fees.",
+                    "5": "Default: In case of non-payment, bankruptcy, insolvency, dissolution, liquidation, protest, court summons for payment arrears, insolvency proceedings, or asset transfer, all outstanding amounts (including those owed to related companies) become immediately due without notice. Seller can terminate the agreement immediately without notice and without liability for damages, while still reserving the right to claim damages.",
+                    "6": "Third-Party Billing: If the buyer requests billing to a third party, they remain jointly and severally liable for all obligations. The geographic location of the third party will determine any applicable costs.",
+                    "7": "Rental Payments: Rental payments are made via direct debit on the due date. The first payment is collected upon signing the rental contract.",
+                    "8": "Rental Documents: Rental agreements require a bank account number, ID, security deposit (check or transfer), signed and stamped direct debit authorization, and any other documents requested by the lessor before equipment release.",
+                    "9": "Returned Payments: Returned direct debits are resubmitted 5 days later. A €15 fee is charged for each returned payment.",
+                    "10": "Second Returned Payment: A second returned payment results in a demand for full payment of outstanding invoices and equipment return within 3 days. Return shipping costs and a 70% penalty on remaining rental payments for early contract termination are charged.",
+                    "11": "Custom Orders: For custom orders, a 50% deposit is due upon order, with the remaining 50% due upon completion of manufacturing. The client has 5 days to pay the balance after notification. Equipment release or delivery is only after the full payment is received. Delays in payment result in equal delays in equipment release.",
+                    "12": "Storage of Unsold Equipment: A 10-day free storage period is granted after notification of manufacturing completion. The client must pay the balance and arrange for pickup or delivery within this time. After 10 days, the equipment is stored at a logistics depot or with a third-party provider, and storage fees apply.",
+                    "13": "Storage Fees: Storage fees vary by equipment type, size, and complexity, categorized into 7 groups with specific daily rates."
+                }
+            },
+            "6": {
+                "title": "Article 6 – Transfer of Ownership & Risk",
+                "list": {
+                    "1": "Risk Transfer: The risk of loss or damage to the sold items transfers to the buyer upon delivery.",
+                    "2": "Ownership Transfer: Ownership of the sold items is only transferred upon full payment of the purchase price and all associated costs. Until then, ownership transfer is suspended.",
+                    "3": "Buyer's Insurance: Until full ownership transfer, the buyer is obligated to insure the sold items against any risks they may incur or create, at least to the value of the purchase price and associated costs.",
+                    "4": "Intellectual Property: The buyer acknowledges that the Seller retains exclusive ownership of all intellectual property rights related to the sold items, including the brand name and logo, and agrees not to make any claims to these rights."
+                }
+            },
+            "7": {
+                "title": "Article 7 – Delivery",
+                "list": {
+                    "1": "Delivery Terms: Delivery is EX-WORKS from AZ MACHINERY-SL's factory (Incoterms 2020) or from their partner's warehouses, unless otherwise agreed in writing. If delivery to the buyer's location is agreed upon, it can be done in the buyer's absence. The delivery note serves as proof of delivery. Customs clearance fees are excluded and are billed separately at 20% of the total material value after delivery.",
+                    "2": "Delivery Times: Delivery times are estimates. The buyer cannot claim damages or refuse delivery due to late delivery or the seller's inability to fulfill the agreement.",
+                    "3": "Start of Delivery Time: Any agreed-upon delivery timeframe starts only after the Seller has all the necessary information and documents for delivery.",
+                    "4": "Late Delivery Damages: If damages for late delivery are agreed upon in writing, the buyer must formally notify the Seller of the delay, providing proof of damages. The Seller is not liable for delays due to force majeure or buyer-caused delays. In the latter case, the buyer must reimburse the Seller for damages and costs. Force majeure includes (but is not limited to) government orders, mobilization, war, pandemics, epidemics, strikes, defects, fires, floods, explosions, material or labor shortages, economic changes, ship delays, religious holidays, vandalism, and other circumstances beyond the Seller's control. Damages for late delivery are limited to 0.5% of the purchase price per full week after the 21st business day of the delivery date, up to a maximum of 5% of the total purchase price.",
+                    "5": "No Termination for Late Delivery: The buyer cannot terminate the agreement due to late delivery by the Seller.",
+                    "6": "Partial Delivery & Refusal: If a partial delivery has been made and the buyer refuses or prevents further deliveries, the amount for the delivered portion is immediately due, and the buyer is liable for damages, with a minimum of 70% of the purchase price of the undelivered portion.",
+                    "7": "Packaging & Shipping: The buyer is responsible for packaging and shipping costs and arranges for pickup at the factory in Turkey, China, or Europe. If no instructions are given, the Seller ships the goods upon receipt of funds in the buyer's best interest. Insurance is only provided upon the buyer's express request and at their expense.",
+                    "8": "Delivery Inspection: The buyer must inspect the goods upon delivery. If no reservations are noted on the delivery slip, the delivery is deemed compliant.",
+                    "9": "Delivery Reservations: Any reservations made by the buyer upon delivery concern the freight forwarder, shipping company, and carrier.",
+                    "10": "Prepayment for Delivery: No delivery is made before full payment of the corresponding proforma invoice, unless otherwise specified in writing.",
+                    "11": "Documentation: For material sales, only the invoice is provided. For new equipment, a CE certificate and user manual (in English) are provided. Translation is the buyer's responsibility. For used equipment, no certificates of conformity, periodic inspections, maintenance records, or manuals are provided.",
+                    "12": "Offloading Materials: When AZ MACHINERY SL handles transport, delivery is via 33-ton tautliners or container trucks. Offloading is the buyer's responsibility upon arrival at their premises. The buyer must have the necessary human and technical resources to offload the goods. If offloading is impossible, AZ MACHINERY SL reserves the right to store the goods and charge the buyer for transport, driver waiting time, chassis immobilization (€250/hour), and a €500 penalty for failure to offload."
+                }
+            },
+            "8": {
+                "title": "Article 8 – Right of Retention",
+                "list": "In case of non-payment, the Seller has the right to retain any items and documents provided by the Buyer until full payment of the principal amount, interest, handling fees, transport and storage costs, freight and customs clearance fees, and other associated costs."
+            },
+            "9": {
+                "title": "Article 9 – Condition of Sold Items & Warranty",
+                "list": {
+                    "1": "'As Is' Condition: New and used items are sold 'as is' and accepted by the buyer upon delivery.",
+                    "2": "Warranty Exclusions: The Seller is not liable if: a) The buyer has repaired or modified the item. b) Defects result from misuse, abuse, or use outside the intended purpose (e.g., excessive load, incorrect operation, improper installation/maintenance).",
+                    "3": "No Returns/Exchanges: Items are not returnable or exchangeable without written agreement from the Seller.",
+                    "4": "New Equipment Warranty: New equipment comes with a 12-month manufacturer's warranty and a CE certificate. Offloading, installation, commissioning, and any required conformity inspections are the buyer's responsibility.",
+                    "5": "Used Equipment Warranty: Used equipment is sold 'as is' without warranty, unless otherwise specified. If a used equipment warranty is offered, it covers the engine, transmission, and axles for 6 months. All other parts are sold 'as is' without warranty. Safety checks by a certified agency and any necessary repairs are the buyer's responsibility before use.",
+                    "6": "Warranty Coverage: The warranty covers the engine, transmission, and axles only. Batteries, wheels, railings, hydraulic units, hoses, accessories, sensors, and chargers are excluded. The warranty is non-transferable and is void if unauthorized repairs are performed. Repairs under warranty are generally performed at the supplier's workshop. The buyer is responsible for shipping the equipment or defective parts. If a technician needs to travel, their travel and accommodation costs are charged to the buyer. The warranty does not cover normal wear and tear, damage due to lack of maintenance, misuse, or vandalism.",
+                    "7": "Warranty Maintenance: The buyer must perform all preventive maintenance recommended by the Seller or its service providers to maintain the warranty.",
+                    "8": "Warranty Conditions: The warranty applies in Andorra, mainland France, and internationally, using Andorran spare parts pricing. It covers mechanical parts (as specified in the manufacturer's catalog) for the engine, transmission, and axles. Disassembly and reassembly for troubleshooting are not covered. The warranty excludes malfunctions due to intentional actions, accidents, fines, batteries, accessories, and electronic components. It also excludes damage where steps were not taken to prevent aggravation, repairs by unqualified personnel, and use outside the specified operating parameters. The warranty is void if the vehicle is modified without the Seller's authorization.",
+                    "9": "Warranty Duration: New equipment has a 12-month manufacturer's warranty (36 months for Spain) covering parts only. Used equipment has a 6-month warranty limited to 50 hours of use. The warranty ends after 6 months or when the time limit is reached (whichever comes first).",
+                    "10": "Warranty Claims: In case of a breakdown, the buyer must notify the Seller in writing and by phone within 3 business days. Failure to do so voids any warranty claim. The buyer must take steps to prevent further damage, provide relevant information, and allow the Seller to inspect the issue. Repairs must be approved by the Seller before they are performed. Labor costs are not covered. The Seller may request a police report if required. Repairs may be performed using used parts ('exchange standard'). The Seller reserves the right to provide parts. If the repair cost exceeds the warranty coverage, the buyer is responsible for the difference. Repairs must be completed within one month of the reported failure. The maximum repair reimbursement is capped based on the new equipment value. Specific details of parts covered by the warranty are provided for the engine, transmission, and axles."
+                }
+            },
+            "10": {
+                "title": "Article 10 – Rental Terms",
+                "list": {
+                    "1": "Maintenance: All rentals are considered maintenance-excluded unless otherwise specified in writing. If full-service maintenance is included, the renter is responsible for tire replacement, forks, seats, wear and tear damage, insurance, and mandatory periodic inspections.",
+                    "2": "Financing: The renter is responsible for arranging any bank financing for rented equipment.",
+                    "3": "Ownership: The equipment remains the property of the lessor from the time of delivery until return.",
+                    "4": "Return Condition: The renter must return the equipment in good working order and is responsible for any repairs needed to restore it, including hoses, tires, hitches, railings, hydraulic units, paint, and other damaged parts.",
+                    "5": "Early Termination: Early termination of a rental contract incurs a penalty of 70% of the remaining rental payments plus return transportation costs.",
+                    "6": "Insurance: The renter must insure the equipment against theft, vandalism, fire, damage, civil liability, and traffic liability.",
+                    "7": "Annual Review: An annual review is conducted to assess the contract's suitability based on actual equipment usage. If usage exceeds 100 hours annually, the contract automatically adjusts to reflect actual usage, including maintenance costs.",
+                    "8": "Overtime: Extra hours of use are billed at the current rate, depending on the equipment.",
+                    "9": "AZ MACHINERY-SL Rental Contracts: Early termination of an AZ MACHINERY-SL rental contract incurs a 70% penalty of remaining payments plus return transportation costs.",
+                    "10": "Short-Term Rentals: Short-term rental rates are based on 8 hours/day and 5 days/week and exclude transport, operation, fuel, insurance, and cleaning fees. Normal usage does not require cleaning. A €200 cleaning fee is charged if cleaning is necessary upon return. A €1,250 security deposit is required (bank transfer or direct debit). The renter must insure equipment throughout the rental period, regardless of location in Europe. Coverage includes machine breakdown, theft, loading/unloading damage, transport damage, fire, and rollovers/collisions. Insurance costs are the renter's responsibility, and proof of insurance must be provided before delivery. A €2,250 deductible applies for damage and €7,500 for theft. The contract is valid from the start date until the renter requests equipment removal. All removal requests must be emailed to contact[at]az-machinery.com by 10:00 AM on the next business day after the desired end date. The renter remains liable for the equipment for 96 hours after the removal request. AZ MACHINERY-SL reserves the right to substitute a different model or category of equipment if the requested model is unavailable.",
+                    "11": "Restricted Usage: Equipment cannot be used for sandblasting, handling corrosive or chemical products, or handling cement."
+                }
+            },
+            "11": {
+                "title": "Article 11 – Liability",
+                "list": {
+                    "1": "Limited Liability: The Seller's liability for damages arising directly from the obligations imposed under this agreement is limited to the extent legally required.",
+                    "2": "Exclusion of Economic Damages: The Seller is not liable for any economic losses, lost profits, lost revenue, or other direct, indirect, or consequential damages or claims arising from the execution of this agreement.",
+                    "3": "No Recourse for Third-Party Claims: If the buyer is held liable by third parties for damages caused by a defect in the sold items, they cannot pursue recourse against the Seller."
+                }
+            },
+            "12": {
+                "title": "Article 12 – Invoicing",
+                "list": {
+                    "1": "VAT & Pricing: Prices are displayed excluding VAT (20% French VAT applies for foreign companies with tax representation in France). VAT-registered EU businesses pay a VAT provision upon issuance of the proforma invoice. This provision is applied to customs clearance fees (20% of the material value). For VAT-registered businesses, the 20% VAT is self-billed according to EU VAT Directive 21-1-a or French Tax Code Article 283-1. The client must provide a valid VAT number matching the ordering entity and the payment bank account. For individuals, the VAT provision is applied as is.",
+                    "2": "Invoice Issuance: AZ MACHINERY SL provides a deposit invoice or a provisional invoice (marked 'P') upon request. After inspection and delivery, and payment of customs duties, the final invoice is sent.",
+                    "3": "Changes to Invoicing (2024): AZ MACHINERY SL is not subject to electronic invoicing as an Andorran company. To simplify things, three client categories are introduced: A: Businesses in Andorra B: Businesses in mainland France C: Businesses in other European countries, DOM-TOM, and abroad",
+                    "4": "Invoicing for Andorra (Group A): Prices are shown excluding VAT (4.5% VAT applies), including customs clearance fees. A deposit invoice is provided, and the client must provide proof of NRT validity. The final invoice is issued after inspection and delivery.",
+                    "5": "Invoicing for France (Group B): For businesses not subject to electronic invoicing, the rules are as described in sections 12.1 and 12.2. Businesses subject to electronic invoicing must inform AZ MACHINERY SL of their platform upon ordering and provide proof of their VAT number. They will be automatically invoiced for VAT self-billing. Any additional costs are billed separately. If no information is provided, a 20% deposit is required, refundable within 30 days after the final invoice is issued upon request. - Exceptions: Regular customers (multiple orders or invoices in the current year) are exempt from providing their VAT number, customs clearance fees are not charged, and VAT is automatically self-billed.",
+                    "6": "Invoicing for Other Locations (Group C): Businesses must provide proof of export (T1 or other document) for goods leaving Andorra or the EU. Upon receipt of proof of export, customs clearance fees are not charged, and VAT is self-billed."
+                }
+            },
+            "13": {
+                "title": "Article 13 – Installation, Assembly, Commissioning, and Maintenance",
+                "list": {
+                    "1": "On-Site Installation: Unless otherwise specified, the client is notified of the scheduled installation date via email. The client is responsible for providing access to the installation site, handling equipment for moving, assembly, and installation, and ensuring an electrical supply for tools and equipment connection. The client must prepare any necessary technical ducts or pits according to AZ MACHINERY-SL's recommendations.",
+                    "2": "Subcontracting: AZ MACHINERY-SL may use local subcontractors for installation depending on the location.",
+                    "3": {
+                        "0": "Installation Payment: Full payment for installation is due before work begins. Once payment is received, AZ MACHINERY-SL schedules the installation based on technician availability.",
+                        "1": "Waiting Time: The client must ensure technicians have priority access to handling equipment. Otherwise, waiting time, travel, and accommodation expenses are charged based on the following rates:",
+                        "2": "Standard Technician (Mechanical/Hydraulic): €97/hour",
+                        "3": "Electrician: €127/hour",
+                        "4": "Travel: Actual costs",
+                        "5": "Accommodation: €95/night/technician",
+                        "6": "Site Access Preparation: Time spent obtaining site access, preparing safety plans, obtaining badges, and attending meetings is billed at the same rates as waiting time."
+                    },
+                    "4": "Commissioning: Commissioning is performed by the technicians at the end of the installation before departure. If a balance is due, the client must pay it and provide proof before commissioning. The client is responsible for securing and marking the installed equipment. If the client requires a conformity inspection by a certified agency, they must arrange and pay for it.",
+                    "5": "Image Rights: Unless otherwise stated, the client authorizes AZ MACHINERY-SL to use images of the installed equipment for commercial purposes, training, and product improvements.",
+                    "6": "Maintenance: Installation does not include maintenance. Maintenance is offered as an optional contract exclusively for equipment installed by AZ MACHINERY-SL."
+                }
+            },
+            "14": {
+                "title": "Article 14 – Suspension and Termination",
+                "list": {
+                    "1": "Suspension for Non-Payment: If the invoice is not paid in full by the due date (as per Article 5.1), the Seller has the right to suspend any new or existing agreements with the Buyer.",
+                    "2": "Suspension for Breach of Contract: The Seller has the right to suspend the agreement if, after its conclusion, the Buyer is deemed unlikely to fulfill a substantial part of their obligations due to a significant reduction in their ability to do so, a loss of credibility, or failure to comply with the terms of this agreement. The Seller must notify the Buyer immediately of any suspension.",
+                    "3": "Termination for Anticipated Breach: If it becomes clear to the Seller, before execution of the agreement, that the Buyer will commit a significant breach, the Seller has the right to terminate the agreement."
+                }
+            },
+            "15": {
+                "title": "Article 15 – Miscellaneous",
+                "list": {
+                    "1": "Severability: If any provision of this agreement is invalid, the remaining provisions will remain in effect. The parties will work together to replace the invalid provision with a valid one that achieves a similar economic outcome.",
+                    "2": "Prevailing Terms: This agreement supersedes any general or specific terms and conditions of the Buyer. Any conflicting terms proposed by the Buyer will not be binding on the Seller unless expressly accepted.",
+                    "3": "Entire Agreement: This agreement cancels and replaces all prior agreements, contracts, proposals, and commitments relating to the same subject matter as described in the specific order terms.",
+                    "4": "Business Days: Business days for the purposes of this agreement are Monday through Friday, excluding legal holidays.",
+                    "5": "Default Customs Clearance Fees: Default customs clearance fees are 20% of the material value excluding VAT.",
+                    "6": "Legal Review: These General Terms and Conditions have been reviewed and validated by a legal entity."
+                }
+            },
+            "16": {
+                "title": "Article 16 – Cancellation – Withdrawal",
+                "list": {
+                    "1": "Order Confirmation: Any order confirmation is considered final and binding.",
+                    "2": "Consumer Withdrawal: Consumers have a 7-day withdrawal period if the order was solicited by the Seller.",
+                    "3": "Order Confirmation Methods: Order confirmation can be via fax, email, deposit check, purchase order, proforma invoice, quote, etc.",
+                    "4": "No Withdrawal for Professionals: No withdrawal period applies to sales or rentals to professionals.",
+                    "5": "Cancellation Penalties: If an order is canceled, the client must pay a minimum cancellation penalty of 70% of the material value excluding VAT.",
+                    "6": "Deposits: Deposits or full payments made upon order are retained by the Seller as a cancellation penalty.",
+                    "7": "Deposit as Order Acceptance: Any deposit constitutes order acceptance of the specified material(s) as outlined in the offer, quote, or invoice, along with these specific General Terms and Conditions of Sale. A deposit acts as a purchase order and eliminates the need for written order confirmation.",
+                    "8": "VAT: Prices are displayed excluding VAT. The applicable VAT rate depends on the buyer's location (4.5% for Andorran businesses, 20% French VAT for foreign companies with tax representation in France). VAT-registered EU businesses are billed for VAT self-billing. A valid VAT number must be provided, matching the ordering entity and the payment bank account. Failure to comply with these obligations results in automatic order cancellation."
+                }
+            },
+            "17": {
+                "title": "Article 17 – Conditional Agreement",
+                "list": "If the Seller provides credit to the Buyer, the agreement is subject to the condition precedent of obtaining credit approval from the credit institution within 60 calendar days of the agreement's conclusion. The Buyer must inform the Seller of the credit institution's decision within 15 calendar days. The agreement only becomes fully effective upon receiving credit approval. If credit is not approved, the agreement is void and has no legal effect. In such cases, the Buyer has no right to claim damages."
+            },
+            "18": {
+                "title": "Article 18 – Governing Law & Jurisdiction",
+                "list": "This agreement is governed by Andorran law, except where expressly provided otherwise in the General or Specific Terms and Conditions. The application of the Vienna Convention"
+            },
+            "19": {
+                "title": "Article 19 – Jurisdiction",
+                "list": "Any dispute relating to the interpretation or execution of these General Terms and Conditions and the Specific Terms and Conditions shall be subject to the exclusive jurisdiction of the courts located at the Seller's registered office."
+            }
+        }
     }
 }
