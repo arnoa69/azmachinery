@@ -198,7 +198,7 @@ section,
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
-.section-title {
+/* .section-title {
   text-align: center;
   padding-bottom: 60px;
   position: relative;
@@ -228,7 +228,7 @@ section,
 
 .section-title p {
   margin-bottom: 0;
-}
+} */
 
 
 /*--------------------------------------------------------------
@@ -285,7 +285,6 @@ section,
     background-repeat: no-repeat;
     padding: 160px 0 60px 0;
     text-align: center;
-    position: relative;
   }
 
   .page-title:before {
@@ -328,6 +327,13 @@ section,
       display: none;
     }
   }
+
+  @media screen and (min-width: 768px) {
+    .page-title {
+        position: relative;
+      }
+  }
+
 
 /*--------------------------------------------------------------
 # Global Header

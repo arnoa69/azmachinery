@@ -687,47 +687,11 @@ onMounted(() => {
     color: var(--accent-color);
 }
 
-
-
-
 .section-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-}
-
-.chips-wrapper {
-    display: flex;
-    border: solid 1px #160202;
-}
-
-.chip {
-    padding: 5px 10px;
-    border-radius: 15px;
-    margin-right: 10px;
-    font-weight: bold;
-    color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 11px;
-    display: inline-block;
-}
-
-
-.chip-blue-clear {
-    background-color: #54C0D1;
-}
-
-.chip-green-dark {
-    background-color: #99A795;
-}
-
-.chip-blue-dark {
-    background-color: #0d47a1;
-}
-
-.chip-red {
-    background-color: #dc3545;
 }
 
 .btn-back {

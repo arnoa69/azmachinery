@@ -1,7 +1,22 @@
 <script setup>
 import HeaderSection from '@/Components/Layouts/Layout1/HeaderSection.vue';
 import FooterSection from '@/Components/Layouts/Layout1/FooterSection.vue';
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue';
+
+const isMobileView = ref(false);
+
+const updateMobileView = () => {
+  isMobileView.value = window.innerWidth <= 767.98;
+};
+
+onMounted(() => {
+  updateMobileView();
+  window.addEventListener('resize', updateMobileView);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateMobileView);
+});
 
 const props = defineProps({
   product: Object, // Definiere den prop für das Produkt
@@ -31,7 +46,7 @@ const backgroundStyle = computed(() => {
 <template>
     <HeaderSection />
     <!-- Page Title -->
-    <div class="page-title dark-background" :style="backgroundStyle">
+    <div v-if="(isDetailView && isMobileView) || !isMobileView" class="page-title dark-background" :style="backgroundStyle">
       <div class="container position-relative">
         <!-- <h1>{{ $t('products.details.sidebar.category_list') }}</h1> -->
         <h1></h1>
@@ -45,58 +60,13 @@ const backgroundStyle = computed(() => {
 </template>
 
 <style scoped>
-    #main {
-        margin: auto;
-        width: 100%;
-        padding: 10px;
-        background-color: #fbfbfb;
-    }
-    @media (min-width: 767.98px) {
-      .page-title {
-    color: var(--default-color);
-    background-color: var(--background-color);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 160px 0 60px 0;
-    text-align: center;
-    position: relative;
-  }
-  .page-title:before {
-    content: "";
-    background-color: color-mix(in srgb, var(--background-color), transparent 40%);
-    position: absolute;
-    inset: 0;
-  }
-    }
+#main {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #fbfbfb;
+}
 
-  .page-title h1 {
-    font-size: 36px;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-
-  .page-title .breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .page-title .breadcrumbs ol li+li {
-    padding-left: 10px;
-  }
-
-  .page-title .breadcrumbs ol li+li::before {
-    content: "/";
-    display: inline-block;
-    padding-right: 10px;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
-  }
 @media (max-width: 767.98px) {
   .page-title {
     height: 350px; /* Setze die Höhe des Elements */
@@ -108,5 +78,8 @@ const backgroundStyle = computed(() => {
     align-items: center; /* Vertikale Zentrierung */
     justify-content: center; /* Horizontale Zentrierung */
 }
+.page-title:before {
+        background-color: transparent;
+    }
 }
 </style>
