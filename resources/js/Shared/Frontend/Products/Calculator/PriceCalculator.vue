@@ -242,18 +242,27 @@ const handleChange = (key) => {
                         <label for="weightCapacity" class="form-label">{{ $t( 'request-box.capacitylabel' )}}</label>
                         <select id="weightCapacity" class="form-select" v-model="selectedWeightCapacity"
                             :disabled="!Object.keys(availableWeightCapacities).length" @change="handleChange">
-                            <option value="">Wählen Sie eine Gewichtskapazität</option>
+                            <option value="">{{ $t( 'request-box.choose-capacity' )}}</option>
                             <option v-for="(capacity, key) in availableWeightCapacities" :key="key" :value="key">{{ key }}</option>
                         </select>
                     </div>
                 </div>
                 <div class="row mt-3">
                     <label for="weightCapacity" class="form-label">{{ $t( 'request-box.optionen' )}}</label>
-                    <div class="col-12" v-for="(optionData, key) in availableOptions" :key="key">
-                        <input type="checkbox" :id="`option-${key}`" :value="key" v-model="selectedOptions"
-                            :checked="selectedOptions.includes(key)"
-                            @change="handleChange(key)">
-                        <label :for="`option-${key}`">{{ optionData.label }} ({{ optionData.price }}€)</label>
+                    <div class="col-12">
+                        <!-- Check if there are any options available -->
+                        <template v-if="Object.keys(availableOptions).length > 0">
+                        <div v-for="(optionData, key) in availableOptions" :key="key">
+                            <input type="checkbox" :id="`option-${key}`" :value="key" v-model="selectedOptions"
+                                :checked="selectedOptions.includes(key)"
+                                @change="handleChange(key)">
+                            <label :for="`option-${key}`">{{ optionData.label }} ({{ optionData.price }}€)</label>
+                        </div>
+                        </template>
+                        <!-- If no options are available -->
+                        <div v-else>
+                        No options available for container access ramps.
+                        </div>
                     </div>
                 </div>
             </form>

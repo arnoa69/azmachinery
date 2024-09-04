@@ -538,7 +538,7 @@
     },
     "request-box": {
         "versionlabel": "Version",
-        "capacitylabel": "Demander un devis",
+        "capacitylabel": "Capacité de poids",
         "optionen": "Options additionnelles",
         "subtitle": "Remplissez le formulaire ci-dessous et nous vous contacterons dès que possible.",
         "choose-version": "Choisissez une version",

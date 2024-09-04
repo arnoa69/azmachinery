@@ -538,7 +538,7 @@
     },
     "request-box": {
         "versionlabel": "Version",
-        "capacitylabel": "Begär offert",
+        "capacitylabel": "Viktkapacitet",
         "optionen": "Tillvalsfunktioner",
         "subtitle": "Fyll i formuläret nedan så kontaktar vi dig så snart som möjligt.",
         "choose-version": "Välj en version",

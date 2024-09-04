@@ -538,7 +538,7 @@
     },
     "request-box": {
         "versionlabel": "Versjon",
-        "capacitylabel": "Be om et tilbud",
+        "capacitylabel": "Vekt kapasitet",
         "optionen": "Tilleggsvalg",
         "subtitle": "Fyll ut skjemaet nedenfor, så kontakter vi deg så snart som mulig.",
         "choose-version": "Velg en versjon",

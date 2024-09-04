@@ -196,19 +196,19 @@ const validOptions = {
 };
 
 const validTypes = {
-    'en': { 'mobile': 'mobile-loading-ramp', 'static': 'static', 'container': 'container-access-ramps' },
-    'de': { 'mobile': 'mobile-laderampe', 'static': 'fix', 'container': 'container-rampen' },
-    'dk': { 'mobile': 'mobil-lasserampe', 'static': 'fast', 'container': 'container-adgangsramper' },
-    'ee': { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container': 'konteiner-rampid' },
-    'es': { 'mobile': 'rampa-de-carga-movil', 'static': 'estatico', 'container': 'rampas-de-acceso-a-contenedores' },
-    'fi': { 'mobile': 'siirrettava-lastausramppi', 'static': 'staattinen', 'container': 'kontti-rampit' },
-    'fr': { 'mobile': 'rampe-de-chargement-mobile', 'static': 'statique', 'container': 'rampes-access-container' },
-    'it': { 'mobile': 'rampa-di-carico-mobile', 'static': 'statico', 'container': 'rampe-di-accesso-container' },
-    'lu': { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container': 'container-zougangsrampen' },
-    'nl': { 'mobile': 'mobiele-laadramp', 'static': 'statisch', 'container': 'container-toegangsrampen' },
-    'no': { 'mobile': 'mobil-lasterampe', 'static': 'statisk', 'container': 'containeradgangsramper' },
-    'pt': { 'mobile': 'rampa-de-carga-movel', 'static': 'estatico', 'container': 'rampas-de-acesso-a-conteineres' },
-    'se': { 'mobile': 'mobil-lastningsramp', 'static': 'statisk', 'container': 'containerramper' }
+    'en': { 'mobile': 'mobile-loading-ramp', 'static': 'static', 'container-access-ramps': 'container-access-ramps' },
+    'de': { 'mobile': 'mobile-laderampe', 'static': 'fix', 'container-access-ramps': 'container-rampen' },
+    'dk': { 'mobile': 'mobil-lasserampe', 'static': 'fast', 'container-access-ramps': 'container-adgangsramper' },
+    'ee': { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container-access-ramps': 'konteiner-rampid' },
+    'es': { 'mobile': 'rampa-de-carga-movil', 'static': 'estatico', 'container-access-ramps': 'rampas-de-acceso-a-contenedores' },
+    'fi': { 'mobile': 'siirrettava-lastausramppi', 'static': 'staattinen', 'container-access-ramps': 'kontti-rampit' },
+    'fr': { 'mobile': 'rampe-de-chargement-mobile', 'static': 'statique', 'container-access-ramps': 'rampes-access-container' },
+    'it': { 'mobile': 'rampa-di-carico-mobile', 'static': 'statico', 'container-access-ramps': 'rampe-di-accesso-container' },
+    'lu': { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container-access-ramps': 'container-zougangsrampen' },
+    'nl': { 'mobile': 'mobiele-laadramp', 'static': 'statisch', 'container-access-ramps': 'container-toegangsrampen' },
+    'no': { 'mobile': 'mobil-lasterampe', 'static': 'statisk', 'container-access-ramps': 'containeradgangsramper' },
+    'pt': { 'mobile': 'rampa-de-carga-movel', 'static': 'estatico', 'container-access-ramps': 'rampas-de-acesso-a-conteineres' },
+    'se': { 'mobile': 'mobil-lastningsramp', 'static': 'statisk', 'container-access-ramps': 'containerramper' }
 };
 
 const validVersions = {
@@ -238,6 +238,25 @@ function generateUrl(slug, version, type, locale) {
 
     // Extract options starting from the part after the version
     const options = versionIndex >= 0 ? parts.slice(versionIndex + 1) : [];
+    // Überprüfen, ob der Typ "container" ist
+    if (type === 'container-access-ramps') {
+        const translatedType = validTypes[locale][type];
+        let path = `/${locale}/${translatedType}`;
+
+        // Add the version to the path
+        path += `/${validVersions[locale]['standard']}`;
+
+        // Überprüfen, ob "gal" im Slug enthalten ist
+        if (slug.includes('-gal')) {
+            path += `/${validOptions[locale]['gan']}`;
+        } else {
+            path += '/no-option';
+        }
+
+        // Add the full slug at the end
+        path += `/${slug}`;
+        return path;
+    }
 
     const translatedType = validTypes[locale][type];
     let path = `/${locale}/${translatedType}`;

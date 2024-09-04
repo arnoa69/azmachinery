@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import { usePage } from "@inertiajs/vue3";
 import Layout from "../../Layouts/ProductLayout.vue";
 import HelpSidebar from "../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
@@ -8,13 +8,27 @@ import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 import { posthogModule } from '@/plugins/posthog'
 
+const page_or_slug = ref('product_overview');
 const products = ref([]);
 const { props } = usePage();
 products.value = props.products;
 
-const base_names = ref(['star', 'easy-xl', 'wlo',
-    'prime-xs', 'star-otc', 'big-foot', 'hcrn-06',
-    'hcrn-065', 'hcrn-08', 'hcry-08', 'secu-dock']);
+const base_names = computed(() => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const type = urlParams.get('type');
+
+  if (type === 'mobile') {
+    return ['star', 'easy-xl', 'wlo', 'prime-xs', 'star-otc', 'big-foot'];
+  } else if (type === 'container') {
+    return ['hcrn-06', 'hcrn-065', 'hcrn-08', 'hcry-08', 'secu-dock'];
+  } else {
+    return ['star', 'easy-xl', 'wlo', 'prime-xs', 'star-otc', 'big-foot', 'hcrn-06', 'hcrn-065', 'hcrn-08', 'hcry-08', 'secu-dock'];
+  }
+});
+
+// const base_names = ref(['star', 'easy-xl', 'wlo',
+//     'prime-xs', 'star-otc', 'big-foot', 'hcrn-06',
+//     'hcrn-065', 'hcrn-08', 'hcry-08', 'secu-dock']);
 
 const canonicalUrl = ref('');
 canonicalUrl.value = window.location.origin + window.location.pathname;

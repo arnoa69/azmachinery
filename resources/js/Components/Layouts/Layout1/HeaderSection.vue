@@ -18,7 +18,7 @@ const { locale } = useI18n();
           <li><a href="/#about">{{ $t('header.about') }}</a></li>
           <li class="dropdown"><a href="#"><span>{{ $t('header.products') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li class="dropdown"><a :href="`/${locale}/products`"><span>{{ $t('header.menu.type-mobile') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a :href="`/${locale}/products/?type=mobile`"><span>{{ $t('header.menu.type-mobile') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a :href="`/${locale}/products/star`">{{ $t("header.menu.star") }}</a></li>
                   <li><a :href="`/${locale}/products/prime-xs`">{{ $t("header.menu.prime-xs") }}</a></li>
@@ -28,11 +28,10 @@ const { locale } = useI18n();
                   <li><a :href="`/${locale}/products/big-foot`">{{ $t("header.menu.big-foot") }}</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a :href="`/${locale}/products`"><span>{{ $t('header.menu.type-container') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a :href="`/${locale}/products/?type=container`"><span>{{ $t('header.menu.type-container') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a :href="`/${locale}/products/hcrn-06`">{{ $t("header.menu.hcrn-06") }}</a></li>
                   <li><a :href="`/${locale}/products/hcrn-065`">{{ $t("header.menu.hcrn-065") }}</a></li>
-                  <li><a :href="`/${locale}/products/easy-xl`">{{ $t("header.menu.easy-xl") }}</a></li>
                   <li><a :href="`/${locale}/products/hcrn-08`">{{ $t("header.menu.hcrn-08") }}</a></li>
                   <li><a :href="`/${locale}/products/hcry-08`">{{ $t("header.menu.hcry-08") }}</a></li>
                   <li><a :href="`/${locale}/products/secu-dock`">{{ $t("header.menu.secu-dock") }}</a></li>

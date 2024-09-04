@@ -154,7 +154,6 @@ class UrlHelper
             "xl" => "extra-stor",
             "llo-xl" => "lang-utbyggnad-extra-stor"
         ]
-
     ];
 
     protected static $validOptions = [
@@ -396,7 +395,7 @@ class UrlHelper
         }
 
         // Validate options
-        if ($options && $options !== 'no-option') {
+        if ($type === self::$validTypes[$locale]['mobile'] && $options && $options !== 'no-option') {
             $validOptions = array_values(self::$validOptions[$locale]);
             foreach (explode('/', $options) as $option) {
                 if (!in_array($option, $validOptions)) {

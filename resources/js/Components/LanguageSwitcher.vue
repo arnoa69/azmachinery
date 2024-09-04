@@ -11,19 +11,19 @@ const product = page.props.product;
 
 // Translation mappings (this should match your PHP helper values)
 const validTypes = {
-    'en': { 'mobile': 'mobile-loading-ramp', 'static': 'static', 'container': 'container-access-ramps' },
-    'de': { 'mobile': 'mobile-laderampe', 'static': 'fix', 'container': 'container-rampen' },
-    'dk': { 'mobile': 'mobil-lasserampe', 'static': 'fast', 'container': 'container-adgangsramper' },
-    'ee': { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container': 'konteiner-rampid' },
-    'es': { 'mobile': 'rampa-de-carga-movil', 'static': 'estatico', 'container': 'rampas-de-acceso-a-contenedores' },
-    'fi': { 'mobile': 'siirrettava-lastausramppi', 'static': 'staattinen', 'container': 'kontti-rampit' },
-    'fr': { 'mobile': 'rampe-de-chargement-mobile', 'static': 'statique', 'container': 'rampes-access-container' },
-    'it': { 'mobile': 'rampa-di-carico-mobile', 'static': 'statico', 'container': 'rampe-di-accesso-container' },
-    'lu': { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container': 'container-zougangsrampen' },
-    'nl': { 'mobile': 'mobiele-laadramp', 'static': 'statisch', 'container': 'container-toegangsrampen' },
-    'no': { 'mobile': 'mobil-lasterampe', 'static': 'statisk', 'container': 'containeradgangsramper' },
-    'pt': { 'mobile': 'rampa-de-carga-movel', 'static': 'estatico', 'container': 'rampas-de-acesso-a-conteineres' },
-    'se': { 'mobile': 'mobil-lastningsramp', 'static': 'statisk', 'container': 'containerramper' }
+    'en': { 'mobile': 'mobile-loading-ramp', 'static': 'static', 'container-access-ramps': 'container-access-ramps' },
+    'de': { 'mobile': 'mobile-laderampe', 'static': 'fix', 'container-access-ramps': 'container-rampen' },
+    'dk': { 'mobile': 'mobil-lasserampe', 'static': 'fast', 'container-access-ramps': 'container-adgangsramper' },
+    'ee': { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container-access-ramps': 'konteiner-rampid' },
+    'es': { 'mobile': 'rampa-de-carga-movil', 'static': 'estatico', 'container-access-ramps': 'rampas-de-acceso-a-contenedores' },
+    'fi': { 'mobile': 'siirrettava-lastausramppi', 'static': 'staattinen', 'container-access-ramps': 'kontti-rampit' },
+    'fr': { 'mobile': 'rampe-de-chargement-mobile', 'static': 'statique', 'container-access-ramps': 'rampes-access-container' },
+    'it': { 'mobile': 'rampa-di-carico-mobile', 'static': 'statico', 'container-access-ramps': 'rampe-di-accesso-container' },
+    'lu': { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container-access-ramps': 'container-zougangsrampen' },
+    'nl': { 'mobile': 'mobiele-laadramp', 'static': 'statisch', 'container-access-ramps': 'container-toegangsrampen' },
+    'no': { 'mobile': 'mobil-lasterampe', 'static': 'statisk', 'container-access-ramps': 'containeradgangsramper' },
+    'pt': { 'mobile': 'rampa-de-carga-movel', 'static': 'estatico', 'container-access-ramps': 'rampas-de-acesso-a-conteineres' },
+    'se': { 'mobile': 'mobil-lastningsramp', 'static': 'statisk', 'container-access-ramps': 'containerramper' }
 };
 
 const validVersions = {
@@ -255,6 +255,25 @@ const validOptions = {
 
 const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
 
+    if (type === 'container-access-ramps') {
+        const translatedType = validTypes[newLocale][type];
+        let path = `/${newLocale}/${translatedType}`;
+
+        // Füge die Version zur URL hinzu
+        path += `/${validVersions[newLocale]['standard']}`;
+
+        // Überprüfen, ob "gal" im Slug enthalten ist
+        if (slug.includes('-gal')) {
+            path += `/${validOptions[newLocale]['gan']}`;
+        } else {
+            path += '/no-option';
+        }
+
+        // Füge den vollständigen Slug am Ende hinzu
+        path += `/${slug}`;
+        return path;
+    }
+
     let regex;
     if (base_name === 'easy-xl' || base_name === 'prime-xs' || base_name === 'big-foot' || base_name === 'star-otc') {
         regex = /^(?:[^-]+-){5}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
@@ -272,55 +291,15 @@ const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
     const version = match[1];
     const options = match[2] ? match[2].split('-') : [];
 
+
     // Translate version and options to new locale
     const translatedType = validTypes[newLocale][type];
     const translatedVersion = validVersions[newLocale][version];
     const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
 
-
     // Construct the new URL
     return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
 };
-
-// const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
-//   let version;
-//   let options = [];
-
-//   // Prüfen, ob der slug mit dem entsprechenden base_name beginnt
-//   const baseSlugPattern = `az-ramp-${base_name}-\\d+t-`;
-//   const regex = new RegExp(`^${baseSlugPattern}((?:standard|llo-xl|llo|xl))(?:$|-(.+))`);
-
-//   // Extract version and options using regex
-//   const match = slug.match(regex);
-
-//   if (match) {
-//     version = match[1];
-//     options = match[2] ? match[2].split('-') : [];
-//   } else {
-//     // Wenn es kein Match gibt, setzen wir die Version auf "standard" für andere base_names
-//     version = 'standard';
-
-//     // Für base_name easy-xl, wlo, prime-xs, star-otc, big-foot
-//     const otherBaseNames = ['easy-xl', 'wlo', 'prime-xs', 'star-otc', 'big-foot'];
-//     const otherBaseSlugPattern = `az-ramp-(${otherBaseNames.join('|')})-\\d+t-standard(?:-(.+))?`;
-//     const otherRegex = new RegExp(otherBaseSlugPattern);
-
-//     const otherMatch = slug.match(otherRegex);
-//     if (otherMatch) {
-//       options = otherMatch[2] ? otherMatch[2].split('-') : [];
-//     } else {
-//       throw new Error('Invalid slug format');
-//     }
-//   }
-
-//   // Translate version and options to new locale
-//   const translatedType = validTypes[newLocale][type];
-//   const translatedVersion = validVersions[newLocale][version];
-//   const translatedOptions = options.length === 0 ? 'no-option' : options.map(opt => validOptions[newLocale][opt]).join('/');
-
-//   // Construct the new URL
-//   return `/${newLocale}/${translatedType}/${translatedVersion}/${translatedOptions}/${slug}`;
-// };
 
 const changeLanguage = async (event) => {
     const newLocale = event.target.value;

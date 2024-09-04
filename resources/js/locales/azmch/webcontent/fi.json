@@ -538,7 +538,7 @@
     },
     "request-box": {
         "versionlabel": "Versio",
-        "capacitylabel": "Pyydä tarjous",
+        "capacitylabel": "Painokapasiteetti",
         "optionen": "Lisävaihtoehdot",
         "subtitle": "Täytä alla oleva lomake ja otamme sinuun yhteyttä mahdollisimman pian.",
         "choose-version": "Valitse versio",

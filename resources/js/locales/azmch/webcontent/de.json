@@ -537,7 +537,7 @@
     },
     "request-box": {
         "versionlabel": "Version",
-        "capacitylabel": "Angebot anfordern",
+        "capacitylabel": "Gewichtsklasse",
         "optionen": "Zusätzliche Optionen",
         "subtitle": "Füllen Sie das untenstehende Formular aus und wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.",
         "choose-version": "Version wählen",

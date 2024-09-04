@@ -13,7 +13,6 @@ const regex = /\/products\/star{1,4}?$/;
 const showFilter = regex.test(page.url) ? 1 : 0;
 
 const page_or_slug = ref('product_list');
-const selectedFilter = ref('standard');
 
 const props = defineProps({
     products: {
@@ -21,10 +20,13 @@ const props = defineProps({
         required: true,
     },
 });
+
+const isContainerRamp = props.products.some(product => product.type === 'container-access-ramps');
+const selectedFilter = ref(isContainerRamp ? '': 'standard');
+
 const generateFreshUrl = (slug, version, type) => {
     return generateUrl(slug, version, type, locale.value);
 }
-
 // Function to set the filter
 const setFilter = (filter) => {
     selectedFilter.value = filter;
