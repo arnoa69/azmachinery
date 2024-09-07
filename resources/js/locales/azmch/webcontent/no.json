@@ -116,6 +116,19 @@
         "title": "Fyll ut dine opplysninger",
         "close-button": "Lukk"
     },
+    "about": {
+        "h1": "Åpne veien: Europas største produsent av mobile ramper, gir adgang overalt",
+        "h3": "Europas Rampe til Effektivitet",
+        "p": {
+            "1": "Ved å kombinere moderne teknologi med strenge tester og oppmerksom kundeservice har vi etablert en referansepunkt for pålitelighet, sikkerhet og ytelse",
+            "2": "Hver rampe er bygget for å overgå europeiske sikkerhetsstandarder, med antihalk overflater, robust konstruksjon og ergonomisk design for å sikre den høyeste sikkerheten for brukerne."
+        },
+        "li": {
+            "1": "Uovertruffen kapasitet.",
+            "2": "Spesialisert ekspertise for tilpasning.",
+            "3": "Hver rampe er bygget for å overgå europeiske sikkerhetsstandarder, med antihalk overflater, robust konstruksjon og ergonomisk design for å sikre den høyeste sikkerheten for brukerne."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Global lager: 500+ ramper på lager",
@@ -157,7 +170,7 @@
             "p-end": "Hos AZ Machinery forstår vi at nedetid kan være kostbart og forstyrrende. Derfor går vi lenger enn andre for å gi eksepsjonell kundestøtte og sikre påliteligheten til våre utleieramper."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Fullstendig galvaniserte mobile ramper",
         "point-1-title": "Sikre lasten dine med trygghet",
         "point-1-description": "Disse robuste kjedene er designet for å sikre lasten din trygt og forhindre skift og potensiell skade",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Lastehelger på lager: Utforsk { type }"
     },
     "products": {
+        "image_label": "Det viste bildet er kun til illustrativt formål; det faktiske produktet kan avvike i forhold til størrelse, vekt og tilpasningsmuligheter.",
         "back_button": "TILBAKE",
         "list": {
-            "head": {
-                "image": "Bilde",
-                "code": "Kode",
-                "handle_modus": "Betjening",
-                "price": "Pris"
-            },
+            "available": "på lager",
+            "not-available": "på forespørsel",
             "sidebar": {
                 "hydraulic_handling": "Hydraulisk drevne ramper",
                 "electric_handling": "Elektrisk drevne ramper",
@@ -473,11 +483,11 @@
                 "pps_handling": "Luft- eller gasdrevet rampe"
             },
             "use_filer": "Bruk filteret for å innsnevre søket ytterligere",
-            "title": "Liste over ramper",
+            "title": "Lasteramptype {base_name}",
             "table": {
                 "head": {
-                    "image": "Bilde",
-                    "code": "Kode",
+                    "availability": "Lager",
+                    "name": "Navn",
                     "handle_modus": "Betjening",
                     "price": "Pris"
                 }
@@ -485,7 +495,7 @@
             "filter-title": "Filtrér etter energikilde"
         },
         "details": {
-            "title": "Tilgjengelige lasteramper",
+            "title": "Liste over mobile laste ramper",
             "back": "TILBAKE",
             "sidebar": {
                 "have_a_question": "Har du et spørsmål?",

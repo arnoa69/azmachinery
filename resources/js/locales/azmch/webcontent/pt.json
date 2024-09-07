@@ -116,6 +116,19 @@
         "title": "Complete suas informações",
         "close-button": "Fechar"
     },
+    "about": {
+        "h1": "Abrindo caminho: O maior fabricante de rampas móveis da Europa, permitindo o acesso em todo lado",
+        "h3": "A Rampa da Europa para a Eficiência",
+        "p": {
+            "1": "Combinando tecnologia de ponta com testes rigorosos e atendimento ao cliente atencioso, estabelecemos um padrão de referência para confiabilidade, segurança e desempenho",
+            "2": "Cada rampa é construída para superar as normas de segurança europeias, com superfícies antiderrapantes, construção robusta e design ergonômico para garantir a máxima segurança para os usuários."
+        },
+        "li": {
+            "1": "Capacidade inigualável.",
+            "2": "Especialização em customização.",
+            "3": "Cada rampa é construída para superar as normas de segurança europeias, com superfícies antiderrapantes, construção robusta e design ergonômico para garantir a máxima segurança para os usuários."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Estoque Global: 500+ rampas em estoque",
@@ -157,7 +170,7 @@
             "p-end": "Na AZ Machinery, entendemos que o tempo de inatividade pode ser caro e disruptivo. É por isso que fazemos o possível para fornecer um suporte excepcional ao cliente e garantir a confiabilidade de nossas rampas de aluguel."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Rampas móveis totalmente galvanizadas",
         "point-1-title": "Segure sua carga com confiança",
         "point-1-description": "Essas correntes robustas são projetadas para prender sua carga de forma segura, evitando deslocamentos e possíveis danos",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Rampas de carga em stock: Explore { type }"
     },
     "products": {
+        "image_label": "A imagem mostrada é apenas para fins ilustrativos; o produto real pode diferir em termos de tamanho, peso e opções personalizadas.",
         "back_button": "VOLTAR",
         "list": {
-            "head": {
-                "image": "Imagem",
-                "code": "Código",
-                "handle_modus": "Manuseio",
-                "price": "Preço"
-            },
+            "available": "em estoque",
+            "not-available": "a pedido",
             "sidebar": {
                 "hydraulic_handling": "Rampas operadas hidraulicamente",
                 "electric_handling": "Rampas operadas eletricamente",
@@ -473,11 +483,11 @@
                 "pps_handling": "Rampa operada por ar ou gás"
             },
             "use_filer": "Utilize o filtro para refinar ainda mais a pesquisa",
-            "title": "Lista de rampas",
+            "title": "Tipo de rampa de carregamento {base_name}",
             "table": {
                 "head": {
-                    "image": "Imagem",
-                    "code": "Código",
+                    "availability": "Estoque",
+                    "name": "Nome",
                     "handle_modus": "Manuseio",
                     "price": "Preço"
                 }
@@ -485,7 +495,7 @@
             "filter-title": "Filtrar por fonte de energia"
         },
         "details": {
-            "title": "Rampas de Carga Disponíveis",
+            "title": "Lista de rampas de carregamento móveis",
             "back": "VOLTAR",
             "sidebar": {
                 "have_a_question": "Tem alguma pergunta?",

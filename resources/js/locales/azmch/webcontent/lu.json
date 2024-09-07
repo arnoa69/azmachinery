@@ -116,6 +116,19 @@
         "title": "Komplett d'Informatioun vum Dënschdeg",
         "close-button": "Esci"
     },
+    "about": {
+         "h1": "De Wee weisen: Den gréissten Hersteller vu mobilen Rampen an Europa, dee den Accès iwwerall méiglech mécht",
+        "h3": "Europas Rampe fir Effizienz",
+        "p": {
+            "1": "Duerch d'Kombinatioun vu moderner Technologie mat strenger Tester an opmierksamer Clientënstëtzung hunn mir e Referenzpunkt fir Zouverlässegkeet, Sécherheet a Leistung festgeluecht",
+            "2": "Jiddwer Rampe ass sou gebaut, datt se déi europäesch Sécherheetsnormen iwwertrëfft, mat antirutsch Flächen, robuster Konstruktioun an ergonomesche Designen, fir déi héchst Sécherheet fir Benotzer ze garantéieren."
+        },
+        "li": {
+            "1": "Onvergleichbar Kapazitéiten.",
+            "2": "Spezialiséiert Expertise fir Customisatioun.",
+            "3": "Jiddwer Rampe ass sou gebaut, datt se déi europäesch Sécherheetsnormen iwwertrëfft, mat antirutsch Flächen, robuster Konstruktioun an ergonomesche Designen, fir déi héchst Sécherheet fir Benotzer ze garantéieren."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Global Inventaire: 500+ Rampen op Lager",
@@ -157,7 +170,7 @@
             "p-end": "Bei AZ Machinery verstinn mir, datt Auszäit deier an störend ka sinn. Dofir gi mir iwwer d'Erwaardungen eraus fir aussergewéinlech Clientsservice ze bidden an d'Zouverlässegkeet vun eisen Verleih Rampen ze garantéieren."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Voll galvaniséiert mobil Rampen",
         "point-1-title": "Séchert Är Lëscht mat Vertrauen",
         "point-1-description": "Dës robust Ketten sinn esou gebaut, dass se Är Lëscht sécher befestegen, fir ze verhënneren datt se sech beweegt an eventuell Schued entstinn",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Luederampen am Stock: Entdecke { type }"
     },
     "products": {
+        "image_label": "D'Bild ass nëmmen zu Illustratiounszwecker; dat wierklecht Produkt kann a Bezuch op Gréisst, Gewiicht an individuell Optiounen ofwäichen.",
         "back_button": "BACK",
         "list": {
-            "head": {
-                "image": "Bild",
-                "code": "Code",
-                "handle_modus": "Handhabung",
-                "price": "Präis"
-            },
+            "available": "am Lager",
+            "not-available": "op Ufro",
             "sidebar": {
                 "hydraulic_handling": "Hydraulesch bedéngte Rampen",
                 "electric_handling": "Elektresch bedéngte Rampen",
@@ -475,11 +485,11 @@
             "have_a_question": "Hutt Dir eng Fro?",
             "contact_mail": "Kontakt E-Mail",
             "use_filer": "Benotzt de Filter fir nach méi präzis ze sichen",
-            "title": "Lëscht vun de Rampen",
+            "title": "Lade ramp Typ {base_name}",
             "table": {
                 "head": {
-                    "image": "Bild",
-                    "code": "Code",
+                    "availability": "Lager",
+                    "name": "Name",
                     "handle_modus": "Handhabung",
                     "price": "Präis"
                 }
@@ -487,7 +497,7 @@
             "filter-title": "No Energiequell filteren"
         },
         "details": {
-            "title": "Detailer vun der Laderampe",
+            "title": "Lëscht vun mobilen Lade rampen",
             "back": "ZERÉCK",
             "sidebar": {
                 "have_a_question": "Hutt Dir eng Fro?",

@@ -116,6 +116,27 @@
         "title": "Complete Your Information",
         "close-button": "Leave"
     },
+    "about": {
+        "h1": "Leading the Way: Europe's Largest Mobile Ramp Manufacturer, Empowering Access Everywhere",
+        "h3": "Europe's Ramp to Efficiency",
+        "p": {
+            "1": "By blending cutting-edge technology with rigorous testing and attentive customer support, we've established a benchmark for reliability, safety, and performance",
+            "2": "Each ramp is built to exceed European safety regulations, featuring anti-slip surfaces, robust construction, and ergonomic designs to ensure the highest safety for users."
+        },
+        "li": {
+            "1": "Unparalleled Capacity.",
+            "2": "Customization Expertise.",
+            "3": "Each ramp is built to exceed European safety regulations, featuring anti-slip surfaces, robust construction, and ergonomic designs to ensure the highest safety for users."
+        }
+    },
+    "shortRamps": {
+        "h1": "Compact Solutions: Short Ramps for Efficient Access",
+        "h3": "Enhance Accessibility with Our Durable Curb Ramps",
+        "p": {
+            "1": "Specializing in accessibility and ease, our container access ramps are the perfect addition to any setting where small elevation changes can pose big challenges. Whether you're navigating curbs, steps, or thresholds, our short ramps offer superior durability and safety. Contact us today to learn more.",
+            "2": "In confined areas, every inch counts. Our precision-engineered Short Ramps bridge the gap, providing safe, reliable access for forklifts and pallet trucks. With tailored designs for tight clearances, our compact ramps streamline operations, reduce congestion, and increase warehouse productivity."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Global inventory: 500+ ramps in stock",
@@ -157,7 +178,7 @@
             "p-end": "At AZ Machinery, we understand that downtime can be costly and disruptive. That's why we go above and beyond to provide exceptional customer support and ensure the reliability of our rental ramps."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Fully galvanized mobile ramps",
         "point-1-title": "Secure Your Load with Confidence",
         "point-1-description": "These robust chains are designed to securely fasten your load, preventing shifting and potential damage",
@@ -458,14 +479,11 @@
         "category_product_lists": "{ country } - Loading Ramps in Stock: Explore { type }"
     },
     "products": {
+        "image_label": "Image shown is for illustrative purposes only; actual product may differ in terms of size, weight, and custom options.",
         "back_button": "BACK",
         "list": {
-            "head": {
-                "image": "Image",
-                "code": "Code",
-                "handle_modus": "Handling",
-                "price": "Price"
-            },
+            "available": "in stock",
+            "not-available": "on request",
             "sidebar": {
                 "hydraulic_handling": "Hydraulically operated ramps",
                 "electric_handling": "Electrically operated ramps",
@@ -475,11 +493,11 @@
             "have_a_question": "Have a Question?",
             "contact_mail": "Contact email",
             "use_filer": "Use the filter to narrow down even more",
-            "title": "list of ramps",
+            "title": "Loading Ramp type {base_name}",
             "table": {
                 "head": {
-                    "image": "Image",
-                    "code": "Name",
+                    "availability": "Stock",
+                    "name": "Name",
                     "handle_modus": "Handling",
                     "price": "Price"
                 }
@@ -487,7 +505,7 @@
             "filter-title": "Filter by Power Source"
         },
         "details": {
-            "title": "Loading Ramp details",
+            "title": "List of mobile loading ramps",
             "back": "BACK",
             "sidebar": {
                 "have_a_question": "Have a question?",

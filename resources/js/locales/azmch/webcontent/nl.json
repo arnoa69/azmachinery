@@ -116,6 +116,19 @@
         "title": "Vul uw gegevens in",
         "close-button": "Sluiten"
     },
+    "about": {
+        "h1": "De weg banen: 's Werelds grootste fabrikant van mobiele hellingbanen, zorgt voor toegang overal",
+        "h3": "Europa's Opstap naar Efficiëntie",
+        "p": {
+            "1": "Door het combineren van state-of-the-art technologie met strenge testen en aandachtige klantenservice hebben we een benchmark voor betrouwbaarheid, veiligheid en prestaties vastgesteld",
+            "2": "Elke opstap is gebouwd om de Europese veiligheidsnormen te overtreffen, met antislip oppervlakken, robuuste constructie en ergonomisch ontwerp om de hoogste veiligheid voor gebruikers te garanderen."
+        },
+        "li": {
+            "1": "Ongeëvenaarde capaciteit.",
+            "2": "Gespecialiseerde expertise voor maatwerk.",
+            "3": "Elke opstap is gebouwd om de Europese veiligheidsnormen te overtreffen, met antislip oppervlakken, robuuste constructie en ergonomisch ontwerp om de hoogste veiligheid voor gebruikers te garanderen."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Wereldwijde voorraad: 500+ ramps op voorraad",
@@ -157,7 +170,7 @@
             "p-end": "Bij AZ Machinery begrijpen we dat downtime kostbaar en storend kan zijn. Daarom gaan we verder dan andere om uitzonderlijke klantenondersteuning te bieden en de betrouwbaarheid van onze verhuurramps te waarborgen."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Volledig gegalvaniseerde mobiele hellingen",
         "point-1-title": "Zekeer uw lading met vertrouwen",
         "point-1-description": "Deze robuuste kettingen zijn ontworpen om uw lading veilig vast te zetten, waardoor verschuiving en mogelijke schade worden voorkomen",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Laadkleppen op voorraad: Verken { type }"
     },
     "products": {
+        "image_label": "De getoonde afbeelding is alleen voor illustratieve doeleinden; het daadwerkelijke product kan afwijken in termen van grootte, gewicht en aangepaste opties.",
         "back_button": "TERUG",
         "list": {
-            "head": {
-                "image": "Afbeelding",
-                "code": "Code",
-                "handle_modus": "Behandeling",
-                "price": "Prijs"
-            },
+            "available": "op voorraad",
+            "not-available": "op aanvraag",
             "sidebar": {
                 "hydraulic_handling": "Hydraulisch bediende laadkleppen",
                 "electric_handling": "Elektrisch bediende laadkleppen",
@@ -473,11 +483,11 @@
                 "pps_handling": "Lucht- of gasbediende laadklep"
             },
             "use_filer": "Gebruik het filter om de zoekopdracht verder te verfijnen",
-            "title": "Lijst met laadkleppen",
+            "title": "Laadramptype {base_name}",
             "table": {
                 "head": {
-                    "image": "Afbeelding",
-                    "code": "Code",
+                    "availability": "Voorraad",
+                    "name": "Naam",
                     "handle_modus": "Behandeling",
                     "price": "Prijs"
                 }
@@ -485,7 +495,7 @@
             "filter-title": "Filteren op energiebron"
         },
         "details": {
-            "title": "Beschikbare laadkleppen",
+            "title": "Lijst van mobiele laadramps",
             "back": "TERUG",
             "sidebar": {
                 "have_a_question": "Heeft u een vraag?",

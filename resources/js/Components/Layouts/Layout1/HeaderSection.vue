@@ -16,7 +16,7 @@ const { locale } = useI18n();
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="/#about">{{ $t('header.about') }}</a></li>
-          <li class="dropdown"><a href="#"><span>{{ $t('header.products') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a :href="`/${locale}/products`"><span>{{ $t('header.products') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li class="dropdown"><a :href="`/${locale}/products/?type=mobile`"><span>{{ $t('header.menu.type-mobile') }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>

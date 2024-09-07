@@ -989,15 +989,6 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #FE0000;
-  margin: 4px 10px;
-}
-
 .section-title p {
   margin: 0;
   font-size: 26px;
@@ -1076,6 +1067,7 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
 }
 
 /*--------------------------------------------------------------

@@ -1,7 +1,9 @@
 <script setup>
 import HeaderSection from '@/Components/Layouts/Layout1/HeaderSection.vue';
 import HeroSection from '@/Components/Layouts/Layout1/HeroSection.vue';
+import PresentationSection from '@/Components/Layouts/Layout1/PresentationSection.vue';
 import AboutSection from '@/Components/Layouts/Layout1/AboutSection.vue';
+import ShortRampsSection from '@/Components/Layouts/Layout1/ShortRampsSection.vue';
 import ClientSection from '@/Components/Layouts/Layout1/ClientSection.vue';
 import TabSection from '@/Components/Layouts/Layout1/TabSection.vue';
 import FaqSection from '@/Components/Layouts/Layout1/FaqSection.vue';
@@ -46,8 +48,10 @@ const showPolicyBanner = ref(false)
     <HeroSection @open-modal="openModal" />
     <main id="main">
         <ClientSection />
-        <TabSection />
         <AboutSection />
+        <TabSection />
+        <PresentationSection />
+        <ShortRampsSection />
         <TestimonialsSection />
         <FaqSection />
     </main>

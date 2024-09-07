@@ -14,6 +14,8 @@ const showFilter = regex.test(page.url) ? 1 : 0;
 
 const page_or_slug = ref('product_list');
 
+const extractedType = page.url.split('products/')[1].split('/')[0];
+
 const props = defineProps({
     products: {
         type: Object,
@@ -22,7 +24,7 @@ const props = defineProps({
 });
 
 const isContainerRamp = props.products.some(product => product.type === 'container-access-ramps');
-const selectedFilter = ref(isContainerRamp ? '': 'standard');
+const selectedFilter = ref(isContainerRamp ? '' : 'standard');
 
 const generateFreshUrl = (slug, version, type) => {
     return generateUrl(slug, version, type, locale.value);
@@ -39,30 +41,13 @@ const filteredProducts = computed(() => {
     return props.products.filter(product => product.version === selectedFilter.value);
 });
 
-const getProductImage = (product) => {
-    const options = product.slug.split('-').slice(5);
-    if (options.includes('gan')) {
-        return '/img/products/small/rampe-full-galvanized_thumb.jpg';
-    }
-    switch (product.version) {
-        case 'lloxl':
-            return '/img/products/small/star-llo-xl_thumb.jpg';
-        case 'llo':
-            return '/img/products/small/star-llo_thumb.jpg';
-        case 'xl':
-            return '/img/products/small/star-xl_thumb.jpg';
-        default:
-            return '/img/products/small/rampes-star_thumb.jpg';
-    }
-};
-
 </script>
 
 <template>
     <section id="about" class="about">
         <div class="container">
             <div class="section-title">
-                <h1>{{ $t("products.list.title") }}</h1>
+                <h1>{{ $t("products.list.title", { base_name: extractedType.toUpperCase() }) }}</h1>
                 <h2>{{ $t("products.details.title") }}</h2>
             </div>
             <div class="row">
@@ -70,42 +55,60 @@ const getProductImage = (product) => {
                     <!-- BEGIN LEFT SIDBAR -->
                     <div class="row categories-list">
                         <div class="service-details">
-                            <HelpSidebar :page_or_slug="page_or_slug"/>
+                            <HelpSidebar :page_or_slug="page_or_slug" />
                         </div>
                     </div>
                 </div> <!-- END LEFT SIDBAR -->
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT SIDBAR -->
-                                <!-- Filter Links -->
+                    <!-- Filter Links -->
                     <div v-if="showFilter" class="filter-links">
                         <div class="filter-links">
-                            <a href="#" :class="{'active standard': selectedFilter === 'standard'}" @click.prevent="setFilter('standard')">Standard</a>
-                            <a href="#" :class="{'active llo': selectedFilter === 'llo'}" @click.prevent="setFilter('llo')">LLO</a>
-                            <a href="#" :class="{'active xl': selectedFilter === 'xl'}" @click.prevent="setFilter('xl')">XL</a>
-                            <a href="#" :class="{'active lloxl': selectedFilter === 'lloxl'}" @click.prevent="setFilter('lloxl')">LLO XL</a>
-                            <a href="#" class="hidden-columns" :class="{'active': selectedFilter === ''}" @click.prevent="setFilter('')">All</a>
+                            <a href="#" :class="{ 'active standard': selectedFilter === 'standard' }"
+                                @click.prevent="setFilter('standard')">Standard</a>
+                            <a href="#" :class="{ 'active llo': selectedFilter === 'llo' }"
+                                @click.prevent="setFilter('llo')">LLO</a>
+                            <a href="#" :class="{ 'active xl': selectedFilter === 'xl' }"
+                                @click.prevent="setFilter('xl')">XL</a>
+                            <a href="#" :class="{ 'active lloxl': selectedFilter === 'lloxl' }"
+                                @click.prevent="setFilter('lloxl')">LLO XL</a>
+                            <a href="#" class="hidden-columns" :class="{ 'active': selectedFilter === '' }"
+                                @click.prevent="setFilter('')">All</a>
                         </div>
                     </div>
                     <div class="container">
                         <div class="row table-head">
                             <div class="col-md-2 col-sm-6">
+                                {{ $t('products.list.table.head.availability') }}
                             </div>
                             <div class="col-md-8 col-sm-6">
-                                {{ $t('products.list.table.head.code') }}
+                                {{ $t('products.list.table.head.name') }}
                             </div>
-                            <div class="col-md-2 col-sm-6">
+                            <div class="col-md-2 col-sm-6 text-end">
                                 {{ $t('products.list.table.head.price') }}
                             </div>
                         </div>
                         <div v-for="product in filteredProducts" :key="product.id" class="row striped">
-                            <a :href="generateFreshUrl(product.slug, product.version, product.type)" class="product-link">
-                            <div class="col-2 col-sm-2">
-                                    <img class="circle-image" :src="getProductImage(product)" alt="test">
-                            </div>
-                            <div class="col-7 col-sm-8 mobile-text-size">
-                                {{ product.name }}
-                            </div>
-                            <div class="mobile-text-size col-3 col-sm-2">{{ product.total_price }} &#8364;</div>
-                             </a>
+                            <a :href="generateFreshUrl(product.slug, product.version, product.type)"
+                                class="product-link">
+                                <div class="col-2 col-sm-2">
+                                    <span v-if="product.weight_capacity >= 6 && product.weight_capacity < 15"
+                                        class="badge badge-pill bg-success text-white d-flex align-items-center">
+                                        <i class="bi bi-check-circle-fill me-1"></i>
+                                        <span class="d-none d-md-inline">{{ $t('products.list.available') }}</span>
+                                    </span>
+
+                                    <!-- Not stock -->
+                                    <span v-else
+                                        class="badge badge-pill bg-warning text-dark d-flex align-items-center">
+                                        <i class="bi bi-hourglass-split me-1"></i>
+                                        <span class="d-none d-md-inline">{{ $t('products.list.not-available') }}</span>
+                                    </span>
+                                </div>
+                                <div class="col-7 col-sm-8 mobile-text-size">
+                                    {{ product.name }}
+                                </div>
+                                <div class="mobile-text-size col-3 col-sm-2 text-end">{{ product.total_price }} &#8364;</div>
+                            </a>
                         </div>
                     </div>
                 </div> <!-- END RIGHT SIDBAR -->
@@ -115,15 +118,6 @@ const getProductImage = (product) => {
 </template>
 
 <style scoped>
-.circle-image {
-    width: 35px;
-    height: 35px;
-    border-radius: 10%;
-    object-fit: cover;
-    object-position: center;
-    margin-left: 10px;
-}
-
 .link {
     color: #141313;
     text-decoration: none;
@@ -171,11 +165,6 @@ const getProductImage = (product) => {
     margin-top: 15px;
     transition: 0.3s;
     text-decoration: none;
-}
-
-.form-check-label {
-    padding-left: 10px;
-    margin-top: 5px;
 }
 
 .service-details .services-list a:first-child {
@@ -281,7 +270,6 @@ const getProductImage = (product) => {
 .row.table-head {
     color: #fff;
     background: #1c1a1a;
-
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -291,12 +279,9 @@ const getProductImage = (product) => {
     border-bottom: solid 1px black;
 }
 
-.row.striped:hover{
+.row.striped:hover {
     background: #1e1d1d;
     color: white !important;
-}
-.product-row {
-    background-color: white;
 }
 
 .product-link {
@@ -313,44 +298,60 @@ const getProductImage = (product) => {
     color: white;
 }
 
+/* Flexbox layout for columns */
+.row.striped .col-2 {
+  flex: 0 0 60px; /* Ensures the badge column is as wide as needed */
+  max-width: 110px;
+}
+
+.row.striped .col-7 {
+  flex: 1; /* Allows the product name to take up the remaining space */
+  margin-left: 20px;
+}
+
+.row.striped .col-3 {
+  flex: 0 0 auto;
+  max-width: 90px; /* Ensures the price column doesn't take too much space */
+}
+
+.text-end {
+  text-align: right;
+}
+
+/* Mobile adjustments */
 @media (max-width: 767.98px) {
-    .row.table-head {
-        display: none;
-    }
-
-    .hidden-columns {
-        display: none;
-        visibility: hidden;
-    }
-
-    .mobile-text-size {
-        font-size: 11px;
-        margin-top: 3px;
-        padding-left: 5px;
-    }
-
+  .row.table-head {
+    display: none;
+  }
+  .section-title h1 {
+       font-size: 24px !important;
 }
 
-.pds_phone {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: -20px;
-}
+  .hidden-columns {
+    display: none;
+    visibility: hidden;
+  }
 
-.submit-button {
-    margin-top: 15px;
-    width: 100%;
-    border: none;
-    height: 35px;
-}
+  /* Mobile text size adjustments */
+  .mobile-text-size {
+    font-size: 11px;
+    margin-top: 3px;
+    padding-left: 5px;
+  }
 
-.form-check-label {
-    font-size: 12px;
-}
+  /* Adjust flexbox for narrow screens */
+  .row.striped .col-2 {
+    flex: 0 0 50px; /* Make the badge column narrower on mobile */
+    max-width: 28px;
+  }
 
-.form-check {
-    margin-top: 10px;
+  .row.striped .col-7 {
+    margin-left: 2px;
+  }
+
+  .row.striped .col-3 {
+    max-width: 70px; /* Reduce max width for the price column */
+  }
 }
 
 .filter-links {

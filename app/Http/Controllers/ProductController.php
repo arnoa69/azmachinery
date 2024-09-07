@@ -33,7 +33,7 @@ class ProductController extends Controller
     {
         $products = DB::table('product_combinations')
         ->join('products', 'product_combinations.product_id', '=', 'products.id')
-        ->select('product_combinations.name', 'product_combinations.slug', 'product_combinations.total_price', 'products.type', 'products.version')
+        ->select('product_combinations.name', 'product_combinations.slug', 'product_combinations.total_price', 'products.type', 'products.version', 'products.weight_capacity')
         ->where('products.base_name', $type)
         ->get();
 

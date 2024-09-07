@@ -116,6 +116,19 @@
         "title": "Täitke oma andmed",
         "close-button": "Lahkuge"
     },
+    "about": {
+        "h1": "Tee edasi: Euroopa suurim mobiilsete rampide tootja, võimaldab ligipääsu kõikjale",
+        "h3": "Euroopa tõhususe rampe",
+        "p": {
+            "1": "Kombineerides uuendusliku tehnoloogia ja põhjaliku testimise ning hoolega klientide toetusega oleme loonud usaldusväärsuse, turvalisuse ja jõudluse standardi",
+            "2": "Iga rampe on ehitatud ületama Euroopa ohutusnõudeid, võimaldades libedate pindadega, robustse konstruktsiooniga ja ergonoomilise disainiga tagada kasutajate kõrgeima turvalisuse."
+        },
+        "li": {
+            "1": "Ületamatu võimekus.",
+            "2": "Täpsemaid spetsialistide oskused.",
+            "3": "Iga rampe on ehitatud ületama Euroopa ohutusnõudeid, võimaldades libedate pindadega, robustse konstruktsiooniga ja ergonoomilise disainiga tagada kasutajate kõrgeima turvalisuse."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Suur ladu: üle 500 rampa laos",
@@ -157,7 +170,7 @@
             "p-end": "AZ Machinery's mõistame, et seisakud võivad olla kulukad ja häirivad. Seetõttu teeme kõik endast olmeva, et pakkuda ülimat klienditoetust ja tagada meie üürirampide töökindlus."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Täielikult galvaniseeritud mobiilsed rampid",
         "point-1-title": "Turva oma koormat kindlustundega",
         "point-1-description": "Need tugevad ahelad on loodud teie koorma turvaliseks kinnitamiseks, vältides nihkumist ja võimalikke kahjustusi",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Laaduramp varutoodetena: Tutvu { type }"
     },
     "products": {
+        "image_label": "Näidatud pilt on ainult illustreeriva eesmärgiga; tegelik toode võib erineda suuruse, kaalu ja kohandatud valikute osas.",
         "back_button": "TAGASI",
         "list": {
-            "head": {
-                "image": "Pilt",
-                "code": "Kood",
-                "handle_modus": "Käitlemine",
-                "price": "Hind"
-            },
+            "available": "laos",
+            "not-available": "päringu alusel",
             "sidebar": {
                 "hydraulic_handling": "Hüdrauliliselt töötavad rampid",
                 "electric_handling": "Elektritoitega töötavad rampid",
@@ -473,11 +483,11 @@
                 "pps_handling": "Õhu- või gaasiga töötav rampe"
             },
             "use_filer": "Kasutage filtrit, et täpsustada otsingut veelgi",
-            "title": "Rampede loetelu",
+            "title": "Laadimisrammi tüüp {base_name}",
             "table": {
                 "head": {
-                    "image": "Pilt",
-                    "code": "Kood",
+                    "availability": "Laoseis",
+                    "name": "Nimi",
                     "handle_modus": "Käitlemine",
                     "price": "Hind"
                 }
@@ -485,7 +495,7 @@
             "filter-title": "Filtreeri energiaallika järgi"
         },
         "details": {
-            "title": "Saadaval olevad laadimisrampid",
+            "title": "Mobiilsete laadimisramppide loetelu",
             "back": "TAGASI",
             "sidebar": {
                 "have_a_question": "Kas teil on küsimusi?",

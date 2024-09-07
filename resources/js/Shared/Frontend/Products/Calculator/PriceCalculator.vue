@@ -261,7 +261,7 @@ const handleChange = (key) => {
                         </template>
                         <!-- If no options are available -->
                         <div v-else>
-                        No options available for container access ramps.
+                            {{ $t( 'request-box.no-option' )}}
                         </div>
                     </div>
                 </div>

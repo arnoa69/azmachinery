@@ -116,6 +116,19 @@
         "title": "Completa le tue informazioni",
         "close-button": "Esci"
     },
+    "about": {
+        "h1": "Aprire la strada: Il più grande produttore di rampe mobili d'Europa, consentendo l'accesso ovunque",
+        "h3": "La rampa di efficienza dell'Europa",
+        "p": {
+            "1": "Combinando tecnologia di punta con test rigorosi e supporto clienti attento, abbiamo stabilito uno standard per l'affidabilità, la sicurezza e le prestazioni",
+            "2": "Ogni rampa è progettata per superare le norme di sicurezza europee, con superfici antiscivolo, costruzione robusta e design ergonomico per garantire la massima sicurezza per gli utenti."
+        },
+        "li": {
+            "1": "Capacità senza pari.",
+            "2": "Competenza nella personalizzazione.",
+            "3": "Ogni rampa è progettata per superare le norme di sicurezza europee, con superfici antiscivolo, costruzione robusta e design ergonomico per garantire la massima sicurezza per gli utenti."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Inventario globale: oltre 500 rampe in magazzino",
@@ -157,7 +170,7 @@
             "p-end": "Da AZ Machinery, comprendiamo che i tempi di inattività possono essere costosi e distruttivi. Ecco perché facciamo tutto il possibile per offrire un supporto clienti eccezionale e garantire l'affidabilità delle nostre rampe a noleggio."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Rampe mobili completamente zincate",
         "point-1-title": "Assicura il tuo carico in tutta sicurezza",
         "point-1-description": "Queste robuste catene sono progettate per fissare in modo sicuro il tuo carico, prevenendo lo spostamento e possibili danni",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Rampe di carico in magazzino: Esplora { type }"
     },
     "products": {
+        "image_label": "L'immagine mostrata è solo a scopo illustrativo; il prodotto reale può differire per dimensioni, peso e opzioni personalizzate.",
         "back_button": "INDIETRO",
         "list": {
-            "head": {
-                "image": "Immagine",
-                "code": "Codice",
-                "handle_modus": "Gestione",
-                "price": "Prezzo"
-            },
+            "available": "disponibile",
+            "not-available": "su richiesta",
             "sidebar": {
                 "hydraulic_handling": "Rampe idrauliche",
                 "electric_handling": "Rampe elettriche",
@@ -473,11 +483,11 @@
                 "pps_handling": "Rampa ad aria o a gas"
             },
             "use_filer": "Utilizzare il filtro per restringere ulteriormente la ricerca",
-            "title": "Elenco delle rampe",
+            "title": "Tipo di rampa di carico {base_name}",
             "table": {
                 "head": {
-                    "image": "Immagine",
-                    "code": "Codice",
+                    "availability": "Scorta",
+                    "name": "Nome",
                     "handle_modus": "Gestione",
                     "price": "Prezzo"
                 }
@@ -485,7 +495,7 @@
             "filter-title": "Filtra per fonte di energia"
         },
         "details": {
-            "title": "Rampe di carico disponibili",
+            "title": "Elenco delle rampe di carico mobili",
             "back": "INDIETRO",
             "sidebar": {
                 "have_a_question": "Hai domande?",

@@ -116,6 +116,19 @@
         "title": "Komplettera dina uppgifter",
         "close-button": "Lämna"
     },
+    "about": {
+        "h1": "Öppna vägen: Europas största tillverkare av mobila rampar, möjliggör tillgång överallt",
+        "h3": "Europas Ramp till Effektivitet",
+        "p": {
+            "1": "Genom att kombinera modern teknologi med stränga tester och uppmärksamt kundstöd har vi etablerat en referenspunkt för tillförlitlighet, säkerhet och prestanda",
+            "2": "Varje ramp är byggd för att överträffa europeiska säkerhetsstandarder, med antihalkytor, robust konstruktion och ergonomisk design för att säkerställa den högsta säkerheten för användarna."
+        },
+        "li": {
+            "1": "Oöverträffad kapacitet.",
+            "2": "Specialiserad expertis för anpassning.",
+            "3": "Varje ramp är byggd för att överträffa europeiska säkerhetsstandarder, med antihalkytor, robust konstruktion och ergonomisk design för att säkerställa den högsta säkerheten för användarna."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Globalt Lager: 500+ Ramper i Lager",
@@ -157,7 +170,7 @@
             "p-end": "På AZ Machinery förstår vi att stillestånd kan vara kostsamt och störande. Därför går vi utöver för att erbjuda exceptionell kundsupport och säkerställa driftsäkerheten för våra hyrda ramper."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Helt galvaniserade mobila ramper",
         "point-1-title": "Säkra din last med förtroende",
         "point-1-description": "Dessa robusta kedjor är utformade för att säkra din last på ett säkert sätt och förhindra förskjutning och potentiella skador",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Lastningsramp på lager: Utforska { type }"
     },
     "products": {
+        "image_label": "Den visade bilden är endast avsedd för illustrativa ändamål; den faktiska produkten kan avvika i fråga om storlek, vikt och anpassningsalternativ.",
         "back_button": "TILLBAKA",
         "list": {
-            "head": {
-                "image": "Bild",
-                "code": "Kod",
-                "handle_modus": "Hantering",
-                "price": "Pris"
-            },
+            "available": "i lager",
+            "not-available": "på begäran",
             "sidebar": {
                 "hydraulic_handling": "Hydrauliskt drivna ramper",
                 "electric_handling": "Elektriskt drivna ramper",
@@ -473,11 +483,11 @@
                 "pps_handling": "Luft- eller gasdriven rampe"
             },
             "use_filer": "Använd filtret för att förfina sökningen ytterligare",
-            "title": "Lista över ramper",
+            "title": "Lastramp typ {base_name}",
             "table": {
                 "head": {
-                    "image": "Bild",
-                    "code": "Kod",
+                    "availability": "Lager",
+                    "name": "Namn",
                     "handle_modus": "Hantering",
                     "price": "Pris"
                 }
@@ -485,7 +495,7 @@
             "filter-title": "Filtrera efter energikälla"
         },
         "details": {
-            "title": "Tillgängliga lastbryggor",
+            "title": "Lista över mobila lastramper",
             "back": "TILLBAKA",
             "sidebar": {
                 "have_a_question": "Har du en fråga?",

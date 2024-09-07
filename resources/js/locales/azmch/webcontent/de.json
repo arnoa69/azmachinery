@@ -115,6 +115,19 @@
         "title": "Vervollständigen Sie Ihre Informationen",
         "close-button": "Verlassen"
     },
+    "about": {
+        "h1": "Der Wegbereiter: Europas größter Hersteller von mobilen Rampen, ermöglicht Zugang überall",
+        "h3": "Europas Rampe zur Effizienz",
+        "p": {
+            "1": "Durch die Kombination von High-Tech mit strengen Tests und aufmerksamer Kundenunterstützung haben wir einen Benchmark für Zuverlässigkeit, Sicherheit und Leistung gesetzt",
+            "2": "Jede Rampe wird gebaut, um die europäischen Sicherheitsvorschriften zu übertreffen, mit rutschfesten Oberflächen, robustem Aufbau und ergonomischem Design, um die höchste Sicherheit für die Nutzer zu gewährleisten."
+        },
+        "li": {
+            "1": "Unübertroffene Kapazität. Über 500 Verladerampen auf Lager sofort lieferbar.",
+            "2": "Spezialisten der modernen Logistik und Verladeindustrie.",
+            "3": "Jede Rampe wird gebaut, um die europäischen Sicherheitsvorschriften zu übertreffen, mit rutschfesten Oberflächen, robustem Aufbau und ergonomischem Design, um die höchste Sicherheit für die Nutzer zu gewährleisten."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Globales Inventar: 500+ Rampen auf Lager",
@@ -156,7 +169,7 @@
             "p-end": "Bei AZ Machinery verstehen wir, dass Ausfallzeiten kostspielig und störend sein können. Deshalb tun wir alles, um einen außergewöhnlichen Kundensupport zu bieten und die Zuverlässigkeit unserer Mietrampen zu gewährleisten."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Vollverzinkte mobile Rampen",
         "point-1-title": "Sichern Sie Ihre Ladung mit Zuversicht",
         "point-1-description": "Diese robusten Ketten sind so konzipiert, dass sie Ihre Ladung sicher befestigen und so ein Verrutschen und mögliche Schäden verhindern",
@@ -457,14 +470,11 @@
         "category_product_lists": "{ country } - Laderampen auf Lager: Entdecken Sie { type }"
     },
     "products": {
+        "image_label": "Das gezeigte Bild dient nur illustrativen Zwecken; das tatsächliche Produkt kann in Bezug auf Größe, Gewicht und individuelle Optionen abweichen.",
         "back_button": "ZURÜCK",
         "list": {
-            "head": {
-                "image": "Bild",
-                "code": "Code",
-                "handle_modus": "Bedienung",
-                "price": "Preis"
-            },
+            "available": "auf Lager",
+            "not-available": "auf Anfrage",
             "sidebar": {
                 "hydraulic_handling": "Hydraulisch betriebene Rampen",
                 "electric_handling": "Elektrisch betriebene Rampen",
@@ -472,11 +482,11 @@
                 "pps_handling": "Luft- oder gasbetriebene Rampe"
             },
             "use_filer": "Verwenden Sie den Filter, um die Suche weiter einzugrenzen",
-            "title": "Liste der Rampen",
+            "title": "Lade rampen Typ {base_name}",
             "table": {
                 "head": {
-                    "image": "Bild",
-                    "code": "Code",
+                    "availability": "Lager",
+                    "name": "Name",
                     "handle_modus": "Bedienung",
                     "price": "Preis"
                 }
@@ -484,7 +494,7 @@
             "filter-title": "Nach Energiequelle filtern"
         },
         "details": {
-            "title": "Verfügbare Verladerampen",
+            "title": "Liste der mobilen Lade rampen",
             "back": "ZURÜCK",
             "sidebar": {
                 "have_a_question": "Haben Sie eine Frage?",

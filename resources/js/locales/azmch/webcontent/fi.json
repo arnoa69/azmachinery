@@ -116,6 +116,19 @@
         "title": "Täydennä tietosi",
         "close-button": "Poistu"
     },
+    "about": {
+        "h1": "Tienraivaaja: Euroopan suurin liikkuva ramppien valmistaja, mahdollistaen pääsyn kaikkialla",
+        "h3": "Euroopan tehokkuuden ramppi",
+        "p": {
+            "1": "Yhdistämällä edistyksellisen teknologian ja tiukat testit sekä huolellisen asiakastuen, olemme luoneet luotettavuuden, turvallisuuden ja suorituskyvyn standardin",
+            "2": "Jokainen ramppi on suunniteltu ylittämään Euroopan turvallisuusvaatimukset, tarjoamalla liukkaudenesto-ominaisuudet, vahva rakenne ja ergonominen suunnittelu, jotta käyttäjien turvallisuus voidaan taata."
+        },
+        "li": {
+            "1": "Vertaamaton kapasiteetti.",
+            "2": "Asiantuntemus mukauttamisessa.",
+            "3": "Jokainen ramppi on suunniteltu ylittämään Euroopan turvallisuusvaatimukset, tarjoamalla liukkaudenesto-ominaisuudet, vahva rakenne ja ergonominen suunnittelu, jotta käyttäjien turvallisuus voidaan taata."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Globaali varasto: yli 500 ramppia varastossa",
@@ -157,7 +170,7 @@
             "p-end": "AZ Machineryssa ymmärrämme, että seisokit voivat olla kalliita ja häiritseviä. Siksi teemme kaikkemme tarjotaksemme poikkeuksellista asiakastukea ja varmistaaksemme vuokraramppiemme luotettavuuden."
         }
     },
-    "about": {
+    "presentation": {
         "title": "Täysin galvanoidut liikkuvat rampit",
         "point-1-title": "Varmista lastisi turvallisesti",
         "point-1-description": "Nämä kestävät ketjut on suunniteltu kiinnittämään lastisi turvallisesti, estäen liukuminen ja mahdolliset vauriot",
@@ -458,14 +471,11 @@
         "category_product_lists": "{ country } - Lastausramppi varastossa: Tutustu { type }"
     },
     "products": {
+        "image_label": "Kuvassa näkyvä kuva on vain havainnollistamiseen tarkoitettu; todellinen tuote voi poiketa koosta, painosta ja mukautettavista vaihtoehdoista.",
         "back_button": "TAKAISIN",
         "list": {
-            "head": {
-                "image": "Kuva",
-                "code": "Koodi",
-                "handle_modus": "Käyttö",
-                "price": "Hinta"
-            },
+            "available": "varastossa",
+            "not-available": "pyynnöstä",
             "sidebar": {
                 "hydraulic_handling": "Hydraulisesti toimivat rampit",
                 "electric_handling": "Sähköisesti toimivat rampit",
@@ -473,11 +483,11 @@
                 "pps_handling": "Ilma- tai kaasukäyttöinen ramppi"
             },
             "use_filer": "Käytä suodatinta, jotta voit rajoittaa hakua entisestään",
-            "title": "Rampin luettelo",
+            "title": "Latausalustyyppi {base_name}",
             "table": {
                 "head": {
-                    "image": "Kuva",
-                    "code": "Koodi",
+                    "availability": "Varasto",
+                    "name": "Nimi",
                     "handle_modus": "Käyttö",
                     "price": "Hinta"
                 }
@@ -485,7 +495,7 @@
             "filter-title": "Suodata energialähteen mukaan"
         },
         "details": {
-            "title": "Saatavilla olevat lastausrampit",
+            "title": "Mobiilien latausalustojen luettelo",
             "back": "TAKAISIN",
             "sidebar": {
                 "have_a_question": "Onko sinulla kysyttävää?",
