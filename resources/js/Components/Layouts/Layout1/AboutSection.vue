@@ -1,5 +1,16 @@
 <script setup>
+import { useI18n } from "vue-i18n";
+const { locale } = useI18n();
 
+let videoLanguage = null;
+
+switch (locale.value) {
+    case 'en':
+    videoLanguage = '/img/about.jpg';
+        break;
+}
+
+locale.value == 'fr' ? 'fr' : 'en'
 </script>
 
 <template>
@@ -16,6 +27,7 @@
     <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
       <img src="/img/about.jpg" class="img-fluid" alt="">
       <a href="https://www.youtube.com/watch?v=5jE0-Ulp0VM" class="glightbox pulsating-play-btn"></a>
+      <span class="video-source">{{ $t('about.videoSource') }}</span>
     </div>
     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
       <h3>{{ $t('about.h3') }}</h3>
@@ -37,7 +49,9 @@
 </template>
 
 <style scoped>
-
+.video-source {
+    font-size: 12px;
+}
 .col-lg-6 img {
   border-radius: 10px;
 }
