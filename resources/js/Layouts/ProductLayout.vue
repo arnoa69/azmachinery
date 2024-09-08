@@ -1,10 +1,15 @@
 <script setup>
 import HeaderSection from '@/Components/Layouts/Layout1/HeaderSection.vue';
 import FooterSection from '@/Components/Layouts/Layout1/FooterSection.vue';
+import { getProductImages } from '@/utils/imageUtil';
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 
-const isMobileView = ref(false);
+const props = defineProps({
+  product: Object, // Definiere den prop für das Produkt
+  isDetailView: Boolean
+});
 
+const isMobileView = ref(false);
 const updateMobileView = () => {
   isMobileView.value = window.innerWidth <= 767.98;
 };
@@ -18,22 +23,24 @@ onUnmounted(() => {
   window.removeEventListener('resize', updateMobileView);
 });
 
-const props = defineProps({
-  product: Object, // Definiere den prop für das Produkt
-  isDetailView: Boolean
-});
+const isGalvanized = (slug) => {
+    const galvanizedKeywords = ['gan', 'gal', 'gab', 'gap', 'gao'];
+    return galvanizedKeywords.some(keyword => slug.includes(keyword));
+};
 
-const imagePath = ref('/../../../img/header/bg-header-products.jpg');
-const randomImages = [
-  '/../../../img/products/normal/test1.jpg',
-  '/../../../img/products/normal/test1.jpg',
-  '/../../../img/products/normal/test1.jpg'
-];
+const defaultImage = ref('/img/header/bg-header-products.jpg');
+const mainDetailViewImage = computed(() => {
+  if (props.isDetailView && props.product) {
+    const { main } = getProductImages(props.product.base_name, isGalvanized(props.product.slug));
+    return main;
+  }
+  return null; // Fallback, wenn nicht im Detailansicht
+});
 
 const backgroundStyle = computed(() => {
   const image = props.isDetailView
-    ? randomImages[Math.floor(Math.random() * randomImages.length)]
-    : imagePath.value;
+    ? mainDetailViewImage.value
+    : defaultImage.value;
 
   return {
     backgroundImage: `url(${image})`

@@ -116,6 +116,34 @@ const shareProduct = () => {
     }
 };
 
+const industries = [
+  'Construction',
+  'Manufacturing',
+  'Logistics',
+  'Warehousing',
+  'Retail',
+  'Food and Beverage',
+  'Healthcare',
+  'Aerospace',
+  'Automotive',
+  'Chemical Industry'
+];
+
+const chunkedIndustries = computed(() => {
+  const half = Math.ceil(industries.length / 2);
+  return [industries.slice(0, half), industries.slice(half)];
+})
+
+const videos = ref([
+  { id: 1, thumbnail: '/img/products/small/star-otc_thumb.jpg', url: 'https://www.youtube.com/watch?v=uv4eaAKH1yg' },
+  { id: 2, thumbnail: '/img/products/small/star-otc_thumb.jpg', url: 'https://www.youtube.com/watch?v=uv4eaAKH1yg' },
+  { id: 3, thumbnail: '/img/products/small/star-otc_thumb.jpg', url: 'https://www.youtube.com/watch?v=uv4eaAKH1yg' }
+]);
+
+const playVideo = (url) => {
+  window.open(url, '_blank');
+};
+
 // Optional: You can use onMounted to set the initial component explicitly
 onMounted(() => {
     currentComponent.value = 'PriceCalculator';
@@ -138,9 +166,11 @@ onMounted(() => {
                         <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
                                 v-if="baseName === product.base_name">{{ count }}</span></span>
                         <span>+ sold</span>
+
                     </div>
                     <button @click="goBack" class="btn-back mt-3">
-                        <i class="bi bi-arrow-left-circle-fill"></i> <span class="back-btn-label">{{ $t("products.back_button") }}</span>
+                        <i class="bi bi-arrow-left-circle-fill"></i>
+                        <span class="back-btn-label">{{ $t("products.back_button") }}</span>
                     </button>
 
                     <button @click="goBack" class="btn-back-mobile mt-3">
@@ -151,8 +181,20 @@ onMounted(() => {
                     </button>
 
                     <div class="section-title mt-2">
+                        <a :href="`/products/${product.slug}/pdf`" class="pdf-download-link ml-2" target="_blank">
+                            {{ $t("products.product_data_sheet") }}
+                            <i class="bi bi-file-pdf-fill"></i>
+                        </a>
                         <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
-                        {{ $t(`${product.slug}.product_description`) }}
+                        <p>{{ $t(`${product.slug}.product_description`) }}</p>
+                        <div style="margin-top: 20px;">
+                            <span class="modern-title">Industries That Can Benefit</span>
+                            <div class="columns">
+                                <ul v-for="(column, index) in chunkedIndustries" :key="index">
+                                <li v-for="industry in column" :key="industry">{{ industry }}</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="sticky-bar">
@@ -198,7 +240,11 @@ onMounted(() => {
                                     <span class="reviews">58+ Reviews • </span>
                                     <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
                                             v-if="baseName === product.base_name">{{ count }}</span></span>
-                                    <span>+ sold</span>
+                                    <span>+ sold </span>
+                                    <a :href="`/products/${product.slug}/pdf`" class="pdf-download-link ml-2"
+                                        target="_blank">
+                                        {{ $t("products.product_data_sheet") }} <i class="bi bi-file-pdf-fill"></i>
+                                    </a>
                                 </div>
                                 <div class="for-whom">
                                     <div class="d-none d-md-block">
@@ -206,6 +252,16 @@ onMounted(() => {
                                             <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
                                             {{ $t(`${product.slug}.product_description`) }}
                                         </div>
+
+                                        <div style="margin-top: 20px;">
+                                            <span class="modern-title">Industries That Can Benefit</span>
+                                            <div class="columns">
+                                                <ul v-for="(column, index) in chunkedIndustries" :key="index">
+                                                <li v-for="industry in column" :key="industry" class="list-item">{{ industry }}</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div> <!-- END OF RIGHT CONTNENT COLUMN -->
@@ -245,6 +301,21 @@ onMounted(() => {
                                     <span class="open-window" @click="showPriceCalculator"><i
                                             class="bi bi-calculator"></i> {{ $t("contact.bar.calculator") }}</span>
                                 </div>
+
+
+                                <!-- Video Section -->
+                                <div class="video-section">
+                                    <div class="video-container" v-for="video in videos" :key="video.id">
+                                    <div class="video-thumbnail" @click="playVideo(video.url)">
+                                        <img :src="video.thumbnail" alt="Video Thumbnail" />
+                                        <div class="play-button">
+                                            <i class="bi bi-play-fill"></i>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
                             </div> <!-- END OF LEFT CONTENT COLUMN -->
                         </div>
                     </div>
@@ -271,9 +342,73 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/*--------------------------------------------------------------
-# About Me
---------------------------------------------------------------*/
+.video-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.video-container {
+  width: 30%;
+}
+
+.video-thumbnail {
+  position: relative;
+  cursor: pointer;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns ul {
+  list-style-type: none;
+  padding: 0;
+  width: 48%;
+}
+
+.list-item {
+  line-height: 0.9; /* Reduzierte Zeilenhöhe */
+  margin-bottom: 5px; /* Optional: Abstand zwischen den Listenelementen */
+}
+
+.modern-title {
+  display: inline-block;
+  background-color: #cc0926;
+  color: white;
+  padding: 6px 9px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
 #product-detail {
     background-color: #fbfbfb;
 }
@@ -341,7 +476,14 @@ onMounted(() => {
     opacity: 0;
 }
 
-
+.pdf-download-link {
+    color: #e21414;
+    text-decoration: none;
+    font-size: 16px;
+}
+.pdf-download-link i {
+    font-size: 31px;
+}
 .open-window {
     cursor: pointer;
     color: #c4ccd8;
@@ -738,13 +880,14 @@ onMounted(() => {
 }
 
 .for-whom {
-    margin-top: 44px;
+    margin-top: 64px;
 }
 
 @media (min-width: 992px) {
-    .for-whom {
-        margin-left: 6px;
+    .pdf-download-link {
+        margin-left: 26px;
     }
+
 }
 
 .pds_phone {
@@ -936,6 +1079,9 @@ h1 {
 }
 
 @media (max-width: 767.98px) {
+    .pdf-download-link {
+        font-size: 12px;
+    }
     .product-stats-mobile {
         display: inline;
         /* Auf mobilen Geräten anzeigen */
@@ -992,6 +1138,11 @@ h1 {
 
     .section-title {
         font-size: 12px;
+    }
+    .section-title p {
+        font-size: 12px;
+        font-weight: normal;
+        text-transform: capitalize;
     }
 
     .service-details.specification {

@@ -80,6 +80,9 @@ return [
         "title" => "Optionen",
         "price" => "Preis",
     ],
+    "az-ramp-star-8t-standard" => [
+        "product_description" => "Stationäre Laderampe mit integrierter hydraulischer Dockleveller. Hydraulische Dockleveller mit elektrischer Nivellierung. 6 Stützfüße, Höhe der seitlichen Geländer=> 1.200 mm, Rutschfeste Lauffläche aus feuerverzinktem Zahnprofilgitter"
+    ],
     "form-8t" => [
         "layout1" => [
             "product_name" => "STATIONÄRE LADERAMPE MIT INTEGRIERTEM FEDERPUFFER - AZ RAMP-FORMATION 2020 - 8T",

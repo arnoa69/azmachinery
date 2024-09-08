@@ -2,10 +2,10 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <title>{{ $item['product']->product_name }}</title>
+    <title>{{ $product->name }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="icon" href="{{ url('../../../public/img/favicon-32x32.png') }}" type="image/x-icon">
+    <link rel="icon" href="http://azmachinery.test/favicon.ico" type="image/x-icon">
     <style>
         body {
             font-family: DejaVu Sans, sans-serif;
@@ -119,9 +119,10 @@
             float: right;
             margin-top: -88px;
             margin-right: -21px;
-            width: 245px;
+            max-width: 245px;
             height: 178px;
             position: relative;
+
         }
 
         .product-image {
@@ -129,8 +130,9 @@
             margin-left: 60px;
             margin-top: 1px;
             margin-right: 1px;
-            height: 175px;
+            max-height: 175px;
             position: relative;
+            width: 100%;
         }
 
         .product-image img {
@@ -373,17 +375,15 @@
     <div id="header" class="position-zero">
         <div class="product-name">
             <h1>
-                @if ($item['product']->type === 'mobile_ramp')
+                @if ($product->type === 'mobile')
                     {{ __('product.mobile_ramp') }}
-                @elseif ($item['product']->type === 'fix_ramp')
-                    {{ __('product.fix_ramp') }}
-                @elseif ($item['product']->type === 'platform')
-                    {{ __('product.platform') }}
+                @elseif ($product->type === 'container-access-ramps')
+                    {{ __('product.container_access_ramp') }}
                 @endif
             </h1>
             <h2>{{ __('product.technical_sheet') }}<</h2>
             <h3>
-                {{ __('product.' . $item['product']->product_code . '.layout1.product_name') }}
+                {{ $product->name }}
             </h3>
         </div>
         <div class="logo">
@@ -393,12 +393,12 @@
     <div id="description" class="position-zero">
         <div class="description-content">
             <h3>{{ __('product.features') }}</h3>
-            <p>{{ __('product.' . $item['product']->product_code . '.layout1.product_description') }}</p>
+            <p>{{ __('product.' . $product->slug . '.product_description') }}</p>
         </div>
         <div class="image-frame">
             <div class="product-image">
-                <img src="{{ asset('img/products/small/' . $item['product']->product_image . 'thumb.jpg') }}"
-                    alt="product view">
+                <img src="{{ asset('img/products/' . $product->base_name . '/pdf/' . $product->base_name . '.jpg') }}"
+                    alt="{{$product->base_name}}">
             </div>
         </div>
     </div>
@@ -406,15 +406,15 @@
         <div class="button-container">
             <div class="button-row">
                 <div class="button-cell">
-                    <a class="button button_1" href="https://rampas-carga-moviles.es"
+                    <a class="button button_1" href="https://az-machinery.ch/get-a-quote"
                         target="_blank">{{ __('product.get_a_quote') }} <i class="icon"> &#x2197;</i></a>
                 </div>
                 <div class="button-cell">
-                    <a class="button button_2" href="https://rampas-carga-moviles.es"
-                        target="_blank">{{ __('product.go_to_product') }} <i class="icon"> &#x2197;</i></a>
+                    {{-- <a class="button button_2" href="#"
+                        target="_blank">{{ __('product.go_to_product') }} <i class="icon"> &#x2197;</i></a> --}}
                 </div>
                 <div class="button-cell">
-                    <a class="button button_3" href="https://rampas-carga-moviles.es"
+                    <a class="button button_3" href="https://az-machinery.ch/contact"
                         target="_blank">{{ __('product.make_a_survey') }} <i class="icon"> &#x2197;</i></a>
                 </div>
             </div>
@@ -431,55 +431,55 @@
                 <tbody>
                     <tr>
                         <td>{{ __('product.weight_capacity') }}</td>
-                        <td>{{ $item['product']->weight_capacity }}t</td>
+                        <td>{{ $product->weight_capacity }}t</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.total_length') }}</td>
-                        <td>{{ $item['product']->total_length }} mm</td>
+                        <td>{{ $product->total_length }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.total_width') }}</td>
-                        <td>{{ $item['product']->total_width }} mm</td>
+                        <td>{{ $product->total_width }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.width_used') }}</td>
-                        <td>{{ $item['product']->width_used }} mm</td>
+                        <td>{{ $product->width_used }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.length_inclined_plane') }}</td>
-                        <td>{{ $item['product']->length_inclined_plane }} mm</td>
+                        <td>{{ $product->length_inclined_plane }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.length_plateform_horizontal') }}</td>
-                        <td>{{ $item['product']->length_plateform_horizontal }} mm</td>
+                        <td>{{ $product->length_plateform_horizontal }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.length_lip_penetrating') }}</td>
-                        <td>{{ $item['product']->length_lip_penetrating }} mm</td>
+                        <td>{{ $product->length_lip_penetrating }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.exit_lip_length') }}</td>
-                        <td>{{ $item['product']->exit_lip_length }} mm</td>
+                        <td>{{ $product->exit_lip_length }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.slope_min_max') }}</td>
-                        <td>{{ $item['product']->slope_min }}% - {{ $item['product']->slope_max }}%</td>
+                        <td>{{ $product->slope_min }}% - {{ $product->slope_max }}%</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.lifting_height') }}</td>
-                        <td>{{ $item['product']->min_height }} mm - {{ $item['product']->max_height }} mm</td>
+                        <td>{{ $product->min_height }} mm - {{ $product->max_height }} mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.unloaded_weight') }}</td>
-                        <td>{{ $item['product']->unloaded_weight }} 2000 KG</td>
+                        <td>{{ $product->unloaded_weight }} kg</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.amount_feet') }}</td>
-                        <td>{{ $item['product']->amount_feet }}</td>
+                        <td>2-4</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.side_railings_height') }}</td>
-                        <td>{{ $item['product']->side_railings_height }} 1200 mm</td>
+                        <td>350 mm - 1200 mm</td>
                     </tr>
                     <tr>
                         <td>{{ __('product.security_chaines') }}</td>
@@ -516,9 +516,9 @@
                     <tr>
                         <th>{{ __('product.tonnes') }}</th>
                         <th>{{ __('product.standard') }}</th>
-                        <th>{{ __('product.electric') }}</th>
-                        <th>{{ __('product.long_version') }}</th>
-                        <th>{{ __('product.version_xl') }}</th>
+                        <th>LLO</th>
+                        <th>XL</th>
+                        <th>LLO XL</th>
                     </tr>
                 </thead>
                 <tbody>

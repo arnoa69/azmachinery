@@ -66,29 +66,26 @@ class ProductController extends Controller
         $product->total_price = $productCombination->total_price;
         $product->slug = $productCombination->slug;
 
-        // Return product detail view with the product details
         return Inertia::render('Products/Show', [
             'product' => $product,
         ]);
     }
 
     public function generateProductPdf($locale, $slug) {
-        // $product = Product::where('slug', $slug)->firstOrFail();
-        $query = Product::where('slug', $slug);
 
-        if ($locale !== 'en') {
-            $query->orWhere("slug_{$locale}", $slug);
-        }
-
-        $product = $query->firstOrFail();
+        $product = DB::table('product_combinations')
+        ->join('products', 'product_combinations.product_id', '=', 'products.id')
+        ->select('*')
+        ->where('product_combinations.slug', $slug)
+        ->get();
 
         $data = [
-            'item' => compact('product'),
+            'product' => $product[0],
             'date' => now()->format('d-m-Y'),
         ];
 
         $pdf = Pdf::loadView('product.pdf', $data);
-        return $pdf->stream('product-' . $product->product_code . '.pdf');
+        return $pdf->stream('product-' . $product[0]->slug . '.pdf');
     }
 
 
