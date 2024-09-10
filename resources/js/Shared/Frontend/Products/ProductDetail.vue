@@ -135,15 +135,30 @@ const chunkedIndustries = computed(() => {
 })
 
 const videos = ref([
-  { id: 1, thumbnail: '/img/products/small/star-otc_thumb.jpg', url: 'https://www.youtube.com/watch?v=uv4eaAKH1yg' },
-  { id: 2, thumbnail: '/img/products/small/star-otc_thumb.jpg', url: 'https://www.youtube.com/watch?v=uv4eaAKH1yg' },
-  { id: 3, thumbnail: '/img/products/small/star-otc_thumb.jpg', url: 'https://www.youtube.com/watch?v=uv4eaAKH1yg' }
+  { id: 1, base_name: 'big-foot', thumbnail: '/img/products/videos/big-foot-galva-video.jpg', url: 'https://www.youtube.com/watch?v=AR0jWT0dJqM ' },
+  { id: 2, base_name: 'star-otc',thumbnail: '/img/products/videos/star-otc-video.jpg', url: 'https://www.youtube.com/watch?v=X82vmeJQ5zQ' },
+  { id: 3, base_name: 'hcrn-065', thumbnail: '/img/products/videos/hcrn-065-video.jpg', url: 'https://www.youtube.com/watch?v=32yq233Ek6Y' },
+  { id: 4, base_name: 'wlo', thumbnail: '/img/products/videos/prime-wlo-video.jpg', url: 'https://www.youtube.com/watch?v=uv4eaAKH1yg' },
+  { id: 5, base_name: 'hcrn-06', thumbnail: '/img/products/videos/hcrn-06-video.jpg', url: 'https://www.youtube.com/watch?v=Nj4pcWj-nec ' },
+  { id: 6, base_name: 'hcry-08', thumbnail: '/img/products/videos/hcry-08-video.jpg', url: 'https://www.youtube.com/watch?v=Or7heU7NB20' },
+  { id: 7, base_name: 'star', thumbnail: '/img/products/videos/star-video.jpg', url: 'https://www.youtube.com/watch?v=0VdP3r6hYRw' },
+  { id: 8, base_name: 'charge', thumbnail: '/img/products/videos/charge-uncharge-01-video.jpg', url: 'https://www.youtube.com/watch?v=Kwcd7pdqZvs&t=180s' },
+  { id: 9, base_name: 'charge', thumbnail: '/img/products/videos/charge-uncharge-02-video.jpg', url: 'https://www.youtube.com/watch?v=xFFzbWH8q0Y' },
+  { id: 10, base_name: 'charge', thumbnail: '/img/products/videos/charge-uncharge-03-video.jpg', url: 'https://www.youtube.com/watch?v=xFZqRBQ6OSM&t=22s' },
+  { id: 11, base_name: 'stock', thumbnail: '/img/products/videos/stock-video.jpg', url: 'https://www.youtube.com/watch?v=INv77fDTT9Q&t=17s' },
 ]);
 
 const playVideo = (url) => {
   window.open(url, '_blank');
 };
 
+const productBaseName = props.product.base_name; // Replace with the actual product's base_name
+
+const displayVideos = computed(() => {
+  const firstVideoIndex = videos.value.findIndex(video => video.base_name === productBaseName);
+  return videos.value.slice(firstVideoIndex, firstVideoIndex + 3);
+});
+console.log(displayVideos)
 // Optional: You can use onMounted to set the initial component explicitly
 onMounted(() => {
     currentComponent.value = 'PriceCalculator';
@@ -305,11 +320,11 @@ onMounted(() => {
 
                                 <!-- Video Section -->
                                 <div class="video-section">
-                                    <div class="video-container" v-for="video in videos" :key="video.id">
+                                    <div class="video-container" v-for="(video, index) in displayVideos" :key="video.id">
                                     <div class="video-thumbnail" @click="playVideo(video.url)">
                                         <img :src="video.thumbnail" alt="Video Thumbnail" />
                                         <div class="play-button">
-                                            <i class="bi bi-play-fill"></i>
+                                        <i class="bi bi-play-fill"></i>
                                         </div>
                                     </div>
                                     </div>
@@ -346,6 +361,8 @@ onMounted(() => {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .video-container {
@@ -370,8 +387,8 @@ onMounted(() => {
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
