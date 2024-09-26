@@ -229,9 +229,10 @@ const validVersions = {
 
 
 const regex = /^(?:[^-]+-){4}((?:standard|llo-xl|llo|xl))(?:$|-(.+))/;
-function generateUrl(slug, version, type, locale) {
+function generateUrl(slug, version, type, locale, pdf=false) {
 
     const parts = slug.split('-');
+    let path = '';
 
     // Find the index of the version in the parts array
     const versionIndex = parts.indexOf(version);
@@ -241,7 +242,12 @@ function generateUrl(slug, version, type, locale) {
     // Überprüfen, ob der Typ "container" ist
     if (type === 'container-access-ramps') {
         const translatedType = validTypes[locale][type];
-        let path = `/${locale}/${translatedType}`;
+
+        if(pdf) {
+            path = `/${translatedType}`;
+        } else {
+            path = `/${locale}/${translatedType}`;
+        }
 
         // Add the version to the path
         path += `/${validVersions[locale]['standard']}`;
@@ -259,7 +265,12 @@ function generateUrl(slug, version, type, locale) {
     }
 
     const translatedType = validTypes[locale][type];
-    let path = `/${locale}/${translatedType}`;
+
+    if(pdf) {
+        path = `/${translatedType}`;
+    } else {
+        path = `/${locale}/${translatedType}`;
+    }
 
     // Add the version to the path
     path += `/${validVersions[locale][version] || version}`;

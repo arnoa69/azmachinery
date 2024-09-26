@@ -130,6 +130,14 @@
         },
         "videoSource": "Dëse Video-Inhalt enthält KI-gestäerte Übersetzung vum Originalaudio."
     },
+    "shortRamps": {
+        "h1": "Kompakt Léisungen: Kuerz Rampen fir en zougang zu Container",
+        "h3": "Verbessert d'Accessibilitéit mat eiseren duerchhaltegen Bordrampen",
+"p": {
+    "1": "Eis mobil Rampe, an där d'Modeller HCRN-06, HCRN-065, HCRN-08 an HCRY-08, si fir d'Beluede vu Containere vereinfachen an d'Gestioun vu Gabelstapler bis zu 6,0 Tonne méiglech maachen.",
+    "2": "Eis Rampe si mat agebauten Gabeltaschen ekipéiert, déi eng séier an ouni Méi Verlagerung an d'virgesinn Luedegebidder erméiglechen. Zwei Sécherheetsketten si um Container gefest, fir d'Stabilitéit an d'Sécherheet vun der Rampe ze garantéieren. Eis kuerz Rampe iwwerbrécken d'Lück tëscht Container an Buedem an bidden en séchere an zeverléissegen Zougang fir Gabelstapler an Palettenhiewer."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Global Inventaire: 500+ Rampen op Lager",
@@ -508,6 +516,19 @@
                 "submit_button": "Ofschécken",
                 "category_list": "Zorten vu Laderampen",
                 "policy": "Akzeptéiert eis Dateschutzrichtlinnen."
+            },
+            "industries": {
+                "title-bar": "Industrieë, déi profitéiere kënne",
+                "construction": "Bauen",
+                "manufacturing": "Fabrikéieren",
+                "logistics": "Logistick",
+                "warehousing": "Lagere",
+                "retail": "Handwierk",
+                "foodAndBeverage": "Leckerei an Drécker",
+                "healthcare": "Gesondheet",
+                "aerospace": "Luft- an Raumtechnologie",
+                "automotive": "Automobilindustrie",
+                "chemicalIndustry": "Chemesch Industrie"
             }
         },
         "weight_capacity": "Static capacity { tonnes } T",

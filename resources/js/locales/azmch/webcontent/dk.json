@@ -115,7 +115,8 @@
     "modal": {
         "title": "Udfyld dine oplysninger",
         "close-button": "Forlad"
-    },"about": {
+    },
+    "about": {
         "h1": "Vejen frem: Europas største producent af mobile ramper, giver adgang overalt",
         "h3": "Europas rampe til effektivitet",
         "p": {
@@ -128,6 +129,14 @@
             "3": "Hver rampe er bygget til at overgå europæiske sikkerhedsregler, med antihængende overflader, robust konstruktion og ergonomisk design for at sikre den højeste sikkerhed for brugerne."
         },
         "videoSource": "Dette videoindhold inkluderer AI-assisteret oversættelse af originallyden."
+    },
+    "shortRamps": {
+        "h1": "Kompakte løsninger: Korte ramper til effektiv adgang",
+        "h3": "Forbedr tilgængeligheden med vores holdbare containeradgangsrampe",
+"p": {
+    "1": "Vores mobile ramper, herunder modellerne HCRN-06, HCRN-065, HCRN-08 og HCRY-08, er designet til at lette lastning og losning af containere og kan håndtere gaffeltrucke med en kapacitet på op til 6,0 tons.",
+    "2": "Vores ramper er udstyret med indbyggede gaffeltasker, der gør det muligt at flytte dem hurtigt og uden besvær til de foreskrevne lastningsområder. To sikringskæder er fastgjort til containeren for at sikre rampens stabilitet og sikkerhed. Vores korte ramper dækker afstanden mellem container og jord og giver en sikker og pålidelig adgangsvej for gaffeltrucke og palettevogne."
+}
     },
     "tabs": {
         "stock": {
@@ -505,6 +514,19 @@
                 "submit_button": "Send",
                 "category_list": "Typer af laderamper",
                 "policy": "Accepter vores privatlivspolitik."
+            },
+            "industries": {
+                "title-bar": "Industrier, der kan tilpasse",
+                "construction": "Byggeri",
+                "manufacturing": "Produktion",
+                "logistics": "Logistik",
+                "warehousing": "Lagerhold",
+                "retail": "Detailhandel",
+                "foodAndBeverage": "Mad og drikke",
+                "healthcare": "Sundhedsvæsenet",
+                "aerospace": "Rumfart",
+                "automotive": "Bilindustri",
+                "chemicalIndustry": "Kemisk industri"
             }
         },
         "weight_capacity": "Statisk kapacitet: { tonnit } T",

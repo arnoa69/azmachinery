@@ -134,8 +134,8 @@
         "h1": "Compact Solutions: Short Ramps for Efficient Access",
         "h3": "Enhance Accessibility with Our Durable Curb Ramps",
         "p": {
-            "1": "Specializing in accessibility and ease, our container access ramps are the perfect addition to any setting where small elevation changes can pose big challenges. Whether you're navigating curbs, steps, or thresholds, our short ramps offer superior durability and safety. Contact us today to learn more.",
-            "2": "In confined areas, every inch counts. Our precision-engineered Short Ramps bridge the gap, providing safe, reliable access for forklifts and pallet trucks. With tailored designs for tight clearances, our compact ramps streamline operations, reduce congestion, and increase warehouse productivity."
+            "1": "Our mobile yard ramps, including the HCRN-06, HCRN-065, HCRN-08, and HCRY-08 models, are designed to streamline the loading and unloading of containers, accommodating forklifts with capacities of up to 6.0 tons.",
+            "2": "Equipped with built-in fork pockets, our yard ramps enable quick and effortless relocation to designated loading areas. Two securing chains are attached to the container to ensure the ramp's stability and safety. Our short ramps bridge the gap between the container and the ground, providing a secure and dependable access point for forklifts and pallet jacks"
         }
     },
     "tabs": {
@@ -516,6 +516,19 @@
                 "submit_button": "Submit",
                 "category_list": "Types of loading ramps",
                 "policy": "Accept our privacy policy."
+            },
+            "industries": {
+                "title-bar": "Industries That Can Benefit",
+                "construction": "Construction",
+                "manufacturing": "Manufacturing",
+                "logistics": "Logistics",
+                "warehousing": "Warehousing",
+                "retail": "Retail",
+                "foodAndBeverage": "Food & Beverage",
+                "healthcare": "Healthcare",
+                "aerospace": "Aerospace",
+                "automotive": "Automotive",
+                "chemicalIndustry": "Chemical Industry"
             }
         },
         "weight_capacity": "Static capacity { tonnes } T",

@@ -130,6 +130,14 @@
         },
         "videoSource": "Este conteúdo de vídeo inclui tradução assistida por IA do áudio original."
     },
+    "shortRamps": {
+        "h1": "Soluções Compactas: Rampas Curtas para acesso a contêineres",
+        "h3": "Melhore a Acessibilidade com nossas Rampas Curtas",
+"p": {
+    "1": "Nossas rampas de estacionamento móvel, incluindo o HCRN-06, HCRN-065, HCRN-08 e HCRY-08, foram projetadas para simplificar o carregamento e descarregamento de contêineres, adequadas para elevadores com capacidade de até 6.0 toneladas.",
+    "2": "Equipados com bolsas de carregamento incorporadas, nossas rampas de estacionamento móvel facilitam a movimentação rápida e sem esforço do contêiner para áreas de carga designadas. Duas correntes fixas estão presas ao contêiner para garantir a estabilidade e a segurança da rampa. Nossas rampas curtas conectam o contêiner ao chão, fornecendo um ponto de acesso seguro e confiável para elevadores e elevadores de paletes."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Estoque Global: 500+ rampas em estoque",
@@ -506,6 +514,19 @@
                 "submit_button": "Enviar",
                 "category_list": "Tipos de rampas de carga",
                 "policy": "Aceite a nossa política de privacidade."
+            },
+            "industries": {
+                "title-bar": "Indústrias que podem beneficiar-se",
+                "construction": "Construção",
+                "manufacturing": "Fabricação",
+                "logistics": "Logística",
+                "warehousing": "Armazenamento",
+                "retail": "Varejo",
+                "foodAndBeverage": "Alimentação e bebidas",
+                "healthcare": "Saúde",
+                "aerospace": "Aeroespacial",
+                "automotive": "Automobilismo",
+                "chemicalIndustry": "Indústria química"
             }
         },
         "weight_capacity": "Capacidade estática {toneladas} T",

@@ -130,6 +130,14 @@
         },
         "videoSource": "Tässä videosisällössä on tekoälyn avustama käännös alkuperäisestä äänestä."
     },
+    "shortRamps": {
+        "h1": "Kompaktit ratkaisut: Lyhyet ramppit tehokkaaseen pääsyyn",
+        "h3": "Paranna esteettömyys kestävillä kulkureunusrampeillamme",
+"p": {
+    "1": "Meidän liikkuva ramppimme, mukaan lukien mallit HCRN-06, HCRN-065, HCRN-08 ja HCRY-08, on suunniteltu helpottamaan konttien lastausta ja purkamista ja ne sopivat trukkeille, joiden kapasiteetti on enintään 6,0 tonnia.",
+    "2": "Meidän ramppimme on varustettu sisäänrakennetuilla trukkien taskuilla, jotka mahdollistavat nopean ja vaivattoman siirtämisen määrätyille lastausalueille. Kaksi turvavöitä on kiinnitetty konttiin, jotta ramppien vakaus ja turvallisuus voidaan taata. Meidän lyhyet ramppimme peittävät kontin ja maan välisen aukon ja tarjoavat turvallisen ja luotettavan pääsyn trukkeille ja palettien kuljettimille."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Globaali varasto: yli 500 ramppia varastossa",
@@ -506,6 +514,19 @@
                 "submit_button": "Lähetä",
                 "category_list": "Lastausrampin tyypit",
                 "policy": "Hyväksy tietosuojakäytäntömme."
+            },
+            "industries": {
+                "title-bar": "Tehtäväluokat, joilla voit hyötyä",
+                "construction": "Rakentaminen",
+                "manufacturing": "Valmistus",
+                "logistics": "Logistiikka",
+                "warehousing": "Varastointi",
+                "retail": "Myynti",
+                "foodAndBeverage": "Ruoka ja juomat",
+                "healthcare": "Terveydenhuolto",
+                "aerospace": "Ilmailu",
+                "automotive": "Autoteollisuus",
+                "chemicalIndustry": "Kemian teollisuus"
             }
         },
         "weight_capacity": "Staattinen kapasiteetti { tonnit } T",

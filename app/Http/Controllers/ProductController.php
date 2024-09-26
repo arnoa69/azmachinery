@@ -71,7 +71,7 @@ class ProductController extends Controller
         ]);
     }
 
-    public function generateProductPdf($locale, $slug) {
+    public function generateProductPdf($locale, $type, $version, $options, $slug) {
 
         $product = DB::table('product_combinations')
         ->join('products', 'product_combinations.product_id', '=', 'products.id')

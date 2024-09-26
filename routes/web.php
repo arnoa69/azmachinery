@@ -102,10 +102,12 @@ Route::middleware([LocaleMiddleware::class])->group(function () {
 
         Route::get('/products', [ProductController::class, 'index'])->name('products.index');
         Route::get('/products/{type}', [ProductController::class, 'list'])->name('products.list');
+        Route::get('/pdf/{type}/{version}/{options?}/{slug}', [ProductController::class, 'generateProductPdf'])->name('products.pdf')
+        ->where('options', '.*')
+        ->where('options', '(.*|no-option)');
         Route::get('/{type}/{version}/{options?}/{slug}', [ProductController::class, 'show'])->name('products.show')
         ->where('options', '.*')
-        ->where('options', '(.*|no-option)'); // Allow 'no-option' as a valid option
-        Route::get('/products/{slug}/pdf', [ProductController::class, 'generateProductPdf'])->name('products.pdf');
+        ->where('options', '(.*|no-option)');
         Route::get('/contact', [ContactController::class, 'contactFormShow'])->name('contacts.form.show');
         Route::get('/get-a-quote', [ContactController::class, 'getQuoteFormShow'])->name('contacts.get.quote.form.show');
         Route::get('/cookie-policy', [PolicyController::class, 'showCookiePolicy'])->name('policy.showCookiePolicy');

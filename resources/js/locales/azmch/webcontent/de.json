@@ -129,6 +129,14 @@
         },
         "videoSource": "Dieser Videoinhalt enthält KI-unterstützte Übersetzungen des Originaltons."
     },
+    "shortRamps": {
+        "h1": "Kompakte Lösungen: Container Überladebrücken für Container",
+        "h3": "Verbessern Sie die Barrierefreiheit mit unseren langlebigen Container Überladebrücken",
+        "p": {
+            "1": "Unsere mobilen Rampen, einschließlich der Modelle HCRN-06, HCRN-065, HCRN-08 und HCRY-08, sind designed, um das Laden und Entladen von Containern für Gabelstapler mit einer Kapazität von bis zu 6,0 Tonnen zu ermöglichen.",
+            "2": "Unsere Rampen sind mit eingebauten Gabeltaschen ausgestattet, um eine schnelle und mühelose Verlagerung zu den vorgesehenen Ladebereichen zu ermöglichen. Zwei Sicherungsketten sind an der Container Zugangsrampe befestigt, um die Stabilität und Sicherheit der Rampe zu gewährleisten. Unsere kurzen Rampen überbrücken zwischen Container und Boden und bieten einen sicheren und zuverlässigen Zugangspunkt für Gabelstapler und Palettenhubwagen."
+        }
+    },
     "tabs": {
         "stock": {
             "teaser": "Globales Inventar: 500+ Rampen auf Lager",
@@ -505,6 +513,19 @@
                 "submit_button": "Senden",
                 "category_list": "Arten von Verladerampen",
                 "policy": "Akzeptieren Sie unsere Datenschutzrichtlinien."
+            },
+            "industries": {
+                "title-bar": "Industrien, die profitieren können",
+                "construction": "Bauwesen",
+                "manufacturing": "Fertigung",
+                "logistics": "Logistik",
+                "warehousing": "Lagerhaltung",
+                "retail": "Einzelhandel",
+                "foodAndBeverage": "Lebensmittel & Getränke",
+                "healthcare": "Gesundheitswesen",
+                "aerospace": "Luft- und Raumfahrt",
+                "automotive": "Automobilindustrie",
+                "chemicalIndustry": "Chemische Industrie"
             }
         },
         "weight_capacity": "Statische Kapazität { Tonnen } T",

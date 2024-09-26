@@ -95,8 +95,8 @@ const product = ref(props.product); // Produkt von props erhalten
     <Head>
 <!--        <title> {{ productInfo[3].country }} {{ productInfo[0].brand_name }}
             {{ productInfo[2].type }} {{ productInfo[1].operation }}
-        </title>
-        <link rel="canonical" :href="canonicalUrl" />
+        </title> -->
+        <link rel="canonical" :href="canonicalUrl" /> <!--
         <meta name="keywords" :content="productInfo[5].dynamic_keywords" />
         <meta name="description" :content="$t(`products.${productInfo[4].product_code}.layout1.product_description`)" />
         <meta property="og:url" :content="canonicalUrl" />

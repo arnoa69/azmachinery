@@ -130,6 +130,14 @@
         },
         "videoSource": "Dette videoinnholdet inkluderer AI-assistert oversettelse av originallyden."
     },
+    "shortRamps": {
+        "h1": "Kompakte Løsninger: Korte Ramper for effektiv tilgang til containere",
+        "h3": "Forbedre Tilgjengeligheten med våre Holdbare korte ramper",
+"p": {
+    "1": "Våre mobil yard ramper, inkludert HCRN-06, HCRN-065, HCRN-08 og HCRY-08 modellene, er utviklet for å forenkle lasting og lossing av containere, og er egnet for stålkraner med lastkapasitet opptil 6.0 tonner.",
+    "2": "Utstyrt med innebygde forkpocher, er våre yard ramper enkle å flytte containere til bestemte lastområder. To fastgjorte kjede er koblet til containeren for å sikre rampens stabilitet og sikkerhet. Våre korte ramper fyller gapet mellom containeren og jorden, gir en trygg og pålitelig tilgangspunkt for stålkraner og palletjaks."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Global lager: 500+ ramper på lager",
@@ -506,6 +514,19 @@
                 "submit_button": "Send",
                 "category_list": "Typer av lasteramper",
                 "policy": "Godta vår personvernerklæring."
+            },
+            "industries": {
+                "title-bar": "Næringer som kan dra nytte av",
+                "construction": "Bygge",
+                "manufacturing": "Produksjon",
+                "logistics": "Logistikk",
+                "warehousing": "Lagring",
+                "retail": "Detaljhandel",
+                "foodAndBeverage": "Mat og drikke",
+                "healthcare": "Helsevesen",
+                "aerospace": "Luft- og romfart",
+                "automotive": "Bilindustri",
+                "chemicalIndustry": "Kjemisk industri"
             }
         },
         "weight_capacity": "Statiske kapasitet { tonnes } T",

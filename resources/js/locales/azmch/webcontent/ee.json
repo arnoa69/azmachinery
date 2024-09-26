@@ -130,6 +130,14 @@
         },
         "videoSource": "See videoinfo sisaldab AI-abistatud tõlget originaalhelist."
     },
+    "shortRamps": {
+        "h1": "Kompaktse lahendused: Lühikesed ramgid efektiivseks ligipääsuks",
+        "h3": "Parandage juurdepääs meie kestvate kõnniteeramplitega",
+"p": {
+    "1": "Meie mobiilsed rampeed, sealhulgas mudelid HCRN-06, HCRN-065, HCRN-08 ja HCRY-08, on disainitud konteinerite laadimise ja mahalaadimise lihtsustamiseks ning võimaldavad käsitleda forklifte kuni 6,0 tonni kapatsiteediga.",
+    "2": "Meie rampeed on varustatud sisseehitatud forklift taskutega, mis võimaldavad kiiret ja vaevatut ümberpaigutamist määratud laadimisaladele. Kahe turvavööga on kinnitatud konteinerisse, et tagada rampe stabiilsus ja turvalisus. Meie lühikesed rampeed ületavad konteineri ja põranda vahelise lünka ning pakuvad turvalise ja usaldusväärselt juurdepääsu forkliftidele ja paletivankritele."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Suur ladu: üle 500 rampa laos",
@@ -506,6 +514,19 @@
                 "submit_button": "Saada",
                 "category_list": "Liigid laadimisrampidest",
                 "policy": "Nõustuge meie privaatsuspoliitikaga."
+            },
+            "industries": {
+                "title-bar": "Tootmood, mis saavad olla kasulikud",
+                "construction": "Konsoor",
+                "manufacturing": "Tootmine",
+                "logistics": "Logistika",
+                "warehousing": "Laduhooldus",
+                "retail": "Põlvaost",
+                "foodAndBeverage": "Toidu ja kahvikaup",
+                "healthcare": "Tervis",
+                "aerospace": "Lennuteenistus",
+                "automotive": "Autotehnika",
+                "chemicalIndustry": "Kemitehnika"
             }
         },
         "weight_capacity": "Staatiline kestvus: { tonnit } t",

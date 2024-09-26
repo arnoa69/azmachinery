@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
+<?php
+    $image = '/img/products/star/star.jpg';
+?>
 <head>
-    <title>{{ $product->name }}</title>
+    <title>{{ __('product.ldt') }} {{ __('product.switzerland') }} {{ $product->name }} {{ __('product.technical_sheet') }} </title>
     <meta charset="UTF-8">
+    <meta name="description" content="{{ __('product.' . $product->slug . '.product_description') }}">
+    <link rel="canonical" href="{{ url(app()->getLocale() . '/pdf' . App\Helpers\UrlHelper::generatePdfUrl($product->slug, $product->type, $product->version, app()->getLocale())) }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="http://azmachinery.test/favicon.ico" type="image/x-icon">
     <style>
@@ -137,6 +142,8 @@
 
         .product-image img {
             border: solid 1px rgb(69, 62, 62);
+            width: 250px;
+            height: 180px;
         }
 
         /* END DESCRIPTION */
@@ -397,8 +404,31 @@
         </div>
         <div class="image-frame">
             <div class="product-image">
-                <img src="{{ asset('img/products/' . $product->base_name . '/pdf/' . $product->base_name . '.jpg') }}"
-                    alt="{{$product->base_name}}">
+                @if($product->base_name === 'star')
+                    <img src="img/products/star/star.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'big-foot')
+                    <img src="img/products/big-foot/big-foot.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'easy-xl')
+                    <img src="img/products/easy-xl/easy-xl.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'hcrn-06')
+                    <img src="img/products/hcrn-06/hcrn-06.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'hcrn-08')
+                    <img src="img/products/hcrn-08/hcrn-08.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'hcrn-065')
+                    <img src="img/products/hcrn-065/hcrn-065.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'hcry-08')
+                    <img src="img/products/hcry-08/hcry-08.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'prime-xs')
+                    <img src="img/products/prime-xs/prime-xs.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'secu-dock')
+                    <img src="img/products/secu-dock/secu-dock.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'star-otc')
+                    <img src="img/products/star-otc/star-otc.jpg" alt="{{$product->base_name}}">
+                @elseif($product->base_name === 'wlo')
+                    <img src="img/products/wlo/wlo.jpg" alt="{{$product->base_name}}">
+                @else
+                    <img src="img/products/star/star.jpg" alt="{{$product->base_name}}">
+                @endif
             </div>
         </div>
     </div>
@@ -617,3 +647,4 @@
 </body>
 
 </html>
+

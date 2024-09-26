@@ -130,6 +130,14 @@
         },
         "videoSource": "Questo contenuto video include traduzione assistita da IA dell'audio originale."
     },
+    "shortRamps": {
+        "h1": "Soluzioni Compacte: Rampe Corte per unaccesso ai contenitori",
+        "h3": "Migliora l'Accessibilità con le Nostre Rampe corte Durevoli",
+"p": {
+    "1": "Le nostre rampe mobili, tra cui i modelli HCRN-06, HCRN-065, HCRN-08 e HCRY-08, sono progettate per semplificare il carico e lo scarico dei container, consentendo la gestione di carrelli elevatori con capacità fino a 6,0 tonnellate.",
+    "2": "Le nostre rampe sono dotate di tasche per forche integrate, che consentono un rapido e facile spostamento verso le aree di carico designate. Due catene di sicurezza sono fissate al container per garantire la stabilità e la sicurezza della rampa. Le nostre rampe corte coprono lo spazio tra il container e il suolo, offrendo un punto di accesso sicuro e affidabile per i carrelli elevatori e i carrelli per palette."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Inventario globale: oltre 500 rampe in magazzino",
@@ -506,6 +514,19 @@
                 "submit_button": "Invia",
                 "category_list": "Tipi di rampe di carico",
                 "policy": "Accetta la nostra politica sulla privacy."
+            },
+            "industries": {
+                "title-bar": "I settori che possono Trarre Profitto",
+                "construction": "Costruzione",
+                "manufacturing": "Produzione",
+                "logistics": "Logistica",
+                "warehousing": "Magazzino",
+                "retail": "Vendita al dettaglio",
+                "foodAndBeverage": "Cibo e Bevande",
+                "healthcare": "Cura della Salute",
+                "aerospace": "Aereospaziale",
+                "automotive": "Automotive",
+                "chemicalIndustry": "Industria Chimica"
             }
         },
         "weight_capacity": "Capacità statica { tonnes } T",

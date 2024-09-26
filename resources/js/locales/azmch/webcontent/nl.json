@@ -130,6 +130,14 @@
         },
         "videoSource": "Deze video-inhoud bevat AI-ondersteunde vertalingen van de originele audio."
     },
+    "shortRamps": {
+        "h1": "Compacte Oplossingen: Korte Ramps voor Efficiënt toegang tot containers",
+        "h3": "Verbeter de Toegankelijkheid met onze korte ramps",
+"p": {
+    "1": "Ons mobiel yard ramps, inclusief de HCRN-06, HCRN-065, HCRN-08 en HCRY-08 modellen, zijn ontworpen om de in- en uitlaad van containers te vergemakkelijken, geschikt voor vorkwagens met een capaciteit van maximaal 6.0 ton.",
+    "2": "Uitgerust met ingebouwde fork-pockets, onze yard ramps stellen het verplaatsen van de container naar aangewezen laadgebieden in een handomgeving. Twee vastgemaakte kettingen zijn bevestigd aan de container om de stabiliteit en veiligheid van de ramp te waarborgen. Onze korte ramps brengen het gat tussen de container en de grond, bieden een veilige en betrouwbare toegangspunt voor vorkwagens en palletjacks."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Wereldwijde voorraad: 500+ ramps op voorraad",
@@ -506,6 +514,19 @@
                 "submit_button": "Verzenden",
                 "category_list": "Soorten laadkleppen",
                 "policy": "Accepteer ons privacybeleid."
+            },
+            "industries": {
+                "title-bar": "Branchen die kunnen profiteren",
+                "construction": "Bouwen",
+                "manufacturing": "Productie",
+                "logistics": "Logistiek",
+                "warehousing": "Opslag",
+                "retail": "Detailhandel",
+                "foodAndBeverage": "Voedsel en drank",
+                "healthcare": "Zorg",
+                "aerospace": "Ruimtevaartuigbouw",
+                "automotive": "Automobielindustrie",
+                "chemicalIndustry": "Chemische industrie"
             }
         },
         "weight_capacity": "Statische capaciteit { tonnes } T",

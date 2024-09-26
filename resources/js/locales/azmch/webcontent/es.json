@@ -128,6 +128,14 @@
         },
         "videoSource": "Este contenido de video incluye traducción asistida por IA del audio original."
     },
+    "shortRamps": {
+        "h1": "Soluciones compactas: Rampas cortas para acceso acceso a contenedores",
+        "h3": "Mejore la accesibilidad con nuestras rampas de bordillo duraderas",
+"p": {
+    "1": "Nuestras rampas móviles, incluyendo los modelos HCRN-06, HCRN-065, HCRN-08 y HCRY-08, están diseñadas para agilizar la carga y descarga de contenedores, permitiendo el manejo de carretillas elevadoras con capacidades de hasta 6,0 toneladas.",
+    "2": "Nuestras rampas están equipadas con bolsillos para horquillas integradas, lo que permite una reubicación rápida y sin esfuerzo en las áreas de carga designadas. Dos cadenas de seguridad están sujetas al contenedor para garantizar la estabilidad y seguridad de la rampa. Nuestras rampas cortas cubren el espacio entre el contenedor y el suelo, proporcionando un punto de acceso seguro y confiable para carretillas elevadoras y carros de paletas."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Inventario global: más de 500 rampas en stock",
@@ -503,7 +511,20 @@
                 "submit_button": "Enviar",
                 "category_list": "Tipos de rampas de carga",
                 "policy": "Acepte nuestra política de privacidad."
-            }
+            },
+            "industries": {
+                "title-bar": "Industrias que pueden beneficiarse",
+                "construction": "Construcción",
+                "manufacturing": "Fabricación",
+                "logistics": "Logística",
+                "warehousing": "Almacenamiento",
+                "retail": "Venta al por menor",
+                "foodAndBeverage": "Alimentos y bebidas",
+                "healthcare": "Cuidado de la salud",
+                "aerospace": "Aeronáutica",
+                "automotive": "Automotriz",
+                "chemicalIndustry": "Industria química"
+              }
         },
         "weight_capacity": "Capacidad estática { tonnes } T",
         "total_length": "Longitud máxima: { total_length } mm",

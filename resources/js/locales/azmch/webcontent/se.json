@@ -130,6 +130,14 @@
         },
         "videoSource": "Detta videoinnehåll inkluderar AI-assisterad översättning av originalljudet."
     },
+    "shortRamps": {
+        "h1": "Kompakta lösningar: Korta ramper för tillgång till containrar",
+        "h3": "Förbättra tillgängligheten med våra korta ramper",
+"p": {
+    "1": "Våra mobila yardramper, inklusive HCRN-06, HCRN-065, HCRN-08 och HCRY-08 modellerna, är utformade för att förenkla in- och utlastning av containrar, och är lämpliga för stållastkranar med lastkapacitet upp till 6.0 ton.",
+    "2": "Utrustade med inbyggda forkpocher, är våra mobila yardramper enkla att flytta containrar till bestämda lastområder. Två fästa kedjor är fästa vid containern för att säkerställa rampens stabilitet och säkerhet. Våra korta ramper fyller luckan mellan containern och marken, ger en säker och pålitlig tillgång för stållastkranar och lastpallbilar."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Globalt Lager: 500+ Ramper i Lager",
@@ -506,6 +514,19 @@
                 "submit_button": "Skicka",
                 "category_list": "Typer av lastbryggor",
                 "policy": "Godkänn vår integritetspolicy."
+            },
+            "industries": {
+                "title-bar": "Branscher som kan dra nytta av",
+                "construction": "Bygg",
+                "manufacturing": "Tillverkning",
+                "logistics": "Logistik",
+                "warehousing": "Lagring",
+                "retail": "Detaljhandel",
+                "foodAndBeverage": "Mat och dryck",
+                "healthcare": "Hälso- och sjukvård",
+                "aerospace": "Luft- och rymdteknik",
+                "automotive": "Bilindustri",
+                "chemicalIndustry": "Kemisk industri"
             }
         },
         "weight_capacity": "Statisk kapacitet { tonnes } T",

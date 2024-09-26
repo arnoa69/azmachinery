@@ -130,6 +130,14 @@
         },
         "videoSource": "Ce contenu vidéo inclut une traduction assistée par IA de l'audio original."
     },
+    "shortRamps": {
+        "h1": "Solutions compactes : Rampes accès aux conteneurs courtes pour un accès efficace",
+        "h3": "Améliorez l'accessibilité avec nos rampes de bord durables",
+"p": {
+    "1": "Nos rampes mobiles, notamment les modèles HCRN-06, HCRN-065, HCRN-08 et HCRY-08, sont conçues pour faciliter le chargement et le déchargement des conteneurs, permettant la manipulation de chariots élévateurs d'une capacité de jusqu'à 6,0 tonnes.",
+    "2": "Nos rampes sont équipées de poches pour fourches intégrées, permettant un déplacement rapide et sans effort vers les zones de chargement désignées. Deux chaînes de sécurité sont fixées au conteneur pour garantir la stabilité et la sécurité de la rampe. Nos rampes courtes couvrent l'espace entre le conteneur et le sol, offrant un point d'accès sûr et fiable pour les chariots élévateurs et les chariots de palettes."
+}
+    },
     "tabs": {
         "stock": {
             "teaser": "Inventaire mondial : plus de 500 rampes en stock",
@@ -506,6 +514,19 @@
                 "submit_button": "Envoyer",
                 "category_list": "Types de rampes de chargement",
                 "policy": "Acceptez notre politique de confidentialité."
+            },
+            "industries": {
+                "title-bar": "Les secteurs qui peuvent bénéficier",
+                "construction": "Construction",
+                "manufacturing": "Fabrication",
+                "logistics": "Logistique",
+                "warehousing": "Stockage",
+                "retail": "Vente au détail",
+                "foodAndBeverage": "Nourriture et boisson",
+                "healthcare": "Santé",
+                "aerospace": "Aéronautique",
+                "automotive": "Automobile",
+                "chemicalIndustry": "Industrie chimique"
             }
         },
         "weight_capacity": "Capacité statique { tonnes } T",

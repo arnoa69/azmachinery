@@ -80,79 +80,79 @@ class UrlHelper
             "standard" => "standard-size",
             "llo" => "long-leveler-off",
             "xl" => "extra-large",
-            "llo-xl" => "long-leveler-off-extra-large"
+            "lloxl" => "long-leveler-off-extra-large"
         ],
         "de" => [
             "standard" => "standard-groesse",
             "llo" => "ausfahrende-verlaengerung",
             "xl" => "extra-lang",
-            "llo-xl" => "ausfahrende-verlaengerung-extra-lang"
+            "lloxl" => "ausfahrende-verlaengerung-extra-lang"
         ],
         "dk" => [
             "standard" => "standard-storrelse",
             "llo" => "lang-udfyldning",
             "xl" => "ekstra-stor",
-            "llo-xl" => "lang-udfyldning-ekstra-stor"
+            "lloxl" => "lang-udfyldning-ekstra-stor"
         ],
         "ee" => [
             "standard" => "vaikimisi-suurus",
             "llo" => "pikk-laiend-valja",
             "xl" => "ekstra-suur",
-            "llo-xl" => "pikk-laiend-valja-ekstra-suur"
+            "lloxl" => "pikk-laiend-valja-ekstra-suur"
         ],
         "es" => [
             "standard" => "tamano-estandar",
             "llo" => "alargamiento-largo",
             "xl" => "extra-grande",
-            "llo-xl" => "alargamiento-largo-extra-grande"
+            "lloxl" => "alargamiento-largo-extra-grande"
         ],
         "fi" => [
             "standard" => "normaali-koko",
             "llo" => "pidentavalennys",
             "xl" => "ekstra-suuri",
-            "llo-xl" => "pidentavalennys-ekstra-suuri"
+            "lloxl" => "pidentavalennys-ekstra-suuri"
         ],
         "fr" => [
             "standard" => "taille-standard",
             "llo" => "extension-longue",
             "xl" => "tres-grand",
-            "llo-xl" => "extension-longue-tres-grand"
+            "lloxl" => "extension-longue-tres-grand"
         ],
         "it" => [
             "standard" => "dimensione-standard",
             "llo" => "allungamento-lunghezza",
             "xl" => "extra-grande",
-            "llo-xl" => "allungamento-lunghezza-extra-grande"
+            "lloxl" => "allungamento-lunghezza-extra-grande"
         ],
         "lu" => [
             "standard" => "normale-grossezza",
             "llo" => "extension-longue",
             "xl" => "extra-gros",
-            "llo-xl" => "extension-longue-extra-gros"
+            "lloxl" => "extension-longue-extra-gros"
         ],
         "nl" => [
             "standard" => "standaard-grootte",
             "llo" => "lange-niveau-uit",
             "xl" => "extra-groot",
-            "llo-xl" => "lange-niveau-uit-extra-groot"
+            "lloxl" => "lange-niveau-uit-extra-groot"
         ],
         "no" => [
             "standard" => "standard-storrelse",
             "llo" => "lang-udfylding",
             "xl" => "ekstra-stor",
-            "llo-xl" => "lang-udfylding-ekstra-stor"
+            "lloxl" => "lang-udfylding-ekstra-stor"
         ],
         "pt" => [
             "standard" => "tamanho-padrao",
             "llo" => "alongamento-longo",
             "xl" => "extra-grande",
-            "llo-xl" => "alongamento-longo-extra-grande"
+            "lloxl" => "alongamento-longo-extra-grande"
         ],
         "se" => [
             "standard" => "standard-storlek",
             "llo" => "lang-utbyggnad",
             "xl" => "extra-stor",
-            "llo-xl" => "lang-utbyggnad-extra-stor"
+            "lloxl" => "lang-utbyggnad-extra-stor"
         ]
     ];
 
@@ -429,4 +429,79 @@ class UrlHelper
 
         return "/$locale/$type/$version/$optionsPath/$slug";
     }
+
+    public static function generatePdfUrl($slug, $type, $version, $locale = 'en')
+    {
+        $options = self::extractOptions($slug);
+
+        $type = self::$validTypes[$locale][$type] ?? null;
+        $version = self::$validVersions[$locale][$version] ?? null;
+        $optionsPath = '';
+
+        if (!$type || !$version) {
+            throw new \Exception('Invalid type or version in slug');
+        }
+
+        if (!empty($options)) {
+            foreach ($options as $option) {
+                $translatedOption = self::$validOptions[$locale][$option] ?? '';
+                if ($translatedOption) {
+                    $optionsPath .= '/' . $translatedOption;
+                }
+            }
+        }
+
+        // Wenn keine Optionen vorhanden sind, setze optionsPath auf 'no-option'
+        if (!$optionsPath) {
+            $optionsPath = '/no-option';
+        }
+
+        return "/$type/$version$optionsPath/$slug";
+    }
+
+    public static function generateSitemapUrl($slug, $type, $version, $locale = 'en')
+    {
+        $options = self::extractOptions($slug);
+
+        if (!$type || !$version) {
+            throw new \Exception('Invalid type or version in slug');
+        }
+
+        $translatedType = self::$validTypes[$locale][$type] ?? '';
+        $translatedVersion = self::$validVersions[$locale][$version] ?? '';
+        $optionsPath = '';
+
+        // Füge die Optionen nur hinzu, wenn sie vorhanden sind
+        if (!empty($options)) {
+            foreach ($options as $option) {
+                $translatedOption = self::$validOptions[$locale][$option] ?? '';
+                if ($translatedOption) {
+                    $optionsPath .= '/' . $translatedOption;
+                }
+            }
+        }
+
+        // Wenn keine Optionen vorhanden sind, setze optionsPath auf 'no-option'
+        if (!$optionsPath) {
+            $optionsPath = '/no-option';
+        }
+
+        return "/$translatedType/$translatedVersion$optionsPath/$slug";
+    }
+
+    public static function extractOptions($slug) {
+        // Match the part of the slug that comes after "standard", "llo", "xl", etc.
+        if (preg_match('/-(standard|llo|xl|lloxl|wlo|prime-xs|easy-xl)(-.*)?$/', $slug, $matches)) {
+            // Ensure there is a valid options part after the base term (standard, llo, etc.)
+            if (isset($matches[2])) {
+                // Remove the leading dash and return the options as an array
+                return explode('-', ltrim($matches[2], '-'));
+            }
+        }
+        // Return an empty array if no options are found
+        return [];
+    }
+
+
+
 }

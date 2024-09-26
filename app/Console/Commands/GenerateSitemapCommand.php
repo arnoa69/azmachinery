@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Console\Command;
 use Carbon\Carbon;
+use App\Helpers\UrlHelper;
 
 class GenerateSitemapCommand extends Command
 {
@@ -20,102 +21,108 @@ class GenerateSitemapCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Generates a file with product data as a sitemap.';
+    protected $description = 'Generates separate sitemap files for each locale.';
 
     /**
      * Execute the console command.
      *
      * @return int
      */
-
-    /**
-     * Execute the console command.
-     */
     public function handle()
     {
-        $domain = "https://rampas-carga-moviles.es";
+        $domain = "https://azmachinery.test";
         $locales = config('app.available_locales'); // Adjust based on your available locales
+        $sitemaps = [];
+
+        foreach ($locales as $locale) {
+            $sitemapContent = $this->generateSitemapForLocale($locale, $domain);
+            $sitemaps[] = $locale; // Store the locale for main sitemap generation
+            // Save individual sitemap file for each locale
+            file_put_contents("public/sitemap_{$locale}.xml", $sitemapContent);
+        }
+
+        // Generate the main sitemap.xml that references all individual sitemaps
+        $this->generateMainSitemap($sitemaps);
+        $this->info('Sitemaps generated successfully!');
+        return 0;
+    }
+
+    private function generateSitemapForLocale($locale, $domain)
+    {
         $priority_1 = 1.00;
-        $priority_08 = 0.80;
         $priority_64 = 0.64;
+        $lastModified = Carbon::now()->toIso8601String();
 
-        $changefreq = 'daily';
-
-        $content = '';
         // Add XML header and opening urlset tag
         $content = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         $content .= "<urlset\n";
-        $content .= "  xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"\n";
-        $content .= "  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n";
-        $content .= "  xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9\n";
-        $content .= "            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n";
+        $content .= " xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"\n";
+        $content .= " xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n";
+        $content .= " xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9\n";
+        $content .= " http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n";
 
-        // Fetch product data using DB facade
-        $products = DB::table('products')->get();
+        // Fetch product data using DB facade with join
+        $products = DB::table('products')
+            ->join('product_combinations', 'products.id', '=', 'product_combinations.product_id')
+            ->select('products.*', 'product_combinations.slug as combination_slug')
+            ->get();
 
+        // Add homepage to sitemap
         $content .= "<url>\n";
-        $content .= "  <loc>$domain</loc>\n";
-        $lastModified = Carbon::now()->toIso8601String();
-        $content .= "  <lastmod>$lastModified</lastmod>\n";
-        $content .= "  <priority>$priority_1</priority>\n";
+        $content .= " <loc>$domain</loc>\n";
+        $content .= " <lastmod>$lastModified</lastmod>\n";
+        $content .= " <priority>$priority_1</priority>\n";
         $content .= "</url>\n";
-
-        foreach ($locales as $locale) {
-            $productListingUrlsAdded = false;
-            if (!$productListingUrlsAdded) {
-                $content .= "<url>\n";
-                $loc = $domain . '/' . $locale . '/products';
-                $content .= "  <loc>$loc</loc>\n";
-                $lastModified = Carbon::now()->toIso8601String();
-                $content .= "  <lastmod>$lastModified</lastmod>\n";
-                $content .= "  <priority>$priority_08</priority>\n";
-                $content .= "</url>\n";
-
-                $productListingUrlsAdded = true;
-            }
-        }
-        foreach ($locales as $locale) {
-            $productCategoryUrlsAdded = false;
-            if (!$productCategoryUrlsAdded) {
-                $content .= "<url>\n";
-                $loc = $domain . '/' . $locale . '/categories';
-                $content .= "  <loc>$loc</loc>\n";
-                $lastModified = Carbon::now()->toIso8601String();
-                $content .= "  <lastmod>$lastModified</lastmod>\n";
-                $content .= "  <priority>$priority_08</priority>\n";
-                $content .= "</url>\n";
-
-                $productCategoryUrlsAdded = true;
-            }
-        }
 
         // Logic to process and use product data
         foreach ($products as $product) {
-            foreach ($locales as $locale) {
-                // Generate URL for product page
-                $content .= "<url>\n";
-                $loc = $domain . '/' . $locale . '/products/' . (($locale === 'en') ? $product->slug : $product->{'slug_' . $locale});
-                $content .= "  <loc>$loc</loc>\n";
-                $content .= "  <lastmod>$lastModified</lastmod>\n";
-                $content .= "  <priority>$priority_64</priority>\n";
-                $content .= "</url>\n";
+            $type = $product->type;
+            $version = $product->version;
+            $slug = $product->combination_slug;
 
-                // Generate URL for PDF
-                $content .= "<url>\n";
-                $loc = $domain . '/' . $locale . '/products/' . (($locale === 'en') ? $product->slug : $product->{'slug_' . $locale}) . '/pdf';
-                $content .= "  <loc>$loc</loc>\n";
-                $content .= "  <lastmod>$lastModified</lastmod>\n";
-                $content .= "  <priority>$priority_64</priority>\n";
-                $content .= "</url>\n";
+            // Debugging-Ausgabe
+            //$this->info("Slug: $slug, Type: $type, Version: $version");
+
+            // Überprüfen Sie die Typ- und Versionsvalidierung
+            if (!$type || !$version) {
+                throw new \Exception('Invalid type or version in product: ' . json_encode($product));
             }
+
+            $url = $domain . '/' . $locale . UrlHelper::generateSitemapUrl($slug, $type, $version, $locale);
+            $content .= "<url>\n";
+            $content .= " <loc>$url</loc>\n";
+            $content .= " <lastmod>$lastModified</lastmod>\n";
+            $content .= " <priority>$priority_64</priority>\n";
+            $content .= "</url>\n";
+
+            // Generate URL for PDF
+            $pdfUrl = $domain . '/' . $locale . '/pdf' . UrlHelper::generateSitemapUrl($slug, $type, $version, $locale);
+            $content .= "<url>\n";
+            $content .= " <loc>$pdfUrl</loc>\n";
+            $content .= " <lastmod>$lastModified</lastmod>\n";
+            $content .= " <priority>$priority_64</priority>\n";
+            $content .= "</url>\n";
         }
+
         $content .= "</urlset>\n";
+        return $content;
+    }
 
-        // Generate the file (replace with your desired logic)
-        file_put_contents('public/sitemap.xml', $content);
+    private function generateMainSitemap($sitemaps)
+    {
+        $mainContent = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+        $mainContent .= "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap-image/1.1\">\n";
 
-        $this->info('File generated successfully!');
+        foreach ($sitemaps as $locale) {
+            $mainContent .= "<sitemap>\n";
+            $mainContent .= " <loc>https://az-machinery.ch/public/sitemap_{$locale}.xml</loc>\n";
+            $mainContent .= " <lastmod>" . Carbon::now()->toIso8601String() . "</lastmod>\n";
+            $mainContent .= "</sitemap>\n";
+        }
 
-        return 0;
+        $mainContent .= "</sitemapindex>\n";
+
+        // Save the main sitemap.xml
+        file_put_contents('public/sitemap.xml', $mainContent);
     }
 }

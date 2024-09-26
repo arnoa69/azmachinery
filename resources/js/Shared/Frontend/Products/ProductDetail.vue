@@ -11,9 +11,10 @@ import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 import { posthogModule } from '@/plugins/posthog';
 import PriceCalculator from './Calculator/PriceCalculator.vue';
 import HelpChat from './Calculator/HelpChat.vue';
+import generateUrl from "@/utils/urlHelper";
 
 
-const { locale } = useI18n();
+const { locale, t } = useI18n();
 
 const phone_number = ref('');
 const props = defineProps({
@@ -117,16 +118,16 @@ const shareProduct = () => {
 };
 
 const industries = [
-  'Construction',
-  'Manufacturing',
-  'Logistics',
-  'Warehousing',
-  'Retail',
-  'Food and Beverage',
-  'Healthcare',
-  'Aerospace',
-  'Automotive',
-  'Chemical Industry'
+  t('products.details.industries.construction'),
+  t('products.details.industries.manufacturing'),
+  t('products.details.industries.logistics'),
+  t('products.details.industries.warehousing'),
+  t('products.details.industries.retail'),
+  t('products.details.industries.foodAndBeverage'),
+  t('products.details.industries.healthcare'),
+  t('products.details.industries.aerospace'),
+  t('products.details.industries.automotive'),
+  t('products.details.industries.chemicalIndustry')
 ];
 
 const chunkedIndustries = computed(() => {
@@ -158,7 +159,7 @@ const displayVideos = computed(() => {
   const firstVideoIndex = videos.value.findIndex(video => video.base_name === productBaseName);
   return videos.value.slice(firstVideoIndex, firstVideoIndex + 3);
 });
-console.log(displayVideos)
+
 // Optional: You can use onMounted to set the initial component explicitly
 onMounted(() => {
     currentComponent.value = 'PriceCalculator';
@@ -203,7 +204,7 @@ onMounted(() => {
                         <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
                         <p>{{ $t(`${product.slug}.product_description`) }}</p>
                         <div style="margin-top: 20px;">
-                            <span class="modern-title">Industries That Can Benefit</span>
+                            <span class="modern-title">{{ $t('products.details.industries.title-bar') }}</span>
                             <div class="columns">
                                 <ul v-for="(column, index) in chunkedIndustries" :key="index">
                                 <li v-for="industry in column" :key="industry">{{ industry }}</li>
@@ -256,8 +257,7 @@ onMounted(() => {
                                     <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
                                             v-if="baseName === product.base_name">{{ count }}</span></span>
                                     <span>+ sold </span>
-                                    <a :href="`/products/${product.slug}/pdf`" class="pdf-download-link ml-2"
-                                        target="_blank">
+                                    <a :href="`/pdf${generateUrl(product.slug, product.version, product.type, locale, pdf=true)}`" target="_blank" class="pdf-download-link ml-2">
                                         {{ $t("products.product_data_sheet") }} <i class="bi bi-file-pdf-fill"></i>
                                     </a>
                                 </div>
@@ -269,7 +269,7 @@ onMounted(() => {
                                         </div>
 
                                         <div style="margin-top: 20px;">
-                                            <span class="modern-title">Industries That Can Benefit</span>
+                                            <span class="modern-title">{{ $t('products.details.industries.title-bar') }}</span>
                                             <div class="columns">
                                                 <ul v-for="(column, index) in chunkedIndustries" :key="index">
                                                 <li v-for="industry in column" :key="industry" class="list-item">{{ industry }}</li>
@@ -363,6 +363,7 @@ onMounted(() => {
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  width: 100%; /* Fügen Sie dies hinzu, um die Breite des übergeordneten Elements zu verwenden */
 }
 
 .video-container {
@@ -1096,6 +1097,10 @@ h1 {
 }
 
 @media (max-width: 767.98px) {
+    .video-section {
+        width: 90%;
+    }
+
     .pdf-download-link {
         font-size: 12px;
     }
