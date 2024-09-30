@@ -2,28 +2,32 @@
     "meta": {
         "title": "AZ Machinery - Valmistatud Prantsusmaal",
         "product_detail_view": {
-            "title": {
-                "gas": "Gaasiga töötav",
-                "electric": "Elektritoitega",
-                "hydraulic": "Hüdrauliline",
-                "leveler": "Integreeritud tasandus",
-                "static_ramp": "Staatiline laadimisramps",
-                "mobile_ramp": "Mobiilne laadimisramps",
-                "platform_ramp": "Statsionaarne laadimisplatvorm"
-            },
             "keywords": {
-                "keyword_mobile": "mobiilsed laadimisrampid,",
-                "keyword_platform": "laadimisplatvormid,",
-                "keyword_static": "staatilsed laadimisrampid,",
-                "keyword_electric": "elektrilised laadimisrampid,",
-                "keyword_hydraulic": "hüdraulilised laadimisrampid,",
-                "keyword_leveler": "laadimisrampid tasandusfunktsiooniga,",
-                "keyword_gas": "gaasiga töötavad laadimisrampid,",
-                "keyword_truck": "veoki laadimisrampid,",
-                "keyword_tonnes": "laadimisrampid kandevõimega {tonnes} tonni,",
-                "keyword_stock": "laos on üle 500 rammi",
-                "keyword_buy_and_rent": "laadimisrampide ostmine ja rentimine"
-            }
+                "type": {
+                    "standard": "Mobile standard laadimisrambid,",
+                    "llo": "Mobile laadimisrambid elektriprindliku allahüütilaualõuaga,",
+                    "xl": "Ekstra suured mobiilsete laadimisrambid,",
+                    "lloxl": "Ekstra suured mobiilsete laadimisrambid elektriprindliku allahüütilaualõuaga,"
+                },
+                "tonnes": "Kantavus {tonnes} t,",
+                "keyword_chain": "Suur laadimisrambid laager, robustsed mobiilsed laaditerminalid, auffahrrammud, industriaalne laadimisrambid, LKW ja kontaineri laadimine ja laadimine",
+                "buy_and_rent": "Osta ja kasuta laaditerminali"
+            },
+              "countries": {
+                "germany": "Deutschland",
+                "denmark": "Danmark",
+                "estonia": "Eesti",
+                "great-britain": "Suurbritannia",
+                "spain": "Hispaania",
+                "finland": "Soome",
+                "france": "Prantsusmaa",
+                "italy": "Itaalia",
+                "luxembourg": "Luksemburg",
+                "netherlands": "Holland",
+                "norway": "Norra",
+                "portugal": "Portugal",
+                "sweden": "Rootsi"
+              }
         },
         "product_list": {
             "keywords": "Rammiliik, tootmootor, lasti ja laetmise tehnoloogia, dokkivõlli, rataste, tootmootor, rammiliik",

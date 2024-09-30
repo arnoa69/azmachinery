@@ -2,29 +2,33 @@
     "meta": {
         "title": "AZ Machinery - Laget i Frankrike",
         "product_detail_view": {
-            "title": {
-                "gas": "Drives på gass",
-                "electric": "Elektrisk drevet",
-                "hydraulic": "Hydraulisk",
-                "leveler": "Integrert nivellering",
-                "static_ramp": "Statisk lasterampe",
-                "mobile_ramp": "Mobil lasterampe",
-                "platform_ramp": "Stasjonær ladeplass"
-            },
             "keywords": {
-                "keyword_mobile": "mobile lasteramper,",
-                "keyword_platform": "ladeplasser,",
-                "keyword_static": "statiske lasteramper,",
-                "keyword_electric": "elektriske lasteramper,",
-                "keyword_hydraulic": "hydrauliske lasteramper,",
-                "keyword_leveler": "lasteramper med nivellering,",
-                "keyword_gas": "gassdrevne lasteramper,",
-                "keyword_truck": "lastebil lasteramper,",
-                "keyword_tonnes": "lasteramper kapasitet {tonnes} tonn,",
-                "keyword_stock": "lager over 500 ramper",
-                "keyword_buy_and_rent": "kjøp og utleie av lasteramper"
-            }
-        },
+                "type": {
+                    "standard": "Mobil Standard Lastingramper,",
+                    "llo": "Mobile Lastingramper med Elektrisk Foravling Bro,",
+                    "xl": "Ekstra Stor Mobile Lastingramper,",
+                    "lloxl": "Ekstra Stor Mobile Lastingramper med Elektrisk Foravling Bro,"
+                },
+                "tonnes": "Kapasitet {tonnes} tonn,",
+                "keyword_chain": "Stor lagerbeholdning av lastingramper, robuste mobile lastingramper, mobile lastehjelpemidler, industrielle lastingramper, last og losse lastbiler og containere",
+                "buy_and_rent": "Kjøp og Leie Lastingramper"
+            },
+              "countries": {
+                "germany": "Tyskland",
+                "denmark": "Danmark",
+                "estonia": "Estland",
+                "great-britain": "Storbritannia",
+                "spain": "Spania",
+                "finland": "Finland",
+                "france": "Frankrike",
+                "italy": "Italia",
+                "luxembourg": "Luxembourg",
+                "netherlands": "Nederland",
+                "norway": "Norge",
+                "portugal": "Portugal",
+                "sweden": "Sverige"
+              }
+            },
         "product_list": {
             "keywords": "Rampeoperasjoner, Godsbehandling, Lastsystem, Platformhøydebetjening, Rulrullestol, Lastsystem, Rampeoverføring",
             "description": "Effektive løsninger for å flytte tungt gods til høyere nivåer. Finn ut forskjellige typer lastramper og transportmetoder.",

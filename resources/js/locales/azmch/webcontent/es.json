@@ -2,28 +2,32 @@
     "meta": {
         "title": "Amplia selección! Más de 500 rampas de carga entregables ya!",
         "product_detail_view": {
-            "title": {
-                "gas": "operado gas",
-                "electric": "operado electricidad",
-                "hydraulic": "hidráulica",
-                "leveler": "nivelación integrada",
-                "static_ramp": "rampa carga estática",
-                "mobile_ramp": "rampa carga móvil",
-                "platform_ramp": "plataforma de carga estacionaria"
-            },
             "keywords": {
-                "keyword_mobile": "rampas de carga móviles,",
-                "keyword_platform": "plataformas de carga,",
-                "keyword_static": "rampas de carga estáticas,",
-                "keyword_electric": "rampas de carga eléctricas,",
-                "keyword_hydraulic": "rampas de carga hidráulicas,",
-                "keyword_leveler": "rampas de carga con nivelador,",
-                "keyword_gas": "rampas de carga accionadas por gas,",
-                "keyword_truck": "rampas de descarga en camiones Montacargas,",
-                "keyword_tonnes": "rampas de carga capacidad {tonnes} toneladas,",
-                "keyword_stock": "almacenamiento más de 500 rampas",
-                "keyword_buy_and_rent": "compra y alquiler de rampas de carga"
-            }
+                "type": {
+                    "standard": "Rampas de carga móviles estándar,",
+                    "llo": "Rampas de carga móviles con puente de avance eléctrico,",
+                    "xl": "Rampas móviles extra grandes,",
+                    "lloxl": "Rampas móviles extra grandes con puente de avance eléctrico,"
+                },
+                "tonnes": "Capacidad {tonnes} toneladas,",
+                "keyword_chain": "Gran inventario de Rampas de carga, robustos muelles de carga móviles, asistencia de carga móvil, Rampas de carga industrial, carga y descarga de camiones y contenedores",
+                "buy_and_rent": "Compra y alquiler de muelles de carga"
+            },
+              "countries": {
+                "germany": "Deutschland",
+                "denmark": "Danmark",
+                "estonia": "Eesti",
+                "great-britain": "Gran Bretaña",
+                "spain": "España",
+                "finland": "Finlandia",
+                "france": "Francia",
+                "italy": "Italia",
+                "luxembourg": "Luxemburgo",
+                "netherlands": "Países Bajos",
+                "norway": "Noruega",
+                "portugal": "Portugal",
+                "sweden": "Suecia"
+              }
         },
         "product_list": {
             "keywords": "Operación de rampas, manejo de cargas, tecnología de carga y descarga, nivelador de muelles, rampa de rodillos, tecnología de carga, transporte de rampas",

@@ -2,28 +2,32 @@
     "meta": {
         "title": "AZ Machinery - Fabbricato in Francia",
         "product_detail_view": {
-            "title": {
-                "gas": "Funzionamento a gas",
-                "electric": "Funzionamento elettrico",
-                "hydraulic": "Idraulica",
-                "leveler": "Livellamento integrato",
-                "static_ramp": "Rampa di carico statica",
-                "mobile_ramp": "Rampa di carico mobile",
-                "platform_ramp": "Piattaforma di carico stazionaria"
-            },
             "keywords": {
-                "keyword_mobile": "rampe di carico mobili,",
-                "keyword_platform": "piattaforme di carico,",
-                "keyword_static": "rampe di carico statiche,",
-                "keyword_electric": "rampe di carico elettriche,",
-                "keyword_hydraulic": "rampe di carico idrauliche,",
-                "keyword_leveler": "rampe di carico con livellatore,",
-                "keyword_gas": "rampe di carico a gas,",
-                "keyword_truck": "rampe di carico per camion,",
-                "keyword_tonnes": "rampe di carico capacità {tonnes} tonnellate,",
-                "keyword_stock": "magazzino oltre 500 rampe",
-                "keyword_buy_and_rent": "acquisto e noleggio di rampe di carico"
-            }
+                "type": {
+                    "standard": "Rampe di carico mobili standard,",
+                    "llo": "Rampe di carico mobili con ponte avanzato elettrico,",
+                    "xl": "Rampe di carico mobili extra larghe,",
+                    "lloxl": "Rampe di carico mobili extra larghe con ponte avanzato elettrico,"
+                },
+                "tonnes": "Capacità {tonnes} tonnellate,",
+                "keyword_chain": "Ampia scorta di rampe di carico, robuste rampe di carico mobili, ausili per il carico mobili, rampe di carico industriali, carico e scarico di camion e container",
+                "buy_and_rent": "Acquista e Noleggia Rampe di Carico"
+            },
+              "countries": {
+                "germany": "Germania",
+                "denmark": "Danimarca",
+                "estonia": "Estonia",
+                "great-britain": "Gran Bretagna",
+                "spain": "Spagna",
+                "finland": "Finlandia",
+                "france": "Francia",
+                "italy": "Italia",
+                "luxembourg": "Lussemburgo",
+                "netherlands": "Paesi Bassi",
+                "norway": "Norvegia",
+                "portugal": "Portogallo",
+                "sweden": "Svezia"
+              }
         },
         "product_list": {
             "keywords": "Operazione di rampa, Movimentazione delle merci, Tecnologia di carico e scarico, Livellatore di banchina, Trasportatore a rulli, Tecnologia di carico, Trasporto di rampe",

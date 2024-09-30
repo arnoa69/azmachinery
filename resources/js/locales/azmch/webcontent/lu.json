@@ -2,28 +2,32 @@
     "meta": {
         "title": "AZ Machinery - Hergestallt an Frankräich",
         "product_detail_view": {
-            "title": {
-                "gas": "Gasbedéngt",
-                "electric": "Elektresch bedéngt",
-                "hydraulic": "Hydraulesch",
-                "leveler": "Integréiert Ausgläichung",
-                "static_ramp": "Statesch Laderampe",
-                "mobile_ramp": "Mobil Laderampe",
-                "platform_ramp": "Stationär Ladeplattform"
-            },
             "keywords": {
-                "keyword_mobile": "mobil Laderampen,",
-                "keyword_platform": "Ladeplattformen,",
-                "keyword_static": "statesch Laderampen,",
-                "keyword_electric": "elektresch Laderampen,",
-                "keyword_hydraulic": "hydraulesch Laderampen,",
-                "keyword_leveler": "Laderampe mat Ausgläichung,",
-                "keyword_gas": "gasbedéngt Laderampen,",
-                "keyword_truck": "Camion Laderampen,",
-                "keyword_tonnes": "Laderampe Kapazitéit {tonnes} Tonnen,",
-                "keyword_stock": "Lager vu méi wéi 500 Rampen",
-                "keyword_buy_and_rent": "Kaf a Locatioun vu Laderampen"
-            }
+                "type": {
+                    "standard": "Mobil Standards Verlaadrampe,",
+                    "llo": "Mobile Verlaadrampe mat elektrischem Advance Bridge,",
+                    "xl": "Extra grouss Mobile Verlaadrampe,",
+                    "lloxl": "Extra grouss Mobile Verlaadrampe mat elektrischem Advance Bridge,"
+                },
+                "tonnes": "Kapazitét {tonnes} Tonnen,",
+                "keyword_chain": "Grouss Lager vun Verlaadrampen, robust Mobile Verlaadrampen, mobile Verlaadhëllefen, industrielle Verlaadrampen, LKW an Container Verlaad a Entlaad",
+                "buy_and_rent": "Kafen a Mieten Verlaadrampen"
+            },
+              "countries": {
+                "germany": "Deutschland",
+                "denmark": "Dänemark",
+                "estonia": "Estland",
+                "great-britain": "Grossbritannien",
+                "spain": "Spanien",
+                "finland": "Finnland",
+                "france": "Frankreich",
+                "italy": "Italien",
+                "luxembourg": "Luxemburg",
+                "netherlands": "Niederlande",
+                "norway": "Norwegen",
+                "portugal": "Portugal",
+                "sweden": "Schweden"
+              }
         },
         "product_list": {
             "keywords": "Rampenoperatiounen, Frachthandling, Lassystem, Plattformhéichtebedéngung, Rollstuhlwunn, Lassystem, Rampentransport",

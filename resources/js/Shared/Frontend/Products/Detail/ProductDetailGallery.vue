@@ -19,6 +19,7 @@ const isGalvanized = (slug) => {
 };
 
 const { main: image, additional: [image_01, image_02, image_03, image_04] } = getProductImages(props.product.base_name, isGalvanized(props.product.slug));
+
 </script>
 
 <template>

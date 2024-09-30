@@ -2,28 +2,32 @@
     "meta": {
         "title": "AZ Machinery - Gemaakt in Frankrijk",
         "product_detail_view": {
-            "title": {
-                "gas": "Op gas aangedreven",
-                "electric": "Elektrisch aangedreven",
-                "hydraulic": "Hydraulisch",
-                "leveler": "Geïntegreerde nivellering",
-                "static_ramp": "Statische laadklep",
-                "mobile_ramp": "Mobiele laadklep",
-                "platform_ramp": "Stationair laadplatform"
-            },
             "keywords": {
-                "keyword_mobile": "mobiele laadkleppen,",
-                "keyword_platform": "laadplatforms,",
-                "keyword_static": "statische laadkleppen,",
-                "keyword_electric": "elektrische laadkleppen,",
-                "keyword_hydraulic": "hydraulische laadkleppen,",
-                "keyword_leveler": "laadkleppen met nivellering,",
-                "keyword_gas": "gas aangedreven laadkleppen,",
-                "keyword_truck": "vrachtwagen laadkleppen,",
-                "keyword_tonnes": "laadkleppen capaciteit {tonnes} ton,",
-                "keyword_stock": "voorraad meer dan 500 laadkleppen",
-                "keyword_buy_and_rent": "aankoop en verhuur van laadkleppen"
-            }
+                "type": {
+                    "standard": "Mobiele Standaard Laadhellingen,",
+                    "llo": "Mobiele Laadhellingen met Elektrische Voorspanbrug,",
+                    "xl": "Extra Grote Mobiele Laadhellingen,",
+                    "lloxl": "Extra Grote Mobiele Laadhellingen met Elektrische Voorspanbrug,"
+                },
+                "tonnes": "Capaciteit {tonnes} ton,",
+                "keyword_chain": "Grote voorraad laadhellingen, robuuste mobiele laadhellingen, mobiele laadhulp, industriële laadhellingen, vrachtwagen en container laden en lossen",
+                "buy_and_rent": "Koop en Huur Laadhellingen"
+            },
+              "countries": {
+                "germany": "Duitsland",
+                "denmark": "Denemarken",
+                "estonia": "Estland",
+                "great-britain": "Groot-Brittannië",
+                "spain": "Spanje",
+                "finland": "Finland",
+                "france": "Frankrijk",
+                "italy": "Italië",
+                "luxembourg": "Luxemburg",
+                "netherlands": "Nederland",
+                "norway": "Noorwegen",
+                "portugal": "Portugal",
+                "sweden": "Zweden"
+              }
         },
         "product_list": {
             "keywords": "Rampenbeheer, Goederenverplaatsing, Ladingsysteem, Platformhoogtebediening, Rulprullenwagen, Ladingsysteem, Rampentransport",

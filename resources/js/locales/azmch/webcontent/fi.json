@@ -2,28 +2,32 @@
     "meta": {
         "title": "AZ Machinery - Tehty Ranssassa",
         "product_detail_view": {
-            "title": {
-                "gas": "Kaasukäyttöinen",
-                "electric": "Sähkökäyttöinen",
-                "hydraulic": "Hydraulinen",
-                "leveler": "Integroitu tasoitus",
-                "static_ramp": "Staattinen lastausramppi",
-                "mobile_ramp": "Mobiili lastausramppi",
-                "platform_ramp": "Kiinteä lastausalusta"
-            },
             "keywords": {
-                "keyword_mobile": "mobiili lastausrampit,",
-                "keyword_platform": "lastausalustat,",
-                "keyword_static": "staattiset lastausrampit,",
-                "keyword_electric": "sähköiset lastausrampit,",
-                "keyword_hydraulic": "hydrauliset lastausrampit,",
-                "keyword_leveler": "lastausrampit tasoittimella,",
-                "keyword_gas": "kaasukäyttöiset lastausrampit,",
-                "keyword_truck": "kuorma-auton lastausrampit,",
-                "keyword_tonnes": "lastausrampit kantavuudella {tonnes} tonnia,",
-                "keyword_stock": "varastossa yli 500 ramppia",
-                "keyword_buy_and_rent": "lastausrampien osto ja vuokraus"
-            }
+                "type": {
+                  "standard": "Mobiilistandardi lastausrampit,",
+                  "llo": "Sähköisellä syöttösillalla varustetut mobiililatausrampit,",
+                  "xl": "Erittäin suuret mobiililatausrampit,",
+                  "lloxl": "Erittäin suuret siirrettävät lastausrampit sähköisellä syöttösillalla,"
+                },
+                "tonnes": "Kuormituskapasiteetti {tonnes} tonnia,",
+                "keyword_chain": "Laaja valikoima lastausrampeja, kestävät liikkuvat lastausrampit, liikkuvat lastausratkaisut, teollisuuslastausrampit, kuorma-autojen ja konttien lastaus ja purkaminen",
+                "buy_and_rent": "Lastausrampien ostaminen ja vuokraaminen"
+              },
+              "countries": {
+                "germany": "Saksa",
+                "denmark": "Tanska",
+                "estonia": "Eesti",
+                "great-britain": "Iso-Britannia",
+                "spain": "Espanja",
+                "finland": "Suomi",
+                "france": "Ranska",
+                "italy": "Italia",
+                "luxembourg": "Luxemburg",
+                "netherlands": "Alankomaat",
+                "norway": "Norja",
+                "portugal": "Portugali",
+                "sweden": "Ruotsi"
+              }
         },
         "product_list": {
             "keywords": "Rampin toiminta, lähetystehoitus, lähetyksen ja päästön teknologia, ketjunpäällyste, rulla-ohjaus, lähetyksen teknologia, rampin siirto",

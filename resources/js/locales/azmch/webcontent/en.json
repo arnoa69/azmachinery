@@ -2,28 +2,32 @@
     "meta": {
         "title": "Mobile and static loading ramps in Europe: Discover Our Wide Selection! More than 500 immediately available high-quality loading ramps available",
         "product_detail_view": {
-            "title": {
-                "gas": "Gas operated",
-                "electric": "Electric operated",
-                "hydraulic": "Hydraulic",
-                "leveler": "Integrated leveling",
-                "static_ramp": "Static loading ramp",
-                "mobile_ramp": "Mobile loading ramp",
-                "platform_ramp": "Stationary loading platform"
-            },
             "keywords": {
-                "keyword_mobile": "mobile loading ramps,",
-                "keyword_platform": "loading platforms,",
-                "keyword_static": "static loading ramps,",
-                "keyword_electric": "electric loading ramps,",
-                "keyword_hydraulic": "hydraulic loading ramps,",
-                "keyword_leveler": "loading ramps with leveler,",
-                "keyword_gas": "gas-powered loading ramps,",
-                "keyword_truck": "truck loading ramps,",
-                "keyword_tonnes": "loading ramps capacity {tonnes} tonnes,",
-                "keyword_stock": "storage over 500 ramps",
-                "keyword_buy_and_rent": "purchase and rental of loading ramps"
-            }
+                "type": {
+                    "standard": "Mobile Standard Loading Ramps,",
+                    "llo": "Mobile Loading Ramps with Electric Advance Bridge,",
+                    "xl": "Extra Large Mobile Loading Ramps,",
+                    "lloxl": "Extra Large Mobile Loading Ramps with Electric Advance Bridge,"
+                },
+                "tonnes": "Capacity {tonnes} tons,",
+                "keyword_chain": "Large stock of loading Ramps, robust mobile loading Ramps, mobile loading aids, industrial loading Ramps, truck and container loading and unloading",
+                "buy_and_rent": "Buy and Rent Loading Ramps"
+            },
+              "countries": {
+                "germany": "Deutschland",
+                "denmark": "Denmark",
+                "estonia": "Estonia",
+                "great-britain": "Great Britain",
+                "spain": "Spain",
+                "finland": "Finland",
+                "france": "France",
+                "italy": "Italy",
+                "luxembourg": "Luxembourg",
+                "netherlands": "Netherlands",
+                "norway": "Norway",
+                "portugal": "Portugal",
+                "sweden": "Sweden"
+              }
         },
         "product_list": {
             "keywords": "Ramp operation, Goods handling, Loading and unloading technology, Dock leveler, Roller conveyor, Loading technology, Ramp conveyance",

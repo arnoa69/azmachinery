@@ -2,29 +2,33 @@
     "meta": {
         "title": "AZ Machinery - Gjort i Frankrike",
         "product_detail_view": {
-            "title": {
-                "gas": "Drivs med gas",
-                "electric": "Drivs med el",
-                "hydraulic": "Hydraulisk",
-                "leveler": "Integrerad nivellering",
-                "static_ramp": "Statisk lastbrygga",
-                "mobile_ramp": "Mobil lastbrygga",
-                "platform_ramp": "Stationär lastplattform"
-            },
             "keywords": {
-                "keyword_mobile": "mobila lastbryggor,",
-                "keyword_platform": "lastplattformar,",
-                "keyword_static": "statiska lastbryggor,",
-                "keyword_electric": "elektriska lastbryggor,",
-                "keyword_hydraulic": "hydrauliska lastbryggor,",
-                "keyword_leveler": "lastbryggor med nivellering,",
-                "keyword_gas": "gasdrivna lastbryggor,",
-                "keyword_truck": "lastbilslastbryggor,",
-                "keyword_tonnes": "lastbryggor kapacitet {tonnes} ton,",
-                "keyword_stock": "lager över 500 bryggor",
-                "keyword_buy_and_rent": "köp och hyra av lastbryggor"
-            }
-        },
+                "type": {
+                    "standard": "Mobila Standard Lastramper,",
+                    "llo": "Mobila Lastramper med Elektrisk Framskjutande Bro,",
+                    "xl": "Extra Stora Mobila Lastramper,",
+                    "lloxl": "Extra Stora Mobila Lastramper med Elektrisk Framskjutande Bro,"
+                },
+                "tonnes": "Kapacitet {tonnes} ton,",
+                "keyword_chain": "Stort lager av lastramper, robusta mobila lastramper, mobila lastassistans, industriella lastramper, last och lossning av lastbilar och containrar",
+                "buy_and_rent": "Köp och Hyra Lastramper"
+            },
+              "countries": {
+                "germany": "Tyskland",
+                "denmark": "Danmark",
+                "estonia": "Estland",
+                "great-britain": "Storbritannien",
+                "spain": "Spanien",
+                "finland": "Finland",
+                "france": "Frankrike",
+                "italy": "Italien",
+                "luxembourg": "Luxemburg",
+                "netherlands": "Nederländerna",
+                "norway": "Norge",
+                "portugal": "Portugal",
+                "sweden": "Sverige"
+              }
+            },
         "product_list": {
             "keywords": "Rampoperationer, Godshantering, Lastsystem, Plattformhöjdebistånd, Rullstolsbilar, Lastsystem, Rampeoverföring",
             "description": "Effektiva lösningar för att flytta tunga gods till högre nivåer. Upptäck vad som är möjligt med olika typer av lastbilar och transportmetoder.",

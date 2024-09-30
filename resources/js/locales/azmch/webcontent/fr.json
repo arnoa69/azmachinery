@@ -2,28 +2,32 @@
     "meta": {
         "title": "AZ Machinery - Fabriqué en France",
         "product_detail_view": {
-            "title": {
-                "gas": "Fonctionnement au gaz",
-                "electric": "Fonctionnement électrique",
-                "hydraulic": "Hydraulique",
-                "leveler": "Nivellement intégré",
-                "static_ramp": "Rampe de chargement statique",
-                "mobile_ramp": "Rampe de chargement mobile",
-                "platform_ramp": "Plateforme de chargement stationnaire"
-            },
             "keywords": {
-                "keyword_mobile": "rampes de chargement mobiles,",
-                "keyword_platform": "plateformes de chargement,",
-                "keyword_static": "rampes de chargement statiques,",
-                "keyword_electric": "rampes de chargement électriques,",
-                "keyword_hydraulic": "rampes de chargement hydrauliques,",
-                "keyword_leveler": "rampes de chargement avec niveleur,",
-                "keyword_gas": "rampes de chargement à gaz,",
-                "keyword_truck": "rampes de chargement pour camions,",
-                "keyword_tonnes": "rampes de chargement capacité {tonnes} tonnes,",
-                "keyword_stock": "stock de plus de 500 rampes",
-                "keyword_buy_and_rent": "achat et location de rampes de chargement"
-            }
+                "type": {
+                    "standard": "Rampes d'accès mobiles standard,",
+                    "llo": "Rampes d'accès mobiles avec pont avancé électrique,",
+                    "xl": "Rampes d'accès mobiles extra larges,",
+                    "lloxl": "Rampes d'accès mobiles extra larges avec pont avancé électrique,"
+                },
+                "tonnes": "Capacité {tonnes} tonnes,",
+                "keyword_chain": "Grand stock de rampes d'accès, robustes rampes d'accès mobiles, aides au chargement mobiles, rampes d'accès industrielles, chargement et déchargement de camions et conteneurs",
+                "buy_and_rent": "Acheter et Louer des Rampes d'Accès"
+            },
+              "countries": {
+                "germany": "Allemagne",
+                "denmark": "Danemark",
+                "estonia": "Estonie",
+                "great-britain": "Grande-Bretagne",
+                "spain": "Espagne",
+                "finland": "Finlande",
+                "france": "France",
+                "italy": "Italie",
+                "luxembourg": "Luxembourg",
+                "netherlands": "Pays-Bas",
+                "norway": "Norvège",
+                "portugal": "Portugal",
+                "sweden": "Suède"
+              }
         },
         "product_list": {
             "keywords": "Opération de rampe, Manipulation des marchandises, Technologie de chargement et déchargement, Nivellement de quai, Convoyeur à rouleaux, Technologie de chargement, Transport de rampe",

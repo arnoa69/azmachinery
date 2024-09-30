@@ -2,28 +2,32 @@
     "meta": {
         "title": "AZ Machinery - Lavet i Frankrig",
         "product_detail_view": {
-            "title": {
-                "gas": "Gasdrevet",
-                "electric": "Elektrisk drevet",
-                "hydraulic": "Hydraulisk",
-                "leveler": "Integreret nivellering",
-                "static_ramp": "Statisk laderampe",
-                "mobile_ramp": "Mobil laderampe",
-                "platform_ramp": "Stationær ladepladform"
-            },
             "keywords": {
-                "keyword_mobile": "mobile laderamper,",
-                "keyword_platform": "ladepladforme,",
-                "keyword_static": "statiske laderamper,",
-                "keyword_electric": "elektriske laderamper,",
-                "keyword_hydraulic": "hydrauliske laderamper,",
-                "keyword_leveler": "laderamper med nivellering,",
-                "keyword_gas": "gasdrevne laderamper,",
-                "keyword_truck": "lastbil laderamper,",
-                "keyword_tonnes": "laderamper kapacitet {tonnes} tons,",
-                "keyword_stock": "lager over 500 ramper",
-                "keyword_buy_and_rent": "køb og udlejning af laderamper"
-            }
+                "type": {
+                    "standard": "Mobile standard læsseramper,",
+                    "llo": "Mobile læsseramper med elektrisk forskydningsbro,",
+                    "xl": "Ekstra store mobile læsseramper,",
+                    "lloxl": "Ekstra store mobile læsseramper med elektrisk forskydningsbro,"
+                },
+                "tonnes": "Bæreevne {tonnes} ton,",
+                "keyword_chain": "Grosser Lagerbestand an Verladerampenn, robuste mobile Laderampen, Mobile læssehjælpemidler, tilkørselsramper, industrielle læsseramper, last- og aflæsning af lastbiler og containere",
+                "buy_and_rent": "Kauf und Vermietung von Laderampen"
+            },
+              "countries": {
+                "germany": "Deutschland",
+                "denmark": "Danmark",
+                "estonia": "Eesti",
+                "great-britain": "Storbritannien",
+                "spain": "Spanien",
+                "finland": "Finland",
+                "france": "Frankrig",
+                "italy": "Italien",
+                "luxembourg": "Luxembourg",
+                "netherlands": "Holland",
+                "norway": "Norge",
+                "portugal": "Portugal",
+                "sweden": "Sverige"
+              }
         },
         "product_list": {
             "keywords": "Rampdrift, Varefremme, Lastning og losningsteknik, Dockleveler, Rullebane, Lastningsteknik, Rampfremdrift",

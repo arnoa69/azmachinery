@@ -5,8 +5,10 @@ import { ref, computed } from 'vue';
 import { usePage } from "@inertiajs/vue3";
 import { useI18n } from 'vue-i18n';
 import { getLocalizedCountry } from '@/utils/localizedSlugMixin';
+import { getProductImages } from '@/utils/imageUtil';
 
 const { t } = useI18n();
+
 
 //const product = ref([]);
 const canonicalUrl = ref('');
@@ -20,98 +22,83 @@ const articleTag2 = ref(t("meta.article:tag2"));
 const articleTag3 = ref(t("meta.article:tag3"));
 const articleTag4 = ref(t("meta.article:tag4"));
 
+
 const { props } = usePage();
-const product = ref(props.product); // Produkt von props erhalten
+const product = ref(props.product);
 
-// const productInfo = computed(() => {
-//     const info = [];
+/* reuse function for correct image path */
+const isGalvanized = (slug) => {
+    const galvanizedKeywords = ['gan', 'gal', 'gab', 'gap', 'gao'];
+    return galvanizedKeywords.some(keyword => slug.includes(keyword));
+};
+const { main: image, additional: [image_01, image_02, image_03, image_04] } = getProductImages(props.product.base_name, isGalvanized(props.product.slug));
+/* End image path function */
 
-//     const match = product.value.product_name.match(/AZ\s+[A-Z\s0-9-]+/);
-//     const brandName = match ? match[0] : '';
-//     const numberOnly = product.value.product_code.match(/\d+/g);
-//     info.push({ brand_name: brandName });
+const productInfo = computed(() => {
+    const info = [];
+    const weight_capacity = product.value.weight_capacity;
+    const version = product.value.version;
 
-//     let keywords;
-//     let operation;
-//     switch (product.value.operation) {
-//         case 'pps':
-//             operation = t('meta.product_detail_view.title.gas');
-//             keywords = t('meta.product_detail_view.keywords.keyword_gas');
-//             break;
-//         case 'hydraulic':
-//             operation = t('meta.product_detail_view.title.hydraulic');
-//             keywords = t('meta.product_detail_view.keywords.keyword_hydraulic');
-//             break;
-//         case 'leveler':
-//             operation = t('meta.product_detail_view.title.leveler');
-//             keywords = t('meta.product_detail_view.keywords.keyword_leveler');
-//             break;
-//         case 'electric':
-//             operation = t('meta.product_detail_view.title.electric');
-//             keywords = t('meta.product_detail_view.keywords.keyword_electric');
-//             break;
-//         default:
-//             operation = product.value.operation;
-//     }
+    let keywords;
 
-//     info.push({ operation })
+    let country = getLocalizedCountry();
+    info.push({ country })
 
-//     let type;
-//     switch (product.value.type) {
-//         case 'fix_ramp':
-//             type = t('meta.product_detail_view.title.static_ramp');
-//             keywords += t('meta.product_detail_view.keywords.keyword_static');
-//             break;
-//         case 'mobile_ramp':
-//             type = t('meta.product_detail_view.title.mobile_ramp');
-//             keywords += t('meta.product_detail_view.keywords.keyword_mobile');
-//             break;
-//         case 'platform':
-//             type = t('meta.product_detail_view.title.platform_ramp');
-//             keywords += t('meta.product_detail_view.keywords.keyword_platform');
-//             break;
-//         default:
-//             type = '';
-//     }
-//     info.push({ type });
+    keywords = country + ",";
+    keywords += t('meta.product_detail_view.keywords.tonnes', { tonnes: weight_capacity });
+    keywords += t('meta.product_detail_view.keywords.keyword_chain');
+    info.push({ dynamic_keywords: keywords })
 
-//     let country = getLocalizedCountry();
-//     info.push({ country })
-//     info.push({ product_code: product.value.product_code })
+    let operation;
 
-//     keywords += country + ",";
-//     keywords += t('meta.product_detail_view.keywords.keyword_tonnes', { tonnes: numberOnly[0] });
-//     keywords += brandName + ",";
-//     keywords += t('meta.product_detail_view.keywords.keyword_stock') + ",";
-//     keywords += t('meta.product_detail_view.keywords.keyword_buy_and_rent');
-//     info.push({ dynamic_keywords: keywords })
-//     info.push({ price: product.value.product_price })
+    switch (version) {
+        case 'standard':
+            operation = t('meta.product_detail_view.keywords.type.standard');
+            keywords = t('meta.product_detail_view.keywords.type.standard');
+            break;
+        case 'llo':
+            operation = t('meta.product_detail_view.keywords.type.llo');
+            keywords = t('meta.product_detail_view.keywords.type.llo');
+            break;
+        case 'xl':
+            operation = t('meta.product_detail_view.keywords.type.xl');
+            keywords = t('meta.product_detail_view.keywords.type.xl');
+            break;
+        case 'lloxl':
+            operation = t('meta.product_detail_view.keywords.type.lloxl');
+            keywords = t('meta.product_detail_view.keywords.type.lloxl');
+            break;
+        default:
+            operation = version;
+    }
 
-//     return info;
-// });
+    info.push({ operation })
+
+    info.push({ price: product.value.total_price })
+
+    return info;
+});
 </script>
 
 <template>
     <Head>
-<!--        <title> {{ productInfo[3].country }} {{ productInfo[0].brand_name }}
-            {{ productInfo[2].type }} {{ productInfo[1].operation }}
-        </title> -->
-        <link rel="canonical" :href="canonicalUrl" /> <!--
-        <meta name="keywords" :content="productInfo[5].dynamic_keywords" />
-        <meta name="description" :content="$t(`products.${productInfo[4].product_code}.layout1.product_description`)" />
+        <title> {{ productInfo[1].dynamic_keywords }} </title>
+        <link rel="canonical" :href="canonicalUrl" />
+        <meta name="keywords" :content="productInfo[1].dynamic_keywords" />
+        <meta name="description" :content="$t(`${product.slug}.product_description`)" />
         <meta property="og:url" :content="canonicalUrl" />
         <meta property="og:title"
-            :content="`${productInfo[3].country} ${productInfo[0].brand_name} ${productInfo[2].type} ${productInfo[1].operation}`" />
+            :content="`${productInfo[2].country} ${productInfo[0].brand_name} ${productInfo[2].type} ${productInfo[0].operation}`" />
         <meta property="og:description"
-            :content="$t(`products.${productInfo[4].product_code}.layout1.product_description`)" />
+            :content="$t(`${product.slug}.product_description`)" />
         <meta property="og:type" content="product" />
-        <meta property="og:image" :content="`${url}/img/products/small/${product.product_image}thumb.jpg`" />
+        <meta property="og:image" :content="`${url}${image}`" />
         <meta property="og:image:width" content="350" />
         <meta property="og:image:height" content="191" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:site_name" :content="ogSitename" />
         <meta property="og:locale" content="es_ES" />
-        <meta property="og:price:amount" :content="productInfo[6].price" />
+        <meta property="og:price:amount" :content="productInfo[3].price" />
         <meta property="og:price:currency" content="EUR" />
         <meta property="og:publish_date" content="2024-01-15T06:50:46+00:00" />
         <meta property="article:published_time" content="2024-01-15T06:50:46+00:00" />
@@ -125,14 +112,14 @@ const product = ref(props.product); // Produkt von props erhalten
         <meta property="article:publisher" content="https://www.facebook.com/azmachineryfrance/" />
         <meta property="twitter:url" :content="canonicalUrl" />
         <meta property="twitter:title"
-            :content="`${productInfo[3].country} ${productInfo[0].brand_name} ${productInfo[2].type} ${productInfo[1].operation}`" />
+            :content="`${productInfo[1].dynamic_keywords}`" />
         <meta property="twitter:description"
-            :content="$t(`products.${productInfo[4].product_code}.layout1.product_description`)" />
-        <meta property="twitter:image" :content="`${url}/img/products/small/${product.product_image}thumb.jpg`" />
+            :content="t(`${product.slug}.product_description`)" />
+        <meta property="twitter:image" :content="`${url}${image}`" />
         <meta property="twitter:domain" :content="url" />
         <meta property="twitter:card" content="Summary Card" />
         <meta property="twitter:creator" content="@arnoa69" />
-        <meta property="twitter:site" content="@JeromeGuiguet" />  -->
+        <meta property="twitter:site" content="@JeromeGuiguet" />
     </Head>
     <Layout :product="product" :isDetailView="true">
         <div>

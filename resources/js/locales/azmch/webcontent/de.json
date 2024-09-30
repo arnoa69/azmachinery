@@ -2,28 +2,32 @@
     "meta": {
         "title": "Mobile und statische Laderampen in Deutschland: Entdecken Sie unsere große Auswahl! Mehr als 500 sofort lieferbare qualitativen Laderampen verfügbar",
         "product_detail_view": {
-            "title": {
-                "gas": "Gas betrieben",
-                "electric": "Elektrisch betrieben",
-                "hydraulic": "Hydraulisch",
-                "leveler": "Integrierte Nivellierung",
-                "static_ramp": "Statische Ladefläche",
-                "mobile_ramp": "Mobile Ladefläche",
-                "platform_ramp": "Stationäre Ladefläche"
-            },
             "keywords": {
-                "keyword_mobile": "mobile Ladeflächen,",
-                "keyword_platform": "Ladeflächen,",
-                "keyword_static": "statische Ladeflächen,",
-                "keyword_electric": "elektrische Ladeflächen,",
-                "keyword_hydraulic": "hydraulische Ladeflächen,",
-                "keyword_leveler": "Ladeflächen mit Nivellierer,",
-                "keyword_gas": "gasbetriebene Ladeflächen,",
-                "keyword_truck": "Ladeflächen für LKW,",
-                "keyword_tonnes": "Ladeflächen mit einer Kapazität von {tonnes} Tonnen,",
-                "keyword_stock": "Lagerbestand von über 500 Ladeflächen",
-                "keyword_buy_and_rent": "Kauf und Vermietung von Ladeflächen"
+                "type": {
+                    "standard": "Mobile Standard Verladerampen,",
+                    "llo": "Mobile Verladerampen mit elektrischer Vorschubbrücke,",
+                    "xl": "Extra große mobile Verladerampen,",
+                    "lloxl": "Extra große mobile Verladerampen mit elektrischer Vorschubbrücke,"
+                },
+                "tonnes": "Tragfähigkeit {tonnes} Tonnen,",
+                "keyword_chain": "Grosser Lagerbestand an Verladerampenn, robuste mobile Laderampen, mobile Ladehilfen, Auffahrrampen, Industrieladerampen, LKW und Container Beladung Entladung",
+                "buy_and_rent": "Kauf und Vermietung von Laderampen"
             }
+        },
+        "countries": {
+            "germany": "Deutschland",
+            "denmark": "Dänemark",
+            "estonia": "Estland",
+            "great-britain": "Großbritannien",
+            "spain": "Spanien",
+            "finland": "Finnland",
+            "france": "Frankreich",
+            "italy": "Italien",
+            "luxembourg": "Luxemburg",
+            "netherlands": "Niederlande",
+            "norway": "Norwegen",
+            "portugal": "Portugal",
+            "sweden": "Schweden"
         },
         "product_list": {
             "keywords": "Rampenbetrieb,Warenförderung,Lade- und Entladetechnik,Dockleveler,Rollbahn,Verladetechnik,Rampenförderung",

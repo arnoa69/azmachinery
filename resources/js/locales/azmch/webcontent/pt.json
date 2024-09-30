@@ -2,29 +2,33 @@
     "meta": {
         "title": "AZ Machinery - Fabricado na França",
         "product_detail_view": {
-            "title": {
-                "gas": "Operado a gás",
-                "electric": "Operado a eletricidade",
-                "hydraulic": "Hidráulica",
-                "leveler": "Nivelamento integrado",
-                "static_ramp": "Rampa de carga estática",
-                "mobile_ramp": "Rampa de carga móvel",
-                "platform_ramp": "Plataforma de carga estacionária"
-            },
             "keywords": {
-                "keyword_mobile": "rampas de carga móveis,",
-                "keyword_platform": "plataformas de carga,",
-                "keyword_static": "rampas de carga estáticas,",
-                "keyword_electric": "rampas de carga elétricas,",
-                "keyword_hydraulic": "rampas de carga hidráulicas,",
-                "keyword_leveler": "rampas de carga com nivelador,",
-                "keyword_gas": "rampas de carga a gás,",
-                "keyword_truck": "rampas de carga para camiões,",
-                "keyword_tonnes": "rampas de carga capacidade {tonnes} toneladas,",
-                "keyword_stock": "estoque de mais de 500 rampas",
-                "keyword_buy_and_rent": "compra e aluguel de rampas de carga"
-            }
-        },
+                "type": {
+                    "standard": "Rampas de Carga Móveis Padrão,",
+                    "llo": "Rampas de Carga Móveis com Ponte Avançada Elétrica,",
+                    "xl": "Rampas de Carga Móveis Extra Grandes,",
+                    "lloxl": "Rampas de Carga Móveis Extra Grandes com Ponte Avançada Elétrica,"
+                },
+                "tonnes": "Capacidade {tonnes} toneladas,",
+                "keyword_chain": "Grande estoque de rampas de carga, robustas rampas de carga móveis, auxílios móveis de carga, rampas de carga industriais, carga e descarga de caminhões e contêineres",
+                "buy_and_rent": "Compre e Alugue Rampas de Carga"
+            },
+              "countries": {
+                "germany": "Alemanha",
+                "denmark": "Dinamarca",
+                "estonia": "Estónia",
+                "great-britain": "Reino Unido",
+                "spain": "Espanha",
+                "finland": "Finlândia",
+                "france": "França",
+                "italy": "Itália",
+                "luxembourg": "Luxemburgo",
+                "netherlands": "Países Baixos",
+                "norway": "Noruega",
+                "portugal": "Portugal",
+                "sweden": "Suécia"
+              }
+            },
         "product_list": {
             "keywords": "Operações de rampa, Manuseio de carga, Sistema de carga, Controle de altura da plataforma, Carrinho de rolos, Sistema de carga, Transporte de rampa",
             "description": "Soluções eficazes para transportar cargas pesadas para níveis mais altos. Descubra diferentes tipos de rampas de carga e métodos de transporte.",
