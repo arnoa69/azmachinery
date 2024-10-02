@@ -78,7 +78,7 @@ const productInfo = computed(() => {
 
     return info;
 });
-console.log(productInfo)
+
 </script>
 
 <template>
