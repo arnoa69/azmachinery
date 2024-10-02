@@ -2,6 +2,9 @@
     "meta": {
         "title": "AZ Machinery - Valmistatud Prantsusmaal",
         "product_detail_view": {
+            "title": {
+                "01": "Mobiilsed laadimisrampid - { tonnes }t koormamääraga valikutega - Eksklusiivne tootja {country} jaoks"
+            },
             "keywords": {
                 "type": {
                     "standard": "Mobile standard laadimisrambid,",
@@ -13,8 +16,11 @@
                 "keyword_chain": "Suur laadimisrambid laager, robustsed mobiilsed laaditerminalid, auffahrrammud, industriaalne laadimisrambid, LKW ja kontaineri laadimine ja laadimine",
                 "buy_and_rent": "Osta ja kasuta laaditerminali"
             },
-              "countries": {
-                "germany": "Deutschland",
+            "countries": {
+                "whole-world": "Teedne maailm",
+                "belgium": "Belgia",
+                "switzerland": "Šveits",
+                "germany": "Saksamaa",
                 "denmark": "Danmark",
                 "estonia": "Eesti",
                 "great-britain": "Suurbritannia",
@@ -27,7 +33,7 @@
                 "norway": "Norra",
                 "portugal": "Portugal",
                 "sweden": "Rootsi"
-              }
+            }
         },
         "product_list": {
             "keywords": "Rammiliik, tootmootor, lasti ja laetmise tehnoloogia, dokkivõlli, rataste, tootmootor, rammiliik",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Kompaktse lahendused: Lühikesed ramgid efektiivseks ligipääsuks",
         "h3": "Parandage juurdepääs meie kestvate kõnniteeramplitega",
-"p": {
-    "1": "Meie mobiilsed rampeed, sealhulgas mudelid HCRN-06, HCRN-065, HCRN-08 ja HCRY-08, on disainitud konteinerite laadimise ja mahalaadimise lihtsustamiseks ning võimaldavad käsitleda forklifte kuni 6,0 tonni kapatsiteediga.",
-    "2": "Meie rampeed on varustatud sisseehitatud forklift taskutega, mis võimaldavad kiiret ja vaevatut ümberpaigutamist määratud laadimisaladele. Kahe turvavööga on kinnitatud konteinerisse, et tagada rampe stabiilsus ja turvalisus. Meie lühikesed rampeed ületavad konteineri ja põranda vahelise lünka ning pakuvad turvalise ja usaldusväärselt juurdepääsu forkliftidele ja paletivankritele."
-}
+        "p": {
+            "1": "Meie mobiilsed rampeed, sealhulgas mudelid HCRN-06, HCRN-065, HCRN-08 ja HCRY-08, on disainitud konteinerite laadimise ja mahalaadimise lihtsustamiseks ning võimaldavad käsitleda forklifte kuni 6,0 tonni kapatsiteediga.",
+            "2": "Meie rampeed on varustatud sisseehitatud forklift taskutega, mis võimaldavad kiiret ja vaevatut ümberpaigutamist määratud laadimisaladele. Kahe turvavööga on kinnitatud konteinerisse, et tagada rampe stabiilsus ja turvalisus. Meie lühikesed rampeed ületavad konteineri ja põranda vahelise lünka ning pakuvad turvalise ja usaldusväärselt juurdepääsu forkliftidele ja paletivankritele."
+        }
     },
     "tabs": {
         "stock": {

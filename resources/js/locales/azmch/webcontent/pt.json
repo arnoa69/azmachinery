@@ -2,6 +2,9 @@
     "meta": {
         "title": "AZ Machinery - Fabricado na França",
         "product_detail_view": {
+            "title": {
+                "01": "Rampas de Carregamento Móveis - Capacidade de carga de { tonnes }t com opções - Produtor exclusivo para {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Rampas de Carga Móveis Padrão,",
@@ -13,7 +16,10 @@
                 "keyword_chain": "Grande estoque de rampas de carga, robustas rampas de carga móveis, auxílios móveis de carga, rampas de carga industriais, carga e descarga de caminhões e contêineres",
                 "buy_and_rent": "Compre e Alugue Rampas de Carga"
             },
-              "countries": {
+            "countries": {
+                "whole-world": "Mundo todo",
+                "belgium": "Bélgica",
+                "switzerland": "Suíça",
                 "germany": "Alemanha",
                 "denmark": "Dinamarca",
                 "estonia": "Estónia",
@@ -27,8 +33,8 @@
                 "norway": "Noruega",
                 "portugal": "Portugal",
                 "sweden": "Suécia"
-              }
-            },
+            }
+        },
         "product_list": {
             "keywords": "Operações de rampa, Manuseio de carga, Sistema de carga, Controle de altura da plataforma, Carrinho de rolos, Sistema de carga, Transporte de rampa",
             "description": "Soluções eficazes para transportar cargas pesadas para níveis mais altos. Descubra diferentes tipos de rampas de carga e métodos de transporte.",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Soluções Compactas: Rampas Curtas para acesso a contêineres",
         "h3": "Melhore a Acessibilidade com nossas Rampas Curtas",
-"p": {
-    "1": "Nossas rampas de estacionamento móvel, incluindo o HCRN-06, HCRN-065, HCRN-08 e HCRY-08, foram projetadas para simplificar o carregamento e descarregamento de contêineres, adequadas para elevadores com capacidade de até 6.0 toneladas.",
-    "2": "Equipados com bolsas de carregamento incorporadas, nossas rampas de estacionamento móvel facilitam a movimentação rápida e sem esforço do contêiner para áreas de carga designadas. Duas correntes fixas estão presas ao contêiner para garantir a estabilidade e a segurança da rampa. Nossas rampas curtas conectam o contêiner ao chão, fornecendo um ponto de acesso seguro e confiável para elevadores e elevadores de paletes."
-}
+        "p": {
+            "1": "Nossas rampas de estacionamento móvel, incluindo o HCRN-06, HCRN-065, HCRN-08 e HCRY-08, foram projetadas para simplificar o carregamento e descarregamento de contêineres, adequadas para elevadores com capacidade de até 6.0 toneladas.",
+            "2": "Equipados com bolsas de carregamento incorporadas, nossas rampas de estacionamento móvel facilitam a movimentação rápida e sem esforço do contêiner para áreas de carga designadas. Duas correntes fixas estão presas ao contêiner para garantir a estabilidade e a segurança da rampa. Nossas rampas curtas conectam o contêiner ao chão, fornecendo um ponto de acesso seguro e confiável para elevadores e elevadores de paletes."
+        }
     },
     "tabs": {
         "stock": {

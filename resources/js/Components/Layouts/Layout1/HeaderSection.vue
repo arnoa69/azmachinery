@@ -1,8 +1,11 @@
 <script setup>
 import LanguageSwitcher from '@/Components/LanguageSwitcher.vue';
 import { useI18n } from 'vue-i18n';
+import { getCountryName } from '@/utils/localizedSlugMixin';
 
 const { locale } = useI18n();
+
+const country = getCountryName();
 </script>
 
 <template>
@@ -11,7 +14,7 @@ const { locale } = useI18n();
 
       <div class="logo d-flex align-items-center">
         <a  href="/"><img src="../../../../../public/img/az-machinery-logo.png" alt="" class="img-fluid"></a>
-        <h1 class="sitename">AZ Machinery</h1>
+        <h1 class="sitename">AZ Machinery {{ country }}</h1>
       </div>
       <nav id="navmenu" class="navmenu">
         <ul>

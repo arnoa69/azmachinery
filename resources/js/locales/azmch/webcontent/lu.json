@@ -2,6 +2,9 @@
     "meta": {
         "title": "AZ Machinery - Hergestallt an Frankräich",
         "product_detail_view": {
+            "title": {
+                "01": "Mobil Luedrampen - { tonnes }t Tragkraft mat Optiounen - Exklusiven Hersteller fir {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Mobil Standards Verlaadrampe,",
@@ -13,8 +16,11 @@
                 "keyword_chain": "Grouss Lager vun Verlaadrampen, robust Mobile Verlaadrampen, mobile Verlaadhëllefen, industrielle Verlaadrampen, LKW an Container Verlaad a Entlaad",
                 "buy_and_rent": "Kafen a Mieten Verlaadrampen"
             },
-              "countries": {
-                "germany": "Deutschland",
+            "countries": {
+                "whole-world": "Ganst Welt",
+                "belgium": "Belgien",
+                "switzerland": "Schwäiz",
+                "germany": "Däitschland",
                 "denmark": "Dänemark",
                 "estonia": "Estland",
                 "great-britain": "Grossbritannien",
@@ -27,7 +33,7 @@
                 "norway": "Norwegen",
                 "portugal": "Portugal",
                 "sweden": "Schweden"
-              }
+            }
         },
         "product_list": {
             "keywords": "Rampenoperatiounen, Frachthandling, Lassystem, Plattformhéichtebedéngung, Rollstuhlwunn, Lassystem, Rampentransport",
@@ -121,7 +127,7 @@
         "close-button": "Esci"
     },
     "about": {
-         "h1": "De Wee weisen: Den gréissten Hersteller vu mobilen Rampen an Europa, dee den Accès iwwerall méiglech mécht",
+        "h1": "De Wee weisen: Den gréissten Hersteller vu mobilen Rampen an Europa, dee den Accès iwwerall méiglech mécht",
         "h3": "Europas Rampe fir Effizienz",
         "p": {
             "1": "Duerch d'Kombinatioun vu moderner Technologie mat strenger Tester an opmierksamer Clientënstëtzung hunn mir e Referenzpunkt fir Zouverlässegkeet, Sécherheet a Leistung festgeluecht",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Kompakt Léisungen: Kuerz Rampen fir en zougang zu Container",
         "h3": "Verbessert d'Accessibilitéit mat eiseren duerchhaltegen Bordrampen",
-"p": {
-    "1": "Eis mobil Rampe, an där d'Modeller HCRN-06, HCRN-065, HCRN-08 an HCRY-08, si fir d'Beluede vu Containere vereinfachen an d'Gestioun vu Gabelstapler bis zu 6,0 Tonne méiglech maachen.",
-    "2": "Eis Rampe si mat agebauten Gabeltaschen ekipéiert, déi eng séier an ouni Méi Verlagerung an d'virgesinn Luedegebidder erméiglechen. Zwei Sécherheetsketten si um Container gefest, fir d'Stabilitéit an d'Sécherheet vun der Rampe ze garantéieren. Eis kuerz Rampe iwwerbrécken d'Lück tëscht Container an Buedem an bidden en séchere an zeverléissegen Zougang fir Gabelstapler an Palettenhiewer."
-}
+        "p": {
+            "1": "Eis mobil Rampe, an där d'Modeller HCRN-06, HCRN-065, HCRN-08 an HCRY-08, si fir d'Beluede vu Containere vereinfachen an d'Gestioun vu Gabelstapler bis zu 6,0 Tonne méiglech maachen.",
+            "2": "Eis Rampe si mat agebauten Gabeltaschen ekipéiert, déi eng séier an ouni Méi Verlagerung an d'virgesinn Luedegebidder erméiglechen. Zwei Sécherheetsketten si um Container gefest, fir d'Stabilitéit an d'Sécherheet vun der Rampe ze garantéieren. Eis kuerz Rampe iwwerbrécken d'Lück tëscht Container an Buedem an bidden en séchere an zeverléissegen Zougang fir Gabelstapler an Palettenhiewer."
+        }
     },
     "tabs": {
         "stock": {

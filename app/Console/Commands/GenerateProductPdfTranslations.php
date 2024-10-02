@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
@@ -8,7 +7,7 @@ use Illuminate\Support\Facades\File;
 class GenerateProductPdfTranslations extends Command
 {
     protected $signature = 'generate:product-pdf-translations';
-    protected $description = 'Kopiere Produktbeschreibungen aus JSON-Dateien in die product.php Dateien für Übersetzungen';
+    protected $description = 'Kopiere Produktbeschreibungen aus JSON-Dateien in die productDescription.php Dateien für Übersetzungen';
 
     public function handle()
     {
@@ -21,7 +20,7 @@ class GenerateProductPdfTranslations extends Command
         // Iteriere über jede Sprache
         foreach ($languages as $language) {
             $jsonFilePath = "{$jsonBasePath}/{$language}.json";
-            $phpFilePath = base_path("lang/{$language}/product.php"); // Pfad zu product.php
+            $phpFilePath = base_path("lang/{$language}/productDescription.php"); // Pfad zu productDescription.php
 
             // Überprüfen, ob die JSON-Datei existiert
             if (!File::exists($jsonFilePath)) {
@@ -31,7 +30,6 @@ class GenerateProductPdfTranslations extends Command
 
             // JSON-Daten laden
             $jsonData = json_decode(File::get($jsonFilePath), true);
-
             // PHP-Datei laden oder erstellen
             $phpData = [];
             if (File::exists($phpFilePath)) {
@@ -53,11 +51,8 @@ class GenerateProductPdfTranslations extends Command
 
     private function savePhpFile($filePath, $data)
     {
-        // Lade den bestehenden Inhalt der PHP-Datei
-        $existingContent = File::get($filePath);
-
-        // Erstelle ein Array aus dem bestehenden Inhalt
-        $existingData = include $filePath;
+        // Lade den bestehenden Inhalt der PHP-Datei, wenn sie existiert
+        $existingData = File::exists($filePath) ? include $filePath : [];
 
         // Füge die neuen Produktbeschreibungen hinzu
         foreach ($data as $key => $value) {
@@ -66,7 +61,6 @@ class GenerateProductPdfTranslations extends Command
 
         // Erstelle den neuen Inhalt der PHP-Datei
         $content = "<?php\n\nreturn [\n";
-
         // Füge die bestehenden Daten hinzu
         foreach ($existingData as $key => $value) {
             // Überprüfe, ob es sich um ein Array handelt
@@ -76,7 +70,6 @@ class GenerateProductPdfTranslations extends Command
                 $content .= "    '{$key}' => '{$value}',\n";
             }
         }
-
         // Schließe das Array
         $content .= "];\n";
 

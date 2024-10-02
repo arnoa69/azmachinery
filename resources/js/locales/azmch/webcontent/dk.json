@@ -2,6 +2,9 @@
     "meta": {
         "title": "AZ Machinery - Lavet i Frankrig",
         "product_detail_view": {
+            "title": {
+                "01": "Mobile ramper - { tonnes }t vægtkapacitet med muligheder - Eksklusiv producent for {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Mobile standard læsseramper,",
@@ -13,8 +16,11 @@
                 "keyword_chain": "Grosser Lagerbestand an Verladerampenn, robuste mobile Laderampen, Mobile læssehjælpemidler, tilkørselsramper, industrielle læsseramper, last- og aflæsning af lastbiler og containere",
                 "buy_and_rent": "Kauf und Vermietung von Laderampen"
             },
-              "countries": {
-                "germany": "Deutschland",
+            "countries": {
+                "whole-world": "Wholeverden",
+                "belgium": "Belgien",
+                "switzerland": "Schweiz",
+                "germany": "Tyskland",
                 "denmark": "Danmark",
                 "estonia": "Eesti",
                 "great-britain": "Storbritannien",
@@ -27,7 +33,7 @@
                 "norway": "Norge",
                 "portugal": "Portugal",
                 "sweden": "Sverige"
-              }
+            }
         },
         "product_list": {
             "keywords": "Rampdrift, Varefremme, Lastning og losningsteknik, Dockleveler, Rullebane, Lastningsteknik, Rampfremdrift",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Kompakte løsninger: Korte ramper til effektiv adgang",
         "h3": "Forbedr tilgængeligheden med vores holdbare containeradgangsrampe",
-"p": {
-    "1": "Vores mobile ramper, herunder modellerne HCRN-06, HCRN-065, HCRN-08 og HCRY-08, er designet til at lette lastning og losning af containere og kan håndtere gaffeltrucke med en kapacitet på op til 6,0 tons.",
-    "2": "Vores ramper er udstyret med indbyggede gaffeltasker, der gør det muligt at flytte dem hurtigt og uden besvær til de foreskrevne lastningsområder. To sikringskæder er fastgjort til containeren for at sikre rampens stabilitet og sikkerhed. Vores korte ramper dækker afstanden mellem container og jord og giver en sikker og pålidelig adgangsvej for gaffeltrucke og palettevogne."
-}
+        "p": {
+            "1": "Vores mobile ramper, herunder modellerne HCRN-06, HCRN-065, HCRN-08 og HCRY-08, er designet til at lette lastning og losning af containere og kan håndtere gaffeltrucke med en kapacitet på op til 6,0 tons.",
+            "2": "Vores ramper er udstyret med indbyggede gaffeltasker, der gør det muligt at flytte dem hurtigt og uden besvær til de foreskrevne lastningsområder. To sikringskæder er fastgjort til containeren for at sikre rampens stabilitet og sikkerhed. Vores korte ramper dækker afstanden mellem container og jord og giver en sikker og pålidelig adgangsvej for gaffeltrucke og palettevogne."
+        }
     },
     "tabs": {
         "stock": {

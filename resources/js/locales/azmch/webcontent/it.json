@@ -2,6 +2,9 @@
     "meta": {
         "title": "AZ Machinery - Fabbricato in Francia",
         "product_detail_view": {
+            "title": {
+                "01": "Rampe di carico mobili - Capacità di carico di { tonnes }t con opzioni - Produttore esclusivo per {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Rampe di carico mobili standard,",
@@ -13,7 +16,10 @@
                 "keyword_chain": "Ampia scorta di rampe di carico, robuste rampe di carico mobili, ausili per il carico mobili, rampe di carico industriali, carico e scarico di camion e container",
                 "buy_and_rent": "Acquista e Noleggia Rampe di Carico"
             },
-              "countries": {
+            "countries": {
+                "whole-world": "Mondo intero",
+                "belgium": "Belgio",
+                "switzerland": "Svizzera",
                 "germany": "Germania",
                 "denmark": "Danimarca",
                 "estonia": "Estonia",
@@ -27,7 +33,7 @@
                 "norway": "Norvegia",
                 "portugal": "Portogallo",
                 "sweden": "Svezia"
-              }
+            }
         },
         "product_list": {
             "keywords": "Operazione di rampa, Movimentazione delle merci, Tecnologia di carico e scarico, Livellatore di banchina, Trasportatore a rulli, Tecnologia di carico, Trasporto di rampe",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Soluzioni Compacte: Rampe Corte per unaccesso ai contenitori",
         "h3": "Migliora l'Accessibilità con le Nostre Rampe corte Durevoli",
-"p": {
-    "1": "Le nostre rampe mobili, tra cui i modelli HCRN-06, HCRN-065, HCRN-08 e HCRY-08, sono progettate per semplificare il carico e lo scarico dei container, consentendo la gestione di carrelli elevatori con capacità fino a 6,0 tonnellate.",
-    "2": "Le nostre rampe sono dotate di tasche per forche integrate, che consentono un rapido e facile spostamento verso le aree di carico designate. Due catene di sicurezza sono fissate al container per garantire la stabilità e la sicurezza della rampa. Le nostre rampe corte coprono lo spazio tra il container e il suolo, offrendo un punto di accesso sicuro e affidabile per i carrelli elevatori e i carrelli per palette."
-}
+        "p": {
+            "1": "Le nostre rampe mobili, tra cui i modelli HCRN-06, HCRN-065, HCRN-08 e HCRY-08, sono progettate per semplificare il carico e lo scarico dei container, consentendo la gestione di carrelli elevatori con capacità fino a 6,0 tonnellate.",
+            "2": "Le nostre rampe sono dotate di tasche per forche integrate, che consentono un rapido e facile spostamento verso le aree di carico designate. Due catene di sicurezza sono fissate al container per garantire la stabilità e la sicurezza della rampa. Le nostre rampe corte coprono lo spazio tra il container e il suolo, offrendo un punto di accesso sicuro e affidabile per i carrelli elevatori e i carrelli per palette."
+        }
     },
     "tabs": {
         "stock": {

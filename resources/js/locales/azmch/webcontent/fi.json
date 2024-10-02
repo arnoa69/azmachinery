@@ -2,18 +2,24 @@
     "meta": {
         "title": "AZ Machinery - Tehty Ranssassa",
         "product_detail_view": {
+            "title": {
+                "01": "Mobiililatausrampit - { tonnes }t kantavuusvaihtoehtojen kanssa - Erityistuottaja maalle {country}"
+            },
             "keywords": {
                 "type": {
-                  "standard": "Mobiilistandardi lastausrampit,",
-                  "llo": "Sähköisellä syöttösillalla varustetut mobiililatausrampit,",
-                  "xl": "Erittäin suuret mobiililatausrampit,",
-                  "lloxl": "Erittäin suuret siirrettävät lastausrampit sähköisellä syöttösillalla,"
+                    "standard": "Mobiilistandardi lastausrampit,",
+                    "llo": "Sähköisellä syöttösillalla varustetut mobiililatausrampit,",
+                    "xl": "Erittäin suuret mobiililatausrampit,",
+                    "lloxl": "Erittäin suuret siirrettävät lastausrampit sähköisellä syöttösillalla,"
                 },
                 "tonnes": "Kuormituskapasiteetti {tonnes} tonnia,",
                 "keyword_chain": "Laaja valikoima lastausrampeja, kestävät liikkuvat lastausrampit, liikkuvat lastausratkaisut, teollisuuslastausrampit, kuorma-autojen ja konttien lastaus ja purkaminen",
                 "buy_and_rent": "Lastausrampien ostaminen ja vuokraaminen"
-              },
-              "countries": {
+            },
+            "countries": {
+                "whole-world": "Koko maailma",
+                "belgium": "Belgia",
+                "switzerland": "Sveitsi",
                 "germany": "Saksa",
                 "denmark": "Tanska",
                 "estonia": "Eesti",
@@ -27,7 +33,7 @@
                 "norway": "Norja",
                 "portugal": "Portugali",
                 "sweden": "Ruotsi"
-              }
+            }
         },
         "product_list": {
             "keywords": "Rampin toiminta, lähetystehoitus, lähetyksen ja päästön teknologia, ketjunpäällyste, rulla-ohjaus, lähetyksen teknologia, rampin siirto",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Kompaktit ratkaisut: Lyhyet ramppit tehokkaaseen pääsyyn",
         "h3": "Paranna esteettömyys kestävillä kulkureunusrampeillamme",
-"p": {
-    "1": "Meidän liikkuva ramppimme, mukaan lukien mallit HCRN-06, HCRN-065, HCRN-08 ja HCRY-08, on suunniteltu helpottamaan konttien lastausta ja purkamista ja ne sopivat trukkeille, joiden kapasiteetti on enintään 6,0 tonnia.",
-    "2": "Meidän ramppimme on varustettu sisäänrakennetuilla trukkien taskuilla, jotka mahdollistavat nopean ja vaivattoman siirtämisen määrätyille lastausalueille. Kaksi turvavöitä on kiinnitetty konttiin, jotta ramppien vakaus ja turvallisuus voidaan taata. Meidän lyhyet ramppimme peittävät kontin ja maan välisen aukon ja tarjoavat turvallisen ja luotettavan pääsyn trukkeille ja palettien kuljettimille."
-}
+        "p": {
+            "1": "Meidän liikkuva ramppimme, mukaan lukien mallit HCRN-06, HCRN-065, HCRN-08 ja HCRY-08, on suunniteltu helpottamaan konttien lastausta ja purkamista ja ne sopivat trukkeille, joiden kapasiteetti on enintään 6,0 tonnia.",
+            "2": "Meidän ramppimme on varustettu sisäänrakennetuilla trukkien taskuilla, jotka mahdollistavat nopean ja vaivattoman siirtämisen määrätyille lastausalueille. Kaksi turvavöitä on kiinnitetty konttiin, jotta ramppien vakaus ja turvallisuus voidaan taata. Meidän lyhyet ramppimme peittävät kontin ja maan välisen aukon ja tarjoavat turvallisen ja luotettavan pääsyn trukkeille ja palettien kuljettimille."
+        }
     },
     "tabs": {
         "stock": {

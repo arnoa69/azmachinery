@@ -2,6 +2,9 @@
     "meta": {
         "title": "AZ Machinery - Gemaakt in Frankrijk",
         "product_detail_view": {
+            "title": {
+                "01": "Mobiele laadrampen - { tonnes }t draagvermogen met opties - Exclusieve producent voor {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Mobiele Standaard Laadhellingen,",
@@ -13,7 +16,10 @@
                 "keyword_chain": "Grote voorraad laadhellingen, robuuste mobiele laadhellingen, mobiele laadhulp, industriële laadhellingen, vrachtwagen en container laden en lossen",
                 "buy_and_rent": "Koop en Huur Laadhellingen"
             },
-              "countries": {
+            "countries": {
+                "whole-world": "Volledige wereld",
+                "belgium": "België",
+                "switzerland": "Sveits",
                 "germany": "Duitsland",
                 "denmark": "Denemarken",
                 "estonia": "Estland",
@@ -27,7 +33,7 @@
                 "norway": "Noorwegen",
                 "portugal": "Portugal",
                 "sweden": "Zweden"
-              }
+            }
         },
         "product_list": {
             "keywords": "Rampenbeheer, Goederenverplaatsing, Ladingsysteem, Platformhoogtebediening, Rulprullenwagen, Ladingsysteem, Rampentransport",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Compacte Oplossingen: Korte Ramps voor Efficiënt toegang tot containers",
         "h3": "Verbeter de Toegankelijkheid met onze korte ramps",
-"p": {
-    "1": "Ons mobiel yard ramps, inclusief de HCRN-06, HCRN-065, HCRN-08 en HCRY-08 modellen, zijn ontworpen om de in- en uitlaad van containers te vergemakkelijken, geschikt voor vorkwagens met een capaciteit van maximaal 6.0 ton.",
-    "2": "Uitgerust met ingebouwde fork-pockets, onze yard ramps stellen het verplaatsen van de container naar aangewezen laadgebieden in een handomgeving. Twee vastgemaakte kettingen zijn bevestigd aan de container om de stabiliteit en veiligheid van de ramp te waarborgen. Onze korte ramps brengen het gat tussen de container en de grond, bieden een veilige en betrouwbare toegangspunt voor vorkwagens en palletjacks."
-}
+        "p": {
+            "1": "Ons mobiel yard ramps, inclusief de HCRN-06, HCRN-065, HCRN-08 en HCRY-08 modellen, zijn ontworpen om de in- en uitlaad van containers te vergemakkelijken, geschikt voor vorkwagens met een capaciteit van maximaal 6.0 ton.",
+            "2": "Uitgerust met ingebouwde fork-pockets, onze yard ramps stellen het verplaatsen van de container naar aangewezen laadgebieden in een handomgeving. Twee vastgemaakte kettingen zijn bevestigd aan de container om de stabiliteit en veiligheid van de ramp te waarborgen. Onze korte ramps brengen het gat tussen de container en de grond, bieden een veilige en betrouwbare toegangspunt voor vorkwagens en palletjacks."
+        }
     },
     "tabs": {
         "stock": {

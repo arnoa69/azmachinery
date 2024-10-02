@@ -2,6 +2,9 @@
     "meta": {
         "title": "Amplia selección! Más de 500 rampas de carga entregables ya!",
         "product_detail_view": {
+            "title": {
+                "01": "Rampas de carga móviles - Capacidad de carga de { tonnes }t con opciones - Productor exclusivo para {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Rampas de carga móviles estándar,",
@@ -13,8 +16,11 @@
                 "keyword_chain": "Gran inventario de Rampas de carga, robustos muelles de carga móviles, asistencia de carga móvil, Rampas de carga industrial, carga y descarga de camiones y contenedores",
                 "buy_and_rent": "Compra y alquiler de muelles de carga"
             },
-              "countries": {
-                "germany": "Deutschland",
+            "countries": {
+                "whole-world": "Mundo entero",
+                "belgium": "Bélgica",
+                "switzerland": "Suiza",
+                "germany": "Alemania",
                 "denmark": "Danmark",
                 "estonia": "Eesti",
                 "great-britain": "Gran Bretaña",
@@ -27,7 +33,7 @@
                 "norway": "Noruega",
                 "portugal": "Portugal",
                 "sweden": "Suecia"
-              }
+            }
         },
         "product_list": {
             "keywords": "Operación de rampas, manejo de cargas, tecnología de carga y descarga, nivelador de muelles, rampa de rodillos, tecnología de carga, transporte de rampas",
@@ -135,10 +141,10 @@
     "shortRamps": {
         "h1": "Soluciones compactas: Rampas cortas para acceso acceso a contenedores",
         "h3": "Mejore la accesibilidad con nuestras rampas de bordillo duraderas",
-"p": {
-    "1": "Nuestras rampas móviles, incluyendo los modelos HCRN-06, HCRN-065, HCRN-08 y HCRY-08, están diseñadas para agilizar la carga y descarga de contenedores, permitiendo el manejo de carretillas elevadoras con capacidades de hasta 6,0 toneladas.",
-    "2": "Nuestras rampas están equipadas con bolsillos para horquillas integradas, lo que permite una reubicación rápida y sin esfuerzo en las áreas de carga designadas. Dos cadenas de seguridad están sujetas al contenedor para garantizar la estabilidad y seguridad de la rampa. Nuestras rampas cortas cubren el espacio entre el contenedor y el suelo, proporcionando un punto de acceso seguro y confiable para carretillas elevadoras y carros de paletas."
-}
+        "p": {
+            "1": "Nuestras rampas móviles, incluyendo los modelos HCRN-06, HCRN-065, HCRN-08 y HCRY-08, están diseñadas para agilizar la carga y descarga de contenedores, permitiendo el manejo de carretillas elevadoras con capacidades de hasta 6,0 toneladas.",
+            "2": "Nuestras rampas están equipadas con bolsillos para horquillas integradas, lo que permite una reubicación rápida y sin esfuerzo en las áreas de carga designadas. Dos cadenas de seguridad están sujetas al contenedor para garantizar la estabilidad y seguridad de la rampa. Nuestras rampas cortas cubren el espacio entre el contenedor y el suelo, proporcionando un punto de acceso seguro y confiable para carretillas elevadoras y carros de paletas."
+        }
     },
     "tabs": {
         "stock": {
@@ -528,7 +534,7 @@
                 "aerospace": "Aeronáutica",
                 "automotive": "Automotriz",
                 "chemicalIndustry": "Industria química"
-              }
+            }
         },
         "weight_capacity": "Capacidad estática { tonnes } T",
         "total_length": "Longitud máxima: { total_length } mm",

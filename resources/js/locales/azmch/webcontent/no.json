@@ -2,6 +2,9 @@
     "meta": {
         "title": "AZ Machinery - Laget i Frankrike",
         "product_detail_view": {
+            "title": {
+                "01": "Mobile lasteramper - { tonnes }t kapasitet med alternativer - Eksklusiv produsent for {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Mobil Standard Lastingramper,",
@@ -13,7 +16,10 @@
                 "keyword_chain": "Stor lagerbeholdning av lastingramper, robuste mobile lastingramper, mobile lastehjelpemidler, industrielle lastingramper, last og losse lastbiler og containere",
                 "buy_and_rent": "Kjøp og Leie Lastingramper"
             },
-              "countries": {
+            "countries": {
+                "whole-world": "Helvete verden",
+                "belgium": "Belgien",
+                "switzerland": "Sveits",
                 "germany": "Tyskland",
                 "denmark": "Danmark",
                 "estonia": "Estland",
@@ -27,8 +33,8 @@
                 "norway": "Norge",
                 "portugal": "Portugal",
                 "sweden": "Sverige"
-              }
-            },
+            }
+        },
         "product_list": {
             "keywords": "Rampeoperasjoner, Godsbehandling, Lastsystem, Platformhøydebetjening, Rulrullestol, Lastsystem, Rampeoverføring",
             "description": "Effektive løsninger for å flytte tungt gods til høyere nivåer. Finn ut forskjellige typer lastramper og transportmetoder.",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Kompakte Løsninger: Korte Ramper for effektiv tilgang til containere",
         "h3": "Forbedre Tilgjengeligheten med våre Holdbare korte ramper",
-"p": {
-    "1": "Våre mobil yard ramper, inkludert HCRN-06, HCRN-065, HCRN-08 og HCRY-08 modellene, er utviklet for å forenkle lasting og lossing av containere, og er egnet for stålkraner med lastkapasitet opptil 6.0 tonner.",
-    "2": "Utstyrt med innebygde forkpocher, er våre yard ramper enkle å flytte containere til bestemte lastområder. To fastgjorte kjede er koblet til containeren for å sikre rampens stabilitet og sikkerhet. Våre korte ramper fyller gapet mellom containeren og jorden, gir en trygg og pålitelig tilgangspunkt for stålkraner og palletjaks."
-}
+        "p": {
+            "1": "Våre mobil yard ramper, inkludert HCRN-06, HCRN-065, HCRN-08 og HCRY-08 modellene, er utviklet for å forenkle lasting og lossing av containere, og er egnet for stålkraner med lastkapasitet opptil 6.0 tonner.",
+            "2": "Utstyrt med innebygde forkpocher, er våre yard ramper enkle å flytte containere til bestemte lastområder. To fastgjorte kjede er koblet til containeren for å sikre rampens stabilitet og sikkerhet. Våre korte ramper fyller gapet mellom containeren og jorden, gir en trygg og pålitelig tilgangspunkt for stålkraner og palletjaks."
+        }
     },
     "tabs": {
         "stock": {

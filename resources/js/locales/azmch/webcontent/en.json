@@ -2,19 +2,25 @@
     "meta": {
         "title": "Mobile and static loading ramps in Europe: Discover Our Wide Selection! More than 500 immediately available high-quality loading ramps available",
         "product_detail_view": {
+            "title": {
+                "01": "Mobile Loading Ramps - { tonnes }t weight capacity with options - Excluive Producer for {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Mobile Standard Loading Ramps,",
-                    "llo": "Mobile Loading Ramps with Electric Advance Bridge,",
+                    "llo": "Mobile Loading Ramps with large plane bridge,",
                     "xl": "Extra Large Mobile Loading Ramps,",
-                    "lloxl": "Extra Large Mobile Loading Ramps with Electric Advance Bridge,"
+                    "lloxl": "Extra Large Mobile Loading Ramps large plane bridge,"
                 },
                 "tonnes": "Capacity {tonnes} tons,",
-                "keyword_chain": "Large stock of loading Ramps, robust mobile loading Ramps, mobile loading aids, industrial loading Ramps, truck and container loading and unloading",
+                "keyword_chain": "Large stock of loading Ramps, exclusive producer, mobile loading ramps, industrial loading Ramps, truck and container loading and unloading",
                 "buy_and_rent": "Buy and Rent Loading Ramps"
             },
-              "countries": {
-                "germany": "Deutschland",
+            "countries": {
+                "whole-world": "Whole world",
+                "belgium": "Belgium",
+                "switzerland": "Switzerland",
+                "germany": "Germany",
                 "denmark": "Denmark",
                 "estonia": "Estonia",
                 "great-britain": "Great Britain",
@@ -27,7 +33,7 @@
                 "norway": "Norway",
                 "portugal": "Portugal",
                 "sweden": "Sweden"
-              }
+            }
         },
         "product_list": {
             "keywords": "Ramp operation, Goods handling, Loading and unloading technology, Dock leveler, Roller conveyor, Loading technology, Ramp conveyance",

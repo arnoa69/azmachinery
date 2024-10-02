@@ -2,18 +2,24 @@
     "meta": {
         "title": "AZ Machinery - Fabriqué en France",
         "product_detail_view": {
+            "title": {
+                "01": "Rampes de chargement mobiles - Capacité de charge de { tonnes }t avec options - Producteur exclusif pour {country}"
+            },
             "keywords": {
                 "type": {
-                    "standard": "Rampes d'accès mobiles standard,",
-                    "llo": "Rampes d'accès mobiles avec pont avancé électrique,",
-                    "xl": "Rampes d'accès mobiles extra larges,",
-                    "lloxl": "Rampes d'accès mobiles extra larges avec pont avancé électrique,"
+                    "standard": "Rampes de changements mobiles standard,",
+                    "llo": "Rampes de changements mobiles long plan horizontale,",
+                    "xl": "Rampes de changements mobiles extra larges,",
+                    "lloxl": "Rampes de changements mobiles extra larges avec long plan horizontale,"
                 },
                 "tonnes": "Capacité {tonnes} tonnes,",
-                "keyword_chain": "Grand stock de rampes d'accès, robustes rampes d'accès mobiles, aides au chargement mobiles, rampes d'accès industrielles, chargement et déchargement de camions et conteneurs",
-                "buy_and_rent": "Acheter et Louer des Rampes d'Accès"
+                "keyword_chain": "Grand stock de rampes de changements, robustes rampes de changements mobiles, aides au chargement mobiles, rampes de changements industrielles, chargement et déchargement de camions et conteneurs",
+                "buy_and_rent": "Acheter et Louer des Rampes de changements"
             },
-              "countries": {
+            "countries": {
+                "whole-world": "Monde entier",
+                "belgium": "Belgique",
+                "switzerland": "Suisse",
                 "germany": "Allemagne",
                 "denmark": "Danemark",
                 "estonia": "Estonie",
@@ -27,7 +33,7 @@
                 "norway": "Norvège",
                 "portugal": "Portugal",
                 "sweden": "Suède"
-              }
+            }
         },
         "product_list": {
             "keywords": "Opération de rampe, Manipulation des marchandises, Technologie de chargement et déchargement, Nivellement de quai, Convoyeur à rouleaux, Technologie de chargement, Transport de rampe",
@@ -137,10 +143,10 @@
     "shortRamps": {
         "h1": "Solutions compactes : Rampes accès aux conteneurs courtes pour un accès efficace",
         "h3": "Améliorez l'accessibilité avec nos rampes de bord durables",
-"p": {
-    "1": "Nos rampes mobiles, notamment les modèles HCRN-06, HCRN-065, HCRN-08 et HCRY-08, sont conçues pour faciliter le chargement et le déchargement des conteneurs, permettant la manipulation de chariots élévateurs d'une capacité de jusqu'à 6,0 tonnes.",
-    "2": "Nos rampes sont équipées de poches pour fourches intégrées, permettant un déplacement rapide et sans effort vers les zones de chargement désignées. Deux chaînes de sécurité sont fixées au conteneur pour garantir la stabilité et la sécurité de la rampe. Nos rampes courtes couvrent l'espace entre le conteneur et le sol, offrant un point d'accès sûr et fiable pour les chariots élévateurs et les chariots de palettes."
-}
+        "p": {
+            "1": "Nos rampes mobiles, notamment les modèles HCRN-06, HCRN-065, HCRN-08 et HCRY-08, sont conçues pour faciliter le chargement et le déchargement des conteneurs, permettant la manipulation de chariots élévateurs d'une capacité de jusqu'à 6,0 tonnes.",
+            "2": "Nos rampes sont équipées de poches pour fourches intégrées, permettant un déplacement rapide et sans effort vers les zones de chargement désignées. Deux chaînes de sécurité sont fixées au conteneur pour garantir la stabilité et la sécurité de la rampe. Nos rampes courtes couvrent l'espace entre le conteneur et le sol, offrant un point d'accès sûr et fiable pour les chariots élévateurs et les chariots de palettes."
+        }
     },
     "tabs": {
         "stock": {

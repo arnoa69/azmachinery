@@ -4,7 +4,7 @@ import Layout from "../../Layouts/ProductLayout.vue";
 import { ref, computed } from 'vue';
 import { usePage } from "@inertiajs/vue3";
 import { useI18n } from 'vue-i18n';
-import { getLocalizedCountry } from '@/utils/localizedSlugMixin';
+import { getCountryName } from '@/utils/localizedSlugMixin';
 import { getProductImages } from '@/utils/imageUtil';
 
 const { t } = useI18n();
@@ -41,7 +41,7 @@ const productInfo = computed(() => {
 
     let keywords;
 
-    let country = getLocalizedCountry();
+    let country = getCountryName();
     info.push({ country })
 
     keywords = country + ",";
@@ -78,11 +78,12 @@ const productInfo = computed(() => {
 
     return info;
 });
+console.log(productInfo)
 </script>
 
 <template>
     <Head>
-        <title> {{ productInfo[1].dynamic_keywords }} </title>
+        <title> {{ $t('meta.product_detail_view.title.01', {tonnes: product.weight_capacity, country: productInfo[0].country }) }} </title>
         <link rel="canonical" :href="canonicalUrl" />
         <meta name="keywords" :content="productInfo[1].dynamic_keywords" />
         <meta name="description" :content="$t(`${product.slug}.product_description`)" />

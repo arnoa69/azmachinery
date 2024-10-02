@@ -2,6 +2,9 @@
     "meta": {
         "title": "Mobile und statische Laderampen in Deutschland: Entdecken Sie unsere große Auswahl! Mehr als 500 sofort lieferbare qualitativen Laderampen verfügbar",
         "product_detail_view": {
+            "title": {
+                "01": "Mobile Laderampen - { tonnes }t Tragkraft mit Optionen - Exklusiver Hersteller für {country}"
+            },
             "keywords": {
                 "type": {
                     "standard": "Mobile Standard Verladerampen,",
@@ -12,22 +15,25 @@
                 "tonnes": "Tragfähigkeit {tonnes} Tonnen,",
                 "keyword_chain": "Grosser Lagerbestand an Verladerampenn, robuste mobile Laderampen, mobile Ladehilfen, Auffahrrampen, Industrieladerampen, LKW und Container Beladung Entladung",
                 "buy_and_rent": "Kauf und Vermietung von Laderampen"
+            },
+            "countries": {
+                "whole-world": "Gesamt Welt",
+                "belgium": "Belgien",
+                "switzerland": "Schweiz",
+                "germany": "Deutschland",
+                "denmark": "Dänemark",
+                "estonia": "Estland",
+                "great-britain": "Großbritannien",
+                "spain": "Spanien",
+                "finland": "Finnland",
+                "france": "Frankreich",
+                "italy": "Italien",
+                "luxembourg": "Luxemburg",
+                "netherlands": "Niederlande",
+                "norway": "Norwegen",
+                "portugal": "Portugal",
+                "sweden": "Schweden"
             }
-        },
-        "countries": {
-            "germany": "Deutschland",
-            "denmark": "Dänemark",
-            "estonia": "Estland",
-            "great-britain": "Großbritannien",
-            "spain": "Spanien",
-            "finland": "Finnland",
-            "france": "Frankreich",
-            "italy": "Italien",
-            "luxembourg": "Luxemburg",
-            "netherlands": "Niederlande",
-            "norway": "Norwegen",
-            "portugal": "Portugal",
-            "sweden": "Schweden"
         },
         "product_list": {
             "keywords": "Rampenbetrieb,Warenförderung,Lade- und Entladetechnik,Dockleveler,Rollbahn,Verladetechnik,Rampenförderung",
