@@ -53,7 +53,6 @@ class GenerateProductDescriptions extends Command
         $product = DB::table('product_combinations')
             ->join('products', 'product_combinations.product_id', '=', 'products.id')
             ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
-            ->where('product_combinations.id', 1)
             ->first();
 
         if (!$product) {
