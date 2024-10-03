@@ -6,10 +6,10 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Gemini\Laravel\Facades\Gemini;
 
-class GenerateProductDescriptions extends Command
+class GenerateTranslateProductDescriptions extends Command
 {
-    protected $signature = 'generate:product-descriptions';
-    protected $description = 'Generate English language file for product_descriptions and translate them to other languages';
+    protected $signature = 'generate:translate-product-descriptions';
+    protected $description = 'Generate translations from english to other languages';
 
     public function __construct()
     {
@@ -18,70 +18,10 @@ class GenerateProductDescriptions extends Command
 
     public function handle()
     {
-        $this->generateEnglishDescriptions();
         $this->translateDescriptions();
     }
 
-    private function generateEnglishDescriptions()
-    {
-        $country = env('VITE_APP_COUNTRY', 'azmch');
-        $basePath = resource_path('js/locales/' . $country . '/products');
-        $enData = [];
-        $enFilePath = "{$basePath}/en.json";
 
-        if (File::exists($enFilePath)) {
-            $enData = json_decode(File::get($enFilePath), true);
-        }
-
-        // Holen Sie sich alle Produkte
-        $products = DB::table('product_combinations')
-            ->join('products', 'product_combinations.product_id', '=', 'products.id')
-            ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
-            ->get();
-
-        $totalProducts = $products->count();
-        $processedProducts = 0;
-
-        // Puffer für die neuen Beschreibungen
-        $buffer = [];
-
-        foreach ($products as $product) {
-            $slug = $product->slug;
-
-            // Überspringen, wenn bereits vorhanden
-            if (isset($enData[$slug]['product_description']) && !empty($enData[$slug]['product_description'])) {
-                $processedProducts++;
-                $this->displayProgress($processedProducts, $totalProducts);
-                continue;
-            }
-
-            // Logik zur Generierung der Beschreibung
-            $content = $this->generateDescription($product);
-
-            // Speichern Sie die Beschreibung im Puffer
-            $buffer[$slug] = [
-                'product_description' => $content,
-            ];
-
-            $processedProducts++;
-            $this->displayProgress($processedProducts, $totalProducts);
-
-            // Schreiben Sie den Puffer in die Datei nach jedem 100. Produkt
-            if ($processedProducts % 100 == 0) {
-                $enData = array_merge($enData, $buffer);
-                File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-                $buffer = []; // Puffer zurücksetzen
-            }
-        }
-
-        // Schreiben Sie verbleibende Daten, falls vorhanden
-        if (!empty($buffer)) {
-            $enData = array_merge($enData, $buffer);
-            File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        }
-
-        $this->info('English file generated successfully.');
-    }
     private function translateDescriptions()
     {
         $country = env('VITE_APP_COUNTRY', 'azmch');
