@@ -38,6 +38,9 @@ class GenerateProductDescriptions extends Command
         $totalProducts = $products->count();
         $processedProducts = 0;
 
+        // Puffer für die neuen Beschreibungen
+        $buffer = [];
+
         foreach ($products as $product) {
             $slug = $product->slug;
 
@@ -51,18 +54,30 @@ class GenerateProductDescriptions extends Command
             // Logik zur Generierung der Beschreibung
             $content = $this->generateDescription($product);
 
-            $enData[$slug] = [
+            // Speichern Sie die Beschreibung im Puffer
+            $buffer[$slug] = [
                 'product_description' => $content,
             ];
 
             $processedProducts++;
             $this->displayProgress($processedProducts, $totalProducts);
+
+            // Schreiben Sie den Puffer in die Datei nach jedem 100. Produkt
+            if ($processedProducts % 100 == 0) {
+                $enData = array_merge($enData, $buffer);
+                File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                $buffer = []; // Puffer zurücksetzen
+            }
         }
 
-        File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        // Schreiben Sie verbleibende Daten, falls vorhanden
+        if (!empty($buffer)) {
+            $enData = array_merge($enData, $buffer);
+            File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        }
+
         $this->info('English file generated successfully.');
     }
-
     private function translateDescriptions()
     {
         $country = env('VITE_APP_COUNTRY', 'azmch');
@@ -98,6 +113,7 @@ class GenerateProductDescriptions extends Command
             $totalDescriptions = count($enData);
             $processedDescriptions = 0;
             $startTranslating = false;
+            $buffer = []; // Puffer für die Übersetzungen
 
             foreach ($enData as $slug => $item) {
                 if ($startTranslating || $slug === $lastProcessedSlug) {
@@ -108,7 +124,7 @@ class GenerateProductDescriptions extends Command
 
                     if (isset($translationResult->candidates[0]->content->parts[0]->text)) {
                         $translatedContent = trim(strip_tags($translationResult->candidates[0]->content->parts[0]->text));
-                        $langData[$slug] = [
+                        $buffer[$slug] = [
                             'product_description' => $translatedContent,
                         ];
 
@@ -120,10 +136,22 @@ class GenerateProductDescriptions extends Command
 
                     $processedDescriptions++;
                     $this->displayProgress($processedDescriptions, $totalDescriptions);
+
+                    // Schreiben Sie den Puffer in die Datei nach jeweils 10 Übersetzungen
+                    if ($processedDescriptions % 10 == 0) {
+                        $langData = array_merge($langData, $buffer);
+                        File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                        $buffer = []; // Puffer zurücksetzen
+                    }
                 }
             }
 
-            File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            // Schreiben Sie verbleibende Daten, falls vorhanden
+            if (!empty($buffer)) {
+                $langData = array_merge($langData, $buffer);
+                File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            }
+
             $this->info("Translation for {$language} generated successfully.");
         }
     }
