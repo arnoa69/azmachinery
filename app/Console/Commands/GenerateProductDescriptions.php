@@ -34,7 +34,11 @@ class GenerateProductDescriptions extends Command
         }
 
         // Holen Sie sich alle Produkte
-        $products = DB::table('product_combinations')->get();
+        $products = DB::table('product_combinations')
+            ->join('products', 'product_combinations.product_id', '=', 'products.id')
+            ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
+            ->get();
+
         $totalProducts = $products->count();
         $processedProducts = 0;
 
