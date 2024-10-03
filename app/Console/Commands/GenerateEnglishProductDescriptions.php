@@ -32,17 +32,18 @@ class GenerateEnglishProductDescriptions extends Command
             $enData = json_decode(File::get($enFilePath), true);
         }
 
-        // Finde den letzten verarbeiteten Slug
+        // Find the last processed slug
         $lastProcessedSlug = '';
         if (!empty($enData)) {
             foreach ($enData as $index => $item) {
-                if (!empty($item['product_description'])) {
-                    $lastProcessedSlug = $index; // Letzten verarbeiteten Slug speichern
+                if (empty($item['product_description'])) {
+                    $lastProcessedSlug = $index;
+                    break; // Stop at the first empty product_description
                 }
             }
         }
 
-        // Holen Sie sich alle Produkte
+        // Get all products
         $products = DB::table('product_combinations')
             ->join('products', 'product_combinations.product_id', '=', 'products.id')
             ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
@@ -52,46 +53,58 @@ class GenerateEnglishProductDescriptions extends Command
         $processedProducts = 0;
         $buffer = [];
 
-        // Konvertieren Sie die Laravel Eloquent-Sammlung $products in ein Array für array_chunk
+        // Convert the Laravel Eloquent collection $products to an array for array_chunk
         $products = $products->toArray();
-        foreach (array_chunk($products, 5) as $chunk) { // Verarbeite 5 Produkte gleichzeitig
+
+        // Find the starting index
+        $startIndex = 0;
+        if ($lastProcessedSlug) {
+            foreach ($products as $index => $product) {
+                if ($product->slug === $lastProcessedSlug) {
+                    $startIndex = $index;
+                    break;
+                }
+            }
+        }
+
+        // Adjust total products to account for the starting index
+        $totalProducts -= $startIndex;
+
+        foreach (array_slice($products, $startIndex) as $chunkIndex => $chunk) { // Process 5 products at a time
             foreach ($chunk as $product) {
                 $slug = $product->slug;
 
-                // Überspringen, wenn bereits eine Beschreibung vorhanden ist oder wir bereits bei diesem Slug sind
+                // Skip if already has a description or we are at the last processed slug
                 if (isset($enData[$slug]['product_description']) && !empty($enData[$slug]['product_description'])) {
                     $processedProducts++;
                     $this->displayProgress($processedProducts, $totalProducts);
                     continue;
                 }
 
-                // Wenn wir den letzten verarbeiteten Slug erreicht haben, setzen wir die Verarbeitung fort
-                if ($slug === $lastProcessedSlug) {
-                    // Beginnen Sie mit der Verarbeitung des nächsten Produkts
-                    continue;
-                }
-
-                // Generiere die Beschreibung
+                // Generate the description
                 $content = $this->generateDescription($product);
-                // Speichern Sie die Beschreibung im Puffer
+
+                // Save the description in the buffer
                 $buffer[$slug] = [
                     'product_description' => $content,
                 ];
+
                 $processedProducts++;
                 $this->displayProgress($processedProducts, $totalProducts);
 
-                // Schreiben Sie den Puffer in die Datei alle 100 Produkte
+                // Write the buffer to the file every 5 products
                 if ($processedProducts % 5 == 0) {
                     $enData = array_merge($enData, $buffer);
                     File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-                    $buffer = []; // Puffer zurücksetzen
+                    $buffer = []; // Reset buffer
                 }
             }
-            // Schlafen für 3 Sekunden nach jedem Batch
-            sleep(3);
+
+            // Sleep for 15 seconds after each batch
+            sleep(15);
         }
 
-        // Schreiben Sie verbleibende Daten in die Datei, falls vorhanden
+        // Write remaining data to the file, if any
         if (!empty($buffer)) {
             $enData = array_merge($enData, $buffer);
             File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
