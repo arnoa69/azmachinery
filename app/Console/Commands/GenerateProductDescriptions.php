@@ -18,48 +18,124 @@ class GenerateProductDescriptions extends Command
 
     public function handle()
     {
-        $country = env('VITE_APP_COUNTRY', 'azmch'); // 'default_country' is a fallback value
+        $this->generateEnglishDescriptions();
+        $this->translateDescriptions();
+    }
+
+    private function generateEnglishDescriptions()
+    {
+        $country = env('VITE_APP_COUNTRY', 'azmch');
         $basePath = resource_path('js/locales/' . $country . '/products');
-
-        // Initialize the English data array
         $enData = [];
-
-        // Create the English language file first
         $enFilePath = "{$basePath}/en.json";
 
-        // If the English file exists, load existing data
         if (File::exists($enFilePath)) {
             $enData = json_decode(File::get($enFilePath), true);
         }
 
-        // Find the first empty description
-        $startId = 0;
-        foreach ($enData as $index => $item) {
-            if (empty($item['product_description'])) {
-                $parts = explode('-', $index);
-                $startId = DB::table('product_combinations')
-                    ->where('slug', $index)
-                    ->value('id');
-                break;
+        // Holen Sie sich alle Produkte
+        $products = DB::table('product_combinations')->get();
+        $totalProducts = $products->count();
+        $processedProducts = 0;
+
+        foreach ($products as $product) {
+            $slug = $product->slug;
+
+            // Überspringen, wenn bereits vorhanden
+            if (isset($enData[$slug]['product_description']) && !empty($enData[$slug]['product_description'])) {
+                $processedProducts++;
+                $this->displayProgress($processedProducts, $totalProducts);
+                continue;
             }
+
+            // Logik zur Generierung der Beschreibung
+            $content = $this->generateDescription($product);
+
+            $enData[$slug] = [
+                'product_description' => $content,
+            ];
+
+            $processedProducts++;
+            $this->displayProgress($processedProducts, $totalProducts);
         }
 
-        // If no empty descriptions are found, set startId to 1 to process the first product
-        if ($startId === 0) {
-            $startId = 1;
-        }
+        File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        $this->info('English file generated successfully.');
+    }
 
-        // Fetch the product with ID 1
-        $product = DB::table('product_combinations')
-            ->join('products', 'product_combinations.product_id', '=', 'products.id')
-            ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
-            ->first();
+    private function translateDescriptions()
+    {
+        $country = env('VITE_APP_COUNTRY', 'azmch');
+        $basePath = resource_path('js/locales/' . $country . '/products');
+        $enFilePath = "{$basePath}/en.json";
 
-        if (!$product) {
-            $this->info('Product with the specified ID does not exist.');
+        if (!File::exists($enFilePath)) {
+            $this->error('English file does not exist. Please generate it first.');
             return;
         }
 
+        $enData = json_decode(File::get($enFilePath), true);
+        $languages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
+
+        foreach ($languages as $language) {
+            if ($language === 'en') {
+                continue;
+            }
+
+            $langFilePath = "{$basePath}/{$language}.json";
+            $langData = [];
+            $lastProcessedSlug = '';
+
+            if (File::exists($langFilePath)) {
+                $langData = json_decode(File::get($langFilePath), true);
+                // Überprüfen, wo wir aufgehört haben
+                if (isset($langData['last_processed_slug'])) {
+                    $lastProcessedSlug = $langData['last_processed_slug'];
+                }
+            }
+
+            // Finden Sie den Startpunkt für die Übersetzung
+            $totalDescriptions = count($enData);
+            $processedDescriptions = 0;
+            $startTranslating = false;
+
+            foreach ($enData as $slug => $item) {
+                if ($startTranslating || $slug === $lastProcessedSlug) {
+                    $startTranslating = true; // Beginnen Sie mit der Übersetzung
+
+                    $translationPrompt = "Translate the following text to $language: " . $item['product_description'];
+                    $translationResult = Gemini::geminiPro()->generateContent($translationPrompt);
+
+                    if (isset($translationResult->candidates[0]->content->parts[0]->text)) {
+                        $translatedContent = trim(strip_tags($translationResult->candidates[0]->content->parts[0]->text));
+                        $langData[$slug] = [
+                            'product_description' => $translatedContent,
+                        ];
+
+                        // Speichern Sie den letzten verarbeiteten Slug
+                        $langData['last_processed_slug'] = $slug;
+                    } else {
+                        $this->error("Translation failed for $slug in $language.");
+                    }
+
+                    $processedDescriptions++;
+                    $this->displayProgress($processedDescriptions, $totalDescriptions);
+                }
+            }
+
+            File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            $this->info("Translation for {$language} generated successfully.");
+        }
+    }
+
+    private function displayProgress($processed, $total)
+    {
+        $percentage = ($processed / $total) * 100;
+        $this->info(sprintf("Progress: %.2f%% (%d von %d)", $percentage, $processed, $total));
+    }
+
+    private function generateDescription($product)
+    {
         $slug = $product->slug;
         $capacity = $product->weight_capacity; // Directly from the products table
         $version = $product->version; // Directly from the products table
@@ -104,45 +180,6 @@ class GenerateProductDescriptions extends Command
         $result = Gemini::geminiPro()->generateContent($instruction . ' ' . $prompt);
         $content = trim(strip_tags($result->candidates[0]->content->parts[0]->text));
 
-        // Add or update the product in the English data array
-        $enData[$slug] = [
-            'product_description' => $content,
-        ];
-
-        // Write the English data to the file
-        File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        $this->info('English file generated successfully.');
-
-        // Define the list of languages
-        $languages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
-
-        // Translate the content into other languages
-        foreach ($languages as $language) {
-            if ($language === 'en') {
-                continue; // Skip English since it's already done
-            }
-
-            $langFilePath = "{$basePath}/{$language}.json";
-            $langData = [];
-
-            // Load existing language data if the file exists
-            if (File::exists($langFilePath)) {
-                $langData = json_decode(File::get($langFilePath), true);
-            }
-
-            // Generate translation using Gemini
-            $translationPrompt = "Translate the following text to $language: " . $content;
-            $translationResult = Gemini::geminiPro()->generateContent($instruction . ' ' . $translationPrompt);
-            $translatedContent = trim(strip_tags($translationResult->candidates[0]->content->parts[0]->text));
-
-            // Add or update the product in the language data array
-            $langData[$slug] = [
-                'product_description' => $translatedContent,
-            ];
-
-            // Write the language data to the file
-            File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-            $this->info("Translation for {$language} generated successfully.");
-        }
+        return $content; // Rückgabe der generierten Beschreibung
     }
 }
