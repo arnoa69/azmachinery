@@ -60,7 +60,7 @@ class GenerateEnglishProductDescriptions extends Command
             $processedProducts++;
             $this->displayProgress($processedProducts, $totalProducts);
 
-            sleep(6);
+            sleep(9);
         }
 
         $this->info('English file generated successfully.');
