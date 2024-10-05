@@ -80,7 +80,7 @@ class GenerateEnglishProductDescriptions extends Command
     {
         foreach ($products as $index => $product) {
             if ($product->slug === $lastProcessedSlug) {
-                return $index + 1;
+                return $index;
             }
         }
         return 0;
