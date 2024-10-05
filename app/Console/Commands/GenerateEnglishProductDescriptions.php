@@ -31,7 +31,6 @@ class GenerateEnglishProductDescriptions extends Command
         if (File::exists($enFilePath)) {
             $enData = json_decode(File::get($enFilePath), true);
         }
-
         // Find the last processed slug
         $lastProcessedSlug = '';
         if (!empty($enData)) {
@@ -45,9 +44,9 @@ class GenerateEnglishProductDescriptions extends Command
 
         // Get all products
         $products = DB::table('product_combinations')
-            ->join('products', 'product_combinations.product_id', '=', 'products.id')
-            ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
-            ->get();
+        ->join('products', 'product_combinations.product_id', '=', 'products.id')
+        ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
+        ->get();
 
         $totalProducts = $products->count();
         $processedProducts = 0;
@@ -71,7 +70,7 @@ class GenerateEnglishProductDescriptions extends Command
         $totalProducts -= $startIndex;
 
         foreach (array_slice($products, $startIndex) as $chunkIndex => $chunk) { // Process 5 products at a time
-            foreach ($chunk as $product) {
+            foreach ($product as $chunk) {
                 $slug = $product->slug;
 
                 // Skip if already has a description or we are at the last processed slug
