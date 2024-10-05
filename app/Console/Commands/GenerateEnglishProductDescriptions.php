@@ -24,92 +24,66 @@ class GenerateEnglishProductDescriptions extends Command
     private function generateEnglishDescriptions()
     {
         $country = env('VITE_APP_COUNTRY', 'azmch');
-        $basePath = resource_path('js/locales/' . $country . '/products');
-        $enData = [];
+        $basePath = resource_path("js/locales/{$country}/products");
         $enFilePath = "{$basePath}/en.json";
 
-        if (File::exists($enFilePath)) {
-            $enData = json_decode(File::get($enFilePath), true);
-        }
-        // Find the last processed slug
-        $lastProcessedSlug = '';
-        if (!empty($enData)) {
-            foreach ($enData as $index => $item) {
-                if (empty($item['product_description'])) {
-                    $lastProcessedSlug = $index;
-                    break; // Stop at the first empty product_description
-                }
-            }
+        if (!File::exists($enFilePath)) {
+            File::put($enFilePath, '{}');
         }
 
-        // Get all products
+        $enData = json_decode(File::get($enFilePath), true);
+        $lastProcessedSlug = $this->getLastProcessedSlug($enData);
+
         $products = DB::table('product_combinations')
-        ->join('products', 'product_combinations.product_id', '=', 'products.id')
-        ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
-        ->get();
+            ->join('products', 'product_combinations.product_id', '=', 'products.id')
+            ->select('product_combinations.slug', 'products.weight_capacity', 'products.version')
+            ->get()
+            ->toArray();
 
-        $totalProducts = $products->count();
-        $processedProducts = 0;
-        $buffer = [];
+        $totalProducts = count($products);
+        $startIndex = $this->getStartIndex($products, $lastProcessedSlug);
+        $processedProducts = $startIndex;
 
-        // Convert the Laravel Eloquent collection $products to an array for array_chunk
-        $products = $products->toArray();
+        foreach (array_slice($products, $startIndex) as $product) {
+            $slug = $product->slug;
 
-        // Find the starting index
-        $startIndex = 0;
-        if ($lastProcessedSlug) {
-            foreach ($products as $index => $product) {
-                if ($product->slug === $lastProcessedSlug) {
-                    $startIndex = $index;
-                    break;
-                }
-            }
-        }
-
-        // Adjust total products to account for the starting index
-        $totalProducts -= $startIndex;
-
-        foreach (array_slice($products, $startIndex) as $chunkIndex => $chunk) { // Process 5 products at a time
-            foreach ($product as $chunk) {
-                $slug = $product->slug;
-
-                // Skip if already has a description or we are at the last processed slug
-                if (isset($enData[$slug]['product_description']) && !empty($enData[$slug]['product_description'])) {
-                    $processedProducts++;
-                    $this->displayProgress($processedProducts, $totalProducts);
-                    continue;
-                }
-
-                // Generate the description
-                $content = $this->generateDescription($product);
-
-                // Save the description in the buffer
-                $buffer[$slug] = [
-                    'product_description' => $content,
-                ];
-
-                $processedProducts++;
+            if (isset($enData[$slug]['product_description']) && !empty($enData[$slug]['product_description'])) {
                 $this->displayProgress($processedProducts, $totalProducts);
-
-                // Write the buffer to the file every 5 products
-                if ($processedProducts % 5 == 0) {
-                    $enData = array_merge($enData, $buffer);
-                    File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-                    $buffer = []; // Reset buffer
-                }
+                continue;
             }
 
-            // Sleep for 15 seconds after each batch
+            $content = $this->generateDescription($product);
+            $enData[$slug] = ['product_description' => $content];
+
+            File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+            $processedProducts++;
+            $this->displayProgress($processedProducts, $totalProducts);
+
             sleep(15);
         }
 
-        // Write remaining data to the file, if any
-        if (!empty($buffer)) {
-            $enData = array_merge($enData, $buffer);
-            File::put($enFilePath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        }
-
         $this->info('English file generated successfully.');
+    }
+
+    private function getLastProcessedSlug(array $enData): string
+    {
+        foreach ($enData as $slug => $item) {
+            if (empty($item['product_description'])) {
+                return $slug;
+            }
+        }
+        return '';
+    }
+
+    private function getStartIndex(array $products, string $lastProcessedSlug): int
+    {
+        foreach ($products as $index => $product) {
+            if ($product->slug === $lastProcessedSlug) {
+                return $index + 1;
+            }
+        }
+        return 0;
     }
 
 
