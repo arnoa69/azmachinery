@@ -8,7 +8,7 @@ use Gemini\Laravel\Facades\Gemini;
 
 class GenerateTranslateProductDescriptions extends Command
 {
-    protected $signature = 'generate:translate-product-descriptions';
+    protected $signature = 'generate:translate-product-descriptions {language}';
     protected $description = 'Generate translations from english to other languages';
 
     public function __construct()
@@ -18,11 +18,12 @@ class GenerateTranslateProductDescriptions extends Command
 
     public function handle()
     {
-        $this->translateDescriptions();
+        $language = $this->argument('language'); // Hier wird das Argument abgerufen
+        $this->translateDescriptions($language);
     }
 
 
-    private function translateDescriptions()
+    private function translateDescriptions($language)
     {
         $country = env('VITE_APP_COUNTRY', 'azmch');
         $basePath = resource_path('js/locales/' . $country . '/products');
@@ -34,70 +35,95 @@ class GenerateTranslateProductDescriptions extends Command
         }
 
         $enData = json_decode(File::get($enFilePath), true);
-        $languages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
+        // Überprüfen, ob die angegebene Sprache gültig ist
+        $validLanguages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
 
-        foreach ($languages as $language) {
-            if ($language === 'en') {
-                continue;
-            }
+        if (!in_array($language, $validLanguages)) {
+            $this->error("The specified language '$language' is not valid.");
+            return;
+        }
 
-            $langFilePath = "{$basePath}/{$language}.json";
-            $langData = [];
-            $lastProcessedSlug = '';
+        $langFilePath = "{$basePath}/{$language}.json";
+        $langData = [];
+        $lastProcessedSlug = '';
 
-            if (File::exists($langFilePath)) {
-                $langData = json_decode(File::get($langFilePath), true);
-                // Überprüfen, wo wir aufgehört haben
-                if (isset($langData['last_processed_slug'])) {
-                    $lastProcessedSlug = $langData['last_processed_slug'];
-                }
-            }
+        if (File::exists($langFilePath)) {
+            $langData = json_decode(File::get($langFilePath), true);
+            $lastProcessedSlug = $this->getLastProcessedSlug($langData);
+        }
 
-            // Finden Sie den Startpunkt für die Übersetzung
-            $totalDescriptions = count($enData);
-            $processedDescriptions = 0;
-            $startTranslating = false;
-            $buffer = []; // Puffer für die Übersetzungen
+        // Finden Sie den Startpunkt für die Übersetzung
+        $totalDescriptions = count($enData);
+        $processedDescriptions = 0;
+        $startTranslating = false;
+        $buffer = []; // Puffer für die Übersetzungen
 
-            foreach ($enData as $slug => $item) {
-                if ($startTranslating || $slug === $lastProcessedSlug) {
-                    $startTranslating = true; // Beginnen Sie mit der Übersetzung
-
-                    $translationPrompt = "Translate the following text to $language: " . $item['product_description'];
+        foreach ($enData as $slug => $item) {
+            if ($startTranslating || $slug === $lastProcessedSlug) {
+                $startTranslating = true; // Beginnen Sie mit der Übersetzung
+                $translationPrompt = "Translate the following text to $language: " . $item['product_description'];
+                try {
                     $translationResult = Gemini::geminiPro()->generateContent($translationPrompt);
-
+dd($translationResult);
                     if (isset($translationResult->candidates[0]->content->parts[0]->text)) {
                         $translatedContent = trim(strip_tags($translationResult->candidates[0]->content->parts[0]->text));
                         $buffer[$slug] = [
                             'product_description' => $translatedContent,
                         ];
-
                         // Speichern Sie den letzten verarbeiteten Slug
                         $langData['last_processed_slug'] = $slug;
                     } else {
-                        $this->error("Translation failed for $slug in $language.");
+                        throw new \Exception("Translation result is empty for slug: $slug");
                     }
+                } catch (\Exception $e) {
+                    // Fehler im Terminal ausgeben
+                    $this->error("Translation failed for $slug in $language: " . $e->getMessage());
+                    // Fehler in das Laravel-Log schreiben
+                    \Log::error("Translation failed for $slug in $language: " . $e->getMessage());
+                    continue; // Überspringe diesen Slug und fahre mit dem nächsten fort
+                }
 
-                    $processedDescriptions++;
-                    $this->displayProgress($processedDescriptions, $totalDescriptions);
+                $processedDescriptions++;
 
-                    // Schreiben Sie den Puffer in die Datei nach jeweils 10 Übersetzungen
-                    if ($processedDescriptions % 10 == 0) {
-                        $langData = array_merge($langData, $buffer);
-                        File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-                        $buffer = []; // Puffer zurücksetzen
-                    }
+                // Fortschritt anzeigen
+                $this->displayProgress($processedDescriptions, $totalDescriptions);
+
+                // Schreiben Sie den Puffer in die Datei nach jeweils 10 Übersetzungen
+                if ($processedDescriptions % 10 == 0) {
+                    $langData = array_merge($langData, $buffer);
+                    File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                    $buffer = []; // Puffer zurücksetzen
                 }
             }
-
-            // Schreiben Sie verbleibende Daten, falls vorhanden
-            if (!empty($buffer)) {
-                $langData = array_merge($langData, $buffer);
-                File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-            }
-
-            $this->info("Translation for {$language} generated successfully.");
         }
+
+        // Schreiben Sie verbleibende Daten, falls vorhanden
+        if (!empty($buffer)) {
+            $langData = array_merge($langData, $buffer);
+            File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        }
+
+        $this->info("Translation for {$language} generated successfully.");
+    }
+
+    private function getLastProcessedSlug(array $enData): string
+    {
+        foreach ($enData as $slug => $item) {
+            if (empty($item['product_description'])) {
+                return $slug;
+            }
+        }
+        return '';
+    }
+
+    private function getStartIndex(array $products, string $lastProcessedSlug): int
+    {
+        foreach ($products as $index => $product) {
+            if ($product->slug === $lastProcessedSlug) {
+                return $index;
+            }
+        }
+        return 0;
     }
 
     private function displayProgress($processed, $total)
