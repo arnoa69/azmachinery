@@ -64,7 +64,7 @@ class GenerateTranslateProductDescriptions extends Command
                 $translationPrompt = "Translate the following text to $language: " . $item['product_description'];
                 try {
                     $translationResult = Gemini::geminiPro()->generateContent($translationPrompt);
-dd($translationResult);
+
                     if (isset($translationResult->candidates[0]->content->parts[0]->text)) {
                         $translatedContent = trim(strip_tags($translationResult->candidates[0]->content->parts[0]->text));
                         $buffer[$slug] = [
