@@ -30,7 +30,7 @@ class GenerateSitemapCommand extends Command
      */
     public function handle()
     {
-        $domain = "https://azmachinery.test";
+        $domain = "https://az-machinery.ch";
         $locales = config('app.available_locales'); // Adjust based on your available locales
         $sitemaps = [];
 
