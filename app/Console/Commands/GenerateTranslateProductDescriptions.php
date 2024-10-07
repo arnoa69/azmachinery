@@ -62,7 +62,7 @@ class GenerateTranslateProductDescriptions extends Command
             $processedProducts++;
             $this->displayProgress($processedProducts, $totalProducts);
 
-            sleep(33);
+            sleep(26);
         }
 
         $this->info('German file generated and translated successfully.');
