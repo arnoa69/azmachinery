@@ -111,7 +111,7 @@ class GenerateSitemapCommand extends Command
     private function generateMainSitemap($sitemaps)
     {
         $mainContent = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-        $mainContent .= "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap-image/1.1\">\n";
+        $mainContent .= "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap-image/1.0\">\n";
 
         foreach ($sitemaps as $locale) {
             $mainContent .= "<sitemap>\n";
