@@ -15,7 +15,7 @@ const { t } = useI18n();
                     <div class="col-lg-6 text-center">
                         <h2>{{ $t('hero.title.start') }}</h2>
                         <p>{{ $t('hero.title.description') }}</p>
-                        <a href="#get-started" class="btn-get-started">{{ $t('hero.title.button') }}</a>
+                        <a href="/get-a-quote" class="btn-get-started">{{ $t('hero.title.button') }}</a>
                     </div>
                 </div>
             </div>

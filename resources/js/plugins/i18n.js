@@ -8,7 +8,6 @@ export const i18n = createI18n({
     legacy: false,
     globalInjection: true,
     locale: getLocaleFromUrl() || userLanguage,
-    //locale: 'es',
     fallbackLocale: 'en',
     availableLocales: availableLocales,
     messages: messages,
@@ -24,4 +23,4 @@ function getLocaleFromUrl() {
     }
 
     return null;
-  }
+}

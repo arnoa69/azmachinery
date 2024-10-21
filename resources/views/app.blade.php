@@ -40,15 +40,15 @@
             gtag('js', new Date());
 
             gtag('config', '{{ env('GOOGLE_TAG_MANAGER_ID') }}');
-        </script>
+            </script>
 
         @inertiaHead
 
     </head>
     <body class="font-sans antialiased">
         @inertia
-        <script src="{{ asset('vendor/purecounter/purecounter_vanilla.js') }}"></script>
         <script src="{{ asset('vendor/aos/aos.js') }}"></script>
+        <script src="{{ asset('vendor/purecounter/purecounter_vanilla.js') }}"></script>
         <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
         <script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
         <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}"></script>

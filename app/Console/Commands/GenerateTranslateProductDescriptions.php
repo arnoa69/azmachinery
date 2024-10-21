@@ -65,7 +65,7 @@ class GenerateTranslateProductDescriptions extends Command
             sleep(10);
         }
 
-        $this->info('German file generated and translated successfully.');
+        $this->info($language . ' file translated successfully.');
     }
 
     private function getLastProcessedSlugIndex(array $langData): int

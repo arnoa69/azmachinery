@@ -15,37 +15,18 @@ import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 import { posthogModule } from '../plugins/posthog'
 import { ref } from "vue";
 
-const isModalOpen = ref(false);
-const iframeLink = ref('');
-
-const openModal = (payload) => {
-    if (window.location.hostname === 'public.test') {
-        iframeLink.value = "http://localhost:8081/?type=" + payload.message;
-    } else {
-        iframeLink.value = "https://flowform.rampas-carga-moviles.es/?type=" + payload.message;
-    }
-    isModalOpen.value = true;
-}
-
-const closeModal = () => {
-    isModalOpen.value = false
-};
-
 // show banner depending on posthog opt in or out
 const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
-
 const showConfigBanner = ref(false)
-
 const showPolicyBanner = ref(false)
 </script>
 
 <template>
-
     <Head>
         <title>{{ $t('meta.title') }}</title>
     </Head>
     <HeaderSection />
-    <HeroSection @open-modal="openModal" />
+    <HeroSection />
     <main id="main">
         <ClientSection />
         <AboutSection />
@@ -67,16 +48,7 @@ const showPolicyBanner = ref(false)
 
     <PolicyBanner v-if="showPolicyBanner" @hide-policy-banner="showPolicyBanner = false" />
 
-    <div v-if="isModalOpen" class="modal cinematic-modal show" :style="{ display: isModalOpen ? 'block' : 'none' }">
-        <div class="modal-header">
-         </div>
-        <div class="modal-content">
-            <iframe :src="iframeLink" frameborder="0" class="modal-iframe"></iframe>
-        </div>
-        <div class="modal-footer">
-            <button @click="closeModal" type="button" class="btn btn-secondary">{{ $t('modal.close-button') }}</button>
-        </div>
-    </div>
+
 </template>
 
 <style scoped>
