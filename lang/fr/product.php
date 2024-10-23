@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Siège social',
     'spanish_department' => 'Département Espagne',
     'technical_data' => 'Données techniques',
+    'column_description' => 'Description',
+    'colunn_value' => 'Valeur',
     'features' => 'Caractéristiques',
     'get_a_quote' => 'Demander un devis',
     'go_to_product' => 'Aller au produit',

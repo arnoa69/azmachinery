@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Hauptsitz',
     'spanish_department' => 'Spanische Abteilung',
     'technical_data' => 'Technische Daten',
+    'column_description' => 'Beschreibung',
+    'colunn_value' => 'Wert',
     'features' => 'Merkmale',
     'get_a_quote' => 'Angebot anfordern',
     'go_to_product' => 'Zum Produkt',

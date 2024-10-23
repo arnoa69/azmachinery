@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Pääkonttori',
     'spanish_department' => 'Espanjan osasto',
     'technical_data' => 'Tekniset tiedot',
+    'column_description' => 'Kuvaus',
+    'colunn_value' => 'Arvo',
     'features' => 'Ominaisuudet',
     'get_a_quote' => 'Pyydä tarjous',
     'go_to_product' => 'Siirry tuotteeseen',

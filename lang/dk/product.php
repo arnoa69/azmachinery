@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Hovedkvarter',
     'spanish_department' => 'Spansk afdeling',
     'technical_data' => 'Tekniske data',
+    'column_description' => 'Beskrivelse',
+    'colunn_value' => 'Værdi',
     'features' => 'Funktioner',
     'get_a_quote' => 'Anmod om tilbud',
     'go_to_product' => 'Gå til produkt',

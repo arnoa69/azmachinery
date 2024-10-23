@@ -72,3 +72,16 @@ resources/js/locales/azmnl/products/**
 !resources/js/locales/azmnl/products/.gitkeep
 resources/js/locales/azmuk/products/**
 !resources/js/locales/azmuk/products/.gitkeep
+lang/de/productDescription.php
+lang/dk/productDescription.php
+lang/ee/productDescription.php
+lang/en/productDescription.php
+lang/es/productDescription.php
+lang/fi/productDescription.php
+lang/fr/productDescription.php
+lang/it/productDescription.php
+lang/lb/productDescription.php
+lang/nl/productDescription.php
+lang/no/productDescription.php
+lang/pt/productDescription.php
+lang/se/productDescription.php

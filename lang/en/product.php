@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Headquarters',
     'spanish_department' => 'Spain Department',
     'technical_data' => 'Technical data',
+    'column_description' => 'Description',
+    'colunn_value' => 'Value',
     'features' => 'Features',
     'get_a_quote' => 'Request a Quote',
     'go_to_product' => 'Go to product',

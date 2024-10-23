@@ -400,7 +400,7 @@
     <div id="description" class="position-zero">
         <div class="description-content">
             <h3>{{ __('product.features') }}</h3>
-            <p>{{ __('productDescription.' . $product->slug . '.product_description') }}</p>
+            <p>{{ Str::limit(__('productDescription.' . $product->slug . '.product_description'), 515, '...') }}</p>
         </div>
         <div class="image-frame">
             <div class="product-image">
@@ -454,8 +454,8 @@
             <table id="technical-table">
                 <thead>
                     <tr>
-                        <th>Description</th>
-                        <th>Value</th>
+                        <th>{{ __('product.column_description') }}</th>
+                        <th>{{ __('product.colunn_value') }}</th>
                     </tr>
                 </thead>
                 <tbody>

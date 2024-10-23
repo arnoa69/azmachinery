@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Sede',
     'spanish_department' => 'Departamento de Espanha',
     'technical_data' => 'Dados técnicos',
+    'column_description' => 'Descrição',
+    'colunn_value' => 'Valor',
     'features' => 'Características',
     'get_a_quote' => 'Solicitar Cotação',
     'go_to_product' => 'Ir para o produto',

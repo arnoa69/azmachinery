@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Peakontor',
     'spanish_department' => 'Hispaania osakond',
     'technical_data' => 'Tehnilised andmed',
+    'column_description' => 'Kirjeldus',
+    'colunn_value' => 'Väärtus',
     'features' => 'Omadused',
     'get_a_quote' => 'Küsi hinnapakkumist',
     'go_to_product' => 'Vaata toodet',

@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Hoofdkantoor',
     'spanish_department' => 'Spaanse afdeling',
     'technical_data' => 'Technische gegevens',
+    'column_description' => 'Beschrijving',
+    'colunn_value' => 'Waarde',
     'features' => 'Kenmerken',
     'get_a_quote' => 'Offerte aanvragen',
     'go_to_product' => 'Ga naar product',

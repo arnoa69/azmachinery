@@ -51,6 +51,8 @@ return [
     'headquarter' => 'Haaptsëtz',
     'spanish_department' => 'Spuenesch Departement',
     'technical_data' => 'Technesch Donnéeën',
+    'column_description' => 'Beschreiwung',
+    'colunn_value' => 'Wäert',
     'features' => 'Funktiounen',
     'get_a_quote' => 'Offert Ufroën',
     'go_to_product' => 'Gitt op de Produit',
