@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Dalla 1982 eleviamo i standardi nelle soluzioni di carico",
-            "description": "Per ogni nostro cliente abbiamo creato un'esperienza unica.",
-            "button": "Parla con noi"
+    "description": "Qualità che muove – Il principale produttore europeo di rampe di carico mobili - Oltre 500 soluzioni individuali in stock.",
+    "button": "Parla con noi..."
         },
         "box": {
             "title": "Ottieni preventivi per rampe",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Rampe di carico in magazzino: Esplora { type }"
     },
     "products": {
+        "delivery_in_three_days": "Consegna in 3 giorni:",
         "image_label": "L'immagine mostrata è solo a scopo illustrativo; il prodotto reale può differire per dimensioni, peso e opzioni personalizzate.",
         "back_button": "INDIETRO",
         "list": {

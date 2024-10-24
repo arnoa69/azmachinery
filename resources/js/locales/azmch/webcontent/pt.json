@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Desde 1982 temos vindo a elevar a fasquia em soluções de carregamento",
-            "description": "Para cada um de nossos clientes, criamos uma experiência única.",
-            "button": "Fale conosco"
+    "description": "Qualidade que move – Principal produtor europeu de rampas de carregamento móveis - Mais de 500 soluções individuais em estoque.",
+    "button": "Fale conosco..."
         },
         "box": {
             "title": "Obtenha cotações para rampas",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Rampas de carga em stock: Explore { type }"
     },
     "products": {
+        "delivery_in_three_days": "Entrega em três dias:",
         "image_label": "A imagem mostrada é apenas para fins ilustrativos; o produto real pode diferir em termos de tamanho, peso e opções personalizadas.",
         "back_button": "VOLTAR",
         "list": {

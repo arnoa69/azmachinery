@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Siden 1982 har vi hevet standarden innen ladeløsninger",
-            "description": "For hver av våre kunder har vi skapt en unik opplevelse.",
-            "button": "Snakk med oss"
+    "description": "Kvalitet som beveger – Europas ledende produsent av mobile lastestrapper - 500+ individuelle løsninger på lager.",
+    "button": "Snakk med oss..."
         },
         "box": {
             "title": "Få tilbud for ramper",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Lastehelger på lager: Utforsk { type }"
     },
     "products": {
+        "delivery_in_three_days": "Levering på tre dager:",
         "image_label": "Det viste bildet er kun til illustrativt formål; det faktiske produktet kan avvike i forhold til størrelse, vekt og tilpasningsmuligheter.",
         "back_button": "TILBAKE",
         "list": {

@@ -76,10 +76,10 @@ onMounted(() => {
           <li>
             <LanguageSwitcher class="language" />
           </li>
-          <li> <a class="btn-getstarted" :href="`/${locale}/get-a-quote`">{{ $t('header.getQuote') }}</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav><!-- .navbar -->
+      <a class="btn-getstarted" :href="`/${locale}/get-a-quote`">{{ $t('header.getQuote') }}</a>
     </div>
   </header><!-- End Header -->
 

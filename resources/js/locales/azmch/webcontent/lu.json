@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Sinds 1982 verhogen we normen in laadoplossingen",
-            "description": "Voor elke van onze klanten hebben we een unieke ervaring gecreëerd.",
-            "button": "Schwätzt mat eis"
+    "description": "Qualitéit, déi beweegt – Europas Topproducent fir mobil Verladerampen – iwwer 500 individuell Léisungen vum Lager.",
+    "button": "Schwat e mat eis..."
         },
         "box": {
             "title": "Préventioun vun der Ramp",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Luederampen am Stock: Entdecke { type }"
     },
     "products": {
+        "delivery_in_three_days": "Liwwerung an 3 Deeg:",
         "image_label": "D'Bild ass nëmmen zu Illustratiounszwecker; dat wierklecht Produkt kann a Bezuch op Gréisst, Gewiicht an individuell Optiounen ofwäichen.",
         "back_button": "BACK",
         "list": {

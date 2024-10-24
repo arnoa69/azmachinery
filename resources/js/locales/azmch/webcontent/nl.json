@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Sinds 1982 leggen wij de lat hoger op het gebied van laadoplossingen",
-            "description": "Voor elk van onze klanten hebben we een unieke ervaring gecreëerd.",
-            "button": "Praat met ons"
+    "description": "Kwaliteit die beweegt – Europa's topproducent van mobiele laadramen - 500+ individuele oplossingen op voorraad.",
+    "button": "Spreek met ons..."
         },
         "box": {
             "title": "Ontvang offertes voor oprijplaten",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Laadkleppen op voorraad: Verken { type }"
     },
     "products": {
+        "delivery_in_three_days": "Levering binnen drie dagen:",
         "image_label": "De getoonde afbeelding is alleen voor illustratieve doeleinden; het daadwerkelijke product kan afwijken in termen van grootte, gewicht en aangepaste opties.",
         "back_button": "TERUG",
         "list": {

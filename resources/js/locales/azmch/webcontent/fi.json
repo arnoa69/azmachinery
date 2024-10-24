@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Vuodesta 1982 lähtien olemme nostaneet rimaa latausratkaisuissa",
-            "description": "Olemme luoneet jokaiselle asiakkaallemme ainutlaatuisen kokemuksen.",
-            "button": "Puhu meille"
+    "description": "Laadukkuutta, joka liikuttaa – Euroopan johtava mobiilien lastausrampien valmistaja - yli 500 yksilöllistä ratkaisua varastossa.",
+    "button": "Juttele kanssamme..."
         },
         "box": {
             "title": "Hanki tarjouksia rampeille",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Lastausramppi varastossa: Tutustu { type }"
     },
     "products": {
+        "delivery_in_three_days": "Toimitus 3 päivässä:",
         "image_label": "Kuvassa näkyvä kuva on vain havainnollistamiseen tarkoitettu; todellinen tuote voi poiketa koosta, painosta ja mukautettavista vaihtoehdoista.",
         "back_button": "TAKAISIN",
         "list": {

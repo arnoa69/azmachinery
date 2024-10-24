@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Sedan 1982 har vi höjt ribban inom laddningslösningar",
-            "description": "För var och en av våra kunder har vi skapat en unik upplevelse.",
-            "button": "Prata med oss"
+    "description": "Kvalitet som rör – Europas ledande producent av mobila lastningsramper - 500+ individuella lösningar i lager.",
+    "button": "Prata med oss..."
         },
         "box": {
             "title": "Få offerter för ramper",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Lastningsramp på lager: Utforska { type }"
     },
     "products": {
+        "delivery_in_three_days": "Leverans inom tre dagar:",
         "image_label": "Den visade bilden är endast avsedd för illustrativa ändamål; den faktiska produkten kan avvika i fråga om storlek, vikt och anpassningsalternativ.",
         "back_button": "TILLBAKA",
         "list": {

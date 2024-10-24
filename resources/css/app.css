@@ -389,9 +389,9 @@ section,
     }
 
     .header .logo img {
-      display: none;
+        font-size: 16px;
     }
-    .header .logo h1 {font-size: 16px;}
+    .header .logo h1 {display: none;}
 
     .header .btn-getstarted {
       font-size: 21px;

@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Klientide jaotuseks 1982 algatud",
-            "description": "Iga meie klientile on loodud isiklik kogemus.",
-            "button": "Snäpp kasutajaga"
+    "description": "Kvaliteet, mis liigutab – Euroopa juhtiv mobiilsete laadimisramppide tootja - üle 500 individuaalset lahendust laos.",
+    "button": "Rääkige meiega..."
         },
         "box": {
             "title": "Saage pakkumisi ramplaudadele",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Laaduramp varutoodetena: Tutvu { type }"
     },
     "products": {
+        "delivery_in_three_days": "Tarne 3 päevaga:",
         "image_label": "Näidatud pilt on ainult illustreeriva eesmärgiga; tegelik toode võib erineda suuruse, kaalu ja kohandatud valikute osas.",
         "back_button": "TAGASI",
         "list": {

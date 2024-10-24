@@ -96,8 +96,8 @@
     "hero": {
         "title": {
             "start": "Seit 1982 Standard mit Ladesystemen",
-            "description": "Für jeden unserer Kunden haben wir eine individuelle Erfahrung erstellt.",
-            "button": "Mit uns sprechen"
+            "description": "Qualität, die bewegt – Europas Top-Produzent für mobile Verladerampen - 500+ Individuallösungen ab Lager.",
+            "button": "Sprechen Sie mit uns..."
         },
         "box": {
             "title": "Angebote für Rampen erhalten",
@@ -489,6 +489,7 @@
         "category_product_lists": "{ country } - Laderampen auf Lager: Entdecken Sie { type }"
     },
     "products": {
+        "delivery_in_three_days": "Lieferung in 3 Tagen:",
         "image_label": "Das gezeigte Bild dient nur illustrativen Zwecken; das tatsächliche Produkt kann in Bezug auf Größe, Gewicht und individuelle Optionen abweichen.",
         "back_button": "ZURÜCK",
         "list": {

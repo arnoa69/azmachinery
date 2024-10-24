@@ -76,35 +76,30 @@ const showPolicyBanner = ref(false)
     <Layout :isDetailView="false">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+                <div class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start order-lg-1 order-2">
                     <div class="row categories-list">
                         <div class="service-details">
                             <HelpSidebar :page_or_slug="page_or_slug" />
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 d-flex flex-column align-items-stretch">
+                <div class="col-lg-8 d-flex flex-column align-items-stretch order-lg-2 order-1">
                     <div v-for="(type, key) in base_names" :key="key" :class="`postcard dark ${['green', 'red', 'blue'][key % 3]}`" >
                         <a class="postcard__img_link" href="#">
                             <img class="postcard__img" :src="`/img/products/${type}/${type}.jpg`" alt="Image Title" />
                         </a>
+                        <a :href="'products/' + type">
                         <div class="postcard__text">
                             <h1 class="postcard__title"><a href="#">{{ type }}</a></h1>
                             <div class="postcard__subtitle small">
                                 <time :datetime="new Date().toISOString()">
-                                    <i class="fas fa-calendar-alt mr-2"></i>{{ new Date().toLocaleDateString() }} - livraison en 3 jours: {{ new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toLocaleDateString() }}
+                                    <i class="fas fa-calendar-alt mr-2"></i>{{ new Date().toLocaleDateString() }} - {{ $t('products.delivery_in_three_days') }} <span class="text-green">{{ new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toLocaleDateString() }}</span>
                                 </time>
                             </div>
                             <div class="postcard__bar"></div>
                             <div class="postcard__preview-txt">{{ $t(`categories.${type}.description`) }}</div>
-                            <ul class="postcard__tagbox">
-                                <li class="tag__item"><i class="fas fa-tag mr-2"></i>{{ type }}</li>
-                                <li class="tag__item"><i class="fas fa-clock mr-2"></i>locaction 1,3,6 meses</li>
-                                <li class="tag__item play">
-                                    <a :href="'products/' + type"><i class="fas fa-play mr-2"></i>Show</a>
-                                </li>
-                            </ul>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -124,6 +119,9 @@ const showPolicyBanner = ref(false)
 </template>
 
 <style scoped>
+.text-green {
+    color: rgb(48, 228, 48);
+}
 .dark {
     background: #110f16;
 }

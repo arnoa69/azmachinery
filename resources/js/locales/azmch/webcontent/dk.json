@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Siden 1982 har vi øget standarderne i indløsningsløsninger",
-            "description": "Vi har oprettet en unik oplevelse for hver af vores kunder.",
-            "button": "Tal med os"
+    "description": "Qualitet, der bevæger – Europas førende producent af mobile lasterampe - 500+ individuelt tilpassede løsninger på lager.",
+    "button": "Tal med os..."
         },
         "box": {
             "title": "Få tilbud på ramper",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Læseramper på lager: Udforsk { type }"
     },
     "products": {
+        "delivery_in_three_days": "Levering på 3 dage:",
         "image_label": "Det viste billede er kun til illustrativt formål; det faktiske produkt kan afvige i forhold til størrelse, vægt og tilpasningsmuligheder.",
         "back_button": "TILBAGE",
         "list": {

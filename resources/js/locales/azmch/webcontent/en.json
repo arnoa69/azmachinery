@@ -97,8 +97,8 @@
     "hero": {
         "title": {
             "start": "Elevating businesses since 1982",
-            "description": "For each of our clients, we have created a unique experience.",
-            "button": "Talk to us"
+    "description": "Quality that moves – Europe's top producer of mobile loading ramps - 500+ individual solutions in stock.",
+    "button": "Talk to us..."
         },
         "box": {
             "title": "Get quotes for ramps",
@@ -490,6 +490,7 @@
         "category_product_lists": "{ country } - Loading Ramps in Stock: Explore { type }"
     },
     "products": {
+        "delivery_in_three_days": "Delivery in 3 days:",
         "image_label": "Image shown is for illustrative purposes only; actual product may differ in terms of size, weight, and custom options.",
         "back_button": "BACK",
         "list": {
