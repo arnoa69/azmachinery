@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Rampas de carga em stock: Explore { type }"
     },
     "products": {
+        "sold": "vendido",
+        "reviews": "Avaliações",
         "delivery_in_three_days": "Entrega em três dias:",
         "image_label": "A imagem mostrada é apenas para fins ilustrativos; o produto real pode diferir em termos de tamanho, peso e opções personalizadas.",
         "back_button": "VOLTAR",

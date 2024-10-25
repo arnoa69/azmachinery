@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Lastausramppi varastossa: Tutustu { type }"
     },
     "products": {
+        "sold": "myyty",
+        "reviews": "Arvostelut",
         "delivery_in_three_days": "Toimitus 3 päivässä:",
         "image_label": "Kuvassa näkyvä kuva on vain havainnollistamiseen tarkoitettu; todellinen tuote voi poiketa koosta, painosta ja mukautettavista vaihtoehdoista.",
         "back_button": "TAKAISIN",

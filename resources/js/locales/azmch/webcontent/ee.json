@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Laaduramp varutoodetena: Tutvu { type }"
     },
     "products": {
+        "sold": "müüdud",
+        "reviews": "Arvustused",
         "delivery_in_three_days": "Tarne 3 päevaga:",
         "image_label": "Näidatud pilt on ainult illustreeriva eesmärgiga; tegelik toode võib erineda suuruse, kaalu ja kohandatud valikute osas.",
         "back_button": "TAGASI",

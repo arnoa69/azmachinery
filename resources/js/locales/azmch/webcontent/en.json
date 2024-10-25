@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Loading Ramps in Stock: Explore { type }"
     },
     "products": {
+        "sold": "sold",
+        "reviews": "Reviews",
         "delivery_in_three_days": "Delivery in 3 days:",
         "image_label": "Image shown is for illustrative purposes only; actual product may differ in terms of size, weight, and custom options.",
         "back_button": "BACK",

@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Læseramper på lager: Udforsk { type }"
     },
     "products": {
+        "sold": "solgt",
+        "reviews": "Anmeldelser",
         "delivery_in_three_days": "Levering på 3 dage:",
         "image_label": "Det viste billede er kun til illustrativt formål; det faktiske produkt kan afvige i forhold til størrelse, vægt og tilpasningsmuligheder.",
         "back_button": "TILBAGE",

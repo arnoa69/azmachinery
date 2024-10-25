@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Rampe di carico in magazzino: Esplora { type }"
     },
     "products": {
+        "sold": "venduto",
+        "reviews": "Recensioni",
         "delivery_in_three_days": "Consegna in 3 giorni:",
         "image_label": "L'immagine mostrata è solo a scopo illustrativo; il prodotto reale può differire per dimensioni, peso e opzioni personalizzate.",
         "back_button": "INDIETRO",

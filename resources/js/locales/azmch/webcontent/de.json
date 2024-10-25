@@ -489,6 +489,8 @@
         "category_product_lists": "{ country } - Laderampen auf Lager: Entdecken Sie { type }"
     },
     "products": {
+    "sold": "verkauft",
+    "reviews": "Bewertungen",
         "delivery_in_three_days": "Lieferung in 3 Tagen:",
         "image_label": "Das gezeigte Bild dient nur illustrativen Zwecken; das tatsächliche Produkt kann in Bezug auf Größe, Gewicht und individuelle Optionen abweichen.",
         "back_button": "ZURÜCK",

@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Luederampen am Stock: Entdecke { type }"
     },
     "products": {
+        "sold": "verkaf",
+        "reviews": "Rezensiounen",
         "delivery_in_three_days": "Liwwerung an 3 Deeg:",
         "image_label": "D'Bild ass nëmmen zu Illustratiounszwecker; dat wierklecht Produkt kann a Bezuch op Gréisst, Gewiicht an individuell Optiounen ofwäichen.",
         "back_button": "BACK",

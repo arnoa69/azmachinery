@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Lastehelger på lager: Utforsk { type }"
     },
     "products": {
+        "sold": "solgt",
+        "reviews": "Anmeldelser",
         "delivery_in_three_days": "Levering på tre dager:",
         "image_label": "Det viste bildet er kun til illustrativt formål; det faktiske produktet kan avvike i forhold til størrelse, vekt og tilpasningsmuligheter.",
         "back_button": "TILBAKE",

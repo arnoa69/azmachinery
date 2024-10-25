@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Laadkleppen op voorraad: Verken { type }"
     },
     "products": {
+        "sold": "verkocht",
+        "reviews": "Beoordelingen",
         "delivery_in_three_days": "Levering binnen drie dagen:",
         "image_label": "De getoonde afbeelding is alleen voor illustratieve doeleinden; het daadwerkelijke product kan afwijken in termen van grootte, gewicht en aangepaste opties.",
         "back_button": "TERUG",

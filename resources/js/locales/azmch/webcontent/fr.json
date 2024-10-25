@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Rampes de chargement en stock: Explorez { type }"
     },
     "products": {
+        "sold": "vendu",
+        "reviews": "Avis",
         "delivery_in_three_days": "livraison en 3 jours:",
         "image_label": "L'image affichée est uniquement destinée à des fins d'illustration; le produit réel peut différer en termes de taille, de poids et d'options personnalisées.",
         "back_button": "RETOUR",

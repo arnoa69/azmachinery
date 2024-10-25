@@ -490,6 +490,8 @@
         "category_product_lists": "{ country } - Lastningsramp på lager: Utforska { type }"
     },
     "products": {
+        "sold": "såld",
+        "reviews": "Recensioner",
         "delivery_in_three_days": "Leverans inom tre dagar:",
         "image_label": "Den visade bilden är endast avsedd för illustrativa ändamål; den faktiska produkten kan avvika i fråga om storlek, vikt och anpassningsalternativ.",
         "back_button": "TILLBAKA",
