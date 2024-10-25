@@ -11,67 +11,67 @@ class UrlHelper
         "en" => [
             "mobile" => "mobile-loading-ramp",
             "static" => "static",
-            "container" => "container-access-ramps"
+            "container-access-ramps" => "container-access-ramps"
         ],
         "de" => [
             "mobile" => "mobile-laderampe",
             "static" => "fix",
-            "container" => "container-rampen"
+            "container-access-ramps" => "container-rampen"
         ],
         "dk" => [
             "mobile" => "mobil-lasserampe",
             "static" => "fast",
-            "container" => "container-adgangsramper"
+            "container-access-ramps" => "container-adgangsramper"
         ],
         "ee" => [
             "mobile" => "mobiilne-laadimisramp",
             "static" => "staatiline",
-            "container" => "konteiner-rampid"
+            "container-access-ramps" => "konteiner-rampid"
         ],
         "es" => [
             "mobile" => "rampa-de-carga-movil",
             "static" => "estatico",
-            "container" => "rampas-de-acceso-a-contenedores"
+            "container-access-ramps" => "rampas-de-acceso-a-contenedores"
         ],
         "fi" => [
             "mobile" => "siirrettava-lastausramppi",
             "static" => "staattinen",
-            "container" => "kontti-rampit"
+            "container-access-ramps" => "kontti-rampit"
         ],
         "fr" => [
             "mobile" => "rampe-de-chargement-mobile",
             "static" => "rampes-access-conteneurs",
-            "container" => "rampes-access-container"
+            "container-access-ramps" => "rampes-access-container"
         ],
         "it" => [
             "mobile" => "rampa-di-carico-mobile",
             "static" => "statico",
-            "container" => "rampe-di-accesso-container"
+            "container-access-ramps" => "rampe-di-accesso-container"
         ],
         "lu" => [
             "mobile" => "mobil-luedrampe",
             "static" => "statique",
-            "container" => "container-zougangsrampen"
+            "container-access-ramps" => "container-zougangsrampen"
         ],
         "nl" => [
             "mobile" => "mobiele-laadramp",
             "static" => "statisch",
-            "container" => "container-toegangsrampen"
+            "container-access-ramps" => "container-toegangsrampen"
         ],
         "no" => [
             "mobile" => "mobil-lasterampe",
             "static" => "statisk",
-            "container" => "containeradgangsramper"
+            "container-access-ramps" => "containeradgangsramper"
         ],
         "pt" => [
             "mobile" => "rampa-de-carga-movel",
             "static" => "estatico",
-            "container" => "rampas-de-acesso-a-conteineres"
+            "container-access-ramps" => "rampas-de-acesso-a-conteineres"
         ],
         "se" => [
             "mobile" => "mobil-lastningsramp",
             "static" => "statisk",
-            "container" => "containerramper"
+            "container-access-ramps" => "containerramper"
         ]
     ];
 
@@ -80,79 +80,92 @@ class UrlHelper
             "standard" => "standard-size",
             "llo" => "long-leveler-off",
             "xl" => "extra-large",
-            "lloxl" => "long-leveler-off-extra-large"
+            "lloxl" => "long-leveler-off-extra-large",
+            "galvanized" => "galvanized",
         ],
         "de" => [
             "standard" => "standard-groesse",
             "llo" => "ausfahrende-verlaengerung",
             "xl" => "extra-lang",
-            "lloxl" => "ausfahrende-verlaengerung-extra-lang"
+            "lloxl" => "ausfahrende-verlaengerung-extra-lang",
+            "galvanized" => "galvanisiert"
         ],
         "dk" => [
             "standard" => "standard-storrelse",
             "llo" => "lang-udfyldning",
             "xl" => "ekstra-stor",
-            "lloxl" => "lang-udfyldning-ekstra-stor"
+            "lloxl" => "lang-udfyldning-ekstra-stor",
+            "galvanized" => "galvaniseret"
         ],
         "ee" => [
             "standard" => "vaikimisi-suurus",
             "llo" => "pikk-laiend-valja",
             "xl" => "ekstra-suur",
-            "lloxl" => "pikk-laiend-valja-ekstra-suur"
+            "lloxl" => "pikk-laiend-valja-ekstra-suur",
+            "galvanized" => "galvaniseeritud"
         ],
         "es" => [
             "standard" => "tamano-estandar",
             "llo" => "alargamiento-largo",
             "xl" => "extra-grande",
-            "lloxl" => "alargamiento-largo-extra-grande"
+            "lloxl" => "alargamiento-largo-extra-grande",
+            "galvanized" => "galvanizado"
         ],
         "fi" => [
             "standard" => "normaali-koko",
             "llo" => "pidentavalennys",
             "xl" => "ekstra-suuri",
-            "lloxl" => "pidentavalennys-ekstra-suuri"
+            "lloxl" => "pidentavalennys-ekstra-suuri",
+            "galvanized" => "galvanisointi"
         ],
         "fr" => [
             "standard" => "taille-standard",
             "llo" => "extension-longue",
             "xl" => "tres-grand",
-            "lloxl" => "extension-longue-tres-grand"
+            "lloxl" => "extension-longue-tres-grand",
+            "galvanized" => "galvanise"
         ],
         "it" => [
             "standard" => "dimensione-standard",
             "llo" => "allungamento-lunghezza",
             "xl" => "extra-grande",
-            "lloxl" => "allungamento-lunghezza-extra-grande"
+            "lloxl" => "allungamento-lunghezza-extra-grande",
+            "galvanized" => "galvanizzato"
         ],
         "lu" => [
             "standard" => "normale-grossezza",
             "llo" => "extension-longue",
             "xl" => "extra-gros",
-            "lloxl" => "extension-longue-extra-gros"
+            "lloxl" => "extension-longue-extra-gros",
+            "galvanized" => "galvanisiert"
         ],
         "nl" => [
             "standard" => "standaard-grootte",
             "llo" => "lange-niveau-uit",
             "xl" => "extra-groot",
-            "lloxl" => "lange-niveau-uit-extra-groot"
+            "lloxl" => "lange-niveau-uit-extra-groot",
+            "galvanized" => "galvaniseerd"
         ],
         "no" => [
             "standard" => "standard-storrelse",
             "llo" => "lang-udfylding",
             "xl" => "ekstra-stor",
-            "lloxl" => "lang-udfylding-ekstra-stor"
+            "lloxl" => "lang-udfylding-ekstra-stor",
+            "galvanized" => "galvanisert"
         ],
         "pt" => [
             "standard" => "tamanho-padrao",
             "llo" => "alongamento-longo",
             "xl" => "extra-grande",
-            "lloxl" => "alongamento-longo-extra-grande"
+            "lloxl" => "alongamento-longo-extra-grande",
+            "galvanized" => "galvanizado"
         ],
         "se" => [
             "standard" => "standard-storlek",
             "llo" => "lang-utbyggnad",
             "xl" => "extra-stor",
-            "lloxl" => "lang-utbyggnad-extra-stor"
+            "lloxl" => "lang-utbyggnad-extra-stor",
+            "galvanized" => "galvaniserad"
         ]
     ];
 

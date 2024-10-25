@@ -17,6 +17,12 @@ class GenerateLanguageFiles extends Command
         parent::__construct();
     }
 
+    /**
+     *
+     * Execute the console command to generate language files.
+     * ! ee is et and lu is lb in iso 639-1
+     * @return void
+     */
     public function handle()
     {
         $country = env('VITE_APP_COUNTRY', 'azmch'); // 'default_country' is a fallback value

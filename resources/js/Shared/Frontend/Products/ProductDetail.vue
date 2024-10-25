@@ -178,10 +178,10 @@ onMounted(() => {
                             <i class="bi bi-star-fill" style="color: #DA913C;"></i>
                             4.9
                         </span>
-                        <span class="reviews">58+ Reviews • </span>
+                        <span class="reviews">58+ {{ $t('products.reviews') }} • </span>
                         <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
                                 v-if="baseName === product.base_name">{{ count }}</span></span>
-                        <span>+ sold</span>
+                        <span>+ {{ $t('products.sold') }}</span>
 
                     </div>
                     <button @click="goBack" class="btn-back mt-3">
@@ -253,10 +253,10 @@ onMounted(() => {
                                         <i class="bi bi-star-fill" style="color: #DA913C;"></i>
                                         4.9
                                     </span>
-                                    <span class="reviews">58+ Reviews • </span>
+                                    <span class="reviews">58+ {{ $t('products.reviews') }} • </span>
                                     <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
                                             v-if="baseName === product.base_name">{{ count }}</span></span>
-                                    <span>+ sold </span>
+                                    <span>+ {{ $t('products.sold') }} </span>
                                     <a :href="`/pdf${generateUrl(product.slug, product.version, product.type, locale, pdf=true)}`" target="_blank" class="pdf-download-link ml-2">
                                         {{ $t("products.product_data_sheet") }} <i class="bi bi-file-pdf-fill"></i>
                                     </a>
