@@ -71,6 +71,21 @@
         "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
+    "lang": {
+        "de": "Tyska",
+        "dk": "Danska",
+        "et": "Estniska",
+        "en": "Engelska",
+        "es": "Spanska",
+        "fi": "Finska",
+        "fr": "Franska",
+        "it": "Italienska",
+        "lb": "Luxemburgiska",
+        "nl": "Nederländska",
+        "no": "Norska",
+        "pt": "Portugisiska",
+        "se": "Svenska"
+    },
     "header": {
         "title": "Mobila lastbryggor: Stort lager, snabb leverans - AZ Machinery",
         "home": "Hem",

@@ -23,7 +23,7 @@ class UrlHelper
             "static" => "fast",
             "container-access-ramps" => "container-adgangsramper"
         ],
-        "ee" => [
+        "et" => [
             "mobile" => "mobiilne-laadimisramp",
             "static" => "staatiline",
             "container-access-ramps" => "konteiner-rampid"
@@ -48,7 +48,7 @@ class UrlHelper
             "static" => "statico",
             "container-access-ramps" => "rampe-di-accesso-container"
         ],
-        "lu" => [
+        "lb" => [
             "mobile" => "mobil-luedrampe",
             "static" => "statique",
             "container-access-ramps" => "container-zougangsrampen"
@@ -97,7 +97,7 @@ class UrlHelper
             "lloxl" => "lang-udfyldning-ekstra-stor",
             "galvanized" => "galvaniseret"
         ],
-        "ee" => [
+        "et" => [
             "standard" => "vaikimisi-suurus",
             "llo" => "pikk-laiend-valja",
             "xl" => "ekstra-suur",
@@ -132,7 +132,7 @@ class UrlHelper
             "lloxl" => "allungamento-lunghezza-extra-grande",
             "galvanized" => "galvanizzato"
         ],
-        "lu" => [
+        "lb" => [
             "standard" => "normale-grossezza",
             "llo" => "extension-longue",
             "xl" => "extra-gros",
@@ -221,7 +221,7 @@ class UrlHelper
                 'gao' => 'fuld-galvaniseret-forzinket-otc',
                 'tb' => 'presenning-tunnel',
             ],
-        'ee' =>
+        'et' =>
             [
                 'zr' => 'turvapiirkond',
                 'rl1200' => 'poolkorvuti',
@@ -307,7 +307,7 @@ class UrlHelper
                 'gao' => 'completamente-galvanizzato-otc',
                 'tb' => 'tunnel-tetto',
             ],
-        'lu' =>
+        'lb' =>
             [
                 'zr' => 'zone-refuge',
                 'rl1200' => 'barrieres-laterales',

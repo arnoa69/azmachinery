@@ -12,7 +12,7 @@ export function getLocalizedCountry() {
         countryName = t('meta.product_detail_view.countries.germany');
     } else if (locale.value === 'dk') {
         countryName = t('meta.product_detail_view.countries.denmark');
-    } else if (locale.value === 'ee') {
+    } else if (locale.value === "et") {
         countryName = t('meta.product_detail_view.countries.estonia');
     } else if (locale.value === 'es') {
         countryName = t('meta.product_detail_view.countries.spain');
@@ -22,7 +22,7 @@ export function getLocalizedCountry() {
         countryName = t('meta.product_detail_view.countries.france');
     } else if (locale.value === 'it') {
         countryName = t('meta.product_detail_view.countries.italy');
-    } else if (locale.value === 'lu') {
+    } else if (locale.value === "lb") {
         countryName = t('meta.product_detail_view.countries.luxembourg');
     } else if (locale.value === 'nl') {
         countryName = t('meta.product_detail_view.countries.netherlands');

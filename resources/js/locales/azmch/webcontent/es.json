@@ -69,6 +69,21 @@
         "twitter:image": "/img/mobile-verladerampe-deutschland-frankreich.jpg",
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
+    "lang": {
+        "de": "Alemán",
+        "dk": "Danés",
+        "et": "Estonio",
+        "en": "Inglés",
+        "es": "Español",
+        "fi": "Finlandés",
+        "fr": "Francés",
+        "it": "Italiano",
+        "lb": "Luxemburgués",
+        "nl": "Neerlandés",
+        "no": "Noruego",
+        "pt": "Portugués",
+        "se": "Sueco"
+    },
     "header": {
         "title": "Rampas de carga móviles: Gran stock, entrega rápida - AZ Machinery",
         "home": "Inicio",

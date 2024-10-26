@@ -12,7 +12,7 @@ class GenerateProductPdfTranslations extends Command
     public function handle()
     {
         // Liste der Sprachen
-        $languages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
+        $languages = ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'];
         $country = env('VITE_APP_COUNTRY', 'azmch'); // 'default_country' is a fallback value
         // Basis-Pfad zu den JSON-Dateien
         $jsonBasePath = resource_path('js/locales/' . $country . '/products');

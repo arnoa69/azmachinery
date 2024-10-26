@@ -4,7 +4,7 @@ import { useI18n } from 'vue-i18n';
 import { usePage, router } from '@inertiajs/vue3';
 import axios from 'axios';
 
-const { availableLocales, locale } = useI18n();
+const { availableLocales, locale, t } = useI18n();
 const page = usePage();
 const currentLocale = ref(locale.value);
 const product = page.props.product;
@@ -14,12 +14,12 @@ const validTypes = {
     'en': { 'mobile': 'mobile-loading-ramp', 'static': 'static', 'container-access-ramps': 'container-access-ramps' },
     'de': { 'mobile': 'mobile-laderampe', 'static': 'fix', 'container-access-ramps': 'container-rampen' },
     'dk': { 'mobile': 'mobil-lasserampe', 'static': 'fast', 'container-access-ramps': 'container-adgangsramper' },
-    'ee': { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container-access-ramps': 'konteiner-rampid' },
+    "et": { 'mobile': 'mobiilne-laadimisramp', 'static': 'staatiline', 'container-access-ramps': 'konteiner-rampid' },
     'es': { 'mobile': 'rampa-de-carga-movil', 'static': 'estatico', 'container-access-ramps': 'rampas-de-acceso-a-contenedores' },
     'fi': { 'mobile': 'siirrettava-lastausramppi', 'static': 'staattinen', 'container-access-ramps': 'kontti-rampit' },
     'fr': { 'mobile': 'rampe-de-chargement-mobile', 'static': 'statique', 'container-access-ramps': 'rampes-access-container' },
     'it': { 'mobile': 'rampa-di-carico-mobile', 'static': 'statico', 'container-access-ramps': 'rampe-di-accesso-container' },
-    'lu': { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container-access-ramps': 'container-zougangsrampen' },
+    "lb": { 'mobile': 'mobil-luedrampe', 'static': 'statique', 'container-access-ramps': 'container-zougangsrampen' },
     'nl': { 'mobile': 'mobiele-laadramp', 'static': 'statisch', 'container-access-ramps': 'container-toegangsrampen' },
     'no': { 'mobile': 'mobil-lasterampe', 'static': 'statisk', 'container-access-ramps': 'containeradgangsramper' },
     'pt': { 'mobile': 'rampa-de-carga-movel', 'static': 'estatico', 'container-access-ramps': 'rampas-de-acesso-a-conteineres' },
@@ -30,12 +30,12 @@ const validVersions = {
     'en': { 'standard': 'standard-size', 'llo': 'long-leveler-off', 'xl': 'extra-large', 'llo-xl': 'long-leveler-off-extra-large' },
     'de': { 'standard': 'standard-groesse', 'llo': 'ausfahrende-verlaengerung', 'xl': 'extra-lang', 'llo-xl': 'ausfahrende-verlaengerung-extra-lang' },
     'dk': { 'standard': 'standard-storrelse', 'llo': 'lang-udfyldning', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfyldning-ekstra-stor' },
-    'ee': { 'standard': 'vaikimisi-suurus', 'llo': 'pikk-laiend-valja', 'xl': 'ekstra-suur', 'llo-xl': 'pikk-laiend-valja-ekstra-suur' },
+    "et": { 'standard': 'vaikimisi-suurus', 'llo': 'pikk-laiend-valja', 'xl': 'ekstra-suur', 'llo-xl': 'pikk-laiend-valja-ekstra-suur' },
     'es': { 'standard': 'tamano-estandar', 'llo': 'alargamiento-largo', 'xl': 'extra-grande', 'llo-xl': 'alargamiento-largo-extra-grande' },
     'fi': { 'standard': 'normaali-koko', 'llo': 'pidentavalennys', 'xl': 'ekstra-suuri', 'llo-xl': 'pidentavalennys-ekstra-suuri' },
     'fr': { 'standard': 'taille-standard', 'llo': 'extension-longue', 'xl': 'tres-grand', 'llo-xl': 'extension-longue-tres-grand' },
     'it': { 'standard': 'dimensione-standard', 'llo': 'allungamento-lunghezza', 'xl': 'extra-grande', 'llo-xl': 'allungamento-lunghezza-extra-grande' },
-    'lu': { 'standard': 'normale-grossezza', 'llo': 'extension-longue', 'xl': 'extra-gros', 'llo-xl': 'extension-longue-extra-gros' },
+    "lb": { 'standard': 'normale-grossezza', 'llo': 'extension-longue', 'xl': 'extra-gros', 'llo-xl': 'extension-longue-extra-gros' },
     'nl': { 'standard': 'standaard-grootte', 'llo': 'lange-niveau-uit', 'xl': 'extra-groot', 'llo-xl': 'lange-niveau-uit-extra-groot' },
     'no': { 'standard': 'standard-storrelse', 'llo': 'lang-udfylding', 'xl': 'ekstra-stor', 'llo-xl': 'lang-udfylding-ekstra-stor' },
     'pt': { 'standard': 'tamanho-padrao', 'llo': 'alongamento-longo', 'xl': 'extra-grande', 'llo-xl': 'alongamento-longo-extra-grande' },
@@ -91,7 +91,7 @@ const validOptions = {
         'gao': 'fuld-galvaniseret-forzinket-otc',
         'tb': 'presenning-tunnel'
     },
-    'ee': {
+    "et": {
         'zr': 'turvapiirkond',
         'rl1200': 'poolkorvuti',
         'rl1200p': 'poolkorvuti-prime-xs',
@@ -171,7 +171,7 @@ const validOptions = {
         'gao': 'completamente-galvanizzato-otc',
         'tb': 'tunnel-tetto'
     },
-    'lu': {
+    "lb": {
         'zr': 'zone-refuge',
         'rl1200': 'barrieres-laterales',
         'rl1200p': 'barrieres-laterales-prime-xs',
@@ -252,6 +252,28 @@ const validOptions = {
         'tb': 'takkup'
     }
 };
+
+const languageNames = {
+    'de': t('lang.de'),
+    'dk': t('lang.dk'),
+    'et': t('lang.et'),
+   // 'ee': t('lang.et'),
+    'en': t('lang.en'),
+    'es': t('lang.es'),
+    'fi': t('lang.fi'),
+    'fr': t('lang.fr'),
+    'it': t('lang.it'),
+    'lb': t('lang.lb'),
+   // 'lu': t('lang.lb'),
+    'nl': t('lang.nl'),
+    'no': t('lang.no'),
+    'pt': t('lang.pt'),
+    'se': t('lang.se')
+};
+
+const changeLang = (locale) => {
+    return languageNames[locale] || locale;
+}
 
 const translateSlug = (base_name, type, slug, currentLocale, newLocale) => {
 
@@ -344,7 +366,7 @@ const changeLanguage = async (event) => {
 <template>
     <div class="language-switcher">
         <select @change="changeLanguage" v-model="currentLocale">
-            <option v-for="locale in availableLocales" :key="locale" :value="locale">{{ locale }}</option>
+            <option v-for="locale in availableLocales" :key="locale" :value="locale">{{ changeLang(locale) }}</option>
         </select>
     </div>
 </template>

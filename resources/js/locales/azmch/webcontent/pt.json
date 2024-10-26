@@ -71,6 +71,21 @@
         "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
+    "lang": {
+        "de": "Alemão",
+        "dk": "Dinamarquês",
+        "et": "Estónio",
+        "en": "Inglês",
+        "es": "Espanhol",
+        "fi": "Finlandês",
+        "fr": "Francês",
+        "it": "Italiano",
+        "lb": "Luxemburguês",
+        "nl": "Holandês",
+        "no": "Norueguês",
+        "pt": "Português",
+        "se": "Sueco"
+    },
     "header": {
         "title": "Rampas de carga móveis: Grande estoque, entrega rápida - AZ Machinery",
         "home": "Início",

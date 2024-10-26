@@ -118,7 +118,7 @@ Route::middleware([LocaleMiddleware::class])->group(function () {
 });
 
 Route::post('/change-locale/{locale}', function ($locale) {
-    if (in_array($locale, ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'])) {
+    if (in_array($locale, ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'])) {
         session()->put('locale', $locale);
         App::setLocale($locale);
         return response()->json(['success' => true]);

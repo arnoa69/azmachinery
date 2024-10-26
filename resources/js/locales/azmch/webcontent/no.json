@@ -71,6 +71,21 @@
         "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
+    "lang": {
+        "de": "Tysk",
+        "dk": "Dansk",
+        "et": "Estisk",
+        "en": "Engelsk",
+        "es": "Spansk",
+        "fi": "Finsk",
+        "fr": "Fransk",
+        "it": "Italiensk",
+        "lb": "Luxemburgsk",
+        "nl": "Nederlandsk",
+        "no": "Norsk",
+        "pt": "Portugisisk",
+        "se": "Svensk"
+    },
     "header": {
         "title": "Mobile lastekaier: Stor lager, rask levering - AZ Machinery",
         "home": "Hjem",

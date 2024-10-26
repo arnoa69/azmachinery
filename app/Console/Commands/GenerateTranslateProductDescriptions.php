@@ -25,7 +25,7 @@ class GenerateTranslateProductDescriptions extends Command
     private function translateDescriptions($language)
     {
         $country = env('VITE_APP_COUNTRY', 'azmch');
-        $validLanguages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se'];
+        $validLanguages = ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'];
         $basePath = resource_path('js/locales/' . $country . '/products');
 
         $enFilePath = "{$basePath}/en.json";

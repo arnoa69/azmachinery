@@ -26,7 +26,7 @@ class GenerateLanguageFiles extends Command
     public function handle()
     {
         $country = env('VITE_APP_COUNTRY', 'azmch'); // 'default_country' is a fallback value
-        $languages = ['de', 'dk', 'ee', 'en', 'es', 'fi', 'fr', 'it', 'lu', 'nl', 'no', 'pt', 'se']; // Add other languages as needed
+        $languages = ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se']; // Add other languages as needed
         $basePath = resource_path('js/locales/' . $country . '/products');
 
         // Fetch all product combinations from the database
