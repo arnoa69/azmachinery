@@ -87,3 +87,7 @@ dist/
 /lang/se/productDescription.php
 /resources/js/locales/azmbe/webcontent/**
 /resources/js/locales/azmbe/webcontent/.gitkeep
+/resources/js/locales/azmit/webcontent/**
+/resources/js/locales/azmit/webcontent/.gitkeep
+/resources/js/locales/azmnl/webcontent/**
+/resources/js/locales/azmnl/webcontent/.gitkeep

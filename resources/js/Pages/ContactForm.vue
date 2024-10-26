@@ -4,6 +4,8 @@ import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { Inertia } from '@inertiajs/inertia';
 
+const env = import.meta.env.VITE_APP_COUNTRY;
+
 const { locale } = useI18n();
 
 const name = ref('');
@@ -12,6 +14,36 @@ const company_name = ref('');
 const phone_number = ref('');
 const message = ref('');
 const inquiryType = ref('');
+const contactInfo = {
+    'azmch': {
+        'place': 'Pratteln, Switzerland',
+        'email': 'alexander.arnold@az-machinery.ch',
+        'phone': '+41 61 514 88 88'
+    },
+    'azmbe': {
+        'place': '13 rue de la scierie - 66340 Palau de Cerdagne, Frankreich',
+        'email': 'contact@az-machinery.com',
+        'phone': '+33 352 740 369'
+    },
+    'azmit': {
+        'place': '13 rue de la scierie - 66340 Palau de Cerdagne, Frankreich',
+        'email': 'contact@az-machinery.com',
+        'phone': '+33 352 740 369'
+    },
+    'azmnl': {
+        'place': '13 rue de la scierie - 66340 Palau de Cerdagne, Frankreich',
+        'email': 'contact@az-machinery.com',
+        'phone': '+33 352 740 369'
+    },
+    'azmde': {
+        'place': 'Pratteln, Switzerland',
+        'email': 'alexander.arnold@az-machinery.ch',
+        'phone': '+41 61 514 88 88'
+    }
+};
+
+const curentContactInfo = contactInfo[env] || contactInfo['azmch'];
+console.log(curentContactInfo.place);
 
 const submitForm = () => {
     const formData = new FormData();
@@ -51,7 +83,7 @@ const submitForm = () => {
                                         data-aos="fade-up" data-aos-delay="200">
                                         <i class="bi bi-geo-alt"></i>
                                         <h3>{{ $t('contact.label.place') }}</h3>
-                                        <p>Pratteln, Switzerland</p>
+                                        <p>{{ curentContactInfo.place }}</p>
                                     </div>
                                 </div><!-- End Info Item -->
 
@@ -60,7 +92,7 @@ const submitForm = () => {
                                         data-aos="fade-up" data-aos-delay="300">
                                         <i class="bi bi-telephone"></i>
                                         <h3>{{ $t('contact.label.phone') }}</h3>
-                                        <p>+41 (0)61 514 88 88</p>
+                                        <p>{{ curentContactInfo.phone }}</p>
                                     </div>
                                 </div><!-- End Info Item -->
 
@@ -70,7 +102,7 @@ const submitForm = () => {
                                         <i class="bi bi-envelope"></i>
                                         <h3>{{ $t('contact.label.email') }}</h3>
                                         <p>
-                                            <a href="mailto:alexander.arnold@az-machinery.ch" target="_blank">{{
+                                            <a :href="'mailto:' + curentContactInfo.email" target="_blank">{{
                         $t('contact.form.sales-representive') }}
                                             </a>
                                         </p>
