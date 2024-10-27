@@ -29,7 +29,7 @@ const { main: image, additional: [image_01, image_02, image_03, image_04] } = ge
                 <div class="portfolio-info">
                     <a :href="image" :title="product.slug + ': ' + imageDescription" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img :src="image" class="img-fluid" :alt="product.slug">
+                        <img :src="image" class="img-fluid" :alt="product.slug + ': ' + $t('meta.category_list_mobile.keywords')">
                     </a>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const { main: image, additional: [image_01, image_02, image_03, image_04] } = ge
                 <div class="portfolio-info">
                     <a :href="image_01" :title="product.slug + ': ' + imageDescription" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img :src="image_01" class="img-fluid" alt="">
+                        <img :src="image_01" class="img-fluid" :alt="product.slug + ': ' + $t('meta.category_list_mobile.keywords')">
                     </a>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const { main: image, additional: [image_01, image_02, image_03, image_04] } = ge
                 <div class="portfolio-info">
                     <a :href="image_02" :title="product.slug + ': ' + imageDescription" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img :src="image_02" class="img-fluid" alt="">
+                        <img :src="image_02" class="img-fluid" :alt="product.slug + ': ' + $t('meta.category_list_mobile.keywords')">
                     </a>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const { main: image, additional: [image_01, image_02, image_03, image_04] } = ge
                 <div class="portfolio-info">
                     <a :href="image_03" :title="product.slug + ': ' + imageDescription" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img :src="image_03" class="img-fluid" alt="">
+                        <img :src="image_03" class="img-fluid" :alt="product.slug + ': ' + $t('meta.category_list_mobile.keywords')">
                     </a>
                 </div>
             </div>
@@ -70,7 +70,7 @@ const { main: image, additional: [image_01, image_02, image_03, image_04] } = ge
                 <div class="portfolio-info">
                     <a :href="image_04" :title="product.slug + ': ' + imageDescription" data-gallery="portfolio-gallery-app"
                         class="glightbox preview-link">
-                        <img :src="image_04" class="img-fluid" alt="">
+                        <img :src="image_04" class="img-fluid" :alt="product.slug + ': ' + $t('meta.category_list_mobile.keywords')">
                     </a>
                 </div>
             </div>
