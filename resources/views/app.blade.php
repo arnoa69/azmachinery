@@ -11,7 +11,7 @@
         <meta name="robots" content="index,follow">
         <meta name="bingbot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 
-        <title inertia>{{ __('Title Rampas Carga Moviles') }}</title>
+        <title inertia></title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com" rel="preconnect">

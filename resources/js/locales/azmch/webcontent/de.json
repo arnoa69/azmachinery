@@ -13,7 +13,7 @@
                     "lloxl": "Extra große mobile Verladerampen mit elektrischer Vorschubbrücke,"
                 },
                 "tonnes": "Tragfähigkeit {tonnes} Tonnen,",
-                "keyword_chain": "Grosser Lagerbestand an Verladerampenn, robuste mobile Laderampen, mobile Ladehilfen, Auffahrrampen, Industrieladerampen, LKW und Container Beladung Entladung",
+                "keyword_chain": "Grosser Lagerbestand an Verladerampen, robuste mobile Laderampen, mobile Ladehilfen, Auffahrrampen, Industrieladerampen, LKW und Container Beladung Entladung",
                 "buy_and_rent": "Kauf und Vermietung von Laderampen"
             },
             "countries": {
@@ -141,14 +141,14 @@
         "close-button": "Verlassen"
     },
     "about": {
-        "h1": "Der Wegbereiter: Europas größter Hersteller von mobilen Rampen, ermöglicht Zugang überall",
-        "h3": "Europas Rampe zur Effizienz",
+        "h1": "Europas größter Hersteller von mobilen Rampen, sofort lieferbar",
+        "h3": "Die effizienteste Lösung für Ihre Be- und Entladevorgänge",
         "p": {
-            "1": "Durch die Kombination von High-Tech mit strengen Tests und aufmerksamer Kundenunterstützung haben wir einen Benchmark für Zuverlässigkeit, Sicherheit und Leistung gesetzt",
-            "2": "Jede Rampe wird gebaut, um die europäischen Sicherheitsvorschriften zu übertreffen, mit rutschfesten Oberflächen, robustem Aufbau und ergonomischem Design, um die höchste Sicherheit für die Nutzer zu gewährleisten."
+            "1": "Durch den Einsatz von moderner Technik, gründlichen Tests und einem tollen Kundenservice haben wir einen Maßstab für Zuverlässigkeit, Sicherheit und Leistung geschaffen.",
+            "2": ""
         },
         "li": {
-            "1": "Unübertroffene Kapazität. Über 500 Verladerampen auf Lager sofort lieferbar.",
+            "1": "Hoher Lagerbestand. Über 500 Verladerampen auf Lager sofort lieferbar.",
             "2": "Spezialisten der modernen Logistik und Verladeindustrie.",
             "3": "Jede Rampe wird gebaut, um die europäischen Sicherheitsvorschriften zu übertreffen, mit rutschfesten Oberflächen, robustem Aufbau und ergonomischem Design, um die höchste Sicherheit für die Nutzer zu gewährleisten."
         },
@@ -587,7 +587,7 @@
         "target_audience_02": "Lagerung und Distributionszentren",
         "target_audience_03": "Fertigung und Produktion",
         "target_audience_04": "Bauwesen und Ingenieurwesen",
-        "target_audience_05": "Landwirtschaft und Landwirtschaft",
+        "target_audience_05": "Agrartransport und Landwirtschaft",
         "target_audience_06": "Automobil- und Fahrzeugindustrie",
         "target_audience_07": "Mining and Extractive Industries",
         "target_audience_08": "Shipping and Ports",
