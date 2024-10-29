@@ -31,27 +31,20 @@ class GenerateSitemapCommand extends Command
     public function handle()
     {
         $country = config('app.country');
-        $domain = '';
-        switch ($country) {
-            case 'azmch':
-                $domain = "https://az-machinery.ch";
-                break;
-            case 'azmbe':
-                $domain = "https://az-machinery.be";
-                break;
-            case 'azmit':
-                $domain = "https://az-machinery.it";
-                break;
-            case 'azmnl':
-                $domain = "https://az-machinery.nl";
-                break;
-            case 'azmde':
-                $domain = "https://az-machinery.de";
-                break;
-            default:
-                $domain = "https://az-machinery.be";
-                break;
-        }
+
+        $domains = [
+            'azmch' => 'https://az-machinery.ch',
+            'azmbe' => 'https://az-machinery.be',
+            'azmde' => 'https://az-machinery.de',
+            'azmdk' => 'https://az-machinery.dk',
+            'azmit' => 'https://az-machinery.it',
+            'azmnl' => 'https://az-machinery.nl',
+            'azmuk' => 'https://az-machinery.co.uk'
+        ];
+
+        $domain = $domains[$country] ?? $domains['azmbe'];
+
+
         $locales = config('app.available_locales'); // Adjust based on your available locales
         $sitemaps = [];
 
@@ -63,7 +56,7 @@ class GenerateSitemapCommand extends Command
         }
 
         // Generate the main sitemap.xml that references all individual sitemaps
-        $this->generateMainSitemap($sitemaps);
+        $this->generateMainSitemap($sitemaps, $domain);
         $this->info('Sitemaps generated successfully!');
         return 0;
     }
@@ -129,14 +122,14 @@ class GenerateSitemapCommand extends Command
         return $content;
     }
 
-    private function generateMainSitemap($sitemaps)
+    private function generateMainSitemap($sitemaps, $domain)
     {
         $mainContent = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
         $mainContent .= "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap-image/1.0\">\n";
 
         foreach ($sitemaps as $locale) {
             $mainContent .= "<sitemap>\n";
-            $mainContent .= " <loc>https://az-machinery.ch/public/sitemap_{$locale}.xml</loc>\n";
+            $mainContent .= " <loc>https://{$domain}/public/sitemap_{$locale}.xml</loc>\n";
             $mainContent .= " <lastmod>" . Carbon::now()->toIso8601String() . "</lastmod>\n";
             $mainContent .= "</sitemap>\n";
         }
