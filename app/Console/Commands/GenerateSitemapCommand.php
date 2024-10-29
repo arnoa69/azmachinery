@@ -129,7 +129,7 @@ class GenerateSitemapCommand extends Command
 
         foreach ($sitemaps as $locale) {
             $mainContent .= "<sitemap>\n";
-            $mainContent .= " <loc>https://{$domain}/public/sitemap_{$locale}.xml</loc>\n";
+            $mainContent .= " <loc>{$domain}/public/sitemap_{$locale}.xml</loc>\n";
             $mainContent .= " <lastmod>" . Carbon::now()->toIso8601String() . "</lastmod>\n";
             $mainContent .= "</sitemap>\n";
         }
