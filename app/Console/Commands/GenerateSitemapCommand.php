@@ -30,7 +30,7 @@ class GenerateSitemapCommand extends Command
      */
     public function handle()
     {
-        $country = config('appcountry');
+        $country = config('app.country');
         $domain = '';
         switch ($country) {
             case 'azmch':
