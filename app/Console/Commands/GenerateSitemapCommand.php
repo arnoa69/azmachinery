@@ -49,7 +49,7 @@ class GenerateSitemapCommand extends Command
                 $domain = "https://az-machinery.de";
                 break;
             default:
-                $domain = "https://az-machinery.ch";
+                $domain = "https://az-machinery.be";
                 break;
         }
         $locales = config('app.available_locales'); // Adjust based on your available locales

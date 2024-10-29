@@ -125,6 +125,6 @@ return [
 
     'available_locales' => ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'],
 
-    'country' => env('VITE_APP_COUNTRY', 'azmch'),
+    'country' => env('VITE_APP_COUNTRY', 'azmbe'),
 
 ];
