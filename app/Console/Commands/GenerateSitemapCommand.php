@@ -83,7 +83,7 @@ class GenerateSitemapCommand extends Command
 
         // Add homepage to sitemap
         $content .= "<url>\n";
-        $content .= " <loc>$domain</loc>\n";
+        $content .= " <loc>$domain/$locale</loc>\n";
         $content .= " <lastmod>$lastModified</lastmod>\n";
         $content .= " <priority>$priority_1</priority>\n";
         $content .= "</url>\n";
