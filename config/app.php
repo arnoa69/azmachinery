@@ -125,4 +125,6 @@ return [
 
     'available_locales' => ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'],
 
+    'app_country' => env('VITE_APP_COUNTRY', 'azmch'),
+
 ];

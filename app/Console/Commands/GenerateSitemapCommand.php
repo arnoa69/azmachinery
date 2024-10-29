@@ -30,7 +30,28 @@ class GenerateSitemapCommand extends Command
      */
     public function handle()
     {
-        $domain = "https://az-machinery.ch";
+        $country = config('app.country');
+        $domain = '';
+        switch ($country) {
+            case 'azmch':
+                $domain = "https://az-machinery.ch";
+                break;
+            case 'azmbe':
+                $domain = "https://az-machinery.be";
+                break;
+            case 'azmit':
+                $domain = "https://az-machinery.it";
+                break;
+            case 'azmnl':
+                $domain = "https://az-machinery.nl";
+                break;
+            case 'azmde':
+                $domain = "https://az-machinery.de";
+                break;
+            default:
+                $domain = "https://az-machinery.ch";
+                break;
+        }
         $locales = config('app.available_locales'); // Adjust based on your available locales
         $sitemaps = [];
 

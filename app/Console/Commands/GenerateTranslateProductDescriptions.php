@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
@@ -8,7 +9,7 @@ use Gemini\Laravel\Facades\Gemini;
 class GenerateTranslateProductDescriptions extends Command
 {
     protected $signature = 'generate:translate-product-descriptions {language}';
-    protected $description = 'Generate translations from english to other languages';
+    protected $description = 'Generate translations from English to other languages';
 
     public function __construct()
     {
@@ -21,13 +22,28 @@ class GenerateTranslateProductDescriptions extends Command
         $this->translateDescriptions($language);
     }
 
-
     private function translateDescriptions($language)
     {
         $country = env('VITE_APP_COUNTRY', 'azmch');
-        $validLanguages = ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'];
-        $basePath = resource_path('js/locales/' . $country . '/products');
 
+        $validLanguages = ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'];
+        $languageNames = [
+            'de' => 'German',
+            'dk' => 'Danish',
+            'et' => 'Estonian',
+            'en' => 'English',
+            'es' => 'Spanish',
+            'fi' => 'Finnish',
+            'fr' => 'French',
+            'it' => 'Italian',
+            'lb' => 'Luxembourgish',
+            'nl' => 'Dutch',
+            'no' => 'Norwegian',
+            'pt' => 'Portuguese',
+            'se' => 'Swedish',
+        ];
+
+        $basePath = resource_path('js/locales/' . $country . '/products');
         $enFilePath = "{$basePath}/en.json";
         $langFilePath = "{$basePath}/{$language}.json";
 
@@ -54,18 +70,15 @@ class GenerateTranslateProductDescriptions extends Command
                 continue;
             }
 
-            $langContent = $this->translateDescription($language, $enContent['product_description']);
+            $langContent = $this->translateDescription($languageNames[$language], $enContent['product_description']);
             $langData[$slug]['product_description'] = $langContent;
-
             File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-
             $processedProducts++;
             $this->displayProgress($processedProducts, $totalProducts);
-
             sleep(10);
         }
 
-        $this->info($language . ' file translated successfully.');
+        $this->info($languageNames[$language] . ' file translated successfully.');
     }
 
     private function getLastProcessedSlugIndex(array $langData): int
@@ -80,18 +93,16 @@ class GenerateTranslateProductDescriptions extends Command
         return 0;
     }
 
-    private function translateDescription($language, $orgContent)
+    private function translateDescription($toLanguage, $orgContent)
     {
-        $translationPrompt = "Translate the following text to $language: " . $orgContent;
+        $translationPrompt = "Translate the following text to $toLanguage: " . $orgContent;
         $translationResult = Gemini::geminiPro()->generateContent($translationPrompt);
 
         if (isset($translationResult->candidates[0]->content->parts[0]->text)) {
             $translatedContent = trim(strip_tags($translationResult->candidates[0]->content->parts[0]->text));
-
         } else {
             throw new \Exception("Translation result is empty for this product");
         }
-
         return $translatedContent;
     }
 
