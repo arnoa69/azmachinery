@@ -31,7 +31,7 @@ const submitForm = () => {
                     <h3>{{ t('footer.headquarter.name') }}</h3>
                     <p class="pb-3"><em>{{ t('footer.headquarter.description') }}</em></p>
                     <div class="social-links d-flex mt-4">
-                        <a href="https://twitter.com/JeromeGuiguet/status/1193134166176649216" _target="_blank"><i
+                        <a href="https://x.com/JeromeGuiguet/" _target="_blank"><i
                                 class="bi bi-twitter-x"></i></a>
                         <a href="https://www.facebook.com/azmachineryfrance/" _target="_blank"><i
                                 class="bi bi-facebook"></i></a>

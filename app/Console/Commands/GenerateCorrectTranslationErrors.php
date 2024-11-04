@@ -5,6 +5,8 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Gemini\Laravel\Facades\Gemini;
+use Stichoza\GoogleTranslate\GoogleTranslate;
+
 
 class GenerateCorrectTranslationErrors extends Command
 {
@@ -24,55 +26,76 @@ class GenerateCorrectTranslationErrors extends Command
 
     private function correctTranslations($language)
     {
+        $gt = new GoogleTranslate($language);
+
+        try {
         $country = env('VITE_APP_COUNTRY', 'azmch');
+        $langFilePath = resource_path("js/locales/{$country}/products/{$language}.json");
         $validLanguages = ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'];
+
+
+        $lastProcessedIndex= $this->getLastProcessedIndex($country,$language);
 
         if (!in_array($language, $validLanguages)) {
             $this->error("Die angegebene Sprache '$language' ist nicht gültig.");
             return;
         }
 
-        $langFilePath = resource_path("js/locales/{$country}/products/{$language}.json");
         if (!File::exists($langFilePath)) {
             $this->error("Die Datei für die Sprache '{$language}' existiert nicht.");
             return;
         }
 
         $langData = json_decode(File::get($langFilePath), true);
-        $totalProducts = count($langData);
-        $processedProducts = $this->getLastProcessedIndex($country,$language); // Lade den letzten bearbeiteten Index
+        $keys = array_keys($langData);
 
-        foreach ($langData as $slug => $content) {
-            if ($processedProducts > 0) {
-                $processedProducts--;
-                continue; // Überspringe bereits bearbeitete Produkte
-            }
-
-            if (isset($content['product_description'])) {
-                $currentDescription = $content['product_description'];
-                $detectedLanguage = $this->detectLanguage($currentDescription);
-
-                if ($detectedLanguage['code'] !== $language) {
-                    $this->info("Übersetzung für '{$slug}' ist nicht '{$language}'. Korrigiere...");
-                    $correctedDescription = $this->translateDescription($detectedLanguage['name'], $language, $currentDescription);
-                    $langData[$slug]['product_description'] = $correctedDescription;
-                    $this->info("Korrigierte Beschreibung für '{$slug}': {$correctedDescription}");
-                }
-            }
-
-            File::put($langFilePath, json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-            $processedProducts++;
-            $this->saveLastProcessedIndex($country,$language, $slug); // Speichere den letzten bearbeiteten Index
-            $this->displayProgress($processedProducts, $totalProducts);
+        // Check if the current index is valid
+        if ($lastProcessedIndex < 0 || $lastProcessedIndex >= count($keys)) {
+            echo "Invalid index in log file.";
+            exit;
         }
 
-        $this->info("Die Übersetzungen für die Sprache '{$language}' wurden erfolgreich korrigiert.");
+        $totalProducts = count($langData);
+
+        for($i = $lastProcessedIndex; $i < count($keys); $i++) {
+            $slug = $keys[$i];
+            $content = $langData[$slug];
+            if(empty($content['product_description'])) {
+                $jsonString = json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+                if (file_put_contents($langFilePath, $jsonString) === false) {
+                    throw new \Exception("Error writing to JSON file.");
+                } else {
+                    $this->info("Fichier mis à jour avec succès.");
+                }
+            }
+            $currentDescription = $content['product_description'];
+            //$detectedLanguage = $this->detectLanguage($currentDescription);
+            $translatedText = $gt->translate($currentDescription);
+            $detectedLanguage = $gt->getLastDetectedSource();
+
+            if ($detectedLanguage !== $language) {
+                $langData[$slug]['product_description'] = $translatedText;
+                $jsonString = json_encode($langData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+                if (File::put($langFilePath, $jsonString) === false) {
+                    throw new \Exception("Error writing to JSON file.");
+                }
+                $this->info("Faute decouverte... mise à jour de {$detectedLanguage} vers {$language}");
+            }
+            $this->saveLastProcessedIndex($country,$language, $slug);
+            $this->displayProgress($i, $totalProducts);
+            sleep(3);
+        }
+        $this->info("Fichier complet mis à jour avec succès. FIN");
+
+        } catch (\Exception $e) {
+            $this->error("Une erreur s'est produite : " . $e->getMessage());
+        }
     }
 
     private function getLastProcessedIndex($country, $language)
     {
         $indexFilePath = storage_path("last_processed_{$country}_{$language}.txt");
-
         if (File::exists($indexFilePath)) {
             return (int)File::get($indexFilePath);
         }
@@ -90,49 +113,19 @@ class GenerateCorrectTranslationErrors extends Command
         }
     }
 
-    private function detectLanguage($text)
-    {
-        // Hier wird die Sprache des Textes erkannt
-        $detectionPrompt = "Detect the language of the following text: " . $text;
-        $detectionResult = Gemini::geminiPro()->generateContent($detectionPrompt);
-
-        if (isset($detectionResult->candidates[0]->content->parts[0]->text)) {
-            $detectedLanguage = trim(strip_tags($detectionResult->candidates[0]->content->parts[0]->text));
-            // Mapping von den ausgeschriebenen Namen auf die Kürzel
-            $languageMapping = [
-                'German' => 'de',
-                'Danish' => 'dk',
-                'Estonian' => 'et',
-                'English' => 'en',
-                'Spanish' => 'es',
-                'Finnish' => 'fi',
-                'French' => 'fr',
-                'Italian' => 'it',
-                'Luxembourgish' => 'lb',
-                'Dutch' => 'nl',
-                'Norwegian' => 'no',
-                'Portuguese' => 'pt',
-                'Swedish' => 'se',
-            ];
-
-            // Überprüfen, ob die erkannte Sprache im Mapping vorhanden ist
-            if (array_key_exists($detectedLanguage, $languageMapping)) {
-                return [
-                    'code' => $languageMapping[$detectedLanguage],
-                    'name' => $detectedLanguage
-                ];
-            } else {
-                dd($detectedLanguage);
-                throw new \Exception("Die erkannte Sprache '{$detectedLanguage}' ist nicht gültig.");
-            }
-        } else {
-            throw new \Exception("Die Spracherkennung für diesen Text ist fehlgeschlagen.");
-        }
-    }
-
+    /**
+     * Übersetzt den gegebenen Text von $fromLanguage nach $toLanguage und gibt den übersetzten Text zurück.
+     * Wenn die Übersetzung fehlschlägt, wird eine Exception geworfen.
+     *
+     * @param string $fromLanguage
+     * @param string $toLanguage
+     * @param string $orgContent
+     * @return string
+     * @throws \Exception
+     */
     private function translateDescription($fromLanguage, $toLanguage, $orgContent)
     {
-        $fromLanguageFull = $this->getFullLanguageName($fromLanguage);
+        $fromLanguageFull = $fromLanguage;
         $toLanguageFull = $this->getFullLanguageName($toLanguage);
         $translationPrompt = "Translate the following text from $fromLanguageFull to $toLanguageFull: " . $orgContent;
         $translationResult = Gemini::geminiPro()->generateContent($translationPrompt);
