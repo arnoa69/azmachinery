@@ -3,6 +3,10 @@ import ContactFormLayout from '@/Layouts/ContactFormLayout.vue';
 import { ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { Inertia } from '@inertiajs/inertia';
+import { posthogModule } from '@/plugins/posthog';
+import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
+import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
+import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 
 const env = import.meta.env.VITE_APP_COUNTRY;
 
@@ -58,6 +62,12 @@ const submitForm = () => {
 
     Inertia.post('/client-request', formData);
 }
+
+// show banner depending on posthog opt in or out
+const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
+const showConfigBanner = ref(false)
+const showPolicyBanner = ref(false)
+
 </script>
 
 <template>
@@ -173,7 +183,13 @@ const submitForm = () => {
                 </div>
 
             </section><!-- /Contact Section -->
+            <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
+        @showPolicyBanner="showPolicyBanner = true" />
 
+    <ManageCookieBanner v-if="showConfigBanner" @hideConfigBanner="showConfigBanner = false"
+        @hideBothBanner="showBanner = false, showConfigBanner = false" />
+
+    <PolicyBanner v-if="showPolicyBanner" @hide-policy-banner="showPolicyBanner = false" />
         </ContactFormLayout>
     </div>
 </template>

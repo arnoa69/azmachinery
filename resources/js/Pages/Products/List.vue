@@ -19,10 +19,9 @@ const url = ref(window.location.origin);
 
 // show banner depending on posthog opt in or out
 const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
-
 const showConfigBanner = ref(false)
-
 const showPolicyBanner = ref(false)
+
 </script>
 
 <template>

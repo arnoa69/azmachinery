@@ -3,6 +3,10 @@ import GetQuoteLayout from '@/Layouts/GetQuoteLayout.vue';
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n';
 import { Inertia } from '@inertiajs/inertia';
+import { posthogModule } from '@/plugins/posthog';
+import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
+import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
+import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 
 const { locale } = useI18n();
 
@@ -30,6 +34,12 @@ const imagePath = ref('/../../../img/quote-bg.jpg');
 const backgroundStyle = ref({
     backgroundImage: `url(${imagePath.value})`
 });
+
+// show banner depending on posthog opt in or out
+const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
+const showConfigBanner = ref(false)
+const showPolicyBanner = ref(false)
+
 </script>
 
 <template>
@@ -97,7 +107,13 @@ const backgroundStyle = ref({
             </div>
 
         </section><!-- /Get A Quote Section -->
+        <CookieBanner v-if="showBanner" @hideBanner="showBanner = false" @showManageBanner="showConfigBanner = true"
+        @showPolicyBanner="showPolicyBanner = true" />
 
+    <ManageCookieBanner v-if="showConfigBanner" @hideConfigBanner="showConfigBanner = false"
+        @hideBothBanner="showBanner = false, showConfigBanner = false" />
+
+    <PolicyBanner v-if="showPolicyBanner" @hide-policy-banner="showPolicyBanner = false" />
     </GetQuoteLayout>
 </template>
 
