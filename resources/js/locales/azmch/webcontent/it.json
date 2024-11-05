@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Rampe di carico mobili standard,",
-                    "llo": "Rampe di carico mobili con ponte avanzato elettrico,",
-                    "xl": "Rampe di carico mobili extra larghe,",
-                    "lloxl": "Rampe di carico mobili extra larghe con ponte avanzato elettrico,"
+                    "standard": "Rampe di carico standard mobili, piattaforma standard,",
+                    "llo": "Piattaforma orizzontale più lunga",
+                    "xl": "Rampe larghe,",
+                    "lloxl": "Rampe larghe, Piattaforma più lunga, Carrello elevatore, Fissaggio carico"
                 },
                 "tonnes": "Capacità {tonnes} tonnellate,",
                 "keyword_chain": "Ampia scorta di rampe di carico, robuste rampe di carico mobili, ausili per il carico mobili, rampe di carico industriali, carico e scarico di camion e container",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Scorta",
-                    "name": "Nome",
+                    "name": "Modelli",
                     "handle_modus": "Gestione",
                     "price": "Prezzo"
                 }
             },
-            "filter-title": "Filtra per fonte di energia"
+            "filter-title": "Filtra per fonte di energia",
+            "descriptions": {
+                "standard": "La nostra rampa di carico standard è la scelta perfetta per applicazioni generali. Con la sua costruzione robusta e lunghezza ottimale, offre un carico e scarico sicuro ed efficiente.",
+                "llo": "Hai bisogno di più spazio per manovrare? La nostra rampa di carico con piattaforma orizzontale più lunga ti offre spazio aggiuntivo per posizionare il tuo carico in modo sicuro e comodo.",
+                "xl": "Per carichi e veicoli larghi, la nostra rampa larga è la soluzione ideale. La sua larghezza generosa permette una facile manipolazione e minimizza il rischio di danni.",
+                "lloxl": "Il meglio di entrambi i mondi: La nostra rampa XL con piattaforma più lunga combina i vantaggi di larghezza e lunghezza. Ideale per carrelli elevatori e carichi pesanti che richiedono molto spazio di manovra."
+            }
         },
         "details": {
             "title": "Elenco delle rampe di carico mobili",

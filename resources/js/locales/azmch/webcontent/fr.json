@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Rampes de changements mobiles standard,",
-                    "llo": "Rampes de changements mobiles long plan horizontale,",
-                    "xl": "Rampes de changements mobiles extra larges,",
-                    "lloxl": "Rampes de changements mobiles extra larges avec long plan horizontale,"
+                    "standard": "Rampes de chargement standard mobiles, plateforme standard,",
+                    "llo": "Plateforme horizontale plus longue",
+                    "xl": "Rampes plus larges,",
+                    "lloxl": "Rampes larges, Plateforme plus longue, Chariot élévateur, Fixation de charge"
                 },
                 "tonnes": "Capacité {tonnes} tonnes,",
                 "keyword_chain": "Grand stock de rampes de changements, robustes rampes de changements mobiles, aides au chargement mobiles, rampes de changements industrielles, chargement et déchargement de camions et conteneurs",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Stock",
-                    "name": "Nom",
+                    "name": "Modèles",
                     "handle_modus": "Manutention",
                     "price": "Prix"
                 }
             },
-            "filter-title": "Filtrer par source d'énergie"
+            "filter-title": "Filtrer par source d'énergie",
+            "descriptions": {
+                "standard": "Notre rampe de chargement standard est le choix idéal pour les applications générales. Avec sa construction robuste et sa longueur optimale, elle offre un chargement et un déchargement sûrs et efficaces.",
+                "llo": "Besoin de plus de place pour manœuvrer ? Notre rampe de chargement avec une plateforme horizontale plus longue vous offre de l'espace supplémentaire pour positionner votre charge en toute sécurité et commodité.",
+                "xl": "Pour les charges larges et les véhicules, notre rampe large est la solution idéale. Sa largeur généreuse permet une manipulation facile et minimise le risque de dommages.",
+                "lloxl": "Le meilleur des deux mondes : Notre rampe XL avec une plateforme plus longue combine les avantages de la largeur et de la longueur. Idéale pour les chariots élévateurs et les charges lourdes qui nécessitent beaucoup d'espace de manœuvre."
+            }
         },
         "details": {
             "title": "Liste des rampes de chargement mobiles",

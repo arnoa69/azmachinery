@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobile Standard Verladerampen,",
-                    "llo": "Mobile Verladerampen mit elektrischer Vorschubbrücke,",
-                    "xl": "Extra große mobile Verladerampen,",
-                    "lloxl": "Extra große mobile Verladerampen mit elektrischer Vorschubbrücke,"
+                    "standard": "Mobile Standard Verladerampen, standard Überfahrplatte,",
+                    "llo": "Längere horizontale Überfahrplatte",
+                    "xl": "Breitrampen,",
+                    "lloxl": "Breitrampen, Längere Überfahrplatte, Gabelstapler, Ladungssicherheit,"
                 },
                 "tonnes": "Tragfähigkeit {tonnes} Tonnen,",
                 "keyword_chain": "Grosser Lagerbestand an Verladerampen, robuste mobile Laderampen, mobile Ladehilfen, Auffahrrampen, Industrieladerampen, LKW und Container Beladung Entladung",
@@ -504,31 +504,31 @@
         "category_product_lists": "{ country } - Laderampen auf Lager: Entdecken Sie { type }"
     },
     "products": {
-    "sold": "verkauft",
-    "reviews": "Bewertungen",
+        "sold": "verkauft",
+        "reviews": "Bewertungen",
         "delivery_in_three_days": "Lieferung in 3 Tagen:",
         "image_label": "Das gezeigte Bild dient nur illustrativen Zwecken; das tatsächliche Produkt kann in Bezug auf Größe, Gewicht und individuelle Optionen abweichen.",
         "back_button": "ZURÜCK",
         "list": {
             "available": "auf Lager",
             "not-available": "auf Anfrage",
-            "sidebar": {
-                "hydraulic_handling": "Hydraulisch betriebene Rampen",
-                "electric_handling": "Elektrisch betriebene Rampen",
-                "manuel_handling": "Manuell betriebene Rampen",
-                "pps_handling": "Luft- oder gasbetriebene Rampe"
-            },
             "use_filer": "Verwenden Sie den Filter, um die Suche weiter einzugrenzen",
             "title": "Lade rampen Typ {base_name}",
             "table": {
                 "head": {
                     "availability": "Lager",
-                    "name": "Name",
+                    "name": "Modelle",
                     "handle_modus": "Bedienung",
                     "price": "Preis"
                 }
             },
-            "filter-title": "Nach Energiequelle filtern"
+            "filter-title": "Nach Energiequelle filtern",
+            "descriptions": {
+                "standard": "Unsere Standard-Verladerampe ist die perfekte Wahl für gängige Anwendungen. Mit ihrer robusten Konstruktion und der optimalen Länge bietet sie einen sicheren und effizienten Be- und Entladevorgang.",
+                "llo": "Benötigen Sie mehr Platz zum Manövrieren? Unsere Verladerampe mit längerer horizontaler Plattform bietet Ihnen zusätzlichen Raum, um Ihre Ladung sicher und bequem zu positionieren.",
+                "xl": "Für breite Lasten und Fahrzeuge ist unsere Breitrampen die ideale Lösung. Die großzügige Breite ermöglicht ein einfaches Handling und minimiert das Risiko von Beschädigungen.",
+                "lloxl": "Das Beste aus beiden Welten: Unsere XL-Rampe mit längerer Plattform vereint die Vorteile von Breite und Länge. Ideal für Gabelstapler und schwere Lasten, die viel Platz zum Manövrieren benötigen."
+            }
         },
         "details": {
             "title": "Liste der mobilen Lade rampen",

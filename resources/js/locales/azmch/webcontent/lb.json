@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobil Standards Verlaadrampe,",
-                    "llo": "Mobile Verlaadrampe mat elektrischem Advance Bridge,",
-                    "xl": "Extra grouss Mobile Verlaadrampe,",
-                    "lloxl": "Extra grouss Mobile Verlaadrampe mat elektrischem Advance Bridge,"
+                    "standard": "Mobil Standard Luedrampen, Standard Iwwerfaartsplack,",
+                    "llo": "Längert horizontal Iwwerfaartsplack",
+                    "xl": "Breet Rampen,",
+                    "lloxl": "Breet Rampen, Längert Iwwerfaartsplack, Gabelstapler, Laascht Sécherung"
                 },
                 "tonnes": "Kapazitét {tonnes} Tonnen,",
                 "keyword_chain": "Grouss Lager vun Verlaadrampen, robust Mobile Verlaadrampen, mobile Verlaadhëllefen, industrielle Verlaadrampen, LKW an Container Verlaad a Entlaad",
@@ -526,12 +526,18 @@
             "table": {
                 "head": {
                     "availability": "Lager",
-                    "name": "Name",
+                    "name": "Modeller",
                     "handle_modus": "Handhabung",
                     "price": "Präis"
                 }
             },
-            "filter-title": "No Energiequell filteren"
+            "filter-title": "No Energiequell filteren",
+            "descriptions": {
+                "standard": "Eis Standard Luedramp ass déi perfekt Wiel fir allgemeng Uwendungen. Mat senger robuster Konstruktioun an optimaler Längt bitt se e sécheren an effizienten Lueden an Entlueden.",
+                "llo": "Brauchs du méi Plaatz fir ze manövréieren? Eis Luedramp mat enger méi langer horizontaler Plattform gëtt dir extra Plaatz fir deng Last sécher an bequem ze positionéieren.",
+                "xl": "Fir breet Lasten an Gefierer ass eis breet Ramp déi ideal Léisung. Déi generéis Breet erméiglecht eng einfach Handhabung a minimiséiert d'Risiko vu Schueden.",
+                "lloxl": "Dat Bescht aus zwéi Welten: Eis XL-Ramp mat enger méi langer Plattform kombinéiert d'Virdeeler vun der Breet an der Längt. Ideal fir Gabelstapler an schwéier Lasten déi vill Manévrierplaatz brauchen."
+            }
         },
         "details": {
             "title": "Lëscht vun mobilen Lade rampen",

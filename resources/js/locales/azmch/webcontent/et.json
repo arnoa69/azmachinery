@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobile standard laadimisrambid,",
-                    "llo": "Mobile laadimisrambid elektriprindliku allahüütilaualõuaga,",
-                    "xl": "Ekstra suured mobiilsete laadimisrambid,",
-                    "lloxl": "Ekstra suured mobiilsete laadimisrambid elektriprindliku allahüütilaualõuaga,"
+                    "standard": "Mobiilsed standardlaadimisrambid, standardne üleminekuplaat,",
+                    "llo": "Pikem platvorm",
+                    "xl": "Laiad rampid,",
+                    "lloxl": "Laiad rampid, Pikem platvorm, Kahveltõstuk, Koormate kindlustamine"
                 },
                 "tonnes": "Kantavus {tonnes} t,",
                 "keyword_chain": "Suur laadimisrambid laager, robustsed mobiilsed laaditerminalid, auffahrrammud, industriaalne laadimisrambid, LKW ja kontaineri laadimine ja laadimine",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Laoseis",
-                    "name": "Nimi",
+                    "name": "Mudelid",
                     "handle_modus": "Käitlemine",
                     "price": "Hind"
                 }
             },
-            "filter-title": "Filtreeri energiaallika järgi"
+            "filter-title": "Filtreeri energiaallika järgi",
+            "descriptions": {
+                "standard": "Meie standardne laadimisraamp on täiuslik valik tavalisteks rakendusteks. Oma tugeva konstruktsiooni ja optimaalse pikkusega tagab see ohutu ja tõhusa laadimise ja mahalaadimise.",
+                "llo": "Kas vajate manööverdamiseks rohkem ruumi? Meie laadimisraamp pikema horisontaalse platvormiga annab teile lisaruumi oma koorma ohutuks ja mugavaks paigutamiseks.",
+                "xl": "Laiad koormad ja sõidukid saavad meie laia rammi abil ideaalse lahenduse. Suurejooneline laius võimaldab lihtsat käsitsemist ja minimeerib kahjustuste ohtu.",
+                "lloxl": "Parim mõlemast maailmast: Meie XL-raamp pikema platvormiga ühendab endas laiuse ja pikkuse eelised. Ideaalne kahveltõstukite ja raskete koormate jaoks, mis vajavad palju manööverdamisruumi."
+            }
         },
         "details": {
             "title": "Mobiilsete laadimisramppide loetelu",

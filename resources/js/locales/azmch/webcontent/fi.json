@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobiilistandardi lastausrampit,",
-                    "llo": "Sähköisellä syöttösillalla varustetut mobiililatausrampit,",
-                    "xl": "Erittäin suuret mobiililatausrampit,",
-                    "lloxl": "Erittäin suuret siirrettävät lastausrampit sähköisellä syöttösillalla,"
+                    "standard": "Mobiilit standardlavaramit, vakioalusta,",
+                    "llo": "Pidempi vaakasuora alusta",
+                    "xl": "Leveät rampit,",
+                    "lloxl": "Leveät rampit, Pidempi alusta, Trukki, Kuorman kiinnitys"
                 },
                 "tonnes": "Kuormituskapasiteetti {tonnes} tonnia,",
                 "keyword_chain": "Laaja valikoima lastausrampeja, kestävät liikkuvat lastausrampit, liikkuvat lastausratkaisut, teollisuuslastausrampit, kuorma-autojen ja konttien lastaus ja purkaminen",
@@ -68,7 +68,7 @@
         "article:tag4": "Lastausramppi",
         "twitter:title": "Mobiili ja staattiset lastausrampit Euroopassa: Löydä laaja valikoimamme! Yli 500 välittömästi saatavilla korkealaatuisia lastausramppeja",
         "twitter:description": "Osta mobiililastausramppi (mobiili nostoramppi) AZ Machinery -valmistajalta koko Eurooppaan. Euroopan suurin valmistaja 6-30 tonnin kuormille. Laaja valikoima lastausramppeja. Valmiina tilaukseen. Laadun varmistus. CE-standard. Toimitukset koko Eurooppaan.",
-        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
+        "twitter:image": "/img/mobile-loading-ramps-germanyπ-france.jpg",
         "twitter:domain": "https://rampas-carga-moviles.es"
     },
     "lang": {
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Varasto",
-                    "name": "Nimi",
+                    "name": "Mallit",
                     "handle_modus": "Käyttö",
                     "price": "Hinta"
                 }
             },
-            "filter-title": "Suodata energialähteen mukaan"
+            "filter-title": "Suodata energialähteen mukaan",
+            "descriptions": {
+                "standard": "Vakiolastausrampimme on täydellinen valinta yleisiin käyttötarkoituksiin. Sen tukeva rakenne ja optimaalinen pituus takaavat turvallisen ja tehokkaan lastauksen ja purkamisen.",
+                "llo": "Tarvitsetko enemmän tilaa manöverointiin? Pidempi vaakasuora alusta varustettu lastausrampimme antaa sinulle lisätilaa kuorman turvalliseen ja kätevään sijoittamiseen.",
+                "xl": "Leveille kuormille ja ajoneuvoille leveä rampimme on ihanteellinen ratkaisu. Sen reilu leveys mahdollistaa helpon käsittelyn ja minimoi vaurioiden riskin.",
+                "lloxl": "Parasta molemmista maailmoista: Pidemmän alustan omaava XL-rampimme yhdistää leveyden ja pituuden edut. Ihanteellinen trukkeihin ja raskaisiin kuormiin, jotka vaativat paljon manöverointitilaa."
+            }
         },
         "details": {
             "title": "Mobiilien latausalustojen luettelo",

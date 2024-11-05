@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Rampas de Carga Móveis Padrão,",
-                    "llo": "Rampas de Carga Móveis com Ponte Avançada Elétrica,",
-                    "xl": "Rampas de Carga Móveis Extra Grandes,",
-                    "lloxl": "Rampas de Carga Móveis Extra Grandes com Ponte Avançada Elétrica,"
+                    "standard": "Rampas de carga móveis padrão, plataforma padrão,",
+                    "llo": "Plataforma horizontal mais longa",
+                    "xl": "Rampas largas,",
+                    "lloxl": "Rampas largas, Plataforma mais longa, Empilhadeira, Fixação de carga"
                 },
                 "tonnes": "Capacidade {tonnes} toneladas,",
                 "keyword_chain": "Grande estoque de rampas de carga, robustas rampas de carga móveis, auxílios móveis de carga, rampas de carga industriais, carga e descarga de caminhões e contêineres",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Estoque",
-                    "name": "Nome",
+                    "name": "Modelos",
                     "handle_modus": "Manuseio",
                     "price": "Preço"
                 }
             },
-            "filter-title": "Filtrar por fonte de energia"
+            "filter-title": "Filtrar por fonte de energia",
+            "descriptions": {
+                "standard": "Nossa rampa de carga padrão é a escolha perfeita para aplicações gerais. Com sua construção robusta e comprimento otimizado, ela oferece carregamento e descarregamento seguros e eficientes.",
+                "llo": "Precisa de mais espaço para manobrar? Nossa rampa de carga com plataforma horizontal mais longa oferece espaço extra para posicionar sua carga de forma segura e conveniente.",
+                "xl": "Para cargas largas e veículos, nossa rampa larga é a solução ideal. Sua largura generosa permite fácil manuseio e minimiza o risco de danos.",
+                "lloxl": "O melhor dos dois mundos: Nossa rampa XL com plataforma mais longa combina as vantagens de largura e comprimento. Ideal para empilhadeiras e cargas pesadas que exigem muito espaço de manobra."
+            }
         },
         "details": {
             "title": "Lista de rampas de carregamento móveis",

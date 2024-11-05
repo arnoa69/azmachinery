@@ -6,16 +6,11 @@ import { useI18n } from 'vue-i18n';
 import { usePage } from "@inertiajs/vue3";
 
 const page = usePage();
-const { locale } = useI18n();
-
+const { locale, t } = useI18n();
 const regex = /\/products\/star{1,4}?$/;
-
 const showFilter = regex.test(page.url) ? 1 : 0;
-
 const page_or_slug = ref('product_list');
-
 const extractedType = page.url.split('products/')[1].split('/')[0];
-
 const props = defineProps({
     products: {
         type: Object,
@@ -40,16 +35,26 @@ const filteredProducts = computed(() => {
     }
     return props.products.filter(product => product.version === selectedFilter.value);
 });
-
+// Computed property for filter description
+const filterDescription = computed(() => {
+    switch (selectedFilter.value) {
+        case 'standard':
+            return t('products.list.descriptions.standard'); // Übersetzung für Standard
+        case 'llo':
+            return t('products.list.descriptions.llo'); // Übersetzung für LLO
+        case 'xl':
+            return t('products.list.descriptions.xl'); // Übersetzung für XL
+        case 'lloxl':
+            return t('products.list.descriptions.lloxl'); // Übersetzung für LLO XL
+        default:
+            return '';
+    }
+});
 </script>
 
 <template>
     <section id="about" class="about">
         <div class="container">
-            <div class="section-title">
-                <h1>{{ $t("products.list.title", { base_name: extractedType.toUpperCase() }) }}</h1>
-                <h2>{{ $t("products.details.title") }}</h2>
-            </div>
             <div class="row">
                 <div class="col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
                     <!-- BEGIN LEFT SIDBAR -->
@@ -61,6 +66,10 @@ const filteredProducts = computed(() => {
                 </div> <!-- END LEFT SIDBAR -->
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT SIDBAR -->
                     <!-- Filter Links -->
+                    <div class="section-title">
+                        <h1>{{ $t("products.list.title", { base_name: extractedType.toUpperCase() }) }}</h1>
+                        <h2>{{ $t("products.details.title") }}</h2>
+                    </div>
                     <div v-if="showFilter" class="filter-links">
                         <div class="filter-links">
                             <a href="#" :class="{ 'active standard': selectedFilter === 'standard' }"
@@ -76,14 +85,19 @@ const filteredProducts = computed(() => {
                         </div>
                     </div>
                     <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="filter-description">{{ filterDescription }}</p>
+                            </div>
+                        </div>
                         <div class="row table-head">
-                            <div class="col-md-2 col-sm-6">
+                            <div class="col-2 ">
                                 {{ $t('products.list.table.head.availability') }}
                             </div>
-                            <div class="col-md-8 col-sm-6">
+                            <div class="col-5 ">
                                 {{ $t('products.list.table.head.name') }}
                             </div>
-                            <div class="col-md-2 col-sm-6 text-end">
+                            <div class="col-5 text-end">
                                 {{ $t('products.list.table.head.price') }}
                             </div>
                         </div>
@@ -107,7 +121,7 @@ const filteredProducts = computed(() => {
                                 <div class="col-7 col-sm-8 mobile-text-size">
                                     {{ product.name }}
                                 </div>
-                                <div class="mobile-text-size col-3 col-sm-2 text-end">{{ product.total_price }} &#8364;</div>
+                                <div class="mobile-text-size col-3 col-sm-2">{{ product.total_price }} &#8364;</div>
                             </a>
                         </div>
                     </div>
@@ -314,15 +328,11 @@ const filteredProducts = computed(() => {
   max-width: 90px; /* Ensures the price column doesn't take too much space */
 }
 
-.text-end {
-  text-align: right;
-}
+
 
 /* Mobile adjustments */
 @media (max-width: 767.98px) {
-  .row.table-head {
-    display: none;
-  }
+
   .section-title h1 {
        font-size: 24px !important;
 }
@@ -357,7 +367,7 @@ const filteredProducts = computed(() => {
 .filter-links {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .filter-links a {

@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Rampas de carga móviles estándar,",
-                    "llo": "Rampas de carga móviles con puente de avance eléctrico,",
-                    "xl": "Rampas móviles extra grandes,",
-                    "lloxl": "Rampas móviles extra grandes con puente de avance eléctrico,"
+                    "standard": "Rampas de carga estándar móviles, plataforma estándar,",
+                    "llo": "Plataforma horizontal más larga",
+                    "xl": "Rampas anchas,",
+                    "lloxl": "Rampas anchas, Plataforma más larga, Carretilla elevadora, Sujeción de carga"
                 },
                 "tonnes": "Capacidad {tonnes} toneladas,",
                 "keyword_chain": "Gran inventario de Rampas de carga, robustos muelles de carga móviles, asistencia de carga móvil, Rampas de carga industrial, carga y descarga de camiones y contenedores",
@@ -520,13 +520,19 @@
             "title": "Tipo de rampa de carga {base_name}",
             "table": {
                 "head": {
-                    "availability": "Existencias",
-                    "name": "Nombre",
+                    "availability": "Stock",
+                    "name": "Modelos",
                     "handle_modus": "Manejo",
                     "price": "Precio"
                 }
             },
-            "filter-title": "Filtrar por fuente de energía"
+            "filter-title": "Filtrar por fuente de energía",
+            "descriptions": {
+                "standard": "Nuestra rampa de carga estándar es la opción perfecta para aplicaciones generales. Con su construcción robusta y longitud óptima, ofrece una carga y descarga segura y eficiente.",
+                "llo": "¿Necesita más espacio para maniobrar? Nuestra rampa de carga con plataforma horizontal más larga le brinda espacio adicional para colocar su carga de forma segura y cómoda.",
+                "xl": "Para cargas y vehículos anchos, nuestra rampa ancha es la solución ideal. Su ancho generoso permite una fácil manipulación y minimiza el riesgo de daños.",
+                "lloxl": "Lo mejor de ambos mundos: Nuestra rampa XL con plataforma más larga combina las ventajas de ancho y longitud. Ideal para carretillas elevadoras y cargas pesadas que requieren mucho espacio de maniobra."
+            }
         },
         "details": {
             "title": "Lista de rampas de carga móviles",

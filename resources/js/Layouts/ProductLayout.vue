@@ -76,17 +76,20 @@ const backgroundStyle = computed(() => {
 
 @media (max-width: 767.98px) {
   .page-title {
-    height: 350px; /* Setze die Höhe des Elements */
-    background-size: cover; /* Stelle sicher, dass das Hintergrundbild den gesamten Bereich abdeckt */
-    background-position: center; /* Zentriere das Hintergrundbild */
-    border-bottom-left-radius: 20px; /* Runde die untere linke Ecke */
-    border-bottom-right-radius: 20px; /* Runde die untere rechte Ecke */
-    display: flex; /* Flexbox verwenden, um den Inhalt zu zentrieren */
-    align-items: center; /* Vertikale Zentrierung */
-    justify-content: center; /* Horizontale Zentrierung */
-}
-.page-title:before {
+        height: 350px; /* Setze die Höhe des Elements */
+        background-size: cover; /* Stelle sicher, dass das Hintergrundbild den gesamten Bereich abdeckt */
+        background-position: center; /* Zentriere das Hintergrundbild */
+        border-bottom-left-radius: 20px; /* Runde die untere linke Ecke */
+        border-bottom-right-radius: 20px; /* Runde die untere rechte Ecke */
+        display: flex; /* Flexbox verwenden, um den Inhalt zu zentrieren */
+        align-items: center; /* Vertikale Zentrierung */
+        justify-content: center; /* Horizontale Zentrierung */
+    }
+    .page-title:before {
         background-color: transparent;
+    }
+    #main {
+        padding-top: 60px;
     }
 }
 </style>

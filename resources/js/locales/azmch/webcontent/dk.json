@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobile standard læsseramper,",
-                    "llo": "Mobile læsseramper med elektrisk forskydningsbro,",
-                    "xl": "Ekstra store mobile læsseramper,",
-                    "lloxl": "Ekstra store mobile læsseramper med elektrisk forskydningsbro,"
+                    "standard": "Mobile Standard Læsseramper, standard overkørselsplade,",
+                    "llo": "Længere horisontal overkørselsplade",
+                    "xl": "Brede ramper,",
+                    "lloxl": "Brede ramper, Længere overkørselsplade, Gaffeltruck, Lastsikring"
                 },
                 "tonnes": "Bæreevne {tonnes} ton,",
                 "keyword_chain": "Grosser Lagerbestand an Verladerampenn, robuste mobile Laderampen, Mobile læssehjælpemidler, tilkørselsramper, industrielle læsseramper, last- og aflæsning af lastbiler og containere",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Lager",
-                    "name": "Navn",
+                    "name": "Modeller",
                     "handle_modus": "Betjening",
                     "price": "Pris"
                 }
             },
-            "filter-title": "Filtrér efter energikilde"
+            "filter-title": "Filtrér efter energikilde",
+            "descriptions": {
+                "standard": "Vores standard læsserampe er det perfekte valg til almindelige opgaver. Med sin robuste konstruktion og optimale længde giver den en sikker og effektiv læsning og aflæsning.",
+                "llo": "Har du brug for mere plads til manøvrering? Vores læsserampe med længere horisontal platform giver dig ekstra plads til at placere din last sikkert og bekvemt.",
+                "xl": "Til brede last og køretøjer er vores brede rampe den ideelle løsning. Den generøse bredde muliggør nem håndtering og minimerer risikoen for skader.",
+                "lloxl": "Det bedste fra begge verdener: Vores XL-rampe med længere platform kombinerer fordelene ved bredde og længde. Ideel til gaffeltrucks og tunge last, der kræver masser af manøvrerplads."
+            }
         },
         "details": {
             "title": "Liste over mobile lad ramps",

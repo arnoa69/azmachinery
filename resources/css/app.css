@@ -382,7 +382,7 @@ section,
 }
 
 /* Mobile Styles */
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
     .header {
       --background-color: #ED1D2A; /* Hintergrundfarbe auf rot setzen */
       padding: 6px 0;

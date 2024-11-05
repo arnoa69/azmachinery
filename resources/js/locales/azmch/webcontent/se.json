@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobila Standard Lastramper,",
-                    "llo": "Mobila Lastramper med Elektrisk Framskjutande Bro,",
-                    "xl": "Extra Stora Mobila Lastramper,",
-                    "lloxl": "Extra Stora Mobila Lastramper med Elektrisk Framskjutande Bro,"
+                    "standard": "Mobila standardladdningsramper, standard plattform,",
+                    "llo": "Längre horisontell plattform",
+                    "xl": "Breda ramper,",
+                    "lloxl": "Breda ramper, Längre plattform, Gaffeltruck, Lastsäkring"
                 },
                 "tonnes": "Kapacitet {tonnes} ton,",
                 "keyword_chain": "Stort lager av lastramper, robusta mobila lastramper, mobila lastassistans, industriella lastramper, last och lossning av lastbilar och containrar",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Lager",
-                    "name": "Namn",
+                    "name": "Modeller",
                     "handle_modus": "Hantering",
                     "price": "Pris"
                 }
             },
-            "filter-title": "Filtrera efter energikälla"
+            "filter-title": "Filtrera efter energikälla",
+            "descriptions": {
+                "standard": "Vår standardladdningsramp är det perfekta valet för allmänna tillämpningar. Med sin robusta konstruktion och optimala längd ger den en säker och effektiv lastning och lossning.",
+                "llo": "Behöver du mer utrymme för manövrering? Vår laddningsramp med en längre horisontell plattform ger dig extra utrymme för att placera din last säkert och bekvämt.",
+                "xl": "För breda laster och fordon är vår breda ramp den ideala lösningen. Den generösa bredden möjliggör enkel hantering och minimerar risken för skador.",
+                "lloxl": "Det bästa av båda världar: Vår XL-ramp med en längre plattform kombinerar fördelene med bredd och längd. Idealisk för gaffeltruckar och tunga laster som kräver mycket manövrerutrymme."
+            }
         },
         "details": {
             "title": "Lista över mobila lastramper",

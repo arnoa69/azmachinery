@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobiele Standaard Laadhellingen,",
-                    "llo": "Mobiele Laadhellingen met Elektrische Voorspanbrug,",
-                    "xl": "Extra Grote Mobiele Laadhellingen,",
-                    "lloxl": "Extra Grote Mobiele Laadhellingen met Elektrische Voorspanbrug,"
+                    "standard": "Mobiele standaardlaadplatforms, standaard platform,",
+                    "llo": "Langer horizontaal platform",
+                    "xl": "Brede hellingen,",
+                    "lloxl": "Brede hellingen, Langer platform, Heftruck, Ladingzekering"
                 },
                 "tonnes": "Capaciteit {tonnes} ton,",
                 "keyword_chain": "Grote voorraad laadhellingen, robuuste mobiele laadhellingen, mobiele laadhulp, industriële laadhellingen, vrachtwagen en container laden en lossen",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Voorraad",
-                    "name": "Naam",
+                    "name": "Modellen",
                     "handle_modus": "Behandeling",
                     "price": "Prijs"
                 }
             },
-            "filter-title": "Filteren op energiebron"
+            "filter-title": "Filteren op energiebron",
+            "descriptions": {
+                "standard": "Onze standaard laadramp is de perfecte keuze voor algemene toepassingen. Met zijn robuuste constructie en optimale lengte biedt het een veilig en efficiënt laden en lossen.",
+                "llo": "Heeft u meer ruimte nodig om te manoeuvreren? Onze laadramp met een langer horizontaal platform geeft u extra ruimte om uw lading veilig en gemakkelijk te positioneren.",
+                "xl": "Voor brede ladingen en voertuigen is onze brede laadramp de ideale oplossing. De royale breedte maakt een eenvoudige handling mogelijk en minimaliseert het risico op schade.",
+                "lloxl": "Het beste van beide werelden: Onze XL-ramp met een langer platform combineert de voordelen van breedte en lengte. Ideaal voor vorkheftrucks en zware ladingen die veel manoeuvreerruimte vereisen."
+            }
         },
         "details": {
             "title": "Lijst van mobiele laadramps",

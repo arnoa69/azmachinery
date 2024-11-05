@@ -31,4 +31,9 @@ const backgroundStyle = ref({
         width: 100%;
         padding: 10px;
     }
+    @media screen and (max-width: 767px) {
+        #main {
+            padding-top: 40px;
+        }
+    }
 </style>

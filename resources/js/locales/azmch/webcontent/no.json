@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobil Standard Lastingramper,",
-                    "llo": "Mobile Lastingramper med Elektrisk Foravling Bro,",
-                    "xl": "Ekstra Stor Mobile Lastingramper,",
-                    "lloxl": "Ekstra Stor Mobile Lastingramper med Elektrisk Foravling Bro,"
+                    "standard": "Mobile standard lasteramper, standard plattform,",
+                    "llo": "Lengre horisontal plattform",
+                    "xl": "Brede ramper,",
+                    "lloxl": "Brede ramper, Lengre plattform, Gaffeltruck, Lastsikring"
                 },
                 "tonnes": "Kapasitet {tonnes} tonn,",
                 "keyword_chain": "Stor lagerbeholdning av lastingramper, robuste mobile lastingramper, mobile lastehjelpemidler, industrielle lastingramper, last og losse lastbiler og containere",
@@ -524,12 +524,18 @@
             "table": {
                 "head": {
                     "availability": "Lager",
-                    "name": "Navn",
+                    "name": "Modeller",
                     "handle_modus": "Betjening",
                     "price": "Pris"
                 }
             },
-            "filter-title": "Filtrér etter energikilde"
+            "filter-title": "Filtrér etter energikilde",
+            "descriptions": {
+                "standard": "Vår standard lasterampe er det perfekte valget for generelle bruksområder. Med sin robuste konstruksjon og optimale lengde gir den en sikker og effektiv lasting og lossing.",
+                "llo": "Trenger du mer plass til manøvrering? Vår lasterampe med en lengre horisontal plattform gir deg ekstra plass til å plassere lasten din sikkert og komfortabelt.",
+                "xl": "For brede laster og kjøretøy er vår brede rampe den ideelle løsningen. Den generøse bredden muliggjør enkel håndtering og minimerer risikoen for skader.",
+                "lloxl": "Det beste fra begge verdener: Vår XL-rampe med en lengre plattform kombinerer fordelene ved bredde og lengde. Ideell for gaffeltrucker og tunge laster som krever mye manøvrerplass."
+            }
         },
         "details": {
             "title": "Liste over mobile laste ramper",

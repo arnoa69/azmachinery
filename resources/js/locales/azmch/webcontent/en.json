@@ -7,10 +7,10 @@
             },
             "keywords": {
                 "type": {
-                    "standard": "Mobile Standard Loading Ramps,",
-                    "llo": "Mobile Loading Ramps with large plane bridge,",
-                    "xl": "Extra Large Mobile Loading Ramps,",
-                    "lloxl": "Extra Large Mobile Loading Ramps large plane bridge,"
+                    "standard": "Mobile Standard Loading Ramps, standard platform,",
+                    "llo": "Longer horizontal platform",
+                    "xl": "Wide ramps,",
+                    "lloxl": "Wide ramps, Longer platform, Forklift, Load securing"
                 },
                 "tonnes": "Capacity {tonnes} tons,",
                 "keyword_chain": "Large stock of loading Ramps, exclusive producer, mobile loading ramps, industrial loading Ramps, truck and container loading and unloading",
@@ -526,12 +526,18 @@
             "table": {
                 "head": {
                     "availability": "Stock",
-                    "name": "Name",
+                    "name": "Models",
                     "handle_modus": "Handling",
                     "price": "Price"
                 }
             },
-            "filter-title": "Filter by Power Source"
+            "filter-title": "Filter by Power Source",
+            "descriptions": {
+                "standard": "Our standard loading ramp is the perfect choice for general applications. With its robust construction and optimal length, it offers safe and efficient loading and unloading.",
+                "llo": "Need more space to maneuver? Our loading ramp with a longer horizontal platform gives you extra space to position your load safely and conveniently.",
+                "xl": "For wide loads and vehicles, our wide ramp is the ideal solution. The generous width allows for easy handling and minimizes the risk of damage.",
+                "lloxl": "The best of both worlds: Our XL ramp with a longer platform combines the benefits of width and length. Ideal for forklifts and heavy loads that require plenty of maneuvering space."
+            }
         },
         "details": {
             "title": "List of mobile loading ramps",

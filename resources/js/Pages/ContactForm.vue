@@ -47,7 +47,6 @@ const contactInfo = {
 };
 
 const curentContactInfo = contactInfo[env] || contactInfo['azmch'];
-console.log(curentContactInfo.place);
 
 const submitForm = () => {
     const formData = new FormData();
@@ -213,6 +212,7 @@ const showPolicyBanner = ref(false)
 }
 
 @media screen and (max-width: 767px) {
+
     .select {
         font-size: 16px !important;
         /* Increase base font size for better readability */
