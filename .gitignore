@@ -72,6 +72,8 @@ dist/
 !/resources/js/locales/azmnl/products/.gitkeep
 /resources/js/locales/azmuk/products/**
 !/resources/js/locales/azmuk/products/.gitkeep
+/resources/js/locales/azmpt/products/**
+!/resources/js/locales/azmpt/products/.gitkeep
 /lang/de/productDescription.php
 /lang/dk/productDescription.php
 /lang/ee/productDescription.php
@@ -91,3 +93,13 @@ dist/
 /resources/js/locales/azmit/webcontent/.gitkeep
 /resources/js/locales/azmnl/webcontent/**
 /resources/js/locales/azmnl/webcontent/.gitkeep
+/resources/js/locales/azmch/webcontent/**
+/resources/js/locales/azmch/webcontent/.gitkeep
+/resources/js/locales/azmpt/webcontent/**
+/resources/js/locales/azmpt/webcontent/.gitkeep
+/resources/js/locales/azmde/webcontent/**
+/resources/js/locales/azmde/webcontent/.gitkeep
+/resources/js/locales/azmdk/webcontent/**
+/resources/js/locales/azmdk/webcontent/.gitkeep
+/resources/js/locales/azmuk/webcontent/**
+/resources/js/locales/azmuk/webcontent/.gitkeep
