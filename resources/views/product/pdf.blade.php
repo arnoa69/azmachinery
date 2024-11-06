@@ -3,6 +3,28 @@
 
 <?php
     $image = '/img/products/star/star.jpg';
+    $country = env('VITE_APP_COUNTRY');
+
+    if ($country === 'azmch') {
+        $countrydomain = 'https://az-machinery.ch';
+    } elseif ($country === 'azmbe') {
+        $countrydomain = 'https://az-machinery.be';
+    } elseif ($country === 'azmit') {
+        $countrydomain = 'https://az-machinery.it';
+    } elseif ($country === 'azmnl') {
+        $countrydomain = 'https://az-machinery.nl';
+    } elseif ($country === 'azmde') {
+        $countrydomain = 'https://az-machinery.de';
+    } elseif ($country === 'azmdk') {
+        $countrydomain = 'https://az-machinery.dk';
+    } elseif ($country === 'azmpt') {
+        $countrydomain = 'https://az-machinery.pt';
+    } elseif ($country === 'azmuk') {
+        $countrydomain = 'https://az-machinery.uk';
+    } else {
+        $countrydomain = 'https://az-machinery.fr';
+    }
+
 ?>
 <head>
     <title>{{ __('product.ldt') }} {{ __('product.switzerland') }} {{ $product->name }} {{ __('product.technical_sheet') }} </title>
@@ -10,7 +32,7 @@
     <meta name="description" content="{{ __('product.' . $product->slug . '.product_description') }}">
     <link rel="canonical" href="{{ url(app()->getLocale() . '/pdf' . App\Helpers\UrlHelper::generatePdfUrl($product->slug, $product->type, $product->version, app()->getLocale())) }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="icon" href="http://azmachinery.test/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ $countrydomain }}/favicon.ico" type="image/x-icon">
     <style>
         body {
             font-family: DejaVu Sans, sans-serif;
@@ -436,7 +458,7 @@
         <div class="button-container">
             <div class="button-row">
                 <div class="button-cell">
-                    <a class="button button_1" href="https://az-machinery.ch/get-a-quote"
+                    <a class="button button_1" href="{{ $countrydomain }}/get-a-quote"
                         target="_blank">{{ __('product.get_a_quote') }} <i class="icon"> &#x2197;</i></a>
                 </div>
                 <div class="button-cell">
@@ -444,7 +466,7 @@
                         target="_blank">{{ __('product.go_to_product') }} <i class="icon"> &#x2197;</i></a> --}}
                 </div>
                 <div class="button-cell">
-                    <a class="button button_3" href="https://az-machinery.ch/contact"
+                    <a class="button button_3" href="{{ $countrydomain }}/contact"
                         target="_blank">{{ __('product.make_a_survey') }} <i class="icon"> &#x2197;</i></a>
                 </div>
             </div>
