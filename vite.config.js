@@ -43,7 +43,7 @@ export default defineConfig(({ mode }) => {
                             return id.toString().split('node_modules/')[1].split('/')[0].toString();
                         }
                         // Handle large JSON files for locales
-                        if (id.includes(`/resources/js/locales/${appCountry}/products/**`)) {
+                        if (id.includes(`/resources/js/locales/${appCountry}/`)) {
                             return 'locales'; // You can customize this chunk name
                         }
                     }
