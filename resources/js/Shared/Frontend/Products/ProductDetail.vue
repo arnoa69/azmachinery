@@ -189,9 +189,9 @@ onMounted(() => {
                     <button @click="goBack" class="btn-back-mobile mt-3">
                         <i class="bi bi-arrow-left-circle"></i>
                     </button>
-                    <button @click="toggleFavorites" class="btn-favorites-mobile mt-3">
+                    <!-- <button @click="toggleFavorites" class="btn-favorites-mobile mt-3">
                         <i class="bi bi-bookmark-heart"></i>
-                    </button>
+                    </button> -->
 
                     <div class="section-title mt-2">
                         <a :href="`/products/${product.slug}/pdf`" class="pdf-download-link ml-2" target="_blank">
