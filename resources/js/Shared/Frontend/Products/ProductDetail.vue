@@ -2,7 +2,6 @@
 import HelpSidebar from "../../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
 import ProductDetailGallery from "./Detail//ProductDetailGallery.vue";
 import ProductSpecification from "./Detail//ProductSpecification.vue";
-import FabButton from './FAB/FabButton.vue';
 import { ref, computed, onMounted } from "vue";
 import { useI18n } from 'vue-i18n';
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
@@ -15,7 +14,6 @@ import generateUrl from "@/utils/urlHelper";
 
 
 const { locale, t } = useI18n();
-
 const phone_number = ref('');
 const props = defineProps({
     product: {
@@ -23,9 +21,7 @@ const props = defineProps({
         required: true,
     }
 });
-
 const showForm = ref(false);
-
 const soldItems = ref({
     'star': 533,
     'easy-xl': 126,
@@ -40,9 +36,9 @@ const soldItems = ref({
     'secu-dock': 114
 });
 
-
+// Entfernt die Dezimalstellen
 const formatPrice = (price) => {
-    return Math.floor(price); // Entfernt die Dezimalstellen
+    return Math.floor(price);
 };
 const formatProductName = (name) => {
     const parts = name.split(/STANDARD|LLOXL|LLO|XL/); // Teile den Namen bei "STANDARD", "LLOXL", "LLO", oder "XL"
@@ -57,6 +53,7 @@ const formatProductName = (name) => {
     return '';
 };
 
+// turn shortcuts into words
 const formatProductNameLarge = (name) => {
     const replacements = {
         '-LLO': ' Long level off ',
@@ -606,31 +603,6 @@ onMounted(() => {
     font-size: 15px;
 }
 
-
-
-@media (max-width: 991px) {
-    .section-title p {
-        font-size: 19px;
-        margin-bottom: 10px;
-    }
-
-    .about h1 {
-        font-size: 14px !important;
-        margin-bottom: 20px;
-        font-weight: 700;
-        color: black;
-        text-align: left;
-        margin-top: -26px;
-    }
-
-    .description {
-        font-size: 14px;
-    }
-}
-
-
-
-
 .about .content h3 {
     font-weight: 700;
     font-size: 26px;
@@ -901,13 +873,6 @@ onMounted(() => {
     margin-top: 64px;
 }
 
-@media (min-width: 992px) {
-    .pdf-download-link {
-        margin-left: 26px;
-    }
-
-}
-
 .pds_phone {
     width: 100%;
     padding-left: 15px;
@@ -1096,6 +1061,7 @@ h1 {
     color: #fff;
 }
 
+
 @media (max-width: 767.98px) {
     .video-section {
         width: 90%;
@@ -1195,8 +1161,32 @@ h1 {
     .calc {
         width: 99%;
     }
+} /* @media (max-width: 767.98px) */
 
+@media (max-width: 991px) {
+    .section-title p {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
 
+    .about h1 {
+        font-size: 14px !important;
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: black;
+        text-align: left;
+        margin-top: -26px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pdf-download-link {
+        margin-left: 26px;
+    }
 
 }
 </style>
