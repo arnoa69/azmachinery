@@ -574,8 +574,8 @@ section,
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: var(--nav-color);
-    font-size: 28px;
+    color: var(--contrast-color);
+    font-size: 36px;
     line-height: 0;
     margin-right: 10px;
     cursor: pointer;

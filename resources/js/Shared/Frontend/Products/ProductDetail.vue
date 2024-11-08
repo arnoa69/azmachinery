@@ -169,8 +169,8 @@ onMounted(() => {
         <div class="container">
             <div class="d-block d-md-none">
                 <div class="section-links flex-column">
-                    <h1 style="margin-left: -90px;">{{ formatProductName(product.name) }}</h1>
-                    <div style="margin-left: -120px;" class="product-stats-mobile text-left">
+                    <h1 class="product-title">{{ formatProductName(product.name) }}</h1>
+                    <div style="" class="product-stats-mobile">
                         <span class="rating">
                             <i class="bi bi-star-fill" style="color: #DA913C;"></i>
                             4.9
@@ -232,8 +232,8 @@ onMounted(() => {
                         </div>
                         <div class="row no-gutters mt-2">
                         </div>
-                        <div class="row categories-list">
-                            <div class="service-details specification">
+                        <div class="row">
+                            <div class="specification">
                                 <product-specification :product="product" />
                             </div>
                         </div>
@@ -243,7 +243,7 @@ onMounted(() => {
                 <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT CONTNENT COLUMN -->
                     <div class="content ps-lg-4 d-flex flex-column justify-content-center">
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
+                            <div class="col-lg-6 d-none d-md-block"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
                                 <h1 class="product-title">{{ formatProductNameLarge(product.name) }}</h1>
                                 <div class="product-stats mt-1">
                                     <span class="rating">
@@ -254,9 +254,11 @@ onMounted(() => {
                                     <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
                                             v-if="baseName === product.base_name">{{ count }}</span></span>
                                     <span>+ {{ $t('products.sold') }} </span>
-                                    <a :href="`/pdf${generateUrl(product.slug, product.version, product.type, locale, pdf=true)}`" target="_blank" class="pdf-download-link ml-2">
-                                        {{ $t("products.product_data_sheet") }} <i class="bi bi-file-pdf-fill"></i>
-                                    </a>
+                                    <p>
+                                        <a :href="`/pdf${generateUrl(product.slug, product.version, product.type, locale, pdf=true)}`" target="_blank" class="pdf-download-link ml-2">
+                                            {{ $t("products.product_data_sheet") }} <i class="bi bi-file-pdf-fill"></i>
+                                        </a>
+                                    </p>
                                 </div>
                                 <div class="for-whom">
                                     <div class="d-none d-md-block">
@@ -431,9 +433,6 @@ onMounted(() => {
 .component-wrapper {
     position: relative;
     min-height: 400px;
-    /* Same height as the components */
-    min-width: 370px;
-    /* Same width as the components */
 }
 
 .component-wrapper>.card {
@@ -494,7 +493,7 @@ onMounted(() => {
 .pdf-download-link {
     color: #e21414;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 .pdf-download-link i {
     font-size: 31px;
@@ -620,10 +619,7 @@ onMounted(() => {
     max-height: 220px;
 }
 
-.about .content ul {
-    list-style: none;
-    padding: 0;
-}
+
 
 .pic {
     width: 100%;
@@ -657,50 +653,6 @@ onMounted(() => {
     margin-bottom: 0;
 }
 
-.about .content .count-box {
-    width: 100%;
-}
-
-.about .content .count-box i {
-    display: block;
-    font-size: 36px;
-    color: #ffb727;
-    float: left;
-    line-height: 0;
-}
-
-.about .content .count-box span {
-    font-size: 36px;
-    line-height: 30px;
-    display: block;
-    font-weight: 700;
-    color: #3b434a;
-    margin-left: 50px;
-}
-
-.about .content .count-box p {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 50px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #5d6a75;
-}
-
-.about .content .count-box a {
-    font-weight: 600;
-    display: block;
-    margin-top: 20px;
-    color: #5d6a75;
-    font-size: 15px;
-    font-family: "Satisfy", serif;
-    transition: ease-in-out 0.3s;
-}
-
-.about .content .count-box a:hover {
-    color: #82909c;
-}
-
-
 .section-title {
     padding-bottom: 15px !important;
     text-align: left;
@@ -717,132 +669,7 @@ onMounted(() => {
     margin-bottom: 20px;
 }
 
-.service-details .service-box {
-    padding: 20px;
-    box-shadow: 0px 2px 20px rgba(194, 193, 193, 0.6);
-}
 
-.service-details .service-box+.service-box {
-    margin-top: 30px;
-}
-
-.service-details .service-box h4 {
-    font-size: 20px;
-    font-weight: 700;
-    border-bottom: 2px solid rgba(235, 233, 233, 0.9);
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-
-.service-details .services-list a {
-    color: rgba(47, 49, 51, 0.8);
-    background-color: rgba(244, 244, 244, 0.9);
-    display: flex;
-    align-items: center;
-    padding: 12px 15px;
-    margin-top: 15px;
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-.service-details .services-list a:first-child {
-    margin-top: 0;
-}
-
-.service-details .services-list a i {
-    font-size: 16px;
-    margin-right: 8px;
-    color: var(--accent-color);
-}
-
-.service-details .services-list a.active {
-    color: #fff;
-    background-color: rgba(232, 69, 69, 0.9);
-}
-
-.service-details .services-list a.active i {
-    color: var(--contrast-color);
-}
-
-.service-details .services-list a:hover {
-    color: #fff;
-    background-color: rgba(232, 69, 69, 0.9);
-}
-
-.service-details .download-catalog a {
-    color: var(--default-color);
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-    transition: 0.3s;
-    border-top: 1px solid rgba(var(--default-color-rgb), 0.1);
-}
-
-.service-details .download-catalog a:first-child {
-    border-top: 0;
-    padding-top: 0;
-}
-
-.service-details .download-catalog a:last-child {
-    padding-bottom: 0;
-}
-
-.service-details .download-catalog a i {
-    font-size: 24px;
-    margin-right: 8px;
-    color: var(--accent-color);
-}
-
-.service-details .download-catalog a:hover {
-    color: var(--accent-color);
-}
-
-.service-details .help-box {
-    background-color: rgba(232, 69, 69, 0.9);
-    color: #fff;
-    margin-top: 30px;
-    padding: 30px 15px;
-}
-
-.service-details .help-box .help-icon {
-    font-size: 48px;
-}
-
-.service-details .help-box h4,
-.service-details .help-box a {
-    color: var(--contrast-color);
-}
-
-.service-details .services-img {
-    margin-bottom: 20px;
-}
-
-.service-details h3 {
-    font-size: 26px;
-    font-weight: 700;
-}
-
-.service-details p {
-    font-size: 15px;
-}
-
-.service-details ul {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-}
-
-.service-details ul li {
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-}
-
-.service-details ul i {
-    font-size: 20px;
-    margin-right: 8px;
-    color: var(--accent-color);
-}
 
 .section-links {
     display: flex;
@@ -850,6 +677,7 @@ onMounted(() => {
     align-items: center;
     margin-bottom: 15px;
 }
+
 
 .btn-back {
     background-color: #000;
@@ -1062,13 +890,16 @@ h1 {
 }
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
     .video-section {
         width: 90%;
     }
 
     .pdf-download-link {
-        font-size: 12px;
+        font-size: 13px;
+    }
+    .pdf-download-link i {
+        font-size: 10px;
     }
     .product-stats-mobile {
         display: inline;
@@ -1132,13 +963,6 @@ h1 {
         font-weight: normal;
         text-transform: capitalize;
     }
-
-    .service-details.specification {
-        margin-top: -15px;
-    }
-
-
-
     .component-wrapper>.card {
         position: absolute;
         max-width: 84%;
@@ -1161,16 +985,8 @@ h1 {
     .calc {
         width: 99%;
     }
-} /* @media (max-width: 767.98px) */
-
-@media (max-width: 991px) {
-    .section-title p {
-        font-size: 19px;
-        margin-bottom: 10px;
-    }
-
     .about h1 {
-        font-size: 14px !important;
+        font-size: 16px !important;
         margin-bottom: 20px;
         font-weight: 700;
         color: black;
@@ -1178,15 +994,27 @@ h1 {
         margin-top: -26px;
     }
 
-    .description {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 992px) {
-    .pdf-download-link {
-        margin-left: 26px;
+    .specification {
+        min-width: 420px;
+        margin-bottom: 20px;
     }
 
+} /* @media (max-width: 767.98px) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-title p {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .about h1 {
+        font-size: 16px !important;
+        font-weight: 700;
+        color: black;
+        text-align: left;
+    }
+    .product-stats {
+        position: absolute;
+        top: 870px;
+    }
 }
 </style>

@@ -102,10 +102,20 @@ img {
     .portfolio-item {
         display: none; /* Verstecke alle Portfolio-Elemente */
     }
+}
 
-    /* Zeige nur das Element mit col-lg-12 an
-    .col-lg-12 {
-        display: block;
-    } */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-image {
+        display: none; /* Verstecke alle Portfolio-Elemente */
+    }
+    .additional-image:nth-child(2n)  {
+        display: none; /* Verstecke alle Portfolio-Elemente */
+    }
+    .additional-image .img-fluid{
+        width: 350px;
+        height: 180px;
+        object-fit: fill;
+    }
+
 }
 </style>
