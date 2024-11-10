@@ -11,7 +11,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="/#about">{{ $t('header.about') }}</a></li>
+          <li><a class="nav-link scrollto" href="/#about">{{ $t('header.about') }}test</a></li>
           <li class="dropdown"><a href="#"><span>{{ $t('header.products') }}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a :href="`${locale}/products`">{{ $t('header.menu.productList') }}</a></li>
