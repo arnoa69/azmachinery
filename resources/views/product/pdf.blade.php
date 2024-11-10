@@ -4,6 +4,8 @@
 <?php
     $image = '/img/products/star/star.jpg';
     $country = env('VITE_APP_COUNTRY');
+    $locale = app()->getLocale();
+    $productWebpage =  url(app()->getLocale() . App\Helpers\UrlHelper::generatePdfUrl($product->slug, $product->type, $product->version, app()->getLocale()));
 
     if ($country === 'azmch') {
         $countrydomain = 'https://az-machinery.ch';
@@ -458,15 +460,15 @@
         <div class="button-container">
             <div class="button-row">
                 <div class="button-cell">
-                    <a class="button button_1" href="{{ $countrydomain }}/get-a-quote"
+                    <a class="button button_1" href="{{ $countrydomain }}/{{ $locale }}/get-a-quote"
                         target="_blank">{{ __('product.get_a_quote') }} <i class="icon"> &#x2197;</i></a>
                 </div>
                 <div class="button-cell">
-                    {{-- <a class="button button_2" href="#"
-                        target="_blank">{{ __('product.go_to_product') }} <i class="icon"> &#x2197;</i></a> --}}
+                    <a class="button button_2" href="{{ $productWebpage }}"
+                        target="_blank">{{ __('product.go_to_product') }} <i class="icon"> &#x2197;</i></a>
                 </div>
                 <div class="button-cell">
-                    <a class="button button_3" href="{{ $countrydomain }}/contact"
+                    <a class="button button_3" href="{{ $countrydomain }}/{{ $locale }}/contact"
                         target="_blank">{{ __('product.make_a_survey') }} <i class="icon"> &#x2197;</i></a>
                 </div>
             </div>
