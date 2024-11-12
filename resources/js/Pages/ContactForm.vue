@@ -43,7 +43,27 @@ const contactInfo = {
         'place': 'Pratteln, Switzerland',
         'email': 'alexander.arnold@az-machinery.ch',
         'phone': '+41 61 514 88 88'
-    }
+    },
+    'azmdk': {
+        'place': '13 rue de la scierie - 66340 Palau de Cerdagne, Frankreich',
+        'email': 'contact@az-machinery.com',
+        'phone': '+33 352 740 369'
+    },
+    'azmuk': {
+        'place': '13 rue de la scierie - 66340 Palau de Cerdagne, Frankreich',
+        'email': 'contact@az-machinery.com',
+        'phone': '+33 352 740 369'
+    },
+    'azmpt': {
+        'place': '13 rue de la scierie - 66340 Palau de Cerdagne, Frankreich',
+        'email': 'contact@az-machinery.com',
+        'phone': '+33 352 740 369'
+    },
+    'azmat': {
+        'place': 'Pratteln, Switzerland',
+        'email': 'alexander.arnold@az-machinery.ch',
+        'phone': '+41 61 514 88 88'
+    },
 };
 
 const curentContactInfo = contactInfo[env] || contactInfo['azmch'];

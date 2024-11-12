@@ -23,6 +23,8 @@
         $countrydomain = 'https://az-machinery.pt';
     } elseif ($country === 'azmuk') {
         $countrydomain = 'https://az-machinery.uk';
+    } elseif ($country === 'azmat') {
+        $countrydomain = 'https://az-machinery.at';
     } else {
         $countrydomain = 'https://az-machinery.fr';
     }

@@ -8,9 +8,6 @@ import { getCountryName } from '@/utils/localizedSlugMixin';
 import { getProductImages } from '@/utils/imageUtil';
 
 const { t } = useI18n();
-
-
-//const product = ref([]);
 const canonicalUrl = ref('');
 canonicalUrl.value = window.location.origin + window.location.pathname;
 const url = ref(window.location.origin);
@@ -79,12 +76,46 @@ const productInfo = computed(() => {
     return info;
 });
 
+/* component for alternate links */
+// BEGIN define countries and domains as well as hreflang
+const countryDomains = {
+    azmch: { domain: 'ch', hreflang: 'de-CH' },
+    azmbe: { domain: 'be', hreflang: 'fr-BE' },
+    azmit: { domain: 'it', hreflang: 'it-IT' },
+    azmnl: { domain: 'nl', hreflang: 'nl-NL' },
+    azmde: { domain: 'de', hreflang: 'de-DE' },
+    azmdk: { domain: 'dk', hreflang: 'da-DK' },
+    azmuk: { domain: 'uk', hreflang: 'en-GB' },
+    azmpt: { domain: 'pt', hreflang: 'pt-PT' },
+    azmat: { domain: 'at', hreflang: 'de-AT' },
+};
+
+const generateAlternateLinks = () => {
+    const currentDomain = window.location.hostname.split('.')[1]; // z.B. "de" von "example.de"
+    const baseDomain = window.location.hostname.split('.')[0]; // z.B. "example"
+    const alternateLinks = [];
+
+    for (const [key, { domain, hreflang }] of Object.entries(countryDomains)) {
+        if (domain !== currentDomain) {
+            const alternateUrl = `https://${baseDomain}.${domain}${window.location.pathname}`;
+            alternateLinks.push({ url: alternateUrl, hreflang });
+        }
+    }
+    return alternateLinks;
+};
+
+const alternateLinks = generateAlternateLinks();
+/* component for alternate links */
+
 </script>
 
 <template>
     <Head>
         <title> {{ $t('meta.product_detail_view.title.01', {tonnes: product.weight_capacity, country: productInfo[0].country }) }} </title>
         <link rel="canonical" :href="canonicalUrl" />
+        <template v-for="link in alternateLinks" :key="link.url">
+            <link rel="alternate" :href="link.url" :hreflang="link.hreflang" />
+        </template>
         <meta name="keywords" :content="productInfo[1].dynamic_keywords" />
         <meta name="description" :content="$t(`${product.slug}.product_description`)" />
         <meta property="og:url" :content="canonicalUrl" />

@@ -56,6 +56,10 @@ export function getCountryName() {
         country = t('meta.product_detail_view.countries.netherlands');
     } else if (env === 'azmuk') {
         country = t('meta.product_detail_view.countries.great-britain');
+    } else if (env === 'azmpt') {
+        country = t('meta.product_detail_view.countries.portugal');
+    } else if (env === 'azmat') {
+        country = t('meta.product_detail_view.countries.austria');
     } else {
         country = t('meta.product_detail_view.countries.whole-world');
     }
