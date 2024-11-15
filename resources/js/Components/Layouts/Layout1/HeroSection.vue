@@ -13,7 +13,7 @@ const { t } = useI18n();
             <div class="container">
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-6 text-center">
-                        <h2>{{ $t('hero.title.start') }}</h2>
+                        <h1>{{ $t('hero.title.start') }}</h1>
                         <p>{{ $t('hero.title.description') }}</p>
                         <a href="/get-a-quote" class="btn-get-started">{{ $t('hero.title.button') }}</a>
                     </div>

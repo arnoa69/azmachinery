@@ -79,6 +79,7 @@ const productInfo = computed(() => {
 /* component for alternate links */
 // BEGIN define countries and domains as well as hreflang
 const countryDomains = {
+    azmat: { domain: 'at', hreflang: 'de-AT' },
     azmch: { domain: 'ch', hreflang: 'de-CH' },
     azmbe: { domain: 'be', hreflang: 'fr-BE' },
     azmit: { domain: 'it', hreflang: 'it-IT' },
@@ -86,8 +87,7 @@ const countryDomains = {
     azmde: { domain: 'de', hreflang: 'de-DE' },
     azmdk: { domain: 'dk', hreflang: 'da-DK' },
     azmuk: { domain: 'uk', hreflang: 'en-GB' },
-    azmpt: { domain: 'pt', hreflang: 'pt-PT' },
-    azmat: { domain: 'at', hreflang: 'de-AT' },
+    azmpt: { domain: 'pt', hreflang: 'pt-PT' }
 };
 
 const generateAlternateLinks = () => {

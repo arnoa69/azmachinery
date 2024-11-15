@@ -18,6 +18,7 @@
             },
             "countries": {
                 "whole-world": "Gesamt Welt",
+                "austria": "Oesterreich",
                 "belgium": "Belgien",
                 "switzerland": "Schweiz",
                 "germany": "Deutschland",

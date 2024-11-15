@@ -33,13 +33,14 @@ class GenerateSitemapCommand extends Command
         $country = config('app.country');
 
         $domains = [
+            'azmat' => 'https://az-machinery.at',
             'azmch' => 'https://az-machinery.ch',
             'azmbe' => 'https://az-machinery.be',
             'azmde' => 'https://az-machinery.de',
             'azmdk' => 'https://az-machinery.dk',
             'azmit' => 'https://az-machinery.it',
             'azmnl' => 'https://az-machinery.nl',
-            'azmuk' => 'https://az-machinery.co.uk'
+            'azmuk' => 'https://az-machinery.uk'
         ];
 
         $domain = $domains[$country] ?? $domains['azmbe'];
