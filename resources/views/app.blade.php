@@ -40,7 +40,7 @@
             gtag('js', new Date());
 
             gtag('config', '{{ env('GOOGLE_TAG_MANAGER_ID') }}');
-            </script>
+        </script>
 
         @inertiaHead
 
