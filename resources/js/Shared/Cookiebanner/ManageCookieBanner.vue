@@ -1,22 +1,29 @@
 <script setup>
     import { useI18n } from 'vue-i18n';
-    import { posthogModule } from '../../plugins/posthog'
+    import { posthogModule } from '../../plugins/posthog';
     import { defineEmits, ref, computed } from 'vue';
+    import { getCookieConsent, setCookieConsent } from '@/services/cookieConsentService';
 
-    const  { t } = useI18n();
+    const  { t, locale } = useI18n();
     const emit = defineEmits(['hideConfigBanner', 'hideBothBanner']);
-    const hideConfigBanner = () => {
-    posthogModule.posthog.opt_out_capturing();
-    emit('hideConfigBanner');
-    }
-    const acceptCookies = () => {
-    posthogModule.posthog.opt_in_capturing();
-    emit('hideBothBanner');
-    }
+   // const { getCookieConsent, setCookieConsent } = useCookieConsent();
 
-    const declineCookies = () => {
-    posthogModule.posthog.opt_out_capturing();
-    emit('hideBothBanner');
+    const consent = ref({
+        ad_storage: 'denied',
+        ad_personalization: 'denied',
+        ad_user_data: 'denied',
+        analytics_storage: 'denied',
+        ...getCookieConsent()
+    })
+
+    const savePreferences = () => {
+        setCookieConsent(consent.value)
+        if (consent.value.analytics_storage === 'granted') {
+            posthogModule.posthog.opt_in_capturing()
+        } else {
+            posthogModule.posthog.opt_out_capturing()
+        }
+        emit('hideBothBanner')
     }
 
     const cookies = ref([
@@ -61,14 +68,14 @@
         </div>
       </div>
       <div class="button-group">
-        <button @click="acceptCookies" class="allow-button">{{ $t('cookiebanner.manage.buttonAllow') }}</button>
-        <button @click="acceptCookies" class="confirm-button">{{ $t('cookiebanner.manage.buttonAccept') }}</button>
-        <button @click="declineCookies" class="reject-button">{{ $t('cookiebanner.manage.buttonDisallow') }}</button>
+        <button @click="savePreferences" class="allow-button">{{ $t('cookiebanner.manage.buttonAllow') }}</button>
+        <button @click="savePreferences" class="confirm-button">{{ $t('cookiebanner.manage.buttonAccept') }}</button>
+        <button @click="savePreferences" class="reject-button">{{ $t('cookiebanner.manage.buttonDisallow') }}</button>
       </div>
       <div class="link-group">
-        <a :href="`/${locale}/cookie-policy`" class="policy-link" target="_blank">{{ $t("footer.links.cookie-policy") }}</a>
-        <a :href="`/${locale}/privacy-policy`" class="policy-link" target="_blank">{{ $t("footer.links.privacy-policy") }}</a>
-        <a :href="`/${locale}/terms-and-conditions`" class="policy-link" target="_blank">{{ $t("footer.links.terms-and-conditions") }}</a>
+        <a :href="`/${locale}/cookie-policy`" class="policy-link" >{{ $t("footer.links.cookie-policy") }}</a>
+        <a :href="`/${locale}/privacy-policy`" class="policy-link" >{{ $t("footer.links.privacy-policy") }}</a>
+        <a :href="`/${locale}/terms-and-conditions`" class="policy-link" >{{ $t("footer.links.terms-and-conditions") }}</a>
       </div>
     </div>
 </template>

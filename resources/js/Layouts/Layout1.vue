@@ -12,13 +12,19 @@ import TestimonialsSection from '@/Components/Layouts/Layout1/TestimonialsSectio
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
-import { posthogModule } from '../plugins/posthog'
-import { ref } from "vue";
+import { posthogModule } from '../plugins/posthog';
+import { hasConsentBeenGiven } from '../services/cookieConsentService';
+import { ref, onMounted } from "vue";
 
-// show banner depending on posthog opt in or out
-const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
+const showBanner = ref(true);
 const showConfigBanner = ref(false)
 const showPolicyBanner = ref(false)
+
+onMounted(() => {
+    showBanner.value = !hasConsentBeenGiven();
+    posthogModule.posthog // Initialize PostHog
+});
+
 </script>
 
 <template>

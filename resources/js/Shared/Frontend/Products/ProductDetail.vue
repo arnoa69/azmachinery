@@ -8,10 +8,14 @@ import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 import { posthogModule } from '@/plugins/posthog';
+import { hasConsentBeenGiven } from '@/services/cookieConsentService';
 import PriceCalculator from './Calculator/PriceCalculator.vue';
 import HelpChat from './Calculator/HelpChat.vue';
 import generateUrl from "@/utils/urlHelper";
 
+const showBanner = ref(true);
+const showConfigBanner = ref(false)
+const showPolicyBanner = ref(false)
 
 const { locale, t } = useI18n();
 const phone_number = ref('');
@@ -74,10 +78,6 @@ const formatProductNameLarge = (name) => {
 const goBack = () => {
     window.history.back();
 }
-const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
-const showConfigBanner = ref(false)
-const showPolicyBanner = ref(false)
-
 
 // State to manage the current component being displayed
 const currentComponent = ref('PriceCalculator');
@@ -160,6 +160,8 @@ const displayVideos = computed(() => {
 // Optional: You can use onMounted to set the initial component explicitly
 onMounted(() => {
     currentComponent.value = 'PriceCalculator';
+    showBanner.value = !hasConsentBeenGiven();
+    posthogModule.posthog // Initialize PostHog
 });
 </script>
 

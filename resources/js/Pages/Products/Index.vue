@@ -1,12 +1,13 @@
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 import { usePage } from "@inertiajs/vue3";
 import Layout from "../../Layouts/ProductLayout.vue";
 import HelpSidebar from "../../Components/Layouts/Layout1/Sidebar/HelpSidebar.vue";
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
-import { posthogModule } from '@/plugins/posthog'
+import { posthogModule } from '@/plugins/posthog';
+import { hasConsentBeenGiven } from '@/services/cookieConsentService';
 
 const page_or_slug = ref('product_overview');
 const products = ref([]);
@@ -26,19 +27,17 @@ const base_names = computed(() => {
   }
 });
 
-// const base_names = ref(['star', 'easy-xl', 'wlo',
-//     'prime-xs', 'star-otc', 'big-foot', 'hcrn-06',
-//     'hcrn-065', 'hcrn-08', 'hcry-08', 'secu-dock']);
-
 const canonicalUrl = ref('');
 canonicalUrl.value = window.location.origin + window.location.pathname;
 const url = ref(window.location.origin);
-
-// show banner depending on posthog opt in or out
-const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
-
+const showBanner = ref(true);
 const showConfigBanner = ref(false)
 const showPolicyBanner = ref(false)
+
+onMounted(() => {
+    showBanner.value = !hasConsentBeenGiven();
+    posthogModule.posthog // Initialize PostHog
+});
 </script>
 
 <template>

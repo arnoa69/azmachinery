@@ -1,12 +1,13 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { usePage } from "@inertiajs/vue3";
 import Layout from "../../Layouts/ProductLayout.vue";
 import ProductList from "../../Shared/Frontend/Products/ProductList.vue";
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
-import { posthogModule } from '@/plugins/posthog'
+import { posthogModule } from '@/plugins/posthog';
+import { hasConsentBeenGiven } from '@/services/cookieConsentService';
 
 const products = ref([]);
 const { props } = usePage();
@@ -16,12 +17,14 @@ const canonicalUrl = ref('');
 canonicalUrl.value = window.location.origin + window.location.pathname;
 const url = ref(window.location.origin);
 
-
-// show banner depending on posthog opt in or out
-const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
+const showBanner = ref(true);
 const showConfigBanner = ref(false)
 const showPolicyBanner = ref(false)
 
+onMounted(() => {
+    showBanner.value = !hasConsentBeenGiven();
+    posthogModule.posthog // Initialize PostHog
+});
 </script>
 
 <template>

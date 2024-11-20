@@ -1,14 +1,23 @@
 <script setup>
 import GetQuoteLayout from '@/Layouts/GetQuoteLayout.vue';
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n';
 import { Inertia } from '@inertiajs/inertia';
 import { posthogModule } from '@/plugins/posthog';
+import { hasConsentBeenGiven } from '@/services/cookieConsentService';
 import CookieBanner from '@/Shared/Cookiebanner/CookieBanner.vue';
 import ManageCookieBanner from '@/Shared/Cookiebanner/ManageCookieBanner.vue';
 import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 
 const { locale } = useI18n();
+const showBanner = ref(true);
+const showConfigBanner = ref(false)
+const showPolicyBanner = ref(false)
+
+onMounted(() => {
+    showBanner.value = !hasConsentBeenGiven();
+    posthogModule.posthog // Initialize PostHog
+});
 
 const name = ref('');
 const email = ref('');
@@ -34,12 +43,6 @@ const imagePath = ref('/../../../img/quote-bg.jpg');
 const backgroundStyle = ref({
     backgroundImage: `url(${imagePath.value})`
 });
-
-// show banner depending on posthog opt in or out
-const showBanner = ref(!(posthogModule.posthog.has_opted_out_capturing() || posthogModule.posthog.has_opted_in_capturing()));
-const showConfigBanner = ref(false)
-const showPolicyBanner = ref(false)
-
 </script>
 
 <template>
