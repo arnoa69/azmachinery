@@ -647,6 +647,33 @@
         "ceo": "Peatoimetaja: Jérôme GUIGUET",
         "property": "See veebileht austab autoriõigust. Kõikidele veebilehel avaldatud ja kättesaadavate tööde autoritele kuuluvad kõik õigused. Tööde kasutamine teistel eesmärkidel kui avalikustamiseks ja isiklikuks kasutamiseks on keelatud ilma loa saamata. Veebileht az-machinery avaldab Ionos ja võtab selle vastutuse Ionos."
     },
+    "cookie-policy": {
+        "title": "AZ Machinery S.L. küpsipolitiika",
+        "effective-date": "21.11.2024",
+        "titles": {
+            "introduction": "Sissejuhatus",
+            "what-are-cookies": "Mis on küpsid?",
+            "types": "Küpside tüübid, mida me kasutame",
+            "type-1": "1. Olulised küpsid",
+            "type-2": "2. Jõudluse küpsid",
+            "type-3": "3. Funktsionaalsed küpsid",
+            "type-4": "4. Sihtküpsid",
+            "manage": "Küpsiseaded",
+            "changes": "Muudatused küpsipolitiikas",
+            "contact-info": "Kontaktinfo"
+        },
+        "content": {
+            "introduction": "AZ Machinery S.L. kasutab küpsiseid ja sarnaseid jälgimistehnoloogiaid oma veebisaidil, et parandada teie veebisurfamiskogemust, analüüsida veebisaidi liiklust ja pakkuda isikupärastatud sisu. See küpsipolitiika selgitab, mis on küpsid, kuidas me neid kasutame ja kuidas saate teie küpsiseaded hallata.",
+            "what-are-cookies": "Küpsid on väikesed tekstifailid, mis salvestatakse teie seadmesse, kui te külastate veebisaiti. Neid kasutatakse tavaliselt veebisaitide jõudluse parandamiseks, aruannete koostamiseks ja isikupärastatud sisu pakkumiseks.",
+            "type-1": "Need küpsid on vajalikud veebisaidi toimimiseks ja neid ei saa meie süsteemides keelata. Need asetatakse tavaliselt vastuseks teie toimingutele, nagu näiteks teie privaatsusseadete määramine, sisselogimine või vormide täitmine.",
+            "type-2": "Need küpsid aitavad meil mõõta veebisaidi külastatavust ja liiklust, et me saaksime parandada veebisaidi jõudlust. Need aitavad meil näha, millised leheküljed on populaarsemad ja kuidas kasutajad veebisaidil liiguvad. Kõik need küpsid koguvad andmed on ühendatud ja anonyymiseeritud.",
+            "type-3": "Need küpsid võimaldavad meil pakkuda veebisaidil lisafunktsionaalsust ja isikupärastatud sisu. Need võivad olla seatud meie poolt või kolmandate osapoolte poolt, kes on integreeritud meie veebisaidile.",
+            "type-4": "Need küpsid võivad olla seatud meie reklaamipartnerite poolt meie veebisaidil. Need võimaldavad reklaamifirmadel luua teie huvides profiili, mis põhineb teie seadme ja brauseri tunnisteil. Need ei salvesta otseselt isikuandmeid, kuid võivad kasutada kogutud andmeid, et pakkuda teile tarkemaid reklaame.",
+            "manage": "Saate hallata oma küpsiseaded brauseri seadete kaudu. Enamik brausereid võimaldab küpsiste kasutamist ja võimaldab neid kustutada. Täpsemad meetodid sõltuvad brauseri tüübist ja versioonist.",
+            "changes": "Kui me teeme muudatusi küpsipolitiikas, teavitame teid sellest. Uus poliitika avaldatakse meie veebisaidil. Kui teil on küsimusi või muresid küpsipolitiika kohta, palun võtke ühendust { email } aadressiga.",
+            "contact-info": "Kui teil on küsimusi või muresid küpsipolitiika kohta, palun võtke ühendust { email } aadressiga."
+        }
+    },
     "privacy": {
         "title": {
             "1": "Privaatsuspoliitika",

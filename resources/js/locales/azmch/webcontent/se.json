@@ -647,6 +647,33 @@
         "ceo": "Ansvarig utgivare: Jérôme GUIGUET",
         "property": "Denna webbplats respekterar upphovsrätten. Alla rättigheter tillhör upphovsmännen till de på webbplatsen reproducerade och offentliggjorda verken. All användning av verken annat än för reprodusktion och individuell och privat användning är förbjuden utan tillstånd. Webbplatsen az-machinery publiceras av Ionos och drivs av företaget Ionos."
     },
+    "cookie-policy": {
+        "title": "AZ Machinery S.L. cookiepolicy",
+        "effective-date": "21.11.2024",
+        "titles": {
+            "introduction": "Inledning",
+            "what-are-cookies": "Vad är cookies?",
+            "types": "Typer av cookies vi använder",
+            "type-1": "1. Nödvändiga cookies",
+            "type-2": "2. Prestandacookies",
+            "type-3": "3. Funktionella cookies",
+            "type-4": "4. Målgruppscookies",
+            "manage": "Hantera dina cookiepreferenser",
+            "changes": "Ändringar i denna cookiepolicy",
+            "contact-info": "Kontaktinformation"
+        },
+        "content": {
+            "introduction": "AZ Machinery S.L. använder cookies och liknande spårningstekniker på vår webbplats för att förbättra din surfupplevelse, analysera webbplatsens trafik och tillhandahålla personligt innehåll. Denna cookiepolicy förklarar vad cookies är, hur vi använder dem och hur du kan hantera dina cookiepreferenser.",
+            "what-are-cookies": "Cookies är små textfiler som lagras på din enhet när du besöker en webbplats. De används för att göra webbplatser mer effektiva, generera rapporter och tillhandahålla personligt innehåll.",
+            "type-1": "Dessa cookies är nödvändiga för att webbplatsen ska fungera och kan inte inaktiveras i våra system. De ställs vanligtvis in som svar på åtgärder du utför, som att ställa in dina sekretessinställningar, logga in eller fylla i formulär.",
+            "type-2": "Dessa cookies låter oss räkna besök och webbplatsens trafik, så att vi kan mäta och förbättra webbplatsens prestanda. De hjälper oss att se vilka sidor som är mest och minst populära och hur användare rör sig på webbplatsen. All information som dessa cookies samlar in är aggregerad och anonym.",
+            "type-3": "Dessa cookies låter vår webbplats tillhandahålla avancerade funktioner och personlig anpassning. De kan ställas in av oss eller av tredjepartsleverantörer som vi har integrerat på våra sidor.",
+            "type-4": "Dessa cookies kan ställas in av våra annonsörspartners på vår webbplats. De kan användas av dessa företag för att skapa en profil av dina intressen och visa dig relevanta annonser på andra webbplatser. De lagrar inte direkt personlig information, men baseras på en unik identifierare för din webbläsare och enhet.",
+            "manage": "Du kan hantera dina cookiepreferenser via dina webbläsarinställningar. De flesta webbläsare låter dig avvisa cookies och ta bort dem. Metoderna för att göra detta varierar beroende på webbläsare och version.",
+            "changes": "Vi kan uppdatera vår cookiepolicy från tid till annan för att återspegla förändringar i tekniken eller lagstiftningen som kan påverka hur cookies används av oss och hur du kan hantera dem som användare. Vi kommer att informera dig om eventuella ändringar genom att publicera den nya policyn på vår webbplats.",
+            "contact-info": "Om du har några frågor eller funderingar om vår cookiepolicy, vänligen kontakta oss på { email }."
+        }
+    },
     "privacy": {
         "title": {
             "1": "Integritetspolicy",

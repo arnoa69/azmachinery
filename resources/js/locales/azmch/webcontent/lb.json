@@ -649,6 +649,33 @@
         "ceo": "Responsabele Direkter: Jérôme GUIGUET",
         "property": "Dës Websäit respektéiert d'Auteursrecht. All Rechter vun den Auteuren vu geschützte Wierker, déi op dëser Websäit reproduzéiert a kommunikéiert ginn, sinn reservéiert. Ausser autoriséiert ass de Gebrauch vu geschützte Wierker anescht wéi fir d'Reproduktioun an d'individuell an privat Konsultatioun verbueden. D'Websäit az-machinery gëtt vun Ionos erausginn an vun der Firma Ionos gehéiert."
     },
+    "cookie-policy": {
+        "title": "Cookie-Politik vun AZ Machinery S.L.",
+        "effective-date": "21.11.2024",
+        "titles": {
+            "introduction": "Eroinnung",
+            "what-are-cookies": "Was sinn Cookies?",
+            "types": "Cookies-Typen wéi wéi wir bruchn",
+            "type-1": "1. Essentielle Cookies",
+            "type-2": "2. Performanz-Cookies",
+            "type-3": "3. Funktionale Cookies",
+            "type-4": "4. Ziele-Cookies",
+            "manage": "Cookies-Préferenzen verännern",
+            "changes": "Ännerungen an der Cookie-Politik",
+            "contact-info": "Kontakt-Informationen"
+        },
+        "content": {
+            "introduction": "AZ Machinery S.L. bennt Cookies und ähnliche Tracking-Technologien op ons Websäit um d'Benutzerfreundlichkeit zu verbessern, d'Websäit-Traffik zu analyséieren an persénle Inhalte zu bieden. Dës Cookie-Politik erläget wéi Cookies sinn, wéi wir déi bruchn an un d'Cookies-Préferenzen verännern.",
+            "what-are-cookies": "Cookies sinn kleine Textdossierschten déi op engem Apparecht gestochen ginn, wann eng Websäit besucht ginn. Déi sinn déi Websaiten effizienter zéieren, Reporten generéieren an persénle Erleech an.",
+            "type-1": "Déi Cookies sinn nödwelkich fir d'Websäit z'works. Déi kënnen net op engem Browser-System deaktivéiert wéi in ons Systeme net opgelessen ginn.",
+            "type-2": "Déi Cookies lassen wéi wi d'Zoufäerungen an d'Websäit-Traffik zählen an d'Performanz vun d'Websäit verbessern. Déi hëlpen wéi wi säwen, wéi déi Websaiten am meeschte an am minst besucht ginn sinn, an wéi déi Benutzer déi Websäit bewéieren.",
+            "type-3": "Déi Cookies lassen d'Websäit funktionelle Funktionalité an persénle Anpassungen bieden. Déi kënnen vun uns oder vun Drittanbieter, déi op ons Websäit integriert sinn, ginn.",
+            "type-4": "Déi Cookies kënnen vun unner Advertising-Partner op ons Websäit ginn. Déi kënnen vun déi Partner fir déi Erleech vun d'Interessen an relevante Werbespannen op aner Websaiten generéieren.",
+            "manage": "Déi Cookies-Préferenzen kannen op d'Einstellungen vun engem Browser verännert ginn. Déi meechten Browser déi Cookies ablehnen an gläichen kënnen. Déi Methoden fir d'Cookies zu deaktivéieren sinn abhängig vun d'Browser an der Version.",
+            "changes": "Wéi wi d'Cookie-Politik vun Zeit tot Zäit ännern, fir änner an Technologie oder Lëscht vun déi Cookies, déi wéi wi déi Cookies bruchn, an déi Cookies-Préferenzen als Benutzer verännern, an d'Benutzererinnung ginn. Wéi wi déi neue Politik op ons Websäit veröffentlichen, déi d'Ännerungen anzeigen.",
+            "contact-info": "Wann déi Cookie-Politik geännert gëtt, informéiert wi d'Benutzer. Wann déi Cookie-Politik geännert gëtt, gëtt wi dës op ons Websäit publizéiert. Dës gëtt déi Benutzer iwwert auf d'Ännerungen aufmerksam. Falls du Fragen oder Bedenker huesch däi Cookie-Politik, kontaktéiert wi an { email }."
+        }
+    },
     "privacy": {
         "title": {
             "1": "Privatsphären-Politik",

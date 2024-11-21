@@ -647,6 +647,33 @@
         "ceo": "Diretor responsável: Jérôme GUIGUET",
         "property": "Este site respeita os direitos de autor. Todos os direitos dos autores das obras reproduzidas e comunicadas neste site estão reservados. Salvo autorização, qualquer uso das obras diferentes da reprodução e consulta individual e privada é proibido. O site az-machinery é publicado por Ionos e hospedado pela empresa Ionos."
     },
+    "cookie-policy": {
+        "title": "Política de Cookies da AZ Machinery S.L.",
+        "effective-date": "21.11.2024",
+        "titles": {
+            "introduction": "Introdução",
+            "what-are-cookies": "O que são cookies?",
+            "types": "Tipos de cookies que usamos",
+            "type-1": "1. Cookies essenciais",
+            "type-2": "2. Cookies de desempenho",
+            "type-3": "3. Cookies funcionais",
+            "type-4": "4. Cookies de direcionamento",
+            "manage": "Gerenciar suas preferências de cookies",
+            "changes": "Alterações nesta política de cookies",
+            "contact-info": "Informações de contato"
+        },
+        "content": {
+            "introduction": "A AZ Machinery S.L. usa cookies e tecnologias de rastreamento semelhantes em nosso site para melhorar sua experiência de navegação, analisar o tráfego do site e fornecer conteúdo personalizado. Esta política de cookies explica o que são cookies, como os usamos e como você pode gerenciar suas preferências de cookies.",
+            "what-are-cookies": "Cookies são pequenos arquivos de texto que são armazenados em seu dispositivo quando você visita um site. Eles são amplamente usados para tornar os sites mais eficientes, criar relatórios e fornecer experiências personalizadas.",
+            "type-1": "Esses cookies são necessários para que o site funcione e não podem ser desativados em nossos sistemas. Eles são normalmente definidos em resposta a ações que você executa, que correspondem a uma solicitação de serviços, como definir suas preferências de privacidade, fazer login ou preencher formulários.",
+            "type-2": "Esses cookies nos permitem contar visitas e tráfego, para que possamos medir e melhorar o desempenho do site. Eles nos ajudam a ver quais páginas são mais e menos populares e como os visitantes se movem pelo site. Todas as informações que esses cookies coletam são agregadas e, portanto, anônimas.",
+            "type-3": "Esses cookies permitem que o site forneça funcionalidades e personalização avançadas. Eles podem ser definidos por nós ou por provedores de serviços de terceiros que integramos em nossas páginas.",
+            "type-4": "Esses cookies podem ser definidos em nosso site por nossos parceiros de publicidade. Eles podem ser usados por essas empresas para criar um perfil de seus interesses e exibir anúncios relevantes em outros sites. Eles não armazenam informações pessoais diretas, mas são baseados em uma identificação única do seu navegador e dispositivo de internet.",
+            "manage": "Você pode gerenciar suas preferências de cookies por meio das configurações do seu navegador. A maioria dos navegadores permite que você recuse cookies e os exclua. Os métodos para fazer isso variam de acordo com o navegador e a versão.",
+            "changes": "Podemos atualizar nossa política de cookies periodicamente para refletir alterações na tecnologia ou na legislação que possam afetar a forma como os cookies são usados por nós e como você pode gerenciá-los como usuário. Vamos notificá-lo sobre alterações publicando a nova política em nosso site.",
+            "contact-info": "Se tiver alguma dúvida ou preocupação sobre nossa política de cookies, por favor, entre em contato conosco em: { email }"
+        }
+    },
     "privacy": {
         "title": {
             "1": "Política de Privacidade",

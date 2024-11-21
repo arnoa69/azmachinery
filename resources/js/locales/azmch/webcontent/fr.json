@@ -647,6 +647,33 @@
         "ceo": "Directeur de publication : Jérôme GUIGUET",
         "property": "Ce site respecte le droit d’auteur. Tous les droits des auteurs des œuvres protégées reproduites et communiquées sur ce site, sont réservés. Sauf autorisation, toute utilisation des œuvres autres que la reproduction et la consultation individuelles et privées sont interdites. Le site az-machinery est édité par Ionos et hébergé par la société Ionos."
     },
+    "cookie-policy": {
+        "title": "Politique des cookies de AZ Machinery S.L.",
+        "effective-date": "21.11.2024",
+        "titles": {
+            "introduction": "Introduction",
+            "what-are-cookies": "Qu'est-ce qu'un cookie ?",
+            "types": "Types de cookies que nous utilisons",
+            "type-1": "1. Cookies essentiels",
+            "type-2": "2. Cookies de performance",
+            "type-3": "3. Cookies fonctionnels",
+            "type-4": "4. Cookies de ciblage",
+            "manage": "Gérez vos préférences de cookies",
+            "changes": "Modifications apportées à cette politique des cookies",
+            "contact-info": "Informations de contact"
+        },
+        "content": {
+            "introduction": "AZ Machinery S.L. utilise des cookies et des technologies de suivi similaires sur notre site web pour améliorer votre expérience de navigation, analyser le trafic du site et vous fournir du contenu personnalisé. Cette politique des cookies explique ce qu'ils sont, comment nous les utilisons et comment vous pouvez gérer vos préférences de cookies.",
+            "what-are-cookies": "Les cookies sont de petits fichiers texte qui sont stockés sur votre appareil lorsque vous visitez un site web. Ils sont largement utilisés pour rendre les sites web plus efficaces, générer des rapports et fournir des expériences personnalisées.",
+            "type-1": "Ces cookies sont nécessaires pour que le site web fonctionne et ne peuvent pas être désactivés dans nos systèmes. Ils sont généralement définis en réponse à des actions que vous effectuez, comme définir vos préférences de confidentialité, vous connecter ou remplir des formulaires.",
+            "type-2": "Ces cookies nous permettent de compter les visites et le trafic du site, afin que nous puissions mesurer et améliorer les performances du site. Ils nous aident à voir quelles pages sont les plus et les moins populaires et comment les visiteurs se déplacent sur le site. Toutes les informations que ces cookies collectent sont agrégées et donc anonymes.",
+            "type-3": "Ces cookies nous permettent de fournir des fonctionnalités et des personnalisations avancées sur le site web. Ils peuvent être définis par nous ou par des fournisseurs de services tiers que nous avons intégrés sur nos pages.",
+            "type-4": "Ces cookies peuvent être définis par nos partenaires publicitaires sur notre site web. Ils peuvent être utilisés par ces entreprises pour créer un profil de vos intérêts et vous montrer des publicités pertinentes sur d'autres sistes web. Ils ne stockent pas d'informations personnelles directes, mais sont basés sur une identification unique de votre navigateur et de votre appareil.",
+            "manage": "Vous pouvez gérer vos préférences de cookies en utilisant les paramètres de votre navigateur. La plupart des navigateurs vous permettent de refuser les cookies et de les supprimer. Les méthodes pour faire cela varient en fonction du navigateur et de la version.",
+            "changes": "Nous pouvons mettre à jour notre politique des cookies à partir de temps à autre pour refléter les changements dans la technologie ou la législation qui peuvent affecter la façon dont nous utilisons les cookies et comment vous pouvez les gérer en tant qu'utilisateur. Nous vous en informerons en publiant la nouvelle politique sur notre site web.",
+            "contact-info": "Si vous avez des questions ou des préoccupations sur notre politique des cookies, veuillez nous contacter à l'adresse { email }."
+        }
+    },
     "privacy": {
         "title": {
             "1": "Politique de confidentialité",

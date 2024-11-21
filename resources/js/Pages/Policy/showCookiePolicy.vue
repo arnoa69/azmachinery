@@ -12,8 +12,9 @@ import PolicyBanner from '@/Shared/Cookiebanner/PolicyBanner.vue';
 const { locale } = useI18n();
 const phone_number = ref('');
 const showBanner = ref(true);
-const showConfigBanner = ref(false)
-const showPolicyBanner = ref(false)
+const showConfigBanner = ref(false);
+const showPolicyBanner = ref(false);
+const contactmail = ref('info@az-machinery.com');
 
 onMounted(() => {
     showBanner.value = !hasConsentBeenGiven();
@@ -38,8 +39,27 @@ onMounted(() => {
                         </div> <!-- END LEFT SIDBAR -->
                         <div class="col-lg-8 d-flex flex-column align-items-stretch"> <!-- BEGIN RIGHT SIDBAR -->
                             <div class="container">
-                                <h1>Cookie Policy</h1>
-                                <h2>AZ Machinery France</h2>
+                                <h1>{{ $t('cookie-policy.title') }}</h1>
+                                <h2>{{ $t('cookie-policy.titles.introduction') }}</h2>
+                                <p>{{ $t('cookie-policy.content.introduction') }}</p>
+                                <h2>{{ $t('cookie-policy.titles.what-are-cookies') }}</h2>
+                                <p>{{ $t('cookie-policy.content.what-are-cookies') }}</p>
+                                <h2>{{ $t('cookie-policy.titles.types') }}</h2>
+                                <h3>{{ $t('cookie-policy.titles.type-1') }}</h3>
+                                <p>{{ $t('cookie-policy.content.type-1') }}</p>
+                                <h3>{{ $t('cookie-policy.titles.type-2') }}</h3>
+                                <p>{{ $t('cookie-policy.content.type-2') }}</p>
+                                <h3>{{ $t('cookie-policy.titles.type-3') }}</h3>
+                                <p>{{ $t('cookie-policy.content.type-3') }}</p>
+                                <h3>{{ $t('cookie-policy.titles.type-4') }}</h3>
+                                <p>{{ $t('cookie-policy.content.type-4') }}</p>
+                                <h2>{{ $t('cookie-policy.titles.manage') }}</h2>
+                                <p>{{ $t('cookie-policy.content.manage') }}</p>
+                                <h2>{{ $t('cookie-policy.titles.changes') }}</h2>
+                                <p>{{ $t('cookie-policy.content.changes') }}</p>
+                                <h2>{{ $t('cookie-policy.titles.contact-info') }}</h2>
+                                <p>{{ $t('cookie-policy.content.contact-info', { email: contactmail }) }}</p>
+
 
                             </div> <!-- END container -->
                         </div> <!-- END RIGHT SIDBAR -->

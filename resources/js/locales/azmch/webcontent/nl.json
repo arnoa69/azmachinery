@@ -647,6 +647,33 @@
         "ceo": "Hoofdredacteur: Jérôme GUIGUET",
         "property": "Deze website respecteert de auteursrechten. Alle rechten van de auteurs van de op deze website gereproduceerde en gecommuniceerde werken zijn voorbehouden. Behoudens toestemming is het gebruik van werken, anders dan voor reproductie en individuele en particuliere raadpleging, verboden. De website az-machinery wordt uitgegeven door Ionos en gehost door het bedrijf Ionos."
     },
+    "cookie-policy": {
+        "title": "Cookiebeleid van AZ Machinery S.L.",
+        "effective-date": "21.11.2024",
+        "titles": {
+            "introduction": "Inleiding",
+            "what-are-cookies": "Wat zijn cookies?",
+            "types": "Soorten cookies die wij gebruiken",
+            "type-1": "1. Essentiële cookies",
+            "type-2": "2. Prestatiecookies",
+            "type-3": "3. Functionele cookies",
+            "type-4": "4. Doelgroepcookies",
+            "manage": "Beheer uw cookievoorkeuren",
+            "changes": "Wijzigingen in dit cookiebeleid",
+            "contact-info": "Contactinformatie"
+        },
+        "content": {
+            "introduction": "AZ Machinery S.L. gebruikt cookies en soortgelijke trackingtechnologieën op onze website om uw browse-ervaring te verbeteren, de websiteverkeer te analyseren en u persoonlijke inhoud te bieden. Dit cookiebeleid legt uit wat cookies zijn, hoe wij ze gebruiken en hoe u uw cookievoorkeuren kunt beheren.",
+            "what-are-cookies": "Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u een website bezoekt. Ze worden veel gebruikt om websites efficiënter te maken, rapporten te genereren en u persoonlijke ervaringen te bieden.",
+            "type-1": "Deze cookies zijn noodzakelijk voor de werking van de website en kunnen niet worden uitgeschakeld in onze systemen. Ze worden normaal gesproken ingesteld in reactie op acties die u uitvoert, die overeenkomen met een verzoek om diensten, zoals het instellen van uw privacyvoorkeuren, inloggen of formulieren invullen.",
+            "type-2": "Deze cookies laten ons toe om bezoeken en websiteverkeer te tellen, zodat wij de prestaties van de website kunnen meten en verbeteren. Ze helpen ons om te zien welke pagina's het meest en minst populair zijn en hoe bezoekers zich op de website bewegen. Alle informatie die deze cookies verzamelen, is geaggregeerd en dus anoniem.",
+            "type-3": "Deze cookies laten de website toe om meer functionaliteit en personalisatie te bieden. Ze kunnen worden ingesteld door ons of door derden die wij op onze website hebben geïntegreerd.",
+            "type-4": "Deze cookies kunnen worden ingesteld door onze advertentiepartners op onze website. Ze kunnen worden gebruikt door deze bedrijven om een profiel van uw interesses te maken en u relevante advertenties te tonen op andere websites. Ze slaan geen directe persoonlijke informatie op, maar zijn gebaseerd op een unieke identificatie van uw browser en apparaat.",
+            "manage": "U kunt uw cookievoorkeuren beheren via de instellingen van uw browser. De meeste browsers laten u toe om cookies te weigeren en te verwijderen. De methoden hiervoor verschillen afhankelijk van de browser en versie.",
+            "changes": "Wij kunnen ons cookiebeleid van tijd tot tijd bijwerken om wijzigingen in technologie of wetgeving te weerspiegelen die de manier waarop cookies door ons worden gebruikt en hoe u ze als gebruiker kunt beheren. Wij zullen u op de hoogte stellen van wijzigingen door de nieuwe beleid op onze website te publiceren.",
+            "contact-info": "Als u vragen of bezorgdheden heeft over ons cookiebeleid, neem dan contact met ons op via: { email }"
+        }
+    },
     "privacy": {
         "title": {
             "1": "Privacybeleid",

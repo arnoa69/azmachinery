@@ -647,6 +647,33 @@
         "ceo": "Päätoimittaja: Jérôme GUIGUET",
         "property": "Tämä verkkosivusto noudattaa tekijänoikeuksia. Kaikki tämän verkkosivuston kautta julkaistujen ja saatavilla olevien teosten tekijöiden oikeudet on suojattu. Tekijänoikeudellisesti suojattujen teosten käyttö muuhun kuin yksityiseen ja yksilölliseen käyttöön on kielletty ilman lupaa. Verkkosivusto az-machinery on julkaistu Ionoksen toimesta ja se on Ionoksen vastuulla."
     },
+    "cookie-policy": {
+        "title": "Evästepolitiikka AZ Machinery S.L.",
+        "effective-date": "21.11.2024",
+        "titles": {
+            "introduction": "Johdanto",
+            "what-are-cookies": "Mikä on eväste?",
+            "types": "Evästeiden tyypit, joita käytämme",
+            "type-1": "1. Tärkeät evästeet",
+            "type-2": "2. Suoritusevästeet",
+            "type-3": "3. Toiminnalliset evästeet",
+            "type-4": "4. Tarkentamiseevästeet",
+            "manage": "Hallitse evästeasetuksiasi",
+            "changes": "Evästepolitiikkaan tehtävät muutokset",
+            "contact-info": "Yhteystiedot"
+        },
+        "content": {
+            "introduction": "AZ Machinery S.L. käyttää evästeitä ja seuranta-teknologioita sivustollemme parantaaksemme selaamisen kokemuksen, analysoimaksemme sivuston liikennea ja tarjoamaksemme kohdettamme tarkentamisen. Tämä evästepolitiikka kertoo evästeiden mikäli, kuinka ne käytetään ja miten voit hallita evästeasetuksiasi.",
+            "what-are-cookies": "Evästeet ovat pieniä tekstitiedostoja, jotka tallennetaan laitteellesi, kun käytät verkkosivua. Ne käytetään yleensä verkkosivustojen suorituskyvyn parantamiseksi, raporttien luomiseksi ja kohdettamisen tarkentamiseksi. Evästeet voivat sisältää tunnistetietosi, kuten käyttäjätiedot tai käyttäjätietojen avulla luotu tunnettu todennusavain.",
+            "type-1": "Nämä evästeet ovat sivuston toiminnan tarpeessa ja niitä ei voi poistaa omistamme järjestelmistamme. Ne asetetaan yleensä vastauksena toimintoihin, joita suoritat, kuten yksityisyyden asetusten määrittämiseen, kirjautumiseen tai lomakeen täyttämiseen.",
+            "type-2": "Nämä evästeet auttavat meidän laskemaan sivuston käyttöä ja liikennea, jotta voimme mittaa ja parantaa sivuston suorituskykyä. Ne auttavat meidän tarkastamaan, mitkä sivut ovat suosituimmat ja kuinka käyttäjät siirtyvät sivustolla. Kaikki tietoja, jotka nämä evästeet keräävät, yhdistetään yhteen ja niitä käytetään anonyymisti.",
+            "type-3": "Nämä evästeet mahdollistavat verkkosivustollemme lisätoiminnallisuutta ja kohdettamisen. Ne voivat asettaa omillame tai kolmannen osapuolen tarjoajien avulla, jotka on integroidut sivustollemme.",
+            "type-4": "Nämä evästeet voivat asettaa mainostavateille partnereillamme sivustollamme. Ne mahdollistavat mainostavien yritysten luomisen käyttäjäryhmien profiilin, joka perustuu yksilölliseen tunnisteeseen, joka on yhdistetty selaimen ja laitteen tunnisteeseen. Ne eivät tallentaa suoraan henkilötietoja, mutta ne voivat käyttää tietoja, joita ne keräävät, luodakseen kohdettamisen ja tarjoamakseen sinulle tarkempaa mainostamista.",
+            "manage": "Voit hallita evästeasetuksiasi selaimesi asetusten kautta. Useimmat selaimet mahdollistavat evästeiden käytön, ja voit myös poistaa evästeet. Tarkat menetelmät vaihtelevat selaimen ja sen versiosta.",
+            "changes": "Jos teemme muutoksia evästepolitiikkaamme, ilmoitamme sinulle. Uusi politikka julkaistaan sivustollemme. Jos sinulla on kysymyksiä tai huoleni evästepolitiikasta, ota yhteyttä { email } osoitteeseen.",
+            "contact-info": "Jos sinulla on kysymyksiä tai huoleni evästepolitiikasta, ota yhteyttä { email } osoitteeseen."
+        }
+    },
     "privacy": {
         "title": {
             "1": "Yksityisyydensuojakäytäntö",
