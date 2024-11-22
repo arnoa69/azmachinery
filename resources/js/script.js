@@ -5,6 +5,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+import posthog from 'posthog-js';
 
 (function() {
   "use strict";
@@ -34,27 +35,6 @@
       }
     });
   });
-
-
-  document.querySelectorAll('form').forEach(form => {
-    form.addEventListener('submit', (event) => {
-        const formData = new FormData(form);
-        console.log('ici')
-        // posthog.capture('form_submitted', {
-        //     form_data: Object.fromEntries(formData.entries()),
-        //     form_id: form.id
-        // });
-    });
-});
-document.querySelectorAll('button[type="submit"]').forEach(button => {
-    // button.addEventListener('click', () => {
-    //     posthog.capture('button_clicked', {
-    //         button_id: button.id,
-    //         form_id: button.closest('form').id
-    //     });
-    // });
-    console.log('ici 2')
-});
 
   /**
    * Toggle mobile nav dropdowns

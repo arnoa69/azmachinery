@@ -137,7 +137,7 @@ const submitForm = () => {
                   >
                     <i class="bi bi-telephone"></i>
                     <h3>{{ $t("contact.label.phone") }}</h3>
-                    <p>{{ curentContactInfo.phone }}</p>
+                    <p><a :href="'tel:' + curentContactInfo.phone">{{ curentContactInfo.phone }}</a></p>
                   </div>
                 </div>
                 <!-- End Info Item -->

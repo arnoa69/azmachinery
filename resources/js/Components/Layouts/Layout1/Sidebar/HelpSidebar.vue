@@ -11,7 +11,7 @@ const email = ref('');
 const phone_number = ref('');
 const company_name = ref('');
 const message = ref(':azmch.we-contact-you:language:' + locale.value + ':product_name');
-
+const errorMessage = ref('');
 const props = defineProps({
     page_or_slug: {
         type: String,
@@ -28,16 +28,23 @@ const isPhoneSelectedComputed = computed({
 })
 
 
-const submitForm = () => {
-    const formData = new FormData();
 
+const submitForm = () => {
+    if ( (contactMethod.value === 'phone' && !phone_number.value) || (contactMethod.value === 'email' && !email.value) ) {
+        errorMessage.value = 'Please fill in phone or email.';
+        return;
+    } else {
+        errorMessage.value = '';
+    }
+
+    const formData = new FormData();
     formData.append('name', name.value);
     formData.append('email', email.value);
     formData.append('company_name', company_name.value);
     formData.append('phone_number', phone_number.value);
-    formData.append('message','azmch.we-contact-you:' + props.page_or_slug);
+    formData.append('message',window.location.hostname + ': ' + props.page_or_slug);
     formData.append('locale', locale.value);
-    formData.append('source', 'azmch.we-contact-you:' + props.page_or_slug);
+    formData.append('source', window.location.hostname + ': ' +  props.page_or_slug);
     Inertia.post('/client-request', formData);
 };
 </script>
@@ -88,6 +95,7 @@ const submitForm = () => {
                         <button class="submit-button" type="submit">{{ $t('products.details.sidebar.submit_button') }}</button>
                     </div>
                 </div>
+                <div v-if="errorMessage" class="error-message mt-3">{{ errorMessage }}</div>
             </form>
         </div>
     </div>
@@ -232,6 +240,13 @@ const submitForm = () => {
     background-color: #BC0C26; /* Button background same as container */
     color: #FFFFFF; /* Button text white */
     border-radius: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center; /* Zentrierte Ausrichtung für moderne Layouts */
 }
 
 .active-email {
