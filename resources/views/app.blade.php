@@ -52,5 +52,6 @@
         <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
         <script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
         <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}"></script>
+        {{-- <script src="//code.tidio.co/0mn3fwe8cn5durrviayagljwaupvqsjv.js" async></script> --}}
     </body>
 </html>
