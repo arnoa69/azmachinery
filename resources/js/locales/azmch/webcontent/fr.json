@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "AZ Machinery - Fabriqué en France",
+        "title": "Producteur de Rampes de chargement mobiles pour conteneurs & chariots élévateurs",
         "product_detail_view": {
             "title": {
                 "01": "Rampes de chargement mobiles - Capacité de charge de { tonnes }t avec options - Producteur exclusif pour {country}"
@@ -13,7 +13,7 @@
                     "lloxl": "Rampes larges, Plateforme plus longue, Chariot élévateur, Fixation de charge"
                 },
                 "tonnes": "Capacité {tonnes} tonnes,",
-                "keyword_chain": "Grand stock de rampes de changements, robustes rampes de changements mobiles, aides au chargement mobiles, rampes de changements industrielles, chargement et déchargement de camions et conteneurs",
+                "keyword_chain": "location rampe de chargement mobile, rampe de chargement chariot élévateur, rampe de chargement transpalette, rampe de chargement conteneur, rampes d'accès pour conteneurs, chariots élévateurs électriques",
                 "buy_and_rent": "Acheter et Louer des Rampes de changements"
             },
             "countries": {
@@ -37,29 +37,19 @@
             }
         },
         "product_list": {
-            "keywords": "Opération de rampe, Manipulation des marchandises, Technologie de chargement et déchargement, Nivellement de quai, Convoyeur à rouleaux, Technologie de chargement, Transport de rampe",
-            "description": "Des solutions efficaces pour transporter des charges lourdes à des niveaux plus élevés. Découvrez différents types de rampes de chargement et de techniques de transport.",
-            "og:title": "Rampes de chargement mobiles, Personnalisées et systèmes de rampe en Europe : Électriques, hydrauliques et flexibles, stocks importants et livraisons continues"
+            "keywords": "rampe de chargement conteneur, rampes de chargement pour chariots élévateurs, rampe de chargement transpalette, rampes de chargement mobiles, rampes d'accès mobiles, équipements de chargement",
+            "description": "Nos rampes de chargement robustes pour conteneurs, rampes de chargement pour chariots élévateurs et rampes de chargement pour transpalettes sont idéales pour un chargement et un déchargement efficaces. En tant que producteur, nous proposons des rampes de chargement mobiles, des rampes d'accès et d'autres équipements de chargement en grande quantité directement depuis notre entrepôt.",
+            "og:title": "Producteur de Rampes de chargement mobiles pour conteneurs & chariots élévateurs"
         },
         "category_list_mobile": {
-            "keywords": "rampes de chargement mobiles, rampes de chargement portables, ponts de chargement flexibles, rampes transportables, rampes de chargement mobiles, rampes de chargement pliantes, rampes de chargement légères, ponts de chargement mobiles, rampes de chargement pliables, rampes ajustables",
-            "description": "En savoir plus sur les rampes de chargement et les différents méthodes pour transporter des marchandises lourdes. De la convection par gravité aux systèmes hydrauliques - trouvez la bonne solution pour vos besoins."
+            "keywords": "rampe de chargement conteneur, rampes de chargement pour chariots élévateurs, rampe de chargement transpalette, rampes de chargement mobiles, rampes d'accès mobiles, équipements de chargement",
+            "description": "Nos rampes de chargement robustes pour conteneurs, rampes de chargement pour chariots élévateurs et rampes de chargement pour transpalettes sont idéales pour un chargement et un déchargement efficaces. En tant que producteur, nous proposons des rampes de chargement mobiles, des rampes d'accès et d'autres équipements de chargement en grande quantité directement depuis notre entrepôt."
         },
-        "category_list_static": {
-            "keywords": "plateformes de chargement sur mesure, stations de chargement personnalisées, solutions de rampe personnalisées, équipements de chargement adaptés, rampes de chargement sur mesure, rampes de chargement personnalisées, plateformes de chargement spéciales, systèmes de rampe personnalisés, stations de chargement individuelles, systèmes de chargement personnalisés",
-            "description": "Optimisez votre flux de matériaux avec nos rampes de chargement de haute qualité. Augmentez l'efficacité, la sécurité et l'ergonomie lors du chargement et du déchargement des marchandises."
-        },
-        "category_list_station": {
-            "keywords": "surfaces de chargement mobiles, surfaces de chargement, surfaces de chargement mobiles avec vue d'ensemble moyenne, rampes d'essieu avant en Europe, pont élévateur électrohydraulique, surfaces de chargement de chariot élévateur, électrique, hydraulique",
-            "description": "Toujours équipés de rampes de chargement mobiles, de solutions sur mesure et de systèmes de rampe en Europe - électriques, hydrauliques et polyvalents - nous offrons de grands stocks et des livraisons continues."
-        },
-        "keywords": "rampes de chargement mobiles, plateformes de chargement, rampes mobiles de moyenne hauteur, rampes d'essieu avant en Europe, pont élévateur électrohydraulique, rampes de chargement pour chariots élévateurs, électrique, hydraulique",
+        "keywords": "rampe de chargement conteneur, rampes de chargement pour chariots élévateurs, rampe de chargement transpalette, rampes de chargement mobiles, rampes d'accès mobiles, équipements de chargement",
         "product_list_view_title": "Rampes de chargement mobiles, hydrauliques, électriques, 20 tonnes",
-        "description": "Rampes de chargement mobiles, plateformes de chargement et solutions de rampe en Europe : Électriques, hydrauliques et flexibles, stocks élevés et livraisons continues",
-        "canonical_link_href": "https://rampas-carga-moviles.es",
-        "og:url": "https://rampas-carga-moviles.es",
-        "og:title": "Rampes de chargement mobiles et statiques en Europe : Découvrez notre large sélection ! Plus de 500 rampes de chargement de haute qualité disponibles immédiatement",
-        "og:description": "Achetez une rampe de chargement mobile (rampe élévatrice mobile) du fabricant AZ Machinery pour toute l'Europe. Le plus grand fabricant d'Europe avec des charges de 6 à 30 tonnes. Large choix de rampes de chargement. Prêt à commander. Assurance qualité. Norme CE. Livraisons dans toute l'Europe.",
+        "description": "Nos rampes de chargement robustes pour conteneurs, rampes de chargement pour chariots élévateurs et rampes de chargement pour transpalettes sont idéales pour un chargement et un déchargement efficaces. En tant que producteur, nous proposons des rampes de chargement mobiles, des rampes d'accès et d'autres équipements de chargement en grande quantité directement depuis notre entrepôt.",
+        "og:title": "Producteur de Rampes de chargement mobiles pour conteneurs & chariots élévateurs",
+        "og:description": "Nos rampes de chargement robustes pour conteneurs, rampes de chargement pour chariots élévateurs et rampes de chargement pour transpalettes sont idéales pour un chargement et un déchargement efficaces. En tant que producteur, nous proposons des rampes de chargement mobiles, des rampes d'accès et d'autres équipements de chargement en grande quantité directement depuis notre entrepôt.",
         "og:sitename": "Rampes de chargement mobiles AZ Machinery Europe | Équipement de stockage",
         "article:section": "Rampes de chargement",
         "article:author": "AZ Machinery",
@@ -68,9 +58,7 @@
         "article:tag3": "Rampe élévatrice mobile",
         "article:tag4": "Rampe de chargement",
         "twitter:title": "Rampes de chargement mobiles et statiques en Europe : Découvrez notre large sélection ! Plus de 500 rampes de chargement de haute qualité disponibles immédiatement",
-        "twitter:description": "Achetez une rampe de chargement mobile (rampe élévatrice mobile) du fabricant AZ Machinery pour toute l'Europe. Le plus grand fabricant d'Europe avec des charges de 6 à 30 tonnes. Large choix de rampes de chargement. Prêt à commander. Assurance qualité. Norme CE. Livraisons dans toute l'Europe.",
-        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
-        "twitter:domain": "https://rampas-carga-moviles.es"
+        "twitter:description": "Nos rampes de chargement robustes pour conteneurs, rampes de chargement pour chariots élévateurs et rampes de chargement pour transpalettes sont idéales pour un chargement et un déchargement efficaces. En tant que producteur, nous proposons des rampes de chargement mobiles, des rampes d'accès et d'autres équipements de chargement en grande quantité directement depuis notre entrepôt."
     },
     "lang": {
         "de": "Allemand",

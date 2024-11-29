@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "AZ Machinery - Tehty Ranssassa",
+        "title": "Konttien ja trukkien lastausrampit - Siirrettävät lastausrampit",
         "product_detail_view": {
             "title": {
                 "01": "Mobiililatausrampit - { tonnes }t kantavuusvaihtoehtojen kanssa - Erityistuottaja maalle {country}"
@@ -13,7 +13,7 @@
                     "lloxl": "Leveät rampit, Pidempi alusta, Trukki, Kuorman kiinnitys"
                 },
                 "tonnes": "Kuormituskapasiteetti {tonnes} tonnia,",
-                "keyword_chain": "Laaja valikoima lastausrampeja, kestävät liikkuvat lastausrampit, liikkuvat lastausratkaisut, teollisuuslastausrampit, kuorma-autojen ja konttien lastaus ja purkaminen",
+                "keyword_chain": "siirrettävien lastausramppien vuokraus, trukkien lastausrampit, kuormalavakuorma-autojen lastausrampit, konttien lastausrampit, konttien kulkuluiskat, sähkötrukit",
                 "buy_and_rent": "Lastausrampien ostaminen ja vuokraaminen"
             },
             "countries": {
@@ -37,29 +37,19 @@
             }
         },
         "product_list": {
-            "keywords": "Rampin toiminta, lähetystehoitus, lähetyksen ja päästön teknologia, ketjunpäällyste, rulla-ohjaus, lähetyksen teknologia, rampin siirto",
+            "keywords": "lastausrampin kontti, trukkien lastausrampit, haarukkatrukkien lastausrampit, haarukkatrukkien lastausrampit, kuormatrukkien lastausrampit, siirrettävät lastausrampit, siirrettävät lastausrampit, lastauslaitteet",
             "description": "Voimakkaita ratkaisuja suureille lähetyksen päästönä. Tutki erilaisia rampiajoja ja lähetyksen siirtämistä käyttäviä tekniikoita.",
             "og:title": "Siirrettävät rampit, mukautettuja rampisysteemejä Euroopassa: Elektriset, hidrauliset ja monimutkaiset, suuria varastoja ja jatkuvia tarjouksia"
         },
         "category_list_mobile": {
-            "keywords": "Siirrettävät rampit, portaattivampit, laihennustehtaat, siirrettävät rampit, kääntyvät rampit, vaatteiden siirrettävät rampit, pienet lähetyskampit, kääntyvät rampit, säädyttävät rampit, säätävät rampit",
+            "keywords": "lastausrampin kontti, trukkien lastausrampit, haarukkatrukkien lastausrampit, haarukkatrukkien lastausrampit, kuormatrukkien lastausrampit, siirrettävät lastausrampit, siirrettävät lastausrampit, lastauslaitteet",
             "description": "Lisätietoja rampiajoista ja erilaisista menettelytavaroista suureille lähetyksille. Suorituskyvyn parantamiseksi, turvallisuuden ja ergonomian kannalta valitse oikea ratkaisu tarpeidesi mukaan."
         },
-        "category_list_static": {
-            "keywords": "mukautettujen lähetyskohteiden tehtaat, mukautettujen lähetyksien asemistot, mukautetut rampisolut, muokattu lähetyksen laitteisto, mukautetut lähetyskampit, mukautetut rampisolut, erikoiskohteet lähetykseen, mukautetut rampisystemit, yksittäisiä lähetyksen asemistot, mukautetut lähetyssystemit",
-            "description": "Optimoi materiaalivirran kanssa käytännölliset rampisolut. Laajenna tehokkuutta, turvallisuutta ja ergonomiaa lähetyksen ja päästön ajal."
-        },
-        "category_list_station": {
-            "keywords": "liikkuvat lähetyskohteet, lähetyskohteet, liikkuvat lähetyskohteet keskimääräkohteella, Euroopan eje, elektrohidraattinen kääntäyslauta, ketjulautailun lähetyskohteet, elektrinen, hidraattinen",
-            "description": "Aina laitossa siirrettävillä rampilla, mukautettujen rampisystemeillä ja -ratkaisuilla Euroopassa - elektriset, hidraattiset ja monimutkaiset - tarjotaan suuria varastoja ja jatkuvia tarjouksia."
-        },
-        "keywords": "mobiililastausrampit, lastausalustat, mobiili keskikorkeat rampit, etuakselirämit Euroopassa, sähköhydraulinen nostosilta, trukkilatausrampit, sähköinen, hydraulinen",
+        "keywords": "lastausrampin kontti, trukkien lastausrampit, haarukkatrukkien lastausrampit, haarukkatrukkien lastausrampit, kuormatrukkien lastausrampit, siirrettävät lastausrampit, siirrettävät lastausrampit, lastauslaitteet",
         "product_list_view_title": "Mobiili, hydraulinen, sähköinen lastausrampit, 20 tonnia",
-        "description": "Mobiililastausrampit, lastausalustat ja rampiratkaisut Euroopassa: Sähköiset, hydrauliset ja joustavat, suuret varastot ja jatkuvat toimitukset",
-        "canonical_link_href": "https://rampas-carga-moviles.es",
-        "og:url": "https://rampas-carga-moviles.es",
+        "description": "Tukevat kontin lastausramppimme, trukkien lastausramppimme ja haarukkavaunujen lastausramppimme ovat ihanteellisia tehokkaaseen lastaamiseen ja purkamiseen. Valmistajana tarjoamme liikkuvia lastausramppeja, kulkuramppeja ja muita lastauslaitteita suuria määriä suoraan varastosta.",
         "og:title": "Mobiili ja staattiset lastausrampit Euroopassa: Löydä laaja valikoimamme! Yli 500 välittömästi saatavilla korkealaatuisia lastausramppeja",
-        "og:description": "Osta mobiililastausramppi (mobiili nostoramppi) AZ Machinery -valmistajalta koko Eurooppaan. Euroopan suurin valmistaja 6-30 tonnin kuormille. Laaja valikoima lastausramppeja. Valmiina tilaukseen. Laadun varmistus. CE-standard. Toimitukset koko Eurooppaan.",
+        "og:description": "Tukevat kontin lastausramppimme, trukkien lastausramppimme ja haarukkavaunujen lastausramppimme ovat ihanteellisia tehokkaaseen lastaamiseen ja purkamiseen. Valmistajana tarjoamme liikkuvia lastausramppeja, kulkuramppeja ja muita lastauslaitteita suuria määriä suoraan varastosta.",
         "og:sitename": "Mobiililastausrampit AZ Machinery Eurooppa | Varastointilaitteet",
         "article:section": "Lastausrampit",
         "article:author": "AZ Machinery",
@@ -68,9 +58,8 @@
         "article:tag3": "Mobiili nostoramppi",
         "article:tag4": "Lastausramppi",
         "twitter:title": "Mobiili ja staattiset lastausrampit Euroopassa: Löydä laaja valikoimamme! Yli 500 välittömästi saatavilla korkealaatuisia lastausramppeja",
-        "twitter:description": "Osta mobiililastausramppi (mobiili nostoramppi) AZ Machinery -valmistajalta koko Eurooppaan. Euroopan suurin valmistaja 6-30 tonnin kuormille. Laaja valikoima lastausramppeja. Valmiina tilaukseen. Laadun varmistus. CE-standard. Toimitukset koko Eurooppaan.",
-        "twitter:image": "/img/mobile-loading-ramps-germanyπ-france.jpg",
-        "twitter:domain": "https://rampas-carga-moviles.es"
+        "twitter:description": "Tukevat kontin lastausramppimme, trukkien lastausramppimme ja haarukkavaunujen lastausramppimme ovat ihanteellisia tehokkaaseen lastaamiseen ja purkamiseen. Valmistajana tarjoamme liikkuvia lastausramppeja, kulkuramppeja ja muita lastauslaitteita suuria määriä suoraan varastosta.",
+        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg"
     },
     "lang": {
         "de": "Saksa",

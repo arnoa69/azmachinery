@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Amplia selección! Más de 500 rampas de carga entregables ya!",
+        "title": "Fabricante de rampas de carga móviles para contenedores y carretillas elevadoras",
         "product_detail_view": {
             "title": {
                 "01": "Rampas de carga móviles - Capacidad de carga de { tonnes }t con opciones - Productor exclusivo para {country}"
@@ -13,7 +13,7 @@
                     "lloxl": "Rampas anchas, Plataforma más larga, Carretilla elevadora, Sujeción de carga"
                 },
                 "tonnes": "Capacidad {tonnes} toneladas,",
-                "keyword_chain": "Gran inventario de Rampas de carga, robustos muelles de carga móviles, asistencia de carga móvil, Rampas de carga industrial, carga y descarga de camiones y contenedores",
+                "keyword_chain": "rampa elevadora coche, rampas elevadoras, rampa para camiones, rampas carga, muelles de carga, rampas de carga",
                 "buy_and_rent": "Compra y alquiler de muelles de carga"
             },
             "countries": {
@@ -37,27 +37,19 @@
             }
         },
         "product_list": {
-            "keywords": "Operación de rampas, manejo de cargas, tecnología de carga y descarga, nivelador de muelles, rampa de rodillos, tecnología de carga, transporte de rampas",
-            "description": "Soluciones eficientes para el transporte de cargas pesadas a niveles más altos. Descubre diferentes tipos de rampas de carga y tecnologías de transporte.",
-            "og:title": "Rampas de carga móviles, sistemas de rampas personalizadas en Europa: Eléctricas, hidráulicas y flexibles, grandes existencias y entregas continuas"
+            "keywords": "rampa elevadora coche, rampas elevadoras, rampa para camiones, rampas carga, muelles de carga, rampas de carga",
+            "description": "Rampas elevadoras para coches, camiones y carga. Robustas, seguras y personalizables. Ideales para muelles de carga y áreas de almacenamiento. ¡Contáctanos para más información!",
+            "og:title": "Fabricante de rampas de carga móviles para contenedores y carretillas elevadoras"
         },
         "category_list_mobile": {
-            "keywords": "rampas de carga móviles, rampas de carga portátiles, puentes de carga flexibles, rampas de carga transportables, rampas de carga móviles, rampas de carga plegables, rampas de carga livianas, puentes de carga móviles, rampas de carga plegables, rampas de carga ajustables",
-            "description": "Obten más información sobre rampas de carga y los diferentes métodos para transportar cargas pesadas. Desde la conveción por gravedad hasta sistemas hidráulicos - encuentra la solución adecuada para tus necesidades."
+            "keywords": "rampa elevadora coche, rampas elevadoras, rampa para camiones, rampas carga, muelles de carga, rampas de carga",
+            "description": "Rampas elevadoras para coches, camiones y carga. Robustas, seguras y personalizables. Ideales para muelles de carga y áreas de almacenamiento. ¡Contáctanos para más información!"
         },
-        "category_list_static": {
-            "keywords": "plataformas de carga personalizadas, soluciones de carga y descarga personalizadas, rampas de carga personalizadas, equipos de carga adaptados, rampas de carga personalizadas, rampas de carga personalizadas, plataformas de carga especializadas, sistemas de rampas personalizadas, plataformas de carga individuales, sistemas de carga personalizados",
-            "description": "Optimiza tu flujo de materiales con nuestras rampas de carga de alta calidad. Aumenta la eficiencia, la seguridad y la ergonomía al cargar y descargar mercancías."
-        },
-        "category_list_station": {
-            "keywords": "superficies de carga móviles, superficies de carga, superficies de carga con vista general de mediana, eje delanteros en Europa, puente hidroeléctrico, superficies de carga de grúa, eléctrica, hidráulica",
-            "description": "Siempre equipados con rampas de carga móviles, soluciones de rampas y sistemas de rampas personalizados en Europa - eléctricas, hidráulicas y versátiles - ofrecemos grandes existencias y entregas continuas."
-        },
-        "keywords": "rampas de carga móviles, plataformas de carga, rampas de carga estáticas, rampas de carga para camiones en Espana, brazos hidráulicos electrónicos, rampas de descarga en camiones Montacargas, eléctrico, hidráulico",
-        "product_list_view_title": "Rampas carga moviles, hidráulicas, eléctricas, 20 toneladas",
-        "description": "Rampas de carga móviles, plataformas de carga y soluciones de rampa en España: Eléctrico, hidráulico y flexible, altos stocks de almacenamiento y entregas continuas",
-        "og:title": "Rampas de carga móviles y estáticas en España: Descubra nuestra amplia selección! Más de 500 entregables en el momento, rampas de carga de alta calidad disponibles",
-        "og:description": "Compra una rampa de carga móvil (rampa de descarga móvil) del fabricante AZ Machinery para toda España. El mayor fabricante de Europa con cargas de 6 a 30 toneladas. Amplia selección de rampas de carga de alta calidad. A la orden. Garantía de calidad. Norma CE. Entregas en toda Europa.",
+        "keywords": "rampa elevadora coche, rampas elevadoras, rampa para camiones, rampas carga, muelles de carga, rampas de carga",
+        "product_list_view_title": "Fabricante de rampas de carga móviles para contenedores y carretillas elevadoras",
+        "description": "Rampas elevadoras para coches, camiones y carga. Robustas, seguras y personalizables. Ideales para muelles de carga y áreas de almacenamiento. ¡Contáctanos para más información!",
+        "og:title": "Fabricante de rampas de carga móviles para contenedores y carretillas elevadoras",
+        "og:description": "Rampas elevadoras para coches, camiones y carga. Robustas, seguras y personalizables. Ideales para muelles de carga y áreas de almacenamiento. ¡Contáctanos para más información!",
         "og:sitename": "Rampas de carga móviles AZ Machinery España | Equipo de almacenamiento",
         "article:section": "Rampas de carga",
         "article:author": "AZ Machinery",
@@ -65,10 +57,9 @@
         "article:tag2": "Rampa de carga para camión",
         "article:tag3": "Rampa de descarga móvil",
         "article:tag4": "Rampa de carga",
-        "twitter:title": "Rampas de carga móviles y estáticas en España: Descubra nuestra amplia selección! Más de 500 entregables en el momento, rampas de carga de alta calidad disponibles",
-        "twitter:description": "Compre una rampa de carga móvil (rampa de descarga móvil) del fabricante AZ Machinery para toda España. El mayor fabricante de Europa con cargas de 6 a 30 toneladas. Amplia selección de rampas de carga de alta calidad. A la orden. Garantía de calidad. Norma CE. Entregas en toda Europa.",
-        "twitter:image": "/img/mobile-verladerampe-deutschland-frankreich.jpg",
-        "twitter:domain": "https://rampas-carga-moviles.es"
+        "twitter:title": "Fabricante de rampas de carga móviles para contenedores y carretillas elevadoras",
+        "twitter:description": "Rampas elevadoras para coches, camiones y carga. Robustas, seguras y personalizables. Ideales para muelles de carga y áreas de almacenamiento. ¡Contáctanos para más información!",
+        "twitter:image": "/img/mobile-verladerampe-deutschland-frankreich.jpg"
     },
     "lang": {
         "de": "Alemán",
