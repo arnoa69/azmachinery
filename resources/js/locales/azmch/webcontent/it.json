@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "AZ Machinery - Fabbricato in Francia",
+        "title": "Produttore di rampe di carico mobili per container e carrelli elevatori",
         "product_detail_view": {
             "title": {
                 "01": "Rampe di carico mobili - Capacità di carico di { tonnes }t con opzioni - Produttore esclusivo per {country}"
@@ -13,7 +13,7 @@
                     "lloxl": "Rampe larghe, Piattaforma più lunga, Carrello elevatore, Fissaggio carico"
                 },
                 "tonnes": "Capacità {tonnes} tonnellate,",
-                "keyword_chain": "Ampia scorta di rampe di carico, robuste rampe di carico mobili, ausili per il carico mobili, rampe di carico industriali, carico e scarico di camion e container",
+                "keyword_chain": "noleggio rampe di carico mobili, rampe di carico per carrelli elevatori, rampe di carico per transpallet, rampe di carico per container, rampe di accesso per container, carrelli elevatori elettrici",
                 "buy_and_rent": "Acquista e Noleggia Rampe di Carico"
             },
             "countries": {
@@ -37,40 +37,28 @@
             }
         },
         "product_list": {
-            "keywords": "Operazione di rampa, Movimentazione delle merci, Tecnologia di carico e scarico, Livellatore di banchina, Trasportatore a rulli, Tecnologia di carico, Trasporto di rampe",
-            "description": "Soluzioni efficienti per il trasporto di carichi pesanti a livelli superiori. Scopri vari tipi di rampe di carico e tecniche di trasporto.",
+            "keywords": "rampe di carico per container, rampe di carico per carrelli elevatori, rampe di carico per transpallet, rampe di carico mobili, rampe di accesso mobili, attrezzature di carico",
+            "description": "Produciamo robuste rampe di carico per container, carrelli elevatori e transpallet. Le nostre rampe mobili garantiscono un carico/scarico efficiente. Disponibili in grandi quantità, direttamente a magazzino.",
             "og:title": "Rampini di carico mobili, Personalizzati e sistemi di rampe in Europa: Elettrici, idraulici e flessibili, ampi magazzini e consegne continue"
         },
         "category_list_mobile": {
-            "keywords": "rampe di carico mobili, rampe di carico portatili, ponti di carico flessibili, rampe trasportabili, rampe di carico mobili, rampe di carico pieghevoli, rampe di carico leggere, ponti di attraversamento mobili, rampe pieghevoli, rampe regolabili",
-            "description": "Scopri di più sulle rampe di carico e sui vari metodi per il trasporto di merci pesanti. Dalla convogliamento per gravità ai sistemi idraulici - trova la soluzione giusta per le tue esigenze."
+            "keywords": "rampe di carico per container, rampe di carico per carrelli elevatori, rampe di carico per transpallet, rampe di carico mobili, rampe di accesso mobili, attrezzature di carico",
+            "description": "Produciamo robuste rampe di carico per container, carrelli elevatori e transpallet. Le nostre rampe mobili garantiscono un carico/scarico efficiente. Disponibili in grandi quantità, direttamente a magazzino."
         },
-        "category_list_static": {
-            "keywords": "piattaforme di carico su misura, stazioni di carico personalizzate, soluzioni di rampa personalizzate, attrezzature di carico adattate, rampe di carico su misura, rampe di carico personalizzate, piattaforme di carico speciali, sistemi di rampa personalizzati, stazioni di carico individuali, sistemi di carico personalizzati",
-            "description": "Ottimizza il flusso dei materiali con le nostre rampe di carico di alta qualità. Aumenta l'efficienza, la sicurezza e l'ergonomia durante il carico e lo scarico delle merci."
-        },
-        "category_list_station": {
-            "keywords": "superfici di carico mobili, superfici di carico, superfici di carico mobili con vista media, rampe dell'asse anteriore in Europa, ponte sollevatore elettroidraulico, superfici di carico del carrello elevatore, elettrico, idraulico",
-            "description": "Sempre attrezzati con rampe di carico mobili, soluzioni su misura e sistemi di rampe in Europa - elettrici, idraulici e versatili - offriamo ampi magazzini e consegne continue."
-        },
-        "keywords": "rampe di carico mobili, piattaforme di carico, rampe mobili di media altezza, rampe di asse anteriore in Europa, ponte elevatore elettroidraulico, rampe di carico per carrelli elevatori, elettrico, idraulico",
-        "product_list_view_title": "Rampe di carico mobili, idrauliche, elettriche, 20 tonnellate",
-        "description": "Rampe di carico mobili, piattaforme di carico e soluzioni di rampa in Europa: Elettriche, idrauliche e flessibili, alti livelli di scorte e consegne continue",
-        "canonical_link_href": "https://rampas-carga-moviles.es",
-        "og:url": "https://rampas-carga-moviles.es",
-        "og:title": "Rampe di carico mobili e statiche in Europa: Scopri la nostra vasta selezione! Oltre 500 rampe di carico di alta qualità disponibili immediatamente",
-        "og:description": "Acquista una rampa di carico mobile (rampa di sollevamento mobile) dal produttore AZ Machinery per tutta Europa. Il più grande produttore in Europa con carichi da 6 a 30 tonnellate. Ampia scelta di rampe di carico. Pronto per l'ordine. Garanzia di qualità. Norma CE. Consegne in tutta Europa.",
-        "og:sitename": "Rampe di carico mobili AZ Machinery Europa | Attrezzature di stoccaggio",
+        "keywords": "rampe di carico per container, rampe di carico per carrelli elevatori, rampe di carico per transpallet, rampe di carico mobili, rampe di accesso mobili, attrezzature di carico",
+        "product_list_view_title": "Produttore di rampe di carico mobili per container e carrelli elevatori",
+        "description": "Produciamo robuste rampe di carico per container, carrelli elevatori e transpallet. Le nostre rampe mobili garantiscono un carico/scarico efficiente. Disponibili in grandi quantità, direttamente a magazzino.",
+        "og:title": "Produttore di rampe di carico mobili per container e carrelli elevatori",
+        "og:description": "Produciamo robuste rampe di carico per container, carrelli elevatori e transpallet. Le nostre rampe mobili garantiscono un carico/scarico efficiente. Disponibili in grandi quantità, direttamente a magazzino.",
         "article:section": "Rampe di carico",
         "article:author": "AZ Machinery",
         "article:tag1": "Rampa di carico mobile",
         "article:tag2": "Rampa mobile per camion",
         "article:tag3": "Rampa di sollevamento mobile",
         "article:tag4": "Rampa di carico",
-        "twitter:title": "Rampe di carico mobili e statiche in Europa: Scopri la nostra vasta selezione! Oltre 500 rampe di carico di alta qualità disponibili immediatamente",
-        "twitter:description": "Acquista una rampa di carico mobile (rampa di sollevamento mobile) dal produttore AZ Machinery per tutta Europa. Il più grande produttore in Europa con carichi da 6 a 30 tonnellate. Ampia scelta di rampe di carico. Pronto per l'ordine. Garanzia di qualità. Norma CE. Consegne in tutta Europa.",
-        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg",
-        "twitter:domain": "https://rampas-carga-moviles.es"
+        "twitter:title": "Produttore di rampe di carico mobili per container e carrelli elevatori",
+        "twitter:description": "Produciamo robuste rampe di carico per container, carrelli elevatori e transpallet. Le nostre rampe mobili garantiscono un carico/scarico efficiente. Disponibili in grandi quantità, direttamente a magazzino.",
+        "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg"
     },
     "lang": {
         "de": "Tedesco",
@@ -88,7 +76,7 @@
         "se": "Svedese"
     },
     "header": {
-        "title": "Rampe di carico mobili: Grande stock, consegna veloce - AZ Machinery",
+        "title": "Produttore di rampe di carico mobili per container e carrelli elevatori",
         "home": "Home",
         "about": "Informazioni su di noi",
         "contact": "Contatti",
