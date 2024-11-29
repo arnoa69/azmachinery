@@ -1,13 +1,12 @@
 <script setup>
 import { ref } from 'vue';
-import { Link, router } from '@inertiajs/vue3';
 import Layout1 from '@/Layouts/Layout1.vue';
 import { useI18n } from "vue-i18n";
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const metaKeywords = ref(t("meta.keywords"));
 const metaDescription = ref(t("meta.description"));
-const url = ref( window.location.origin );
+const url = ref( window.location.origin + '/' + locale.value);
 const ogTitle = ref(t("meta.og:title"));
 const ogDescription = ref(t("meta.og:description"));
 const ogSitename = ref(t("meta.og:sitename"));
