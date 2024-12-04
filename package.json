@@ -25,7 +25,7 @@
         "@intlify/unplugin-vue-i18n": "^4.0.0",
         "@popperjs/core": "^2.11.8",
         "bootstrap": "^5.3.3",
-        "posthog-js": "^1.186.1",
+        "posthog-js": "^1.194.3",
         "vue-i18n": "^9.13.1"
     }
 }
