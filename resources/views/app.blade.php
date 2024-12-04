@@ -30,7 +30,7 @@
         <link rel="manifest" href="/img/site.webmanifest" />
 
         <!-- Scripts -->
-        <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="cm45i90e50iehsvbm925x79ow"></script>
+        {{-- <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="cm45i90e50iehsvbm925x79ow"></script> --}}
 
         @routes
         @vite([
