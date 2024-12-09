@@ -6,9 +6,9 @@ import { usePage } from "@inertiajs/vue3";
 import { useI18n } from 'vue-i18n';
 import { getCountryName } from '@/utils/localizedSlugMixin';
 import { getProductImages } from '@/utils/imageUtil';
-import getOptionsFromSlug from '@/utils/urlHelper';
+import { getOptionsFromSlug } from '@/utils/urlHelper';
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 const canonicalUrl = ref('');
 canonicalUrl.value = window.location.origin + window.location.pathname;
 const url = ref(window.location.origin);
@@ -20,10 +20,14 @@ const articleTag2 = ref(t("meta.article:tag2"));
 const articleTag3 = ref(t("meta.article:tag3"));
 const articleTag4 = ref(t("meta.article:tag4"));
 
-const options = getOptionsFromSlug(props.product.slug);
+
 
 const { props } = usePage();
 const product = ref(props.product);
+
+const options = getOptionsFromSlug(props.product.slug, locale.value);
+ console.log('h ', options)
+
 
 /* reuse function for correct image path */
 const isGalvanized = (slug) => {
@@ -113,7 +117,7 @@ const alternateLinks = generateAlternateLinks();
 
 <template>
     <Head>
-        <title> {{ $t('meta.product_detail_view.title.01', {tonnes: product.weight_capacity, country: productInfo[0].country }) }} </title>
+        <title> {{ $t('meta.product_detail_view.title.01', {tonnes: product.weight_capacity, country: productInfo[0].country, option1: options[0], option2: options[1] }) }} </title>
         <link rel="canonical" :href="canonicalUrl" />
         <template v-for="link in alternateLinks" :key="link.url">
             <link rel="alternate" :href="link.url" :hreflang="link.hreflang" />

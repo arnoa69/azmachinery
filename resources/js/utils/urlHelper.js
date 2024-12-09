@@ -290,7 +290,7 @@ function generateUrl(slug, version, type, locale, pdf=false) {
     return path;
 }
 
-function getOptionsFromSlug(slug, locale) {
+export function getOptionsFromSlug(slug, locale) {
     const parts = slug.split('-');
     const options = parts.slice(5);
     const keywords = [];
@@ -300,7 +300,7 @@ function getOptionsFromSlug(slug, locale) {
             keywords.push(validOptions[locale][option]);
         }
     });
-    return options;
+    return keywords;
 }
 
 export default generateUrl;
