@@ -6,6 +6,7 @@ import { usePage } from "@inertiajs/vue3";
 import { useI18n } from 'vue-i18n';
 import { getCountryName } from '@/utils/localizedSlugMixin';
 import { getProductImages } from '@/utils/imageUtil';
+import getOptionsFromSlug from '@/utils/urlHelper';
 
 const { t } = useI18n();
 const canonicalUrl = ref('');
@@ -19,6 +20,7 @@ const articleTag2 = ref(t("meta.article:tag2"));
 const articleTag3 = ref(t("meta.article:tag3"));
 const articleTag4 = ref(t("meta.article:tag4"));
 
+const options = getOptionsFromSlug(props.product.slug);
 
 const { props } = usePage();
 const product = ref(props.product);

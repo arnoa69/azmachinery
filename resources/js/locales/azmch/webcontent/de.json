@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Produzent von Mobilen Laderampen für Container & Gabelstapler",
+        "title": "Produzent Mobiler Verladerampen für LKW, Container, Gabelstapler",
         "product_detail_view": {
             "title": {
-                "01": "Mobile Laderampen - { tonnes }t Tragkraft mit Optionen - Exklusiver Hersteller für {country}"
+                "01": "Mobile Laderampe { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {
@@ -13,7 +13,7 @@
                     "lloxl": "Breitrampen, Längere Überfahrplatte, Gabelstapler, Ladungssicherheit,"
                 },
                 "tonnes": "Tragfähigkeit {tonnes} Tonnen,",
-                "keyword_chain": "mobile verladerampe mieten, gabelstapler laderampe, hubwagen laderampe, container laderampe, auffahrrampen für container, elektrostapler",
+                "keyword_chain": "mobile verladerampe, mobile verladeplattform, mobile lkw laderampe, container verladerampe, lkw verladerampe",
                 "buy_and_rent": "Kauf und Vermietung von Laderampen"
             },
             "countries": {
@@ -37,17 +37,17 @@
             }
         },
         "product_list": {
-            "keywords": "laderampe container, gabelstapler verladerampen, hubwagen laderampe, mobile verladerampen, mobile auffahrrampen, verladeeinrichtigungen",
+            "keywords": "mobile verladerampe, mobile verladeplattform, mobile lkw laderampe, container verladerampe, lkw verladerampe",
             "description": "Unsere robusten Laderampen für Container, Gabelstapler-Verladerampen und Hubwagen-Laderampen sind ideal für effizientes Be- und Entladen. Als Produzent bieten wir mobile Verladerampen, Auffahrrampen und weitere Verladeeinrichtungen in hoher Stückzahl direkt ab Lager an.",
             "og:title": "Mobile Verladerampen, Individuelle  und Rampensysteme in Europa: Elektrisch, hydraulisch und flexibel, hohe Bestände und kontinuierliche Lieferungen"
         },
         "category_list_mobile": {
-            "keywords": "laderampe container, gabelstapler verladerampen, hubwagen laderampe, mobile verladerampen, mobile auffahrrampen, verladeeinrichtigungen",
+            "keywords": "mobile verladerampe, mobile verladeplattform, mobile lkw laderampe, container verladerampe, lkw verladerampe",
             "description": "Unsere robusten Laderampen für Container, Gabelstapler-Verladerampen und Hubwagen-Laderampen sind ideal für effizientes Be- und Entladen. Als Produzent bieten wir mobile Verladerampen, Auffahrrampen und weitere Verladeeinrichtungen in hoher Stückzahl direkt ab Lager an."
         },
-        "keywords": "laderampe container, gabelstapler verladerampen, hubwagen laderampe, mobile verladerampen, mobile auffahrrampen, verladeeinrichtigungen",
-        "product_list_view_title": "Produzent von Mobilen Laderampen für Container & Gabelstapler",
-        "description": "Unsere robusten Laderampen für Container, Gabelstapler-Verladerampen und Hubwagen-Laderampen sind ideal für effizientes Be- und Entladen. Als Produzent bieten wir mobile Verladerampen, Auffahrrampen und weitere Verladeeinrichtungen in hoher Stückzahl direkt ab Lager an.",
+        "keywords": "mobile verladerampe, mobile verladeplattform, mobile lkw laderampe, container verladerampe, lkw verladerampe",
+        "product_list_view_title": "Mobile Laderampen für Gabelstapler, Container und LKW",
+        "description": "Unsere robusten Laderampen für Container, Gabelstapler-Verladerampen und Hubwagen-Laderampen sind ideal für effizientes Be- und Entladen. Als Produzent bieten wir mobile Verladerampen, Container Auffahrrampen und weitere Verladeeinrichtungen in hoher Stückzahl direkt ab Lager an.",
         "og:title": "Laderampen für Container & Gabelstapler - Mobile Verladerampen",
         "og:description": "Unsere robusten Laderampen für Container, Gabelstapler-Verladerampen und Hubwagen-Laderampen sind ideal für effizientes Be- und Entladen. Als Produzent bieten wir mobile Verladerampen, Auffahrrampen und weitere Verladeeinrichtungen in hoher Stückzahl direkt ab Lager an.",
         "og:sitename": "Mobile Ladeflächen AZ Machinery Europa | Lagertechnik",
