@@ -31,7 +31,7 @@
 
 ?>
 <head>
-    <title>{{ __('product.ldt') }} {{ __('product.switzerland') }} {{ $product->name }} {{ __('product.technical_sheet') }} </title>
+    <title>{{ __('product.mobile_ramp') }} {{ $product->name }} {{ __('product.technical_sheet') }} {{ __('product.ldt') }}</title>
     <meta charset="UTF-8">
     <meta name="description" content="{{ __('product.' . $product->slug . '.product_description') }}">
     <link rel="canonical" href="{{ url(app()->getLocale() . '/pdf' . App\Helpers\UrlHelper::generatePdfUrl($product->slug, $product->type, $product->version, app()->getLocale())) }}">

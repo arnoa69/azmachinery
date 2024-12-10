@@ -26,8 +26,6 @@ const { props } = usePage();
 const product = ref(props.product);
 
 const options = getOptionsFromSlug(props.product.slug, locale.value);
- console.log('h ', options)
-
 
 /* reuse function for correct image path */
 const isGalvanized = (slug) => {

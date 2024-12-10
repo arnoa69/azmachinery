@@ -58,21 +58,180 @@ const formatProductName = (name) => {
 };
 
 // turn shortcuts into words
-const formatProductNameLarge = (name) => {
+const formatProductNameLarge = (name, locale) => {
     const replacements = {
-        '-LLO': ' Long level off ',
-        '-XL': ' Extra large',
-        '-STANDARD': ' Standard',
-        '-LLOXL': ' Long level off extra large',
-        '-.': ' ',
-        '-TB': ' + Cover',
-        '-ZR': ' + Security zone',
-        '-FF': ' + Fork slider',
-        '-RL': ' + Guardrails',
-        '-E': ' + Electric',
-        '-GAL': ' + Galvanized'
-    }
-    return name.replace(/-LLO|-XL|-STANDARD|-LLOXL|-\.|\.|-TB|-ZR|-FF|-RL|-E|-GAL/g, (match) => replacements[match] || '')
+        de: {
+            '-LLO': ' Langes Niveau ',
+            '-XL': ' Extra groß',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Langes Niveau extra groß',
+            '-.': ' ',
+            '-TB': ' + Abdeckung',
+            '-ZR': ' + Sicherheitszone',
+            '-FF': ' + Gabelschlitten',
+            '-RL': ' + Geländer',
+            '-E': ' + Elektrisch',
+            '-GAL': ' + Verzinkt'
+        },
+        en: {
+            '-LLO': ' Long level off ',
+            '-XL': ' Extra large',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Long level off extra large',
+            '-.': ' ',
+            '-TB': ' + Cover',
+            '-ZR': ' + Security zone',
+            '-FF': ' + Fork slider',
+            '-RL': ' + Guardrails',
+            '-E': ' + Electric',
+            '-GAL': ' + Galvanized'
+        },
+        fr: {
+            '-LLO': ' Niveau long ',
+            '-XL': ' Très grand',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Niveau long très grand',
+            '-.': ' ',
+            '-TB': ' + Couverture',
+            '-ZR': ' + Zone de sécurité',
+            '-FF': ' + Glissière de fourche',
+            '-RL': ' + Garde-corps',
+            '-E': ' + Électrique',
+            '-GAL': ' + Galvanisé'
+        },
+        it: {
+            '-LLO': ' Livello lungo ',
+            '-XL': ' Extra large',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Livello lungo extra large',
+            '-.': ' ',
+            '-TB': ' + Copertura',
+            '-ZR': ' + Zona di sicurezza',
+            '-FF': ' + Scivolo per forche',
+            '-RL': ' + Parapetti',
+            '-E': ' + Elettrico',
+            '-GAL': ' + Zincato'
+        },
+        pt: {
+            '-LLO': ' Nível longo ',
+            '-XL': ' Extra grande',
+            '-STANDARD': ' Padrão',
+            '-LLOXL': ' Nível longo extra grande',
+            '-.': ' ',
+            '-TB': ' + Capa',
+            '-ZR': ' + Zona de segurança',
+            '-FF': ' + Deslizamento de garfo',
+            '-RL': ' + Guarda-corpos',
+            '-E': ' + Elétrico',
+            '-GAL': ' + Galvanizado'
+        },
+        es: {
+            '-LLO': ' Nivel largo ',
+            '-XL': ' Extra grande',
+            '-STANDARD': ' Estándar',
+            '-LLOXL': ' Nivel largo extra grande',
+            '-.': ' ',
+            '-TB': ' + Cubierta',
+            '-ZR': ' + Zona de seguridad',
+            '-FF': ' + Deslizador de horquilla',
+            '-RL': ' + Barandillas',
+            '-E': ' + Eléctrico',
+            '-GAL': ' + Galvanizado'
+        },
+        dk: {
+            '-LLO': ' Langt niveau ',
+            '-XL': ' Ekstra stor',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Langt niveau ekstra stor',
+            '-.': ' ',
+            '-TB': ' + Dækning',
+            '-ZR': ' + Sikkerhedsområde',
+            '-FF': ' + Gaffelslider',
+            '-RL': ' + Gelændere',
+            '-E': ' + Elektrisk',
+            '-GAL': ' + Galvaniseret'
+        },
+        et: {
+            '-LLO': ' Pikk tase ',
+            '-XL': ' Ekstra suur',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Pikk tase ekstra suur',
+            '-.': ' ',
+            '-TB': ' + Kate',
+            '-ZR': ' + Turvazone',
+            '-FF': ' + Kahvli libisemine',
+            '-RL': ' + Piirded',
+            '-E': ' + Elektriline',
+            '-GAL': ' + Galvaniseeritud'
+        },
+        fi: {
+            '-LLO': ' Pitkä taso ',
+            '-XL': ' Erityisen suuri',
+            '-STANDARD': ' Vakio',
+            '-LLOXL': ' Pitkä taso erityisen suuri',
+            '-.': ' ',
+            '-TB': ' + Peite',
+            '-ZR': ' + Turvavyöhyke',
+            '-FF': ' + Haarukkaliukus',
+            '-RL': ' + Kaiteet',
+            '-E': ' + Sähköinen',
+            '-GAL': ' + Galvanoitu'
+        },
+        lb: {
+            '-LLO': ' Längt Niveau ',
+            '-XL': ' Extra grouss',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Längt Niveau extra grouss',
+            '-.': ' ',
+            '-TB': ' + Deckung',
+            '-ZR': ' + Sécherheitszonen',
+            '-FF': ' + Gabelschlëff',
+            '-RL': ' + Gelänner',
+            '-E': ' + Elektronesch',
+            '-GAL': ' + Galvanisé'
+        },
+        nl: {
+            '-LLO': ' Lange niveau ',
+            '-XL': ' Extra groot',
+            '-STANDARD': ' Standaard',
+            '-LLOXL': ' Lange niveau extra groot',
+            '-.': ' ',
+            '-TB': ' + Bedekking',
+            '-ZR': ' + Beveiligingszone',
+            '-FF': ' + Vorkslider',
+            '-RL': ' + Leuningen',
+            '-E': ' + Elektrisch',
+            '-GAL': ' + Gegalvaniseerd'
+        },
+        no: {
+            '-LLO': ' Langt nivå ',
+            '-XL': ' Ekstra stor',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Langt nivå ekstra stor',
+            '-.': ' ',
+            '-TB': ' + Dekning',
+            '-ZR': ' + Sikkerhetssone',
+            '-FF': ' + Gaffelskyv',
+            '-RL': ' + Gelender',
+            '-E': ' + Elektrisk',
+            '-GAL': ' + Galvanisert'
+        },
+        se: {
+            '-LLO': ' Lång nivå ',
+            '-XL': ' Extra stor',
+            '-STANDARD': ' Standard',
+            '-LLOXL': ' Lång nivå extra stor',
+            '-.': ' ',
+            '-TB': ' + Täckning',
+            '-ZR': ' + Säkerhetszon',
+            '-FF': ' + Gaffelslider',
+            '-RL': ' + Räcken',
+            '-E': ' + Elektrisk',
+            '-GAL': ' + Galvaniserad'
+        }
+    };
+    const localeReplacements = replacements[locale] || replacements.en; // Default to English if locale not found
+    return name.replace(/-LLO|-XL|-STANDARD|-LLOXL|-\.|\.|-TB|-ZR|-FF|-RL|-E|-GAL/g, (match) => localeReplacements[match] || '');
 }
 
 const goBack = () => {
@@ -246,11 +405,11 @@ onMounted(() => {
                     <div class="content ps-lg-4 d-flex flex-column justify-content-center">
                         <div class="row">
                             <div class="col-lg-6 d-none d-md-block"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
-                                <h1 class="product-title">{{ formatProductNameLarge(product.name) }}</h1>
+                                <h1 class="product-title">{{ $t('meta.article:tag1') }} {{ formatProductNameLarge(product.name, locale) }}</h1>
                                 <div class="product-stats mt-1">
                                     <span class="rating">
                                         <i class="bi bi-star-fill" style="color: #DA913C;"></i>
-                                        4.9
+                                       4.9
                                     </span>
                                     <span class="reviews">58+ {{ $t('products.reviews') }} • </span>
                                     <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span

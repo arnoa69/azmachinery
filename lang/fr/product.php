@@ -63,7 +63,7 @@ return [
     'switzerland' => 'Suisse',
     'technical_sheet' => 'Fiche technique',
     'fix_ramp' => 'Rampe fixe',
-    'mobile_ramp' => 'Rampe mobile',
+    'mobile_ramp' => 'Rampe mobile de chargement',
     'platform' => 'Plateforme de chargement',
     'feature' => array (
   '_1' => 'Élévation électrique des becs d\'entrée et de sortie basculants (Triphasé 380V-50Hz)',
