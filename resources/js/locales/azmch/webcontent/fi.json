@@ -3,7 +3,7 @@
         "title": "Konttien ja trukkien lastausrampit - Siirrettävät lastausrampit",
         "product_detail_view": {
             "title": {
-                "01": "Mobiililatausrampit - { tonnes }t kantavuusvaihtoehtojen kanssa - Erityistuottaja maalle {country}"
+                "01": "Mobiililatausrampit { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {

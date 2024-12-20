@@ -3,7 +3,7 @@
         "title": "Tillverkare av Lastramper för containrar och gaffeltruckar",
         "product_detail_view": {
             "title": {
-                "01": "Mobila lastbryggor - { tonnes }t kapacitet med alternativ - Exklusiv producent för {country}"
+                "01": "Mobila lastbryggor { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {

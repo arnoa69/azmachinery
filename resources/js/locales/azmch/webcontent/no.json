@@ -3,7 +3,7 @@
         "title": "Produsent av Mobile Lasteramper for containere & trucker",
         "product_detail_view": {
             "title": {
-                "01": "Mobile lasteramper - { tonnes }t kapasitet med alternativer - Eksklusiv produsent for {country}"
+                "01": "Mobile lasteramper { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {

@@ -3,7 +3,7 @@
         "title": "Mobiilsed laadimisrambid tootja konteineritele ja kahveltõstukitele",
         "product_detail_view": {
             "title": {
-                "01": "Mobiilsed laadimisrampid - { tonnes }t koormamääraga valikutega - Eksklusiivne tootja {country} jaoks"
+                "01": "Mobiilsed laadimisrampid { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {

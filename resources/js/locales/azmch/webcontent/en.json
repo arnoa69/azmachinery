@@ -3,7 +3,7 @@
         "title": "Manufacturer of Mobile Loading Ramps for Containers & Forklifts",
         "product_detail_view": {
             "title": {
-                "01": "Mobile Loading Ramps - { tonnes }t weight capacity with options - Excluive Producer for {country}"
+                "01": "Mobile Loading Ramp { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {
@@ -58,7 +58,7 @@
         "article:tag3": "Mobile lift ramp",
         "article:tag4": "Loading ramp",
         "twitter:title": "Manufacturer of Mobile Loading Ramps for Containers & Forklifts",
-        "twitter:description": "We are a manufacturer offering robust loading ramps for containers, forklifts, and pallet trucks.  Our mobile ramps and loading equipment ensure efficient loading/unloading. Available in large quantities, direct from stock.",
+        "twitter:description": "We are a manufacturer offering robust loading ramps for containers, forklifts, and pallet trucks. Our mobile ramps and loading equipment ensure efficient loading/unloading. Available in large quantities, direct from stock.",
         "twitter:image": "/img/mobile-loading-ramps-germany-france.jpg"
     },
     "lang": {

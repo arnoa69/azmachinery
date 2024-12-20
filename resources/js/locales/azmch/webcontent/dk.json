@@ -3,7 +3,7 @@
         "title": "Producent af mobile lasteramper til containere & gaffeltrucks",
         "product_detail_view": {
             "title": {
-                "01": "Mobile ramper - { tonnes }t vægtkapacitet med muligheder - Eksklusiv producent for {country}"
+                "01": "Mobile ramper { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {

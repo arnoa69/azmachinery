@@ -52,6 +52,7 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
+        {{-- <iframe height="430" width="350" src="https://bot.dialogflow.com/b6f946f8-8d9e-44c1-a415-557fe9271adf"></iframe> --}}
         <script src="{{ asset('vendor/aos/aos.js') }}"></script>
         <script src="{{ asset('vendor/purecounter/purecounter_vanilla.js') }}"></script>
         <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>

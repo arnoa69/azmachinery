@@ -121,12 +121,12 @@ const alternateLinks = generateAlternateLinks();
             <link rel="alternate" :href="link.url" :hreflang="link.hreflang" />
         </template>
         <meta name="keywords" :content="productInfo[1].dynamic_keywords" />
-        <meta name="description" :content="$t(`${product.slug}.product_description`)" />
+        <meta name="description" :content="`${$t('meta.product_detail_view.title.01', {tonnes: product.weight_capacity, country: productInfo[0].country, option1: options[0], option2: options[1] })} ${$t('meta.title')} AZ-Machinery`" />
         <meta property="og:url" :content="canonicalUrl" />
         <meta property="og:title"
             :content="`${productInfo[2].country} ${productInfo[0].brand_name} ${productInfo[2].type} ${productInfo[0].operation}`" />
-        <meta property="og:description"
-            :content="$t(`${product.slug}.product_description`)" />
+        <meta property="og:description" :content="`${$t('meta.product_detail_view.title.01', {tonnes: product.weight_capacity, country: productInfo[0].country, option1: options[0], option2: options[1] })} ${$t('meta.title')} AZ-Machinery`" />
+
         <meta property="og:type" content="product" />
         <meta property="og:image" :content="`${url}${image}`" />
         <meta property="og:image:width" content="350" />
@@ -149,8 +149,7 @@ const alternateLinks = generateAlternateLinks();
         <meta property="twitter:url" :content="canonicalUrl" />
         <meta property="twitter:title"
             :content="`${productInfo[1].dynamic_keywords}`" />
-        <meta property="twitter:description"
-            :content="t(`${product.slug}.product_description`)" />
+        <meta property="twitter:description" :content="`${$t('meta.product_detail_view.title.01', {tonnes: product.weight_capacity, country: productInfo[0].country, option1: options[0], option2: options[1] })} ${$t('meta.title')} AZ-Machinery`" />
         <meta property="twitter:image" :content="`${url}${image}`" />
         <meta property="twitter:domain" :content="url" />
         <meta property="twitter:card" content="Summary Card" />

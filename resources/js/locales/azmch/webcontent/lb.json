@@ -3,7 +3,7 @@
         "title": "Fabrikant vun Mobil Luedrampen fir Containeren & Forklifter",
         "product_detail_view": {
             "title": {
-                "01": "Mobil Luedrampen - { tonnes }t Tragkraft mat Optiounen - Exklusiven Hersteller fir {country}"
+                "01": "Mobil Luedrampen { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {

@@ -3,7 +3,7 @@
         "title": "Produttore di rampe di carico mobili per container e carrelli elevatori",
         "product_detail_view": {
             "title": {
-                "01": "Rampe di carico mobili - Capacità di carico di { tonnes }t con opzioni - Produttore esclusivo per {country}"
+                "01": "Rampe di carico mobili { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {

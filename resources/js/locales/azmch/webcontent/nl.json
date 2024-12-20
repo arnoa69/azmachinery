@@ -3,7 +3,7 @@
         "title": "Fabrikant van Mobiele laadbruggen en laadkades voor containers & heftrucks",
         "product_detail_view": {
             "title": {
-                "01": "Mobiele laadrampen - { tonnes }t draagvermogen met opties - Exclusieve producent voor {country}"
+                "01": "Mobiele laadrampen { tonnes }t {option1} {option2} {country}"
             },
             "keywords": {
                 "type": {
