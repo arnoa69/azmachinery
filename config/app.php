@@ -123,7 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'available_locales' => ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'],
+    'available_locales' => explode(',', env('APP_AVAILABLE_LOCALES', 'de,dk,et,en,es,fi,fr,it,lb,nl,no,pt,se')),
 
     'country' => env('VITE_APP_COUNTRY', 'azmbe'),
 

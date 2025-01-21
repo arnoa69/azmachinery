@@ -4,7 +4,9 @@ import { useI18n } from 'vue-i18n';
 import { usePage, router } from '@inertiajs/vue3';
 import axios from 'axios';
 
-const { availableLocales, locale, t } = useI18n();
+const { locale, t } = useI18n();
+const availableLocales = import.meta.env.VITE_AVAILABLE_LOCALES.split(',').map(locale => locale.trim());
+console.log(availableLocales);
 const page = usePage();
 const currentLocale = ref(locale.value);
 const product = page.props.product;
