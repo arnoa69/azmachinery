@@ -563,59 +563,61 @@
         </div>
     </div>
     <div id="price-options" class="position-zero">
-        <div class="price-box">
-            <h3>{{ __('product.pricelist') }}</h3>
-            <span class="without-tax-info">{{ __('product.price_without_tax') }}</span>
-            <span class="off-stock-info off-stock-grey">{{ __('product.ready_to_order') }}</span>
-            <table id="price-table">
-                <thead>
-                    <tr>
-                        <th>{{ __('product.tonnes') }}</th>
-                        <th>{{ __('product.standard') }}</th>
-                        <th>LLO</th>
-                        <th>XL</th>
-                        <th>LLO XL</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>8t</td>
-                        <td class="">12 950 € S.I.</td>
-                        <td class="">15 250 € S.I.</td>
-                        <td class="off-stock-grey">18 550 € S.I.</td>
-                        <td class="off-stock-grey">20 750 € S.I.</td>
-                    </tr>
-                    <tr>
-                        <td>10t</td>
-                        <td class="">13 450 € S.I.</td>
-                        <td class="">15 750 € S.I.</td>
-                        <td class="off-stock-grey">18 950 € S.I.</td>
-                        <td class="off-stock-grey">21 250 € S.I.</td>
-                    </tr>
-                    <tr>
-                        <td class="">12t</td>
-                        <td class="">14 250 € S.I.</td>
-                        <td class="">16 950 € S.I.</td>
-                        <td class="off-stock-grey">19 950 € S.I.</td>
-                        <td class="off-stock-grey">22 050 € S.I.</td>
-                    </tr>
-                    <tr>
-                        <td>15t</td>
-                        <td>15 250 € S.I.</td>
-                        <td>17 950 € S.I.</td>
-                        <td class="off-stock-grey">20 450 € S.I.</td>
-                        <td class="off-stock-grey">23 050 € S.I.</td>
-                    </tr>
-                    <tr>
-                        <td>20t</td>
-                        <td class="off-stock-grey">16 950 € S.I.</td>
-                        <td class="off-stock-grey">19 750 € S.I.</td>
-                        <td class="off-stock-grey">20 450 € S.I.</td>
-                        <td class="off-stock-grey">24 750 € S.I.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        @if($product->base_name === 'star')
+            <div class="price-box">
+                <h3>{{ __('product.pricelist') }}</h3>
+                <span class="without-tax-info">{{ __('product.price_without_tax') }}</span>
+                <span class="off-stock-info off-stock-grey">{{ __('product.ready_to_order') }}</span>
+                <table id="price-table">
+                    <thead>
+                        <tr>
+                            <th>{{ __('product.tonnes') }}</th>
+                            <th>{{ __('product.standard') }}</th>
+                            <th>LLO</th>
+                            <th>XL</th>
+                            <th>LLO XL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8t</td>
+                            <td class="">12 950 € S.I.</td>
+                            <td class="">15 250 € S.I.</td>
+                            <td class="off-stock-grey">18 550 € S.I.</td>
+                            <td class="off-stock-grey">20 750 € S.I.</td>
+                        </tr>
+                        <tr>
+                            <td>10t</td>
+                            <td class="">13 450 € S.I.</td>
+                            <td class="">15 750 € S.I.</td>
+                            <td class="off-stock-grey">18 950 € S.I.</td>
+                            <td class="off-stock-grey">21 250 € S.I.</td>
+                        </tr>
+                        <tr>
+                            <td class="">12t</td>
+                            <td class="">14 250 € S.I.</td>
+                            <td class="">16 950 € S.I.</td>
+                            <td class="off-stock-grey">19 950 € S.I.</td>
+                            <td class="off-stock-grey">22 050 € S.I.</td>
+                        </tr>
+                        <tr>
+                            <td>15t</td>
+                            <td>15 250 € S.I.</td>
+                            <td>17 950 € S.I.</td>
+                            <td class="off-stock-grey">20 450 € S.I.</td>
+                            <td class="off-stock-grey">23 050 € S.I.</td>
+                        </tr>
+                        <tr>
+                            <td>20t</td>
+                            <td class="off-stock-grey">16 950 € S.I.</td>
+                            <td class="off-stock-grey">19 750 € S.I.</td>
+                            <td class="off-stock-grey">20 450 € S.I.</td>
+                            <td class="off-stock-grey">24 750 € S.I.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        @endif
         <div class="options-box">
             <h3>{{ __('product.optional.title') }}</h3>
             <table id="option-price-table">
@@ -667,7 +669,7 @@
         <div class="address">
             AZ Machinery {{ __('product.switzerland') }}<br />
             <span>+41 (0)61 518 14 88</span><br />
-            <span>kontakt@az-machinery.ch</span>
+            <span>contact@az-machinery.ch</span>
         </div>
     </div>
 </body>
