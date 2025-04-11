@@ -112,12 +112,12 @@ class GenerateSitemapCommand extends Command
             $content .= "</url>\n";
 
             // Generate URL for PDF
-            $pdfUrl = $domain . '/' . $locale . '/pdf' . UrlHelper::generateSitemapUrl($slug, $type, $version, $locale);
-            $content .= "<url>\n";
-            $content .= " <loc>$pdfUrl</loc>\n";
-            $content .= " <lastmod>$lastModified</lastmod>\n";
-            $content .= " <priority>$priority_64</priority>\n";
-            $content .= "</url>\n";
+            // $pdfUrl = $domain . '/' . $locale . '/pdf' . UrlHelper::generateSitemapUrl($slug, $type, $version, $locale);
+            // $content .= "<url>\n";
+            // $content .= " <loc>$pdfUrl</loc>\n";
+            // $content .= " <lastmod>$lastModified</lastmod>\n";
+            // $content .= " <priority>$priority_64</priority>\n";
+            // $content .= "</url>\n";
         }
 
         $content .= "</urlset>\n";
