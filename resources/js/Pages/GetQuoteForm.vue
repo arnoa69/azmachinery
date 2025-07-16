@@ -54,7 +54,7 @@ const backgroundStyle = ref({
 
                 <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
 
-                    <div class="col-lg-5 quote-bg" :style="backgroundStyle"></div>
+                    <div class="col-lg-5 quote-bg d-none d-md-block" :style="backgroundStyle"></div>
 
                     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
                         <form @submit.prevent="submitForm" method="post" class="php-email-form" data-aos="fade-up"

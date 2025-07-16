@@ -289,7 +289,7 @@
                     "company": "Firmenname",
                     "email": "Geben Sie Ihre E-Mail-Adresse ein",
                     "phone": "Geben Sie Ihre Telefonnummer ein",
-                    "message": "Nachricht"
+                    "message": "Modell der Rampe und Gewicht eingeben, z. B. \"STAR LLO, 8T mit Seitengeländer\""
                 }
             }
         }

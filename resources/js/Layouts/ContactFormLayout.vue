@@ -15,7 +15,7 @@ const backgroundStyle = ref({
     <!-- Page Title -->
     <div class="page-title dark-background" :style="backgroundStyle">
       <div class="container position-relative">
-        <h1>Contact Form</h1>
+        <h1>{{ $t("contact.title") }}</h1>
       </div>
     </div><!-- End Page Title -->
     <main id="main">
