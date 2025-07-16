@@ -7,14 +7,12 @@
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.14",
-        "@tailwindcss/forms": "^0.5.7",
-        "@tailwindcss/typography": "^0.5.10",
+
         "@vitejs/plugin-vue": "^5.0.0",
         "@vue/server-renderer": "^3.3.13",
         "autoprefixer": "^10.4.16",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
-        "postcss": "^8.4.32",
         "sass": "1.77.6",
         "sass-loader": "^16.0.3",
         "vite": "^5.2.8",
