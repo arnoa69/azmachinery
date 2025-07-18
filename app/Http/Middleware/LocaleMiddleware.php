@@ -13,40 +13,50 @@ class LocaleMiddleware
 {
     public function handle(Request $request, Closure $next)
     {
-        $availableLocales = ['de', 'dk', 'et', 'en', 'es', 'fi', 'fr', 'it', 'lb', 'nl', 'no', 'pt', 'se'];
+        $domain = $request->getHost();
+        $tld = substr(strrchr($domain, '.'), 1);
 
-        $uri = $request->getRequestUri();
+        // Mapping: TLD => erlaubte Sprachen
+        $tldLocales = [
+            'at' => ['de'],
+            'ch' => ['de', 'fr', 'it'],
+            'dk' => ['dk', 'no', 'se', 'fi'],
+            'it' => ['it'],
+            'nl' => ['nl'],
+            'pt' => ['pt'],
+            'uk' => ['en'],
+        ];
 
-        // Check if URI starts with '/pipedrive' and skip locale detection
-        if (strpos($uri, '/pipedrive') === 0 || strpos($uri, '/contact') === 0 || strpos($uri, '/client-request') === 0 || strpos($uri, '/chatgpt') === 0) {
-            return $next($request);
-        }
+        $defaultLocale = [
+            'at' => 'de',
+            'ch' => 'de',
+            'dk' => 'dk',
+            'it' => 'it',
+            'nl' => 'nl',
+            'pt' => 'pt',
+            'uk' => 'en',
+        ];
 
+        $allowedLocales = $tldLocales[$tld] ?? ['en'];
         $locale = $request->segment(1);
+        $isAllowed = in_array($locale, $allowedLocales);
+        $mainLocale = $defaultLocale[$tld] ?? 'en';
 
-        if (in_array($locale, $availableLocales)) {
-            App::setLocale($locale);
-            Session::put('locale', $locale);
-        } else {
-            $preferredLocale = Session::get('locale') ?: substr($request->server('HTTP_ACCEPT_LANGUAGE'), 0, 2);
-            $locale = in_array($preferredLocale, $availableLocales) ? $preferredLocale : 'en';
-
-            App::setLocale($locale);
-            Session::put('locale', $locale);
-
-            // Redirect to include the locale in the URL
-            return redirect("/$locale" . $request->getRequestUri());
+        // Wenn Sprache in der URL nicht erlaubt ist, redirect auf Hauptsprache
+        if (!$isAllowed) {
+            $newUri = $request->getRequestUri();
+            // Entferne evtl. vorhandene falsche Sprachsegmente
+            $segments = $request->segments();
+            if (count($segments) > 0 && strlen($segments[0]) == 2) {
+                array_shift($segments);
+            }
+            array_unshift($segments, $mainLocale);
+            $newUrl = '/' . implode('/', $segments);
+            return redirect($newUrl);
         }
 
-        // Check if the current route exists for the new locale
-        $segments = $request->segments();
-        $segments[0] = $locale;
-        $newUrl = implode('/', $segments);
-
-        if ($newUrl !== $request->getRequestUri() && !Route::has($request->route()->getName())) {
-            return redirect()->route('home', ['locale' => $locale]);
-        }
-
+        \App::setLocale($locale);
+        // Keine Browsersprache, keine Session!
         return $next($request);
     }
 }
