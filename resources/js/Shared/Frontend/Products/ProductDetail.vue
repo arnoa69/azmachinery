@@ -331,17 +331,6 @@ onMounted(() => {
             <div class="d-block d-md-none">
                 <div class="section-links flex-column">
                     <h1 class="product-title">{{ formatProductName(product.name) }}</h1>
-                    <div style="" class="product-stats-mobile">
-                        <span class="rating">
-                            <i class="bi bi-star-fill" style="color: #DA913C;"></i>
-                            4.9
-                        </span>
-                        <span class="reviews">58+ {{ $t('products.reviews') }} • </span>
-                        <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
-                                v-if="baseName === product.base_name">{{ count }}</span></span>
-                        <span>+ {{ $t('products.sold') }}</span>
-
-                    </div>
                     <button @click="goBack" class="btn-back mt-3">
                         <i class="bi bi-arrow-left-circle-fill"></i>
                         <span class="back-btn-label">{{ $t("products.back_button") }}</span>
@@ -403,16 +392,6 @@ onMounted(() => {
                         <div class="row">
                             <div class="col-lg-6 d-none d-md-block"> <!-- BEGIN OF RIGHT CONTNENT COLUMN -->
                                 <h1 class="product-title">{{ $t('meta.article:tag1') }} {{ formatProductNameLarge(product.name, locale) }}</h1>
-                                <div class="product-stats mt-1">
-                                    <span class="rating">
-                                        <i class="bi bi-star-fill" style="color: #DA913C;"></i>
-                                       4.9
-                                    </span>
-                                    <span class="reviews">58+ {{ $t('products.reviews') }} • </span>
-                                    <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
-                                            v-if="baseName === product.base_name">{{ count }}</span></span>
-                                    <span>+ {{ $t('products.sold') }} </span>
-                                </div>
                                 <div class="for-whom">
                                     <div class="d-none d-md-block">
                                         <div class="section-title mt-6">
