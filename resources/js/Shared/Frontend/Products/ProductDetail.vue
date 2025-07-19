@@ -355,10 +355,7 @@ onMounted(() => {
                     </button> -->
 
                     <div class="section-title mt-2">
-                        <a :href="`/products/${product.slug}/pdf`" class="pdf-download-link ml-2" target="_blank">
-                            {{ $t("products.product_data_sheet") }}
-                            <i class="bi bi-file-pdf-fill"></i>
-                        </a>
+
                         <!-- <h2>{{ $t("products.target_audience_title") }}</h2> -->
                         <p>{{ $t(`${product.slug}.product_description`) }}</p>
                         <div style="margin-top: 20px;">
@@ -415,11 +412,6 @@ onMounted(() => {
                                     <span class="sold" v-for="(count, baseName) in soldItems" :key="baseName"><span
                                             v-if="baseName === product.base_name">{{ count }}</span></span>
                                     <span>+ {{ $t('products.sold') }} </span>
-                                    <p>
-                                        <a :href="`/pdf${generateUrl(product.slug, product.version, product.type, locale, pdf=true)}`" target="_blank" class="pdf-download-link ml-2">
-                                            {{ $t("products.product_data_sheet") }} <i class="bi bi-file-pdf-fill"></i>
-                                        </a>
-                                    </p>
                                 </div>
                                 <div class="for-whom">
                                     <div class="d-none d-md-block">
